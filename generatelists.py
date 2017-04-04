@@ -3,6 +3,7 @@
 import os
 import sys
 import pprint
+import click
 
 from collections import namedtuple
 from multiprocessing import Process, JoinableQueue
@@ -159,7 +160,14 @@ def process_dependencies(arch_queue):
 
         arch_queue.task_done()
 
-def main():
+@click.command()
+@click.option('--os', default='Fedora',
+              help='What OS to process?')
+@click.option('--version', default=25,
+              help='What OS version to process?')
+@click.option('--milestone', default=None,
+              help='If processing a prerelease, which one?')
+def main(os, version, milestone):
     arch_queue = JoinableQueue()
 
     arches = ('x86_64', 'aarch64', 'i686', 'armv7hl', 'ppc64', 'ppc64le')
@@ -178,8 +186,8 @@ def main():
     for arch in arches:
         dc_ctx = DepchaseContext(arch=arch,
                                  os='Fedora',
-                                 version=26,
-                                 milestone='Alpha',
+                                 version=version,
+                                 milestone=milestone,
                                  hints=[],
                                  pkgfile='toplevel-binary-packages.txt',
                                  hintfile='hints.txt')
