@@ -28,6 +28,16 @@ You may wish to add this to your default PATH variable in `~/.bashrc` by doing:
 ```
 $ echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc
 ```
+## Preparing the override repositories
+In order for this tool to be able to take further updates into account, they
+must be loaded into a public repository under
+https://fedorapeople.org/groups/modularity/repos/fedora/gencore-override/
+in the format
+`https://fedorapeople.org/groups/modularity/repos/fedora/gencore-override/$VERSION/$ARCH`,
+where `$VERSION` is either the numeric value of the final release or else
+`test/$VERSION_$MILESTONE`, such as `test/26_Alpha`.
+
+A tool to help manage this will be forthcoming in this repository.
 
 ## How to run:
 Ensure that the contents of `toplevel-binary-packages.txt` and `hints.txt` in
