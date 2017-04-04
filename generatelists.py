@@ -162,7 +162,7 @@ def process_dependencies(arch_queue):
 def main():
     arch_queue = JoinableQueue()
 
-    arches = ('x86_64', 'aarch64')
+    arches = ('x86_64', 'aarch64', 'i686', 'armv7hl', 'ppc64', 'ppc64le')
 
     processes = []
     # Create parallel processes for each architecture,  up to the limit of
