@@ -116,7 +116,45 @@ def process_dependencies(arch_queue):
             pp.pprint(ambiguities)
 
         # Then do the self-hosted dependencies
+        binary_pkgs = {}
+        source_pkgs = {}
+        ambiguities = []
+        for fullpkgname in pkgnames:
+            (pkgname, pkgarch) = split_pkgname(fullpkgname, depchase_ctx.arch)
 
+            pkg = get_pkg_by_name(query, pkgname, pkgarch)
+
+            binary_pkgs = {}
+            source_pkgs = {}
+            ambiguities = []
+
+            recurse_self_host(pkg, depchase_ctx.arch,
+                              binary_pkgs, source_pkgs,
+                              ambiguities, query, hints, filters,
+                              whatreqs, False, False)
+
+            # Check for unresolved deps in the list that are present in the
+            # dependencies. This happens when one package has an ambiguous dep but
+            # another package has an explicit dep on the same package.
+            # This list comprehension just returns the set of dictionaries that
+            # are not resolved by other entries
+            # We only search the binary packages here. This is a reduction; no
+            # additional packages are discovered so we don't need to regenerate
+            # the source RPM list.
+            ambiguities = [x for x in ambiguities
+                           if not resolve_ambiguity(binary_pkgs, x)]
+
+        # Print the complete set of dependencies together
+        output_results(dependencies, srpms, arch,
+                       os.path.join(base_path, 'selfhosting-binary-packages-short.txt'),
+                       os.path.join(base_path, 'selfhosting-binary-packages-full.txt'),
+                       os.path.join(base_path, 'selfhosting-source-packages-short.txt'),
+                       os.path.join(base_path, 'selfhosting-source-packages-full.txt'))
+
+        if len(ambiguities) > 0:
+            print("=== Unresolved Requirements ===")
+            pp = pprint.PrettyPrinter(indent=4)
+            pp.pprint(ambiguities)
 
 
         arch_queue.task_done()
