@@ -3,7 +3,7 @@
 function usage ()
 {
     echo "USAGE:"
-    echo "recreate_srpm.sh ARCH SRPM"
+    echo "recreate_srpm.sh <ARCH> <SRPM>"
 }
 
 TARGET_ARCH=$1
