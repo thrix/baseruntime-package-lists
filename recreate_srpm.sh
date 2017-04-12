@@ -30,6 +30,11 @@ fi
 
 PKG=`basename $DIST_GIT_REPO`
 GIT_COMMIT=${PKG_AND_GIT[1]}
+if [ "x$GIT_COMMIT" = "x" ]; then
+    echo "Git commit not found"
+    exit 1
+fi
+
 
 echo "Generating $PKG SRPMs from commit $GIT_COMMIT"
 
