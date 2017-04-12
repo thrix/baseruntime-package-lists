@@ -3,37 +3,32 @@
 function usage ()
 {
     echo "USAGE:"
-    echo "recreate_srpm.sh <ARCH> <NVR>"
+    echo "recreate_srpm.sh <NVR>"
 }
 
-TARGET_ARCH=$1
-if [ x$TARGET_ARCH = "x" ]; then
-    echo "Missing arch"
+NVR=$1
+if [ "x$NVR" = "x" ]; then
+    echo "Missing NVR"
     usage
     exit 1
 fi
 
-NVR=$2
-if [ "x$NVR" = "x" ]; then
-    echo "Missing NVR"
-    usage
-    exit 2
-fi
-
 PKG_AND_GIT=($(koji buildinfo $NVR | \
-             awk '{ match($0, /\/(^:+):([a-f0-9]+)\)/, arr); \
+             awk '{ match($0, /\/([^:]+):([a-f0-9]+)\)/, arr); \
                   if(arr[1] != "") print arr[1]; \
                   if(arr[2] != "") print arr[2] }'))
+if [ $? -ne 0 ]; then
+    echo "Error getting buildinfo"
+    exit 1
+fi
 
 DIST_GIT_REPO=${PKG_AND_GIT[0]}
 PKG=`basename $DIST_GIT_REPO`
 GIT_COMMIT=${PKG_AND_GIT[1]}
 
-echo "Generating $PKG SRPM for $TARGET_ARCH from commit $GIT_COMMIT"
+echo "Generating $PKG SRPMs from commit $GIT_COMMIT"
 
-mkdir -p $TARGET_ARCH
-
-SRPM_DIR=`pwd`/$TARGET_ARCH
+OUTPUT_DIR=`pwd`
 WORKING_DIR=`mktemp -d`
 
 pushd $WORKING_DIR
@@ -43,9 +38,13 @@ pushd $PKG
 git reset --hard $GIT_COMMIT
 fedpkg sources
 
-rpmbuild -bs --build-in-place --target=$TARGET_ARCH \
-         --define "_sourcedir $WORKING_DIR/$PKG" \
-         --define "_srcrpmdir $SRPM_DIR" *.spec
+for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
+    mkdir -p $OUTPUT_DIR/$arch
+    rpmbuild -bs --build-in-place --target=$arch \
+             --define "_sourcedir $WORKING_DIR/$PKG" \
+             --define "_srcrpmdir $OUTPUT_DIR/$arch" *.spec
+done
+
 popd
 popd
 
