@@ -48,11 +48,17 @@ pushd $PKG
 git reset --hard $GIT_COMMIT
 fedpkg sources
 
+# Bump the version so it's guaranteed to sort higher
+rpmdev-bumpspec -s 0.override. \
+                -c "Regenerating SRPM for each architecture." \
+                -u "Base Runtime Team <devel@lists.fedoraproject.org>" \
+                $PKG.spec
+
 for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
     mkdir -p $OUTPUT_DIR/$arch
     rpmbuild -bs --build-in-place --target=$arch \
              --define "_sourcedir $WORKING_DIR/$PKG" \
-             --define "_srcrpmdir $OUTPUT_DIR/$arch" *.spec
+             --define "_srcrpmdir $OUTPUT_DIR/$arch" $PKG.spec
 done
 
 popd
