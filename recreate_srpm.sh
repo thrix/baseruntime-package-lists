@@ -23,6 +23,11 @@ if [ $? -ne 0 ]; then
 fi
 
 DIST_GIT_REPO=${PKG_AND_GIT[0]}
+if [ "x$DIST_GIT_REPO" = "x" ]; then
+    echo "Invalid NVR"
+    exit 1
+fi
+
 PKG=`basename $DIST_GIT_REPO`
 GIT_COMMIT=${PKG_AND_GIT[1]}
 
