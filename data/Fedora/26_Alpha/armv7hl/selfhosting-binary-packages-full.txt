@@ -4613,6 +4613,7 @@
 0:rubygem-i18n-0.7.0-4.fc26.noarch
 0:rubygem-introspection-0.0.4-2.fc26.noarch
 0:rubygem-io-console-0.4.6-78.fc26.armv7hl
+0:rubygem-jquery-rails-4.2.2-2.fc26.noarch
 0:rubygem-json-2.0.3-101.fc26.armv7hl
 0:rubygem-json_pure-1.8.1-5.fc26.noarch
 0:rubygem-kramdown-1.13.2-2.fc26.noarch
@@ -4689,6 +4690,8 @@
 0:rubygem-tilt-2.0.5-2.fc26.noarch
 0:rubygem-timecop-0.7.1-4.fc26.noarch
 0:rubygem-ttfunk-1.4.0-3.fc26.noarch
+0:rubygem-turbolinks-5.0.1-2.fc26.noarch
+0:rubygem-turbolinks-source-5.0.0-2.fc26.noarch
 0:rubygem-tzinfo-1.2.2-4.fc26.noarch
 0:rubygem-uglifier-3.0.2-3.fc26.noarch
 0:rubygem-websocket-driver-0.6.4-3.fc26.armv7hl

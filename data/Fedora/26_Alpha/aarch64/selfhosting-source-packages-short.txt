@@ -2761,6 +2761,7 @@ rubygem-hpricot
 rubygem-http_connection
 rubygem-i18n
 rubygem-introspection
+rubygem-jquery-rails
 rubygem-json
 rubygem-json_pure
 rubygem-kramdown
@@ -2834,6 +2835,8 @@ rubygem-thread_safe
 rubygem-tilt
 rubygem-timecop
 rubygem-ttfunk
+rubygem-turbolinks
+rubygem-turbolinks-source
 rubygem-tzinfo
 rubygem-uglifier
 rubygem-websocket-driver
