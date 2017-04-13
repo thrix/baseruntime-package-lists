@@ -142,7 +142,7 @@ def process_dependencies(arch_queue):
                        if not resolve_ambiguity(binary_pkgs, x)]
 
         # Print the complete set of dependencies together
-        output_results(dependencies, srpms, depchase_ctx.arch,
+        output_results(binary_pkgs, source_pkgs, depchase_ctx.arch,
                        os.path.join(base_path, 'selfhosting-binary-packages-short.txt'),
                        os.path.join(base_path, 'selfhosting-binary-packages-full.txt'),
                        os.path.join(base_path, 'selfhosting-source-packages-short.txt'),
