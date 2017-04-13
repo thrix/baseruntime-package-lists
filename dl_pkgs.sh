@@ -22,4 +22,8 @@ for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
     cat $nvrfile | xargs --max-procs=$PROCESSORS -I NVR \
         koji download-build --arch=noarch --arch=$arch NVR
     popd
+    pushd repo/$release/$arch/sources/
+    cat $nvrfile | xargs --max-procs=$PROCESSORS -I NVR \
+        koji download-build --arch=src NVR
+    popd
 done
