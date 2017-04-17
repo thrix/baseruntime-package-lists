@@ -9,6 +9,15 @@ This tool requires the following pre-requisites:
 * python3-click
 * depchase (See below)
 
+The user that will be operating on the override repositories must be a member
+of the `modularity-wg` group in the Fedora Account system and also have an
+identical group present in `/etc/group` such as:
+```
+modularity-wg:x:189842:sgallagh
+```
+(This is so the sync tools can ensure that the files on Fedora People are
+accessible to all members of the modularity-wg team)
+
 ### Installing DNF 2.x on Fedora 24 and 25
 ```
 $ dnf copr enable rpmsoftwaremanagement/dnf-nightly
