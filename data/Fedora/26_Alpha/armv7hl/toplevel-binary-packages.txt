@@ -19,7 +19,6 @@ hfsutils
 kernel-core
 kernel-lpae
 libev
-lsscsi
 m4
 make
 microdnf
@@ -30,6 +29,7 @@ rpm
 rpm-build
 shadow-utils
 tar
+uboot-tools
 unzip
 util-linux
 xml-common

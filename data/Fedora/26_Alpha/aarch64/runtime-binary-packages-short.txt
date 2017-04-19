@@ -144,7 +144,6 @@ libuuid
 libverto
 libxml2
 linux-firmware
-lsscsi
 lua-libs
 lz4-libs
 lzo

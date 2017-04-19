@@ -146,7 +146,6 @@
 0:libvpd-2.2.5-5.fc26.ppc64le
 0:libxml2-2.9.4-2.fc26.ppc64le
 0:linux-firmware-20170313-72.git695f2d6d.fc26.noarch
-0:lsscsi-0.28-4.fc26.ppc64le
 0:lsvpd-1.7.7-2.fc26.ppc64le
 0:lua-libs-5.3.4-1.fc26.ppc64le
 0:lz4-libs-1.7.5-3.fc26.ppc64le

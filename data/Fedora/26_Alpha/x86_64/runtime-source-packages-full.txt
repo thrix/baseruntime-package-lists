@@ -107,7 +107,6 @@
 0:libverto-0.2.6-7.fc26.src
 0:libxml2-2.9.4-2.fc26.src
 0:linux-firmware-20170313-72.git695f2d6d.fc26.src
-0:lsscsi-0.28-4.fc26.src
 0:lua-5.3.4-1.fc26.src
 0:lvm2-2.02.168-4.fc26.src
 0:lz4-1.7.5-3.fc26.src

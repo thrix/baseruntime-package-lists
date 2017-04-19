@@ -23,7 +23,6 @@ gzip
 hfsutils
 kernel-core
 libev
-lsscsi
 m4
 make
 memtest86+

@@ -2394,7 +2394,6 @@ log4j12
 logback
 logrotate
 lpg-java-compat
-lsscsi
 lttng-ust
 lttng-ust-devel
 lua

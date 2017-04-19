@@ -21,7 +21,6 @@ hfsutils
 kernel-bootwrapper
 kernel-core
 libev
-lsscsi
 m4
 make
 microdnf

@@ -20,6 +20,7 @@ cyrus-sasl
 dbus
 diffutils
 dracut
+dtc
 dwz
 e2fsprogs
 elfutils
@@ -97,7 +98,6 @@ libutempter
 libverto
 libxml2
 linux-firmware
-lsscsi
 lua
 lvm2
 lz4
@@ -163,6 +163,7 @@ systemd
 tar
 texinfo
 tzdata
+uboot-tools
 unzip
 ustr
 util-linux

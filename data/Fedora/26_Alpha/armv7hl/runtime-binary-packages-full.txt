@@ -24,6 +24,7 @@
 0:device-mapper-libs-1.02.137-4.fc26.armv7hl
 0:diffutils-3.5-3.fc26.armv7hl
 0:dracut-044-177.fc26.armv7hl
+0:dtc-1.4.2-3.0931cea.fc26.armv7hl
 0:dwz-0.12-3.fc26.armv7hl
 0:elfutils-0.168-5.fc26.armv7hl
 0:elfutils-default-yama-scope-0.168-5.fc26.noarch
@@ -136,7 +137,6 @@
 0:libverto-0.2.6-7.fc26.armv7hl
 0:libxml2-2.9.4-2.fc26.armv7hl
 0:linux-firmware-20170313-72.git695f2d6d.fc26.noarch
-0:lsscsi-0.28-4.fc26.armv7hl
 0:lua-libs-5.3.4-1.fc26.armv7hl
 0:lz4-libs-1.7.5-3.fc26.armv7hl
 0:lzo-2.08-9.fc26.armv7hl
@@ -221,6 +221,7 @@
 0:systemd-udev-233-2.fc26.armv7hl
 2:tar-1.29-4.fc26.armv7hl
 0:tzdata-2016j-3.fc26.noarch
+0:uboot-tools-2017.03-0.7.rc3.fc26.armv7hl
 0:unzip-6.0-33.fc26.armv7hl
 0:ustr-1.0.4-22.fc26.armv7hl
 0:util-linux-2.29.1-2.fc26.armv7hl

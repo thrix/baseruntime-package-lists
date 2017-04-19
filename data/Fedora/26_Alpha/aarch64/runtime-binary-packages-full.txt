@@ -144,7 +144,6 @@
 0:libverto-0.2.6-7.fc26.aarch64
 0:libxml2-2.9.4-2.fc26.aarch64
 0:linux-firmware-20170313-72.git695f2d6d.fc26.noarch
-0:lsscsi-0.28-4.fc26.aarch64
 0:lua-libs-5.3.4-1.fc26.aarch64
 0:lz4-libs-1.7.5-3.fc26.aarch64
 0:lzo-2.08-9.fc26.aarch64

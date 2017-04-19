@@ -143,7 +143,6 @@ libverto
 libvpd
 libxml2
 linux-firmware
-lsscsi
 lsvpd
 lua-libs
 lz4-libs

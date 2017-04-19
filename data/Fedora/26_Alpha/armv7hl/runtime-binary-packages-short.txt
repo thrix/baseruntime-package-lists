@@ -24,6 +24,7 @@ device-mapper
 device-mapper-libs
 diffutils
 dracut
+dtc
 dwz
 elfutils
 elfutils-default-yama-scope
@@ -136,7 +137,6 @@ libuuid
 libverto
 libxml2
 linux-firmware
-lsscsi
 lua-libs
 lz4-libs
 lzo
@@ -221,6 +221,7 @@ systemd-pam
 systemd-udev
 tar
 tzdata
+uboot-tools
 unzip
 ustr
 util-linux

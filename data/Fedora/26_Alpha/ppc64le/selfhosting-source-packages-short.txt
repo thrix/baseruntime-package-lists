@@ -1139,7 +1139,6 @@ log4j12
 logback
 logrotate
 lpg
-lsscsi
 lsvpd
 lttng-ust
 lua

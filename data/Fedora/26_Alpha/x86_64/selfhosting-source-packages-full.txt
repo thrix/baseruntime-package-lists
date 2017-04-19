@@ -1170,7 +1170,6 @@
 0:logback-1.1.7-2.fc26.src
 0:logrotate-3.11.0-4.fc26.src
 0:lpg-2.0.17-21.fc26.src
-0:lsscsi-0.28-4.fc26.src
 0:lttng-ust-2.9.0-2.fc26.src
 0:lua-5.3.4-1.fc26.src
 0:lua-lunit-0.5-11.fc26.src

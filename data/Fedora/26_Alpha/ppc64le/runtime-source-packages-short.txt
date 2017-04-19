@@ -107,7 +107,6 @@ libverto
 libvpd
 libxml2
 linux-firmware
-lsscsi
 lsvpd
 lua
 lvm2

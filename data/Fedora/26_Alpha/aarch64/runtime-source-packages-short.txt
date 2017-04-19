@@ -105,7 +105,6 @@ libutempter
 libverto
 libxml2
 linux-firmware
-lsscsi
 lua
 lvm2
 lz4
