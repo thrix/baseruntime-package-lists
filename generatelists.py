@@ -39,7 +39,10 @@ def process_dependencies(arch_queue):
 
         print("Arch: %s" % (depchase_ctx.arch))
 
-        if depchase_ctx.milestone:
+        if depchase_ctx.os == 'Rawhide':
+            base_path = "./data/Rawhide/%s/" % depchase_ctx.arch
+
+        elif depchase_ctx.milestone:
             base_path = "./data/%s/%d_%s/%s/" % (
                          depchase_ctx.os,
                          depchase_ctx.version,
@@ -158,7 +161,7 @@ def process_dependencies(arch_queue):
 
 @click.command()
 @click.option('--os', default='Fedora',
-              help='What OS to process?')
+              help='What OS to process? ("Fedora", "Rawhide")')
 @click.option('--version', default=25,
               help='What OS version to process?')
 @click.option('--milestone', default=None,
@@ -181,7 +184,7 @@ def main(os, version, milestone):
     # Enqueue all of the architectures
     for arch in arches:
         dc_ctx = DepchaseContext(arch=arch,
-                                 os='Fedora',
+                                 os=os,
                                  version=version,
                                  milestone=milestone,
                                  hints=[],
