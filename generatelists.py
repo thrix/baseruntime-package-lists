@@ -152,8 +152,8 @@ def process_dependencies(arch_queue):
                        os.path.join(base_path, 'selfhosting-source-packages-full.txt'))
 
         if len(ambiguities) > 0:
-            print("=== Unresolved Requirements ===")
-            pp = pprint.PrettyPrinter(indent=4)
+            print("=== Unresolved Requirements ===", file=sys.stderr)
+            pp = pprint.PrettyPrinter(indent=4, stream=sys.stderr)
             pp.pprint(ambiguities)
 
 
