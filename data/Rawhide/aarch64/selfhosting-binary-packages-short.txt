@@ -59,7 +59,6 @@ acl
 adwaita-cursor-theme
 adwaita-icon-theme
 aesh
-aether
 airline
 allegro
 allegro-devel
@@ -3051,6 +3050,10 @@ pcre-cpp
 pcre-devel
 pcre-utf16
 pcre-utf32
+pcre2
+pcre2-devel
+pcre2-utf16
+pcre2-utf32
 pcsc-lite-libs
 pdf-renderer
 pdfbox
@@ -4716,6 +4719,7 @@ slf4j-ext
 slf4j-jboss-logmanager
 slf4j-jdk14
 slf4j-log4j12
+slf4j-sources
 snakeyaml
 snappy
 snappy-devel

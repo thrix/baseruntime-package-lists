@@ -28,7 +28,6 @@ acl
 acpica-tools
 adwaita-icon-theme
 aesh
-aether
 airline
 allegro
 alsa-lib

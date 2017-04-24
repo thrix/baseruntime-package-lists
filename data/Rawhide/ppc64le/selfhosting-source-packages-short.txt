@@ -27,7 +27,6 @@ a2ps
 acl
 adwaita-icon-theme
 aesh
-aether
 airline
 allegro
 alsa-lib
@@ -1682,6 +1681,7 @@ patchutils
 pcfi
 pciutils
 pcre
+pcre2
 pcsc-lite
 pdf-renderer
 pdfbox

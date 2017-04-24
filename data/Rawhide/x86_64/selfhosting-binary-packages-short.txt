@@ -60,7 +60,6 @@ acpica-tools
 adwaita-cursor-theme
 adwaita-icon-theme
 aesh
-aether
 airline
 allegro
 allegro-devel
@@ -4880,6 +4879,7 @@ slf4j-ext
 slf4j-jboss-logmanager
 slf4j-jdk14
 slf4j-log4j12
+slf4j-sources
 snakeyaml
 snappy
 snappy-devel

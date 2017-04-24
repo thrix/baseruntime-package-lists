@@ -108,7 +108,6 @@ lsvpd
 lua
 lvm2
 lz4
-lzo
 m4
 make
 microdnf
