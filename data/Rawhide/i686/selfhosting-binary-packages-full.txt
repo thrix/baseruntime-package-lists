@@ -2524,6 +2524,8 @@
 1:maven-resolver-connector-basic-1.0.3-2.fc27.noarch
 1:maven-resolver-impl-1.0.3-2.fc27.noarch
 1:maven-resolver-spi-1.0.3-2.fc27.noarch
+1:maven-resolver-transport-file-1.0.3-2.fc27.noarch
+1:maven-resolver-transport-http-1.0.3-2.fc27.noarch
 1:maven-resolver-transport-wagon-1.0.3-2.fc27.noarch
 1:maven-resolver-util-1.0.3-2.fc27.noarch
 0:maven-resources-plugin-3.0.2-2.fc26.noarch

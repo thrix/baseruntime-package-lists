@@ -473,8 +473,6 @@ cbi-plugins
 cdi-api
 cdparanoia-devel
 cdparanoia-libs
-celt051
-celt051-devel
 ceph-devel-compat
 cglib
 check
@@ -620,7 +618,6 @@ dhcp-libs
 dia
 diffstat
 diffutils
-discount
 disruptor
 djvulibre-devel
 djvulibre-libs
@@ -694,7 +691,6 @@ eclipselink
 eclipselink-persistence-api
 ed
 edk2-ovmf
-edk2-tools
 efl
 efl-devel
 ehcache-core
@@ -1074,8 +1070,6 @@ gnome-online-accounts-devel
 gnome-vfs2
 gnome-vfs2-common
 gnome-vfs2-devel
-gnu-efi
-gnu-efi-devel
 gnu-getopt
 gnulib-devel
 gnupg
@@ -2505,6 +2499,8 @@ maven-resolver-api
 maven-resolver-connector-basic
 maven-resolver-impl
 maven-resolver-spi
+maven-resolver-transport-file
+maven-resolver-transport-http
 maven-resolver-transport-wagon
 maven-resolver-util
 maven-resources-plugin
@@ -3019,15 +3015,7 @@ objectweb-asm3
 objectweb-pom
 objenesis
 ocaml
-ocaml-camlp4
-ocaml-camlp4-devel
 ocaml-compiler-libs
-ocaml-findlib
-ocaml-labltk
-ocaml-labltk-devel
-ocaml-ocamlbuild
-ocaml-ocamlbuild-devel
-ocaml-ocamldoc
 ocaml-runtime
 ocaml-srpm-macros
 octave
@@ -4859,9 +4847,6 @@ speex-devel
 speexdsp
 speexdsp-devel
 spice-parent
-spice-protocol
-spice-server
-spice-server-devel
 spock-core
 spring-ldap
 springframework
@@ -6419,9 +6404,6 @@ xemacs-packages-base
 xemacs-packages-base-el
 xemacs-packages-extra
 xemacs-packages-extra-el
-xen-devel
-xen-libs
-xen-licenses
 xerces-j2
 xerces-j2-javadoc
 xfig

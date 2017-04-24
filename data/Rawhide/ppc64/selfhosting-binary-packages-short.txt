@@ -530,8 +530,6 @@ cppunit
 cppunit-devel
 cracklib
 cracklib-devel
-crash
-crash-devel
 crda
 cronie
 cronie-noanacron
@@ -925,7 +923,6 @@ geany-libgeany
 gemini-blueprint
 generatorrunner
 generatorrunner-devel
-genisoimage
 geoclue2
 geoclue2-devel
 geoclue2-libs
@@ -1035,6 +1032,7 @@ glibc-langpack-en
 glibc-locale-source
 glibc-minimal-langpack
 glibc-static
+glibc32
 glibmm24
 glibmm24-devel
 glpk
@@ -2247,7 +2245,6 @@ libunistring
 libunistring-devel
 libunwind
 libunwind-devel
-libusal
 libusb
 libusb-devel
 libusbmuxd
@@ -2501,6 +2498,8 @@ maven-resolver-api
 maven-resolver-connector-basic
 maven-resolver-impl
 maven-resolver-spi
+maven-resolver-transport-file
+maven-resolver-transport-http
 maven-resolver-transport-wagon
 maven-resolver-util
 maven-resources-plugin
@@ -2604,7 +2603,6 @@ msv-rngconv
 msv-xsdlib
 mtdev
 mtdev-devel
-mtools
 multilib-rpm-config
 multithreadedtc
 multiverse
@@ -4851,7 +4849,6 @@ speex-devel
 speexdsp
 speexdsp-devel
 spice-parent
-spice-protocol
 spock-core
 spring-ldap
 springframework

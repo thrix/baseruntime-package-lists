@@ -202,7 +202,6 @@ castor-maven-plugin
 cbi-plugins
 cdi-api
 cdparanoia
-cdrkit
 ceph
 cglib
 check
@@ -245,7 +244,6 @@ cpptasks
 cpptest
 cppunit
 cracklib
-crash
 crda
 cronie
 crontabs
@@ -507,6 +505,7 @@ glib
 glib-networking
 glib2
 glibc
+glibc32
 glibmm24
 glpk
 glusterfs
@@ -1291,7 +1290,6 @@ mpfr
 mpich
 msv
 mtdev
-mtools
 multilib-rpm-config
 multithreadedtc
 multiverse
@@ -2954,7 +2952,6 @@ speech-dispatcher
 speex
 speexdsp
 spice-parent
-spice-protocol
 spock
 spring-ldap
 springframework

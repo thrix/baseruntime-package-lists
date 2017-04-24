@@ -203,7 +203,6 @@ cbi-plugins
 cdi-api
 cdparanoia
 cdrkit
-celt051
 ceph
 cglib
 check
@@ -522,7 +521,6 @@ gnome-doc-utils
 gnome-keyring
 gnome-online-accounts
 gnome-vfs2
-gnu-efi
 gnu-getopt
 gnulib
 gnupg
@@ -1658,10 +1656,6 @@ objectweb-asm3
 objectweb-pom
 objenesis
 ocaml
-ocaml-camlp4
-ocaml-findlib
-ocaml-labltk
-ocaml-ocamlbuild
 ocaml-srpm-macros
 octave
 oniguruma
@@ -2951,9 +2945,7 @@ spec-version-maven-plugin
 speech-dispatcher
 speex
 speexdsp
-spice
 spice-parent
-spice-protocol
 spock
 spring-ldap
 springframework
@@ -3125,7 +3117,6 @@ xdg-utils
 xemacs
 xemacs-packages-base
 xemacs-packages-extra
-xen
 xerces-j2
 xfig
 xfsprogs

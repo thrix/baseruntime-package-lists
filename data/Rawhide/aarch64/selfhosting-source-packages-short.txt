@@ -25,7 +25,6 @@ SDL2_mixer
 Xaw3d
 a2ps
 acl
-acpica-tools
 adwaita-icon-theme
 aesh
 aether
@@ -176,8 +175,6 @@ bouncycastle-pg
 bouncycastle-pkix
 breeze-icon-theme
 bridge-method-injector
-bridge-utils
-brltty
 bsf
 bsh
 btrfs-progs
@@ -202,8 +199,6 @@ castor-maven-plugin
 cbi-plugins
 cdi-api
 cdparanoia
-cdrkit
-celt051
 ceph
 cglib
 check
@@ -246,12 +241,9 @@ cpptasks
 cpptest
 cppunit
 cracklib
-crash
 crda
 cronie
 crontabs
-cross-binutils
-cross-gcc
 cryptacular
 crypto-policies
 cryptopp
@@ -297,7 +289,6 @@ dlm
 dmraid
 dnf
 dnsjava
-dnsmasq
 docbook-dtds
 docbook-style-dsssl
 docbook-style-xsl
@@ -312,7 +303,6 @@ dotconf
 doxygen
 dpkg
 dracut
-dtc
 dwz
 e2fsprogs
 easymock
@@ -341,7 +331,6 @@ eclipse-xsd
 eclipselink
 eclipselink-persistence-api
 ed
-edk2
 efibootmgr
 efivar
 efl
@@ -373,7 +362,6 @@ erlang-rebar
 erlang-rpm-macros
 erlang-sd_notify
 esound
-espeak
 evo-inflector
 exec-maven-plugin
 execstack
@@ -423,7 +411,6 @@ firebird
 firewalld
 flac
 flex
-flite
 fltk
 fluid-soundfont
 fluidsynth
@@ -565,7 +552,6 @@ groff
 groovy
 groovy18
 grub2
-grubby
 gsbase
 gsettings-desktop-schemas
 gsl
@@ -655,7 +641,6 @@ iproute
 ipset
 iptables
 iputils
-ipxe
 irclib
 ironjacamar
 iscsi-initiator-utils
@@ -942,7 +927,6 @@ libXxf86misc
 libXxf86vm
 libabigail
 libaio
-libao
 libappstream-glib
 libarchive
 libart_lgpl
@@ -959,7 +943,6 @@ libbonoboui
 libbs2b
 libbsd
 libbytesize
-libcacard
 libcanberra
 libcap
 libcap-ng
@@ -1023,7 +1006,6 @@ libimagequant
 libimobiledevice
 libinput
 libiptcdata
-libiscsi
 libjpeg-turbo
 libkate
 libksba
@@ -1088,14 +1070,12 @@ libserf
 libshout
 libsigc++20
 libsigsegv
-libsmi
 libsndfile
 libsolv
 libsoup
 libspectre
 libspiro
 libsrtp
-libssh
 libssh2
 libstemmer
 libstoragemgmt
@@ -1124,7 +1104,6 @@ libuv
 libva
 libvdpau
 libverto
-libvirt
 libvisual
 libvoikko
 libvorbis
@@ -1293,7 +1272,6 @@ mpfr
 mpich
 msv
 mtdev
-mtools
 multilib-rpm-config
 multithreadedtc
 multiverse
@@ -1321,7 +1299,6 @@ neethi
 nekohtml
 net-snmp
 net-tools
-netcf
 netpbm
 nettle
 netty
@@ -1333,7 +1310,6 @@ nghttp2
 nginx
 ninja-build
 nkf
-nmap
 node-gyp
 nodejs
 nodejs-abbrev
@@ -1658,17 +1634,12 @@ nss-util
 nss_wrapper
 ntfs-3g
 numactl
-numad
 numpy
 objectweb-asm
 objectweb-asm3
 objectweb-pom
 objenesis
 ocaml
-ocaml-camlp4
-ocaml-findlib
-ocaml-labltk
-ocaml-ocamlbuild
 ocaml-srpm-macros
 octave
 oniguruma
@@ -1689,7 +1660,6 @@ opensp
 openssh
 openssl
 openwebbeans
-openwsman
 options
 optipng
 opus
@@ -1715,7 +1685,6 @@ patchutils
 pcfi
 pciutils
 pcre
-pcre2
 pcsc-lite
 pdf-renderer
 pdfbox
@@ -2463,7 +2432,6 @@ pmix
 po4a
 policycoreutils
 polkit
-polkit-pkla-compat
 polkit-qt
 poppler
 poppler-data
@@ -2680,8 +2648,6 @@ pyxattr
 pyxdg
 qca
 qdox
-qemu
-qemu-sanity-check
 qhull
 qjson
 qpdf
@@ -2718,7 +2684,6 @@ querydsl3
 quota
 rabbitmq-java-client
 rabbitmq-server
-radvd
 randomizedtesting
 rarian
 re2
@@ -2905,7 +2870,6 @@ saxon
 saxpath
 sbc
 sbinary
-sblim-sfcc
 sbt
 scala
 scannotation
@@ -2914,21 +2878,17 @@ scipy
 scl-utils
 scons
 screen
-scrub
-seabios
 sed
 selinux-policy
 sendmail
 serp
 setools
 setup
-sgabios
 sgml-common
 sgpio
 shadow-utils
 shared-mime-info
 sharutils
-sheepdog
 shibboleth-java-parent-v3
 shibboleth-java-support
 shiboken
@@ -2964,12 +2924,9 @@ soxr
 sparsehash
 spatial4j
 spec-version-maven-plugin
-speech-dispatcher
 speex
 speexdsp
-spice
 spice-parent
-spice-protocol
 spock
 spring-ldap
 springframework
@@ -3075,7 +3032,6 @@ unzip
 upower
 uriparser
 urw-fonts
-usbredir
 userspace-rcu
 ustr
 uthash
@@ -3088,11 +3044,9 @@ valgrind
 velocity
 velocity-tools
 vim
-virglrenderer
 volume_key
 vorbis-java
 vsftpd
-vte291
 vulkan
 w3m
 wavpack
@@ -3113,7 +3067,6 @@ wildfly-elytron
 wildfly-security-manager
 wildmidi
 wireless-tools
-wireshark
 woodstox-core
 words
 ws-commons-util
@@ -3140,11 +3093,9 @@ xdg-utils
 xemacs
 xemacs-packages-base
 xemacs-packages-extra
-xen
 xerces-j2
 xfig
 xfsprogs
-xhtml1-dtds
 xkeyboard-config
 xml-commons-apis
 xml-commons-resolver
