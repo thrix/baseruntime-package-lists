@@ -19,14 +19,13 @@ cd baseruntime-package-lists
 
 COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
 ./generatelists.py --os Rawhide 2> ./stderr.txt
-
 errs=$(cat stderr.txt)
 
 # This script doesn't run any git commands, so we know that we can only
 # end up with modified files.
 # Let's get the list of short RPMs here so we can see if the list has
 # grown or shrunk since the last saved run.
-modified=$(git status --porcelain=v1  *short.txt |cut -f 3 -d " ")
+modified=$(git status --porcelain=v1  *short.txt |cut -f 3 -d " "|wc -l)
 
 body="Heyhowareya!
 
@@ -53,5 +52,6 @@ mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      "sgallagh@redhat.com"
 
 popd
+fi
 
 rm -Rf $CHECKOUT_PATH
