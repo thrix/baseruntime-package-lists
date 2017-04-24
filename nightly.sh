@@ -46,7 +46,7 @@ The following changes were detected since $COMMIT_DATE:
 $filediff
 "
 
-echo $body | \
+echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
      "sgallagh@redhat.com"
