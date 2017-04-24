@@ -49,7 +49,11 @@ $filediff
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
-     "sgallagh@redhat.com"
+     "sgallagh@redhat.com" \
+     "mmcgrath@redhat.com" \
+     "contyk@redhat.com" \
+     "mmathesi@redhat.com" \
+     "bgoncalv@redhat.com"
 
 popd
 fi
