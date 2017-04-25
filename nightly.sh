@@ -7,18 +7,46 @@ CHECKOUT_PATH=$(mktemp -d)
 # Make sure we have the latest copy of depchase
 pushd $CHECKOUT_PATH
 git clone https://github.com/fedora-modularity/depchase.git
-cd depchase
+pushd depchase
 
 python3 setup.py install --user
 export PATH=$PATH:$HOME/.local/bin
-popd
+popd # depchase
 
-pushd $CHECKOUT_PATH
 git clone https://github.com/fedora-modularity/baseruntime-package-lists.git
-cd baseruntime-package-lists
+pushd baseruntime-package-lists
 
 COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
-./generatelists.py --os Rawhide 2> ./stderr.txt
+
+# Pull down the current override repository from fedorapeople
+# We will put this in a permanent location (not purged at the end of the run)
+# to save time on future runs of the script
+mkdir -p $HOME/override_repo
+rsync -avzh --delete-before \
+    rsync://fedorapeople.org/project/modularity/repos/fedora/gencore-override/rawhide/ \
+    $HOME/override_repo/rawhide
+
+# Regenerate the SRPMs for known packages that have arch-specific
+# BuildRequires
+
+# Get the list of the latest NVRs for these packages
+NVR_FILE=$(mktemp)
+cat archful-srpms.txt \
+| xargs koji latest-build rawhide  --quiet \
+| cut -f 1 -d " " \
+> $NVR_FILE
+
+# Generate the archful SRPMs
+./mock_wrapper.sh rawhide $NVR_FILE
+
+# Put the resulting SRPMs into place
+for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
+    mkdir -p $HOME/override_repo/rawhide/%arch/sources
+    mv output/$arch/*.src.rpm $HOME/override_repo/rawhide/%arch/sources/
+    createrepo_c $HOME/override_repo/rawhide/%arch/sources/
+done
+
+./generatelists.py --os Rawhide --local-override $HOME/override_repo/rawhide 2> ./stderr.txt
 errs=$(cat stderr.txt)
 
 # This script doesn't run any git commands, so we know that we can only
@@ -55,7 +83,8 @@ mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      "mmathesi@redhat.com" \
      "bgoncalv@redhat.com"
 
-popd
+popd # baseruntime-package-lists
+popd # CHECKOUT_PATH
 fi
 
 rm -Rf $CHECKOUT_PATH

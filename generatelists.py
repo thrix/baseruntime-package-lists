@@ -31,7 +31,7 @@ DepchaseContext = namedtuple("DepchaseContext",
                                  'hintfile',
                              ])
 
-def process_dependencies(arch_queue):
+def process_dependencies(arch_queue, local_override=None):
     while True:
         depchase_ctx = arch_queue.get()
         if depchase_ctx is None:
@@ -58,7 +58,8 @@ def process_dependencies(arch_queue):
         query = prep_repositories(depchase_ctx.os,
                                   depchase_ctx.version,
                                   depchase_ctx.milestone,
-                                  depchase_ctx.arch)
+                                  depchase_ctx.arch,
+                                  local_override)
 
         # Read in the package names
         with open(os.path.join(base_path, depchase_ctx.pkgfile)) as f:
@@ -166,6 +167,9 @@ def process_dependencies(arch_queue):
               help='What OS version to process?')
 @click.option('--milestone', default=None,
               help='If processing a prerelease, which one?')
+@click.option('--local-override', default=None,
+              help="Specify a local filesystem repository to use for overrides "
+                   "(repodata that supplements the standard repositories).")
 def main(os, version, milestone):
     arch_queue = JoinableQueue()
 
