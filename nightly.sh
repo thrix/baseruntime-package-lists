@@ -45,9 +45,9 @@ cat archful-srpms.txt \
 
 # Put the resulting SRPMs into place
 for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
-    mkdir -p $HOME/override_repo/rawhide/%arch/sources
-    mv output/$arch/*.src.rpm $HOME/override_repo/rawhide/%arch/sources/
-    createrepo_c $HOME/override_repo/rawhide/%arch/sources/
+    mkdir -p $HOME/override_repo/rawhide/$arch/sources
+    mv output/$arch/*.src.rpm $HOME/override_repo/rawhide/$arch/sources/
+    createrepo_c $HOME/override_repo/rawhide/$arch/sources/
 done
 
 ./generatelists.py --os Rawhide --local-override $HOME/override_repo/rawhide 2> ./stderr.txt
