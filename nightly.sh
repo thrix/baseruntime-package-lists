@@ -2,6 +2,10 @@
 
 set -e
 
+# Email should go to the addresses specified on the command line
+# or else default to sgallagh@redhat.com
+MAIL_RECIPIENTS=${@:-"sgallagh@redhat.com"}
+
 CHECKOUT_PATH=$(mktemp -d)
 
 # Make sure we have the latest copy of depchase
@@ -77,11 +81,7 @@ $filediff
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
-     "sgallagh@redhat.com" \
-     "mmcgrath@redhat.com" \
-     "contyk@redhat.com" \
-     "mmathesi@redhat.com" \
-     "bgoncalv@redhat.com"
+     $MAIL_RECIPIENTS
 
 popd # baseruntime-package-lists
 popd # CHECKOUT_PATH
