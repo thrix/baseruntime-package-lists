@@ -54,12 +54,22 @@ def process_dependencies(arch_queue, local_override=None):
                          depchase_ctx.version,
                          depchase_ctx.arch)
 
-        # Load the repository for this search
-        query = prep_repositories(depchase_ctx.os,
-                                  depchase_ctx.version,
-                                  depchase_ctx.milestone,
-                                  depchase_ctx.arch,
-                                  local_override)
+        try:
+            # Load the repository for this search
+            query = prep_repositories(depchase_ctx.os,
+                                      depchase_ctx.version,
+                                      depchase_ctx.milestone,
+                                      depchase_ctx.arch,
+                                      local_override)
+        except dnf.exceptions.RepoError:
+            # If something goes wrong with the repositories (such as the repo
+            # server being unreachable or otherwsie), give up on this thread
+            # so it doesn't hang.
+            print("Setting up repos failed on architecture %s. "
+                  "No results will be processed." % pkgarch,
+                  file=sys.stderr)
+            arch_queue.task_done()
+            continue
 
         # Read in the package names
         with open(os.path.join(base_path, depchase_ctx.pkgfile)) as f:
