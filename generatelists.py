@@ -33,140 +33,146 @@ DepchaseContext = namedtuple("DepchaseContext",
 
 def process_dependencies(arch_queue, local_override=None):
     while True:
-        depchase_ctx = arch_queue.get()
-        if depchase_ctx is None:
-            break
-
-        print("Arch: %s" % (depchase_ctx.arch))
-
-        if depchase_ctx.os == 'Rawhide':
-            base_path = "./data/Rawhide/%s/" % depchase_ctx.arch
-
-        elif depchase_ctx.milestone:
-            base_path = "./data/%s/%d_%s/%s/" % (
-                         depchase_ctx.os,
-                         depchase_ctx.version,
-                         depchase_ctx.milestone,
-                         depchase_ctx.arch)
-        else:
-            base_path = "./data/%s/%d/%s/" % (
-                         depchase_ctx.os,
-                         depchase_ctx.version,
-                         depchase_ctx.arch)
-
         try:
-            # Load the repository for this search
-            query = prep_repositories(depchase_ctx.os,
-                                      depchase_ctx.version,
-                                      depchase_ctx.milestone,
-                                      depchase_ctx.arch,
-                                      local_override)
-        except dnf.exceptions.RepoError:
-            # If something goes wrong with the repositories (such as the repo
-            # server being unreachable or otherwsie), give up on this thread
-            # so it doesn't hang.
-            print("Setting up repos failed on architecture %s. "
-                  "No results will be processed." % pkgarch,
-                  file=sys.stderr)
-            arch_queue.task_done()
-            continue
+            depchase_ctx = arch_queue.get()
+            if depchase_ctx is None:
+                break
 
-        # Read in the package names
-        with open(os.path.join(base_path, depchase_ctx.pkgfile)) as f:
-            pkgnames = f.read().splitlines()
+            print("Arch: %s" % (depchase_ctx.arch))
 
-        # Read in the hints
-        with open(os.path.join(base_path, depchase_ctx.hintfile)) as f:
-            hints = f.read().splitlines()
+            if depchase_ctx.os == 'Rawhide':
+                base_path = "./data/Rawhide/%s/" % depchase_ctx.arch
 
-        # Don't process whatreqs or filters
-        filters = []
-        whatreqs = []
-
-
-        dependencies = {}
-        ambiguities = []
-
-        # First process the standard dependencies
-        for fullpkgname in pkgnames:
-            (pkgname, pkgarch) = split_pkgname(fullpkgname, depchase_ctx.arch)
+            elif depchase_ctx.milestone:
+                base_path = "./data/%s/%d_%s/%s/" % (
+                             depchase_ctx.os,
+                             depchase_ctx.version,
+                             depchase_ctx.milestone,
+                             depchase_ctx.arch)
+            else:
+                base_path = "./data/%s/%d/%s/" % (
+                             depchase_ctx.os,
+                             depchase_ctx.version,
+                             depchase_ctx.arch)
 
             try:
-                pkg = get_pkg_by_name(query, pkgname, pkgarch)
-            except NoSuchPackageException:
-                print("%s was not found on architecture %s" % (
-                        pkgname, pkgarch),
+                # Load the repository for this search
+                query = prep_repositories(depchase_ctx.os,
+                                          depchase_ctx.version,
+                                          depchase_ctx.milestone,
+                                          depchase_ctx.arch,
+                                          local_override)
+            except dnf.exceptions.RepoError:
+                # If something goes wrong with the repositories (such as the repo
+                # server being unreachable or otherwsie), give up on this thread
+                # so it doesn't hang.
+                print("Setting up repos failed on architecture %s. "
+                      "No results will be processed." % pkgarch,
                       file=sys.stderr)
+                arch_queue.task_done()
                 continue
 
-            recurse_package_deps(pkg, depchase_ctx.arch, dependencies, ambiguities, query,
-                                 hints, filters, whatreqs, False, False)
+            # Read in the package names
+            with open(os.path.join(base_path, depchase_ctx.pkgfile)) as f:
+                pkgnames = f.read().splitlines()
 
-        # Check for unresolved deps in the list that are present in the
-        # dependencies. This happens when one package has an ambiguous dep
-        # but another package has an explicit dep on the same package.
-        # This list comprehension just returns the set of dictionaries that
-        # are not resolved by other entries
-        ambiguities = [x for x in ambiguities
-                       if not resolve_ambiguity(dependencies, x)]
+            # Read in the hints
+            with open(os.path.join(base_path, depchase_ctx.hintfile)) as f:
+                hints = f.read().splitlines()
 
-        # Get the source packages for all the dependencies
-        srpms = {}
-        for key, pkg in dependencies.items():
-            srpm_pkg = get_srpm_for_package_name(query, pkg.name,
-                                                 depchase_ctx.arch)
-            srpms[srpm_pkg.name] = srpm_pkg
+            # Don't process whatreqs or filters
+            filters = []
+            whatreqs = []
 
-        # Print the complete set of dependencies together
-        output_results(dependencies, srpms, depchase_ctx.arch,
-                       os.path.join(base_path, 'runtime-binary-packages-short.txt'),
-                       os.path.join(base_path, 'runtime-binary-packages-full.txt'),
-                       os.path.join(base_path, 'runtime-source-packages-short.txt'),
-                       os.path.join(base_path, 'runtime-source-packages-full.txt'))
 
-        if len(ambiguities) > 0:
-            print("=== Unresolved Requirements ===",
+            dependencies = {}
+            ambiguities = []
+
+            # First process the standard dependencies
+            for fullpkgname in pkgnames:
+                (pkgname, pkgarch) = split_pkgname(fullpkgname, depchase_ctx.arch)
+
+                try:
+                    pkg = get_pkg_by_name(query, pkgname, pkgarch)
+                except NoSuchPackageException:
+                    print("%s was not found on architecture %s" % (
+                            pkgname, pkgarch),
+                          file=sys.stderr)
+                    continue
+
+                recurse_package_deps(pkg, depchase_ctx.arch, dependencies, ambiguities, query,
+                                     hints, filters, whatreqs, False, False)
+
+            # Check for unresolved deps in the list that are present in the
+            # dependencies. This happens when one package has an ambiguous dep
+            # but another package has an explicit dep on the same package.
+            # This list comprehension just returns the set of dictionaries that
+            # are not resolved by other entries
+            ambiguities = [x for x in ambiguities
+                           if not resolve_ambiguity(dependencies, x)]
+
+            # Get the source packages for all the dependencies
+            srpms = {}
+            for key, pkg in dependencies.items():
+                srpm_pkg = get_srpm_for_package_name(query, pkg.name,
+                                                     depchase_ctx.arch)
+                srpms[srpm_pkg.name] = srpm_pkg
+
+            # Print the complete set of dependencies together
+            output_results(dependencies, srpms, depchase_ctx.arch,
+                           os.path.join(base_path, 'runtime-binary-packages-short.txt'),
+                           os.path.join(base_path, 'runtime-binary-packages-full.txt'),
+                           os.path.join(base_path, 'runtime-source-packages-short.txt'),
+                           os.path.join(base_path, 'runtime-source-packages-full.txt'))
+
+            if len(ambiguities) > 0:
+                print("=== Unresolved Requirements ===",
+                      file=sys.stderr)
+                pp = pprint.PrettyPrinter(indent=4)
+                pp.pprint(ambiguities)
+
+            # Then do the self-hosted dependencies
+            binary_pkgs = {}
+            source_pkgs = {}
+            ambiguities = []
+            for fullpkgname in pkgnames:
+                (pkgname, pkgarch) = split_pkgname(fullpkgname, depchase_ctx.arch)
+
+                pkg = get_pkg_by_name(query, pkgname, pkgarch)
+
+                recurse_self_host(pkg, depchase_ctx.arch,
+                                  binary_pkgs, source_pkgs,
+                                  ambiguities, query, hints, filters,
+                                  whatreqs, False, False)
+
+            # Check for unresolved deps in the list that are present in the
+            # dependencies. This happens when one package has an ambiguous dep but
+            # another package has an explicit dep on the same package.
+            # This list comprehension just returns the set of dictionaries that
+            # are not resolved by other entries
+            # We only search the binary packages here. This is a reduction; no
+            # additional packages are discovered so we don't need to regenerate
+            # the source RPM list.
+            ambiguities = [x for x in ambiguities
+                           if not resolve_ambiguity(binary_pkgs, x)]
+
+            # Print the complete set of dependencies together
+            output_results(binary_pkgs, source_pkgs, depchase_ctx.arch,
+                           os.path.join(base_path, 'selfhosting-binary-packages-short.txt'),
+                           os.path.join(base_path, 'selfhosting-binary-packages-full.txt'),
+                           os.path.join(base_path, 'selfhosting-source-packages-short.txt'),
+                           os.path.join(base_path, 'selfhosting-source-packages-full.txt'))
+
+            if len(ambiguities) > 0:
+                print("=== Unresolved Requirements ===", file=sys.stderr)
+                pp = pprint.PrettyPrinter(indent=4, stream=sys.stderr)
+                pp.pprint(ambiguities)
+        except Exception as e:
+            print("Encountered an exception while processing %s: %s" % (
+                   depchase_ctx.arch, e),
                   file=sys.stderr)
-            pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint(ambiguities)
-
-        # Then do the self-hosted dependencies
-        binary_pkgs = {}
-        source_pkgs = {}
-        ambiguities = []
-        for fullpkgname in pkgnames:
-            (pkgname, pkgarch) = split_pkgname(fullpkgname, depchase_ctx.arch)
-
-            pkg = get_pkg_by_name(query, pkgname, pkgarch)
-
-            recurse_self_host(pkg, depchase_ctx.arch,
-                              binary_pkgs, source_pkgs,
-                              ambiguities, query, hints, filters,
-                              whatreqs, False, False)
-
-        # Check for unresolved deps in the list that are present in the
-        # dependencies. This happens when one package has an ambiguous dep but
-        # another package has an explicit dep on the same package.
-        # This list comprehension just returns the set of dictionaries that
-        # are not resolved by other entries
-        # We only search the binary packages here. This is a reduction; no
-        # additional packages are discovered so we don't need to regenerate
-        # the source RPM list.
-        ambiguities = [x for x in ambiguities
-                       if not resolve_ambiguity(binary_pkgs, x)]
-
-        # Print the complete set of dependencies together
-        output_results(binary_pkgs, source_pkgs, depchase_ctx.arch,
-                       os.path.join(base_path, 'selfhosting-binary-packages-short.txt'),
-                       os.path.join(base_path, 'selfhosting-binary-packages-full.txt'),
-                       os.path.join(base_path, 'selfhosting-source-packages-short.txt'),
-                       os.path.join(base_path, 'selfhosting-source-packages-full.txt'))
-
-        if len(ambiguities) > 0:
-            print("=== Unresolved Requirements ===", file=sys.stderr)
-            pp = pprint.PrettyPrinter(indent=4, stream=sys.stderr)
-            pp.pprint(ambiguities)
-
+            # Fall through to clearing the task and continuing so we don't
+            # hang forever.
 
         arch_queue.task_done()
 
