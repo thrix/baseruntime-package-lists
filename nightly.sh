@@ -34,9 +34,13 @@ rsync -avzh --delete-before \
 # BuildRequires
 
 # Get the list of the latest NVRs for these packages
-NVR_FILE=$(mktemp)
+# Get the correct koji tag
+# This has to be fN-build because otherwise it won't find glibc32
+KOJI_TAG=$(koji list-targets |grep "^rawhide\s"|awk '{print $2}')
+
+NVR_FILE=$CHECKOUT_PATH/srpms.txt
 cat archful-srpms.txt \
-| xargs koji latest-build rawhide  --quiet \
+| xargs koji latest-build $KOJI_TAG  --quiet \
 | cut -f 1 -d " " \
 > $NVR_FILE
 
