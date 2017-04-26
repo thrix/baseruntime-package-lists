@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 # Usage: ./mock_wrapper.sh <version> <NVR file>
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 set -e
 PROCESSORS=$(/usr/bin/getconf _NPROCESSORS_ONLN)
 
@@ -10,7 +12,7 @@ if [ "$RELEASEVER" == "rawhide" ]; then
     VERNUM=27
 fi
 
-cat > ./fedora-$RELEASEVER-multiarch.cfg << EOF
+cat > $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg << EOF
 
 config_opts['root'] = 'fedora-$RELEASEVER-srpm'
 config_opts['target_arch'] = 'x86_64'
@@ -57,14 +59,15 @@ gpgcheck=1
 
 EOF
 
-mock -r ./fedora-$RELEASEVER-multiarch.cfg init
-mock -r ./fedora-$RELEASEVER-multiarch.cfg --chroot "mkdir -p /opt/srpm/output"
-mock -r ./fedora-$RELEASEVER-multiarch.cfg --copyin ./recreate_srpm.sh \
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg init
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --chroot "mkdir -p /opt/srpm/output"
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $SCRIPT_DIR/recreate_srpm.sh \
                                            /opt/srpm/recreate_srpm.sh
-mock -r ./fedora-$RELEASEVER-multiarch.cfg --copyin $2 \
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $2 \
                                            /opt/srpm/srpms.txt
-mock -r ./fedora-$RELEASEVER-multiarch.cfg --cwd=/opt/srpm/output --chroot \
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --cwd=/opt/srpm/output --chroot \
     "cat /opt/srpm/srpms.txt | xargs --max-procs=$PROCESSORS -I NVR \
     /opt/srpm/recreate_srpm.sh NVR"
 rm -Rf ./output
-mock -r ./fedora-$RELEASEVER-multiarch.cfg --copyout /opt/srpm/output ./output
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyout /opt/srpm/output ./output
+
