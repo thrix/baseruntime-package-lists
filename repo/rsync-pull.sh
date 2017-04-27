@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROCESSORS=$(/usr/bin/getconf _NPROCESSORS_ONLN)
 
 set -e
 
@@ -42,10 +43,25 @@ if [ "$release" == "rawhide" ]; then
     ../mock_wrapper.sh rawhide $NVR_FILE
 
     # Put the resulting SRPMs into place
+    # As well as the RPMS from Koji
     for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
+        # Copy the generated SRPMs
         mkdir -p $release/$arch/sources
         mv output/$arch/*.src.rpm $dest/$arch/sources/
+
+        # Pull down the previously-built RPMs from Koji
+        # This will avoid issues where a koji build is newer than
+        # what's available in the repo as well as ensuring that
+        # special packages like glibc32 are in place.
+        mkdir -p $release/$arch/os
+        pushd $release/$arch/os
+            cat $NVR_FILE \
+            | xargs --max-procs=$PROCESSORS -I NVR \
+              koji download-build --arch=noarch --arch=$arch NVR
+        popd
+
         createrepo_c $dest/$arch/sources/
+        createrepo_c $dest/$arch/os/
     done
 
     rm -f $NVR_FILE

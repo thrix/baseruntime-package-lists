@@ -25,34 +25,7 @@ COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
 # Pull down the current override repository from fedorapeople
 # We will put this in a permanent location (not purged at the end of the run)
 # to save time on future runs of the script
-mkdir -p $HOME/override_repo
-rsync -avzh --delete-before \
-    rsync://fedorapeople.org/project/modularity/repos/fedora/gencore-override/rawhide/ \
-    $HOME/override_repo/rawhide
-
-# Regenerate the SRPMs for known packages that have arch-specific
-# BuildRequires
-
-# Get the list of the latest NVRs for these packages
-# Get the correct koji tag
-# This has to be fN-build because otherwise it won't find glibc32
-KOJI_TAG=$(koji list-targets |grep "^rawhide\s"|awk '{print $2}')
-
-NVR_FILE=$CHECKOUT_PATH/srpms.txt
-cat archful-srpms.txt \
-| xargs koji latest-build $KOJI_TAG  --quiet \
-| cut -f 1 -d " " \
-> $NVR_FILE
-
-# Generate the archful SRPMs
-./mock_wrapper.sh rawhide $NVR_FILE
-
-# Put the resulting SRPMs into place
-for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
-    mkdir -p $HOME/override_repo/rawhide/$arch/sources
-    mv output/$arch/*.src.rpm $HOME/override_repo/rawhide/$arch/sources/
-    createrepo_c $HOME/override_repo/rawhide/$arch/sources/
-done
+$SCRIPT_DIR/repo/rsync-pull.sh rawhide $HOME/override_repo/rawhide
 
 ./generatelists.py --os Rawhide --local-override $HOME/override_repo/rawhide 2> ./stderr.txt
 errs=$(cat stderr.txt)
