@@ -55,9 +55,11 @@ if [ "$release" == "rawhide" ]; then
         # special packages like glibc32 are in place.
         mkdir -p $release/$arch/os
         pushd $release/$arch/os
+            set +e
             cat $NVR_FILE \
             | xargs --max-procs=$PROCESSORS -I NVR \
               koji download-build --arch=noarch --arch=$arch NVR
+            set -e
         popd
 
         createrepo_c $dest/$arch/sources/
