@@ -34,7 +34,7 @@ if [ "$release" == "rawhide" ]; then
     # This has to be fN-build because otherwise it won't find glibc32
     KOJI_TAG=$(koji list-targets |grep "^rawhide\s"|awk '{print $2}')
 
-    cat ../archful-srpms.txt \
+    cat $SCRIPT_DIR/../archful-srpms.txt \
     | xargs koji latest-build $KOJI_TAG  --quiet \
     | cut -f 1 -d " " \
     > $NVR_FILE
