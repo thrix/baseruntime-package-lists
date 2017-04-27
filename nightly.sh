@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 set -e
 
 # Email should go to the addresses specified on the command line
