@@ -40,7 +40,7 @@ if [ "$release" == "rawhide" ]; then
     > $NVR_FILE
 
     # Generate the archful SRPMs
-    ../mock_wrapper.sh rawhide $NVR_FILE
+    $SCRIPT_DIR/../mock_wrapper.sh rawhide $NVR_FILE
 
     # Put the resulting SRPMs into place
     # As well as the RPMS from Koji
