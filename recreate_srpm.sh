@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 function usage ()
 {
     echo "USAGE:"
@@ -13,7 +15,7 @@ if [ "x$NVR" = "x" ]; then
     exit 1
 fi
 
-PKG_AND_GIT=($(koji buildinfo $NVR | \
+PKG_AND_GIT=($($SCRIPT_DIR/get_package_hashes.py $NVR | \
              awk '{ match($0, /\/([^:]+):([a-f0-9]+)\)/, arr); \
                   if(arr[1] != "") print arr[1]; \
                   if(arr[2] != "") print arr[2] }'))

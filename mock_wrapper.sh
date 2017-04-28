@@ -63,6 +63,8 @@ mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg init
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --chroot "mkdir -p /opt/srpm/output"
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $SCRIPT_DIR/recreate_srpm.sh \
                                            /opt/srpm/recreate_srpm.sh
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $SCRIPT_DIR/get_package_hashes.py \
+                                           /opt/srpm/get_package_hashes.py
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $2 \
                                            /opt/srpm/srpms.txt
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --cwd=/opt/srpm/output --chroot \
