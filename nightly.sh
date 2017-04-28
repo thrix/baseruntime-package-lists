@@ -57,8 +57,8 @@ $errs
 
 # Always carry the complete diff as an attachment
 # this will include all of the relevant NVRs
-complete_diff=$(mkstemp)
-git diff data/Rawhide > $complete_diff
+complete_diff_dir=$(mktemp -d)
+git diff data/Rawhide > $complete_diff_dir/package_changes.diff
 
 # Check whether our
 if [ $modified -gt 0 ]; then
@@ -73,10 +73,12 @@ fi
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
-     -a $complete_diff \
+     -a $complete_diff_dir/package_changes.diff \
      $MAIL_RECIPIENTS
 
-rm -f $complete_diff
+rm -Rf $complete_diff_dir
+
+# Reset the git commit for future runs
 
 popd # SCRIPT_DIR
 
