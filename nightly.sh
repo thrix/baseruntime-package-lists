@@ -9,6 +9,7 @@ set -e
 MAIL_RECIPIENTS=${@:-"sgallagh@redhat.com"}
 
 CHECKOUT_PATH=$(mktemp -d)
+attachment_dir=$(mktemp -d)
 
 # Make sure we have the latest copy of depchase
 pushd $CHECKOUT_PATH
@@ -38,6 +39,30 @@ $SCRIPT_DIR/generatelists.py --os Rawhide --local-override \
 errs=$(cat $STDERR_FILE)
 rm -f $STDERR_FILE
 
+
+# Generate module metadata for the base runtime
+$SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide
+
+# Create a temporary git repository for the metadata
+brt_tmp_dir=$(mktemp -d)
+brt_dir=$modulemd_dir/base-runtime
+mkdir -p $brt_dir
+
+cp base-runtime.yaml $brt_dir/
+pushd $brt_dir
+
+git init
+git add base-runtime.yaml
+git commit -m "Committing base-runtime.yaml"
+
+mbs-build local
+
+cp module_build_service.log $attachment_dir
+
+popd # $brt_dir
+
+rm -Rf $brt_tmp_dir
+
 # This script doesn't run any git commands, so we know that we can only
 # end up with modified files.
 # Let's get the list of short RPMs here so we can see if the list has
@@ -57,8 +82,7 @@ $errs
 
 # Always carry the complete diff as an attachment
 # this will include all of the relevant NVRs
-complete_diff_dir=$(mktemp -d)
-git diff data/Rawhide > $complete_diff_dir/package_changes.diff
+git diff data/Rawhide > $attachment_dir/package_changes.diff
 
 # Check whether our
 if [ $modified -gt 0 ]; then
@@ -73,7 +97,8 @@ fi
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
-     -a $complete_diff_dir/package_changes.diff \
+     -a $attachment_dir/package_changes.diff \
+     -a $attachment_dir/module_build_service.log \
      $MAIL_RECIPIENTS
 
 rm -Rf $complete_diff_dir
