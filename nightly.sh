@@ -55,6 +55,12 @@ $errs
 
 "
 
+# Always carry the complete diff as an attachment
+# this will include all of the relevant NVRs
+complete_diff=$(mkstemp)
+git diff data/Rawhide > $complete_diff
+
+# Check whether our
 if [ $modified -gt 0 ]; then
     filediff=$(git diff --no-color *short.txt)
     body="$body
@@ -62,12 +68,15 @@ The following changes were detected since $COMMIT_DATE:
 
 $filediff
 "
+fi
 
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
+     -a $complete_diff \
      $MAIL_RECIPIENTS
-fi
+
+rm -f $complete_diff
 
 popd # SCRIPT_DIR
 
