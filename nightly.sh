@@ -27,7 +27,7 @@ COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
 # Pull down the current override repository from fedorapeople
 # We will put this in a permanent location (not purged at the end of the run)
 # to save time on future runs of the script
-$SCRIPT_DIR/repo/rsync-pull.sh rawhide $HOME/override_repo/rawhide
+$SCRIPT_DIR/repo/rsync-pull.sh rawhide $HOME/override_repo/
 
 ./generatelists.py --os Rawhide --local-override $HOME/override_repo/rawhide 2> ./stderr.txt
 errs=$(cat stderr.txt)
