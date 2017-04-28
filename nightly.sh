@@ -18,9 +18,11 @@ pushd depchase
 python3 setup.py install --user
 export PATH=$PATH:$HOME/.local/bin
 popd # depchase
+popd # CHECKOUT_PATH
+rm -Rf $CHECKOUT_PATH
 
-git clone https://github.com/fedora-modularity/baseruntime-package-lists.git
-pushd baseruntime-package-lists
+
+pushd $SCRIPT_DIR
 
 COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
 
@@ -29,8 +31,12 @@ COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
 # to save time on future runs of the script
 $SCRIPT_DIR/repo/rsync-pull.sh rawhide $HOME/override_repo/
 
-./generatelists.py --os Rawhide --local-override $HOME/override_repo/rawhide 2> ./stderr.txt
-errs=$(cat stderr.txt)
+STDERR_FILE=$(mktemp)
+$SCRIPT_DIR/generatelists.py --os Rawhide --local-override \
+                             $HOME/override_repo/rawhide \
+                             2> >(tee $STDERR_FILE >&2)
+errs=$(cat $STDERR_FILE)
+rm -f $STDERR_FILE
 
 # This script doesn't run any git commands, so we know that we can only
 # end up with modified files.
@@ -61,9 +67,7 @@ echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
      $MAIL_RECIPIENTS
-
-popd # baseruntime-package-lists
-popd # CHECKOUT_PATH
 fi
 
-rm -Rf $CHECKOUT_PATH
+popd # SCRIPT_DIR
+
