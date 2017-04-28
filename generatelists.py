@@ -196,7 +196,7 @@ def main(os, version, milestone, local_override):
     # processors on the system.
     for i in range(min(NUM_PROCS, len(arches))):
             worker = Process(target=process_dependencies,
-                             args=(arch_queue,))
+                             args=(arch_queue, local_override))
             worker.daemon = True
             worker.start()
             processes.append(worker)

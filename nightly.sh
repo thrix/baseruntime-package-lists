@@ -33,7 +33,7 @@ $SCRIPT_DIR/repo/rsync-pull.sh rawhide $HOME/override_repo/
 
 STDERR_FILE=$(mktemp)
 $SCRIPT_DIR/generatelists.py --os Rawhide --local-override \
-                             $HOME/override_repo/rawhide \
+                             $HOME/override_repo \
                              2> >(tee $STDERR_FILE >&2)
 errs=$(cat $STDERR_FILE)
 rm -f $STDERR_FILE
