@@ -30,8 +30,6 @@ aesh
 airline
 allegro
 alsa-lib
-android-json-org-java
-annotation-indexer
 ant
 ant-antunit
 ant-contrib
@@ -72,7 +70,6 @@ apache-commons-net
 apache-commons-ognl
 apache-commons-parent
 apache-commons-pool
-apache-commons-pool2
 apache-commons-validator
 apache-commons-vfs
 apache-ivy
@@ -97,14 +94,6 @@ apr-util
 aqute-bnd
 args4j
 argyllcms
-aries-blueprint-annotation-api
-aries-blueprint-api
-aries-blueprint-core
-aries-blueprint-parser
-aries-proxy-api
-aries-proxy-impl
-aries-quiesce-api
-aries-util
 arpack
 arquillian-core
 artemis
@@ -141,7 +130,6 @@ avalon-framework
 avalon-logkit
 avro
 aws-sdk-java
-axiom
 axis
 babel
 babeltrace
@@ -164,7 +152,6 @@ bison
 bitstream-vera-fonts
 blosc
 bluez
-boilerpipe
 bookkeeper
 boost
 botan
@@ -173,7 +160,6 @@ bouncycastle-mail
 bouncycastle-pg
 bouncycastle-pkix
 breeze-icon-theme
-bridge-method-injector
 bsf
 bsh
 btrfs-progs
@@ -217,7 +203,6 @@ closure-compiler
 cmake
 cmdtest
 cmocka
-codegen
 codehaus-parent
 codemodel
 codenarc
@@ -243,7 +228,6 @@ cracklib
 crda
 cronie
 crontabs
-cryptacular
 crypto-policies
 cryptopp
 cryptsetup
@@ -255,9 +239,6 @@ cups-filters
 curator
 curl
 curvesapi
-cxf
-cxf-build-utils
-cxf-xjc-utils
 cyrus-sasl
 dain-snappy
 datefudge
@@ -294,7 +275,6 @@ docbook-style-xsl
 docbook-utils
 docbook5-schemas
 docbook5-style-xsl
-docker-client
 dom4j
 dos2unix
 dosfstools
@@ -308,24 +288,11 @@ easymock
 ebtables
 ecj
 eclipse
-eclipse-cdt
 eclipse-ecf
-eclipse-egit
 eclipse-emf
 eclipse-filesystem
-eclipse-gef
 eclipse-jgit
-eclipse-launchbar
 eclipse-license
-eclipse-linuxtools
-eclipse-mylyn
-eclipse-photran
-eclipse-ptp
-eclipse-remote
-eclipse-rse
-eclipse-subclipse
-eclipse-swtbot
-eclipse-tm-terminal
 eclipse-xsd
 eclipselink
 eclipselink-persistence-api
@@ -361,7 +328,6 @@ erlang-rebar
 erlang-rpm-macros
 erlang-sd_notify
 esound
-evo-inflector
 exec-maven-plugin
 execstack
 exempi
@@ -395,8 +361,7 @@ felix-osgi-foundation
 felix-osgi-obr
 felix-osgi-obr-resolver
 felix-parent
-felix-scr-annotations
-felix-scr-generator
+felix-scr
 felix-shell
 felix-utils
 fftw
@@ -442,10 +407,8 @@ gdb
 gdbm
 gdisk
 gdk-pixbuf2
-gemini-blueprint
 generatorrunner
 geoclue2
-geolatte-geom
 geronimo-annotation
 geronimo-commonj
 geronimo-ejb
@@ -551,7 +514,6 @@ groff
 groovy
 groovy18
 grub2
-gsbase
 gsettings-desktop-schemas
 gsl
 gsm
@@ -597,7 +559,6 @@ hibernate
 hibernate-commons-annotations
 hibernate-jpa-2.0-api
 hibernate-jpa-2.1-api
-hibernate-search
 hibernate-validator
 hibernate3
 hibernate4
@@ -653,8 +614,6 @@ itstool
 iw
 jFormatString
 jack-audio-connection-kit
-jackcess
-jackcess-encrypt
 jackson
 jackson-annotations
 jackson-core
@@ -663,8 +622,6 @@ jackson-dataformat-cbor
 jackson-dataformat-smile
 jackson-dataformat-xml
 jackson-dataformat-yaml
-jackson-datatype-joda
-jackson-datatypes-collections
 jackson-jaxrs-providers
 jackson-module-jaxb-annotations
 jackson-parent
@@ -683,12 +640,10 @@ jansson
 jarjar
 jasper
 jasperreports
-jasypt
 jatl
 java-1.8.0-openjdk
 java-base64
 java-comment-preprocessor
-java-libpst
 java-oauth
 java-service-wrapper
 java-xmlbuilder
@@ -770,13 +725,9 @@ jdepend
 jdependency
 jdiff
 jdo-api
-jdo2-api
 jdom
 jdom2
-je
-jedis
 jemalloc
-jenkins-xstream
 jeromq
 jersey
 jersey1
@@ -806,7 +757,6 @@ jhighlight
 jibx
 jline
 jline1
-jmatio
 jmh
 jmock
 jna
@@ -823,7 +773,6 @@ johnzon
 joni
 jopt-simple
 jq
-jredis
 jruby
 js
 js-jquery
@@ -850,10 +799,7 @@ jts
 jul-to-slf4j-stub
 junit
 junit-addons
-junitperf
-juniversalchardet
 jvnet-parent
-jwnl
 jython
 jzlib
 kate4
@@ -885,9 +831,7 @@ latex2html
 lato-fonts
 lcms2
 ldapjdk
-ldaptive
 less
-lettuce
 leveldb
 leveldb-java
 leveldbjni
@@ -1139,14 +1083,12 @@ log4j-jboss-logmanager
 log4j12
 logback
 logrotate
-lpg
 lttng-ust
 lua
 lua-lunit
 lua-posix
 luajit
 lucene
-lucene3
 lucene4
 lutok
 lvm2
@@ -1185,7 +1127,6 @@ maven-dependency-tree
 maven-deploy-plugin
 maven-doxia
 maven-doxia-sitetools
-maven-eclipse-plugin
 maven-enforcer
 maven-file-management
 maven-filtering
@@ -1245,7 +1186,6 @@ mesa
 mesa-demos
 mesa-libGLU
 meson
-metadata-extractor2
 metainf-services
 metrics
 mftrace
@@ -1261,10 +1201,8 @@ mojarra
 mojo-parent
 mokutil
 mongo-java-driver
-mongo-java-driver2
 mono
 morfologik-stemming
-morphia
 mozilla-filesystem
 mozjs17
 mpfr
@@ -1283,7 +1221,6 @@ mx4j
 mxml
 mybatis
 mybatis-parent
-mysema-commons-lang
 mysql-connector-java
 nailgun
 narayana
@@ -1294,7 +1231,6 @@ native2ascii-maven-plugin
 ncompress
 ncurses
 neXtaw
-neethi
 nekohtml
 net-snmp
 net-tools
@@ -1652,8 +1588,6 @@ openjpeg
 openjpeg2
 openldap
 openmpi
-opennlp
-opensaml-java
 opensm
 opensp
 openssh
@@ -2403,7 +2337,6 @@ picketbox-commons
 picketbox-xacml
 picocontainer
 pixman
-pkcs11-helper
 pkgconf
 plexus-ant-factory
 plexus-archiver
@@ -2453,7 +2386,6 @@ protobuf
 protoparser
 protostream
 proxool
-proxytoys
 psmisc
 pstoedit
 psutils
@@ -2680,7 +2612,6 @@ qt5-qtxmlpatterns
 qtsoap
 qtwebkit
 quartz
-querydsl3
 quota
 rabbitmq-java-client
 rabbitmq-server
@@ -2695,7 +2626,6 @@ redhat-lsb
 redhat-menus
 redhat-rpm-config
 redis
-redis-protocol
 reflectasm
 reflections
 regexp
@@ -2860,7 +2790,6 @@ rubypick
 rust
 rust-rpm-macros
 rxjava
-rxtx
 sac
 samba
 sanlock
@@ -2889,8 +2818,6 @@ sgpio
 shadow-utils
 shared-mime-info
 sharutils
-shibboleth-java-parent-v3
-shibboleth-java-support
 shiboken
 shim-signed
 shim-unsigned-aarch64
@@ -2928,19 +2855,9 @@ speex
 speexdsp
 spice-parent
 spock
-spring-ldap
 springframework
-springframework-amqp
-springframework-batch
-springframework-data-commons
-springframework-data-mongodb
-springframework-data-redis
-springframework-hateoas
-springframework-plugin
-springframework-retry
 spymemcached
 sqlite
-sqlite-jdbc
 sqlite2
 sshj
 sslext
@@ -2959,9 +2876,7 @@ stunnel
 subunit
 subversion
 suitesparse
-swagger-core
 swig
-swt-chart
 symlinks
 sysfsutils
 systemd
@@ -2985,11 +2900,9 @@ texi2html
 texinfo
 texlive
 texlive-extension
-thredds
 thrift
 tidy
 tiger-types
-tika
 tiles
 time
 tix
@@ -3045,7 +2958,6 @@ velocity
 velocity-tools
 vim
 volume_key
-vorbis-java
 vsftpd
 vulkan
 w3m
@@ -3070,10 +2982,7 @@ wireless-tools
 woodstox-core
 words
 ws-commons-util
-ws-jaxme
-ws-xmlschema
 wsdl4j
-wss4j
 wxGTK
 wxGTK3
 wxPython
