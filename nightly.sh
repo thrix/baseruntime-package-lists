@@ -45,7 +45,7 @@ $SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide
 
 # Create a temporary git repository for the metadata
 brt_tmp_dir=$(mktemp -d)
-brt_dir=$modulemd_dir/base-runtime
+brt_dir=$brt_tmp_dir/base-runtime
 mkdir -p $brt_dir
 
 cp base-runtime.yaml $brt_dir/
