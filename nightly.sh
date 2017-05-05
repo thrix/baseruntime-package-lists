@@ -40,26 +40,39 @@ errs=$(cat $STDERR_FILE)
 rm -f $STDERR_FILE
 
 
-# Generate module metadata for the base runtime
-$SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide
+
 
 # Create a temporary git repository for the metadata
 brt_tmp_dir=$(mktemp -d)
 brt_dir=$brt_tmp_dir/base-runtime
-mkdir -p $brt_dir
+bootstrap_dir=$brt_tmp_dir/bootstrap
+mkdir -p $brt_dir $bootstrap_dir
+
+# Generate module metadata for the base runtime and bootstrap
+$SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide $brt_dir
 
 cp base-runtime.yaml $brt_dir/
+cp boostrap.yaml $bootstrap_dir/
 pushd $brt_dir
 
 git init
 git add base-runtime.yaml
 git commit -m "Committing base-runtime.yaml"
 
+popd # $brt_dir
+
+pushd $bootstrap_dir
+
+git init
+git add bootstrap.yaml
+git commit -m "Committing bootstrap.yaml"
+
 mbs-build local
 
 cp module_build_service.log $attachment_dir
 
-popd # $brt_dir
+
+popd # $bootstrap_dir
 
 rm -Rf $brt_tmp_dir
 
