@@ -52,7 +52,7 @@ mkdir -p $brt_dir $bootstrap_dir
 $SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide $brt_dir
 
 cp base-runtime.yaml $brt_dir/
-cp boostrap.yaml $bootstrap_dir/
+cp bootstrap.yaml $bootstrap_dir/
 pushd $brt_dir
 
 git init
