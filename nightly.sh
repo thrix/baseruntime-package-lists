@@ -69,7 +69,8 @@ git commit -m "Committing bootstrap.yaml"
 
 mbs-build local
 
-cp module_build_service.log $attachment_dir
+gzip module_build_service.log
+cp module_build_service.log.gz $attachment_dir
 
 
 popd # $bootstrap_dir
@@ -111,7 +112,7 @@ echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
      -a $attachment_dir/package_changes.diff \
-     -a $attachment_dir/module_build_service.log \
+     -a $attachment_dir/module_build_service.log.gz \
      $MAIL_RECIPIENTS
 
 rm -Rf $complete_diff_dir
