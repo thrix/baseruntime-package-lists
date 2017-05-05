@@ -14,7 +14,7 @@ my (@runtime, @buildroot);
 my $fh;
 
 sub HELP_MESSAGE {
-    print "Usage: mkmmd.pl path\n";
+    print "Usage: mkmmd.pl path [local_base_runtime_module_repo]\n";
     exit;
 }
 
@@ -27,6 +27,8 @@ sub getname {
 }
 
 my $path = shift @ARGV or HELP_MESSAGE;
+my $brt_repo;
+$brt_repo = shift @ARGV;
 
 my $cwd = getcwd;
 my $script_path = abs_path(dirname(__FILE__));
@@ -209,6 +211,7 @@ __COMPONENTS__
             base-runtime:
                 rationale: Bootstrapping requires Base Runtime.
                 ref: master
+__REPOSITORY__
 EOF
 my $componenttmpl = <<"EOF";
             # __BUILD__
@@ -241,6 +244,11 @@ for my $pkg (@buildroot) {
 }
 chomp $components;
 $buildroottmpl =~ s/__COMPONENTS__/$components/;
+if ($brt_repo) {
+    $buildroottmpl =~ s#__REPOSITORY__#                repository: file://$brt_repo#;
+} else {
+    $buildroottmpl =~ s/__REPOSITORY__//
+}
 # dump it to disk
 chdir $cwd;
 open $fh, '>', './base-runtime.yaml';
