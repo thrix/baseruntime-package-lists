@@ -224,6 +224,11 @@ my $components = '';
 for my $pkg (@runtime) {
     my $tmpl = $componenttmpl;
     my ($build, $name, $ref) = ($pkgs{$pkg}->{build}, $pkg, $pkgs{$pkg}->{ref});
+    if ($name =~ m/^shim/) {
+        # Shim is very special and has to be dealt with manually
+        # skip it from auto-generation
+        next
+    }
     $tmpl =~ s/__BUILD__/$build/;
     $tmpl =~ s/__NAME__/$name/;
     $tmpl =~ s/__REF__/$ref/;
@@ -236,6 +241,11 @@ $components = '';
 for my $pkg (@buildroot) {
     my $tmpl = $componenttmpl;
     my ($build, $name, $ref) = ($pkgs{$pkg}->{build}, $pkg, $pkgs{$pkg}->{ref});
+    if ($name =~ m/^shim/) {
+        # Shim is very special and has to be dealt with manually
+        # skip it from auto-generation
+        next
+    }
     $tmpl =~ s/__BUILD__/$build/;
     $tmpl =~ s/__NAME__/$name/;
     $tmpl =~ s/__REF__/$ref/;
