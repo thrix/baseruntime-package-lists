@@ -97,6 +97,7 @@ $errs
 # Always carry the complete diff as an attachment
 # this will include all of the relevant NVRs
 git diff data/Rawhide > $attachment_dir/package_changes.diff
+gzip $attachment_dir/package_changes.diff
 
 # Check whether our
 if [ $modified -gt 0 ]; then
@@ -111,7 +112,7 @@ fi
 echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
-     -a $attachment_dir/package_changes.diff \
+     -a $attachment_dir/package_changes.diff.gz \
      -a $attachment_dir/module_build_service.log.gz \
      $MAIL_RECIPIENTS
 
