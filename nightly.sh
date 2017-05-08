@@ -11,6 +11,9 @@ MAIL_RECIPIENTS=${@:-"sgallagh@redhat.com"}
 CHECKOUT_PATH=$(mktemp -d)
 attachment_dir=$(mktemp -d)
 
+mock_results_config=$(grep MOCK_RESULTSDIR  /etc/module-build-service/config.py)
+read -r _ignore_ $mock_results_dir <<< $mock_results_config
+
 # Make sure we have the latest copy of depchase
 pushd $CHECKOUT_PATH
 git clone https://github.com/fedora-modularity/depchase.git
@@ -67,11 +70,20 @@ git init
 git add bootstrap.yaml
 git commit -m "Committing bootstrap.yaml"
 
+bootstrap_git_date=git log -1 --pretty=%cd --date=iso-strict
+bootstrap_git_date_utc=$(date --utc -d '$bootstrap_git_date' +%Y%m%d%H%M)
+
+bootstrap_results_dir='$mock_results_dir/module-bootstrap-master-$bootstrap_git_date_utc'
+
 mbs-build local
 
 gzip module_build_service.log
 cp module_build_service.log.gz $attachment_dir
 
+# Detect the build failures
+pushd $bootstrap_results_dir/results
+build_failures=$(grep -Fl failed *-status.log | sed 's/-status\.log$//')
+popd # $bootstrap_results_dir
 
 popd # $bootstrap_dir
 
@@ -91,6 +103,11 @@ The output from the latest update run can be found below.
 First: here's the list of errors that depchase encountered during processing:
 
 $errs
+
+Second: here's the list of packages that failed to build in the bootstrap
+set:
+
+$build_failures
 
 "
 
