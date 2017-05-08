@@ -115,7 +115,7 @@ mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -a $attachment_dir/module_build_service.log.gz \
      $MAIL_RECIPIENTS
 
-rm -Rf $complete_diff_dir
+rm -Rf $attachment_dir
 
 # Reset the git commit for future runs
 
