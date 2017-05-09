@@ -43,8 +43,6 @@ errs=$(cat $STDERR_FILE)
 rm -f $STDERR_FILE
 
 
-
-
 # Create a temporary git repository for the metadata
 brt_tmp_dir=$(mktemp -d)
 brt_dir=$brt_tmp_dir/base-runtime
@@ -56,6 +54,13 @@ $SCRIPT_DIR/make_modulemd.pl $SCRIPT_DIR/data/Rawhide $brt_dir
 
 cp base-runtime.yaml $brt_dir/
 cp bootstrap.yaml $bootstrap_dir/
+
+cp base-runtime.yaml $attachment_dir/
+gzip $attachment_dir/base-runtime.yaml
+
+cp bootstrap.yaml $attachment_dir/
+gzip $attachment_dir/bootstrap.yaml
+
 pushd $brt_dir
 
 git init
@@ -130,7 +135,8 @@ echo "$body" | \
 mail -s "[Base Runtime] Nightly Rawhide Depchase" \
      -S "from=The Base Runtime Team <rhel-next@redhat.com>" \
      -a $attachment_dir/package_changes.diff.gz \
-     -a $attachment_dir/module_build_service.log.gz \
+     -a $attachment_dir/base-runtime.yaml.gz \
+     -a $attachment_dir/bootstrap.yaml.gz \
      $MAIL_RECIPIENTS
 
 rm -Rf $attachment_dir
