@@ -80,15 +80,15 @@ bootstrap_git_date_utc=$(date --utc -d '$bootstrap_git_date' +%Y%m%d%H%M)
 
 bootstrap_results_dir='$mock_results_dir/module-bootstrap-master-$bootstrap_git_date_utc'
 
-mbs-build local
+#mbs-build local
 
-gzip module_build_service.log
-cp module_build_service.log.gz $attachment_dir
+#gzip module_build_service.log
+#cp module_build_service.log.gz $attachment_dir
 
 # Detect the build failures
-pushd $bootstrap_results_dir/results
-build_failures=$(grep -Fl failed *-status.log | sed 's/-status\.log$//')
-popd # $bootstrap_results_dir
+#pushd $bootstrap_results_dir/results
+#build_failures=$(grep -Fl failed *-status.log | sed 's/-status\.log$//')
+#popd # $bootstrap_results_dir
 
 popd # $bootstrap_dir
 
