@@ -27,6 +27,7 @@ DepchaseContext = namedtuple("DepchaseContext",
                                  'version',
                                  'milestone',
                                  'hints',
+                                 'module',
                                  'pkgfile',
                                  'hintfile',
                              ])
@@ -41,18 +42,22 @@ def process_dependencies(arch_queue, local_override=None):
             print("Arch: %s" % (depchase_ctx.arch))
 
             if depchase_ctx.os == 'Rawhide':
-                base_path = "./data/Rawhide/%s/" % depchase_ctx.arch
+                base_path = "./data/Rawhide/%s/%s/" % (
+                             depchase_ctx.module,
+                             depchase_ctx.arch)
 
             elif depchase_ctx.milestone:
-                base_path = "./data/%s/%d_%s/%s/" % (
+                base_path = "./data/%s/%d_%s/%s/%s/" % (
                              depchase_ctx.os,
                              depchase_ctx.version,
                              depchase_ctx.milestone,
+                             depchase_ctx.module,
                              depchase_ctx.arch)
             else:
-                base_path = "./data/%s/%d/%s/" % (
+                base_path = "./data/%s/%d/%s/%s/" % (
                              depchase_ctx.os,
                              depchase_ctx.version,
+                             depchase_ctx.module,
                              depchase_ctx.arch)
 
             try:
@@ -183,10 +188,12 @@ def process_dependencies(arch_queue, local_override=None):
               help='What OS version to process?')
 @click.option('--milestone', default=None,
               help='If processing a prerelease, which one?')
+@click.option('--module', default="base-runtime",
+              help='What module we are generating data for.')
 @click.option('--local-override', default=None,
               help="Specify a local filesystem repository to use for overrides "
                    "(repodata that supplements the standard repositories).")
-def main(os, version, milestone, local_override):
+def main(os, version, milestone, module, local_override):
     arch_queue = JoinableQueue()
 
     arches = ('x86_64', 'aarch64', 'i686', 'armv7hl', 'ppc64', 'ppc64le')
@@ -207,6 +214,7 @@ def main(os, version, milestone, local_override):
                                  os=os,
                                  version=version,
                                  milestone=milestone,
+                                 module=module,
                                  hints=[],
                                  pkgfile='toplevel-binary-packages.txt',
                                  hintfile='hints.txt')
