@@ -28,7 +28,8 @@ rm -Rf $CHECKOUT_PATH
 
 pushd $SCRIPT_DIR
 
-COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)")
+# Get the date of the last time files were committed for Rawhide
+COMMIT_DATE=$(git log -1 --pretty="%cr (%cd)" -- ./data/Rawhide)
 
 # Pull down the current override repository from fedorapeople
 # We will put this in a permanent location (not purged at the end of the run)
