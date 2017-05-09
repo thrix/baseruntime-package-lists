@@ -26,11 +26,15 @@ Xaw3d
 a2ps
 acl
 acpica-tools
+adobe-source-code-pro-fonts
+adobe-source-sans-pro-fonts
 adwaita-icon-theme
 aesh
 airline
 allegro
 alsa-lib
+android-json-org-java
+annotation-indexer
 ant
 ant-antunit
 ant-contrib
@@ -71,6 +75,7 @@ apache-commons-net
 apache-commons-ognl
 apache-commons-parent
 apache-commons-pool
+apache-commons-pool2
 apache-commons-validator
 apache-commons-vfs
 apache-ivy
@@ -95,6 +100,14 @@ apr-util
 aqute-bnd
 args4j
 argyllcms
+aries-blueprint-annotation-api
+aries-blueprint-api
+aries-blueprint-core
+aries-blueprint-parser
+aries-proxy-api
+aries-proxy-impl
+aries-quiesce-api
+aries-util
 arpack
 arquillian-core
 artemis
@@ -131,6 +144,7 @@ avalon-framework
 avalon-logkit
 avro
 aws-sdk-java
+axiom
 axis
 babel
 babeltrace
@@ -153,6 +167,7 @@ bison
 bitstream-vera-fonts
 blosc
 bluez
+boilerpipe
 bookkeeper
 boost
 botan
@@ -161,6 +176,7 @@ bouncycastle-mail
 bouncycastle-pg
 bouncycastle-pkix
 breeze-icon-theme
+bridge-method-injector
 bridge-utils
 brltty
 bsf
@@ -209,6 +225,7 @@ closure-compiler
 cmake
 cmdtest
 cmocka
+codegen
 codehaus-parent
 codemodel
 codenarc
@@ -219,6 +236,7 @@ compat-guile18
 compat-libwebp05
 compat-lua
 compat-openssl10
+compat-openssl10-pkcs11-helper
 compface
 compiler-rt
 cookcc
@@ -238,6 +256,7 @@ cronie
 crontabs
 cross-binutils
 cross-gcc
+cryptacular
 crypto-policies
 cryptopp
 cryptsetup
@@ -249,6 +268,9 @@ cups-filters
 curator
 curl
 curvesapi
+cxf
+cxf-build-utils
+cxf-xjc-utils
 cyrus-sasl
 dain-snappy
 datefudge
@@ -286,6 +308,7 @@ docbook-style-xsl
 docbook-utils
 docbook5-schemas
 docbook5-style-xsl
+docker-client
 dom4j
 dos2unix
 dosfstools
@@ -301,11 +324,24 @@ easymock
 ebtables
 ecj
 eclipse
+eclipse-cdt
 eclipse-ecf
+eclipse-egit
 eclipse-emf
 eclipse-filesystem
+eclipse-gef
 eclipse-jgit
+eclipse-launchbar
 eclipse-license
+eclipse-linuxtools
+eclipse-mylyn
+eclipse-photran
+eclipse-ptp
+eclipse-remote
+eclipse-rse
+eclipse-subclipse
+eclipse-swtbot
+eclipse-tm-terminal
 eclipse-xsd
 eclipselink
 eclipselink-persistence-api
@@ -343,6 +379,7 @@ erlang-rpm-macros
 erlang-sd_notify
 esound
 espeak
+evo-inflector
 exec-maven-plugin
 execstack
 exempi
@@ -377,6 +414,8 @@ felix-osgi-obr
 felix-osgi-obr-resolver
 felix-parent
 felix-scr
+felix-scr-annotations
+felix-scr-generator
 felix-shell
 felix-utils
 fftw
@@ -424,8 +463,10 @@ gdbm
 gdisk
 gdk-pixbuf2
 geany
+gemini-blueprint
 generatorrunner
 geoclue2
+geolatte-geom
 geronimo-annotation
 geronimo-commonj
 geronimo-ejb
@@ -533,6 +574,7 @@ groovy
 groovy18
 grub2
 grubby
+gsbase
 gsettings-desktop-schemas
 gsl
 gsm
@@ -578,6 +620,7 @@ hibernate
 hibernate-commons-annotations
 hibernate-jpa-2.0-api
 hibernate-jpa-2.1-api
+hibernate-search
 hibernate-validator
 hibernate3
 hibernate4
@@ -635,6 +678,8 @@ itstool
 iw
 jFormatString
 jack-audio-connection-kit
+jackcess
+jackcess-encrypt
 jackson
 jackson-annotations
 jackson-core
@@ -643,6 +688,8 @@ jackson-dataformat-cbor
 jackson-dataformat-smile
 jackson-dataformat-xml
 jackson-dataformat-yaml
+jackson-datatype-joda
+jackson-datatypes-collections
 jackson-jaxrs-providers
 jackson-module-jaxb-annotations
 jackson-parent
@@ -661,10 +708,12 @@ jansson
 jarjar
 jasper
 jasperreports
+jasypt
 jatl
 java-1.8.0-openjdk
 java-base64
 java-comment-preprocessor
+java-libpst
 java-oauth
 java-service-wrapper
 java-xmlbuilder
@@ -746,9 +795,13 @@ jdepend
 jdependency
 jdiff
 jdo-api
+jdo2-api
 jdom
 jdom2
+je
+jedis
 jemalloc
+jenkins-xstream
 jeromq
 jersey
 jersey1
@@ -778,6 +831,7 @@ jhighlight
 jibx
 jline
 jline1
+jmatio
 jmh
 jmock
 jna
@@ -794,6 +848,7 @@ johnzon
 joni
 jopt-simple
 jq
+jredis
 jruby
 js
 js-jquery
@@ -820,7 +875,10 @@ jts
 jul-to-slf4j-stub
 junit
 junit-addons
+junitperf
+juniversalchardet
 jvnet-parent
+jwnl
 jython
 jzlib
 kate4
@@ -852,8 +910,10 @@ latex2html
 lato-fonts
 lcms2
 ldapjdk
+ldaptive
 ldc
 less
+lettuce
 leveldb
 leveldb-java
 leveldbjni
@@ -907,7 +967,6 @@ libbluray
 libbonobo
 libbonoboui
 libbs2b
-libbsd
 libbytesize
 libcacard
 libcanberra
@@ -1114,12 +1173,14 @@ log4j-jboss-logmanager
 log4j12
 logback
 logrotate
+lpg
 lttng-ust
 lua
 lua-lunit
 lua-posix
 luajit
 lucene
+lucene3
 lucene4
 lutok
 lvm2
@@ -1159,6 +1220,7 @@ maven-dependency-tree
 maven-deploy-plugin
 maven-doxia
 maven-doxia-sitetools
+maven-eclipse-plugin
 maven-enforcer
 maven-file-management
 maven-filtering
@@ -1219,6 +1281,7 @@ mesa
 mesa-demos
 mesa-libGLU
 meson
+metadata-extractor2
 metainf-services
 metrics
 mftrace
@@ -1240,8 +1303,10 @@ mojarra
 mojo-parent
 mokutil
 mongo-java-driver
+mongo-java-driver2
 mono
 morfologik-stemming
+morphia
 mozilla-filesystem
 mozjs17
 mpfr
@@ -1261,6 +1326,7 @@ mx4j
 mxml
 mybatis
 mybatis-parent
+mysema-commons-lang
 mysql-connector-java
 nailgun
 narayana
@@ -1271,6 +1337,7 @@ native2ascii-maven-plugin
 ncompress
 ncurses
 neXtaw
+neethi
 nekohtml
 net-snmp
 net-tools
@@ -1441,6 +1508,7 @@ nodejs-iconv-lite
 nodejs-inflight
 nodejs-inherits
 nodejs-inherits1
+nodejs-interpret
 nodejs-is
 nodejs-is-absolute
 nodejs-is-builtin-module
@@ -1528,6 +1596,7 @@ nodejs-qs
 nodejs-read-package-json
 nodejs-readable-stream
 nodejs-readdirp
+nodejs-rechoir
 nodejs-replace-require-self
 nodejs-request
 nodejs-require-directory
@@ -1635,6 +1704,8 @@ openjpeg
 openjpeg2
 openldap
 openmpi
+opennlp
+opensaml-java
 opensm
 opensp
 openssh
@@ -2436,6 +2507,7 @@ protobuf
 protoparser
 protostream
 proxool
+proxytoys
 psmisc
 pstoedit
 psutils
@@ -2623,7 +2695,6 @@ python3
 python3-cairo
 python3-mallard-ducktype
 python3-memcached
-python3-pkgversion-macros
 pytz
 pywbem
 pyxattr
@@ -2664,6 +2735,7 @@ qt5-qtxmlpatterns
 qtsoap
 qtwebkit
 quartz
+querydsl3
 quota
 rabbitmq-java-client
 rabbitmq-server
@@ -2679,6 +2751,7 @@ redhat-lsb
 redhat-menus
 redhat-rpm-config
 redis
+redis-protocol
 reflectasm
 reflections
 regexp
@@ -2768,6 +2841,7 @@ rubygem-metaclass
 rubygem-method_source
 rubygem-mime-types
 rubygem-mime-types-data
+rubygem-minitest
 rubygem-minitest4
 rubygem-mocha
 rubygem-multi_json
@@ -2842,6 +2916,7 @@ rubypick
 rust
 rust-rpm-macros
 rxjava
+rxtx
 sac
 samba
 sanlock
@@ -2875,6 +2950,8 @@ shadow-utils
 shared-mime-info
 sharutils
 sheepdog
+shibboleth-java-parent-v3
+shibboleth-java-support
 shiboken
 shim
 shim-signed
@@ -2915,9 +2992,19 @@ spice
 spice-parent
 spice-protocol
 spock
+spring-ldap
 springframework
+springframework-amqp
+springframework-batch
+springframework-data-commons
+springframework-data-mongodb
+springframework-data-redis
+springframework-hateoas
+springframework-plugin
+springframework-retry
 spymemcached
 sqlite
+sqlite-jdbc
 sqlite2
 sshj
 sslext
@@ -2936,7 +3023,9 @@ stunnel
 subunit
 subversion
 suitesparse
+swagger-core
 swig
+swt-chart
 symlinks
 sysfsutils
 syslinux
@@ -2960,9 +3049,11 @@ testng
 texi2html
 texinfo
 texlive
+thredds
 thrift
 tidy
 tiger-types
+tika
 tiles
 time
 tix
@@ -3020,6 +3111,7 @@ velocity-tools
 vim
 virglrenderer
 volume_key
+vorbis-java
 vsftpd
 vte
 vte291
@@ -3047,7 +3139,10 @@ wireshark
 woodstox-core
 words
 ws-commons-util
+ws-jaxme
+ws-xmlschema
 wsdl4j
+wss4j
 wxGTK
 wxGTK3
 wxPython
