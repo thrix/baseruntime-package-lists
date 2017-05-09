@@ -77,7 +77,7 @@ git add bootstrap.yaml
 git commit -m "Committing bootstrap.yaml"
 
 bootstrap_git_date=$(git log -1 --pretty=%cd --date=iso-strict)
-bootstrap_git_date_utc=$(date --utc -d '$bootstrap_git_date' +%Y%m%d%H%M)
+bootstrap_git_date_utc=$(date --utc -d "$bootstrap_git_date" +%Y%m%d%H%M)
 
 bootstrap_results_dir='$mock_results_dir/module-bootstrap-master-$bootstrap_git_date_utc'
 
