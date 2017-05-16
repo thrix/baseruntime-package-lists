@@ -4147,6 +4147,7 @@ python2-funcsigs
 python2-functools32
 python2-gflags
 python2-gluster
+python2-gpg
 python2-hawkey
 python2-html5lib
 python2-httpbin
@@ -4301,6 +4302,7 @@ python3-gflags
 python3-gobject
 python3-gobject-base
 python3-google-apputils
+python3-gpg
 python3-hawkey
 python3-html5lib
 python3-httpbin

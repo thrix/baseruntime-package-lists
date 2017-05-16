@@ -1,9 +1,9 @@
 1:NetworkManager-1.6.2-1.fc26.src
 0:acl-2.2.52-13.fc26.src
-0:anaconda-26.21.1-1.fc26.src
+0:anaconda-26.21.6-1.fc26.src
 0:attr-2.4.47-18.fc26.src
 0:audit-2.7.3-1.fc26.src
-0:augeas-1.7.0-4.fc26.src
+0:augeas-1.8.0-1.fc26.src
 0:authconfig-7.0.0-2.fc26.src
 0:basesystem-11-3.fc26.src
 0:bash-4.4.11-2.fc26.src
@@ -32,10 +32,10 @@
 12:dhcp-4.3.5-3.fc26.src
 0:diffutils-3.5-3.fc26.src
 0:dmraid-1.0.0.rc16-31.fc26.src
-0:dnf-2.1.0-1.fc26.src
+0:dnf-2.4.1-1.fc26.src
 0:dosfstools-4.1-2.fc26.src
 0:dracut-044-177.fc26.src
-0:drpm-0.3.0-4.fc26.src
+0:drpm-0.3.0-6.fc26.src
 0:e2fsprogs-1.43.4-2.fc26.src
 0:ebtables-2.0.10-22.fc26.src
 0:elfutils-0.168-5.fc26.src
@@ -79,7 +79,7 @@
 0:jansson-2.10-1.fc26.src
 0:json-c-0.12-8.fc26.src
 0:kbd-2.0.4-2.fc26.src
-0:kexec-tools-2.0.14-4.fc26.src
+0:kexec-tools-2.0.14-4.fc26.2.src
 0:keyutils-1.5.9-9.fc26.src
 0:kmod-24-1.fc26.src
 0:krb5-1.15-9.fc26.src
@@ -95,7 +95,7 @@
 0:libcomps-0.1.8-3.fc26.src
 0:libdaemon-0.14-11.fc26.src
 0:libdb-5.3.28-17.fc26.src
-0:libdnf-0.7.4-1.fc26.src
+0:libdnf-0.8.2-1.fc26.src
 0:libedit-3.1-17.20160618cvs.fc26.src
 0:libffi-3.1-10.fc26.src
 0:libgcrypt-1.7.6-2.fc26.src
@@ -132,7 +132,7 @@
 0:libunistring-0.9.7-1.fc26.src
 1:libusb-0.1.5-8.fc26.src
 0:libusbx-1.0.21-2.fc26.src
-0:libuser-0.62-6.fc26.src
+0:libuser-0.62-7.fc27.src
 0:libutempter-1.1.6-9.fc26.src
 0:libverto-0.2.6-7.fc26.src
 0:libxml2-2.9.4-2.fc26.src
@@ -142,7 +142,7 @@
 0:lz4-1.7.5-3.fc26.src
 0:lzo-2.08-9.fc26.src
 1:make-4.2.1-2.fc26.src
-0:mdadm-4.0-1.fc26.src
+0:mdadm-4.0-3.fc26.src
 0:mpfr-3.1.5-3.fc26.src
 0:ncurses-6.0-8.20170212.fc26.src
 0:nettle-3.3-2.fc26.src
@@ -167,11 +167,11 @@
 0:publicsuffix-list-20170206-1.fc26.src
 0:pyOpenSSL-16.2.0-3.fc26.src
 0:pygobject3-3.24.0-1.fc26.src
-0:pykickstart-2.33-2.fc26.src
+0:pykickstart-2.34-1.fc26.src
 0:pyparsing-2.1.10-3.fc26.src
 1:pyparted-3.10.7-6.fc26.src
 0:python-appdirs-1.4.0-10.fc26.src
-1:python-blivet-2.1.7-8.fc26.src
+1:python-blivet-2.1.7-10.fc26.src
 0:python-cffi-1.9.1-2.fc26.src
 0:python-chardet-2.3.0-3.fc26.src
 0:python-coverage-4.3.3-2.fc26.src
@@ -188,7 +188,6 @@
 0:python-ply-3.9-3.fc26.src
 0:python-pyasn1-0.2.3-1.fc26.src
 0:python-pycparser-2.14-10.fc26.src
-0:python-pygpgme-0.3-22.fc26.src
 0:python-pysocks-1.5.7-4.fc26.src
 0:python-pyudev-0.21.0-3.fc26.src
 0:python-requests-2.13.0-1.fc26.src
@@ -213,7 +212,7 @@
 2:shadow-utils-4.3.1-3.fc26.src
 0:snappy-1.1.4-3.fc26.src
 0:sqlite-3.17.0-2.fc26.src
-0:sssd-1.15.1-1.fc26.src
+0:sssd-1.15.2-3.fc26.src
 0:systemd-233-2.fc26.src
 0:texinfo-6.3-2.fc26.src
 0:tzdata-2016j-3.fc26.src

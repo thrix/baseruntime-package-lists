@@ -263,6 +263,7 @@ python3-decorator
 python3-dnf
 python3-firewall
 python3-gobject-base
+python3-gpg
 python3-hawkey
 python3-idna
 python3-iniparse
@@ -282,7 +283,6 @@ python3-pwquality
 python3-pyOpenSSL
 python3-pyasn1
 python3-pycparser
-python3-pygpgme
 python3-pyparsing
 python3-pyparted
 python3-pysocks

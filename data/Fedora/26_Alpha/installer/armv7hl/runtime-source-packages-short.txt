@@ -186,7 +186,6 @@ python-pip
 python-ply
 python-pyasn1
 python-pycparser
-python-pygpgme
 python-pysocks
 python-pyudev
 python-requests
