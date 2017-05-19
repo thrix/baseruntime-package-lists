@@ -5,7 +5,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 function usage ()
 {
     echo "USAGE:"
-    echo "recreate_srpm.sh <NVR>"
+    echo "recreate_srpm.sh <NVR> [--bumpspec]"
 }
 
 NVR=$1
@@ -50,11 +50,13 @@ pushd $PKG
 git reset --hard $GIT_COMMIT
 fedpkg sources
 
-# Bump the version so it's guaranteed to sort higher
-rpmdev-bumpspec -s 0.override. \
-                -c "Regenerating SRPM for each architecture." \
-                -u "Base Runtime Team <devel@lists.fedoraproject.org>" \
-                $PKG.spec
+if [ "x$2" = "x--bumpspec" ]; then
+    # Bump the version so it's guaranteed to sort higher
+    rpmdev-bumpspec -s 0.override. \
+                    -c "Regenerating SRPM for each architecture." \
+                    -u "Base Runtime Team <devel@lists.fedoraproject.org>" \
+                    $PKG.spec
+fi
 
 for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
     mkdir -p $OUTPUT_DIR/$arch

@@ -22,6 +22,7 @@ config_opts['dist'] = 'fc$VERNUM'  # only useful for --resultdir variable subst
 config_opts['extra_chroot_dirs'] = [ '/run/lock', ]
 config_opts['releasever'] = '$VERNUM'
 config_opts['package_manager'] = 'dnf'
+config_opts['use_bootstrap_container'] = False
 
 config_opts['yum.conf'] = """
 [main]
