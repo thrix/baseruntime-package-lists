@@ -6,6 +6,7 @@ fedora-logos
 gcc
 gdb
 glibc32
+gperftools
 grub2
 grubby
 gstreamer1-plugins-good
