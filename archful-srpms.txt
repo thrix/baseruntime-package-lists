@@ -21,7 +21,7 @@ python-qt5
 qemu
 shim
 shim-signed
+strace
 systemd
 systemtap
 valgrind
-
