@@ -12,6 +12,7 @@ grubby
 gstreamer1-plugins-good
 hwloc
 ipxe
+jack-audio-connection-kit
 kernel
 kyua-testers
 libdb4
