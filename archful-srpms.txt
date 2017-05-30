@@ -25,3 +25,4 @@ strace
 systemd
 systemtap
 valgrind
+xorg-x11-server
