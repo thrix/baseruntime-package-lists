@@ -8,6 +8,7 @@ gdb
 glibc32
 grub2
 grubby
+gstreamer1-plugins-good
 hwloc
 ipxe
 kernel
