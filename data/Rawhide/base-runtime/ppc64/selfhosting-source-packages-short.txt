@@ -172,9 +172,6 @@ bookkeeper
 boost
 botan
 bouncycastle
-bouncycastle-mail
-bouncycastle-pg
-bouncycastle-pkix
 breeze-icon-theme
 bridge-method-injector
 bridge-utils
@@ -230,7 +227,6 @@ coffee-script
 color-filesystem
 colord
 compat-guile18
-compat-libwebp05
 compat-lua
 compat-openssl10
 compat-openssl10-pkcs11-helper
@@ -356,6 +352,7 @@ epstool
 epydoc
 erlang
 erlang-eflame
+erlang-erlsyslog
 erlang-erlydtl
 erlang-getopt
 erlang-gettext
@@ -454,7 +451,6 @@ gdb
 gdbm
 gdisk
 gdk-pixbuf2
-geany
 gemini-blueprint
 generatorrunner
 geoclue2
@@ -504,7 +500,6 @@ glassfish-servlet-api
 glassfish-toplink-essentials
 glassfish-transaction-api
 glew
-glfw
 glib
 glib-networking
 glib2
@@ -719,7 +714,6 @@ javawriter
 jaxb2-common-basics
 jaxb2-maven-plugin
 jaxen
-jbig2dec
 jbigkit
 jboss-annotations-1.2-api
 jboss-classfilewriter
@@ -900,7 +894,6 @@ lato-fonts
 lcms2
 ldapjdk
 ldaptive
-ldc
 less
 lettuce
 leveldb
@@ -1279,6 +1272,7 @@ miniz
 minlog
 mocha
 mockito
+mod_http2
 modello
 mojarra
 mojo-parent
@@ -1289,6 +1283,7 @@ morfologik-stemming
 morphia
 mozilla-filesystem
 mozjs17
+mozjs38
 mpfr
 mpich
 msv
@@ -1298,7 +1293,6 @@ multithreadedtc
 multiverse
 munge
 munge-maven-plugin
-mupdf
 mustache-java
 mvel
 mx4j
@@ -1307,6 +1301,7 @@ mybatis
 mybatis-parent
 mysema-commons-lang
 mysql-connector-java
+mythes
 nailgun
 narayana
 nas
@@ -1412,7 +1407,6 @@ nodejs-dreamopt
 nodejs-duplexer
 nodejs-ebnf-parser
 nodejs-ejs
-nodejs-emojione
 nodejs-end-of-stream
 nodejs-entities
 nodejs-es-abstract
@@ -2042,12 +2036,14 @@ perl-Module-Install
 perl-Module-Install-AuthorRequires
 perl-Module-Install-AuthorTests
 perl-Module-Install-AutoLicense
+perl-Module-Install-AutoManifest
 perl-Module-Install-ExtraTests
 perl-Module-Install-GithubMeta
 perl-Module-Install-ManifestSkip
 perl-Module-Install-ReadmeFromPod
 perl-Module-Install-ReadmeMarkdownFromPod
 perl-Module-Install-Repository
+perl-Module-Install-TestBase
 perl-Module-Load
 perl-Module-Load-Conditional
 perl-Module-Manifest
@@ -2173,6 +2169,7 @@ perl-Probe-Perl
 perl-Readonly
 perl-Readonly-XS
 perl-Ref-Util
+perl-Ref-Util-XS
 perl-Regexp-Common
 perl-Return-Type
 perl-Role-Tiny
@@ -2491,6 +2488,7 @@ pulseaudio
 pyOpenSSL
 pycairo
 pycryptopp
+pyelftools
 pyflakes
 pygobject2
 pygobject3
@@ -2618,6 +2616,7 @@ python-reportlab
 python-repoze-lru
 python-requests
 python-restkit
+python-rpm-generators
 python-rpm-macros
 python-scour
 python-selenium
@@ -2628,6 +2627,7 @@ python-setuptools_scm
 python-simplejson
 python-singledispatch
 python-six
+python-slip
 python-snowballstemmer
 python-socketpool
 python-sphinx
@@ -3053,6 +3053,7 @@ uima-parent-pom
 uimaj
 unbound
 undertow
+unicode-emoji
 unicode-ucd
 uniconvertor
 unixODBC
@@ -3077,7 +3078,6 @@ virglrenderer
 volume_key
 vorbis-java
 vsftpd
-vte
 vte291
 vulkan
 w3m

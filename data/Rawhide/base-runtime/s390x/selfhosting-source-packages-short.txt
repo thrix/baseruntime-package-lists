@@ -10,7 +10,6 @@ GraphicsMagick
 HdrHistogram
 HikariCP
 ImageMagick
-LibRaw
 ModemManager
 NetworkManager
 ORBit2
@@ -25,6 +24,7 @@ SDL2_mixer
 Xaw3d
 a2ps
 acl
+acpica-tools
 adobe-source-code-pro-fonts
 adobe-source-sans-pro-fonts
 adwaita-icon-theme
@@ -173,11 +173,12 @@ botan
 bouncycastle
 breeze-icon-theme
 bridge-method-injector
+bridge-utils
+brltty
 bsf
 bsh
 btrfs-progs
 buildnumber-maven-plugin
-bullet
 bval
 byacc
 byaccj
@@ -224,6 +225,7 @@ coffee-script
 color-filesystem
 colord
 compat-guile18
+compat-lua
 compat-openssl10
 compat-openssl10-pkcs11-helper
 compface
@@ -239,9 +241,12 @@ cpptasks
 cpptest
 cppunit
 cracklib
+crash
 crda
 cronie
 crontabs
+cross-binutils
+cross-gcc
 cryptacular
 crypto-policies
 cryptopp
@@ -262,7 +267,6 @@ dain-snappy
 datefudge
 dblatex
 dbus
-dbus-c++
 dbus-glib
 dbus-python
 dbusmenu-qt
@@ -287,6 +291,7 @@ dlm
 dmraid
 dnf
 dnsjava
+dnsmasq
 docbook-dtds
 docbook-style-dsssl
 docbook-style-xsl
@@ -297,8 +302,10 @@ docker-client
 dom4j
 dos2unix
 dosfstools
+dotconf
 doxygen
 dracut
+dtc
 dwz
 e2fsprogs
 easymock
@@ -327,7 +334,6 @@ eclipse-xsd
 eclipselink
 eclipselink-persistence-api
 ed
-efl
 ehcache-core
 ehcache-parent
 ehcache-sizeof-agent
@@ -357,6 +363,8 @@ erlang-rebar
 erlang-rpm-macros
 erlang-sd_notify
 esound
+espeak
+ethtool
 evo-inflector
 exec-maven-plugin
 execstack
@@ -370,7 +378,6 @@ fakechroot
 fakeroot
 fasterxml-oss-parent
 fastutil
-fbset
 fcgi
 fedfs-utils
 fedora-logos
@@ -407,6 +414,7 @@ firebird
 firewalld
 flac
 flex
+flite
 fltk
 fluid-soundfont
 fluidsynth
@@ -492,6 +500,7 @@ glib
 glib-networking
 glib2
 glibc
+glibc32
 glibmm24
 glpk
 glusterfs
@@ -530,7 +539,6 @@ google-gson
 google-guice
 google-roboto-slab-fonts
 gpars
-gpart
 gperf
 gperftools
 gpgme
@@ -545,7 +553,7 @@ grizzly-npn
 groff
 groovy
 groovy18
-grub2
+grubby
 gsbase
 gsettings-desktop-schemas
 gsl
@@ -564,7 +572,6 @@ gtk-doc
 gtk-sharp2
 gtk2
 gtk3
-gtkmm24
 gtkmm30
 gtkspell
 gts
@@ -635,6 +642,7 @@ iproute
 ipset
 iptables
 iputils
+ipxe
 irclib
 ironjacamar
 iscsi-initiator-utils
@@ -918,6 +926,7 @@ libXxf86dga
 libXxf86misc
 libXxf86vm
 libaio
+libao
 libappstream-glib
 libarchive
 libart_lgpl
@@ -926,13 +935,13 @@ libassuan
 libasyncns
 libatasmart
 libatomic_ops
-libavc1394
 libblockdev
 libbluray
 libbonobo
 libbonoboui
 libbs2b
 libbytesize
+libcacard
 libcanberra
 libcap
 libcap-ng
@@ -952,7 +961,6 @@ libdbi
 libdmx
 libdnf
 libdrm
-libdv
 libdvdnav
 libdvdread
 libecb
@@ -963,8 +971,6 @@ libev
 libevdev
 libevent
 libexif
-libfabric
-libffado
 libffi
 libfontenc
 libftdi
@@ -983,19 +989,16 @@ libgpg-error
 libgphoto2
 libgudev
 libgusb
-libibcm
-libibmad
-libibumad
 libibverbs
 libical
 libicns
 libidn
 libidn2
-libiec61883
 libimagequant
 libimobiledevice
 libinput
 libiptcdata
+libiscsi
 libjpeg-turbo
 libkate
 libksba
@@ -1044,13 +1047,11 @@ libpsl
 libpwquality
 libqb
 libqmi
-libraw1394
 librdmacm
 librepo
 libreport
 librevenge
 librsvg2
-librtas
 libsamplerate
 libseccomp
 libsecret
@@ -1058,16 +1059,16 @@ libselinux
 libsemanage
 libsepol
 libserf
-libservicelog
 libshout
 libsigc++20
 libsigsegv
+libsmi
 libsndfile
 libsolv
 libsoup
-libspectre
 libspiro
 libsrtp
+libssh
 libssh2
 libstemmer
 libstoragemgmt
@@ -1086,7 +1087,6 @@ libtommath
 libtool
 libuninameslist
 libunistring
-libunwind
 libusb
 libusbmuxd
 libusbx
@@ -1096,10 +1096,10 @@ libuv
 libva
 libvdpau
 libverto
+libvirt
 libvisual
 libvoikko
 libvorbis
-libvpd
 libvpx
 libwacom
 libwebp
@@ -1109,7 +1109,6 @@ libwpg
 libxcb
 libxkbcommon
 libxkbfile
-libxml++
 libxml2
 libxshmfence
 libxslt
@@ -1134,7 +1133,7 @@ log4j12
 logback
 logrotate
 lpg
-lsvpd
+lsscsi
 lttng-ust
 lua
 lua-lunit
@@ -1293,6 +1292,7 @@ neethi
 nekohtml
 net-snmp
 net-tools
+netcf
 netpbm
 nettle
 netty
@@ -1304,6 +1304,7 @@ nghttp2
 nginx
 ninja-build
 nkf
+nmap
 node-gyp
 nodejs
 nodejs-abbrev
@@ -1628,7 +1629,6 @@ nss-softokn
 nss-util
 nss_wrapper
 ntfs-3g
-numactl
 numpy
 objectweb-asm
 objectweb-asm3
@@ -1650,17 +1650,16 @@ openldap
 openmpi
 opennlp
 opensaml-java
-opensm
 opensp
 openssh
 openssl
 openwebbeans
+openwsman
 options
 optipng
 opus
 orc
 os-maven-plugin
-os-prober
 osgi-annotation
 osgi-compendium
 osgi-core
@@ -1670,7 +1669,6 @@ pacemaker
 pam
 pango
 pangomm
-papi
 paranamer
 parboiled
 parted
@@ -1678,7 +1676,6 @@ passwd
 patch
 patchutils
 pcfi
-pciutils
 pcre
 pcre2
 pcsc-lite
@@ -2429,6 +2426,7 @@ pmix
 po4a
 policycoreutils
 polkit
+polkit-pkla-compat
 polkit-qt
 poppler
 poppler-data
@@ -2440,8 +2438,6 @@ postgresql
 postgresql-jdbc
 potrace
 powermock
-powerpc-utils
-ppc64-utils
 ppp
 procmail
 procps-ng
@@ -2645,6 +2641,8 @@ pyxattr
 pyxdg
 qca
 qdox
+qemu
+qemu-sanity-check
 qhull
 qjson
 qpdf
@@ -2680,6 +2678,7 @@ querydsl3
 quota
 rabbitmq-java-client
 rabbitmq-server
+radvd
 randomizedtesting
 rarian
 re2c
@@ -2856,6 +2855,7 @@ rust
 rust-rpm-macros
 rxjava
 rxtx
+s390utils
 sac
 samba
 sanlock
@@ -2865,6 +2865,7 @@ saxon
 saxpath
 sbc
 sbinary
+sblim-sfcc
 sbt
 scala
 scannotation
@@ -2873,6 +2874,8 @@ scipy
 scl-utils
 scons
 screen
+scrub
+seabios
 sed
 selinux-policy
 sendmail
@@ -2880,11 +2883,13 @@ serp
 setools
 setup
 sg3_utils
+sgabios
 sgml-common
 sgpio
 shadow-utils
 shared-mime-info
 sharutils
+sheepdog
 shibboleth-java-parent-v3
 shibboleth-java-support
 shiboken
@@ -2918,6 +2923,7 @@ soxr
 sparsehash
 spatial4j
 spec-version-maven-plugin
+speech-dispatcher
 speex
 speexdsp
 spice-parent
@@ -2999,7 +3005,6 @@ treelayout
 trilead-ssh2
 trousers
 truth
-tslib
 ttembed
 ttmkfdir
 tuscany-sdo-java
@@ -3026,6 +3031,7 @@ unzip
 upower
 uriparser
 urw-fonts
+usbredir
 userspace-rcu
 ustr
 uthash
@@ -3038,9 +3044,11 @@ valgrind
 velocity
 velocity-tools
 vim
+virglrenderer
 volume_key
 vorbis-java
 vsftpd
+vte291
 vulkan
 w3m
 wavpack
@@ -3052,6 +3060,7 @@ webrtc-audio-processing
 weld-api
 weld-core
 weld-parent
+wget
 which
 wildfly-build-tools
 wildfly-common
@@ -3060,6 +3069,7 @@ wildfly-elytron
 wildfly-security-manager
 wildmidi
 wireless-tools
+wireshark
 woodstox-core
 words
 ws-commons-util
@@ -3089,6 +3099,7 @@ xemacs-packages-extra
 xerces-j2
 xfig
 xfsprogs
+xhtml1-dtds
 xkeyboard-config
 xml-commons-apis
 xml-commons-resolver

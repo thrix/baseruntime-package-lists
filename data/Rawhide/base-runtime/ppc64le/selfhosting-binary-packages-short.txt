@@ -475,7 +475,6 @@ colord-devel
 colord-libs
 compat-guile18
 compat-guile18-devel
-compat-libwebp05
 compat-openssl10
 compat-openssl10-devel
 compat-openssl10-pkcs11-helper
@@ -696,6 +695,7 @@ erlang-eflame
 erlang-eldap
 erlang-erl_docgen
 erlang-erl_interface
+erlang-erlsyslog
 erlang-erlydtl
 erlang-erts
 erlang-et
@@ -810,6 +810,7 @@ fipscheck-lib
 firebird
 firebird-devel
 firebird-utils
+firewalld
 firewalld-filesystem
 flac-devel
 flac-libs
@@ -838,6 +839,7 @@ freeglut-devel
 freemarker
 freetds
 freetds-devel
+freetds-libs
 freetype
 freetype-devel
 fribidi
@@ -877,8 +879,6 @@ gdk-pixbuf2-devel
 gdk-pixbuf2-modules
 gdk-pixbuf2-xlib
 gdk-pixbuf2-xlib-devel
-geany
-geany-libgeany
 gemini-blueprint
 generatorrunner
 generatorrunner-devel
@@ -972,8 +972,6 @@ glassfish-servlet-api
 glassfish-toplink-essentials
 glassfish-transaction-api
 glew-devel
-glfw
-glfw-devel
 glib
 glib-devel
 glib-networking
@@ -1154,6 +1152,7 @@ guice-extensions
 guice-parent
 guice-servlet
 guile
+guile-devel
 gvfs
 gvfs-client
 gvfs-devel
@@ -1344,8 +1343,6 @@ javawriter
 jaxb2-common-basics
 jaxb2-maven-plugin
 jaxen
-jbig2dec-devel
-jbig2dec-libs
 jbigkit-devel
 jbigkit-libs
 jboss-annotations-1.2-api
@@ -1649,11 +1646,6 @@ lcms2
 lcms2-devel
 ldapjdk
 ldaptive
-ldc
-ldc-druntime
-ldc-druntime-devel
-ldc-phobos
-ldc-phobos-devel
 less
 lettuce
 leveldb
@@ -2428,6 +2420,7 @@ maven-remote-resources-plugin
 maven-reporting-api
 maven-reporting-exec
 maven-reporting-impl
+maven-resolver
 maven-resolver-api
 maven-resolver-connector-basic
 maven-resolver-impl
@@ -2507,6 +2500,7 @@ miniz-devel
 minlog
 mocha
 mockito
+mod_http2
 modello
 mojarra
 mojo-parent
@@ -2528,6 +2522,8 @@ morphia
 mozilla-filesystem
 mozjs17
 mozjs17-devel
+mozjs38
+mozjs38-devel
 mpfr
 mpfr-devel
 mpich
@@ -2544,7 +2540,6 @@ munge
 munge-devel
 munge-libs
 munge-maven-plugin
-mupdf
 mustache-java
 mvel
 mx4j
@@ -2554,6 +2549,8 @@ mybatis
 mybatis-parent
 mysema-commons-lang
 mysql-connector-java
+mythes
+mythes-devel
 nailgun
 narayana
 nas-devel
@@ -2673,7 +2670,6 @@ nodejs-dreamopt
 nodejs-duplexer
 nodejs-ebnf-parser
 nodejs-ejs
-nodejs-emojione-json
 nodejs-end-of-stream
 nodejs-entities
 nodejs-es-abstract
@@ -3414,12 +3410,14 @@ perl-Module-Install
 perl-Module-Install-AuthorRequires
 perl-Module-Install-AuthorTests
 perl-Module-Install-AutoLicense
+perl-Module-Install-AutoManifest
 perl-Module-Install-ExtraTests
 perl-Module-Install-GithubMeta
 perl-Module-Install-ManifestSkip
 perl-Module-Install-ReadmeFromPod
 perl-Module-Install-ReadmeMarkdownFromPod
 perl-Module-Install-Repository
+perl-Module-Install-TestBase
 perl-Module-Load
 perl-Module-Load-Conditional
 perl-Module-Loaded
@@ -3549,6 +3547,7 @@ perl-Probe-Perl
 perl-Readonly
 perl-Readonly-XS
 perl-Ref-Util
+perl-Ref-Util-XS
 perl-Regexp-Common
 perl-Return-Type
 perl-Role-Tiny
@@ -4192,6 +4191,7 @@ python3-django
 python3-dnf
 python3-docutils
 python3-extras
+python3-firewall
 python3-fixtures
 python3-flake8
 python3-flask
@@ -4259,6 +4259,7 @@ python3-pycodestyle
 python3-pycparser
 python3-pycurl
 python3-pycxx-devel
+python3-pyelftools
 python3-pyflakes
 python3-pygments
 python3-pygpgme
@@ -4282,6 +4283,7 @@ python3-qt5-devel
 python3-rdflib
 python3-requests
 python3-rpm
+python3-rpm-generators
 python3-rpm-macros
 python3-rust2rpm
 python3-scipy
@@ -4294,6 +4296,8 @@ python3-simplejson
 python3-sip
 python3-sip-devel
 python3-six
+python3-slip
+python3-slip-dbus
 python3-snowballstemmer
 python3-sphinx
 python3-sphinx-theme-alabaster
@@ -4400,7 +4404,6 @@ qt5-qtsvg-devel
 qt5-qttools
 qt5-qttools-common
 qt5-qttools-devel
-qt5-qttools-libs-clucene
 qt5-qttools-libs-designer
 qt5-qttools-libs-designercomponents
 qt5-qttools-libs-help
@@ -6182,6 +6185,7 @@ uimaj
 unbound-devel
 unbound-libs
 undertow
+unicode-emoji
 unicode-ucd
 uniconvertor
 unixODBC
@@ -6214,7 +6218,6 @@ volume_key-libs
 vorbis-java
 vorbis-java-tika
 vsftpd
-vte
 vulkan
 vulkan-devel
 vulkan-filesystem

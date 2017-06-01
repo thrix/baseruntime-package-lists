@@ -22,8 +22,6 @@ ImageMagick-c++-devel
 ImageMagick-devel
 ImageMagick-libs
 ImageMagick-perl
-LibRaw
-LibRaw-devel
 ModemManager
 ModemManager-devel
 ModemManager-glib
@@ -401,11 +399,8 @@ boost
 boost-atomic
 boost-chrono
 boost-container
-boost-context
-boost-coroutine
 boost-date-time
 boost-devel
-boost-fiber
 boost-filesystem
 boost-graph
 boost-iostreams
@@ -444,8 +439,6 @@ bsf
 bsh
 btrfs-progs
 buildnumber-maven-plugin
-bullet
-bullet-devel
 bval
 bval-jsr
 byacc
@@ -534,6 +527,8 @@ cppunit
 cppunit-devel
 cracklib
 cracklib-devel
+crash
+crash-devel
 crda
 cronie
 cronie-noanacron
@@ -581,10 +576,6 @@ dain-snappy
 datefudge
 dblatex
 dbus
-dbus-c++
-dbus-c++-devel
-dbus-c++-ecore
-dbus-c++-glib
 dbus-devel
 dbus-glib
 dbus-glib-devel
@@ -648,8 +639,6 @@ doxygen
 doxygen-latex
 dracut
 dwz
-dyninst
-dyninst-devel
 e2fsprogs
 e2fsprogs-devel
 e2fsprogs-libs
@@ -693,8 +682,6 @@ eclipse-xsd
 eclipselink
 eclipselink-persistence-api
 ed
-efl
-efl-devel
 ehcache-core
 ehcache-parent
 ehcache-sizeof-agent
@@ -786,6 +773,7 @@ esound-devel
 esound-libs
 espeak
 espeak-devel
+ethtool
 evo-inflector
 exec-maven-plugin
 execstack
@@ -803,14 +791,12 @@ fakeroot
 fakeroot-libs
 fasterxml-oss-parent
 fastutil
-fbset
 fcgi
 fcgi-devel
 fedfs-utils-common
 fedfs-utils-devel
 fedfs-utils-lib
 fedfs-utils-nsdbparams
-fedora-logos
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1107,7 +1093,6 @@ google-gson
 google-guice
 google-roboto-slab-fonts
 gpars
-gpart
 gperf
 gperftools-devel
 gperftools-libs
@@ -1154,8 +1139,6 @@ groovy-testng
 groovy-xml
 groovy18
 groovy18-lib
-grub2
-grub2-tools
 grubby
 gsbase
 gsettings-desktop-schemas
@@ -1189,8 +1172,6 @@ gtk2
 gtk2-devel
 gtk3
 gtk3-devel
-gtkmm24
-gtkmm24-devel
 gtkmm30
 gtkmm30-devel
 gtkspell
@@ -1653,7 +1634,6 @@ kdelibs-common
 kdelibs-devel
 kdelibs-ktexteditor
 kdelibs-webkit
-kernel-bootwrapper
 kernel-core
 kernel-devel
 kernel-headers
@@ -1803,8 +1783,6 @@ libatomic_ops-devel
 libatomic_ops-static
 libattr
 libattr-devel
-libavc1394
-libavc1394-devel
 libbabeltrace
 libbabeltrace-devel
 libbasicobjects
@@ -1891,14 +1869,10 @@ libdnf
 libdnf-devel
 libdrm
 libdrm-devel
-libdv
-libdv-devel
 libdvdnav
 libdvdnav-devel
 libdvdread
 libdvdread-devel
-libdwarf
-libdwarf-devel
 libecb-devel
 libedit
 libedit-devel
@@ -1917,15 +1891,11 @@ libevent
 libevent-devel
 libexif
 libexif-devel
-libfabric
-libfabric-devel
 libfbclient2
 libfbclient2-devel
 libfdisk
 libfdt
 libfdt-devel
-libffado
-libffado-devel
 libffi
 libffi-devel
 libfontenc
@@ -1975,12 +1945,6 @@ libgudev-devel
 libgusb
 libgusb-devel
 libib-util
-libibcm
-libibcm-devel
-libibmad
-libibmad-devel
-libibumad
-libibumad-devel
 libibverbs
 libibverbs-devel
 libical
@@ -1993,8 +1957,6 @@ libidn
 libidn-devel
 libidn2
 libidn2-devel
-libiec61883
-libiec61883-devel
 libimagequant
 libimagequant-devel
 libimobiledevice
@@ -2100,7 +2062,6 @@ libpeas-devel
 libpeas-gtk
 libpfm
 libpfm-devel
-libpfm-static
 libpipeline
 libpipeline-devel
 libpkgconf
@@ -2127,8 +2088,6 @@ librados-devel
 librados2
 libradosstriper-devel
 libradosstriper1
-libraw1394
-libraw1394-devel
 librbd-devel
 librbd1
 librdmacm
@@ -2142,8 +2101,6 @@ librevenge
 librevenge-devel
 librsvg2
 librsvg2-devel
-librtas
-librtas-devel
 libsamplerate
 libsamplerate-devel
 libseccomp
@@ -2163,8 +2120,6 @@ libsepol-devel
 libsepol-static
 libserf
 libserf-devel
-libservicelog
-libservicelog-devel
 libshout
 libshout-devel
 libsigc++20
@@ -2182,8 +2137,6 @@ libsolv
 libsolv-devel
 libsoup
 libsoup-devel
-libspectre
-libspectre-devel
 libspiro
 libspiro-devel
 libsrtp
@@ -2239,8 +2192,6 @@ libuninameslist
 libuninameslist-devel
 libunistring
 libunistring-devel
-libunwind
-libunwind-devel
 libusb
 libusb-devel
 libusbmuxd
@@ -2272,8 +2223,6 @@ libvoikko
 libvoikko-devel
 libvorbis
 libvorbis-devel
-libvpd
-libvpd-devel
 libvpx
 libvpx-devel
 libwacom
@@ -2303,8 +2252,6 @@ libxkbcommon-x11
 libxkbcommon-x11-devel
 libxkbfile
 libxkbfile-devel
-libxml++
-libxml++-devel
 libxml2
 libxml2-devel
 libxshmfence
@@ -2354,7 +2301,7 @@ log4j12
 logback
 logrotate
 lpg-java-compat
-lsvpd
+lsscsi
 lttng-ust
 lttng-ust-devel
 lua
@@ -3008,9 +2955,8 @@ nss-tools
 nss-util
 nss-util-devel
 nss_wrapper
-numactl-devel
-numactl-libs
-numad
+ntfs-3g
+ntfsprogs
 objectweb-asm
 objectweb-asm3
 objectweb-pom
@@ -3026,7 +2972,6 @@ oniguruma-devel
 openal-soft
 openal-soft-devel
 openblas
-openblas-Rblas
 openblas-devel
 openblas-openmp
 openblas-openmp64
@@ -3069,8 +3014,6 @@ opensaml-java-xacml-saml-api
 opensaml-java-xacml-saml-impl
 opensaml-java-xmlsec-api
 opensaml-java-xmlsec-impl
-opensm-devel
-opensm-libs
 opensp
 opensp-devel
 openssh
@@ -3091,7 +3034,6 @@ orc
 orc-compiler
 orc-devel
 os-maven-plugin
-os-prober
 osgi-annotation
 osgi-compendium
 osgi-core
@@ -3109,9 +3051,6 @@ pango
 pango-devel
 pangomm
 pangomm-devel
-papi
-papi-devel
-papi-libs
 paranamer
 parboiled
 parted
@@ -3120,9 +3059,6 @@ passwd
 patch
 patchutils
 pcfi
-pciutils
-pciutils-devel
-pciutils-libs
 pcre
 pcre-cpp
 pcre-devel
@@ -3975,8 +3911,6 @@ powermock-common
 powermock-core
 powermock-junit4
 powermock-reflect
-powerpc-utils
-ppc64-utils
 ppp
 ppp-devel
 procmail
@@ -4735,6 +4669,8 @@ rust-rpm-macros
 rust-std-static
 rxjava
 rxtx
+s390utils-base
+s390utils-cmsfs-fuse
 sac
 samba-client-libs
 samba-common
@@ -4772,7 +4708,7 @@ sendmail
 serp
 setools-python3
 setup
-sg3_utils-devel
+sg3_utils
 sg3_utils-libs
 sgabios-bin
 sgml-common
@@ -4915,6 +4851,7 @@ swagger-core-models
 swig
 swt-chart
 symlinks
+sysfsutils
 system-python
 system-python-libs
 systemd
@@ -6266,8 +6203,6 @@ trilead-ssh2
 trousers-devel
 trousers-lib
 truth
-tslib
-tslib-devel
 ttembed
 ttmkfdir
 tuscany-sdo-java

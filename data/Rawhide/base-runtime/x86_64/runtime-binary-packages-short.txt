@@ -137,6 +137,7 @@ libstdc++-devel
 libtasn1
 libtool-ltdl
 libunistring
+libusbx
 libutempter
 libuuid
 libverto
@@ -184,14 +185,6 @@ procps-ng
 pth
 pth-devel
 python-srpm-macros
-python3
-python3-appdirs
-python3-libs
-python3-packaging
-python3-pip
-python3-pyparsing
-python3-setuptools
-python3-six
 qrencode-libs
 qt5-srpm-macros
 readline
@@ -211,7 +204,6 @@ syslinux
 syslinux-extlinux
 syslinux-extlinux-nonlinux
 syslinux-nonlinux
-system-python
 system-python-libs
 systemd
 systemd-libs

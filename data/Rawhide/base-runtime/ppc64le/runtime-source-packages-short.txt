@@ -99,6 +99,7 @@ libsolv
 libtasn1
 libtool
 libunistring
+libusbx
 libutempter
 libverto
 libvpd
@@ -151,13 +152,7 @@ powerpc-utils
 ppc64-utils
 procps-ng
 pth
-pyparsing
-python-appdirs
-python-packaging
-python-pip
 python-rpm-macros
-python-setuptools
-python-six
 python3
 qrencode
 qt5
