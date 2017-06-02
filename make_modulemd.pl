@@ -19,7 +19,7 @@ sub HELP_MESSAGE {
 }
 
 sub getbuild {
-    return $_[0] =~ s/^\d+:(.+)\.[^.]+$/$1/r;
+    return $_[0] =~ s/^(.+?)-(?:\d+:)?([^-]+-[^-]+)\.[^.]+$/$1-$2/r;
 }
 
 sub getname {
