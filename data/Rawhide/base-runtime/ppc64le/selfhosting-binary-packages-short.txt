@@ -3076,7 +3076,7 @@ perl-Archive-Extract
 perl-Archive-Extract-Z-uncompress
 perl-Archive-Extract-bz2-bunzip2
 perl-Archive-Extract-gz-gzip
-perl-Archive-Extract-lzma-Compress-unLZMA
+perl-Archive-Extract-lzma-unlzma
 perl-Archive-Extract-tar-tar
 perl-Archive-Extract-tbz-tar-bunzip2
 perl-Archive-Extract-tgz-tar-gzip

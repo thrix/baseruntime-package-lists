@@ -3076,7 +3076,7 @@ perl-Archive-Extract-1:0.80-2.fc26.noarch
 perl-Archive-Extract-Z-uncompress-1:0.80-2.fc26.noarch
 perl-Archive-Extract-bz2-bunzip2-1:0.80-2.fc26.noarch
 perl-Archive-Extract-gz-gzip-1:0.80-2.fc26.noarch
-perl-Archive-Extract-lzma-Compress-unLZMA-1:0.80-2.fc26.noarch
+perl-Archive-Extract-lzma-unlzma-1:0.80-2.fc26.noarch
 perl-Archive-Extract-tar-tar-1:0.80-2.fc26.noarch
 perl-Archive-Extract-tbz-tar-bunzip2-1:0.80-2.fc26.noarch
 perl-Archive-Extract-tgz-tar-gzip-1:0.80-2.fc26.noarch
