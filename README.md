@@ -44,7 +44,16 @@ I will use the following terms or variables in this document:
 For example: Fedora 25 would be `25`, but Fedora 26 Beta would be
 `test/26_beta`.
 
-`<arch>`: The processor architecture, such as `x86_64` or `aarch64`.
+`<arch>`: The processor architecture. Supports
+* `aarch64`
+* `armv7hl`
+* `i686`
+* `ppc64`
+* `ppc64le`
+* `s390x`
+* `x86_64`
+
+(Note: some infrastructure tools use other architecture names for things; these scripts will automatically translate from e.g. `armv7hl` to `armhfp` where needed, so always use one of these for command-line arguments.)
 
 ### Installing depchase
 
