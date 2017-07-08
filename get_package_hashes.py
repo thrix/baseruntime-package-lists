@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 import sys
 import koji
@@ -18,4 +18,4 @@ for i in range(len(args)):
             nvrs.append(args[i])
 ret = ks.multiCall(strict=True)
 for i in range(len(nvrs)):
-    print nvrs[i], koji.taskLabel(ret[i][0])
+    print(nvrs[i], koji.taskLabel(ret[i][0]))
