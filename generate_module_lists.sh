@@ -222,8 +222,8 @@ for arch in ${_arg_arch[@]}; do
     export LC_ALL=C
     for f in $modulearchroot/{runtime,selfhosting}-{binary,source}-packages-{full,short}.txt; do
         sort -u $f -o $f
-    export LC_ALL=$LC_SAVED
     done
+    export LC_ALL=$LC_SAVED
 
     cat $modulearchroot/runtime-source-packages-full.txt |
     sed -e 's/\([[:digit:]]\+:\)//g' |
