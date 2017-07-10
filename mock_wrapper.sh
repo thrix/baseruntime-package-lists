@@ -75,9 +75,12 @@ mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $SCRIPT_DIR/get_pa
                                            /opt/srpm/get_package_hashes.py
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyin $2 \
                                            /opt/srpm/srpms.txt
-mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --cwd=/opt/srpm/output --chroot \
-    "cat /opt/srpm/srpms.txt | xargs --max-procs=$PROCESSORS -I NVR \
-    /opt/srpm/recreate_srpm.sh NVR"
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --chroot "mkdir -p /opt/srpm/output"
+mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --chroot \
+    "pushd /opt/srpm/output; \
+    cat /opt/srpm/srpms.txt | xargs --max-procs=$PROCESSORS -I NVR \
+    /opt/srpm/recreate_srpm.sh NVR \
+    popd"
 rm -Rf ./output
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg --copyout /opt/srpm/output ./output
 
