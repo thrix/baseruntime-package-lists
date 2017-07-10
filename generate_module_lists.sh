@@ -220,8 +220,11 @@ for arch in ${_arg_arch[@]}; do
 
     LC_SAVED=$LC_ALL
     export LC_ALL=C
-    for f in $modulearchroot/{runtime,selfhosting}-{binary,source}-packages-{full,short}.txt; do
+    for f in $modulearchroot/{runtime,selfhosting}-{binary,source}-packages-short.txt; do
         sort -u $f -o $f
+    done
+    for f in $modulearchroot/{runtime,selfhosting}-{binary,source}-packages-full.txt; do
+        rpmdev-sort $f > $f.new && mv -f $f.new $f
     done
     export LC_ALL=$LC_SAVED
 

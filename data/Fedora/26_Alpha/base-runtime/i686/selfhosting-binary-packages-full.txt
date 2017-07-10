@@ -920,8 +920,8 @@ gcc-arm-linux-gnu-7.0.1-0.4.fc26.i686
 gcc-c++-7.0.1-0.10.fc26.i686
 gcc-gfortran-7.0.1-0.10.fc26.i686
 gcc-gnat-7.0.1-0.10.fc26.i686
-gcc-objc++-7.0.1-0.10.fc26.i686
 gcc-objc-7.0.1-0.10.fc26.i686
+gcc-objc++-7.0.1-0.10.fc26.i686
 gcc-x86_64-linux-gnu-7.0.1-0.4.fc26.i686
 gcr-3.20.0-4.fc26.i686
 gcr-devel-3.20.0-4.fc26.i686
@@ -1621,8 +1621,8 @@ js-devel-1:1.8.5-27.fc26.i686
 js-jquery-2.2.4-2.fc26.noarch
 js-jquery1-1.12.4-3.fc26.noarch
 js-sizzle-2.1.1-4.jquery.2.1.2.fc26.noarch
-js-uglify-1-1.3.4-12.fc26.noarch
 js-uglify-2.7.0-3.fc26.noarch
+js-uglify-1-1.3.4-12.fc26.noarch
 jsch-0.1.54-4.fc26.noarch
 jsch-agent-proxy-connector-factory-0.0.8-4.fc26.noarch
 jsch-agent-proxy-core-0.0.8-4.fc26.noarch
@@ -1815,9 +1815,9 @@ libasyncns-0.8-11.fc26.i686
 libasyncns-devel-0.8-11.fc26.i686
 libatasmart-0.19-10.fc26.i686
 libatasmart-devel-0.19-10.fc26.i686
+libatf-c-0.20-7.fc26.i686
 libatf-c++-0.20-7.fc26.i686
 libatf-c++-devel-0.20-7.fc26.i686
-libatf-c-0.20-7.fc26.i686
 libatf-c-devel-0.20-7.fc26.i686
 libatf-sh-0.20-7.fc26.i686
 libatf-sh-devel-0.20-7.fc26.i686
@@ -4998,8 +4998,8 @@ testng-6.9.12-4.fc26.noarch
 texi2html-5.0-5.fc26.noarch
 texinfo-6.3-2.fc26.i686
 texinfo-tex-6.3-2.fc26.i686
-texlive-12many-6:svn15878.0.3-32.fc26.1.noarch
 texlive-6:2016-32.20160520.fc26.i686
+texlive-12many-6:svn15878.0.3-32.fc26.1.noarch
 texlive-FAQ-en-doc-6:svn34303.3.28-32.fc26.1.noarch
 texlive-MemoirChapStyles-doc-6:svn25918.1.7e-32.fc26.1.noarch
 texlive-SIunits-6:svn15878.1.36-32.fc26.1.noarch
@@ -6480,8 +6480,8 @@ xmlenc-0.53-14.fc26.noarch
 xmlgraphics-commons-2.0.1-3.fc26.noarch
 xmlrpc-c-1.48.0-3.fc26.i686
 xmlrpc-c-c++-1.48.0-3.fc26.i686
-xmlrpc-c-client++-1.48.0-3.fc26.i686
 xmlrpc-c-client-1.48.0-3.fc26.i686
+xmlrpc-c-client++-1.48.0-3.fc26.i686
 xmlrpc-c-devel-1.48.0-3.fc26.i686
 xmlrpc-client-1:3.1.3-16.fc26.noarch
 xmlrpc-common-1:3.1.3-16.fc26.noarch
