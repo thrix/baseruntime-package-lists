@@ -64,7 +64,7 @@ EOF
 # Compare and replace if it has changed
 touch $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg
 if ! diff -q $tmp_cfg $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg ; then
-    mv $tmp_cfg $tmp_cfg $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg
+    mv $tmp_cfg $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg
 fi
 
 mock -r $SCRIPT_DIR/fedora-$RELEASEVER-multiarch.cfg init
