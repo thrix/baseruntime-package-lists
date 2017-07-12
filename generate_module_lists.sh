@@ -139,6 +139,12 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 module=$_arg_module
 version=$_arg_version
 milestone=$_arg_milestone
+
+if [ $version == "Rawhide" ]; then
+    # backwards-compatible
+    version="rawhide"
+fi
+
 repocfg="$(readlink -f $_arg_repo_path)/Fedora-$version-$milestone-repos.cfg"
 
 if [ $milestone == "GA" ]; then

@@ -189,18 +189,26 @@ milestone=$_arg_milestone
 
 mkdir -p ${_arg_repo_path}
 
+if [ $_arg_release == "Rawhide" ]; then
+    # Backwards-compatible
+    _arg_release="rawhide"
+fi
 
-repo_config_file="${_arg_repo_path}/Fedora-${version}-${milestone}-repos.cfg"
+repo_config_file="${_arg_repo_path}/Fedora-${_arg_release}-${milestone}-repos.cfg"
 echo > $repo_config_file
 
-if [ $_arg_release == "Rawhide" ]; then
+if [ $_arg_release == "rawhide" ]; then
+
+    if [ $_arg_updates == "on" ]; then
+        echo "--updates is not compatible with --release=rawhide"
+        exit 1
+    fi
+
     alt_arch_frozen_base="rsync://mirrors.kernel.org/fedora-secondary/development/rawhide/Everything"
     primary_arch_frozen_base="rsync://mirrors.kernel.org/fedora/development/rawhide/Everything"
 
-    # This is a hack; fix it later to auto-detect
-    # We need to do this to ensure that we set up the right primary and
-    # alternative architectures
-    version=27
+    version=$(koji list-targets --name=rawhide --quiet |awk '{ print $2 }' | tr -d 'f[=-=]build')
+    version_path="rawhide"
 else
     if [ "$_arg_alt_stage" != "" ]; then
         # Pull the repo from the staging area for release candidates
@@ -281,7 +289,7 @@ if [ "$_arg_archful_srpm_file" != "" ]; then
     # Generate the archful SRPMs
     echo "Regenerating archful SRPMs"
     pushd $tmp_dir
-        $SCRIPT_DIR/mock_wrapper.sh $version $nvr_file
+        $SCRIPT_DIR/mock_wrapper.sh ${_arg_release} $nvr_file
     popd
 fi
 
