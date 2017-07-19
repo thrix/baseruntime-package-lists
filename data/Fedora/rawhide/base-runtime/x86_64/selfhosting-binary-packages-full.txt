@@ -1602,8 +1602,8 @@ jmock-2.8.2-3.fc26.noarch
 jmock-junit4-2.8.2-3.fc26.noarch
 jmock-legacy-2.8.2-3.fc26.noarch
 jmock-testjar-2.8.2-3.fc26.noarch
-jna-4.4.0-2.fc27.x86_64
-jna-contrib-4.4.0-2.fc27.noarch
+jna-4.4.0-5.fc27.x86_64
+jna-contrib-4.4.0-5.fc27.noarch
 jnr-constants-0.9.9-1.fc27.noarch
 jnr-enxio-0.16-1.fc27.noarch
 jnr-ffi-2.1.6-1.fc27.noarch

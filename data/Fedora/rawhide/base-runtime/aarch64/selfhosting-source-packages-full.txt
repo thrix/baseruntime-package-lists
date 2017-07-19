@@ -799,7 +799,7 @@ jline1-1.0-14.fc26.src
 jmatio-1.1-6.fc26.src
 jmh-1.13-3.fc27.src
 jmock-2.8.2-3.fc26.src
-jna-4.4.0-2.fc27.src
+jna-4.4.0-5.fc27.src
 jnr-constants-0.9.9-1.fc27.src
 jnr-enxio-0.16-1.fc27.src
 jnr-ffi-2.1.6-1.fc27.src
