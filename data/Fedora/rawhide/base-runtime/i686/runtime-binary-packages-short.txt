@@ -167,7 +167,6 @@ nss-pem
 nss-softokn
 nss-softokn-freebl
 nss-sysinit
-nss-tools
 nss-util
 ocaml-srpm-macros
 openblas-srpm-macros
@@ -197,6 +196,7 @@ rpm-build
 rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
+rust-srpm-macros
 sed
 setup
 shadow-utils

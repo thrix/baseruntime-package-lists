@@ -144,6 +144,7 @@ qt5
 readline
 redhat-rpm-config
 rpm
+rust-srpm-macros
 sed
 setup
 sgml-common

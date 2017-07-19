@@ -159,6 +159,7 @@ qt5
 readline
 redhat-rpm-config
 rpm
+rust-srpm-macros
 sed
 setup
 sg3_utils

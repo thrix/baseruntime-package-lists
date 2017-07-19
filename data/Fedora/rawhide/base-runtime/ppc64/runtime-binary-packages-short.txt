@@ -160,7 +160,6 @@ nss-pem
 nss-softokn
 nss-softokn-freebl
 nss-sysinit
-nss-tools
 nss-util
 ocaml-srpm-macros
 openblas-srpm-macros
@@ -172,7 +171,6 @@ p11-kit-trust
 pam
 patch
 pcre
-perl
 perl-Carp
 perl-Data-Dumper
 perl-Errno
@@ -185,6 +183,7 @@ perl-Socket
 perl-Text-Tabs+Wrap
 perl-Unicode-Normalize
 perl-constant
+perl-interpreter
 perl-libs
 perl-macros
 perl-parent
@@ -210,6 +209,7 @@ rpm-build
 rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
+rust-srpm-macros
 sed
 setup
 sg3_utils-libs
