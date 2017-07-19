@@ -26,6 +26,7 @@ qemu
 shim
 shim-signed
 strace
+swig
 systemd
 systemtap
 valgrind
