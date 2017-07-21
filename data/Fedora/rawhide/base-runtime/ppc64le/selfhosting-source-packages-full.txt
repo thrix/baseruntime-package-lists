@@ -432,7 +432,7 @@ gamin-0.1.10-25.fc26.src
 gawk-4.1.4-3.fc26.src
 gc-7.6.0-4.fc27.src
 gcab-0.7-2.fc26.src
-gcc-7.1.1-5.fc27.src
+gcc-7.1.1-6.fc27.src
 gcr-3.20.0-4.fc26.src
 gd-2.2.4-3.fc26.src
 gdb-8.0-17.fc27.src
@@ -490,7 +490,7 @@ glew-2.0.0-2.fc26.src
 glib-1:1.2.10-48.fc26.src
 glib-networking-2.50.0-2.fc26.src
 glib2-2.53.4-1.fc27.src
-glibc-2.25.90-25.fc27.src
+glibc-2.25.90-27.fc27.src
 glibmm24-2.52.0-1.fc27.src
 glpk-4.61-1.fc27.src
 glusterfs-3.11.1-2.fc27.src
@@ -3039,7 +3039,7 @@ wavpack-5.1.0-2.fc26.src
 wayland-1.13.0-1.fc26.src
 wayland-protocols-1.9-1.fc27.src
 web-assets-5-5.fc26.src
-webkitgtk4-2.16.2-2.fc27.src
+webkitgtk4-2.17.4-4.fc27.src
 webrtc-audio-processing-0.3-2.fc26.src
 weld-api-2.3-3.SP2.fc26.src
 weld-core-2.3.5-2.fc26.src

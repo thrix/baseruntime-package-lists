@@ -38,12 +38,12 @@ fpc-srpm-macros-1.1-2.fc26.src
 fuse-2.9.7-4.fc27.src
 gawk-4.1.4-3.fc26.src
 gc-7.6.0-4.fc27.src
-gcc-7.1.1-5.fc27.src
+gcc-7.1.1-6.fc27.src
 gdb-8.0-17.fc27.src
 gdbm-1.13-1.fc27.src
 ghc-srpm-macros-1.4.2-5.fc26.src
 glib2-2.53.4-1.fc27.src
-glibc-2.25.90-25.fc27.src
+glibc-2.25.90-27.fc27.src
 gmp-1:6.1.2-4.fc27.src
 gnat-srpm-macros-4-3.fc27.src
 gnupg2-2.1.21-3.fc27.src
