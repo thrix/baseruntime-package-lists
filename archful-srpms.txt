@@ -29,5 +29,6 @@ strace
 swig
 systemd
 systemtap
+uboot-tools
 valgrind
 xorg-x11-server
