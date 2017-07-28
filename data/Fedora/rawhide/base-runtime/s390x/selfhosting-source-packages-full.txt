@@ -25,7 +25,7 @@ SDL2_mixer-2.0.1-3.fc26.src
 SDL_sound-1.0.3-17.fc26.src
 Xaw3d-1.6.2-10.fc26.src
 a2ps-4.14-30.fc26.src
-acl-2.2.52-15.fc27.src
+acl-2.2.52-16.fc27.src
 acpica-tools-20160930-1.fc26.src
 adobe-source-code-pro-fonts-2.030.1.050-2.fc26.src
 adobe-source-sans-pro-fonts-1.050-7.fc26.src
@@ -127,7 +127,7 @@ atk-2.25.2-1.fc27.src
 atkmm-2.24.2-3.fc26.src
 atlas-3.10.2-16.fc26.src
 attica-0.4.2-10.fc26.src
-attr-2.4.47-18.fc26.src
+attr-2.4.47-19.fc27.src
 audiofile-1:0.3.6-13.fc27.src
 audit-2.7.7-3.fc27.src
 augeas-1.8.0-1.fc27.src
@@ -250,7 +250,7 @@ crontabs-1.11-14.20150630git.fc26.src
 cross-binutils-2.28-3.fc27.src
 cross-gcc-7.1.1-1.fc27.1.src
 cryptacular-1.1.0-2.fc26.src
-crypto-policies-20170606-1.git7c32281.fc27.src
+crypto-policies-20170606-2.git7c32281.fc27.src
 cryptopp-5.6.3-8.fc27.src
 cryptsetup-1.7.5-1.fc27.src
 cscope-15.8b-4.fc26.src
@@ -628,7 +628,7 @@ inkscape-0.92.1-5.20170510bzr15686.fc27.src
 intltool-0.51.0-8.fc26.src
 invokebinder-1.2-6.fc26.src
 ipcalc-0.2.0-1.fc27.src
-iproute-4.11.0-1.fc27.src
+iproute-4.12.0-1.fc27.src
 ipset-6.29-3.fc27.src
 iptables-1.6.1-2.fc26.src
 iputils-20161105-2.fc26.src
@@ -2610,7 +2610,7 @@ python-zope-event-4.2.0-5.fc26.src
 python-zope-interface-4.3.3-4.fc27.src
 python2-2.7.13-12.fc27.src
 python2-typing-3.6.1-1.fc27.src
-python3-3.6.1-10.fc27.src
+python3-3.6.2-2.fc27.src
 python3-cairo-1.10.0-20.fc26.src
 python3-mallard-ducktype-0.2-7.fc26.src
 pytz-2017.2-1.fc27.src
@@ -2689,7 +2689,7 @@ rmic-maven-plugin-1.2.1-14.fc26.src
 rngom-201103-0.14.20120119svn.fc26.src
 rome-1.7.0-2.fc26.src
 rpcbind-0.2.4-7.rc2.fc27.src
-rpm-4.13.0.1-31.fc27.src
+rpm-4.13.0.1-33.fc27.src
 rpm-mpi-hooks-5-1.fc27.src
 rpmdevtools-8.10-2.fc26.src
 rrdtool-1.7.0-2.fc27.src

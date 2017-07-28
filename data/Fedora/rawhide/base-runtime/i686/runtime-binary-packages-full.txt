@@ -1,4 +1,4 @@
-acl-2.2.52-15.fc27.i686
+acl-2.2.52-16.fc27.i686
 audit-libs-2.7.7-3.fc27.i686
 basesystem-11-3.fc26.noarch
 bash-4.4.12-6.fc27.i686
@@ -14,7 +14,7 @@ coreutils-common-8.27-10.fc27.i686
 cpio-2.12-4.fc26.i686
 cpp-7.1.1-6.fc27.i686
 cracklib-2.9.6-5.fc26.i686
-crypto-policies-20170606-1.git7c32281.fc27.noarch
+crypto-policies-20170606-2.git7c32281.fc27.noarch
 cryptsetup-libs-1.7.5-1.fc27.i686
 curl-minimal-7.54.1-2.fc27.i686
 cyrus-sasl-lib-2.1.26-32.fc27.i686
@@ -89,13 +89,13 @@ keyutils-libs-1.5.10-1.fc27.i686
 kmod-24-1.fc26.i686
 kmod-libs-24-1.fc26.i686
 krb5-libs-1.15.1-14.fc27.i686
-libacl-2.2.52-15.fc27.i686
+libacl-2.2.52-16.fc27.i686
 libarchive-3.3.1-1.fc27.i686
 libasan-7.1.1-6.fc27.i686
 libassuan-2.4.3-2.fc26.i686
 libatomic-7.1.1-6.fc27.i686
 libatomic_ops-7.4.6-1.fc27.i686
-libattr-2.4.47-18.fc26.i686
+libattr-2.4.47-19.fc27.i686
 libbabeltrace-1.5.2-2.fc27.i686
 libblkid-2.30-1.fc27.i686
 libcap-2.25-5.fc26.i686
@@ -191,11 +191,11 @@ qrencode-libs-3.4.4-1.fc27.i686
 qt5-srpm-macros-5.9.0-2.fc27.noarch
 readline-7.0-5.fc26.i686
 redhat-rpm-config-66-1.fc27.noarch
-rpm-4.13.0.1-31.fc27.i686
-rpm-build-4.13.0.1-31.fc27.i686
-rpm-build-libs-4.13.0.1-31.fc27.i686
-rpm-libs-4.13.0.1-31.fc27.i686
-rpm-plugin-selinux-4.13.0.1-31.fc27.i686
+rpm-4.13.0.1-33.fc27.i686
+rpm-build-4.13.0.1-33.fc27.i686
+rpm-build-libs-4.13.0.1-33.fc27.i686
+rpm-libs-4.13.0.1-33.fc27.i686
+rpm-plugin-selinux-4.13.0.1-33.fc27.i686
 rust-srpm-macros-4-2.fc27.noarch
 sed-4.4-1.fc26.i686
 setup-2.10.5-2.fc26.noarch
@@ -205,7 +205,7 @@ syslinux-6.04-0.3.fc27.i686
 syslinux-extlinux-6.04-0.3.fc27.i686
 syslinux-extlinux-nonlinux-6.04-0.3.fc27.noarch
 syslinux-nonlinux-6.04-0.3.fc27.noarch
-system-python-libs-3.6.1-10.fc27.i686
+system-python-libs-3.6.2-2.fc27.i686
 systemd-234-3.fc27.i686
 systemd-libs-234-3.fc27.i686
 systemd-pam-234-3.fc27.i686

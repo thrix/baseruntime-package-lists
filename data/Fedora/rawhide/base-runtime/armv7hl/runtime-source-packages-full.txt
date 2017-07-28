@@ -1,5 +1,5 @@
-acl-2.2.52-15.fc27.src
-attr-2.4.47-18.fc26.src
+acl-2.2.52-16.fc27.src
+attr-2.4.47-19.fc27.src
 audit-2.7.7-3.fc27.src
 babeltrace-1.5.2-2.fc27.src
 basesystem-11-3.fc26.src
@@ -13,7 +13,7 @@ chkconfig-1.10-1.fc27.src
 coreutils-8.27-10.fc27.src
 cpio-2.12-4.fc26.src
 cracklib-2.9.6-5.fc26.src
-crypto-policies-20170606-1.git7c32281.fc27.src
+crypto-policies-20170606-2.git7c32281.fc27.src
 cryptsetup-1.7.5-1.fc27.src
 curl-7.54.1-2.fc27.src
 cyrus-sasl-2.1.26-32.fc27.src
@@ -126,12 +126,12 @@ popt-1.16-8.fc26.src
 procps-ng-3.3.10-13.fc26.src
 pth-2.0.7-28.fc26.src
 python-rpm-macros-3-20.fc27.src
-python3-3.6.1-10.fc27.src
+python3-3.6.2-2.fc27.src
 qrencode-3.4.4-1.fc27.src
 qt5-5.9.0-2.fc27.src
 readline-7.0-5.fc26.src
 redhat-rpm-config-66-1.fc27.src
-rpm-4.13.0.1-31.fc27.src
+rpm-4.13.0.1-33.fc27.src
 rust-srpm-macros-4-2.fc27.src
 sed-4.4-1.fc26.src
 setup-2.10.5-2.fc26.src
