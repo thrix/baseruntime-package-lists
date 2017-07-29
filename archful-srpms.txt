@@ -4,6 +4,7 @@ dwz
 eclipse
 efl
 fedora-logos
+fwupd
 gcc
 gdb
 glibc32
