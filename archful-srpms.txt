@@ -8,10 +8,12 @@ fwupd
 gcc
 gdb
 glibc32
+gnome-settings-daemon
 gperftools
 grub2
 grubby
 gstreamer1-plugins-good
+hexchat
 hwloc
 ipxe
 jack-audio-connection-kit
@@ -22,6 +24,7 @@ libfabric
 libvirt
 meson
 openmpi
+pcp
 python-qt5
 qemu
 shim
