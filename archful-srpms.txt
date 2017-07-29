@@ -1,9 +1,11 @@
 audit
 boost
+cockpit
 dwz
 eclipse
 efl
 fedora-logos
+freeipa
 fwupd
 gcc
 gdb
