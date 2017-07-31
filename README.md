@@ -101,6 +101,8 @@ are known to have arch-specific `BuildRequires` and merge them locally to the
 repo metadata. The packages will be stored in the `repo/test/26_beta/` path
 relative to the root of this repository.
 
+Use `--release=devel` for a snapshot of rawhide suitable for development.
+
 This process may take a long time, as it will transfer approximately 3GiB of
 data per architecture to the local system. This tool uses rsync, so subsequent
 calls to it will only download updated information (plus regenerating the
