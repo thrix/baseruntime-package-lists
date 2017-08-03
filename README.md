@@ -120,7 +120,7 @@ There is a helper utility in the root of the git repository called `dl_pkgs.sh`.
 This utility must be called with one or two arguments.  First, a path to a file
 containing one package NVR or Koji build-id per line. If it is an NVR, the package
 must be an official build in Koji. For a build-id, a scratch-build may work (but
-is untested). The second argument should be <release> .  This tool should be used
+is untested). The second argument should be `<release>` .  This tool should be used
 to prep the override repository whenever a content change is made to the module
 metadata, to keep the lists up-to-date.
 
