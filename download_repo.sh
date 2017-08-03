@@ -365,7 +365,7 @@ for arch in ${_arg_arch[@]}; do
         # fedorapeople
         # This will pull down the full contents, so we can update
         # the repository as necessary
-        override_uri="rsync://fedorapeople.org/project/modularity/repos/fedora/gencore-override/${version_path}/override/$arch/"
+        override_uri="rsync://fedorapeople.org/project/modularity/repos/fedora/${version_path}/override/$arch/"
 
         dest_override="$(readlink -f ${_arg_repo_path})/${version_path}/override/$arch"
         mkdir -p $dest_override

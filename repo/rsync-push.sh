@@ -39,4 +39,4 @@ chgrp -R 189842 $dest
 # Any changes made in these directories should also set this group
 find $dest -type d -exec chmod g+s {} \;
 
-rsync -avh --delete-before -e ssh  $dest/ fedorapeople.org:/project/modularity/repos/fedora/gencore-override/$release
+rsync -avh --delete-before -e ssh  $dest/ fedorapeople.org:/project/modularity/repos/fedora/$release
