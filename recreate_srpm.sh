@@ -58,7 +58,7 @@ if [ "x$2" = "x--bumpspec" ]; then
                     $PKG.spec
 fi
 
-for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le"; do
+for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le" "s390x"; do
     mkdir -p $OUTPUT_DIR/$arch
     rpmbuild -bs --build-in-place --target=$arch \
              --define "_sourcedir $WORKING_DIR/$PKG" \
