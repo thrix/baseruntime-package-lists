@@ -209,6 +209,23 @@ if [ $_arg_release == "rawhide" ]; then
 
     version=$(koji list-targets --name=rawhide --quiet |awk '{ print $2 }' | tr -d 'f[=-=]build')
     version_path="rawhide"
+elif [ $_arg_release == "devel" ]; then
+
+    if [ $_arg_updates == "on" ]; then
+        echo "--updates is not compatible with --release=devel"
+        exit 1
+    fi
+
+    if [ "$_arg_archful_srpm_file" != "" ]; then
+        echo "--archful-srpm-file is not compatible with --release=devel"
+        exit 1
+    fi
+
+    primary_arch_frozen_base="rsync://fedorapeople.org/groups/modularity/repos/fedora/devel/frozen/"
+    alt_arch_frozen_base=$primary_arch_frozen_base
+
+    version=$(koji list-targets --name=rawhide --quiet |awk '{ print $2 }' | tr -d 'f[=-=]build')
+    version_path="devel"
 else
     if [ "$_arg_alt_stage" != "" ]; then
         # Pull the repo from the staging area for release candidates
@@ -231,7 +248,11 @@ else
 fi
 
 # The Source RPMs always come from the primary path
-source_uri="${primary_arch_frozen_base}/source/tree/repodata/"
+if [ $_arg_release == "devel" ]; then
+    source_uri="${primary_arch_frozen_base}/sources/repodata/"
+else
+    source_uri="${primary_arch_frozen_base}/source/tree/repodata/"
+fi
 
 dest_sources="$(readlink -f ${_arg_repo_path})/${version_path}/frozen/sources/repodata"
 mkdir -p $dest_sources
@@ -294,32 +315,50 @@ if [ "$_arg_archful_srpm_file" != "" ]; then
 fi
 
 for arch in ${_arg_arch[@]}; do
-    basearch=$($SCRIPT_DIR/get_basearch $arch)
+    # The devel repo needs to be treated as a special case
+    if [ $_arg_release == "devel" ]; then
+        frozen_uri="${primary_arch_frozen_base}/$arch"
 
-    # The primary and alternative architectures are stored separately
-    is_secondary_arch $basearch $version
-    sec_arch=$?
+        dest_arch="$(readlink -f ${_arg_repo_path})/${version_path}/frozen/"
+        mkdir -p $dest_arch
 
-    if [ $sec_arch -eq 1 ]; then
-        frozen_binary_uri="${alt_arch_frozen_base}/$basearch/os/repodata/"
-        updates_binary_uri="${alt_arch_updates_base}/$basearch/os/repodata/"
+        # rsync the content of the RPM repodata
+        echo "Downloading RPM repodata from ${frozen_uri} for $arch"
+
+        RC=5
+        while [[ $RC -eq 5 ]]
+        do
+            rsync -azhq --no-motd --delete-before $frozen_uri $dest_arch
+            RC=$?
+        done
     else
-        frozen_binary_uri="${primary_arch_frozen_base}/$basearch/os/repodata/"
-        updates_binary_uri="${primary_arch_updates_base}/$basearch/os/repodata/"
+        basearch=$($SCRIPT_DIR/get_basearch $arch)
+
+        # The primary and alternative architectures are stored separately
+        is_secondary_arch $basearch $version
+        sec_arch=$?
+
+        if [ $sec_arch -eq 1 ]; then
+            frozen_binary_uri="${alt_arch_frozen_base}/$basearch/os/repodata/"
+            updates_binary_uri="${alt_arch_updates_base}/$basearch/os/repodata/"
+        else
+            frozen_binary_uri="${primary_arch_frozen_base}/$basearch/os/repodata/"
+            updates_binary_uri="${primary_arch_updates_base}/$basearch/os/repodata/"
+        fi
+
+        dest_frozen_binaries="$(readlink -f ${_arg_repo_path})/${version_path}/frozen/$arch/os/repodata"
+        mkdir -p $dest_frozen_binaries
+
+        # rsync the binary RPM repodata from mirrors.kernel.org
+        echo "Downloading binary RPM repodata from ${frozen_binary_uri} for $arch"
+
+        RC=5
+        while [[ $RC -eq 5 ]]
+        do
+            rsync -azhq --no-motd --delete-before $frozen_binary_uri $dest_frozen_binaries
+            RC=$?
+        done
     fi
-
-    dest_frozen_binaries="$(readlink -f ${_arg_repo_path})/${version_path}/frozen/$arch/os/repodata"
-    mkdir -p $dest_frozen_binaries
-
-    # rsync the binary RPM repodata from mirrors.kernel.org
-    echo "Downloading binary RPM repodata from ${frozen_binary_uri} for $arch"
-
-    RC=5
-    while [[ $RC -eq 5 ]]
-    do
-       rsync -azhq --no-motd --delete-before $frozen_binary_uri $dest_frozen_binaries
-       RC=$?
-    done
 
     if [ $_arg_overrides == "on" ]; then
         # Pull down the current override repository repodata from
