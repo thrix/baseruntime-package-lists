@@ -1,269 +1,248 @@
 #!/usr/bin/perl
+# ABSTRACT: Generate modulemd files for the Host & Platform
+use 5.014;
 use strict;
 use warnings;
 use autodie;
-use Cwd 'getcwd';
-use Cwd 'abs_path';
-use File::Basename;
+use Getopt::Std;
+use IPC::Open3;
+use List::Util 1.33 qw/any/;
+use Template;
+use Text::CSV_XS qw/csv/;
+use Text::Wrap;
 
-# pkgname => { build => build, ref => ref, arches => [arches] }
-my %pkgs;
-# runtime and buildroot package lists
-my (@runtime, @buildroot);
+$Text::Wrap::columns = 80;
+$Text::Wrap::unexpand = 0;
 
-my $fh;
+# This script generates all the base modulemd files implementing
+# the Host & Platform concept.  This includes the following:
+#
+#   * bootstrap
+#   * platform
+#   * host
+#   * shim
+#
+# Unlike with Base Runtime, the Bootstrap module doesn't include
+# any other directly.  This is to allow greater flexibility for
+# development of multiple different Platforms using the same
+# Bootstrap module.
+#
+# The policy for package placement is currently hardcoded but
+# might be moved into external files in the future.  Right now
+# the implementation strives to do the following:
+#
+#   * The Bootstrap module includes all the self-hosting
+#     components for all of the supported architectures with
+#     the exception of shim*.
+#     The module requires itself as a build dependency and
+#     has no runtime dependencies whatsoever.
+#   * The Shim module only includes packages explicitly listed
+#     in it.  It requires the Bootstrap module at build time
+#     and for practical purposes has no runtime dependencies.
+#   * The Host module includes only packages explicitly listed
+#     in it.  The module depends on the Bootstrap and Shim
+#     modules at build and on the Platform module at runtime.
+#   * The Platform module includes the remainder of the runtime
+#     components, satisfying runtime dependencies of the Host.
+#     It depends on the Bootstrap module at build time and has
+#     no runtime dependencies.
 
 sub HELP_MESSAGE {
-    print "Usage: mkmmd.pl path [local_base_runtime_module_repo]\n";
-    exit;
+    print <<"    EOF";
+Usage: make_modulemd.pl [-b] [-v] <path to package lists>
+
+Generate the complete Host & Platform set:
+  ./make_modulemd.pl data/Fedora/devel/hp
+Generate the extended Bootstrap module only:
+  ./make_modulemd.pl -b data/Fedora/devel/bootstrap
+
+Options:
+  -b  Bootstrap only.  Skips generating non-bootstrap modulemds.
+  -v  Verbose.  Prints more information to stderr.
+    EOF
+    exit 1;
 }
 
-sub getbuild {
-    return $_[0] =~ s/^(.+?)-(?:\d+:)?([^-]+-[^-]+)\.[^.]+$/$1-$2/r;
+my %opts;
+getopts('v', \%opts);
+
+my $base = shift @ARGV or HELP_MESSAGE;
+-d $base or HELP_MESSAGE;
+
+# Get a simple NVR from a NEVRA SRPM name.
+sub getnvr {
+    $_[0] =~ s/^(.+?)-(?:\d+:)?([^-]+-[^-]+)(?:\.[^.]+)$/$1-$2/r;
 }
 
-sub getname {
-    return $_[0] =~ s/^(.+)-[^-]+-[^-]+$/$1/r;
+# Get a package name from NVR
+sub getn {
+    $_[0] =~ s/^(.+)-[^-]+-[^-]+$/$1/r;
 }
 
-my $path = shift @ARGV or HELP_MESSAGE;
-my $brt_repo;
-$brt_repo = shift @ARGV;
+# Get dist-git refs for NVRs
+sub getrefs {
+    print { *stderr } "Getting component dist-git refs...\n"
+        if $opts{v};
+    my %refs = map {
+        # XXX: Special hacks for shim.  This needs to be updated
+        #      in the rare case of a shim rebase, although we should
+        #      probably handle this with arbitrary branching; make
+        #      sure the branched content works together and referce
+        #      that rather than specific commits.
+        my $ref = undef;
+        if (getn($_) eq 'shim-signed') {
+            # Bundles binaries from the unsigned packages.
+            $ref = 'private-psabata-base-runtime-f26';
+        } elsif (getn($_) eq 'shim') {
+            $ref = '72c0daf8e4db63bd5b8125167e23164e515198c4';
+        } elsif (getn($_) eq 'shim-unsigned-aarch64') {
+            $ref = 'ae09b5fe2bac419ce2b49bded0487d133bd53919';
+        }
+        $_ => $ref;
+    } @_;
+    # XXX: koji python multicall API is much faster than CLI, so...
+    my ($pyin, $pyout, $pyerr);
+    my $pid = open3($pyin, $pyout, $pyerr,
+        '/usr/bin/python2 - '.join(' ', @_));
+    print { $pyin } <<"    EOF";
+import sys
+import koji
 
-my $cwd = getcwd;
-my $script_path = abs_path(dirname(__FILE__));
+args = sys.argv[1:]
+nvrs = []
+ks = koji.ClientSession('https://koji.fedoraproject.org/kojihub')
+ks.multicall = True
+for build in args:
+    ks.getBuild(build)
+ret = ks.multiCall(strict=True)
+ks.multicall = True
+for i in range(len(args)):
+    if ret[i][0] is not None:
+        if ret[i][0]['task_id'] is not None:
+            ks.getTaskInfo(ret[i][0]['task_id'], request=True)
+            nvrs.append(args[i])
+ret = ks.multiCall(strict=True)
+for i in range(len(nvrs)):
+    print nvrs[i], koji.taskLabel(ret[i][0])
+    EOF
+    close $pyin;
+    while (<$pyout>) {
+        chomp;
+        /^(?<nvr>[^ ]+)\sbuild\s
+         \([^,]+,\s(?:\/rpms)?\/(?:[^:]+):(?<ref>[^)]+)\)$/x;
+        $refs{$+{nvr}} //= $+{ref};
+    }
+    waitpid($pid, 0);
+    { %refs };
+}
 
-chdir $path;
-for my $arch (glob("*")) {
-    next unless -d $arch;
-    my $list = "${arch}/selfhosting-source-packages-full.txt";
-    next unless -f $list;
-    open $fh, '<', $list;
+my @arches = qw/aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64/;
+# XXX: Make sure platform is the last one so that we can reuse data from the
+#      host and shim data files.  This should be done in a better way but meh.
+my @modules = qw/bootstrap host shim platform/;
+# Map of components and their hashes
+my %components;
+# And just the runtime set
+my %runtime;
+
+for my $arch (@arches) {
+    print { *stderr } "Reading ${arch} package lists...\n"
+        if $opts{v};
+    open my $fh, '<', "${base}/${arch}/selfhosting-source-packages-full.txt";
     while (<$fh>) {
         chomp;
-        my $build = getbuild $_;
-        my $name = getname $build;
-        $pkgs{$name} = { build => $build, ref => 'master', arches => [] }
-            unless exists $pkgs{$name};
-        push @{ $pkgs{$name}->{arches} }, $arch;
+        # Just make sure it's defined
+        $components{getnvr($_)} = undef;
     }
     close $fh;
-    $list = "${arch}/runtime-source-packages-short.txt";
-    open $fh, '<', $list;
+    open $fh, '<', "${base}/${arch}/runtime-source-packages-full.txt";
     while (<$fh>) {
         chomp;
-        # we prune duplicates later
-        push @runtime, $_;
+        $runtime{getnvr($_)} = undef;
     }
     close $fh;
 }
+%components = getrefs(keys %components);
 
-{
-    my %runtime;
-    for (@runtime) {
-        $runtime{$_} = 1;
+my $default_rationale = 'Autogenerated by Host & Platform tooling.';
+my $default_ref = 'master';
+
+# Populate with non-platform packages.  Make sure they're processed first.
+my %nonplatform;
+
+for my $module (@modules) {
+    next if $base =~ /bootstrap$/ && $module ne 'bootstrap';
+    next if $base =~ /hp$/ && $module !~ /^(?:platform|host|shim)$/;
+    next if $module ne 'bootstrap' && $base =~ /bootstrap$/;
+    print { *stderr } "Generating ${module}...\n"
+        if $opts{v};
+    my $tt = Template->new( {
+            INCLUDE_PATH => ${base},
+            ABSOLUTE => 1,
+            RELATIVE => 1 }
+    );
+    my %data;
+    my %rationales = map {
+            $_->[0] => $_->[1]
+                ? wrap('', ' 'x20, ucfirst($_->[1]) . '.')
+                : undef;
+        } @{ csv(in => "${base}/${module}.csv") };
+    if ($module eq 'bootstrap') {
+        $data{components} = { map {
+            getn($_) => {
+                nvr => $_,
+                ref => $components{$_} // $default_ref,
+                rationale => $rationales{getn($_)} // $default_rationale,
+            }
+        } grep {
+            # Let's not bother with shim in Bootstrap.  It wouldn't build.
+            ! /^shim-/;
+        } keys %components };
+    } elsif ($module =~ /^(?:host|shim)$/) {
+        $data{components} = { map {
+            getn($_) => {
+                nvr => $_,
+                ref => $components{$_} // $default_ref,
+                rationale => $rationales{getn($_)} // $default_rationale,
+            }
+        } grep {
+            my $tmp = $_; any { $_ eq getn($tmp) } keys %rationales;
+        } keys %components };
+        map { $nonplatform{$_} = undef } keys %rationales;
+    } elsif ($module eq 'platform') {
+        $data{components} = { map {
+            getn($_) => {
+                nvr => $_,
+                ref => $components{$_} // $default_ref,
+                rationale => $rationales{getn($_)} // $default_rationale,
+            }
+        } map {
+            # XXX: A special hack to translate the traditional
+            # release and repos to the modular variants.  We need
+            # fedora-release/repos for the depsolving to work
+            # but we don't want it in the resulting module where
+            # fedora-modular-release/repos implement their features.
+            # We only do this for platform as bootstrap needs the original
+            # at the moment.
+            # We need the hardcoded versions so that getn() doesn't mangle
+            # the names to simple "fedora" later on.  It doesn't matter
+            # they don't exist.  We manage that content in Rawhide anyway.
+            if (/^fedora-release-.+$/) {
+                'fedora-modular-release-27-1';
+            } elsif (/^fedora-repos-.+$/) {
+                'fedora-modular-repos-27-1';
+            } else {
+                $_;
+            }
+        } grep {
+            ! exists $nonplatform{getn($_)};
+        } keys %runtime };
+    } else {
+        die "Unhandled module: ${module}\n";
     }
-    @runtime = sort keys %runtime;
-    @buildroot = grep { ! exists $runtime{$_} } sort keys %pkgs;
+    $tt->process("${base}/${module}.tmpl", \%data, "${base}/${module}.yaml")
+        or die "Error while processing templates: " . $tt->error() . "\n";
 }
 
-my $params = join(' ', map { $pkgs{$_}->{build} } sort keys %pkgs);
-my $out = `python ${script_path}/get_package_hashes.py ${params}`;
-while ($out =~ m/([^\/]+?):([a-f0-9]{40})/g) {
-    $pkgs{$1}->{ref} = $2;
-}
-
-my $runtimetmpl = <<"EOF";
-document: modulemd
-version: 1
-data:
-    summary: The base application runtime and hardware abstraction layer
-    description: >
-        A project closely linked to the Modularity Initiative, Base Runtime
-        is about defining the common shared package and feature set of the
-        operating system, providing both the hardware enablement layer and
-        the minimal application runtime environment other modules can build
-        upon.
-    license:
-        module: [ MIT ]
-    dependencies:
-        buildrequires:
-            bootstrap: master
-    references:
-        community: https://fedoraproject.org/wiki/BaseRuntime
-        documentation: https://github.com/fedora-modularity/base-runtime
-        tracker: https://github.com/fedora-modularity/base-runtime/issues
-    profiles:
-        baseimage:
-            rpms:
-                - bash
-                - coreutils-single
-                - filesystem
-                - glibc-minimal-langpack
-                - libcrypt
-                - microdnf
-                - rpm
-                - shadow-utils
-                - util-linux
-        buildroot:
-            rpms:
-                - bash
-                - bzip2
-                - coreutils
-                - cpio
-                - diffutils
-                - fedora-modular-release
-                - findutils
-                - gawk
-                - gcc
-                - gcc-c++
-                - grep
-                - gzip
-                - info
-                - make
-                - patch
-                - redhat-rpm-config
-                - rpm-build
-                - sed
-                - shadow-utils
-                - tar
-                - unzip
-                - util-linux
-                - which
-                - xz
-        srpm-buildroot:
-            rpms:
-                - bash
-                - fedora-modular-release
-                - fedpkg-minimal
-                - gnupg2
-                - redhat-rpm-config
-                - rpm-build
-                - shadow-utils
-    api:
-        rpms: [
-            ]
-    filter:
-        rpms: [
-            ]
-    components:
-        rpms:
-__COMPONENTS__
-EOF
-my $buildroottmpl = <<"EOF";
-document: modulemd
-version: 1
-data:
-    summary: Bootstrap the Modularity infrastructure
-    description: >
-        The purpose of this module is to provide a boostrapping mechanism
-        for new distributions or architectures as well as the entire build
-        environment for the Base Runtime module.
-    license:
-        module: [ MIT ]
-    dependencies:
-        buildrequires:
-            bootstrap: master
-    references:
-        community: https://fedoraproject.org/wiki/BaseRuntime
-        documentation: https://github.com/fedora-modularity/base-runtime
-        tracker: https://github.com/fedora-modularity/base-runtime/issues
-    profiles:
-        buildroot:
-            rpms:
-                - bash
-                - bzip2
-                - coreutils
-                - cpio
-                - diffutils
-                - fedora-release
-                - findutils
-                - gawk
-                - gcc
-                - gcc-c++
-                - grep
-                - gzip
-                - info
-                - make
-                - patch
-                - redhat-rpm-config
-                - rpm-build
-                - sed
-                - shadow-utils
-                - tar
-                - unzip
-                - util-linux
-                - which
-                - xz
-        srpm-buildroot:
-            rpms:
-                - bash
-                - fedora-release
-                - fedpkg-minimal
-                - gnupg2
-                - redhat-rpm-config
-                - rpm-build
-                - shadow-utils
-    components:
-        rpms:
-__COMPONENTS__
-        modules:
-            base-runtime:
-                rationale: Bootstrapping requires Base Runtime.
-                ref: master
-__REPOSITORY__
-EOF
-my $componenttmpl = <<"EOF";
-            # __BUILD__
-            __NAME__:
-                rationale: Autogenerated by Base Runtime tools.
-                ref: __REF__
-EOF
-# let's populate the templates
-my $components = '';
-for my $pkg (@runtime) {
-    my $tmpl = $componenttmpl;
-    my ($build, $name, $ref) = ($pkgs{$pkg}->{build}, $pkg, $pkgs{$pkg}->{ref});
-    if ($name =~ m/^shim/) {
-        # Shim is very special and has to be dealt with manually
-        # skip it from auto-generation
-        next
-    }
-    $tmpl =~ s/__BUILD__/$build/;
-    $tmpl =~ s/__NAME__/$name/;
-    $tmpl =~ s/__REF__/$ref/;
-    chomp $tmpl;
-    $components .= "${tmpl}\n";
-}
-chomp $components;
-$runtimetmpl =~ s/__COMPONENTS__/$components/;
-$components = '';
-for my $pkg (@buildroot) {
-    my $tmpl = $componenttmpl;
-    my ($build, $name, $ref) = ($pkgs{$pkg}->{build}, $pkg, $pkgs{$pkg}->{ref});
-    if ($name =~ m/^shim/) {
-        # Shim is very special and has to be dealt with manually
-        # skip it from auto-generation
-        next
-    }
-    $tmpl =~ s/__BUILD__/$build/;
-    $tmpl =~ s/__NAME__/$name/;
-    $tmpl =~ s/__REF__/$ref/;
-    chomp $tmpl;
-    $components .= "${tmpl}\n";
-}
-chomp $components;
-$buildroottmpl =~ s/__COMPONENTS__/$components/;
-if ($brt_repo) {
-    $buildroottmpl =~ s#__REPOSITORY__#                repository: file://$brt_repo#;
-} else {
-    $buildroottmpl =~ s/__REPOSITORY__//
-}
-# dump it to disk
-chdir $cwd;
-open $fh, '>', './base-runtime.yaml';
-print { $fh } $runtimetmpl;
-close $fh;
-open $fh, '>', './bootstrap.yaml';
-print { $fh } $buildroottmpl;
-close $fh;
+print "Done!\n"
+    if $opts{v};
