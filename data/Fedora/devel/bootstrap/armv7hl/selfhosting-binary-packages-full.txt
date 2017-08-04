@@ -453,8 +453,8 @@ brlapi-devel-0.6.6-4.fc27.armv7hl
 brltty-5.5-4.fc27.armv7hl
 bsf-2.4.0-26.fc26.noarch
 bsh-2.0-6.b6.fc27.noarch
-btrfs-progs-4.11.1-1.fc27.armv7hl
-btrfs-progs-devel-4.11.1-1.fc27.armv7hl
+btrfs-progs-4.12-1.fc27.armv7hl
+btrfs-progs-devel-4.12-1.fc27.armv7hl
 buildnumber-maven-plugin-1.3-7.fc26.noarch
 bullet-2.83-3.fc26.armv7hl
 bullet-devel-2.83-3.fc26.armv7hl
@@ -880,8 +880,8 @@ fipscheck-lib-1.5.0-1.fc26.armv7hl
 firebird-3.0.2.32703-1.fc27.armv7hl
 firebird-devel-3.0.2.32703-1.fc27.armv7hl
 firebird-utils-3.0.2.32703-1.fc27.armv7hl
-firewalld-0.4.4.5-1.fc27.noarch
-firewalld-filesystem-0.4.4.5-1.fc27.noarch
+firewalld-0.4.4.5-3.fc27.noarch
+firewalld-filesystem-0.4.4.5-3.fc27.noarch
 flac-devel-1.3.2-2.fc26.armv7hl
 flac-libs-1.3.2-2.fc26.armv7hl
 flex-2.6.1-3.fc26.armv7hl
@@ -2771,9 +2771,9 @@ neXtaw-0.15.1-26.fc26.armv7hl
 neXtaw-devel-0.15.1-26.fc26.armv7hl
 neethi-3.0.1-13.fc26.noarch
 nekohtml-1.9.22-4.fc27.noarch
-net-snmp-agent-libs-1:5.7.3-16.fc27.armv7hl
-net-snmp-devel-1:5.7.3-16.fc27.armv7hl
-net-snmp-libs-1:5.7.3-16.fc27.armv7hl
+net-snmp-agent-libs-1:5.7.3-20.fc27.armv7hl
+net-snmp-devel-1:5.7.3-20.fc27.armv7hl
+net-snmp-libs-1:5.7.3-20.fc27.armv7hl
 net-tools-2.0-0.42.20160912git.fc26.armv7hl
 netcdf-java-4.6.2-5.fc26.noarch
 netcf-devel-0.2.8-6.fc26.armv7hl
@@ -3236,8 +3236,8 @@ papi-devel-5.5.1-3.fc26.armv7hl
 papi-libs-5.5.1-3.fc26.armv7hl
 paranamer-2.8-4.fc26.noarch
 parboiled-1.1.6-11.fc26.noarch
-parted-3.2-26.fc27.armv7hl
-parted-devel-3.2-26.fc27.armv7hl
+parted-3.2-28.fc27.armv7hl
+parted-devel-3.2-28.fc27.armv7hl
 passwd-0.79-9.fc26.armv7hl
 patch-2.7.5-4.fc26.armv7hl
 patchutils-0.3.4-7.fc27.armv7hl
@@ -4213,7 +4213,6 @@ python-tempita-0.5.1-15.fc26.noarch
 python-testscenarios-0.5.0-5.fc26.noarch
 python-testtools-2.3.0-1.fc27.noarch
 python-ttystatus-0.34-2.fc26.noarch
-python-typeshed-0.1-0.20170612git.fc27.noarch
 python-webtest-2.0.27-1.fc27.noarch
 python-werkzeug-0.11.10-5.fc26.noarch
 python-which-1.1.0-17.fc26.noarch
@@ -4235,7 +4234,7 @@ python2-bottle-0.12.9-5.fc26.noarch
 python2-cffi-1.10.0-1.fc27.armv7hl
 python2-click-6.7-3.fc26.noarch
 python2-configparser-3.5.0b2-5.fc26.noarch
-python2-coverage-4.4.1-1.fc27.armv7hl
+python2-coverage-4.4.1-2.fc27.armv7hl
 python2-crypto-2.6.1-15.fc27.armv7hl
 python2-cryptography-1.9-1.fc27.armv7hl
 python2-cryptography-vectors-1.9-2.fc27.noarch
@@ -4379,7 +4378,7 @@ python3-chardet-3.0.4-1.fc27.noarch
 python3-click-6.7-3.fc26.noarch
 python3-construct-2.5.1-10.fc26.noarch
 python3-contextlib2-0.5.5-1.fc27.noarch
-python3-coverage-4.4.1-1.fc27.armv7hl
+python3-coverage-4.4.1-2.fc27.armv7hl
 python3-crypto-2.6.1-15.fc27.armv7hl
 python3-cryptography-1.9-1.fc27.armv7hl
 python3-cryptography-vectors-1.9-2.fc27.noarch
@@ -4393,7 +4392,7 @@ python3-devel-3.6.2-2.fc27.armv7hl
 python3-dnf-2.5.1-1.fc27.noarch
 python3-docutils-0.13.1-4.fc26.noarch
 python3-extras-0.0.3-15.fc26.noarch
-python3-firewall-0.4.4.5-1.fc27.noarch
+python3-firewall-0.4.4.5-3.fc27.noarch
 python3-fixtures-3.0.0-4.fc26.noarch
 python3-flask-1:0.11.1-5.fc26.noarch
 python3-funcsigs-1.0.2-5.fc26.noarch
@@ -4417,7 +4416,7 @@ python3-javapackages-5.0.0-4.fc27.noarch
 python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonschema-2.5.1-5.fc26.noarch
 python3-keyring-10.3.2-2.fc27.noarch
-python3-kickstart-2.35-1.fc27.noarch
+python3-kickstart-2.37-1.fc27.noarch
 python3-lazy-object-proxy-1.3.1-1.fc27.armv7hl
 python3-ldb-1.2.0-2.fc27.armv7hl
 python3-ldb-devel-1.2.0-2.fc27.armv7hl
@@ -4437,7 +4436,6 @@ python3-mccabe-0.6.1-3.fc27.noarch
 python3-meh-0.44-4.fc26.noarch
 python3-mimeparse-1.6.0-2.fc27.noarch
 python3-mock-2.0.0-4.fc26.noarch
-python3-mypy-0.520-1.fc27.noarch
 python3-netaddr-0.7.19-2.fc26.noarch
 python3-nose-1.3.7-13.fc26.noarch
 python3-ntplib-0.3.3-6.fc26.noarch
@@ -4522,7 +4520,6 @@ python3-tkinter-3.6.2-2.fc27.armv7hl
 python3-tools-3.6.2-2.fc27.armv7hl
 python3-tornado-4.4.2-3.fc26.armv7hl
 python3-traceback2-1.4.0-11.fc26.noarch
-python3-typed_ast-1.0.3-1.fc27.armv7hl
 python3-unittest2-1.1.0-9.fc26.noarch
 python3-urllib3-1.21.1-1.fc27.noarch
 python3-virtualenv-15.1.0-1.fc27.noarch
@@ -5071,11 +5068,11 @@ swt-chart-0.10.0-2.fc26.noarch
 symlinks-1.4-14.fc26.armv7hl
 system-python-3.6.2-2.fc27.armv7hl
 system-python-libs-3.6.2-2.fc27.armv7hl
-systemd-234-3.fc27.armv7hl
-systemd-devel-234-3.fc27.armv7hl
-systemd-libs-234-3.fc27.armv7hl
-systemd-pam-234-3.fc27.armv7hl
-systemd-udev-234-3.fc27.armv7hl
+systemd-234-5.fc27.armv7hl
+systemd-devel-234-5.fc27.armv7hl
+systemd-libs-234-5.fc27.armv7hl
+systemd-pam-234-5.fc27.armv7hl
+systemd-udev-234-5.fc27.armv7hl
 systemtap-3.2-0.20170512gitc67d8f274b21.fc27.armv7hl
 systemtap-client-3.2-0.20170512gitc67d8f274b21.fc27.armv7hl
 systemtap-devel-3.2-0.20170512gitc67d8f274b21.fc27.armv7hl

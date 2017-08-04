@@ -4180,7 +4180,6 @@ python-tempita
 python-testscenarios
 python-testtools
 python-ttystatus
-python-typeshed
 python-webtest
 python-werkzeug
 python-which
@@ -4407,7 +4406,6 @@ python3-mccabe
 python3-meh
 python3-mimeparse
 python3-mock
-python3-mypy
 python3-netaddr
 python3-nose
 python3-ntplib
@@ -4493,7 +4491,6 @@ python3-tkinter
 python3-tools
 python3-tornado
 python3-traceback2
-python3-typed_ast
 python3-unittest2
 python3-urllib3
 python3-virtualenv

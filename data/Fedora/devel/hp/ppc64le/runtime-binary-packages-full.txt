@@ -6,7 +6,7 @@ bc-1.07.1-1.fc27.ppc64le
 bind99-libs-9.9.10-1.P3.fc27.ppc64le
 bind99-license-9.9.10-1.P3.fc27.noarch
 binutils-2.28-9.fc27.ppc64le
-btrfs-progs-4.11.1-1.fc27.ppc64le
+btrfs-progs-4.12-1.fc27.ppc64le
 byacc-1.9.20170201-1.fc26.ppc64le
 bzip2-1.0.6-22.fc26.ppc64le
 bzip2-libs-1.0.6-22.fc26.ppc64le
@@ -285,10 +285,10 @@ sqlite-libs-3.19.3-1.fc27.ppc64le
 sudo-1.8.20p2-1.fc27.ppc64le
 system-python-3.6.2-2.fc27.ppc64le
 system-python-libs-3.6.2-2.fc27.ppc64le
-systemd-234-3.fc27.ppc64le
-systemd-libs-234-3.fc27.ppc64le
-systemd-pam-234-3.fc27.ppc64le
-systemd-udev-234-3.fc27.ppc64le
+systemd-234-5.fc27.ppc64le
+systemd-libs-234-5.fc27.ppc64le
+systemd-pam-234-5.fc27.ppc64le
+systemd-udev-234-5.fc27.ppc64le
 tar-2:1.29-4.fc26.ppc64le
 tcp_wrappers-libs-7.6-85.fc26.ppc64le
 tmux-2.5-1.fc27.ppc64le
