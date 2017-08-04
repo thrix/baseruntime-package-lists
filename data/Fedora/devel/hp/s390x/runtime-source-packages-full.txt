@@ -191,7 +191,7 @@ perl-IO-Compress-2.074-394.fc27.src
 perl-IO-Socket-IP-0.39-3.fc27.src
 perl-IPC-Cmd-2:0.98-3.fc27.src
 perl-IPC-SysV-2.07-394.fc27.src
-perl-IPC-System-Simple-1.25-14.fc27.src
+perl-IPC-System-Simple-1.25-16.fc27.src
 perl-JSON-PP-1:2.94-3.fc27.src
 perl-Locale-Codes-3.52-2.fc27.src
 perl-Locale-Maketext-1.28-394.fc27.src

@@ -3621,7 +3621,7 @@ perl-IPC-Cmd-2:0.98-3.fc27.noarch
 perl-IPC-Run-0.96-2.fc27.noarch
 perl-IPC-Run3-0.048-10.fc27.noarch
 perl-IPC-SysV-2.07-394.fc27.i686
-perl-IPC-System-Simple-1.25-14.fc27.noarch
+perl-IPC-System-Simple-1.25-16.fc27.noarch
 perl-Ima-DBI-0.35-26.fc27.noarch
 perl-Image-Base-1.17-8.fc27.noarch
 perl-Image-Info-1.41-1.fc27.noarch
