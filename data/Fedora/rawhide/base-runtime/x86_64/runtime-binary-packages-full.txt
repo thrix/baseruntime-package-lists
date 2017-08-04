@@ -205,10 +205,10 @@ syslinux-extlinux-6.04-0.3.fc27.x86_64
 syslinux-extlinux-nonlinux-6.04-0.3.fc27.noarch
 syslinux-nonlinux-6.04-0.3.fc27.noarch
 system-python-libs-3.6.2-2.fc27.x86_64
-systemd-234-3.fc27.x86_64
-systemd-libs-234-3.fc27.x86_64
-systemd-pam-234-3.fc27.x86_64
-systemd-udev-234-3.fc27.x86_64
+systemd-234-5.fc27.x86_64
+systemd-libs-234-5.fc27.x86_64
+systemd-pam-234-5.fc27.x86_64
+systemd-udev-234-5.fc27.x86_64
 tar-2:1.29-4.fc26.x86_64
 tzdata-2017b-1.fc27.noarch
 unzip-6.0-34.fc27.x86_64

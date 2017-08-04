@@ -219,10 +219,10 @@ sg3_utils-libs-1.42-1.fc26.ppc64le
 shadow-utils-2:4.3.1-3.fc26.ppc64le
 sqlite-libs-3.19.3-1.fc27.ppc64le
 system-python-libs-3.6.2-2.fc27.ppc64le
-systemd-234-3.fc27.ppc64le
-systemd-libs-234-3.fc27.ppc64le
-systemd-pam-234-3.fc27.ppc64le
-systemd-udev-234-3.fc27.ppc64le
+systemd-234-5.fc27.ppc64le
+systemd-libs-234-5.fc27.ppc64le
+systemd-pam-234-5.fc27.ppc64le
+systemd-udev-234-5.fc27.ppc64le
 tar-2:1.29-4.fc26.ppc64le
 tzdata-2017b-1.fc27.noarch
 unzip-6.0-34.fc27.ppc64le
