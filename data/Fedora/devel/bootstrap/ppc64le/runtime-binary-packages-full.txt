@@ -43,8 +43,8 @@ device-mapper-1.02.141-1.fc27.ppc64le
 device-mapper-event-1.02.141-1.fc27.ppc64le
 device-mapper-event-libs-1.02.141-1.fc27.ppc64le
 device-mapper-libs-1.02.141-1.fc27.ppc64le
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.ppc64le
-device-mapper-multipath-libs-0.7.1-3.gitf21166a.fc27.ppc64le
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.ppc64le
 dhcp-client-12:4.3.6-1.fc27.ppc64le
 dhcp-common-12:4.3.6-1.fc27.noarch
@@ -153,7 +153,7 @@ kexec-tools-2.0.15-4.fc27.ppc64le
 keyutils-libs-1.5.10-1.fc27.ppc64le
 kmod-24-1.fc26.ppc64le
 kmod-libs-24-1.fc26.ppc64le
-kpartx-0.7.1-3.gitf21166a.fc27.ppc64le
+kpartx-0.7.1-6.git847cc43.fc27.ppc64le
 krb5-libs-1.15.1-14.fc27.ppc64le
 langtable-0.0.37-1.fc26.noarch
 langtable-data-0.0.37-1.fc26.noarch
