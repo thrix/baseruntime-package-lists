@@ -10,18 +10,18 @@ ARCHES = --arch=aarch64 \
 
 all: $(MODULES)
 
-$(MODULES): repo-devel
+$(MODULES): repo/devel
 	@echo '*** Generating the $@ module(s) ***'
 	./generate_module_lists.sh --version=devel --module=$@ $(ARCHES)
 	./make_modulemd.pl -v ./data/Fedora/devel/$@
 
-repo-devel:
+repo/devel:
 	@echo '*** Fetching the development snapshot repository ***'
 	./download_repo.sh $(ARCHES) \
 		--release=devel \
 		--overrides 
 
-repo-rawhide:
+repo/rawhide:
 	@echo '*** Fetching the Rawhide-based repository ***'
 	./download_repo.sh $(ARCHES) \
 		--archful-srpm-file=archful-srpms.txt \
