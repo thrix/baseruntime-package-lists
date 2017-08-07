@@ -946,7 +946,6 @@ libcroco
 libdaemon
 libdatrie
 libdb
-libdb4
 libdbi
 libdmx
 libdnf

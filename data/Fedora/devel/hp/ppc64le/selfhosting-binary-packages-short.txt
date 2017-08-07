@@ -1882,8 +1882,6 @@ libdatrie-devel
 libdb
 libdb-devel
 libdb-utils
-libdb4
-libdb4-devel
 libdbi
 libdbi-devel
 libdhash

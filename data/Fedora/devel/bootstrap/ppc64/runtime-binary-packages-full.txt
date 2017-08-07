@@ -347,7 +347,7 @@ python2-2.7.13-12.fc27.ppc64
 python2-libs-2.7.13-12.fc27.ppc64
 python2-pip-9.0.1-10.fc27.noarch
 python2-setuptools-36.2.0-1.fc27.noarch
-python3-3.6.2-2.fc27.ppc64
+python3-3.6.2-5.fc27.ppc64
 python3-asn1crypto-0.22.0-2.fc27.noarch
 python3-beaker-1.5.4-16.fc26.noarch
 python3-blivet-1:2.1.9-2.fc27.noarch
@@ -370,7 +370,7 @@ python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64
 python3-kickstart-2.37-1.fc27.noarch
 python3-libcomps-0.1.8-3.fc26.ppc64
 python3-librepo-1.7.20-3.fc26.ppc64
-python3-libs-3.6.2-2.fc27.ppc64
+python3-libs-3.6.2-5.fc27.ppc64
 python3-mako-1.0.6-3.fc26.noarch
 python3-markupsafe-0.23-13.fc26.ppc64
 python3-meh-0.44-4.fc26.noarch
@@ -422,8 +422,8 @@ snappy-1.1.4-3.fc26.ppc64
 sqlite-libs-3.19.3-1.fc27.ppc64
 squashfs-tools-4.3-13.fc26.ppc64
 sudo-1.8.20p2-1.fc27.ppc64
-system-python-3.6.2-2.fc27.ppc64
-system-python-libs-3.6.2-2.fc27.ppc64
+system-python-3.6.2-5.fc27.ppc64
+system-python-libs-3.6.2-5.fc27.ppc64
 systemd-234-5.fc27.ppc64
 systemd-libs-234-5.fc27.ppc64
 systemd-pam-234-5.fc27.ppc64

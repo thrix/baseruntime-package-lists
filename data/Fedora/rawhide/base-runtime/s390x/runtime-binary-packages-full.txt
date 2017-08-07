@@ -311,8 +311,8 @@ procps-ng-3.3.10-13.fc26.s390x
 pth-2.0.7-28.fc26.s390x
 pth-devel-2.0.7-28.fc26.s390x
 python-srpm-macros-3-20.fc27.noarch
-python3-3.6.2-2.fc27.s390x
-python3-libs-3.6.2-2.fc27.s390x
+python3-3.6.2-5.fc27.s390x
+python3-libs-3.6.2-5.fc27.s390x
 python3-pip-9.0.1-10.fc27.noarch
 python3-pyparsing-2.1.10-3.fc26.noarch
 python3-setuptools-36.2.0-1.fc27.noarch
@@ -335,7 +335,7 @@ sg3_utils-libs-1.42-1.fc26.s390x
 shadow-utils-2:4.3.1-3.fc26.s390x
 sqlite-libs-3.19.3-1.fc27.s390x
 sysfsutils-2.1.0-20.fc26.s390x
-system-python-libs-3.6.2-2.fc27.s390x
+system-python-libs-3.6.2-5.fc27.s390x
 systemd-234-5.fc27.s390x
 systemd-libs-234-5.fc27.s390x
 systemd-pam-234-5.fc27.s390x

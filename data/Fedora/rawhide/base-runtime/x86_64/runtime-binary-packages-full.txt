@@ -204,7 +204,7 @@ syslinux-6.04-0.3.fc27.x86_64
 syslinux-extlinux-6.04-0.3.fc27.x86_64
 syslinux-extlinux-nonlinux-6.04-0.3.fc27.noarch
 syslinux-nonlinux-6.04-0.3.fc27.noarch
-system-python-libs-3.6.2-2.fc27.x86_64
+system-python-libs-3.6.2-5.fc27.x86_64
 systemd-234-5.fc27.x86_64
 systemd-libs-234-5.fc27.x86_64
 systemd-pam-234-5.fc27.x86_64

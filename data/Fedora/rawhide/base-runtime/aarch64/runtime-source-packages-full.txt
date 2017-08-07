@@ -135,7 +135,7 @@ popt-1.16-8.fc26.src
 procps-ng-3.3.10-13.fc26.src
 pth-2.0.7-28.fc26.src
 python-rpm-macros-3-20.fc27.src
-python3-3.6.2-2.fc27.src
+python3-3.6.2-5.fc27.src
 qrencode-3.4.4-1.fc27.src
 qt5-5.9.0-2.fc27.src
 readline-7.0-5.fc26.src
