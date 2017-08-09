@@ -232,7 +232,6 @@ powerpc-utils
 ppc64-utils
 procps-ng
 psmisc
-pth
 publicsuffix-list
 pyOpenSSL
 pygobject3
@@ -312,3 +311,4 @@ xmlrpc-c
 xz
 zip
 zlib
+zstd

@@ -343,7 +343,6 @@ powerpc-utils
 ppc64-utils
 procps-ng
 psmisc
-pth
 publicsuffix-list-dafsa
 python-srpm-macros
 python2
@@ -454,3 +453,4 @@ xz
 xz-libs
 zip
 zlib
+zstd

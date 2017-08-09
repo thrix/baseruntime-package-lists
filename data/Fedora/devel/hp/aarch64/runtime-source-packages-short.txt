@@ -161,7 +161,6 @@ pkgconf
 popt
 procps-ng
 psmisc
-pth
 python-iniparse
 python-pip
 python-rpm-macros
@@ -201,3 +200,4 @@ xfsprogs
 xz
 zip
 zlib
+zstd

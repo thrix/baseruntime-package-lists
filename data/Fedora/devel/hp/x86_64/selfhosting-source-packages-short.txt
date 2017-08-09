@@ -2554,7 +2554,6 @@ proxytoys
 psmisc
 pstoedit
 psutils
-pth
 publicsuffix-list
 pulseaudio
 pyOpenSSL
@@ -3258,6 +3257,7 @@ zlib
 znerd-oss-parent
 zookeeper
 zopfli
+zstd
 zvbi
 zxing
 zziplib

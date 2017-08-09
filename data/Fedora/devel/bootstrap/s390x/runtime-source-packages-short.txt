@@ -308,7 +308,6 @@ polkit
 popt
 procps-ng
 psmisc
-pth
 publicsuffix-list
 pyOpenSSL
 pygobject3
@@ -392,3 +391,4 @@ xmlrpc-c
 xz
 zip
 zlib
+zstd

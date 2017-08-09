@@ -4020,8 +4020,6 @@ pstoedit
 pstoedit-devel
 psutils
 psutils-perl
-pth
-pth-devel
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio-libs
@@ -6465,6 +6463,7 @@ znerd-oss-parent
 zookeeper
 zookeeper-java
 zopfli
+zstd
 zvbi
 zvbi-devel
 zxing

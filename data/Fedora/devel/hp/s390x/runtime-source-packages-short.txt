@@ -258,7 +258,6 @@ pkgconf
 popt
 procps-ng
 psmisc
-pth
 pyparsing
 python-iniparse
 python-pip
@@ -300,3 +299,4 @@ xfsprogs
 xz
 zip
 zlib
+zstd

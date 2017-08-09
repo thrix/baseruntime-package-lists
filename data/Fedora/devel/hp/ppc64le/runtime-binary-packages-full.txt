@@ -83,7 +83,7 @@ gnutls-3.5.14-1.fc27.ppc64le
 go-srpm-macros-2-9.fc27.noarch
 gobject-introspection-1.53.3-1.fc27.ppc64le
 gpart-0.3-3.fc26.ppc64le
-gpgme-1.9.0-1.fc27.ppc64le
+gpgme-1.9.0-5.fc27.ppc64le
 grep-3.1-1.fc27.ppc64le
 grub2-1:2.02-0.38.fc26.ppc64le
 grub2-tools-1:2.02-0.38.fc26.ppc64le
@@ -112,7 +112,7 @@ krb5-libs-1.15.1-14.fc27.ppc64le
 libacl-2.2.52-16.fc27.ppc64le
 libarchive-3.3.1-1.fc27.ppc64le
 libasan-7.1.1-6.fc27.ppc64le
-libassuan-2.4.3-2.fc26.ppc64le
+libassuan-2.4.3-6.fc27.ppc64le
 libatomic-7.1.1-6.fc27.ppc64le
 libatomic_ops-7.4.6-1.fc27.ppc64le
 libattr-2.4.47-19.fc27.ppc64le
@@ -245,7 +245,6 @@ powerpc-utils-1.3.3-1.fc27.ppc64le
 ppc64-utils-0.14-22.fc26.ppc64le
 procps-ng-3.3.10-13.fc26.ppc64le
 psmisc-22.21-9.fc26.ppc64le
-pth-2.0.7-28.fc26.ppc64le
 python-srpm-macros-3-20.fc27.noarch
 python2-2.7.13-12.fc27.ppc64le
 python2-libs-2.7.13-12.fc27.ppc64le
@@ -253,7 +252,7 @@ python2-pip-9.0.1-10.fc27.noarch
 python2-setuptools-36.2.0-1.fc27.noarch
 python3-3.6.2-5.fc27.ppc64le
 python3-dnf-2.5.1-1.fc27.noarch
-python3-gpg-1.9.0-1.fc27.ppc64le
+python3-gpg-1.9.0-5.fc27.ppc64le
 python3-hawkey-0.9.2-1.fc27.ppc64le
 python3-iniparse-0.4-24.fc26.noarch
 python3-libcomps-0.1.8-3.fc26.ppc64le
@@ -305,3 +304,4 @@ xz-5.2.3-2.fc26.ppc64le
 xz-libs-5.2.3-2.fc26.ppc64le
 zip-3.0-18.fc26.ppc64le
 zlib-1.2.11-2.fc26.ppc64le
+zstd-1.3.0-1.fc27.ppc64le

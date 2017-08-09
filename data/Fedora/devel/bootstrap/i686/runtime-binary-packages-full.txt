@@ -117,7 +117,7 @@ gnutls-3.5.14-1.fc27.i686
 go-srpm-macros-2-9.fc27.noarch
 gobject-introspection-1.53.3-1.fc27.i686
 gpart-0.3-3.fc26.i686
-gpgme-1.9.0-1.fc27.i686
+gpgme-1.9.0-5.fc27.i686
 grep-3.1-1.fc27.i686
 grub2-1:2.02-0.38.fc26.i686
 grub2-efi-1:2.02-0.38.fc26.i686
@@ -172,7 +172,7 @@ libacl-2.2.52-16.fc27.i686
 libaio-0.3.110-7.fc26.i686
 libarchive-3.3.1-1.fc27.i686
 libasan-7.1.1-6.fc27.i686
-libassuan-2.4.3-2.fc26.i686
+libassuan-2.4.3-6.fc27.i686
 libatomic-7.1.1-6.fc27.i686
 libatomic_ops-7.4.6-1.fc27.i686
 libattr-2.4.47-19.fc27.i686
@@ -337,7 +337,6 @@ polkit-libs-0.113-13.fc27.i686
 popt-1.16-8.fc26.i686
 procps-ng-3.3.10-13.fc26.i686
 psmisc-22.21-9.fc26.i686
-pth-2.0.7-28.fc26.i686
 publicsuffix-list-dafsa-20170424-1.fc27.noarch
 python-srpm-macros-3-20.fc27.noarch
 python2-2.7.13-12.fc27.i686
@@ -359,7 +358,7 @@ python3-decorator-4.0.11-2.fc26.noarch
 python3-dnf-2.5.1-1.fc27.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
 python3-gobject-base-3.24.1-1.fc27.i686
-python3-gpg-1.9.0-1.fc27.i686
+python3-gpg-1.9.0-5.fc27.i686
 python3-hawkey-0.9.2-1.fc27.i686
 python3-idna-2.5-1.fc27.noarch
 python3-iniparse-0.4-24.fc26.noarch
@@ -451,3 +450,4 @@ xz-5.2.3-2.fc26.i686
 xz-libs-5.2.3-2.fc26.i686
 zip-3.0-18.fc26.i686
 zlib-1.2.11-2.fc26.i686
+zstd-1.3.0-1.fc27.i686

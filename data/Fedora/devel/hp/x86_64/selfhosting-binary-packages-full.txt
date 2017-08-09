@@ -1163,8 +1163,8 @@ gpart-0.3-3.fc26.x86_64
 gperf-3.1-2.fc26.x86_64
 gperftools-devel-2.6.1-1.fc27.x86_64
 gperftools-libs-2.6.1-1.fc27.x86_64
-gpgme-1.9.0-1.fc27.x86_64
-gpgme-devel-1.9.0-1.fc27.x86_64
+gpgme-1.9.0-5.fc27.x86_64
+gpgme-devel-1.9.0-5.fc27.x86_64
 gpm-1.20.7-10.fc26.x86_64
 gpm-devel-1.20.7-10.fc26.x86_64
 gpm-libs-1.20.7-10.fc26.x86_64
@@ -1857,8 +1857,8 @@ libart_lgpl-2.3.21-16.fc26.x86_64
 libart_lgpl-devel-2.3.21-16.fc26.x86_64
 libass-0.13.4-2.fc26.x86_64
 libass-devel-0.13.4-2.fc26.x86_64
-libassuan-2.4.3-2.fc26.x86_64
-libassuan-devel-2.4.3-2.fc26.x86_64
+libassuan-2.4.3-6.fc27.x86_64
+libassuan-devel-2.4.3-6.fc27.x86_64
 libasyncns-0.8-11.fc26.x86_64
 libasyncns-devel-0.8-11.fc26.x86_64
 libatasmart-0.19-10.fc26.x86_64
@@ -4160,8 +4160,6 @@ pstoedit-3.70-6.fc26.x86_64
 pstoedit-devel-3.70-6.fc26.x86_64
 psutils-1.23-10.fc26.x86_64
 psutils-perl-1.23-10.fc26.noarch
-pth-2.0.7-28.fc26.x86_64
-pth-devel-2.0.7-28.fc26.x86_64
 publicsuffix-list-20170424-1.fc27.noarch
 publicsuffix-list-dafsa-20170424-1.fc27.noarch
 pulseaudio-libs-10.0-4.fc26.x86_64
@@ -4264,7 +4262,7 @@ python2-fonttools-3.13.1-1.fc27.noarch
 python2-funcsigs-1.0.2-5.fc26.noarch
 python2-gflags-2.0-9.fc26.noarch
 python2-gluster-3.11.1-2.fc27.x86_64
-python2-gpg-1.9.0-1.fc27.x86_64
+python2-gpg-1.9.0-5.fc27.x86_64
 python2-hawkey-0.9.2-1.fc27.x86_64
 python2-html5lib-1:0.999-13.fc26.noarch
 python2-httpbin-0.5.0-6.fc27.noarch
@@ -4407,7 +4405,7 @@ python3-gflags-2.0-9.fc26.noarch
 python3-gobject-3.24.1-1.fc27.x86_64
 python3-gobject-base-3.24.1-1.fc27.x86_64
 python3-google-apputils-0.4.2-8.fc26.noarch
-python3-gpg-1.9.0-1.fc27.x86_64
+python3-gpg-1.9.0-5.fc27.x86_64
 python3-hawkey-0.9.2-1.fc27.x86_64
 python3-html5lib-1:0.999-13.fc26.noarch
 python3-httpbin-0.5.0-6.fc27.noarch
@@ -6664,6 +6662,7 @@ znerd-oss-parent-3-13.fc26.noarch
 zookeeper-3.4.9-3.fc26.x86_64
 zookeeper-java-3.4.9-3.fc26.x86_64
 zopfli-1.0.1-3.fc26.x86_64
+zstd-1.3.0-1.fc27.x86_64
 zvbi-0.2.35-2.fc26.x86_64
 zvbi-devel-0.2.35-2.fc26.x86_64
 zxing-3.2.1-4.fc26.noarch
