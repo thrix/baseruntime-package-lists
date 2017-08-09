@@ -234,14 +234,6 @@ for arch in ${_arg_arch[@]}; do
     done
     export LC_ALL=$LC_SAVED
 
-    cat $modulearchroot/runtime-source-packages-full.txt |
-    sed -e 's/\([[:digit:]]\+:\)//g' |
-    sed -e 's/\.src//g' |
-    sort |
-    xargs ./get_package_hashes.py |
-    awk '{ match($0, /\/rpms\/([^:]+):([a-f0-9]+)\)/, arr); \
-                  if(arr[2] != "") print arr[1]"#"arr[2] }' > $modulearchroot/runtime-hashes.txt
-
 done
 
 # ] <-- needed because of Argbash
