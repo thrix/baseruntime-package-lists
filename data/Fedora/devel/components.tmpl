@@ -1,7 +1,12 @@
+[% IF components.size -%]
 [% FOREACH component IN components.pairs -%]
             # [% component.value.nvr %]
             [% component.key %]:
                 rationale: >-
                     [% component.value.rationale %]
                 ref: [% component.value.ref %]
+[% END -%]
+[% ELSE -%]
+            # This module doesn't contain any components
+            {}
 [% END -%]
