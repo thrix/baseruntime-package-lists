@@ -177,12 +177,12 @@ for arch in ${_arg_arch[@]}; do
     > $modulearchroot/selfhosting-source-packages-short.txt
 
     # Depchase the binary and source packages for the runtime
-    echo "Processing runtime for $arch"
+    echo "Processing runtime for $module / $arch"
     cat $pkgfile |
     xargs depchase -a $arch -c $repocfg resolve $hints > $modulearchroot/depchase-runtime-failures.txt
     RC=$?
     if [ $RC -ne 0 ]; then
-        echo "Depchase failures encountered on $arch runtime:"
+        echo "Depchase failures encountered on $module / $arch runtime:"
         cat $modulearchroot/depchase-runtime-failures.txt
         continue
     fi
@@ -201,12 +201,12 @@ for arch in ${_arg_arch[@]}; do
     rm -f $modulearchroot/depchase-runtime-failures.txt
 
     # Depchase the binary and source packages for the self-hosting set
-    echo "Processing self-hosting for $arch"
+    echo "Processing self-hosting for $module / $arch"
     cat $pkgfile |
     xargs depchase -a $arch -c $repocfg resolve --selfhost $hints > $modulearchroot/depchase-selfhosting-failures.txt
     RC=$?
     if [ $RC -ne 0 ]; then
-        echo "Depchase failures encountered on $arch self-hosting:"
+        echo "Depchase failures encountered on $module / $arch self-hosting:"
         cat $modulearchroot/depchase-selfhosting-failures.txt
         continue
     fi
