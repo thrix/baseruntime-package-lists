@@ -21,6 +21,7 @@ $Text::Wrap::unexpand = 0;
 #   * platform
 #   * host
 #   * shim
+#   * atomic
 #
 # Unlike with Base Runtime, the Bootstrap module doesn't include
 # any other directly.  This is to allow greater flexibility for
@@ -42,22 +43,27 @@ $Text::Wrap::unexpand = 0;
 #   * The Host module includes only packages explicitly listed
 #     in it.  The module depends on the Bootstrap and Shim
 #     modules at build and on the Platform module at runtime.
-#   * The Platform module includes the remainder of the runtime
-#     components, satisfying runtime dependencies of the Host.
-#     It depends on the Bootstrap module at build time and has
-#     no runtime dependencies.
+#   * The Platform module includes the remainder of the non-Atomic
+#     runtime components, satisfying runtime dependencies of the
+#     Host.  It depends on the Bootstrap module at build time and
+#     has no runtime dependencies.
+#   * The Atomic module includes components needed to boot an
+#     Atomic-based faster moving host.  This module is almost
+#     entirely independent, only sharing the build environment
+#     with the Host & Platform module set.
 
 sub HELP_MESSAGE {
     print <<"    EOF";
 Usage: make_modulemd.pl [-b] [-v] <path to package lists>
 
+Generate the Atomic Host module:
+  ./make_modulemd.pl ./data/Fedora/devel/atomic
 Generate the complete Host & Platform set:
-  ./make_modulemd.pl data/Fedora/devel/hp
+  ./make_modulemd.pl ./data/Fedora/devel/hp
 Generate the extended Bootstrap module only:
-  ./make_modulemd.pl -b data/Fedora/devel/bootstrap
+  ./make_modulemd.pl ./data/Fedora/devel/bootstrap
 
 Options:
-  -b  Bootstrap only.  Skips generating non-bootstrap modulemds.
   -v  Verbose.  Prints more information to stderr.
     EOF
     exit 1;
@@ -68,6 +74,7 @@ getopts('v', \%opts);
 
 my $base = shift @ARGV or HELP_MESSAGE;
 -d $base or HELP_MESSAGE;
+my ($mode) = $base =~ /\/([^\/]+)$/;
 
 # Get a simple NVR from a NEVRA SRPM name.
 sub getnvr {
@@ -81,7 +88,7 @@ sub getn {
 
 # Get dist-git refs for NVRs
 sub getrefs {
-    print { *stderr } "Getting component dist-git refs...\n"
+    print { *stderr } "Getting ${mode} component dist-git refs...\n"
         if $opts{v};
     my %refs = map {
         # XXX: Special hacks for shim.  This needs to be updated
@@ -139,14 +146,14 @@ for i in range(len(nvrs)):
 my @arches = qw/aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64/;
 # XXX: Make sure platform is the last one so that we can reuse data from the
 #      host and shim data files.  This should be done in a better way but meh.
-my @modules = qw/bootstrap host shim platform/;
+my @modules = qw/bootstrap atomic host shim platform/;
 # Map of components and their hashes
 my %components;
 # And just the runtime set
 my %runtime;
 
 for my $arch (@arches) {
-    print { *stderr } "Reading ${arch} package lists...\n"
+    print { *stderr } "Reading ${mode} / ${arch} package lists...\n"
         if $opts{v};
     open my $fh, '<', "${base}/${arch}/selfhosting-source-packages-full.txt";
     while (<$fh>) {
@@ -171,10 +178,10 @@ my $default_ref = 'master';
 my %nonplatform;
 
 for my $module (@modules) {
-    next if $base =~ /bootstrap$/ && $module ne 'bootstrap';
-    next if $base =~ /hp$/ && $module !~ /^(?:platform|host|shim)$/;
-    next if $module ne 'bootstrap' && $base =~ /bootstrap$/;
-    print { *stderr } "Generating ${module}...\n"
+    next if $mode eq 'bootstrap' && $module ne 'bootstrap';
+    next if $mode eq 'atomic' && $module ne 'atomic';
+    next if $mode eq 'hp' && $module !~ /^(?:platform|host|shim)$/;
+    print { *stderr } "Generating ${mode} / ${module}...\n"
         if $opts{v};
     my $tt = Template->new( {
             INCLUDE_PATH => ${base},
@@ -209,7 +216,7 @@ for my $module (@modules) {
             my $tmp = $_; any { $_ eq getn($tmp) } keys %rationales;
         } keys %components };
         map { $nonplatform{$_} = undef } keys %rationales;
-    } elsif ($module eq 'platform') {
+    } elsif ($module =~ /^(?:atomic|platform)$/) {
         $data{components} = { map {
             getn($_) => {
                 nvr => $_,
@@ -235,7 +242,9 @@ for my $module (@modules) {
                 $_;
             }
         } grep {
-            ! exists $nonplatform{getn($_)};
+            $module eq 'atomic'
+            ? 1
+            : ! exists $nonplatform{getn($_)};
         } keys %runtime };
     } else {
         die "Unhandled module: ${module}\n";
@@ -244,5 +253,5 @@ for my $module (@modules) {
         or die "Error while processing templates: " . $tt->error() . "\n";
 }
 
-print "Done!\n"
+print "Done with ${mode}.\n"
     if $opts{v};
