@@ -3,8 +3,8 @@ NetworkManager-1:1.8.0-6.fc27.i686
 NetworkManager-libnm-1:1.8.0-6.fc27.i686
 NetworkManager-team-1:1.8.0-6.fc27.i686
 acl-2.2.52-18.fc27.i686
-anaconda-core-27.18-1.fc27.i686
-anaconda-tui-27.18-1.fc27.i686
+anaconda-core-27.19-4.fc27.i686
+anaconda-tui-27.19-4.fc27.i686
 atomic-1.18.1-5.fc27.i686
 atomic-devmode-0.3.7-1.fc27.noarch
 atomic-registries-1.18.1-5.fc27.i686
@@ -23,7 +23,7 @@ bind99-libs-9.9.10-1.P3.fc27.i686
 bind99-license-9.9.10-1.P3.fc27.noarch
 binutils-2.29-6.fc27.i686
 bridge-utils-1.5-14.fc26.i686
-btrfs-progs-4.11.1-1.fc27.i686
+btrfs-progs-4.12-1.fc27.i686
 bubblewrap-0.1.8-1.fc27.i686
 byacc-1.9.20170201-1.fc26.i686
 bzip2-1.0.6-24.fc27.i686
@@ -64,8 +64,8 @@ device-mapper-1.02.142-4.fc27.i686
 device-mapper-event-1.02.142-4.fc27.i686
 device-mapper-event-libs-1.02.142-4.fc27.i686
 device-mapper-libs-1.02.142-4.fc27.i686
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.i686
-device-mapper-multipath-libs-0.7.1-3.gitf21166a.fc27.i686
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.i686
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.i686
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.i686
 dhcp-client-12:4.3.6-1.fc27.i686
 dhcp-common-12:4.3.6-1.fc27.noarch
@@ -112,8 +112,8 @@ filesystem-3.3-3.fc27.i686
 findutils-1:4.6.0-14.fc27.i686
 fipscheck-1.5.0-1.fc26.i686
 fipscheck-lib-1.5.0-1.fc26.i686
-firewalld-0.4.4.5-1.fc27.noarch
-firewalld-filesystem-0.4.4.5-1.fc27.noarch
+firewalld-0.4.4.5-3.fc27.noarch
+firewalld-filesystem-0.4.4.5-3.fc27.noarch
 flex-2.6.1-3.fc26.i686
 fpc-srpm-macros-1.1-3.fc27.noarch
 freetype-2.8-5.fc27.i686
@@ -165,7 +165,7 @@ hwdata-0.302-1.fc27.noarch
 info-6.4-3.fc27.i686
 initscripts-9.72-1.fc27.i686
 ipcalc-0.2.0-1.fc27.i686
-iproute-4.11.0-1.fc27.i686
+iproute-4.12.0-1.fc27.i686
 ipset-6.29-3.fc27.i686
 ipset-libs-6.29-3.fc27.i686
 iptables-1.6.1-4.fc27.i686
@@ -199,7 +199,7 @@ keyutils-1.5.10-3.fc27.i686
 keyutils-libs-1.5.10-3.fc27.i686
 kmod-24-3.fc27.i686
 kmod-libs-24-3.fc27.i686
-kpartx-0.7.1-3.gitf21166a.fc27.i686
+kpartx-0.7.1-6.git847cc43.fc27.i686
 krb5-libs-1.15.1-21.fc27.i686
 langtable-0.0.37-1.fc26.noarch
 langtable-data-0.0.37-1.fc26.noarch
@@ -455,7 +455,7 @@ python3-decorator-4.0.11-2.fc26.noarch
 python3-dnf-2.5.1-1.fc27.noarch
 python3-docker-2.4.2-1.fc27.noarch
 python3-docker-pycreds-0.2.1-4.fc26.noarch
-python3-firewall-0.4.4.5-1.fc27.noarch
+python3-firewall-0.4.4.5-3.fc27.noarch
 python3-gobject-base-3.24.1-1.fc27.i686
 python3-gpg-1.9.0-1.fc27.i686
 python3-hawkey-0.9.2-1.fc27.i686
@@ -472,7 +472,7 @@ python3-librepo-1.7.20-3.fc26.i686
 python3-libs-3.6.2-6.fc27.i686
 python3-libxml2-2.9.4-4.fc27.i686
 python3-mako-1.0.6-3.fc26.noarch
-python3-markupsafe-0.23-13.fc26.i686
+python3-markupsafe-0.23-15.fc27.i686
 python3-meh-0.44-4.fc26.noarch
 python3-ntplib-0.3.3-6.fc26.noarch
 python3-oauthlib-2.0.1-3.fc27.noarch

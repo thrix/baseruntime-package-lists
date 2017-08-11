@@ -418,8 +418,8 @@ bridge-method-annotation-1.14-6.fc26.noarch
 bridge-method-injector-1.14-6.fc26.noarch
 bsf-2.4.0-26.fc26.noarch
 bsh-2.0-6.b6.fc27.noarch
-btrfs-progs-4.11.1-1.fc27.ppc64le
-btrfs-progs-devel-4.11.1-1.fc27.ppc64le
+btrfs-progs-4.12-1.fc27.ppc64le
+btrfs-progs-devel-4.12-1.fc27.ppc64le
 buildnumber-maven-plugin-1.3-7.fc26.noarch
 bullet-2.83-3.fc26.ppc64le
 bullet-devel-2.83-3.fc26.ppc64le
@@ -586,8 +586,8 @@ device-mapper-event-1.02.142-4.fc27.ppc64le
 device-mapper-event-devel-1.02.142-4.fc27.ppc64le
 device-mapper-event-libs-1.02.142-4.fc27.ppc64le
 device-mapper-libs-1.02.142-4.fc27.ppc64le
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.ppc64le
-device-mapper-multipath-libs-0.7.1-3.gitf21166a.fc27.ppc64le
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64le
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64le
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.ppc64le
 dhcp-client-12:4.3.6-1.fc27.ppc64le
 dhcp-common-12:4.3.6-1.fc27.noarch
@@ -819,8 +819,8 @@ fipscheck-lib-1.5.0-1.fc26.ppc64le
 firebird-3.0.2.32703-1.fc27.ppc64le
 firebird-devel-3.0.2.32703-1.fc27.ppc64le
 firebird-utils-3.0.2.32703-1.fc27.ppc64le
-firewalld-0.4.4.5-1.fc27.noarch
-firewalld-filesystem-0.4.4.5-1.fc27.noarch
+firewalld-0.4.4.5-3.fc27.noarch
+firewalld-filesystem-0.4.4.5-3.fc27.noarch
 flac-devel-1.3.2-2.fc26.ppc64le
 flac-libs-1.3.2-2.fc26.ppc64le
 flex-2.6.1-3.fc26.ppc64le
@@ -1285,7 +1285,7 @@ inkscape-0.92.1-5.20170510bzr15686.fc27.ppc64le
 intltool-0.51.0-8.fc26.noarch
 invokebinder-1.2-6.fc26.noarch
 ipcalc-0.2.0-1.fc27.ppc64le
-iproute-4.11.0-1.fc27.ppc64le
+iproute-4.12.0-1.fc27.ppc64le
 ipset-6.29-3.fc27.ppc64le
 ipset-libs-6.29-3.fc27.ppc64le
 iptables-1.6.1-4.fc27.ppc64le
@@ -1662,7 +1662,7 @@ kmod-24-3.fc27.ppc64le
 kmod-devel-24-3.fc27.ppc64le
 kmod-libs-24-3.fc27.ppc64le
 kohsuke-pom-14-3.fc26.noarch
-kpartx-0.7.1-3.gitf21166a.fc27.ppc64le
+kpartx-0.7.1-6.git847cc43.fc27.ppc64le
 krb5-devel-1.15.1-21.fc27.ppc64le
 krb5-libs-1.15.1-21.fc27.ppc64le
 krb5-server-1.15.1-21.fc27.ppc64le
@@ -4142,7 +4142,7 @@ python2-librepo-1.7.20-3.fc26.ppc64le
 python2-libs-2.7.13-12.fc27.ppc64le
 python2-lxml-3.7.2-2.fc26.ppc64le
 python2-markdown-2.6.8-2.fc26.noarch
-python2-markupsafe-0.23-13.fc26.ppc64le
+python2-markupsafe-0.23-15.fc27.ppc64le
 python2-mimeparse-1.6.0-2.fc27.noarch
 python2-mock-2.0.0-4.fc26.noarch
 python2-nose-1.3.7-13.fc26.noarch
@@ -4254,7 +4254,7 @@ python3-devel-3.6.2-6.fc27.ppc64le
 python3-dnf-2.5.1-1.fc27.noarch
 python3-docutils-0.13.1-4.fc26.noarch
 python3-extras-0.0.3-15.fc26.noarch
-python3-firewall-0.4.4.5-1.fc27.noarch
+python3-firewall-0.4.4.5-3.fc27.noarch
 python3-fixtures-3.0.0-4.fc26.noarch
 python3-flask-1:0.11.1-5.fc26.noarch
 python3-funcsigs-1.0.2-5.fc26.noarch
@@ -4288,7 +4288,7 @@ python3-lit-0.5.0-1.fc27.noarch
 python3-lxml-3.7.2-2.fc26.ppc64le
 python3-magic-5.31-7.fc27.noarch
 python3-mallard-ducktype-0.2-7.fc26.noarch
-python3-markupsafe-0.23-13.fc26.ppc64le
+python3-markupsafe-0.23-15.fc27.ppc64le
 python3-mimeparse-1.6.0-2.fc27.noarch
 python3-mock-2.0.0-4.fc26.noarch
 python3-netaddr-0.7.19-2.fc26.noarch

@@ -448,8 +448,8 @@ brlapi-devel-0.6.6-4.fc27.s390x
 brltty-5.5-4.fc27.s390x
 bsf-2.4.0-26.fc26.noarch
 bsh-2.0-6.b6.fc27.noarch
-btrfs-progs-4.11.1-1.fc27.s390x
-btrfs-progs-devel-4.11.1-1.fc27.s390x
+btrfs-progs-4.12-1.fc27.s390x
+btrfs-progs-devel-4.12-1.fc27.s390x
 bubblewrap-0.1.8-1.fc27.s390x
 buildnumber-maven-plugin-1.3-7.fc26.noarch
 bval-1.1.1-3.fc26.noarch
@@ -629,8 +629,8 @@ device-mapper-event-1.02.142-4.fc27.s390x
 device-mapper-event-devel-1.02.142-4.fc27.s390x
 device-mapper-event-libs-1.02.142-4.fc27.s390x
 device-mapper-libs-1.02.142-4.fc27.s390x
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.s390x
-device-mapper-multipath-libs-0.7.1-3.gitf21166a.fc27.s390x
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.s390x
+device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.s390x
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.s390x
 dhcp-client-12:4.3.6-1.fc27.s390x
 dhcp-common-12:4.3.6-1.fc27.noarch
@@ -867,8 +867,8 @@ fipscheck-lib-1.5.0-1.fc26.s390x
 firebird-3.0.2.32703-1.fc27.s390x
 firebird-devel-3.0.2.32703-1.fc27.s390x
 firebird-utils-3.0.2.32703-1.fc27.s390x
-firewalld-0.4.4.5-1.fc27.noarch
-firewalld-filesystem-0.4.4.5-1.fc27.noarch
+firewalld-0.4.4.5-3.fc27.noarch
+firewalld-filesystem-0.4.4.5-3.fc27.noarch
 flac-devel-1.3.2-2.fc26.s390x
 flac-libs-1.3.2-2.fc26.s390x
 flex-2.6.1-3.fc26.s390x
@@ -1330,7 +1330,7 @@ inkscape-0.92.1-5.20170510bzr15686.fc27.s390x
 intltool-0.51.0-8.fc26.noarch
 invokebinder-1.2-6.fc26.noarch
 ipcalc-0.2.0-1.fc27.s390x
-iproute-4.11.0-1.fc27.s390x
+iproute-4.12.0-1.fc27.s390x
 ipset-6.29-3.fc27.s390x
 ipset-libs-6.29-3.fc27.s390x
 iptables-1.6.1-4.fc27.s390x
@@ -1705,7 +1705,7 @@ kmod-24-3.fc27.s390x
 kmod-devel-24-3.fc27.s390x
 kmod-libs-24-3.fc27.s390x
 kohsuke-pom-14-3.fc26.noarch
-kpartx-0.7.1-3.gitf21166a.fc27.s390x
+kpartx-0.7.1-6.git847cc43.fc27.s390x
 krb5-devel-1.15.1-21.fc27.s390x
 krb5-libs-1.15.1-21.fc27.s390x
 krb5-server-1.15.1-21.fc27.s390x
@@ -4177,7 +4177,7 @@ python2-librepo-1.7.20-3.fc26.s390x
 python2-libs-2.7.13-12.fc27.s390x
 python2-lxml-3.7.2-2.fc26.s390x
 python2-markdown-2.6.8-2.fc26.noarch
-python2-markupsafe-0.23-13.fc26.s390x
+python2-markupsafe-0.23-15.fc27.s390x
 python2-mccabe-0.6.1-3.fc27.noarch
 python2-mimeparse-1.6.0-2.fc27.noarch
 python2-mock-2.0.0-4.fc26.noarch
@@ -4297,7 +4297,7 @@ python3-docker-2.4.2-1.fc27.noarch
 python3-docker-pycreds-0.2.1-4.fc26.noarch
 python3-docutils-0.13.1-4.fc26.noarch
 python3-extras-0.0.3-15.fc26.noarch
-python3-firewall-0.4.4.5-1.fc27.noarch
+python3-firewall-0.4.4.5-3.fc27.noarch
 python3-fixtures-3.0.0-4.fc26.noarch
 python3-flake8-3.3.0-3.fc27.noarch
 python3-flask-1:0.11.1-5.fc26.noarch
@@ -4339,7 +4339,7 @@ python3-lit-0.5.0-1.fc27.noarch
 python3-lxml-3.7.2-2.fc26.s390x
 python3-magic-5.31-7.fc27.noarch
 python3-mallard-ducktype-0.2-7.fc26.noarch
-python3-markupsafe-0.23-13.fc26.s390x
+python3-markupsafe-0.23-15.fc27.s390x
 python3-mccabe-0.6.1-3.fc27.noarch
 python3-mimeparse-1.6.0-2.fc27.noarch
 python3-mock-2.0.0-4.fc26.noarch

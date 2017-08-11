@@ -2,7 +2,7 @@ GConf2-3.2.6-17.fc26.src
 NetworkManager-1:1.8.0-6.fc27.src
 PyYAML-3.12-3.fc26.src
 acl-2.2.52-18.fc27.src
-anaconda-27.18-1.fc27.src
+anaconda-27.19-4.fc27.src
 atomic-1.18.1-5.fc27.src
 attr-2.4.47-21.fc27.src
 audit-2.7.7-5.fc27.src
@@ -16,7 +16,7 @@ bcache-tools-1.0.8-8.fc26.src
 bind99-9.9.10-1.P3.fc27.src
 binutils-2.29-6.fc27.src
 bridge-utils-1.5-14.fc26.src
-btrfs-progs-4.11.1-1.fc27.src
+btrfs-progs-4.12-1.fc27.src
 bubblewrap-0.1.8-1.fc27.src
 byacc-1.9.20170201-1.fc26.src
 bzip2-1.0.6-24.fc27.src
@@ -44,7 +44,7 @@ dbus-1:1.11.16-4.fc27.src
 dbus-glib-0.108-2.fc26.src
 dbus-python-1.2.4-6.fc26.src
 deltarpm-3.6-19.fc26.src
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.src
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.src
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.src
 dhcp-12:4.3.6-1.fc27.src
 diffutils-3.6-3.fc27.src
@@ -73,7 +73,7 @@ file-5.31-7.fc27.src
 filesystem-3.3-3.fc27.src
 findutils-1:4.6.0-14.fc27.src
 fipscheck-1.5.0-1.fc26.src
-firewalld-0.4.4.5-1.fc27.src
+firewalld-0.4.4.5-3.fc27.src
 flex-2.6.1-3.fc26.src
 fpc-srpm-macros-1.1-3.fc27.src
 fuse-2.9.7-4.fc27.src
@@ -106,7 +106,7 @@ hfsutils-3.2.6-31.fc26.src
 hostname-3.18-2.fc26.src
 initscripts-9.72-1.fc27.src
 ipcalc-0.2.0-1.fc27.src
-iproute-4.11.0-1.fc27.src
+iproute-4.12.0-1.fc27.src
 ipset-6.29-3.fc27.src
 iptables-1.6.1-4.fc27.src
 iputils-20161105-2.fc26.src
@@ -271,7 +271,7 @@ python-jsonpatch-1.14-3.fc26.src
 python-jsonpointer-1.10-6.fc26.src
 python-jwt-1.5.2-1.fc27.src
 python-mako-1.0.6-3.fc26.src
-python-markupsafe-0.23-13.fc26.src
+python-markupsafe-0.23-15.fc27.src
 python-meh-0.44-4.fc26.src
 python-ntplib-0.3.3-6.fc26.src
 python-oauthlib-2.0.1-3.fc27.src

@@ -35,7 +35,7 @@ aesh-0.66.8-3.fc26.src
 airline-0.7-5.fc26.src
 allegro-4.4.2-16.fc27.src
 alsa-lib-1.1.4.1-1.fc27.src
-anaconda-27.18-1.fc27.src
+anaconda-27.19-4.fc27.src
 android-json-org-java-6.0.1-0.2.r22.fc26.src
 annotation-indexer-1.9-5.fc26.src
 ant-1.10.1-6.fc27.src
@@ -183,7 +183,7 @@ bridge-utils-1.5-14.fc26.src
 brltty-5.5-4.fc27.src
 bsf-2.4.0-26.fc26.src
 bsh-2.0-6.b6.fc27.src
-btrfs-progs-4.11.1-1.fc27.src
+btrfs-progs-4.12-1.fc27.src
 bubblewrap-0.1.8-1.fc27.src
 buildnumber-maven-plugin-1.3-7.fc26.src
 bullet-2.83-3.fc26.src
@@ -295,7 +295,7 @@ dejavu-fonts-2.35-4.fc26.src
 deltarpm-3.6-19.fc26.src
 derby-10.13.1.1-1.fc26.src
 desktop-file-utils-0.23-3.fc26.src
-device-mapper-multipath-0.7.1-3.gitf21166a.fc27.src
+device-mapper-multipath-0.7.1-6.git847cc43.fc27.src
 device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.src
 dhcp-12:4.3.6-1.fc27.src
 diffstat-1.61-3.fc26.src
@@ -436,7 +436,7 @@ findbugs-bcel-6.0-0.7.20140707svn1547656.fc26.src
 findutils-1:4.6.0-14.fc27.src
 fipscheck-1.5.0-1.fc26.src
 firebird-3.0.2.32703-1.fc27.src
-firewalld-0.4.4.5-1.fc27.src
+firewalld-0.4.4.5-3.fc27.src
 flac-1.3.2-2.fc26.src
 flex-2.6.1-3.fc26.src
 flite-1.3-27.fc26.src
@@ -690,7 +690,7 @@ inkscape-0.92.1-5.20170510bzr15686.fc27.src
 intltool-0.51.0-8.fc26.src
 invokebinder-1.2-6.fc26.src
 ipcalc-0.2.0-1.fc27.src
-iproute-4.11.0-1.fc27.src
+iproute-4.12.0-1.fc27.src
 ipset-6.29-3.fc27.src
 iptables-1.6.1-4.fc27.src
 iputils-20161105-2.fc26.src
@@ -2669,7 +2669,7 @@ python-lit-0.5.0-1.fc27.src
 python-lxml-3.7.2-2.fc26.src
 python-mako-1.0.6-3.fc26.src
 python-markdown-2.6.8-2.fc26.src
-python-markupsafe-0.23-13.fc26.src
+python-markupsafe-0.23-15.fc27.src
 python-mccabe-0.6.1-3.fc27.src
 python-meh-0.44-4.fc26.src
 python-mimeparse-1.6.0-2.fc27.src
