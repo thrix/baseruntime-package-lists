@@ -147,6 +147,7 @@ p11-kit
 pam
 patch
 pcre
+pcre2
 perl
 perl-Algorithm-Diff
 perl-Archive-Tar
@@ -291,7 +292,6 @@ tmux
 tzdata
 uboot-tools
 unzip
-ustr
 util-linux
 vim
 which

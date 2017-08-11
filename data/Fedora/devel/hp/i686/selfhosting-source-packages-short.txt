@@ -245,7 +245,6 @@ coro-mock
 corosync
 cpio
 cpptasks
-cpptest
 cppunit
 cracklib
 crash
@@ -392,7 +391,6 @@ fasterxml-oss-parent
 fastutil
 fbset
 fcgi
-fedfs-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -2549,6 +2547,7 @@ proxytoys
 psmisc
 pstoedit
 psutils
+pth
 publicsuffix-list
 pulseaudio
 pyOpenSSL
@@ -3126,7 +3125,6 @@ uniconvertor
 unixODBC
 unzip
 upower
-uriparser
 urw-fonts
 usbredir
 userspace-rcu

@@ -244,6 +244,7 @@ pam
 parted
 passwd
 pcre
+pcre2
 pkgconf
 pkgconf-m4
 pkgconf-pkg-config
@@ -364,7 +365,6 @@ tcp_wrappers-libs
 tcpdump
 tmux
 tzdata
-ustr
 util-linux
 vim-minimal
 which

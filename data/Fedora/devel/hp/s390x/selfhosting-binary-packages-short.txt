@@ -531,8 +531,6 @@ corosynclib-devel
 cpio
 cpp
 cpptasks
-cpptest
-cpptest-devel
 cppunit
 cppunit-devel
 cracklib
@@ -805,10 +803,6 @@ fasterxml-oss-parent
 fastutil
 fcgi
 fcgi-devel
-fedfs-utils-common
-fedfs-utils-devel
-fedfs-utils-lib
-fedfs-utils-nsdbparams
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1738,6 +1732,7 @@ libSM-devel
 libX11
 libX11-common
 libX11-devel
+libX11-xcb
 libXNVCtrl
 libXNVCtrl-devel
 libXScrnSaver
@@ -4031,6 +4026,8 @@ pstoedit
 pstoedit-devel
 psutils
 psutils-perl
+pth
+pth-devel
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio-libs
@@ -6300,8 +6297,6 @@ unixODBC
 unixODBC-devel
 unzip
 upower
-uriparser
-uriparser-devel
 urw-fonts
 usbredir
 usbredir-devel

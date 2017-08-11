@@ -146,6 +146,7 @@ pam
 patch
 pciutils
 pcre
+pcre2
 perl-srpm-macros
 pkgconf
 popt
@@ -180,7 +181,6 @@ tmux
 tzdata
 uboot-tools
 unzip
-ustr
 util-linux
 vim
 xfsprogs

@@ -366,6 +366,7 @@ passwd
 patch
 pciutils-libs
 pcre
+pcre2
 perl-srpm-macros
 pigz
 pkgconf
@@ -530,7 +531,6 @@ tzdata
 uboot-tools
 unzip
 userspace-rcu
-ustr
 util-linux
 vim-minimal
 volume_key-libs

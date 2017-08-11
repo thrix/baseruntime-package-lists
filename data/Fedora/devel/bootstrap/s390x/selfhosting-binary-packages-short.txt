@@ -551,8 +551,6 @@ corosynclib-devel
 cpio
 cpp
 cpptasks
-cpptest
-cpptest-devel
 cppunit
 cppunit-devel
 cracklib
@@ -836,10 +834,6 @@ fasterxml-oss-parent
 fastutil
 fcgi
 fcgi-devel
-fedfs-utils-common
-fedfs-utils-devel
-fedfs-utils-lib
-fedfs-utils-nsdbparams
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1782,6 +1776,7 @@ libSM-devel
 libX11
 libX11-common
 libX11-devel
+libX11-xcb
 libXNVCtrl
 libXNVCtrl-devel
 libXScrnSaver
@@ -4127,6 +4122,8 @@ pstoedit
 pstoedit-devel
 psutils
 psutils-perl
+pth
+pth-devel
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio-libs
@@ -4201,6 +4198,7 @@ python-tempita
 python-testscenarios
 python-testtools
 python-ttystatus
+python-typeshed
 python-websocket-client
 python-webtest
 python-werkzeug
@@ -4444,6 +4442,7 @@ python3-mccabe
 python3-meh
 python3-mimeparse
 python3-mock
+python3-mypy
 python3-netaddr
 python3-nose
 python3-ntplib
@@ -4534,6 +4533,7 @@ python3-tkinter
 python3-tools
 python3-tornado
 python3-traceback2
+python3-typed_ast
 python3-unittest2
 python3-urllib3
 python3-virtualenv
@@ -6483,8 +6483,6 @@ unixODBC
 unixODBC-devel
 unzip
 upower
-uriparser
-uriparser-devel
 urw-fonts
 usbredir
 usbredir-devel

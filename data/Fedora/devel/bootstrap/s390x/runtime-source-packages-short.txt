@@ -229,6 +229,7 @@ parted
 passwd
 patch
 pcre
+pcre2
 perl
 perl-Algorithm-Diff
 perl-Archive-Tar
@@ -447,7 +448,6 @@ tzdata
 uboot-tools
 unzip
 userspace-rcu
-ustr
 util-linux
 vim
 volume_key

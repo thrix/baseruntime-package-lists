@@ -179,6 +179,7 @@ pam
 parted
 passwd
 pcre
+pcre2
 pkgconf
 policycoreutils
 polkit
@@ -255,7 +256,6 @@ tcpdump
 texinfo
 tmux
 tzdata
-ustr
 util-linux
 vim
 which

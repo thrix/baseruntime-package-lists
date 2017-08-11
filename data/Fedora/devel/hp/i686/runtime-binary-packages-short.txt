@@ -226,6 +226,7 @@ pam
 patch
 pciutils-libs
 pcre
+pcre2
 perl-srpm-macros
 pkgconf
 pkgconf-m4
@@ -285,7 +286,6 @@ tmux
 tzdata
 uboot-tools
 unzip
-ustr
 util-linux
 vim-minimal
 which

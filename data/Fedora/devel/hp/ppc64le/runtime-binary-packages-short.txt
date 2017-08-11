@@ -218,6 +218,7 @@ pam
 patch
 pciutils-libs
 pcre
+pcre2
 perl-Carp
 perl-Data-Dumper
 perl-Errno
@@ -294,7 +295,6 @@ tmux
 tzdata
 uboot-tools
 unzip
-ustr
 util-linux
 vim-minimal
 which

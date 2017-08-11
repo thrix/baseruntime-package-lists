@@ -204,6 +204,7 @@ p11-kit-trust
 pam
 patch
 pcre
+pcre2
 perl
 perl-Algorithm-Diff
 perl-Archive-Tar
@@ -396,7 +397,6 @@ tmux
 tzdata
 uboot-tools
 unzip
-ustr
 util-linux
 vim-minimal
 which

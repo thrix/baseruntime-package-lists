@@ -249,6 +249,7 @@ passwd
 patch
 pciutils
 pcre
+pcre2
 perl-srpm-macros
 pigz
 pkgconf
@@ -358,7 +359,6 @@ uboot-tools
 unzip
 usermode
 userspace-rcu
-ustr
 util-linux
 vim
 volume_key

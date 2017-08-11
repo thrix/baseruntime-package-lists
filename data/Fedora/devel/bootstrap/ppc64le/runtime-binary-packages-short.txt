@@ -379,6 +379,7 @@ passwd
 patch
 pciutils-libs
 pcre
+pcre2
 perl-Carp
 perl-Data-Dumper
 perl-Errno
@@ -566,7 +567,6 @@ uboot-tools
 unzip
 usermode
 userspace-rcu
-ustr
 util-linux
 vim-minimal
 volume_key-libs
