@@ -242,6 +242,7 @@ audiofile-devel-1:0.3.6-13.fc27.ppc64
 audit-2.7.7-3.fc27.ppc64
 audit-libs-2.7.7-3.fc27.ppc64
 audit-libs-devel-2.7.7-3.fc27.ppc64
+audit-libs-python-2.7.7-3.fc27.ppc64
 audit-libs-python3-2.7.7-3.fc27.ppc64
 augeas-1.8.0-1.fc27.ppc64
 augeas-devel-1.8.0-1.fc27.ppc64
@@ -454,6 +455,7 @@ brltty-5.5-4.fc27.ppc64
 bsf-2.4.0-26.fc26.noarch
 bsh-2.0-6.b6.fc27.noarch
 btrfs-progs-4.12-1.fc27.ppc64
+bubblewrap-0.1.8-1.fc27.ppc64
 buildnumber-maven-plugin-1.3-7.fc26.noarch
 bullet-2.83-3.fc26.ppc64
 bullet-devel-2.83-3.fc26.ppc64
@@ -505,9 +507,15 @@ classmate-1.3.1-2.fc26.noarch
 cldr-emoji-annotation-31.0.1_1-1.fc27.noarch
 cli-parser-1.1.2-6.fc26.noarch
 closure-compiler-20160315-1.fc27.noarch
+cloud-init-0.7.9-7.fc26.noarch
+cloud-utils-growpart-0.27-17.fc26.noarch
 cmake-3.8.2-1.fc27.ppc64
 cmake-data-3.8.2-1.fc27.noarch
 cmdtest-0.27-2.fc26.noarch
+cockpit-bridge-145-1.fc27.ppc64
+cockpit-networkmanager-145-1.fc27.noarch
+cockpit-ostree-145-1.fc27.ppc64
+cockpit-system-145-1.fc27.noarch
 codegen-0.6.8-3.fc26.noarch
 codehaus-parent-4-11.fc26.noarch
 codemodel-2.6-19.fc26.noarch
@@ -665,6 +673,7 @@ dotconf-devel-1.3-13.fc26.ppc64
 doxygen-1:1.8.13-10.fc27.ppc64
 doxygen-latex-1:1.8.13-10.fc27.ppc64
 dracut-045-18.git20170515.fc27.ppc64
+dracut-config-generic-045-18.git20170515.fc27.ppc64
 dracut-network-045-18.git20170515.fc27.ppc64
 drpm-0.3.0-6.fc27.ppc64
 drpm-devel-0.3.0-6.fc27.ppc64
@@ -1322,6 +1331,7 @@ ipset-libs-6.29-3.fc27.ppc64
 iptables-1.6.1-2.fc26.ppc64
 iptables-devel-1.6.1-2.fc26.ppc64
 iptables-libs-1.6.1-2.fc26.ppc64
+iptables-services-1.6.1-2.fc26.ppc64
 iputils-20161105-2.fc26.ppc64
 ipxe-roms-qemu-20161108-2.gitb991c67.fc26.noarch
 irclib-1.10-5.fc26.noarch
@@ -1673,6 +1683,7 @@ kdelibs-common-6:4.14.33-1.fc27.ppc64
 kdelibs-devel-6:4.14.33-1.fc27.ppc64
 kdelibs-ktexteditor-6:4.14.33-1.fc27.ppc64
 kdelibs-webkit-6:4.14.33-1.fc27.ppc64
+kernel-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-bootwrapper-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-core-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-cross-headers-4.13.0-0.rc1.git1.1.fc27.ppc64
@@ -2228,10 +2239,12 @@ libsecret-0.18.5-3.fc26.ppc64
 libsecret-devel-0.18.5-3.fc26.ppc64
 libselinux-2.6-6.fc27.ppc64
 libselinux-devel-2.6-6.fc27.ppc64
+libselinux-python-2.6-6.fc27.ppc64
 libselinux-python3-2.6-6.fc27.ppc64
 libselinux-utils-2.6-6.fc27.ppc64
 libsemanage-2.6-4.fc27.ppc64
 libsemanage-devel-2.6-4.fc27.ppc64
+libsemanage-python-2.6-4.fc27.ppc64
 libsemanage-python3-2.6-4.fc27.ppc64
 libsemanage-static-2.6-4.fc27.ppc64
 libsepol-2.6-1.fc26.ppc64
@@ -2271,6 +2284,9 @@ libssh-0.7.5-1.fc27.ppc64
 libssh-devel-0.7.5-1.fc27.ppc64
 libssh2-1.8.0-2.fc26.ppc64
 libssh2-devel-1.8.0-2.fc26.ppc64
+libsss_idmap-1.15.3-0.beta.5.fc27.ppc64
+libsss_nss_idmap-1.15.3-0.beta.5.fc27.ppc64
+libsss_sudo-1.15.3-0.beta.5.fc27.ppc64
 libstdc++-7.1.1-6.fc27.ppc64
 libstdc++-devel-7.1.1-6.fc27.ppc64
 libstdc++-static-7.1.1-6.fc27.ppc64
@@ -2346,6 +2362,7 @@ libverto-devel-0.2.6-7.fc26.ppc64
 libverto-libev-0.2.6-7.fc26.ppc64
 libvirt-devel-3.5.0-2.fc27.ppc64
 libvirt-libs-3.5.0-2.fc27.ppc64
+libvirt-python3-3.5.0-2.fc27.ppc64
 libvisual-1:0.4.0-21.fc26.ppc64
 libvisual-devel-1:0.4.0-21.fc26.ppc64
 libvoikko-3.8-2.fc25.ppc64
@@ -2492,6 +2509,7 @@ mallard-rng-1.0.2-2.fc26.noarch
 man-db-2.7.6.1-2.fc26.ppc64
 man2html-1.6-18.g.fc26.ppc64
 man2html-core-1.6-18.g.fc26.ppc64
+mariadb-3:10.2.7-2.fc27.ppc64
 mariadb-common-3:10.2.7-2.fc27.ppc64
 mariadb-config-3:10.2.7-2.fc27.ppc64
 mariadb-devel-3:10.2.7-2.fc27.ppc64
@@ -3087,6 +3105,7 @@ nscd-2.25.90-27.fc27.ppc64
 nspr-4.15.0-1.fc27.ppc64
 nspr-devel-4.15.0-1.fc27.ppc64
 nss-3.31.0-2.fc27.ppc64
+nss-altfiles-2.18.1-8.fc26.ppc64
 nss-devel-3.31.0-2.fc27.ppc64
 nss-pem-1.0.3-3.fc27.ppc64
 nss-pkcs11-devel-3.31.0-2.fc27.ppc64
@@ -3112,6 +3131,8 @@ ocaml-runtime-4.04.2-1.fc27.ppc64
 ocaml-srpm-macros-4-2.fc26.noarch
 octave-6:4.2.1-3.fc27.ppc64
 octave-devel-6:4.2.1-3.fc27.ppc64
+oddjob-0.34.4-1.fc26.ppc64
+oddjob-mkhomedir-0.34.4-1.fc26.ppc64
 oniguruma-6.4.0-1.fc27.ppc64
 oniguruma-devel-6.4.0-1.fc27.ppc64
 openal-soft-1.18.0-1.fc27.ppc64
@@ -3186,6 +3207,10 @@ os-prober-1.74-1.fc27.ppc64
 osgi-annotation-6.0.0-5.fc26.noarch
 osgi-compendium-6.0.0-3.fc26.noarch
 osgi-core-6.0.0-4.fc26.noarch
+ostree-2017.8-2.fc27.ppc64
+ostree-devel-2017.8-2.fc27.ppc64
+ostree-grub2-2017.8-2.fc27.ppc64
+ostree-libs-2017.8-2.fc27.ppc64
 p11-kit-0.23.7-1.fc27.ppc64
 p11-kit-devel-0.23.7-1.fc27.ppc64
 p11-kit-trust-0.23.7-1.fc27.ppc64
@@ -3214,6 +3239,9 @@ pcfi-2010.08.09-11.20111103gitbd245c9.fc26.noarch
 pciutils-3.5.5-1.fc27.ppc64
 pciutils-devel-3.5.5-1.fc27.ppc64
 pciutils-libs-3.5.5-1.fc27.ppc64
+pcp-conf-3.12.0-2.fc27.ppc64
+pcp-libs-3.12.0-2.fc27.ppc64
+pcp-libs-devel-3.12.0-2.fc27.ppc64
 pcre-8.41-1.fc27.ppc64
 pcre-cpp-8.41-1.fc27.ppc64
 pcre-devel-8.41-1.fc27.ppc64
@@ -3327,6 +3355,7 @@ perl-Crypt-Rijndael-1.13-5.fc27.ppc64
 perl-Curses-1.36-3.fc27.ppc64
 perl-Cwd-Guard-0.05-4.fc27.noarch
 perl-DBD-CSV-0.49-4.fc27.noarch
+perl-DBD-MySQL-4.043-2.fc27.ppc64
 perl-DBD-Pg-3.6.2-2.fc27.ppc64
 perl-DBD-SQLite-1.54-3.fc27.ppc64
 perl-DBI-1.636-6.fc27.ppc64
@@ -4044,6 +4073,7 @@ pmix-devel-1.2.2-1.fc27.ppc64
 po4a-0.51-1.fc27.noarch
 policycoreutils-2.6-5.fc27.ppc64
 policycoreutils-devel-2.6-5.fc27.ppc64
+policycoreutils-python-2.6-5.fc27.ppc64
 policycoreutils-python-utils-2.6-5.fc27.ppc64
 policycoreutils-python3-2.6-5.fc27.ppc64
 polkit-0.113-13.fc27.ppc64
@@ -4070,6 +4100,8 @@ portals-pom-1.3-14.fc26.noarch
 portaudio-19-24.fc26.ppc64
 portaudio-devel-19-24.fc26.ppc64
 portlet-2.0-api-1.0-13.fc26.noarch
+postfix-2:3.2.2-1.fc27.ppc64
+postfix-perl-scripts-2:3.2.2-1.fc27.ppc64
 postgresql-9.6.3-6.fc27.ppc64
 postgresql-contrib-9.6.3-6.fc27.ppc64
 postgresql-devel-9.6.3-6.fc27.ppc64
@@ -4138,6 +4170,7 @@ python-backports-1.0-9.fc26.ppc64
 python-backports-ssl_match_hostname-3.5.0.1-4.fc26.noarch
 python-beaker-1.5.4-16.fc26.noarch
 python-beautifulsoup4-4.6.0-1.fc27.noarch
+python-blinker-1.3-10.fc26.noarch
 python-bugzilla-2.1.0-1.fc27.noarch
 python-bugzilla-cli-2.1.0-1.fc27.noarch
 python-chardet-3.0.4-1.fc27.noarch
@@ -4146,6 +4179,7 @@ python-construct-2.5.1-10.fc26.noarch
 python-contextlib2-0.5.5-1.fc27.noarch
 python-coverage-test-runner-1.11-2.fc26.noarch
 python-d2to1-0.2.12-4.post1.fc26.noarch
+python-docker-py-1:1.10.6-4.fc27.noarch
 python-dtopt-0.1-22.fc26.noarch
 python-enum34-1.1.6-1.fc27.noarch
 python-extras-0.0.3-15.fc26.noarch
@@ -4154,6 +4188,7 @@ python-gobject-3.24.1-1.fc27.ppc64
 python-gobject-base-3.24.1-1.fc27.ppc64
 python-google-apputils-0.4.2-8.fc26.noarch
 python-http-parser-0.8.3-10.fc27.ppc64
+python-httplib2-0.9.2-5.fc26.noarch
 python-ipaddress-1.0.18-1.fc27.noarch
 python-keyczar-0.71c-8.fc26.noarch
 python-ldb-devel-common-1.2.0-2.fc27.ppc64
@@ -4182,6 +4217,7 @@ python-tempita-0.5.1-15.fc26.noarch
 python-testscenarios-0.5.0-5.fc26.noarch
 python-testtools-2.3.0-1.fc27.noarch
 python-ttystatus-0.34-2.fc26.noarch
+python-websocket-client-0.40.0-1.fc26.noarch
 python-webtest-2.0.27-1.fc27.noarch
 python-werkzeug-0.11.10-5.fc26.noarch
 python-which-1.1.0-17.fc26.noarch
@@ -4190,6 +4226,7 @@ python-xpyb-1.3.1-7.fc26.ppc64
 python-xpyb-devel-1.3.1-7.fc26.ppc64
 python2-2.7.13-12.fc27.ppc64
 python2-Cython-0.25.2-5.fc27.ppc64
+python2-IPy-0.81-19.fc27.noarch
 python2-SecretStorage-2.3.1-4.fc26.noarch
 python2-argcomplete-1.8.2-2.fc26.noarch
 python2-asn1crypto-0.22.0-2.fc27.noarch
@@ -4211,8 +4248,10 @@ python2-cssselect-0.9.2-4.fc26.noarch
 python2-dateutil-1:2.6.0-3.fc26.noarch
 python2-decorator-4.0.11-2.fc26.noarch
 python2-devel-2.7.13-12.fc27.ppc64
+python2-docker-pycreds-0.2.1-4.fc26.noarch
 python2-docutils-0.13.1-4.fc26.noarch
 python2-empy-3.3.2-12.fc26.noarch
+python2-flake8-3.3.0-3.fc27.noarch
 python2-flask-1:0.11.1-5.fc26.noarch
 python2-fonttools-3.13.1-1.fc27.noarch
 python2-funcsigs-1.0.2-5.fc26.noarch
@@ -4231,7 +4270,9 @@ python2-iso8601-0.1.11-5.fc26.noarch
 python2-isort-4.2.15-1.fc27.noarch
 python2-itsdangerous-0.24-10.fc27.noarch
 python2-jinja2-2.9.6-1.fc27.noarch
+python2-jsonpointer-1.10-6.fc26.noarch
 python2-jsonschema-2.5.1-5.fc26.noarch
+python2-jwt-1.5.2-1.fc27.noarch
 python2-keyring-10.3.2-2.fc27.noarch
 python2-lazy-object-proxy-1.3.1-1.fc27.ppc64
 python2-ldb-1.2.0-2.fc27.ppc64
@@ -4265,6 +4306,7 @@ python2-py-1.4.34-1.fc27.noarch
 python2-pyOpenSSL-17.1.0-1.fc27.noarch
 python2-pyasn1-0.2.3-1.fc26.noarch
 python2-pyasn1-modules-0.2.3-1.fc26.noarch
+python2-pycodestyle-2.0.0-5.fc27.noarch
 python2-pycparser-2.14-10.fc26.noarch
 python2-pycurl-7.43.0-9.fc27.ppc64
 python2-pygments-2.2.0-7.fc27.noarch
@@ -4297,6 +4339,7 @@ python2-sphinx-theme-alabaster-0.7.9-3.fc26.noarch
 python2-sphinx_rtd_theme-0.2.4-1.fc27.noarch
 python2-sqlalchemy-1.1.11-1.fc27.ppc64
 python2-subunit-1.2.0-14.fc27.noarch
+python2-sure-1.4.0-2.fc26.noarch
 python2-systemd-234-1.fc27.ppc64
 python2-talloc-2.1.9-2.fc27.ppc64
 python2-talloc-devel-2.1.9-2.fc27.ppc64
@@ -4335,6 +4378,7 @@ python3-babel-2.3.4-5.fc26.noarch
 python3-beaker-1.5.4-16.fc26.noarch
 python3-beautifulsoup4-4.6.0-1.fc27.noarch
 python3-bind-32:9.11.1-4.P3.fc27.noarch
+python3-blinker-1.3-10.fc26.noarch
 python3-blivet-1:2.1.9-2.fc27.noarch
 python3-blockdev-2.10-1.fc27.ppc64
 python3-bottle-0.12.9-5.fc26.noarch
@@ -4345,6 +4389,7 @@ python3-cairo-devel-1.10.0-20.fc26.ppc64
 python3-cffi-1.10.0-1.fc27.ppc64
 python3-chardet-3.0.4-1.fc27.noarch
 python3-click-6.7-3.fc26.noarch
+python3-configobj-5.0.6-8.fc26.noarch
 python3-construct-2.5.1-10.fc26.noarch
 python3-contextlib2-0.5.5-1.fc27.noarch
 python3-coverage-4.4.1-2.fc27.ppc64
@@ -4359,10 +4404,12 @@ python3-dbus-1.2.4-6.fc26.ppc64
 python3-decorator-4.0.11-2.fc26.noarch
 python3-devel-3.6.2-5.fc27.ppc64
 python3-dnf-2.5.1-1.fc27.noarch
+python3-docker-pycreds-0.2.1-4.fc26.noarch
 python3-docutils-0.13.1-4.fc26.noarch
 python3-extras-0.0.3-15.fc26.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
 python3-fixtures-3.0.0-4.fc26.noarch
+python3-flake8-3.3.0-3.fc27.noarch
 python3-flask-1:0.11.1-5.fc26.noarch
 python3-funcsigs-1.0.2-5.fc26.noarch
 python3-gflags-2.0-9.fc26.noarch
@@ -4373,6 +4420,8 @@ python3-gpg-1.9.0-5.fc27.ppc64
 python3-hawkey-0.9.2-1.fc27.ppc64
 python3-html5lib-1:0.999-13.fc26.noarch
 python3-httpbin-0.5.0-6.fc27.noarch
+python3-httplib2-0.9.2-5.fc26.noarch
+python3-httpretty-0.8.14-3.20161011git70af1f8.fc26.noarch
 python3-hypothesis-3.12.0-1.fc27.noarch
 python3-idna-2.5-1.fc27.noarch
 python3-imagesize-0.7.1-5.fc26.noarch
@@ -4383,9 +4432,13 @@ python3-isort-4.2.15-1.fc27.noarch
 python3-itsdangerous-0.24-10.fc27.noarch
 python3-javapackages-5.0.0-4.fc27.noarch
 python3-jinja2-2.9.6-1.fc27.noarch
+python3-jsonpatch-1.14-3.fc26.noarch
+python3-jsonpointer-1.10-6.fc26.noarch
 python3-jsonschema-2.5.1-5.fc26.noarch
+python3-jwt-1.5.2-1.fc27.noarch
 python3-keyring-10.3.2-2.fc27.noarch
 python3-kickstart-2.37-1.fc27.noarch
+python3-kmod-0.9-13.fc27.ppc64
 python3-lazy-object-proxy-1.3.1-1.fc27.ppc64
 python3-ldb-1.2.0-2.fc27.ppc64
 python3-ldb-devel-1.2.0-2.fc27.ppc64
@@ -4394,6 +4447,7 @@ python3-librepo-1.7.20-3.fc26.ppc64
 python3-libs-3.6.2-5.fc27.ppc64
 python3-libstoragemgmt-1.4.0-1.fc26.noarch
 python3-libstoragemgmt-clibs-1.4.0-1.fc26.ppc64
+python3-libxml2-2.9.4-2.fc26.ppc64
 python3-linecache2-1.0.0-9.fc26.noarch
 python3-lit-0.5.0-1.fc27.noarch
 python3-lxml-3.7.2-2.fc26.ppc64
@@ -4409,6 +4463,7 @@ python3-netaddr-0.7.19-2.fc26.noarch
 python3-nose-1.3.7-13.fc26.noarch
 python3-ntplib-0.3.3-6.fc26.noarch
 python3-numpy-1:1.13.1-1.fc27.ppc64
+python3-oauthlib-2.0.1-3.fc27.noarch
 python3-olefile-0.44-2.fc26.noarch
 python3-ordered-set-2.0.0-6.fc26.noarch
 python3-paste-2.0.3-2.fc26.noarch
@@ -4422,6 +4477,7 @@ python3-ply-3.9-3.fc27.noarch
 python3-pocketlint-0.15-1.fc27.noarch
 python3-polib-1.0.7-6.fc26.noarch
 python3-pretend-1.0.8-9.fc27.noarch
+python3-prettytable-0.7.2-10.fc26.noarch
 python3-process-tests-1.0.0-7.fc26.noarch
 python3-psutil-5.2.2-1.fc27.ppc64
 python3-ptyprocess-0.5.2-1.fc27.noarch
@@ -4431,6 +4487,7 @@ python3-pyOpenSSL-17.1.0-1.fc27.noarch
 python3-pyasn1-0.2.3-1.fc26.noarch
 python3-pyasn1-modules-0.2.3-1.fc26.noarch
 python3-pybeam-0.3.2-5.fc26.noarch
+python3-pycodestyle-2.0.0-5.fc27.noarch
 python3-pycparser-2.14-10.fc26.noarch
 python3-pycurl-7.43.0-9.fc27.ppc64
 python3-pyelftools-0.22-0.11.git20130619.a1d9681.fc26.noarch
@@ -4441,6 +4498,7 @@ python3-pylint-1.7.1-1.fc27.noarch
 python3-pyparsing-2.1.10-3.fc26.noarch
 python3-pyparted-1:3.11.0-2.fc27.ppc64
 python3-pyquery-1.2.17-4.fc26.noarch
+python3-pyserial-3.1.1-3.fc26.noarch
 python3-pysocks-1.5.7-4.fc26.noarch
 python3-pytest-3.1.1-1.fc27.noarch
 python3-pytest-cov-2.5.1-1.fc27.noarch
@@ -4462,6 +4520,7 @@ python3-requests-ftp-0.3.1-6.fc26.noarch
 python3-rpm-4.13.0.1-33.fc27.ppc64
 python3-rpm-generators-4.13.0.1-2.fc27.noarch
 python3-rpm-macros-3-20.fc27.noarch
+python3-rtslib-2.1.fb63-1.fc27.noarch
 python3-service-identity-16.0.0-7.fc26.noarch
 python3-setuptools-36.2.0-1.fc27.noarch
 python3-setuptools_scm-1.15.6-1.fc27.noarch
@@ -4477,6 +4536,7 @@ python3-sphinx-theme-alabaster-0.7.9-3.fc26.noarch
 python3-sphinx_rtd_theme-0.2.4-1.fc27.noarch
 python3-sqlalchemy-1.1.11-1.fc27.ppc64
 python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
+python3-sure-1.4.0-2.fc26.noarch
 python3-talloc-2.1.9-2.fc27.ppc64
 python3-talloc-devel-2.1.9-2.fc27.ppc64
 python3-tdb-1.3.14-1.fc27.ppc64
@@ -4494,6 +4554,7 @@ python3-urllib3-1.21.1-1.fc27.noarch
 python3-virtualenv-15.1.0-1.fc27.noarch
 python3-waitress-1.0.2-1.fc26.noarch
 python3-webob-1.7.3-2.fc27.noarch
+python3-websocket-client-0.40.0-1.fc26.noarch
 python3-webtest-2.0.27-1.fc27.noarch
 python3-werkzeug-0.11.10-5.fc26.noarch
 python3-wheel-0.30.0a0-6.fc26.noarch
@@ -4670,6 +4731,7 @@ rmt-2:1.5.3-8.fc26.ppc64
 rngom-201103-0.14.20120119svn.fc26.noarch
 rome-1.7.0-2.fc26.noarch
 rome-utils-1.7.0-2.fc26.noarch
+rootfiles-8.1-20.fc26.noarch
 rpcbind-0.2.4-7.rc2.fc27.ppc64
 rpm-4.13.0.1-33.fc27.ppc64
 rpm-build-4.13.0.1-33.fc27.ppc64
@@ -4677,6 +4739,7 @@ rpm-build-libs-4.13.0.1-33.fc27.ppc64
 rpm-devel-4.13.0.1-33.fc27.ppc64
 rpm-libs-4.13.0.1-33.fc27.ppc64
 rpm-mpi-hooks-5-1.fc27.noarch
+rpm-ostree-2017.7-1.fc27.ppc64
 rpm-plugin-selinux-4.13.0.1-33.fc27.ppc64
 rpm-plugin-systemd-inhibit-4.13.0.1-33.fc27.ppc64
 rpmdevtools-8.10-2.fc26.noarch
@@ -4887,6 +4950,8 @@ selinux-policy-doc-3.13.1-264.fc27.noarch
 selinux-policy-targeted-3.13.1-264.fc27.noarch
 sendmail-8.15.2-15.fc27.ppc64
 serp-1.15.2-0.6.20150412cvs.fc26.noarch
+setools-console-4.1.0-3.fc27.ppc64
+setools-python-4.1.0-3.fc27.ppc64
 setools-python3-4.1.0-3.fc27.ppc64
 setup-2.10.5-2.fc26.noarch
 sg3_utils-devel-1.42-1.fc26.ppc64
@@ -4953,6 +5018,7 @@ sonar-squid-3.2-10.fc26.noarch
 sonar-update-center-1.12.1-8.fc26.noarch
 sonatype-oss-parent-7-12.fc26.noarch
 sonatype-plugins-parent-8-10.fc26.noarch
+sos-3.4-1.fc27.noarch
 sound-theme-freedesktop-0.8-7.fc26.noarch
 soundfont-utils-0.4-24.fc27.ppc64
 soundtouch-1.9.2-4.fc26.ppc64
@@ -5005,6 +5071,7 @@ sqlite2-devel-2.8.17-20.fc26.ppc64
 squashfs-tools-4.3-13.fc26.ppc64
 sshj-0.13.0-5.fc26.noarch
 sslext-1.2-10.fc26.noarch
+sssd-client-1.15.3-0.beta.5.fc27.ppc64
 startup-notification-0.12-12.fc26.ppc64
 startup-notification-devel-0.12-12.fc26.ppc64
 stax-ex-1.7.7-6.fc26.noarch
@@ -5060,6 +5127,7 @@ tclx-devel-8.4.0-28.fc26.ppc64
 tcp_wrappers-7.6-85.fc26.ppc64
 tcp_wrappers-devel-7.6-85.fc26.ppc64
 tcp_wrappers-libs-7.6-85.fc26.ppc64
+tcpdump-14:4.9.0-2.fc26.ppc64
 tcsh-6.20.00-5.fc26.ppc64
 teamd-1.27-1.fc27.ppc64
 teamd-devel-1.27-1.fc27.ppc64
@@ -6359,6 +6427,8 @@ tika-1.12-3.fc26.noarch
 tika-parsers-1.12-3.fc26.noarch
 tiles-2.2.2-16.fc26.noarch
 time-1.7-52.fc26.ppc64
+tinycdb-0.78-6.fc26.ppc64
+tinycdb-devel-0.78-6.fc26.ppc64
 tix-1:8.4.3-18.fc26.ppc64
 tix-devel-1:8.4.3-18.fc26.ppc64
 tk-1:8.6.6-1.fc26.ppc64

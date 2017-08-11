@@ -144,9 +144,9 @@ for i in range(len(nvrs)):
 }
 
 my @arches = qw/aarch64 armv7hl i686 ppc64 ppc64le s390x x86_64/;
-# XXX: Make sure platform is the last one so that we can reuse data from the
-#      host and shim data files.  This should be done in a better way but meh.
-my @modules = qw/bootstrap atomic host shim platform/;
+# XXX: Make sure platform and atomic are listed after host and shim.
+#      This sucks.  We need to handle this better.
+my @modules = qw/bootstrap host shim platform atomic/;
 # Map of components and their hashes
 my %components;
 # And just the runtime set
@@ -176,6 +176,8 @@ my $default_ref = 'master';
 
 # Populate with non-platform packages.  Make sure they're processed first.
 my %nonplatform;
+# Populate with non-atomic packages.  Make sure they're processed first.
+my %nonatomic;
 
 for my $module (@modules) {
     next if $mode eq 'bootstrap' && $module ne 'bootstrap';
@@ -215,7 +217,10 @@ for my $module (@modules) {
         } grep {
             my $tmp = $_; any { $_ eq getn($tmp) } keys %rationales;
         } keys %components };
-        map { $nonplatform{$_} = undef } keys %rationales;
+        map {
+            $nonplatform{$_} = undef;
+            $nonatomic{$_} = undef if $module eq 'shim';
+        } keys %rationales;
     } elsif ($module =~ /^(?:atomic|platform)$/) {
         $data{components} = { map {
             getn($_) => {
@@ -243,7 +248,7 @@ for my $module (@modules) {
             }
         } grep {
             $module eq 'atomic'
-            ? 1
+            ? ! exists $nonatomic{getn($_)}
             : ! exists $nonplatform{getn($_)};
         } keys %runtime };
     } else {

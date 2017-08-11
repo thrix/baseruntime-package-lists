@@ -127,6 +127,7 @@ atinject
 atk
 atkmm
 atlas
+atomic
 attica
 attr
 audiofile
@@ -181,6 +182,7 @@ brltty
 bsf
 bsh
 btrfs-progs
+bubblewrap
 buildnumber-maven-plugin
 bval
 byacc
@@ -219,9 +221,12 @@ classmate
 cldr-emoji-annotation
 cli-parser
 closure-compiler
+cloud-init
+cloud-utils
 cmake
 cmdtest
 cmocka
+cockpit
 codegen
 codehaus-parent
 codemodel
@@ -237,6 +242,8 @@ compat-openssl10-pkcs11-helper
 compface
 compiler-rt
 console-setup
+container-selinux
+container-storage-setup
 cookcc
 cookxml
 copy-jdk-configs
@@ -565,6 +572,7 @@ golang-googlecode-net
 golang-googlecode-text
 golang-googlecode-tools
 golang-gopkg-yaml
+gomtree
 google-gson
 google-guice
 google-roboto-slab-fonts
@@ -1145,6 +1153,7 @@ libva
 libvdpau
 libverto
 libvirt
+libvirt-python
 libvisual
 libvoikko
 libvorbis
@@ -1678,6 +1687,7 @@ noggit
 npth
 nspr
 nss
+nss-altfiles
 nss-pem
 nss-softokn
 nss-util
@@ -1690,7 +1700,10 @@ objectweb-pom
 objenesis
 ocaml
 ocaml-srpm-macros
+oci-register-machine
+oci-systemd-hook
 octave
+oddjob
 oniguruma
 openal-soft
 openblas
@@ -1717,6 +1730,7 @@ os-maven-plugin
 osgi-annotation
 osgi-compendium
 osgi-core
+ostree
 p11-kit
 p7zip
 pacemaker
@@ -1730,6 +1744,7 @@ passwd
 patch
 patchutils
 pcfi
+pcp
 pcre
 pcre2
 pcsc-lite
@@ -1825,6 +1840,7 @@ perl-Crypt-Rijndael
 perl-Curses
 perl-Cwd-Guard
 perl-DBD-CSV
+perl-DBD-MySQL
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBI
@@ -2499,6 +2515,7 @@ popt
 portals-pom
 portaudio
 portlet-2.0-api
+postfix
 postgresql
 postgresql-jdbc
 potrace
@@ -2550,6 +2567,7 @@ python-backports-unittest_mock
 python-backports_abc
 python-beaker
 python-beautifulsoup4
+python-blinker
 python-blivet
 python-bottle
 python-bugzilla
@@ -2557,6 +2575,7 @@ python-cffi
 python-chardet
 python-cliapp
 python-click
+python-configobj
 python-configparser
 python-construct
 python-contextlib2
@@ -2570,12 +2589,16 @@ python-cups
 python-d2to1
 python-dateutil
 python-decorator
+python-docker
+python-docker-py
+python-docker-pycreds
 python-docutils
 python-dtopt
 python-empy
 python-enum34
 python-extras
 python-fixtures
+python-flake8
 python-flask
 python-funcsigs
 python-futures
@@ -2584,6 +2607,8 @@ python-google-apputils
 python-html5lib
 python-http-parser
 python-httpbin
+python-httplib2
+python-httpretty
 python-hypothesis
 python-idna
 python-imagesize
@@ -2593,9 +2618,13 @@ python-iso8601
 python-isort
 python-itsdangerous
 python-jinja2
+python-jsonpatch
+python-jsonpointer
 python-jsonschema
+python-jwt
 python-keyczar
 python-keyring
+python-kmod
 python-lazy-object-proxy
 python-linecache2
 python-lit
@@ -2612,6 +2641,7 @@ python-netaddr
 python-nose
 python-nose-exclude
 python-ntplib
+python-oauthlib
 python-olefile
 python-ordered-set
 python-oslo-sphinx
@@ -2627,12 +2657,14 @@ python-ply
 python-pocketlint
 python-polib
 python-pretend
+python-prettytable
 python-process-tests
 python-psutil
 python-ptyprocess
 python-py
 python-pyasn1
 python-pybeam
+python-pycodestyle
 python-pycparser
 python-pycurl
 python-pygments
@@ -2653,8 +2685,10 @@ python-requests
 python-requests-file
 python-requests-ftp
 python-restkit
+python-rhsm
 python-rpm-generators
 python-rpm-macros
+python-rtslib
 python-scour
 python-service-identity
 python-setuptools
@@ -2669,6 +2703,7 @@ python-sphinx
 python-sphinx-theme-alabaster
 python-sphinx_rtd_theme
 python-sqlalchemy
+python-sure
 python-systemd
 python-tempita
 python-testscenarios
@@ -2682,6 +2717,7 @@ python-urllib3
 python-virtualenv
 python-waitress
 python-webob
+python-websocket-client
 python-webtest
 python-werkzeug
 python-wheel
@@ -2772,9 +2808,11 @@ rhq-plugin-annotations
 rmic-maven-plugin
 rngom
 rome
+rootfiles
 rpcbind
 rpm
 rpm-mpi-hooks
+rpm-ostree
 rpmdevtools
 rrdtool
 rsh
@@ -2981,6 +3019,7 @@ simple-xml
 sip
 sisu
 sisu-mojos
+skopeo
 slang
 slf4j
 slf4j-jboss-logmanager
@@ -2995,6 +3034,7 @@ sonar
 sonar-update-center
 sonatype-oss-parent
 sonatype-plugins-parent
+sos
 sound-theme-freedesktop
 soundtouch
 source-highlight
@@ -3056,6 +3096,7 @@ tbb
 tcl
 tclx
 tcp_wrappers
+tcpdump
 tcsh
 teckit
 telnet
@@ -3072,6 +3113,7 @@ tiger-types
 tika
 tiles
 time
+tinycdb
 tix
 tk
 tmux

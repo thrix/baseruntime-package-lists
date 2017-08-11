@@ -128,6 +128,8 @@ atinject-1-24.20100611svn86.fc26.src
 atk-2.25.2-1.fc27.src
 atkmm-2.24.2-3.fc26.src
 atlas-3.10.2-16.fc26.src
+atomic-1.18.1-5.fc27.src
+atomic-devmode-0.3.7-1.fc27.src
 attica-0.4.2-10.fc26.src
 attr-2.4.47-19.fc27.src
 audiofile-1:0.3.6-13.fc27.src
@@ -181,6 +183,7 @@ brltty-5.5-4.fc27.src
 bsf-2.4.0-26.fc26.src
 bsh-2.0-6.b6.fc27.src
 btrfs-progs-4.12-1.fc27.src
+bubblewrap-0.1.8-1.fc27.src
 buildnumber-maven-plugin-1.3-7.fc26.src
 bullet-2.83-3.fc26.src
 bval-1.1.1-3.fc26.src
@@ -222,9 +225,12 @@ cldr-emoji-annotation-31.0.1_1-1.fc27.src
 cli-parser-1.1.2-6.fc26.src
 cloog-1:0.18.4-1.fc26.src
 closure-compiler-20160315-1.fc27.src
+cloud-init-0.7.9-7.fc26.src
+cloud-utils-0.27-17.fc26.src
 cmake-3.8.2-1.fc27.src
 cmdtest-0.27-2.fc26.src
 cmocka-1.1.1-5.fc27.src
+cockpit-145-1.fc27.src
 codegen-0.6.8-3.fc26.src
 codehaus-parent-4-11.fc26.src
 codemodel-2.6-19.fc26.src
@@ -240,6 +246,8 @@ compat-openssl10-pkcs11-helper-1.22-1.fc27.src
 compface-1.5.2-22.fc26.src
 compiler-rt-4.0.1-2.fc27.src
 console-setup-1.165-1.fc27.src
+container-selinux-2:2.21-1.fc27.src
+container-storage-setup-0.6.0-1.giteb688d4.fc27.src
 cookcc-0.3.3-15.fc26.src
 cookxml-3.0.2-12.fc26.src
 copy-jdk-configs-2.3-1.fc27.src
@@ -577,6 +585,7 @@ golang-googlecode-net-0-0.37.gitf249948.fc27.src
 golang-googlecode-text-0-0.16.git04b8648.fc26.src
 golang-googlecode-tools-0-15.1.git9deed8c.fc26.src
 golang-gopkg-yaml-1-16.fc26.src
+gomtree-0.3.1-2.fc27.src
 google-gson-2.3.1-6.fc26.src
 google-guice-4.1-6.fc27.src
 google-roboto-slab-fonts-1.100263-0.5.20150923git.fc26.src
@@ -1176,6 +1185,7 @@ libva-1.8.3-1.fc27.src
 libvdpau-1.1.1-4.fc26.src
 libverto-0.2.6-7.fc26.src
 libvirt-3.5.0-2.fc27.src
+libvirt-python-3.5.0-2.fc27.src
 libvisual-1:0.4.0-21.fc26.src
 libvoikko-3.8-2.fc25.src
 libvorbis-1:1.3.5-2.fc26.src
@@ -1720,6 +1730,7 @@ noggit-0.7-3.fc26.src
 npth-1.5-1.fc27.src
 nspr-4.15.0-1.fc27.src
 nss-3.31.0-2.fc27.src
+nss-altfiles-2.18.1-8.fc26.src
 nss-pem-1.0.3-3.fc27.src
 nss-softokn-3.31.0-2.fc27.src
 nss-util-3.31.0-2.fc27.src
@@ -1738,7 +1749,10 @@ ocaml-findlib-1.7.3-2.fc27.src
 ocaml-labltk-8.06.2-4.fc27.src
 ocaml-ocamlbuild-0.11.0-3.fc27.src
 ocaml-srpm-macros-4-2.fc26.src
+oci-register-machine-0-3.10.gitcbf1b8f.fc27.src
+oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.src
 octave-6:4.2.1-3.fc27.src
+oddjob-0.34.4-1.fc26.src
 oniguruma-6.4.0-1.fc27.src
 openal-soft-1.18.0-1.fc27.src
 openblas-0.2.19-11.fc27.src
@@ -1767,6 +1781,7 @@ os-prober-1.74-1.fc27.src
 osgi-annotation-6.0.0-5.fc26.src
 osgi-compendium-6.0.0-3.fc26.src
 osgi-core-6.0.0-4.fc26.src
+ostree-2017.8-2.fc27.src
 p11-kit-0.23.7-1.fc27.src
 p7zip-16.02-3.fc26.src
 pacemaker-1.1.17-1.fc27.src
@@ -1782,6 +1797,7 @@ patch-2.7.5-4.fc26.src
 patchutils-0.3.4-7.fc27.src
 pcfi-2010.08.09-11.20111103gitbd245c9.fc26.src
 pciutils-3.5.5-1.fc27.src
+pcp-3.12.0-2.fc27.src
 pcre-8.41-1.fc27.src
 pcre2-10.23-8.fc27.src
 pcsc-lite-1.8.22-1.fc27.src
@@ -1878,6 +1894,7 @@ perl-Crypt-Rijndael-1.13-5.fc27.src
 perl-Curses-1.36-3.fc27.src
 perl-Cwd-Guard-0.05-4.fc27.src
 perl-DBD-CSV-0.49-4.fc27.src
+perl-DBD-MySQL-4.043-2.fc27.src
 perl-DBD-Pg-3.6.2-2.fc27.src
 perl-DBD-SQLite-1.54-3.fc27.src
 perl-DBI-1.636-6.fc27.src
@@ -2553,6 +2570,7 @@ popt-1.16-8.fc26.src
 portals-pom-1.3-14.fc26.src
 portaudio-19-24.fc26.src
 portlet-2.0-api-1.0-13.fc26.src
+postfix-2:3.2.2-1.fc27.src
 postgresql-9.6.3-6.fc27.src
 postgresql-jdbc-9.4.1212-3.fc26.src
 potrace-1.14-1.fc26.src
@@ -2604,6 +2622,7 @@ python-backports-unittest_mock-1.2.1-2.fc26.src
 python-backports_abc-0.5-3.fc26.src
 python-beaker-1.5.4-16.fc26.src
 python-beautifulsoup4-4.6.0-1.fc27.src
+python-blinker-1.3-10.fc26.src
 python-blivet-1:2.1.9-2.fc27.src
 python-bottle-0.12.9-5.fc26.src
 python-bugzilla-2.1.0-1.fc27.src
@@ -2611,6 +2630,7 @@ python-cffi-1.10.0-1.fc27.src
 python-chardet-3.0.4-1.fc27.src
 python-cliapp-1.20160724-2.fc26.src
 python-click-6.7-3.fc26.src
+python-configobj-5.0.6-8.fc26.src
 python-configparser-3.5.0b2-5.fc26.src
 python-construct-2.5.1-10.fc26.src
 python-contextlib2-0.5.5-1.fc27.src
@@ -2624,12 +2644,16 @@ python-cups-1.9.72-12.fc27.src
 python-d2to1-0.2.12-4.post1.fc26.src
 python-dateutil-1:2.6.0-3.fc26.src
 python-decorator-4.0.11-2.fc26.src
+python-docker-2.4.2-1.fc27.src
+python-docker-py-1:1.10.6-4.fc27.src
+python-docker-pycreds-0.2.1-4.fc26.src
 python-docutils-0.13.1-4.fc26.src
 python-dtopt-0.1-22.fc26.src
 python-empy-3.3.2-12.fc26.src
 python-enum34-1.1.6-1.fc27.src
 python-extras-0.0.3-15.fc26.src
 python-fixtures-3.0.0-4.fc26.src
+python-flake8-3.3.0-3.fc27.src
 python-flask-1:0.11.1-5.fc26.src
 python-funcsigs-1.0.2-5.fc26.src
 python-futures-3.1.1-1.fc27.src
@@ -2638,6 +2662,8 @@ python-google-apputils-0.4.2-8.fc26.src
 python-html5lib-1:0.999-13.fc26.src
 python-http-parser-0.8.3-10.fc27.src
 python-httpbin-0.5.0-6.fc27.src
+python-httplib2-0.9.2-5.fc26.src
+python-httpretty-0.8.14-3.20161011git70af1f8.fc26.src
 python-hypothesis-3.12.0-1.fc27.src
 python-idna-2.5-1.fc27.src
 python-imagesize-0.7.1-5.fc26.src
@@ -2647,10 +2673,14 @@ python-iso8601-0.1.11-5.fc26.src
 python-isort-4.2.15-1.fc27.src
 python-itsdangerous-0.24-10.fc27.src
 python-jinja2-2.9.6-1.fc27.src
+python-jsonpatch-1.14-3.fc26.src
+python-jsonpointer-1.10-6.fc26.src
 python-jsonschema-2.5.1-5.fc26.src
+python-jwt-1.5.2-1.fc27.src
 python-kerberos-1.2.5-3.fc26.src
 python-keyczar-0.71c-8.fc26.src
 python-keyring-10.3.2-2.fc27.src
+python-kmod-0.9-13.fc27.src
 python-lazy-object-proxy-1.3.1-1.fc27.src
 python-linecache2-1.0.0-9.fc26.src
 python-lit-0.5.0-1.fc27.src
@@ -2667,6 +2697,7 @@ python-netaddr-0.7.19-2.fc26.src
 python-nose-1.3.7-13.fc26.src
 python-nose-exclude-0.4.1-6.fc26.src
 python-ntplib-0.3.3-6.fc26.src
+python-oauthlib-2.0.1-3.fc27.src
 python-olefile-0.44-2.fc26.src
 python-ordered-set-2.0.0-6.fc26.src
 python-oslo-sphinx-4.10.0-1.fc27.src
@@ -2682,12 +2713,14 @@ python-ply-3.9-3.fc27.src
 python-pocketlint-0.15-1.fc27.src
 python-polib-1.0.7-6.fc26.src
 python-pretend-1.0.8-9.fc27.src
+python-prettytable-0.7.2-10.fc26.src
 python-process-tests-1.0.0-7.fc26.src
 python-psutil-5.2.2-1.fc27.src
 python-ptyprocess-0.5.2-1.fc27.src
 python-py-1.4.34-1.fc27.src
 python-pyasn1-0.2.3-1.fc26.src
 python-pybeam-0.3.2-5.fc26.src
+python-pycodestyle-2.0.0-5.fc27.src
 python-pycparser-2.14-10.fc26.src
 python-pycurl-7.43.0-9.fc27.src
 python-pygments-2.2.0-7.fc27.src
@@ -2709,8 +2742,10 @@ python-requests-file-1.4-6.fc26.src
 python-requests-ftp-0.3.1-6.fc26.src
 python-requests-kerberos-0.10.0-4.fc26.src
 python-restkit-4.2.2-6.fc26.src
+python-rhsm-1.19.4-1.fc27.src
 python-rpm-generators-4.13.0.1-2.fc27.src
 python-rpm-macros-3-20.fc27.src
+python-rtslib-2.1.fb63-1.fc27.src
 python-scour-0.35-4.fc26.src
 python-service-identity-16.0.0-7.fc26.src
 python-setuptools-36.2.0-1.fc27.src
@@ -2725,6 +2760,7 @@ python-sphinx-1.5.2-2.fc26.src
 python-sphinx-theme-alabaster-0.7.9-3.fc26.src
 python-sphinx_rtd_theme-0.2.4-1.fc27.src
 python-sqlalchemy-1.1.11-1.fc27.src
+python-sure-1.4.0-2.fc26.src
 python-systemd-234-1.fc27.src
 python-tempita-0.5.1-15.fc26.src
 python-testscenarios-0.5.0-5.fc26.src
@@ -2738,6 +2774,7 @@ python-urllib3-1.21.1-1.fc27.src
 python-virtualenv-15.1.0-1.fc27.src
 python-waitress-1.0.2-1.fc26.src
 python-webob-1.7.3-2.fc27.src
+python-websocket-client-0.40.0-1.fc26.src
 python-webtest-2.0.27-1.fc27.src
 python-werkzeug-0.11.10-5.fc26.src
 python-wheel-0.30.0a0-6.fc26.src
@@ -2830,9 +2867,11 @@ rhq-plugin-annotations-3.0.4-12.fc26.src
 rmic-maven-plugin-1.2.1-14.fc26.src
 rngom-201103-0.14.20120119svn.fc26.src
 rome-1.7.0-2.fc26.src
+rootfiles-8.1-20.fc26.src
 rpcbind-0.2.4-7.rc2.fc27.src
 rpm-4.13.0.1-33.fc27.src
 rpm-mpi-hooks-5-1.fc27.src
+rpm-ostree-2017.7-1.fc27.src
 rpmdevtools-8.10-2.fc26.src
 rrdtool-1.7.0-2.fc27.src
 rsh-0.17-82.fc26.src
@@ -3037,6 +3076,7 @@ simple-xml-2.7.1-9.fc26.src
 sip-4.19.3-2.fc27.src
 sisu-1:0.3.3-1.fc27.src
 sisu-mojos-0.3.1-3.fc24.src
+skopeo-0.1.22-1.git5d24b67.fc27.src
 slang-2.3.1a-2.fc26.src
 slf4j-1.7.25-1.fc27.src
 slf4j-jboss-logmanager-1.0.3-2.fc26.src
@@ -3051,6 +3091,7 @@ sonar-3.2-10.fc26.src
 sonar-update-center-1.12.1-8.fc26.src
 sonatype-oss-parent-7-12.fc26.src
 sonatype-plugins-parent-8-10.fc26.src
+sos-3.4-1.fc27.src
 sound-theme-freedesktop-0.8-7.fc26.src
 soundtouch-1.9.2-4.fc26.src
 source-highlight-3.1.8-10.fc26.src
@@ -3115,6 +3156,7 @@ tbb-2017.7-1.fc27.src
 tcl-1:8.6.6-4.fc27.src
 tclx-8.4.0-28.fc26.src
 tcp_wrappers-7.6-85.fc26.src
+tcpdump-14:4.9.0-2.fc26.src
 tcsh-6.20.00-5.fc26.src
 teckit-2.5.1-16.fc26.src
 telnet-1:0.17-69.fc27.src
@@ -3131,6 +3173,7 @@ tiger-types-2.2-3.fc26.src
 tika-1.12-3.fc26.src
 tiles-2.2.2-16.fc26.src
 time-1.7-52.fc26.src
+tinycdb-0.78-6.fc26.src
 tix-1:8.4.3-18.fc26.src
 tk-1:8.6.6-1.fc26.src
 tmux-2.5-1.fc27.src
