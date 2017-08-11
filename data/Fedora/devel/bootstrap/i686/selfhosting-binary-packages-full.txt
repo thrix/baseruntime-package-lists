@@ -2849,9 +2849,9 @@ neXtaw-0.15.1-26.fc26.i686
 neXtaw-devel-0.15.1-26.fc26.i686
 neethi-3.0.1-13.fc26.noarch
 nekohtml-1.9.22-4.fc27.noarch
-net-snmp-agent-libs-1:5.7.3-16.fc27.i686
-net-snmp-devel-1:5.7.3-16.fc27.i686
-net-snmp-libs-1:5.7.3-16.fc27.i686
+net-snmp-agent-libs-1:5.7.3-20.fc27.i686
+net-snmp-devel-1:5.7.3-20.fc27.i686
+net-snmp-libs-1:5.7.3-20.fc27.i686
 net-tools-2.0-0.42.20160912git.fc26.i686
 netcdf-java-4.6.2-5.fc26.noarch
 netcf-devel-0.2.8-6.fc26.i686

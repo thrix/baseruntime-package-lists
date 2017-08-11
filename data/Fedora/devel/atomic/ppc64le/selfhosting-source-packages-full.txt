@@ -1335,7 +1335,7 @@ ncurses-6.0-13.20170722.fc27.src
 neXtaw-0.15.1-26.fc26.src
 neethi-3.0.1-13.fc26.src
 nekohtml-1.9.22-4.fc27.src
-net-snmp-1:5.7.3-16.fc27.src
+net-snmp-1:5.7.3-20.fc27.src
 net-tools-2.0-0.42.20160912git.fc26.src
 netcf-0.2.8-6.fc26.src
 netpbm-10.79.00-1.fc27.src

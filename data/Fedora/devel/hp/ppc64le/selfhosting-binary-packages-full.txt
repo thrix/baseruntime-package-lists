@@ -2648,9 +2648,9 @@ neXtaw-0.15.1-26.fc26.ppc64le
 neXtaw-devel-0.15.1-26.fc26.ppc64le
 neethi-3.0.1-13.fc26.noarch
 nekohtml-1.9.22-4.fc27.noarch
-net-snmp-agent-libs-1:5.7.3-16.fc27.ppc64le
-net-snmp-devel-1:5.7.3-16.fc27.ppc64le
-net-snmp-libs-1:5.7.3-16.fc27.ppc64le
+net-snmp-agent-libs-1:5.7.3-20.fc27.ppc64le
+net-snmp-devel-1:5.7.3-20.fc27.ppc64le
+net-snmp-libs-1:5.7.3-20.fc27.ppc64le
 net-tools-2.0-0.42.20160912git.fc26.ppc64le
 netcdf-java-4.6.2-5.fc26.noarch
 netpbm-10.79.00-1.fc27.ppc64le
@@ -3963,11 +3963,13 @@ polkit-qt-devel-0.112.0-9.fc26.ppc64le
 poly2tri-0.0-12.20130501hg26242d0aa7b8.fc26.ppc64le
 poly2tri-devel-0.0-12.20130501hg26242d0aa7b8.fc26.ppc64le
 poppler-0.56.0-2.fc27.ppc64le
+poppler-0.57.0-1.fc27.ppc64le
 poppler-cpp-0.56.0-2.fc27.ppc64le
 poppler-cpp-devel-0.56.0-2.fc27.ppc64le
 poppler-data-0.4.7-8.fc27.noarch
 poppler-data-devel-0.4.7-8.fc27.noarch
 poppler-devel-0.56.0-2.fc27.ppc64le
+poppler-devel-0.57.0-1.fc27.ppc64le
 poppler-glib-0.56.0-2.fc27.ppc64le
 poppler-glib-devel-0.56.0-2.fc27.ppc64le
 poppler-utils-0.56.0-2.fc27.ppc64le
