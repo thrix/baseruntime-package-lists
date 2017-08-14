@@ -31,7 +31,7 @@ cockpit-networkmanager-145-1.fc27.noarch
 cockpit-ostree-145-1.fc27.armv7hl
 cockpit-system-145-1.fc27.noarch
 compat-openssl10-1:1.0.2j-6.fc26.armv7hl
-container-selinux-2:2.21-1.fc27.noarch
+container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-1.giteb688d4.fc27.noarch
 coreutils-8.27-14.fc27.armv7hl
 coreutils-common-8.27-14.fc27.armv7hl
@@ -304,7 +304,7 @@ python3-idna-2.5-1.fc27.noarch
 python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonpatch-1.14-3.fc26.noarch
 python3-jsonpointer-1.10-6.fc26.noarch
-python3-jwt-1.5.2-1.fc27.noarch
+python3-jwt-1.5.2-3.fc27.noarch
 python3-libs-3.6.2-6.fc27.armv7hl
 python3-libxml2-2.9.4-4.fc27.armv7hl
 python3-markupsafe-0.23-15.fc27.armv7hl

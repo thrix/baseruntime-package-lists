@@ -448,7 +448,7 @@ python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64
 python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonpatch-1.14-3.fc26.noarch
 python3-jsonpointer-1.10-6.fc26.noarch
-python3-jwt-1.5.2-1.fc27.noarch
+python3-jwt-1.5.2-3.fc27.noarch
 python3-kickstart-2.37-1.fc27.noarch
 python3-libcomps-0.1.8-3.fc26.ppc64
 python3-librepo-1.7.20-3.fc26.ppc64

@@ -42,7 +42,7 @@ cockpit-networkmanager-145-1.fc27.noarch
 cockpit-ostree-145-1.fc27.ppc64le
 cockpit-system-145-1.fc27.noarch
 compat-openssl10-1:1.0.2j-6.fc26.ppc64le
-container-selinux-2:2.21-1.fc27.noarch
+container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-1.giteb688d4.fc27.noarch
 coreutils-8.27-14.fc27.ppc64le
 coreutils-common-8.27-14.fc27.ppc64le
@@ -471,7 +471,7 @@ python3-iscsi-initiator-utils-6.2.0.874-4.git86e8892.fc27.ppc64le
 python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonpatch-1.14-3.fc26.noarch
 python3-jsonpointer-1.10-6.fc26.noarch
-python3-jwt-1.5.2-1.fc27.noarch
+python3-jwt-1.5.2-3.fc27.noarch
 python3-kickstart-2.37-1.fc27.noarch
 python3-libcomps-0.1.8-3.fc26.ppc64le
 python3-librepo-1.7.20-3.fc26.ppc64le

@@ -285,7 +285,7 @@ python-ipaddress-1.0.18-1.fc27.src
 python-jinja2-2.9.6-1.fc27.src
 python-jsonpatch-1.14-3.fc26.src
 python-jsonpointer-1.10-6.fc26.src
-python-jwt-1.5.2-1.fc27.src
+python-jwt-1.5.2-3.fc27.src
 python-mako-1.0.6-3.fc26.src
 python-markupsafe-0.23-15.fc27.src
 python-meh-0.44-4.fc26.src

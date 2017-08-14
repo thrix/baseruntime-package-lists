@@ -22,7 +22,7 @@ cloud-init-0.7.9-7.fc26.src
 cloud-utils-0.27-17.fc26.src
 cockpit-145-1.fc27.src
 compat-openssl10-1:1.0.2j-6.fc26.src
-container-selinux-2:2.21-1.fc27.src
+container-selinux-2:2.21-3.fc27.src
 container-storage-setup-0.6.0-1.giteb688d4.fc27.src
 coreutils-8.27-14.fc27.src
 cpio-2.12-6.fc27.src
@@ -208,7 +208,7 @@ python-ipaddress-1.0.18-1.fc27.src
 python-jinja2-2.9.6-1.fc27.src
 python-jsonpatch-1.14-3.fc26.src
 python-jsonpointer-1.10-6.fc26.src
-python-jwt-1.5.2-1.fc27.src
+python-jwt-1.5.2-3.fc27.src
 python-markupsafe-0.23-15.fc27.src
 python-oauthlib-2.0.1-3.fc27.src
 python-pip-9.0.1-11.fc27.src

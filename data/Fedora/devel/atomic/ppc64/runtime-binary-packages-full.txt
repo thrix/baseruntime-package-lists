@@ -288,7 +288,7 @@ python3-idna-2.5-1.fc27.noarch
 python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonpatch-1.14-3.fc26.noarch
 python3-jsonpointer-1.10-6.fc26.noarch
-python3-jwt-1.5.2-1.fc27.noarch
+python3-jwt-1.5.2-3.fc27.noarch
 python3-libs-3.6.2-6.fc27.ppc64
 python3-libxml2-2.9.4-4.fc27.ppc64
 python3-markupsafe-0.23-15.fc27.ppc64

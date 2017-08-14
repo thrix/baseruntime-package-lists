@@ -259,7 +259,7 @@ perl-IO-Socket-IP-0.39-3.fc27.noarch
 perl-IO-Zlib-1:1.10-398.fc27.noarch
 perl-IPC-Cmd-2:0.98-3.fc27.noarch
 perl-IPC-SysV-2.07-394.fc27.s390x
-perl-IPC-System-Simple-1.25-14.fc27.noarch
+perl-IPC-System-Simple-1.25-16.fc27.noarch
 perl-JSON-PP-1:2.94-3.fc27.noarch
 perl-Locale-Codes-3.52-2.fc27.noarch
 perl-Locale-Maketext-1.28-394.fc27.noarch

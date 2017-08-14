@@ -544,7 +544,7 @@ compat-openssl10-pkcs11-helper-devel-1.22-1.fc27.x86_64
 compface-1.5.2-22.fc26.x86_64
 compface-devel-1.5.2-22.fc26.x86_64
 compiler-rt-4.0.1-2.fc27.x86_64
-container-selinux-2:2.21-1.fc27.noarch
+container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-1.giteb688d4.fc27.noarch
 cookcc-0.3.3-15.fc26.noarch
 cookxml-3.0.2-12.fc26.noarch
@@ -3575,7 +3575,7 @@ perl-IPC-Cmd-2:0.98-3.fc27.noarch
 perl-IPC-Run-0.96-2.fc27.noarch
 perl-IPC-Run3-0.048-10.fc27.noarch
 perl-IPC-SysV-2.07-394.fc27.x86_64
-perl-IPC-System-Simple-1.25-14.fc27.noarch
+perl-IPC-System-Simple-1.25-16.fc27.noarch
 perl-Ima-DBI-0.35-26.fc27.noarch
 perl-Image-Base-1.17-8.fc27.noarch
 perl-Image-Info-1.41-1.fc27.noarch
@@ -4290,7 +4290,7 @@ python2-itsdangerous-0.24-10.fc27.noarch
 python2-jinja2-2.9.6-1.fc27.noarch
 python2-jsonpointer-1.10-6.fc26.noarch
 python2-jsonschema-2.5.1-5.fc26.noarch
-python2-jwt-1.5.2-1.fc27.noarch
+python2-jwt-1.5.2-3.fc27.noarch
 python2-kerberos-1.2.5-3.fc26.x86_64
 python2-keyring-10.3.2-2.fc27.noarch
 python2-ldb-1.2.0-2.fc27.x86_64
@@ -4447,7 +4447,7 @@ python3-jinja2-2.9.6-1.fc27.noarch
 python3-jsonpatch-1.14-3.fc26.noarch
 python3-jsonpointer-1.10-6.fc26.noarch
 python3-jsonschema-2.5.1-5.fc26.noarch
-python3-jwt-1.5.2-1.fc27.noarch
+python3-jwt-1.5.2-3.fc27.noarch
 python3-kerberos-1.2.5-3.fc26.x86_64
 python3-keyring-10.3.2-2.fc27.noarch
 python3-kmod-0.9-13.fc27.x86_64

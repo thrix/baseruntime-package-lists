@@ -241,7 +241,7 @@ compat-openssl10-1:1.0.2j-6.fc26.src
 compat-openssl10-pkcs11-helper-1.22-1.fc27.src
 compface-1.5.2-22.fc26.src
 compiler-rt-4.0.1-2.fc27.src
-container-selinux-2:2.21-1.fc27.src
+container-selinux-2:2.21-3.fc27.src
 container-storage-setup-0.6.0-1.giteb688d4.fc27.src
 cookcc-0.3.3-15.fc26.src
 cookxml-3.0.2-12.fc26.src
@@ -2014,7 +2014,7 @@ perl-IPC-Cmd-2:0.98-3.fc27.src
 perl-IPC-Run-0.96-2.fc27.src
 perl-IPC-Run3-0.048-10.fc27.src
 perl-IPC-SysV-2.07-394.fc27.src
-perl-IPC-System-Simple-1.25-14.fc27.src
+perl-IPC-System-Simple-1.25-16.fc27.src
 perl-Ima-DBI-0.35-26.fc27.src
 perl-Image-Base-1.17-8.fc27.src
 perl-Image-Info-1.41-1.fc27.src
@@ -2601,7 +2601,7 @@ python-jinja2-2.9.6-1.fc27.src
 python-jsonpatch-1.14-3.fc26.src
 python-jsonpointer-1.10-6.fc26.src
 python-jsonschema-2.5.1-5.fc26.src
-python-jwt-1.5.2-1.fc27.src
+python-jwt-1.5.2-3.fc27.src
 python-keyczar-0.71c-8.fc26.src
 python-keyring-10.3.2-2.fc27.src
 python-kmod-0.9-13.fc27.src
