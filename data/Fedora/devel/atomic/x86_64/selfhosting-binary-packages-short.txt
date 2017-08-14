@@ -4163,8 +4163,6 @@ pstoedit
 pstoedit-devel
 psutils
 psutils-perl
-pth
-pth-devel
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio-libs

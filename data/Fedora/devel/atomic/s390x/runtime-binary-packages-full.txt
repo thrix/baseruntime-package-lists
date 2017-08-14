@@ -92,7 +92,7 @@ gnupg2-2.1.22-1.fc27.s390x
 gnutls-3.5.14-3.fc27.s390x
 gobject-introspection-1.53.3-1.fc27.s390x
 gomtree-0.3.1-2.fc27.s390x
-gpgme-1.9.0-1.fc27.s390x
+gpgme-1.9.0-5.fc27.s390x
 grep-3.1-3.fc27.s390x
 gsettings-desktop-schemas-3.24.0-1.fc27.s390x
 gssproxy-0.7.0-10.fc27.s390x
@@ -354,11 +354,11 @@ strace-4.18-1.fc27.s390x
 sudo-1.8.20p2-1.fc27.s390x
 system-python-3.6.2-6.fc27.s390x
 system-python-libs-3.6.2-6.fc27.s390x
-systemd-234-3.fc27.s390x
-systemd-container-234-3.fc27.s390x
-systemd-libs-234-3.fc27.s390x
-systemd-pam-234-3.fc27.s390x
-systemd-udev-234-3.fc27.s390x
+systemd-234-5.fc27.s390x
+systemd-container-234-5.fc27.s390x
+systemd-libs-234-5.fc27.s390x
+systemd-pam-234-5.fc27.s390x
+systemd-udev-234-5.fc27.s390x
 tar-2:1.29-7.fc27.s390x
 tcp_wrappers-7.6-87.fc27.s390x
 tcp_wrappers-libs-7.6-87.fc27.s390x

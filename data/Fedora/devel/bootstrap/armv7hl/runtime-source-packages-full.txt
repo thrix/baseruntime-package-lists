@@ -96,7 +96,7 @@ go-srpm-macros-2-10.fc27.src
 gobject-introspection-1.53.3-1.fc27.src
 gomtree-0.3.1-2.fc27.src
 gpart-0.3-3.fc26.src
-gpgme-1.9.0-1.fc27.src
+gpgme-1.9.0-5.fc27.src
 grep-3.1-3.fc27.src
 gsettings-desktop-schemas-3.24.0-1.fc27.src
 gssproxy-0.7.0-10.fc27.src
@@ -243,7 +243,7 @@ psmisc-22.21-9.fc26.src
 publicsuffix-list-20170424-2.fc27.src
 pyOpenSSL-17.1.0-1.fc27.src
 pygobject3-3.24.1-1.fc27.src
-pykickstart-2.35-1.fc27.src
+pykickstart-2.37-1.fc27.src
 pyparted-1:3.11.0-2.fc27.src
 pyserial-3.1.1-3.fc26.src
 python-IPy-0.81-19.fc27.src
@@ -255,7 +255,7 @@ python-blivet-1:2.1.9-2.fc27.src
 python-cffi-1.10.0-1.fc27.src
 python-chardet-3.0.4-1.fc27.src
 python-configobj-5.0.6-8.fc26.src
-python-coverage-4.4.1-1.fc27.src
+python-coverage-4.4.1-2.fc27.src
 python-cryptography-1.9-1.fc27.src
 python-dateutil-1:2.6.0-3.fc26.src
 python-decorator-4.0.11-2.fc26.src
@@ -327,7 +327,7 @@ squashfs-tools-4.3-13.fc26.src
 sssd-1.15.3-0.beta.5.fc27.src
 strace-4.18-1.fc27.src
 sudo-1.8.20p2-1.fc27.src
-systemd-234-3.fc27.src
+systemd-234-5.fc27.src
 tar-2:1.29-7.fc27.src
 tcp_wrappers-7.6-87.fc27.src
 tcpdump-14:4.9.0-2.fc26.src

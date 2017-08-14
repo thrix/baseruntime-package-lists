@@ -2552,7 +2552,6 @@ proxytoys
 psmisc
 pstoedit
 psutils
-pth
 publicsuffix-list
 pulseaudio
 pyOpenSSL

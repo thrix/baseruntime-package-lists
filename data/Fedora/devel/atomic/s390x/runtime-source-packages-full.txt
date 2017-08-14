@@ -63,7 +63,7 @@ gnupg2-2.1.22-1.fc27.src
 gnutls-3.5.14-3.fc27.src
 gobject-introspection-1.53.3-1.fc27.src
 gomtree-0.3.1-2.fc27.src
-gpgme-1.9.0-1.fc27.src
+gpgme-1.9.0-5.fc27.src
 grep-3.1-3.fc27.src
 gsettings-desktop-schemas-3.24.0-1.fc27.src
 gssproxy-0.7.0-10.fc27.src
@@ -235,7 +235,7 @@ sqlite-3.20.0-1.fc27.src
 sssd-1.15.3-0.beta.5.fc27.src
 strace-4.18-1.fc27.src
 sudo-1.8.20p2-1.fc27.src
-systemd-234-3.fc27.src
+systemd-234-5.fc27.src
 tar-2:1.29-7.fc27.src
 tcp_wrappers-7.6-87.fc27.src
 tcpdump-14:4.9.0-2.fc26.src

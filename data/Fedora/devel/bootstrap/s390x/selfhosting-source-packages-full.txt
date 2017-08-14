@@ -579,7 +579,7 @@ google-roboto-slab-fonts-1.100263-0.5.20150923git.fc26.src
 gpars-1.2.1-8.fc26.src
 gperf-3.1-2.fc26.src
 gperftools-2.6.1-1.fc27.src
-gpgme-1.9.0-1.fc27.src
+gpgme-1.9.0-5.fc27.src
 gpm-1.20.7-10.fc26.src
 gradle-2.13-9.fc27.src
 grantlee-0.5.1-4.fc24.src
@@ -649,7 +649,7 @@ hppc-0.7.1-4.fc26.src
 hsqldb-1:2.3.4-3.fc26.src
 hsqldb1-1.8.1.3-12.fc26.src
 html2ps-1.0-0.25.b7.fc27.src
-htrace-3.1.0-3.fc26.src
+htrace-3.1.0-5.fc27.src
 http-parser-2.7.1-5.fc26.src
 httpcomponents-asyncclient-4.1.2-2.fc26.src
 httpcomponents-client-4.5.3-3.fc26.src
@@ -2535,7 +2535,6 @@ proxytoys-1.0-9.fc26.src
 psmisc-22.21-9.fc26.src
 pstoedit-3.70-6.fc26.src
 psutils-1.23-10.fc26.src
-pth-2.0.7-28.fc26.src
 publicsuffix-list-20170424-2.fc27.src
 pulseaudio-10.0-4.fc26.src
 pyOpenSSL-17.1.0-1.fc27.src
@@ -2546,7 +2545,7 @@ pyflakes-1.5.0-4.fc27.src
 pygobject2-2.28.6-17.fc26.src
 pygobject3-3.24.1-1.fc27.src
 pygtk2-2.24.0-16.fc26.src
-pykickstart-2.35-1.fc27.src
+pykickstart-2.37-1.fc27.src
 pyliblzma-0.5.3-17.fc26.src
 pylint-1.7.1-1.fc27.src
 pyparsing-2.1.10-3.fc26.src
@@ -2580,7 +2579,7 @@ python-configobj-5.0.6-8.fc26.src
 python-configparser-3.5.0b2-5.fc26.src
 python-construct-2.5.1-10.fc26.src
 python-contextlib2-0.5.5-1.fc27.src
-python-coverage-4.4.1-1.fc27.src
+python-coverage-4.4.1-2.fc27.src
 python-coverage-test-runner-1.11-2.fc26.src
 python-crypto-2.6.1-15.fc27.src
 python-cryptography-1.9-1.fc27.src
@@ -2713,7 +2712,6 @@ python-tornado-4.4.2-3.fc26.src
 python-traceback2-1.4.0-11.fc26.src
 python-ttystatus-0.34-2.fc26.src
 python-twisted-16.4.1-3.fc26.src
-python-typeshed-0.1-0.20170612git.fc27.src
 python-unittest2-1.1.0-9.fc26.src
 python-urllib3-1.21.1-1.fc27.src
 python-virtualenv-15.1.0-1.fc27.src
@@ -2734,8 +2732,6 @@ python2-typing-3.6.1-1.fc27.src
 python3-3.6.2-6.fc27.src
 python3-cairo-1.10.0-20.fc26.src
 python3-mallard-ducktype-0.2-7.fc26.src
-python3-mypy-0.520-1.fc27.src
-python3-typed_ast-1.0.3-1.fc27.src
 pytz-2017.2-1.fc27.src
 pywbem-0.10.0-1.fc26.src
 pyxattr-0.5.3-10.fc26.src
@@ -3089,7 +3085,7 @@ swig-3.0.12-8.fc27.src
 swt-chart-0.10.0-2.fc26.src
 symlinks-1.4-14.fc26.src
 sysfsutils-2.1.0-20.fc26.src
-systemd-234-3.fc27.src
+systemd-234-5.fc27.src
 systemtap-3.2-0.20170512gitc67d8f274b21.fc27.src
 t1lib-5.1.2-19.fc27.src
 t1utils-1.39-3.fc24.src
@@ -3183,7 +3179,7 @@ wavpack-5.1.0-2.fc26.src
 wayland-1.13.0-1.fc26.src
 wayland-protocols-1.9-1.fc27.src
 web-assets-5-5.fc26.src
-webkitgtk4-2.16.2-2.fc27.src
+webkitgtk4-2.17.4-4.fc27.src
 webrtc-audio-processing-0.3-2.fc26.src
 weld-api-2.3-3.SP2.fc26.src
 weld-core-2.3.5-2.fc26.src
