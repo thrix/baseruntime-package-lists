@@ -231,6 +231,15 @@ This will produce one or more modulemd files in the respective module
 directories.  These files should be dist-git-ready, with no further
 manual editing required.
 
+## Making sure everything is okay
+
+Run `make test` and resolve any issues before pushing the repodata or
+any changes to this repository.
+
+The simple test suite, under `./tests`, verifies that the data looks
+sane -- such as that there are no empty package lists or that no package
+appears in more than one version.
+
 ## And that's it!
 
 Congratulations, you've made it to the end!

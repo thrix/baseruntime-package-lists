@@ -8,6 +8,8 @@ ARCHES = --arch=aarch64 \
 		 --arch=s390x \
 		 --arch=x86_64
 
+.PHONY: all clean test
+
 all: $(MODULES)
 
 $(MODULES): repo/devel
@@ -29,3 +31,6 @@ clean:
 	rm -f data/Fedora/devel/*/*.yaml
 	rm -f data/Fedora/devel/*/*/runtime-*.txt
 	rm -f data/Fedora/devel/*/*/selfhosting-*.txt
+
+test:
+	$(foreach test,$(wildcard tests/*),"./$(test)")
