@@ -224,7 +224,7 @@ cli-parser-1.1.2-6.fc26.src
 closure-compiler-20160315-1.fc27.src
 cloud-init-0.7.9-7.fc26.src
 cloud-utils-0.27-17.fc26.src
-cmake-3.8.2-1.fc27.src
+cmake-3.9.1-2.fc27.src
 cmdtest-0.27-2.fc26.src
 cmocka-1.1.1-5.fc27.src
 cockpit-145-1.fc27.src
@@ -278,7 +278,6 @@ cyrus-sasl-2.1.26-34.fc27.src
 dain-snappy-0.4-3.fc26.src
 datefudge-1.21-2.fc26.src
 dblatex-0.3.10-1.fc27.src
-dbus-1:1.11.14-1.fc27.src
 dbus-1:1.11.16-4.fc27.src
 dbus-c++-0.9.0-13.fc26.src
 dbus-glib-0.108-2.fc26.src

@@ -507,6 +507,7 @@ cloog-devel
 closure-compiler
 cmake
 cmake-data
+cmake-filesystem
 cmdtest
 codegen
 codehaus-parent

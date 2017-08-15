@@ -519,6 +519,7 @@ cloud-init
 cloud-utils-growpart
 cmake
 cmake-data
+cmake-filesystem
 cmdtest
 cockpit-bridge
 cockpit-docker
