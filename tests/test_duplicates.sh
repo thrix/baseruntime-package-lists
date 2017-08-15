@@ -1,7 +1,11 @@
 #!/bin/sh
 self=$(basename "$0")
 status=0
-files=$(find data/Fedora -type f -name '*-full.txt' | sort)
+files=$(find data/Fedora \
+    -type f \
+    -name '*-full.txt' \
+    -not -path '*26*' \
+    | sort)
 for f in $files; do
     dups=$(sed -e 's/-[^-]*-[^-]*$//' $f | uniq -d)
     if [ -n "$dups" ]; then

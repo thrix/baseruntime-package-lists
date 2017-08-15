@@ -1,7 +1,11 @@
 #!/bin/sh
 self=$(basename "$0")
 status=0
-files=$(find data/Fedora -type f -name '*-packages-*.txt' | sort)
+files=$(find data/Fedora \
+    -type f \
+    -name '*-packages-*.txt' \
+    -not -path '*26*' \
+    | sort)
 for f in $files; do
     lines=$(wc -l $f | sed 's/ .*$//')
     if [ $lines -eq 0 ]; then
