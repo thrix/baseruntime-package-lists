@@ -131,8 +131,9 @@ regenerating the archful SRPMs).
 
 Copy any binary (or noarch) RPMs for inclusion into
 `repo/<release>/override/<arch>/os`. For source RPMs, copy them to the
-`repo/<release>/override/<arch>/sources` path. Run `./repo/rsync-push.sh
-[<release>]` to automatically update the repo metadata and rsync the
+`repo/<release>/override/<arch>/sources` path. Run 
+`./repo/generate-repo-data.sh [<release>]` to automatically update 
+the repo metadata and `./repo/rsync-push-repo.sh [<release>]` to rsync the
 contents to the fedorapeople repository.
 
 There is a helper utility in the root of the git repository called
@@ -144,8 +145,10 @@ second argument should be `<release>` .  This tool should be used to
 prep the override repository whenever a content change is made to the
 module metadata, to keep the lists up-to-date.
 
-Once completed, running `./repo/rsync-push.sh [<release>]` will update
-the fedorapeople repository.
+Once completed, run `./repo/generate-repo-data.sh [<release>]` to 
+regenerate all the repository information.  You can then run whatever 
+tests you want.  When you are happy with the results, run 
+`./repo/rsync-push-repo.sh [<release>]` to update the fedorapeople repository.
 
 ## Dealing with SRPMs with arch-specific BuildRequires
 
