@@ -43,9 +43,9 @@ cryptsetup-1.7.5-3.fc27.x86_64
 cryptsetup-libs-1.7.5-3.fc27.x86_64
 curl-7.55.0-1.fc27.x86_64
 cyrus-sasl-lib-2.1.26-34.fc27.x86_64
-dbus-1:1.11.16-4.fc27.x86_64
+dbus-1:1.11.14-1.fc27.x86_64
 dbus-glib-0.108-2.fc26.x86_64
-dbus-libs-1:1.11.16-4.fc27.x86_64
+dbus-libs-1:1.11.14-1.fc27.x86_64
 device-mapper-1.02.142-4.fc27.x86_64
 device-mapper-event-1.02.142-4.fc27.x86_64
 device-mapper-event-libs-1.02.142-4.fc27.x86_64
@@ -68,7 +68,7 @@ efivar-libs-31-1.fc27.x86_64
 elfutils-default-yama-scope-0.170-1.fc27.noarch
 elfutils-libelf-0.170-1.fc27.x86_64
 elfutils-libs-0.170-1.fc27.x86_64
-emacs-filesystem-1:25.2-7.fc27.noarch
+emacs-filesystem-1:25.2-2.fc27.noarch
 expat-2.2.3-1.fc27.x86_64
 fedora-logos-26.0.1-1.fc27.x86_64
 fedora-release-27-0.2.noarch
