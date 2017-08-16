@@ -663,11 +663,11 @@ docbook-style-xsl-1.79.2-4.fc26.noarch
 docbook-utils-0.6.14-42.fc26.noarch
 docbook5-schemas-5.0-15.fc26.noarch
 docbook5-style-xsl-1.79.2-3.fc26.noarch
-docker-2:1.13.1-20.git27e468e.fc27.aarch64
+docker-2:1.13.1-27.gitb5e3294.fc27.aarch64
 docker-client-6.2.5-2.fc27.noarch
-docker-common-2:1.13.1-20.git27e468e.fc27.aarch64
-docker-devel-2:1.13.1-20.git27e468e.fc27.noarch
-docker-rhel-push-plugin-2:1.13.1-20.git27e468e.fc27.aarch64
+docker-common-2:1.13.1-27.gitb5e3294.fc27.aarch64
+docker-devel-2:1.13.1-27.gitb5e3294.fc27.noarch
+docker-rhel-push-plugin-2:1.13.1-27.gitb5e3294.fc27.aarch64
 dom4j-2.0.0-1.fc27.noarch
 dos2unix-7.3.5-1.fc27.aarch64
 dosfstools-4.1-2.fc26.aarch64
@@ -3100,7 +3100,7 @@ ocaml-runtime-4.04.2-1.fc27.aarch64
 ocaml-srpm-macros-5-2.fc27.noarch
 oci-register-machine-0-3.10.gitcbf1b8f.fc27.aarch64
 oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.aarch64
-oci-umount-2:1.13.1-20.git27e468e.fc27.aarch64
+oci-umount-2:1.13.1-27.gitb5e3294.fc27.aarch64
 octave-6:4.2.1-3.fc27.aarch64
 octave-devel-6:4.2.1-3.fc27.aarch64
 oddjob-0.34.4-1.fc26.aarch64

@@ -639,7 +639,7 @@ docbook-utils-0.6.14-42.fc26.noarch
 docbook5-schemas-5.0-15.fc26.noarch
 docbook5-style-xsl-1.79.2-3.fc26.noarch
 docker-client-6.2.5-2.fc27.noarch
-docker-devel-2:1.13.1-20.git27e468e.fc27.noarch
+docker-devel-2:1.13.1-27.gitb5e3294.fc27.noarch
 dom4j-2.0.0-1.fc27.noarch
 dos2unix-7.3.5-1.fc27.s390x
 dosfstools-4.1-2.fc26.s390x

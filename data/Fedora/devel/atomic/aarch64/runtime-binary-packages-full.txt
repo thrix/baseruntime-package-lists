@@ -55,9 +55,9 @@ dhcp-client-12:4.3.6-1.fc27.aarch64
 dhcp-common-12:4.3.6-1.fc27.noarch
 dhcp-libs-12:4.3.6-1.fc27.aarch64
 diffutils-3.6-3.fc27.aarch64
-docker-2:1.13.1-20.git27e468e.fc27.aarch64
-docker-common-2:1.13.1-20.git27e468e.fc27.aarch64
-docker-rhel-push-plugin-2:1.13.1-20.git27e468e.fc27.aarch64
+docker-2:1.13.1-27.gitb5e3294.fc27.aarch64
+docker-common-2:1.13.1-27.gitb5e3294.fc27.aarch64
+docker-rhel-push-plugin-2:1.13.1-27.gitb5e3294.fc27.aarch64
 dracut-045-18.git20170515.fc27.aarch64
 dracut-config-generic-045-18.git20170515.fc27.aarch64
 dracut-network-045-18.git20170515.fc27.aarch64
@@ -243,7 +243,7 @@ nss-sysinit-3.32.0-2.fc27.aarch64
 nss-util-3.32.0-2.fc27.aarch64
 oci-register-machine-0-3.10.gitcbf1b8f.fc27.aarch64
 oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.aarch64
-oci-umount-2:1.13.1-20.git27e468e.fc27.aarch64
+oci-umount-2:1.13.1-27.gitb5e3294.fc27.aarch64
 oddjob-0.34.4-1.fc26.aarch64
 oddjob-mkhomedir-0.34.4-1.fc26.aarch64
 openldap-2.4.45-3.fc27.aarch64

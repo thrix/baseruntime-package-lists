@@ -316,7 +316,7 @@ docbook-style-xsl-1.79.2-4.fc26.src
 docbook-utils-0.6.14-42.fc26.src
 docbook5-schemas-5.0-15.fc26.src
 docbook5-style-xsl-1.79.2-3.fc26.src
-docker-2:1.13.1-20.git27e468e.fc27.src
+docker-2:1.13.1-27.gitb5e3294.fc27.src
 docker-client-6.2.5-2.fc27.src
 dom4j-2.0.0-1.fc27.src
 dos2unix-7.3.5-1.fc27.src

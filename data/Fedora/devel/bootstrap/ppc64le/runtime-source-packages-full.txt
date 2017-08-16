@@ -53,7 +53,7 @@ diffutils-3.6-3.fc27.src
 ding-libs-0.6.0-30.fc26.src
 dmraid-1.0.0.rc16-31.fc26.src
 dnf-2.5.1-1.fc27.src
-docker-2:1.13.1-20.git27e468e.fc27.src
+docker-2:1.13.1-27.gitb5e3294.fc27.src
 dosfstools-4.1-2.fc26.src
 dracut-045-18.git20170515.fc27.src
 drpm-0.3.0-6.fc27.src

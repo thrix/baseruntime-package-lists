@@ -37,7 +37,7 @@ device-mapper-persistent-data-0.7.0-0.3.rc6.fc27.src
 dhcp-12:4.3.6-1.fc27.src
 diffutils-3.6-3.fc27.src
 ding-libs-0.6.0-30.fc26.src
-docker-2:1.13.1-20.git27e468e.fc27.src
+docker-2:1.13.1-27.gitb5e3294.fc27.src
 dracut-045-18.git20170515.fc27.src
 e2fsprogs-1.43.4-4.fc27.src
 elfutils-0.170-1.fc27.src

@@ -75,9 +75,9 @@ dmraid-1.0.0.rc16-31.fc26.s390x
 dmraid-events-1.0.0.rc16-31.fc26.s390x
 dnf-2.5.1-1.fc27.noarch
 dnf-conf-2.5.1-1.fc27.noarch
-docker-2:1.13.1-20.git27e468e.fc27.s390x
-docker-common-2:1.13.1-20.git27e468e.fc27.s390x
-docker-rhel-push-plugin-2:1.13.1-20.git27e468e.fc27.s390x
+docker-2:1.13.1-27.gitb5e3294.fc27.s390x
+docker-common-2:1.13.1-27.gitb5e3294.fc27.s390x
+docker-rhel-push-plugin-2:1.13.1-27.gitb5e3294.fc27.s390x
 dosfstools-4.1-2.fc26.s390x
 dracut-045-18.git20170515.fc27.s390x
 dracut-config-generic-045-18.git20170515.fc27.s390x
@@ -346,7 +346,7 @@ nss-util-3.32.0-2.fc27.s390x
 ocaml-srpm-macros-5-2.fc27.noarch
 oci-register-machine-0-3.10.gitcbf1b8f.fc27.s390x
 oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.s390x
-oci-umount-2:1.13.1-20.git27e468e.fc27.s390x
+oci-umount-2:1.13.1-27.gitb5e3294.fc27.s390x
 oddjob-0.34.4-1.fc26.s390x
 oddjob-mkhomedir-0.34.4-1.fc26.s390x
 openblas-srpm-macros-2-2.fc27.noarch
