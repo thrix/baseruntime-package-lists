@@ -216,7 +216,7 @@ for my $module (@modules) {
             }
         } grep {
             my $tmp = $_; any { $_ eq getn($tmp) } keys %rationales;
-        } keys %components };
+        } keys %runtime };
         map {
             $nonplatform{$_} = undef;
             $nonatomic{$_} = undef if $module eq 'shim';
