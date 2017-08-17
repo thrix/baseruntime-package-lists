@@ -128,8 +128,8 @@ atinject-1-24.20100611svn86.fc26.src
 atk-2.25.2-1.fc27.src
 atkmm-2.24.2-3.fc26.src
 atlas-3.10.2-16.fc26.src
-atomic-1.18.1-5.fc27.src
-atomic-devmode-0.3.7-1.fc27.src
+atomic-1.18.1-7.fc27.src
+atomic-devmode-0.3.7-2.fc27.src
 attica-0.4.2-10.fc26.src
 attr-2.4.47-21.fc27.src
 audiofile-1:0.3.6-13.fc27.src
@@ -1722,8 +1722,8 @@ objectweb-pom-1.5-5.fc26.src
 objenesis-2.1-6.fc26.src
 ocaml-4.04.2-1.fc27.src
 ocaml-srpm-macros-5-2.fc27.src
-oci-register-machine-0-3.10.gitcbf1b8f.fc27.src
-oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.src
+oci-register-machine-0-5.10.gitcbf1b8f.fc27.src
+oci-systemd-hook-1:0.1.12-1.git1e84754.fc27.src
 octave-6:4.2.1-3.fc27.src
 oddjob-0.34.4-1.fc26.src
 oniguruma-6.4.0-1.fc27.src
@@ -1754,7 +1754,7 @@ os-prober-1.74-1.fc27.src
 osgi-annotation-6.0.0-5.fc26.src
 osgi-compendium-6.0.0-3.fc26.src
 osgi-core-6.0.0-4.fc26.src
-ostree-2017.8-2.fc27.src
+ostree-2017.9-5.fc27.src
 p11-kit-0.23.7-3.fc27.src
 p7zip-16.02-3.fc26.src
 pacemaker-1.1.17-1.fc27.src

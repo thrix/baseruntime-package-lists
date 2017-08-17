@@ -231,9 +231,9 @@ openssh-server-7.5p1-3.fc27.ppc64
 openssl-1:1.1.0f-9.fc27.ppc64
 openssl-libs-1:1.1.0f-9.fc27.ppc64
 os-prober-1.74-1.fc27.ppc64
-ostree-2017.8-2.fc27.ppc64
-ostree-grub2-2017.8-2.fc27.ppc64
-ostree-libs-2017.8-2.fc27.ppc64
+ostree-2017.9-5.fc27.ppc64
+ostree-grub2-2017.9-5.fc27.ppc64
+ostree-libs-2017.9-5.fc27.ppc64
 p11-kit-0.23.7-3.fc27.ppc64
 p11-kit-trust-0.23.7-3.fc27.ppc64
 pam-1.3.0-5.fc27.ppc64

@@ -1716,7 +1716,7 @@ os-prober-1.74-1.fc27.src
 osgi-annotation-6.0.0-5.fc26.src
 osgi-compendium-6.0.0-3.fc26.src
 osgi-core-6.0.0-4.fc26.src
-ostree-2017.8-2.fc27.src
+ostree-2017.9-5.fc27.src
 p11-kit-0.23.7-3.fc27.src
 p7zip-16.02-3.fc26.src
 pacemaker-1.1.17-1.fc27.src

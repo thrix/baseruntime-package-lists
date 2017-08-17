@@ -231,8 +231,8 @@ atkmm-2.24.2-3.fc26.armv7hl
 atkmm-devel-2.24.2-3.fc26.armv7hl
 atlas-3.10.2-16.fc26.armv7hl
 atlas-devel-3.10.2-16.fc26.armv7hl
-atomic-1.18.1-5.fc27.armv7hl
-atomic-registries-1.18.1-5.fc27.armv7hl
+atomic-1.18.1-7.fc27.armv7hl
+atomic-registries-1.18.1-7.fc27.armv7hl
 attica-0.4.2-10.fc26.armv7hl
 attica-devel-0.4.2-10.fc26.armv7hl
 attr-2.4.47-21.fc27.armv7hl
@@ -3087,8 +3087,8 @@ ocaml-4.04.2-1.fc27.armv7hl
 ocaml-compiler-libs-4.04.2-1.fc27.armv7hl
 ocaml-runtime-4.04.2-1.fc27.armv7hl
 ocaml-srpm-macros-5-2.fc27.noarch
-oci-register-machine-0-3.10.gitcbf1b8f.fc27.armv7hl
-oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.armv7hl
+oci-register-machine-0-5.10.gitcbf1b8f.fc27.armv7hl
+oci-systemd-hook-1:0.1.12-1.git1e84754.fc27.armv7hl
 oci-umount-2:1.13.1-27.gitb5e3294.fc27.armv7hl
 octave-6:4.2.1-3.fc27.armv7hl
 octave-devel-6:4.2.1-3.fc27.armv7hl
@@ -3161,9 +3161,9 @@ os-maven-plugin-1.2.3-7.fc26.noarch
 osgi-annotation-6.0.0-5.fc26.noarch
 osgi-compendium-6.0.0-3.fc26.noarch
 osgi-core-6.0.0-4.fc26.noarch
-ostree-2017.8-2.fc27.armv7hl
-ostree-devel-2017.8-2.fc27.armv7hl
-ostree-libs-2017.8-2.fc27.armv7hl
+ostree-2017.9-5.fc27.armv7hl
+ostree-devel-2017.9-5.fc27.armv7hl
+ostree-libs-2017.9-5.fc27.armv7hl
 p11-kit-0.23.7-3.fc27.armv7hl
 p11-kit-devel-0.23.7-3.fc27.armv7hl
 p11-kit-trust-0.23.7-3.fc27.armv7hl

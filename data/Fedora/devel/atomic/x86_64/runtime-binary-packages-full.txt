@@ -1,9 +1,9 @@
 NetworkManager-1:1.8.0-6.fc27.x86_64
 NetworkManager-libnm-1:1.8.0-6.fc27.x86_64
 acl-2.2.52-18.fc27.x86_64
-atomic-1.18.1-5.fc27.x86_64
-atomic-devmode-0.3.7-1.fc27.noarch
-atomic-registries-1.18.1-5.fc27.x86_64
+atomic-1.18.1-7.fc27.x86_64
+atomic-devmode-0.3.7-2.fc27.noarch
+atomic-registries-1.18.1-7.fc27.x86_64
 attr-2.4.47-21.fc27.x86_64
 audit-2.7.7-5.fc27.x86_64
 audit-libs-2.7.7-5.fc27.x86_64
@@ -242,8 +242,8 @@ nss-softokn-3.32.0-2.fc27.x86_64
 nss-softokn-freebl-3.32.0-2.fc27.x86_64
 nss-sysinit-3.32.0-2.fc27.x86_64
 nss-util-3.32.0-2.fc27.x86_64
-oci-register-machine-0-3.10.gitcbf1b8f.fc27.x86_64
-oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.x86_64
+oci-register-machine-0-5.10.gitcbf1b8f.fc27.x86_64
+oci-systemd-hook-1:0.1.12-1.git1e84754.fc27.x86_64
 oci-umount-2:1.13.1-27.gitb5e3294.fc27.x86_64
 oddjob-0.34.4-1.fc26.x86_64
 oddjob-mkhomedir-0.34.4-1.fc26.x86_64
@@ -254,9 +254,9 @@ openssh-server-7.5p1-3.fc27.x86_64
 openssl-1:1.1.0f-9.fc27.x86_64
 openssl-libs-1:1.1.0f-9.fc27.x86_64
 os-prober-1.74-1.fc27.x86_64
-ostree-2017.8-2.fc27.x86_64
-ostree-grub2-2017.8-2.fc27.x86_64
-ostree-libs-2017.8-2.fc27.x86_64
+ostree-2017.9-5.fc27.x86_64
+ostree-grub2-2017.9-5.fc27.x86_64
+ostree-libs-2017.9-5.fc27.x86_64
 p11-kit-0.23.7-3.fc27.x86_64
 p11-kit-trust-0.23.7-3.fc27.x86_64
 pam-1.3.0-5.fc27.x86_64

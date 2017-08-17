@@ -1,8 +1,8 @@
 NetworkManager-1:1.8.0-6.fc27.s390x
 NetworkManager-libnm-1:1.8.0-6.fc27.s390x
 acl-2.2.52-18.fc27.s390x
-atomic-1.18.1-5.fc27.s390x
-atomic-registries-1.18.1-5.fc27.s390x
+atomic-1.18.1-7.fc27.s390x
+atomic-registries-1.18.1-7.fc27.s390x
 attr-2.4.47-21.fc27.s390x
 audit-2.7.7-5.fc27.s390x
 audit-libs-2.7.7-5.fc27.s390x
@@ -225,8 +225,8 @@ nss-softokn-3.32.0-2.fc27.s390x
 nss-softokn-freebl-3.32.0-2.fc27.s390x
 nss-sysinit-3.32.0-2.fc27.s390x
 nss-util-3.32.0-2.fc27.s390x
-oci-register-machine-0-3.10.gitcbf1b8f.fc27.s390x
-oci-systemd-hook-1:0.1.10-1.gitfbf3b42.fc27.s390x
+oci-register-machine-0-5.10.gitcbf1b8f.fc27.s390x
+oci-systemd-hook-1:0.1.12-1.git1e84754.fc27.s390x
 oci-umount-2:1.13.1-27.gitb5e3294.fc27.s390x
 oddjob-0.34.4-1.fc26.s390x
 oddjob-mkhomedir-0.34.4-1.fc26.s390x
@@ -236,8 +236,8 @@ openssh-clients-7.5p1-3.fc27.s390x
 openssh-server-7.5p1-3.fc27.s390x
 openssl-1:1.1.0f-9.fc27.s390x
 openssl-libs-1:1.1.0f-9.fc27.s390x
-ostree-2017.8-2.fc27.s390x
-ostree-libs-2017.8-2.fc27.s390x
+ostree-2017.9-5.fc27.s390x
+ostree-libs-2017.9-5.fc27.s390x
 p11-kit-0.23.7-3.fc27.s390x
 p11-kit-trust-0.23.7-3.fc27.s390x
 pam-1.3.0-5.fc27.s390x
