@@ -419,14 +419,14 @@ python-ipaddress-1.0.18-1.fc27.noarch
 python-rhsm-certificates-1.19.4-1.fc27.i686
 python-srpm-macros-3-21.fc27.noarch
 python-websocket-client-0.40.0-1.fc26.noarch
-python2-2.7.13-12.fc27.i686
+python2-2.7.13-16.fc27.i686
 python2-IPy-0.81-19.fc27.noarch
 python2-asn1crypto-0.22.0-2.fc27.noarch
 python2-cffi-1.10.0-1.fc27.i686
 python2-cryptography-1.9-1.fc27.i686
 python2-docker-pycreds-0.2.1-4.fc26.noarch
 python2-idna-2.5-1.fc27.noarch
-python2-libs-2.7.13-12.fc27.i686
+python2-libs-2.7.13-16.fc27.i686
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-3.fc27.noarch
 python2-pyOpenSSL-17.1.0-1.fc27.noarch
