@@ -103,8 +103,6 @@ kernel-cross-headers-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-headers-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-modules-4.13.0-0.rc1.git1.1.fc27.ppc64
 kernel-modules-extra-4.13.0-0.rc1.git1.1.fc27.ppc64
-kernel-tools-4.13.0-0.rc1.git1.1.fc27.ppc64
-kernel-tools-libs-4.13.0-0.rc1.git1.1.fc27.ppc64
 keyutils-libs-1.5.10-3.fc27.ppc64
 kmod-24-3.fc27.ppc64
 kmod-libs-24-3.fc27.ppc64
@@ -213,7 +211,6 @@ p11-kit-0.23.7-3.fc27.ppc64
 p11-kit-trust-0.23.7-3.fc27.ppc64
 pam-1.3.0-5.fc27.ppc64
 patch-2.7.5-6.fc27.ppc64
-pciutils-libs-3.5.5-1.fc27.ppc64
 pcre-8.41-1.fc27.2.ppc64
 pcre2-10.30-0.6.RC1.fc27.ppc64
 perl-Carp-1.42-394.fc27.noarch
@@ -244,10 +241,6 @@ ppc64-utils-0.14-22.fc26.ppc64
 procps-ng-3.3.10-13.fc26.ppc64
 psmisc-22.21-9.fc26.ppc64
 python-srpm-macros-3-21.fc27.noarch
-python2-2.7.13-12.fc27.ppc64
-python2-libs-2.7.13-12.fc27.ppc64
-python2-pip-9.0.1-11.fc27.noarch
-python2-setuptools-36.2.0-3.fc27.noarch
 python3-3.6.2-6.fc27.ppc64
 python3-dnf-2.5.1-1.fc27.noarch
 python3-gpg-1.9.0-5.fc27.ppc64

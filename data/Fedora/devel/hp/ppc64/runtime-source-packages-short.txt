@@ -156,7 +156,6 @@ os-prober
 p11-kit
 pam
 patch
-pciutils
 pcre
 pcre2
 perl
@@ -185,7 +184,6 @@ python-pip
 python-rpm-macros
 python-setuptools
 python-six
-python2
 python3
 qrencode
 qt5
