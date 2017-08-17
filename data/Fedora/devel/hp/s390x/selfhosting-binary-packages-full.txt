@@ -3126,8 +3126,8 @@ pangomm-2.40.1-2.fc26.s390x
 pangomm-devel-2.40.1-2.fc26.s390x
 paranamer-2.8-4.fc26.noarch
 parboiled-1.1.6-11.fc26.noarch
-parted-3.2-26.fc27.s390x
-parted-devel-3.2-26.fc27.s390x
+parted-3.2-28.fc27.s390x
+parted-devel-3.2-28.fc27.s390x
 passwd-0.79-9.fc26.s390x
 patch-2.7.5-6.fc27.s390x
 patchutils-0.3.4-7.fc27.s390x
