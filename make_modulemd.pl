@@ -90,7 +90,19 @@ sub getn {
 sub getrefs {
     print { *stderr } "Getting ${mode} component dist-git refs...\n"
         if $opts{v};
-    my %refs = map {
+    my ($cachefile, $fh, %refs, %cache) = './refcache.txt';
+    unless (-f $cachefile) {
+        open $fh, '>', $cachefile;
+        close $fh;
+    }
+    open $fh, '+<', $cachefile;
+    flock($fh, 2);
+    while (<$fh>) {
+        chomp;
+        /^(?<nvr>[^:]+):(?<ref>.+)$/;
+        $cache{$+{nvr}} = $+{ref};
+    }
+    %refs = map {
         # XXX: Special hacks for shim.  This needs to be updated
         #      in the rare case of a shim rebase, although we should
         #      probably handle this with arbitrary branching; make
@@ -105,12 +117,12 @@ sub getrefs {
         } elsif (getn($_) eq 'shim-unsigned-aarch64') {
             $ref = 'ae09b5fe2bac419ce2b49bded0487d133bd53919';
         }
-        $_ => $ref;
+        $_ => exists $cache{$_} ? $cache{$_} : $ref;
     } @_;
     # XXX: koji python multicall API is much faster than CLI, so...
     my ($pyin, $pyout, $pyerr);
     my $pid = open3($pyin, $pyout, $pyerr,
-        '/usr/bin/python2 - '.join(' ', @_));
+        '/usr/bin/python2 - '.join(' ', grep { ! defined $refs{$_} } @_));
     print { $pyin } <<"    EOF";
 import sys
 import koji
@@ -140,6 +152,13 @@ for i in range(len(nvrs)):
         $refs{$+{nvr}} //= $+{ref};
     }
     waitpid($pid, 0);
+    %cache = (%cache, %refs);
+    seek($fh, 0, 0);
+    truncate($fh, 0);
+    for (sort keys %cache) {
+        print { $fh } $_ . ':' . $cache{$_} . "\n";
+    }
+    close $fh;
     { %refs };
 }
 
