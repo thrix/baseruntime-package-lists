@@ -207,7 +207,7 @@ cdrkit-1.1.11-35.fc27.src
 ceph-1:10.2.7-2.fc27.src
 cglib-3.2.4-4.fc26.src
 check-0.11.0-2.fc26.src
-checkpolicy-2.6-1.fc26.src
+checkpolicy-2.7-1.fc27.src
 checksec-1.7.4-3.fc26.src
 checkstyle-8.0-1.fc27.src
 chkconfig-1.10-3.fc27.src
@@ -2502,7 +2502,7 @@ plexus-velocity-1.2-2.fc26.src
 plotutils-2.6-16.fc26.src
 pmix-1.2.2-1.fc27.src
 po4a-0.51-1.fc27.src
-policycoreutils-2.6-5.fc27.src
+policycoreutils-2.7-1.fc27.src
 polkit-0.113-13.fc27.src
 polkit-pkla-compat-0.1-8.fc26.src
 polkit-qt-0.112.0-9.fc26.src
@@ -2993,7 +2993,7 @@ screen-4.6.1-1.fc27.src
 scrub-2.5.2-9.fc26.src
 seabios-1.10.2-1.fc27.src
 sed-4.4-3.fc27.src
-selinux-policy-3.13.1-264.fc27.src
+selinux-policy-3.13.1-272.fc27.src
 sendmail-8.15.2-15.fc27.src
 serp-1.15.2-0.6.20150412cvs.fc26.src
 setools-4.1.0-3.fc27.src

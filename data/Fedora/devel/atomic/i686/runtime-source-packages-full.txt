@@ -15,7 +15,7 @@ btrfs-progs-4.12-1.fc27.src
 bubblewrap-0.1.8-1.fc27.src
 bzip2-1.0.6-24.fc27.src
 ca-certificates-2017.2.16-3.fc27.src
-checkpolicy-2.6-1.fc26.src
+checkpolicy-2.7-1.fc27.src
 chkconfig-1.10-3.fc27.src
 chrony-3.1-5.fc27.src
 cloud-init-0.7.9-7.fc26.src
@@ -179,7 +179,7 @@ passwd-0.79-9.fc26.src
 pcre-8.41-1.fc27.2.src
 pcre2-10.30-0.6.RC1.fc27.src
 pkgconf-1.3.8-1.fc27.src
-policycoreutils-2.6-5.fc27.src
+policycoreutils-2.7-1.fc27.src
 polkit-0.113-13.fc27.src
 polkit-pkla-compat-0.1-8.fc26.src
 popt-1.16-11.fc27.src
@@ -236,7 +236,7 @@ rsync-3.1.2-5.fc27.src
 runc-1:1.0.0-9.git6394544.fc27.src
 screen-4.6.1-1.fc27.src
 sed-4.4-3.fc27.src
-selinux-policy-3.13.1-264.fc27.src
+selinux-policy-3.13.1-272.fc27.src
 setools-4.1.0-3.fc27.src
 setup-2.10.5-3.fc27.src
 shadow-utils-2:4.5-3.fc27.src

@@ -24,7 +24,7 @@ bzip2-1.0.6-24.fc27.src
 c-ares-1.13.0-1.fc27.src
 ca-certificates-2017.2.16-3.fc27.src
 cdrkit-1.1.11-35.fc27.src
-checkpolicy-2.6-1.fc26.src
+checkpolicy-2.7-1.fc27.src
 chkconfig-1.10-3.fc27.src
 chrony-3.1-5.fc27.src
 cloud-init-0.7.9-7.fc26.src
@@ -253,7 +253,7 @@ pcre2-10.30-0.6.RC1.fc27.src
 perl-srpm-macros-1-24.fc27.src
 pigz-2.3.4-2.fc26.src
 pkgconf-1.3.8-1.fc27.src
-policycoreutils-2.6-5.fc27.src
+policycoreutils-2.7-1.fc27.src
 polkit-0.113-13.fc27.src
 polkit-pkla-compat-0.1-8.fc26.src
 popt-1.16-11.fc27.src
@@ -333,7 +333,7 @@ rust-srpm-macros-4-3.fc27.src
 satyr-0.23-1.fc27.src
 screen-4.6.1-1.fc27.src
 sed-4.4-3.fc27.src
-selinux-policy-3.13.1-264.fc27.src
+selinux-policy-3.13.1-272.fc27.src
 setools-4.1.0-3.fc27.src
 setup-2.10.5-3.fc27.src
 sgml-common-0.6.3-46.fc27.src

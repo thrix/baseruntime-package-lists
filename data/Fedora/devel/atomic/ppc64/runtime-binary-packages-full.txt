@@ -18,7 +18,7 @@ bubblewrap-0.1.8-1.fc27.ppc64
 bzip2-1.0.6-24.fc27.ppc64
 bzip2-libs-1.0.6-24.fc27.ppc64
 ca-certificates-2017.2.16-3.fc27.noarch
-checkpolicy-2.6-1.fc26.ppc64
+checkpolicy-2.7-1.fc27.ppc64
 chkconfig-1.10-3.fc27.ppc64
 chrony-3.1-5.fc27.ppc64
 cloud-init-0.7.9-7.fc26.noarch
@@ -243,10 +243,10 @@ pcre2-10.30-0.6.RC1.fc27.ppc64
 pkgconf-1.3.8-1.fc27.ppc64
 pkgconf-m4-1.3.8-1.fc27.noarch
 pkgconf-pkg-config-1.3.8-1.fc27.ppc64
-policycoreutils-2.6-5.fc27.ppc64
-policycoreutils-python-2.6-5.fc27.ppc64
-policycoreutils-python-utils-2.6-5.fc27.ppc64
-policycoreutils-python3-2.6-5.fc27.ppc64
+policycoreutils-2.7-1.fc27.ppc64
+policycoreutils-python-2.7-1.fc27.ppc64
+policycoreutils-python-utils-2.7-1.fc27.ppc64
+policycoreutils-python3-2.7-1.fc27.ppc64
 polkit-libs-0.113-13.fc27.ppc64
 popt-1.16-11.fc27.ppc64
 procps-ng-3.3.10-13.fc26.ppc64
@@ -318,8 +318,8 @@ rpm-plugin-selinux-4.13.0.1-41.fc27.ppc64
 rsync-3.1.2-5.fc27.ppc64
 screen-4.6.1-1.fc27.ppc64
 sed-4.4-3.fc27.ppc64
-selinux-policy-3.13.1-264.fc27.noarch
-selinux-policy-targeted-3.13.1-264.fc27.noarch
+selinux-policy-3.13.1-272.fc27.noarch
+selinux-policy-targeted-3.13.1-272.fc27.noarch
 setools-console-4.1.0-3.fc27.ppc64
 setools-python-4.1.0-3.fc27.ppc64
 setools-python3-4.1.0-3.fc27.ppc64
