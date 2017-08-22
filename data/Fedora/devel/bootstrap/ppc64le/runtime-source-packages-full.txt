@@ -30,7 +30,7 @@ chkconfig-1.10-3.fc27.src
 chrony-3.1-5.fc27.src
 cloud-init-0.7.9-7.fc26.src
 cloud-utils-0.27-17.fc26.src
-cockpit-145-1.fc27.src
+cockpit-149-1.fc28.src
 compat-openssl10-1:1.0.2j-6.fc26.src
 container-selinux-2:2.21-3.fc27.src
 container-storage-setup-0.6.0-1.giteb688d4.fc27.src

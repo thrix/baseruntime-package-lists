@@ -517,11 +517,11 @@ cloud-utils-growpart-0.27-17.fc26.noarch
 cmake-3.8.2-1.fc27.aarch64
 cmake-data-3.8.2-1.fc27.noarch
 cmdtest-0.27-2.fc26.noarch
-cockpit-bridge-145-1.fc27.aarch64
-cockpit-docker-145-1.fc27.aarch64
-cockpit-networkmanager-145-1.fc27.noarch
-cockpit-ostree-145-1.fc27.aarch64
-cockpit-system-145-1.fc27.noarch
+cockpit-bridge-149-1.fc28.aarch64
+cockpit-docker-149-1.fc28.aarch64
+cockpit-networkmanager-149-1.fc28.noarch
+cockpit-ostree-149-1.fc28.aarch64
+cockpit-system-149-1.fc28.noarch
 codegen-0.6.8-3.fc26.noarch
 codehaus-parent-4-11.fc26.noarch
 codemodel-2.6-19.fc26.noarch

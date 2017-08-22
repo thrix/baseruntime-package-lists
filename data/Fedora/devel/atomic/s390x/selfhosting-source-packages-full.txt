@@ -223,7 +223,7 @@ cloud-utils-0.27-17.fc26.src
 cmake-3.8.2-1.fc27.src
 cmdtest-0.27-2.fc26.src
 cmocka-1.1.1-5.fc27.src
-cockpit-145-1.fc27.src
+cockpit-149-1.fc28.src
 codegen-0.6.8-3.fc26.src
 codehaus-parent-4-11.fc26.src
 codemodel-2.6-19.fc26.src

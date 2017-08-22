@@ -25,11 +25,11 @@ chkconfig-1.10-3.fc27.armv7hl
 chrony-3.1-5.fc27.armv7hl
 cloud-init-0.7.9-7.fc26.noarch
 cloud-utils-growpart-0.27-17.fc26.noarch
-cockpit-bridge-145-1.fc27.armv7hl
-cockpit-docker-145-1.fc27.armv7hl
-cockpit-networkmanager-145-1.fc27.noarch
-cockpit-ostree-145-1.fc27.armv7hl
-cockpit-system-145-1.fc27.noarch
+cockpit-bridge-149-1.fc28.armv7hl
+cockpit-docker-149-1.fc28.armv7hl
+cockpit-networkmanager-149-1.fc28.noarch
+cockpit-ostree-149-1.fc28.armv7hl
+cockpit-system-149-1.fc28.noarch
 compat-openssl10-1:1.0.2j-6.fc26.armv7hl
 container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-1.giteb688d4.fc27.noarch
