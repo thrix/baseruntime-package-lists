@@ -201,7 +201,7 @@ libsss_nss_idmap-1.15.3-0.beta.5.fc27.aarch64
 libsss_sudo-1.15.3-0.beta.5.fc27.aarch64
 libstdc++-7.1.1-7.fc27.1.aarch64
 libtasn1-4.12-3.fc27.aarch64
-libtirpc-1.0.1-4.rc3.fc27.aarch64
+libtirpc-1.0.2-3.fc28.aarch64
 libtool-ltdl-2.4.6-20.fc27.aarch64
 libunistring-0.9.7-3.fc27.aarch64
 libusb-1:0.1.5-8.fc26.aarch64

@@ -188,7 +188,7 @@ libsss_nss_idmap-1.15.3-0.beta.5.fc27.armv7hl
 libsss_sudo-1.15.3-0.beta.5.fc27.armv7hl
 libstdc++-7.1.1-7.fc27.1.armv7hl
 libtasn1-4.12-3.fc27.armv7hl
-libtirpc-1.0.1-4.rc3.fc27.armv7hl
+libtirpc-1.0.2-3.fc28.armv7hl
 libtool-ltdl-2.4.6-20.fc27.armv7hl
 libunistring-0.9.7-3.fc27.armv7hl
 libusb-1:0.1.5-8.fc26.armv7hl

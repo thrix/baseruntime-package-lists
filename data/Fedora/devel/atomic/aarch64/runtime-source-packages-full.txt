@@ -132,7 +132,7 @@ libsepol-2.7-1.fc27.src
 libsigsegv-2.11-3.fc27.src
 libsolv-0.6.28-1.fc27.src
 libtasn1-4.12-3.fc27.src
-libtirpc-1.0.1-4.rc3.fc27.src
+libtirpc-1.0.2-3.fc28.src
 libtool-2.4.6-20.fc27.src
 libunistring-0.9.7-3.fc27.src
 libusb-1:0.1.5-8.fc26.src

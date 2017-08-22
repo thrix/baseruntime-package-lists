@@ -2314,8 +2314,8 @@ libtiff-devel-4.0.8-3.fc27.s390x
 libtiff-tools-4.0.8-3.fc27.s390x
 libtimezonemap-0.4.5-6.fc26.s390x
 libtimezonemap-devel-0.4.5-6.fc26.s390x
-libtirpc-1.0.1-4.rc3.fc27.s390x
-libtirpc-devel-1.0.1-4.rc3.fc27.s390x
+libtirpc-1.0.2-3.fc28.s390x
+libtirpc-devel-1.0.2-3.fc28.s390x
 libtomcrypt-1.17-33.20170623gitcd6e602.fc27.s390x
 libtomcrypt-devel-1.17-33.20170623gitcd6e602.fc27.s390x
 libtommath-1.0-8.fc27.s390x

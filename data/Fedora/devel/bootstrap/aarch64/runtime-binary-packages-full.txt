@@ -304,7 +304,7 @@ libstdc++-devel-7.1.1-7.fc27.1.aarch64
 libtar-1.2.20-9.fc26.aarch64
 libtasn1-4.12-3.fc27.aarch64
 libteam-1.27-1.fc27.aarch64
-libtirpc-1.0.1-4.rc3.fc27.aarch64
+libtirpc-1.0.2-3.fc28.aarch64
 libtool-ltdl-2.4.6-20.fc27.aarch64
 libubsan-7.1.1-7.fc27.1.aarch64
 libunistring-0.9.7-3.fc27.aarch64

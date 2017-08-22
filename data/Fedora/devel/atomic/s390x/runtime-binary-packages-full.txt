@@ -187,7 +187,7 @@ libsss_nss_idmap-1.15.3-0.beta.5.fc27.s390x
 libsss_sudo-1.15.3-0.beta.5.fc27.s390x
 libstdc++-7.1.1-7.fc27.1.s390x
 libtasn1-4.12-3.fc27.s390x
-libtirpc-1.0.1-4.rc3.fc27.s390x
+libtirpc-1.0.2-3.fc28.s390x
 libtool-ltdl-2.4.6-20.fc27.s390x
 libunistring-0.9.7-3.fc27.s390x
 libusbx-1.0.21-4.fc27.s390x

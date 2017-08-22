@@ -290,7 +290,7 @@ libsysfs-2.1.0-20.fc26.s390x
 libtar-1.2.20-9.fc26.s390x
 libtasn1-4.12-3.fc27.s390x
 libteam-1.27-1.fc27.s390x
-libtirpc-1.0.1-4.rc3.fc27.s390x
+libtirpc-1.0.2-3.fc28.s390x
 libtool-ltdl-2.4.6-20.fc27.s390x
 libunistring-0.9.7-3.fc27.s390x
 libusal-1.1.11-35.fc27.s390x

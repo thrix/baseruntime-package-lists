@@ -303,7 +303,7 @@ libstdc++-devel-7.1.1-7.fc27.1.ppc64le
 libtar-1.2.20-9.fc26.ppc64le
 libtasn1-4.12-3.fc27.ppc64le
 libteam-1.27-1.fc27.ppc64le
-libtirpc-1.0.1-4.rc3.fc27.ppc64le
+libtirpc-1.0.2-3.fc28.ppc64le
 libtool-ltdl-2.4.6-20.fc27.ppc64le
 libubsan-7.1.1-7.fc27.1.ppc64le
 libunistring-0.9.7-3.fc27.ppc64le

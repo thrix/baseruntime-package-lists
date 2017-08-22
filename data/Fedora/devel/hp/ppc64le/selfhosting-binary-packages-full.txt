@@ -2220,8 +2220,8 @@ libtidy-devel-5.4.0-1.fc27.ppc64le
 libtiff-4.0.8-3.fc27.ppc64le
 libtiff-devel-4.0.8-3.fc27.ppc64le
 libtiff-tools-4.0.8-3.fc27.ppc64le
-libtirpc-1.0.1-4.rc3.fc27.ppc64le
-libtirpc-devel-1.0.1-4.rc3.fc27.ppc64le
+libtirpc-1.0.2-3.fc28.ppc64le
+libtirpc-devel-1.0.2-3.fc28.ppc64le
 libtomcrypt-1.17-33.20170623gitcd6e602.fc27.ppc64le
 libtomcrypt-devel-1.17-33.20170623gitcd6e602.fc27.ppc64le
 libtommath-1.0-8.fc27.ppc64le

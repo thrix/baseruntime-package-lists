@@ -198,7 +198,7 @@ libsss_nss_idmap-1.15.3-0.beta.5.fc27.ppc64le
 libsss_sudo-1.15.3-0.beta.5.fc27.ppc64le
 libstdc++-7.1.1-7.fc27.1.ppc64le
 libtasn1-4.12-3.fc27.ppc64le
-libtirpc-1.0.1-4.rc3.fc27.ppc64le
+libtirpc-1.0.2-3.fc28.ppc64le
 libtool-ltdl-2.4.6-20.fc27.ppc64le
 libunistring-0.9.7-3.fc27.ppc64le
 libusb-1:0.1.5-8.fc26.ppc64le

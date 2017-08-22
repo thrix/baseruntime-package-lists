@@ -192,7 +192,7 @@ libsolv-0.6.28-1.fc27.src
 libtar-1.2.20-9.fc26.src
 libtasn1-4.12-3.fc27.src
 libteam-1.27-1.fc27.src
-libtirpc-1.0.1-4.rc3.fc27.src
+libtirpc-1.0.2-3.fc28.src
 libtool-2.4.6-20.fc27.src
 libunistring-0.9.7-3.fc27.src
 libunwind-1.2-1.fc27.src
