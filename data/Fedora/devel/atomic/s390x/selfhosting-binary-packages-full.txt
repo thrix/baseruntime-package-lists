@@ -931,11 +931,11 @@ gdb-headless-8.0-17.fc27.s390x
 gdbm-1.13-3.fc27.s390x
 gdbm-devel-1.13-3.fc27.s390x
 gdisk-1.0.1-3.fc26.s390x
-gdk-pixbuf2-2.36.7-1.fc27.s390x
-gdk-pixbuf2-devel-2.36.7-1.fc27.s390x
-gdk-pixbuf2-modules-2.36.7-1.fc27.s390x
-gdk-pixbuf2-xlib-2.36.7-1.fc27.s390x
-gdk-pixbuf2-xlib-devel-2.36.7-1.fc27.s390x
+gdk-pixbuf2-2.36.9-1.fc27.s390x
+gdk-pixbuf2-devel-2.36.9-1.fc27.s390x
+gdk-pixbuf2-modules-2.36.9-1.fc27.s390x
+gdk-pixbuf2-xlib-2.36.9-1.fc27.s390x
+gdk-pixbuf2-xlib-devel-2.36.9-1.fc27.s390x
 gemini-blueprint-1.0.2-11.fc26.noarch
 geoclue2-2.4.5-4.fc27.s390x
 geoclue2-devel-2.4.5-4.fc27.s390x
