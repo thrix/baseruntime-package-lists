@@ -903,7 +903,7 @@ kde-filesystem-4-55.fc26.src
 kde-l10n-17.04.2-1.fc27.src
 kde-settings-26-1.fc27.src
 kdelibs-6:4.14.33-1.fc27.src
-kernel-4.13.0-0.rc1.git1.1.fc27.src
+kernel-4.13.0-0.rc6.git0.1.fc28.src
 kexec-tools-2.0.15-4.fc27.src
 keyutils-1.5.10-3.fc27.src
 kf5-5.36.0-1.fc27.src
