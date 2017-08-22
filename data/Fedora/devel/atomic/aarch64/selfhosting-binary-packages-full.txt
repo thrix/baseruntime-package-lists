@@ -4291,6 +4291,7 @@ python2-rpm-4.13.0.1-41.fc27.aarch64
 python2-rpm-macros-3-21.fc27.noarch
 python2-scour-0.35-4.fc26.noarch
 python2-service-identity-16.0.0-7.fc26.noarch
+python2-setools-4.1.1-4.fc28.aarch64
 python2-setuptools-36.2.0-3.fc27.noarch
 python2-setuptools_scm-1.15.6-1.fc27.noarch
 python2-simplejson-3.10.0-3.fc26.aarch64
@@ -4470,6 +4471,7 @@ python3-rpm-generators-4.13.0.1-2.fc27.1.noarch
 python3-rpm-macros-3-21.fc27.noarch
 python3-rtslib-2.1.fb63-1.fc27.noarch
 python3-service-identity-16.0.0-7.fc26.noarch
+python3-setools-4.1.1-4.fc28.aarch64
 python3-setuptools-36.2.0-3.fc27.noarch
 python3-setuptools_scm-1.15.6-1.fc27.noarch
 python3-simplejson-3.10.0-3.fc26.aarch64
@@ -4899,9 +4901,7 @@ selinux-policy-doc-3.13.1-272.fc27.noarch
 selinux-policy-targeted-3.13.1-272.fc27.noarch
 sendmail-8.15.2-15.fc27.aarch64
 serp-1.15.2-0.6.20150412cvs.fc26.noarch
-setools-console-4.1.0-3.fc27.aarch64
-setools-python-4.1.0-3.fc27.aarch64
-setools-python3-4.1.0-3.fc27.aarch64
+setools-console-4.1.1-4.fc28.aarch64
 setup-2.10.5-3.fc27.noarch
 sgabios-bin-1:0.20110622svn-10.fc26.noarch
 sgml-common-0.6.3-46.fc27.noarch

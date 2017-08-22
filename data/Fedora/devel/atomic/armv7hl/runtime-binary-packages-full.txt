@@ -283,6 +283,7 @@ python2-pyOpenSSL-17.1.0-1.fc27.noarch
 python2-pycparser-2.14-10.fc26.noarch
 python2-pysocks-1.5.7-4.fc26.noarch
 python2-requests-2.18.1-2.fc27.noarch
+python2-setools-4.1.1-4.fc28.armv7hl
 python2-setuptools-36.2.0-3.fc27.noarch
 python2-six-1.10.0-9.fc27.noarch
 python2-urllib3-1.21.1-1.fc27.noarch
@@ -318,6 +319,7 @@ python3-pyserial-3.1.1-3.fc26.noarch
 python3-pysocks-1.5.7-4.fc26.noarch
 python3-requests-2.18.1-2.fc27.noarch
 python3-rpm-4.13.0.1-41.fc27.armv7hl
+python3-setools-4.1.1-4.fc28.armv7hl
 python3-setuptools-36.2.0-3.fc27.noarch
 python3-six-1.10.0-9.fc27.noarch
 python3-slip-0.6.4-6.fc26.noarch
@@ -342,9 +344,7 @@ screen-4.6.1-1.fc27.armv7hl
 sed-4.4-3.fc27.armv7hl
 selinux-policy-3.13.1-272.fc27.noarch
 selinux-policy-targeted-3.13.1-272.fc27.noarch
-setools-console-4.1.0-3.fc27.armv7hl
-setools-python-4.1.0-3.fc27.armv7hl
-setools-python3-4.1.0-3.fc27.armv7hl
+setools-console-4.1.1-4.fc28.armv7hl
 setup-2.10.5-3.fc27.noarch
 shadow-utils-2:4.5-3.fc27.armv7hl
 skopeo-0.1.22-1.git5d24b67.fc27.armv7hl

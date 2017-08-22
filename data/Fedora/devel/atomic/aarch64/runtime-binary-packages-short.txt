@@ -299,6 +299,7 @@ python2-pyOpenSSL
 python2-pycparser
 python2-pysocks
 python2-requests
+python2-setools
 python2-setuptools
 python2-six
 python2-urllib3
@@ -334,6 +335,7 @@ python3-pyserial
 python3-pysocks
 python3-requests
 python3-rpm
+python3-setools
 python3-setuptools
 python3-six
 python3-slip
@@ -359,8 +361,6 @@ sed
 selinux-policy
 selinux-policy-targeted
 setools-console
-setools-python
-setools-python3
 setup
 shadow-utils
 shim

@@ -273,6 +273,7 @@ python2-pyOpenSSL-17.1.0-1.fc27.noarch
 python2-pycparser-2.14-10.fc26.noarch
 python2-pysocks-1.5.7-4.fc26.noarch
 python2-requests-2.18.1-2.fc27.noarch
+python2-setools-4.1.1-4.fc28.ppc64
 python2-setuptools-36.2.0-3.fc27.noarch
 python2-six-1.10.0-9.fc27.noarch
 python2-urllib3-1.21.1-1.fc27.noarch
@@ -301,6 +302,7 @@ python3-pycparser-2.14-10.fc26.noarch
 python3-pyserial-3.1.1-3.fc26.noarch
 python3-pysocks-1.5.7-4.fc26.noarch
 python3-requests-2.18.1-2.fc27.noarch
+python3-setools-4.1.1-4.fc28.ppc64
 python3-setuptools-36.2.0-3.fc27.noarch
 python3-six-1.10.0-9.fc27.noarch
 python3-sssdconfig-1.15.3-0.beta.5.fc27.noarch
@@ -320,9 +322,7 @@ screen-4.6.1-1.fc27.ppc64
 sed-4.4-3.fc27.ppc64
 selinux-policy-3.13.1-272.fc27.noarch
 selinux-policy-targeted-3.13.1-272.fc27.noarch
-setools-console-4.1.0-3.fc27.ppc64
-setools-python-4.1.0-3.fc27.ppc64
-setools-python3-4.1.0-3.fc27.ppc64
+setools-console-4.1.1-4.fc28.ppc64
 setup-2.10.5-3.fc27.noarch
 shadow-utils-2:4.5-3.fc27.ppc64
 sos-3.4-1.fc27.noarch

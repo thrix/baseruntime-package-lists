@@ -434,6 +434,7 @@ python2-pyOpenSSL
 python2-pycparser
 python2-pysocks
 python2-requests
+python2-setools
 python2-setuptools
 python2-six
 python2-urllib3
@@ -494,6 +495,7 @@ python3-requests
 python3-requests-file
 python3-requests-ftp
 python3-rpm
+python3-setools
 python3-setuptools
 python3-six
 python3-slip
@@ -528,8 +530,6 @@ sed
 selinux-policy
 selinux-policy-targeted
 setools-console
-setools-python
-setools-python3
 setup
 sgml-common
 sgpio
