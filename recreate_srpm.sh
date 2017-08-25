@@ -58,9 +58,16 @@ if [ "x$2" = "x--bumpspec" ]; then
                     $PKG.spec
 fi
 
+set -x
+dist=$(echo $NVR | sed "s|.*-||" | grep -Po "\.fc\d+") || dist=""
+if [ -n "$dist" ]; then
+    dist_arg='--define="dist $dist"'
+else
+    dist_arg='--undefine="dist"'
+fi
 for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le" "s390x"; do
     mkdir -p $OUTPUT_DIR/$arch
-    rpmbuild -bs --build-in-place --target=$arch \
+    rpmbuild -bs --build-in-place --target=$arch $dist_arg \
              --define "_sourcedir $WORKING_DIR/$PKG" \
              --define "_srcrpmdir $OUTPUT_DIR/$arch" $PKG.spec
 done
