@@ -30,6 +30,7 @@ meson
 openmpi
 pcp
 python-qt5
+rdma-core
 qemu
 shim
 shim-signed
