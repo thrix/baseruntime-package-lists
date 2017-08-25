@@ -12,6 +12,7 @@ fwupd
 gcc
 gdb
 glibc32
+glusterfs
 gnome-settings-daemon
 gperftools
 grub2
