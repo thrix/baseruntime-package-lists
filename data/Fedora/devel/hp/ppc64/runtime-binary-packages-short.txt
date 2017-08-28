@@ -237,7 +237,6 @@ rpm-build
 rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
-rpm-plugin-systemd-inhibit
 rsyslog
 rust-srpm-macros
 sed
@@ -246,7 +245,6 @@ sgml-common
 shadow-utils
 sqlite-libs
 sudo
-system-python
 system-python-libs
 systemd
 systemd-libs

@@ -227,6 +227,7 @@ nss-util
 ocaml-srpm-macros
 oci-register-machine
 oci-systemd-hook
+oci-umount
 oddjob
 openblas-srpm-macros
 openldap
@@ -292,6 +293,7 @@ python-pip
 python-ply
 python-prettytable
 python-pycparser
+python-pydbus
 python-pysocks
 python-pyudev
 python-requests
@@ -302,6 +304,7 @@ python-rpm-macros
 python-setuptools
 python-six
 python-slip
+python-systemd
 python-urllib3
 python-websocket-client
 python-wrapt

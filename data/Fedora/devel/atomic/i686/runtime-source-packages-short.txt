@@ -166,6 +166,7 @@ nss-softokn
 nss-util
 oci-register-machine
 oci-systemd-hook
+oci-umount
 oddjob
 openldap
 openssh

@@ -25,6 +25,7 @@ SDL2_mixer
 SDL_sound
 Xaw3d
 a2ps
+aalto-xml
 acl
 acpica-tools
 adobe-source-code-pro-fonts
@@ -232,6 +233,7 @@ compat-openssl10
 compat-openssl10-pkcs11-helper
 compface
 compiler-rt
+compress-lzf
 cookcc
 cookxml
 copy-jdk-configs
@@ -299,7 +301,7 @@ docbook-utils
 docbook5-schemas
 docbook5-style-xsl
 docker
-docker-client
+docker-client-java
 dom4j
 dos2unix
 dosfstools
@@ -378,7 +380,6 @@ fakechroot
 fakeroot
 fasterxml-oss-parent
 fastutil
-fcgi
 fedora-logos
 fedora-release
 fedora-repos
@@ -536,6 +537,7 @@ golang-github-cpuguy83-go-md2man
 golang-github-davecgh-go-spew
 golang-github-docker-go-units
 golang-github-godbus-dbus
+golang-github-golang-sys
 golang-github-kr-fs
 golang-github-kr-pretty
 golang-github-kr-text
@@ -609,7 +611,6 @@ hawtbuf
 hawtdispatch
 hawtjni
 hdf5
-hdparm
 help2man
 herqq
 hesiod
@@ -902,7 +903,6 @@ kyua-cli
 kyua-testers
 ladspa
 lapack
-lash
 lasi
 latex2html
 lato-fonts
@@ -947,6 +947,7 @@ libXv
 libXxf86dga
 libXxf86misc
 libXxf86vm
+libaec
 libaesgm
 libaio
 libao
@@ -1014,7 +1015,6 @@ libgpg-error
 libgphoto2
 libgudev
 libgusb
-libibverbs
 libical
 libicns
 libidn
@@ -1077,7 +1077,6 @@ libqb
 libqmi
 librabbitmq
 librdkafka
-librdmacm
 librelp
 librepo
 libreport
@@ -1146,6 +1145,7 @@ libxslt
 libyaml
 lightcouch
 lilypond
+linkchecker
 linux-atm
 linux-firmware
 linuxconsoletools
@@ -1154,7 +1154,6 @@ liquibase
 lirc
 lksctp-tools
 llvm
-llvm3.9
 lm_sensors
 lockdev
 lodash
@@ -1179,6 +1178,7 @@ lyx
 lz4
 lz4-java
 lzip
+lzma-java
 lzma-sdk457
 lzo
 m17n-db
@@ -1709,6 +1709,7 @@ passwd
 patch
 patchutils
 pcfi
+pciutils
 pcre
 pcre2
 pcsc-lite
@@ -1785,6 +1786,7 @@ perl-Compress-LZF
 perl-Compress-Raw-Bzip2
 perl-Compress-Raw-Zlib
 perl-Config-Any
+perl-Config-AutoConf
 perl-Config-General
 perl-Config-Perl-V
 perl-Config-Tiny
@@ -2011,6 +2013,7 @@ perl-Lexical-SealRequireHints
 perl-Lexical-Var
 perl-Lingua-EN-Inflect
 perl-List-MoreUtils
+perl-List-MoreUtils-XS
 perl-Locale-Codes
 perl-Locale-Maketext
 perl-Locale-US
@@ -2441,6 +2444,7 @@ picketbox-xacml
 picocontainer
 pixman
 pkgconf
+platform-python
 plexus-ant-factory
 plexus-archiver
 plexus-bsh-factory
@@ -2518,12 +2522,10 @@ python-asn1crypto
 python-attrs
 python-backports
 python-backports-ssl_match_hostname
-python-backports-unittest_mock
 python-backports_abc
 python-beaker
 python-beautifulsoup4
 python-bottle
-python-bugzilla
 python-cffi
 python-chardet
 python-cliapp
@@ -2540,6 +2542,7 @@ python-cups
 python-d2to1
 python-dateutil
 python-decorator
+python-dns
 python-docutils
 python-dtopt
 python-empy
@@ -2587,6 +2590,7 @@ python-pillow
 python-pip
 python-ply
 python-pretend
+python-prettytable
 python-process-tests
 python-psutil
 python-ptyprocess
@@ -2625,6 +2629,7 @@ python-socketpool
 python-sphinx
 python-sphinx-theme-alabaster
 python-sphinx_rtd_theme
+python-sphinxcontrib-websupport
 python-sqlalchemy
 python-systemd
 python-tempita
@@ -2638,6 +2643,7 @@ python-unittest2
 python-urllib3
 python-virtualenv
 python-waitress
+python-webencodings
 python-webob
 python-webtest
 python-werkzeug
@@ -2703,6 +2709,7 @@ radvd
 ragel
 randomizedtesting
 rarian
+rdma-core
 re2c
 readline
 realmd
@@ -2944,6 +2951,7 @@ snakeyaml
 snappy
 snappy-java
 snowball-java
+socat
 socket_wrapper
 softhsm
 sombok
@@ -2990,6 +2998,7 @@ stringtemplate
 stringtemplate4
 struts
 stunnel
+subethasmtp
 subunit
 subversion
 sudo
