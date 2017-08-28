@@ -30,6 +30,7 @@ libfabric
 libvirt
 meson
 openmpi
+papi
 pcp
 python-qt5
 rdma-core
