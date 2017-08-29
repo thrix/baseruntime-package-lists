@@ -33,4 +33,4 @@ clean:
 	rm -f data/Fedora/devel/*/*/selfhosting-*.txt
 
 test:
-	$(foreach test,$(wildcard tests/*),"./$(test)")
+	$(foreach test,$(wildcard tests/*),"./$(test)";)
