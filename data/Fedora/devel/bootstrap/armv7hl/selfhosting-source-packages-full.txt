@@ -2526,7 +2526,6 @@ plexus-velocity-1.2-3.fc27.src
 plotutils-2.6-18.fc27.src
 pmix-1.2.2-3.fc27.src
 po4a-0.51-2.fc27.src
-policycoreutils-2.7-1.fc27.src
 policycoreutils-2.7-3.fc28.src
 polkit-0.113-15.fc27.src
 polkit-pkla-compat-0.1-10.fc27.src

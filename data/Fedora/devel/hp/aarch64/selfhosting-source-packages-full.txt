@@ -576,7 +576,7 @@ grizzly-npn-1.2-6.fc27.src
 groff-1.22.3-11.fc27.src
 groovy-2.4.8-3.fc27.src
 groovy18-1.8.9-30.fc28.src
-grub2-1:2.02-8.fc27.src
+grub2-1:2.02-14.fc27.src
 gsbase-2.0.1-10.fc27.src
 gsettings-desktop-schemas-3.24.0-3.fc27.src
 gsl-2.4-3.fc27.src

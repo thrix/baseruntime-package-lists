@@ -244,10 +244,9 @@ pcre2-10.30-1.fc27.s390x
 pkgconf-1.3.8-1.fc27.s390x
 pkgconf-m4-1.3.8-1.fc27.noarch
 pkgconf-pkg-config-1.3.8-1.fc27.s390x
-policycoreutils-2.7-1.fc27.s390x
-policycoreutils-python-2.7-1.fc27.s390x
-policycoreutils-python-utils-2.7-1.fc27.s390x
-policycoreutils-python3-2.7-1.fc27.s390x
+policycoreutils-2.7-3.fc28.s390x
+policycoreutils-python-utils-2.7-3.fc28.s390x
+policycoreutils-python3-2.7-3.fc28.s390x
 polkit-0.113-15.fc27.s390x
 polkit-libs-0.113-15.fc27.s390x
 polkit-pkla-compat-0.1-10.fc27.s390x
@@ -275,6 +274,7 @@ python2-libselinux-2.7-3.fc28.s390x
 python2-libsemanage-2.7-3.fc28.s390x
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-4.fc27.noarch
+python2-policycoreutils-2.7-3.fc28.s390x
 python2-pyOpenSSL-17.1.0-2.fc27.noarch
 python2-pycparser-2.14-11.fc27.noarch
 python2-pysocks-1.5.7-5.fc27.noarch

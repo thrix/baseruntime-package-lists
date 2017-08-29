@@ -44,7 +44,6 @@ e2fsprogs
 elfutils
 emacs
 expat
-fedora-logos
 fedora-release
 fedora-repos
 file

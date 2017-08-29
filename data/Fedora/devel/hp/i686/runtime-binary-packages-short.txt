@@ -47,7 +47,6 @@ elfutils-libs
 emacs-filesystem
 expat
 fbset
-fedora-logos
 fedora-release
 fedora-repos
 fedora-repos-rawhide
@@ -87,10 +86,12 @@ gobject-introspection
 gpart
 gpgme
 grep
-grub2
-grub2-efi
-grub2-efi-modules
+grub2-common
+grub2-pc
+grub2-pc-modules
 grub2-tools
+grub2-tools-extra
+grub2-tools-minimal
 grubby
 guile
 gzip

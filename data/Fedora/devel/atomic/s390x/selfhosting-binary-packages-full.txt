@@ -3983,13 +3983,9 @@ plotutils-devel-2.6-18.fc27.s390x
 pmix-1.2.2-3.fc27.s390x
 pmix-devel-1.2.2-3.fc27.s390x
 po4a-0.51-2.fc27.noarch
-policycoreutils-2.7-1.fc27.s390x
 policycoreutils-2.7-3.fc28.s390x
 policycoreutils-devel-2.7-3.fc28.s390x
-policycoreutils-python-2.7-1.fc27.s390x
-policycoreutils-python-utils-2.7-1.fc27.s390x
 policycoreutils-python-utils-2.7-3.fc28.s390x
-policycoreutils-python3-2.7-1.fc27.s390x
 policycoreutils-python3-2.7-3.fc28.s390x
 polkit-0.113-15.fc27.s390x
 polkit-devel-0.113-15.fc27.s390x
@@ -4195,6 +4191,7 @@ python2-pillow-4.2.1-4.fc27.s390x
 python2-pillow-devel-4.2.1-4.fc27.s390x
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-4.fc27.noarch
+python2-policycoreutils-2.7-3.fc28.s390x
 python2-pretend-1.0.8-10.fc27.noarch
 python2-prettytable-0.7.2-12.fc28.noarch
 python2-process-tests-1.0.0-9.fc27.noarch

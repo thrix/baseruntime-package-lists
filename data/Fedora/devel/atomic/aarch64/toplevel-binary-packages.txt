@@ -29,7 +29,13 @@ extlinux-bootloader
 fedora-release
 glibc
 gnupg2
-grub2-efi
+grub2-efi-aa64
+grub2-efi-aa64-cdboot
+grub2-efi-aa64-modules
+grub2-common
+grub2-tools
+grub2-tools-extra
+grub2-tools-minimal
 gzip
 hostname
 initscripts
@@ -56,7 +62,7 @@ openssh-server
 ostree-grub2
 passwd
 policycoreutils
-policycoreutils-python
+python2-policycoreutils
 policycoreutils-python-utils
 procps-ng
 python-docker-py

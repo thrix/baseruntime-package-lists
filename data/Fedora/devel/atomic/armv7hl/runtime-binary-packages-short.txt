@@ -247,7 +247,6 @@ pkgconf
 pkgconf-m4
 pkgconf-pkg-config
 policycoreutils
-policycoreutils-python
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -277,6 +276,7 @@ python2-libselinux
 python2-libsemanage
 python2-pip
 python2-ply
+python2-policycoreutils
 python2-pyOpenSSL
 python2-pycparser
 python2-pysocks

@@ -34,7 +34,6 @@ elfutils
 emacs
 expat
 fbset
-fedora-logos
 fedora-release
 fedora-repos
 fedora-rpm-macros

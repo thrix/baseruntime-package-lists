@@ -806,7 +806,6 @@ fakeroot-libs
 fasterxml-oss-parent
 fastutil
 fbset
-fedora-logos
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1169,9 +1168,13 @@ groovy-testng
 groovy-xml
 groovy18
 groovy18-lib
-grub2-efi
-grub2-efi-modules
+grub2-common
+grub2-efi-aa64
+grub2-efi-aa64-cdboot
+grub2-efi-aa64-modules
 grub2-tools
+grub2-tools-extra
+grub2-tools-minimal
 gsbase
 gsettings-desktop-schemas
 gsettings-desktop-schemas-devel

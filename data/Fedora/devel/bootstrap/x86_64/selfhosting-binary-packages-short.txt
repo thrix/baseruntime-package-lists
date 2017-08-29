@@ -860,7 +860,6 @@ fasterxml-oss-parent
 fastutil
 fbset
 fcoe-utils
-fedora-logos
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1232,11 +1231,18 @@ groovy-testng
 groovy-xml
 groovy18
 groovy18-lib
-grub2
 grub2-common
-grub2-efi
-grub2-efi-modules
+grub2-efi-ia32
+grub2-efi-ia32-cdboot
+grub2-efi-ia32-modules
+grub2-efi-x64
+grub2-efi-x64-cdboot
+grub2-efi-x64-modules
+grub2-pc
+grub2-pc-modules
 grub2-tools
+grub2-tools-efi
+grub2-tools-extra
 grub2-tools-minimal
 grubby
 gsbase
@@ -4191,7 +4197,6 @@ pmix-devel
 po4a
 policycoreutils
 policycoreutils-devel
-policycoreutils-python
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -4409,6 +4414,7 @@ python2-pillow
 python2-pillow-devel
 python2-pip
 python2-ply
+python2-policycoreutils
 python2-pretend
 python2-prettytable
 python2-process-tests

@@ -52,7 +52,7 @@ openssh-clients
 openssh-server
 passwd
 policycoreutils
-policycoreutils-python
+python2-policycoreutils
 policycoreutils-python-utils
 procps-ng
 python-docker-py

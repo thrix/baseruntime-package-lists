@@ -68,7 +68,6 @@ ethtool
 expat
 extlinux-bootloader
 fbset
-fedora-logos
 fedora-release
 fedora-repos
 fedora-rpm-macros

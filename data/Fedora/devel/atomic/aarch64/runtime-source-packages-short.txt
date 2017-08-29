@@ -47,7 +47,6 @@ elfutils
 emacs
 expat
 extlinux-bootloader
-fedora-logos
 fedora-release
 fedora-repos
 file

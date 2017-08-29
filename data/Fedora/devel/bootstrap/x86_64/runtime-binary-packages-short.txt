@@ -100,7 +100,6 @@ ethtool
 expat
 fbset
 fcoe-utils
-fedora-logos
 fedora-release
 fedora-repos
 fedora-repos-rawhide
@@ -149,10 +148,19 @@ gomtree
 gpart
 gpgme
 grep
-grub2
-grub2-efi
-grub2-efi-modules
+grub2-common
+grub2-efi-ia32
+grub2-efi-ia32-cdboot
+grub2-efi-ia32-modules
+grub2-efi-x64
+grub2-efi-x64-cdboot
+grub2-efi-x64-modules
+grub2-pc
+grub2-pc-modules
 grub2-tools
+grub2-tools-efi
+grub2-tools-extra
+grub2-tools-minimal
 grubby
 gsettings-desktop-schemas
 gssproxy
@@ -392,7 +400,6 @@ pkgconf
 pkgconf-m4
 pkgconf-pkg-config
 policycoreutils
-policycoreutils-python
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -423,6 +430,7 @@ python2-libselinux
 python2-libsemanage
 python2-pip
 python2-ply
+python2-policycoreutils
 python2-pyOpenSSL
 python2-pycparser
 python2-pysocks

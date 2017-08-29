@@ -4066,7 +4066,6 @@ pmix-devel
 po4a
 policycoreutils
 policycoreutils-devel
-policycoreutils-python
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -4281,6 +4280,7 @@ python2-pillow
 python2-pillow-devel
 python2-pip
 python2-ply
+python2-policycoreutils
 python2-pretend
 python2-prettytable
 python2-process-tests

@@ -89,7 +89,7 @@ openssl
 passwd
 patch
 policycoreutils
-policycoreutils-python
+python2-policycoreutils
 policycoreutils-python-utils
 procps-ng
 psmisc
