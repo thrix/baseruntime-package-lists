@@ -220,6 +220,7 @@ lz4-libs
 lzo
 make
 mdadm
+microcode_ctl
 mozjs17
 mpfr
 ncurses

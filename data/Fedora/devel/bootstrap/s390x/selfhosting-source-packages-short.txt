@@ -394,6 +394,7 @@ fakechroot
 fakeroot
 fasterxml-oss-parent
 fastutil
+fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -631,6 +632,7 @@ help2man
 herqq
 hesiod
 hessian
+hfsplus-tools
 hfsutils
 hibernate
 hibernate-commons-annotations
@@ -1178,6 +1180,7 @@ linuxdoc-tools
 liquibase
 lirc
 lksctp-tools
+lldpad
 llvm
 lm_sensors
 lockdev
@@ -1290,6 +1293,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -3166,6 +3170,7 @@ unzip
 upower
 urw-fonts
 usbredir
+usermode
 userspace-rcu
 ustr
 uthash

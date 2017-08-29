@@ -2643,6 +2643,7 @@ metrics-graphite-3.1.2-5.fc27.noarch
 metrics-healthchecks-3.1.2-5.fc27.noarch
 metrics-jvm-3.1.2-5.fc27.noarch
 mftrace-1.2.19-3.fc27.i686
+microcode_ctl-2:2.1-18.fc27.i686
 mimepull-1.9.6-5.fc27.noarch
 mina-ftpserver-1.0.6-5.fc26.noarch
 mingw-binutils-generic-2.29-2.fc27.i686

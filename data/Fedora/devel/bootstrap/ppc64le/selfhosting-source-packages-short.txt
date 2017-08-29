@@ -398,6 +398,7 @@ fakeroot
 fasterxml-oss-parent
 fastutil
 fbset
+fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -637,6 +638,7 @@ help2man
 herqq
 hesiod
 hessian
+hfsplus-tools
 hfsutils
 hibernate
 hibernate-commons-annotations
@@ -1117,7 +1119,6 @@ librepo
 libreport
 librevenge
 librsvg2
-librtas
 libsamplerate
 libseccomp
 libsecret
@@ -1125,7 +1126,6 @@ libselinux
 libsemanage
 libsepol
 libserf
-libservicelog
 libshout
 libsigc++20
 libsigsegv
@@ -1171,7 +1171,6 @@ libvirt-python
 libvisual
 libvoikko
 libvorbis
-libvpd
 libvpx
 libwacom
 libwebp
@@ -1197,6 +1196,7 @@ linuxdoc-tools
 liquibase
 lirc
 lksctp-tools
+lldpad
 llvm
 lm_sensors
 lockdev
@@ -1210,7 +1210,6 @@ lorax
 lpg
 lsof
 lsscsi
-lsvpd
 lttng-ust
 lua
 lua-lunit
@@ -1309,6 +1308,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -2548,8 +2548,6 @@ postgresql
 postgresql-jdbc
 potrace
 powermock
-powerpc-utils
-ppc64-utils
 ppp
 pps-tools
 procmail

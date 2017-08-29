@@ -1302,6 +1302,7 @@ metadata-extractor2
 metainf-services
 metrics
 mftrace
+microcode_ctl
 mimepull
 mina-ftpserver
 mingw-binutils

@@ -394,6 +394,7 @@ fakechroot-2.19-4.fc28.src
 fakeroot-1.21-5.fc27.src
 fasterxml-oss-parent-26-5.fc27.src
 fastutil-7.0.7-4.fc27.src
+fcoe-utils-1.0.32-3.fc27.src
 fedora-logos-26.0.1-3.fc27.src
 fedora-release-28-0.1.src
 fedora-repos-28-0.1.src
@@ -631,6 +632,7 @@ help2man-1.47.4-3.fc27.src
 herqq-1.0.0-16.fc27.src
 hesiod-3.2.1-9.fc27.src
 hessian-4.0.38-3.fc27.src
+hfsplus-tools-540.1.linux3-14.fc27.src
 hfsutils-3.2.6-33.fc27.src
 hibernate-5.0.10-3.fc27.src
 hibernate-commons-annotations-5.0.1-3.fc27.src
@@ -1178,6 +1180,7 @@ linuxdoc-tools-0.9.72-3.fc27.src
 liquibase-3.5.1-1.fc25.src
 lirc-0.10.0-3.fc28.src
 lksctp-tools-1.0.16-8.fc27.src
+lldpad-1.0.1-8.git036e314.fc27.src
 llvm-4.0.1-4.fc28.src
 lm_sensors-3.4.0-8.fc27.src
 lockdev-1.0.4-0.25.20111007git.fc27.src
@@ -1290,6 +1293,7 @@ maven2-2.2.1-56.fc27.src
 mavibot-1.0.0-0.6.M8.fc27.src
 mchange-commons-0.2.11-2.fc27.src
 mcpp-2.7.2-19.fc27.src
+mcstrans-0.3.4-11.fc27.src
 mdadm-4.0-5.fc27.src
 memcached-1.5.1-1.fc28.src
 memoryfilesystem-0.6.7-4.fc27.src
@@ -3166,6 +3170,7 @@ unzip-6.0-36.fc27.src
 upower-0.99.5-4.fc28.src
 urw-fonts-3:2.4-24.fc27.src
 usbredir-0.7.1-5.fc27.src
+usermode-1.111-12.fc27.src
 userspace-rcu-0.10.0-3.fc27.src
 ustr-1.0.4-24.fc27.src
 uthash-2.0.2-3.fc27.src

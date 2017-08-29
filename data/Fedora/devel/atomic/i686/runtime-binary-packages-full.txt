@@ -220,6 +220,7 @@ lz4-libs-1.8.0-1.fc28.i686
 lzo-2.08-11.fc27.i686
 make-1:4.2.1-4.fc27.i686
 mdadm-4.0-5.fc27.i686
+microcode_ctl-2:2.1-18.fc27.i686
 mozjs17-17.0.0-21.fc27.i686
 mpfr-3.1.5-5.fc27.i686
 ncurses-6.0-13.20170722.fc27.i686

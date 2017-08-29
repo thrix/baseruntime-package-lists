@@ -149,6 +149,7 @@ lz4
 lzo
 make
 mdadm
+microcode_ctl
 mokutil
 mozjs17
 mpfr

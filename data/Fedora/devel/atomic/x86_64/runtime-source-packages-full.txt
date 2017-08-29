@@ -149,6 +149,7 @@ lz4-1.8.0-1.fc28.src
 lzo-2.08-11.fc27.src
 make-1:4.2.1-4.fc27.src
 mdadm-4.0-5.fc27.src
+microcode_ctl-2:2.1-18.fc27.src
 mokutil-1:0.3.0-7.fc27.src
 mozjs17-17.0.0-21.fc27.src
 mpfr-3.1.5-5.fc27.src

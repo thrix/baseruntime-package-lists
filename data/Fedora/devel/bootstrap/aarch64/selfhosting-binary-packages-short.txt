@@ -404,6 +404,7 @@ bitstream-vera-fonts-common
 bitstream-vera-sans-fonts
 blas
 blas-devel
+bluez
 bluez-libs
 bluez-libs-devel
 bnd-maven-plugin
@@ -521,6 +522,7 @@ cockpit-docker
 cockpit-networkmanager
 cockpit-ostree
 cockpit-system
+cockpit-ws
 codegen
 codehaus-parent
 codemodel
@@ -851,6 +853,7 @@ fakeroot-libs
 fasterxml-oss-parent
 fastutil
 fbset
+fcoe-utils
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1306,6 +1309,7 @@ herqq-devel
 hesiod
 hesiod-devel
 hessian
+hfsplus-tools
 hfsutils
 hibernate-commons-annotations
 hibernate-core
@@ -1365,6 +1369,7 @@ ibus-libs
 ibus-setup
 ibus-wayland
 icc-profiles-openicc
+icu
 icu4j
 idlj-maven-plugin
 ilmbase
@@ -1475,6 +1480,7 @@ javawriter
 jaxb2-common-basics
 jaxb2-maven-plugin
 jaxen
+jbigkit
 jbigkit-devel
 jbigkit-libs
 jboss-annotations-1.2-api
@@ -1744,8 +1750,6 @@ kernel-devel
 kernel-headers
 kernel-modules
 kernel-modules-extra
-kernel-tools
-kernel-tools-libs
 kexec-tools
 keyutils
 keyutils-libs
@@ -1767,7 +1771,9 @@ koji
 kpartx
 krb5-devel
 krb5-libs
+krb5-pkinit
 krb5-server
+krb5-workstation
 kryo
 ksh
 kxml
@@ -2467,6 +2473,8 @@ lirc-devel
 lirc-libs
 lksctp-tools
 lksctp-tools-devel
+lldpad
+lldpad-devel
 llvm
 llvm-devel
 llvm-libs
@@ -2673,6 +2681,7 @@ maven-war-plugin
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -4138,6 +4147,7 @@ pmix-devel
 po4a
 policycoreutils
 policycoreutils-devel
+policycoreutils-newrole
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -5045,11 +5055,16 @@ sed
 selinux-policy
 selinux-policy-devel
 selinux-policy-doc
+selinux-policy-minimum
+selinux-policy-mls
+selinux-policy-sandbox
 selinux-policy-targeted
 sendmail
 serp
 setools-console
 setup
+sg3_utils
+sg3_utils-libs
 sgabios-bin
 sgml-common
 sgpio
@@ -6593,6 +6608,7 @@ upower
 urw-fonts
 usbredir
 usbredir-devel
+usermode
 userspace-rcu
 userspace-rcu-devel
 ustr
@@ -6614,6 +6630,7 @@ vim-filesystem
 vim-minimal
 virglrenderer
 virglrenderer-devel
+volume_key
 volume_key-devel
 volume_key-libs
 vorbis-java

@@ -224,6 +224,7 @@ closure-compiler-20160315-2.fc27.src
 cmake-3.9.1-2.fc28.src
 cmdtest-0.30-1.fc27.src
 cmocka-1.1.1-7.fc27.src
+cockpit-149-1.fc28.src
 codegen-0.6.8-4.fc27.src
 codehaus-parent-4-12.fc27.src
 codemodel-2.6-20.fc27.src
@@ -239,6 +240,7 @@ compat-openssl10-pkcs11-helper-1.22-3.fc27.src
 compface-1.5.2-24.fc27.src
 compiler-rt-4.0.1-4.fc27.src
 compress-lzf-1.0.3-7.fc27.src
+console-setup-1.165-2.fc27.src
 cookcc-0.3.3-16.fc27.src
 cookxml-3.0.2-12.fc26.src
 copy-jdk-configs-2.3-2.fc27.src
@@ -378,6 +380,7 @@ erlang-rpm-macros-0.2.8-2.fc27.src
 erlang-sd_notify-1.0-4.fc27.src
 esound-1:0.2.41-18.fc27.src
 espeak-1.48.04-12.fc27.src
+ethtool-2:4.11-2.fc27.src
 evo-inflector-1.2.1-6.fc27.src
 exec-maven-plugin-1.6.0-2.fc27.src
 execstack-0.5.0-13.fc27.src
@@ -392,6 +395,7 @@ fakeroot-1.21-5.fc27.src
 fasterxml-oss-parent-26-5.fc27.src
 fastutil-7.0.7-4.fc27.src
 fbset-2.1-43.fc27.src
+fcoe-utils-1.0.32-3.fc27.src
 fedora-logos-26.0.1-3.fc27.src
 fedora-release-28-0.1.src
 fedora-repos-28-0.1.src
@@ -630,6 +634,7 @@ help2man-1.47.4-3.fc27.src
 herqq-1.0.0-16.fc27.src
 hesiod-3.2.1-9.fc27.src
 hessian-4.0.38-3.fc27.src
+hfsplus-tools-540.1.linux3-14.fc27.src
 hfsutils-3.2.6-33.fc27.src
 hibernate-5.0.10-3.fc27.src
 hibernate-commons-annotations-5.0.1-3.fc27.src
@@ -897,11 +902,13 @@ jwnl-1.4-0.4.rc3.fc27.src
 jython-2.7.1-2.fc27.src
 jzlib-1.1.3-6.fc27.src
 kate4-4.14.3-19.fc27.src
+kbd-2.0.4-4.fc27.src
 kde-filesystem-4-57.fc27.src
 kde-l10n-17.04.3-1.fc27.src
 kde-settings-26-1.fc27.1.src
 kdelibs-6:4.14.34-2.fc27.src
 kernel-4.13.0-0.rc6.git4.1.fc28.src
+kexec-tools-2.0.15-12.fc28.src
 keyutils-1.5.10-3.fc27.src
 kf5-5.37.0-1.fc28.src
 kf5-karchive-5.37.0-1.fc28.src
@@ -1155,6 +1162,7 @@ libva-1.8.3-4.fc28.src
 libvdpau-1.1.1-4.fc26.src
 libverto-0.2.6-11.fc27.src
 libvirt-3.6.0-1.fc27.src
+libvirt-python-3.6.0-2.fc27.src
 libvisual-1:0.4.0-23.fc27.src
 libvoikko-3.8-6.fc28.src
 libvorbis-1:1.3.5-4.fc27.src
@@ -1182,6 +1190,7 @@ linuxdoc-tools-0.9.72-3.fc27.src
 liquibase-3.5.1-1.fc25.src
 lirc-0.10.0-3.fc28.src
 lksctp-tools-1.0.16-8.fc27.src
+lldpad-1.0.1-8.git036e314.fc27.src
 llvm-4.0.1-4.fc28.src
 lm_sensors-3.4.0-8.fc27.src
 lockdev-1.0.4-0.25.20111007git.fc27.src
@@ -1192,6 +1201,7 @@ log4j12-1.2.17-20.fc27.src
 logback-1.1.7-3.fc27.src
 logrotate-3.12.3-3.fc27.src
 lpg-2.0.17-24.fc27.src
+lsof-4.89-7.fc27.src
 lsscsi-0.28-6.fc27.src
 lttng-ust-2.10.0-2.fc28.src
 lua-5.3.4-5.fc27.src
@@ -1292,6 +1302,7 @@ maven2-2.2.1-56.fc27.src
 mavibot-1.0.0-0.6.M8.fc27.src
 mchange-commons-0.2.11-2.fc27.src
 mcpp-2.7.2-19.fc27.src
+mcstrans-0.3.4-11.fc27.src
 mdadm-4.0-5.fc27.src
 memcached-1.5.1-1.fc28.src
 memoryfilesystem-0.6.7-4.fc27.src
@@ -1757,6 +1768,7 @@ patch-2.7.5-6.fc27.src
 patchutils-0.3.4-9.fc27.src
 pcfi-2010.08.09-12.20111103gitbd245c9.fc27.src
 pciutils-3.5.5-3.fc27.src
+pcp-3.12.1-3.fc28.src
 pcre-8.41-1.fc27.2.src
 pcre2-10.30-1.fc27.src
 pcsc-lite-1.8.22-3.fc27.src
@@ -1854,6 +1866,7 @@ perl-Crypt-Rijndael-1.13-7.fc27.src
 perl-Curses-1.36-5.fc27.src
 perl-Cwd-Guard-0.05-5.fc27.src
 perl-DBD-CSV-0.49-5.fc27.src
+perl-DBD-MySQL-4.043-4.fc27.src
 perl-DBD-Pg-3.6.2-3.fc27.src
 perl-DBD-SQLite-1.54-5.fc27.src
 perl-DBI-1.637-1.fc28.src
@@ -2530,6 +2543,7 @@ popt-1.16-11.fc27.src
 portals-pom-1.3-14.fc26.src
 portaudio-19-26.fc27.src
 portlet-2.0-api-1.0-14.fc27.src
+postfix-2:3.2.2-3.fc27.src
 postgresql-9.6.4-1.fc27.src
 postgresql-jdbc-42.1.4-1.fc28.src
 potrace-1.15-1.fc27.src
@@ -2613,10 +2627,12 @@ python-ipaddress-1.0.18-3.fc28.src
 python-iso8601-0.1.11-6.fc27.src
 python-itsdangerous-0.24-11.fc27.src
 python-jinja2-2.9.6-2.fc27.src
+python-jsonpointer-1.10-7.fc27.src
 python-jsonschema-2.6.0-2.fc27.src
 python-kerberos-1.2.5-5.fc27.src
 python-keyczar-0.71c-9.fc27.src
 python-keyring-10.3.2-3.fc27.src
+python-kmod-0.9-16.fc28.src
 python-linecache2-1.0.0-11.fc28.src
 python-lit-0.5.0-2.fc27.src
 python-lxml-3.8.0-1.fc27.src
@@ -2667,6 +2683,7 @@ python-requests-kerberos-0.10.0-5.fc27.src
 python-restkit-4.2.2-8.fc28.src
 python-rpm-generators-4.13.0.1-4.fc28.src
 python-rpm-macros-3-22.fc27.src
+python-rtslib-2.1.fb63-3.fc28.src
 python-scour-0.35-5.fc27.src
 python-service-identity-16.0.0-8.fc27.src
 python-setuptools-36.2.0-7.fc28.src
@@ -2977,6 +2994,7 @@ sendmail-8.15.2-19.fc28.src
 serp-1.15.2-0.7.20150412cvs.fc27.src
 setools-4.1.1-4.fc28.src
 setup-2.10.7-1.fc28.src
+sg3_utils-1.42-3.fc27.src
 sgabios-1:0.20110622svn-11.fc27.src
 sgml-common-0.6.3-46.fc27.src
 sgpio-1.2.0.10-19.fc27.src
@@ -3041,6 +3059,7 @@ sshj-0.13.0-6.fc27.src
 sslext-1.2-11.fc27.src
 sssd-1.15.3-2.fc27.src
 star-1.5.3-10.fc27.src
+startup-notification-0.12-14.fc27.src
 stax-ex-1.7.7-7.fc27.src
 stax2-api-4.0.0-3.fc27.src
 staxmapper-1.2.0-3.fc27.src
@@ -3089,6 +3108,7 @@ tiger-types-2.2-4.fc27.src
 tika-1.12-4.fc27.src
 tiles-2.2.2-17.fc27.src
 time-1.7-54.fc27.src
+tinycdb-0.78-8.fc27.src
 tix-1:8.4.3-20.fc27.src
 tk-1:8.6.7-1.fc27.src
 tmux-2.5-4.fc27.src
@@ -3132,6 +3152,7 @@ unzip-6.0-36.fc27.src
 upower-0.99.5-4.fc28.src
 urw-fonts-3:2.4-24.fc27.src
 usbredir-0.7.1-5.fc27.src
+usermode-1.111-12.fc27.src
 userspace-rcu-0.10.0-3.fc27.src
 ustr-1.0.4-24.fc27.src
 uthash-2.0.2-3.fc27.src

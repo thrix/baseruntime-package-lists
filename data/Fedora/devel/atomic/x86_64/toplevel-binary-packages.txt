@@ -55,6 +55,7 @@ libsss_sudo
 lsof
 lvm2
 mdadm
+microcode_ctl
 NetworkManager
 nfs-utils
 nmap-ncat
@@ -67,11 +68,11 @@ openssh-server
 ostree-grub2
 passwd
 policycoreutils
-python2-policycoreutils
 policycoreutils-python-utils
 procps-ng
 python-docker-py
 python2
+python2-policycoreutils
 python3
 rootfiles
 rpm

@@ -1326,6 +1326,7 @@ maven2-2.2.1-56.fc27.src
 mavibot-1.0.0-0.6.M8.fc27.src
 mchange-commons-0.2.11-2.fc27.src
 mcpp-2.7.2-19.fc27.src
+mcstrans-0.3.4-11.fc27.src
 mdadm-4.0-5.fc27.src
 memcached-1.5.1-1.fc28.src
 memoryfilesystem-0.6.7-4.fc27.src
@@ -1340,6 +1341,7 @@ metadata-extractor2-2.10.1-1.fc27.src
 metainf-services-1.7-3.fc27.src
 metrics-3.1.2-5.fc27.src
 mftrace-1.2.19-3.fc27.src
+microcode_ctl-2:2.1-18.fc27.src
 microdnf-3-4.fc27.src
 mimepull-1.9.6-5.fc27.src
 mina-ftpserver-1.0.6-5.fc26.src
@@ -3067,6 +3069,7 @@ sendmail-8.15.2-19.fc28.src
 serp-1.15.2-0.7.20150412cvs.fc27.src
 setools-4.1.1-4.fc28.src
 setup-2.10.7-1.fc28.src
+sg3_utils-1.42-3.fc27.src
 sgabios-1:0.20110622svn-11.fc27.src
 sgml-common-0.6.3-46.fc27.src
 sgpio-1.2.0.10-19.fc27.src

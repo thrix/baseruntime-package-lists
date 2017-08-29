@@ -148,6 +148,7 @@ lz4
 lzo
 make
 mdadm
+microcode_ctl
 mozjs17
 mpfr
 ncurses

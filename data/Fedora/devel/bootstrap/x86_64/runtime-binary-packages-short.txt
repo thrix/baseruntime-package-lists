@@ -3,6 +3,7 @@ NetworkManager
 NetworkManager-libnm
 NetworkManager-team
 acl
+alsa-lib
 anaconda-core
 anaconda-tui
 atomic
@@ -13,15 +14,18 @@ audit
 audit-libs
 audit-libs-python
 audit-libs-python3
+augeas
 augeas-libs
 authconfig
 basesystem
 bash
 bash-completion
+bc
 bcache-tools
 bind99-libs
 bind99-license
 binutils
+bluez
 bridge-utils
 btrfs-progs
 bubblewrap
@@ -33,6 +37,7 @@ ca-certificates
 checkpolicy
 chkconfig
 chrony
+chrpath
 cloud-init
 cloud-utils-growpart
 cockpit-bridge
@@ -40,6 +45,7 @@ cockpit-docker
 cockpit-networkmanager
 cockpit-ostree
 cockpit-system
+cockpit-ws
 compat-openssl10
 container-selinux
 container-storage-setup
@@ -60,6 +66,7 @@ dbus
 dbus-glib
 dbus-libs
 deltarpm
+desktop-file-utils
 device-mapper
 device-mapper-event
 device-mapper-event-libs
@@ -75,6 +82,8 @@ dmraid
 dmraid-events
 dnf
 dnf-conf
+docbook-dtds
+docbook-style-xsl
 docker
 docker-common
 docker-rhel-push-plugin
@@ -170,6 +179,7 @@ hfsplus-tools
 hfsutils
 hostname
 hwdata
+icu
 info
 initscripts
 ipcalc
@@ -186,6 +196,8 @@ isl
 isns-utils-libs
 isomd5sum
 jansson
+jbigkit
+jbigkit-libs
 json-c
 json-glib
 kbd
@@ -197,8 +209,6 @@ kernel-cross-headers
 kernel-headers
 kernel-modules
 kernel-modules-extra
-kernel-tools
-kernel-tools-libs
 kexec-tools
 keyutils
 keyutils-libs
@@ -206,6 +216,8 @@ kmod
 kmod-libs
 kpartx
 krb5-libs
+krb5-pkinit
+krb5-workstation
 langtable
 langtable-data
 langtable-python3
@@ -259,10 +271,13 @@ libgcc
 libgcrypt
 libgomp
 libgpg-error
+libicu
 libidn
 libidn2
 libini_config
 libipt
+libjpeg-turbo
+libkadm5
 libksba
 liblogging-stdlog
 libmetalink
@@ -297,6 +312,7 @@ libreport-plugin-bugzilla
 libreport-plugin-reportuploader
 libreport-web
 libseccomp
+libsecret
 libselinux
 libselinux-utils
 libsemanage
@@ -305,6 +321,8 @@ libsigsegv
 libsmartcols
 libsolv
 libss
+libssh
+libssh2
 libsss_idmap
 libsss_nss_idmap
 libsss_sudo
@@ -313,6 +331,7 @@ libstdc++-devel
 libtar
 libtasn1
 libteam
+libtiff
 libtirpc
 libtool-ltdl
 libunistring
@@ -326,8 +345,10 @@ libuuid
 libverto
 libverto-libev
 libxml2
+libxslt
 libyaml
 linux-firmware
+lksctp-tools
 lldpad
 logrotate
 lorax
@@ -344,8 +365,10 @@ lzo
 m4
 mactel-boot
 make
+mcstrans
 mdadm
 memtest86+
+microcode_ctl
 microdnf
 mokutil
 mozjs17
@@ -375,6 +398,7 @@ oci-umount
 oddjob
 oddjob-mkhomedir
 openblas-srpm-macros
+openjpeg2
 openldap
 openssh
 openssh-clients
@@ -391,6 +415,7 @@ pam
 parted
 passwd
 patch
+pciutils
 pciutils-libs
 pcre
 pcre2
@@ -400,6 +425,7 @@ pkgconf
 pkgconf-m4
 pkgconf-pkg-config
 policycoreutils
+policycoreutils-newrole
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -408,6 +434,7 @@ polkit-pkla-compat
 popt
 procps-ng
 psmisc
+publicsuffix-list
 publicsuffix-list-dafsa
 python-backports-ssl_match_hostname
 python-docker-py
@@ -534,12 +561,18 @@ satyr
 screen
 sed
 selinux-policy
+selinux-policy-minimum
+selinux-policy-mls
+selinux-policy-sandbox
 selinux-policy-targeted
 setools-console
 setup
+sg3_utils
+sg3_utils-libs
 sgml-common
 sgpio
 shadow-utils
+shared-mime-info
 shim
 shim-unsigned
 skopeo
@@ -563,10 +596,12 @@ systemd-libs
 systemd-pam
 systemd-udev
 tar
+tcl
 tcp_wrappers
 tcp_wrappers-libs
 tcpdump
 teamd
+time
 tmux
 tzdata
 uboot-tools
@@ -575,6 +610,7 @@ usermode
 userspace-rcu
 util-linux
 vim-minimal
+volume_key
 volume_key-libs
 which
 xfsprogs

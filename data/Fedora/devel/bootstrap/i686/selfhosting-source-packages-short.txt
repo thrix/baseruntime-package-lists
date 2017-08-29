@@ -1322,6 +1322,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -1336,6 +1337,7 @@ metadata-extractor2
 metainf-services
 metrics
 mftrace
+microcode_ctl
 microdnf
 mimepull
 mina-ftpserver
@@ -3062,6 +3064,7 @@ sendmail
 serp
 setools
 setup
+sg3_utils
 sgabios
 sgml-common
 sgpio

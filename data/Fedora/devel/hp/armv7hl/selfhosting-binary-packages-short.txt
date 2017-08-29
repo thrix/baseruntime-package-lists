@@ -395,6 +395,7 @@ bitstream-vera-fonts-common
 bitstream-vera-sans-fonts
 blas
 blas-devel
+bluez
 bluez-libs
 bluez-libs-devel
 bnd-maven-plugin
@@ -503,6 +504,9 @@ cmake
 cmake-data
 cmake-filesystem
 cmdtest
+cockpit-bridge
+cockpit-system
+cockpit-ws
 codegen
 codehaus-parent
 codemodel
@@ -526,6 +530,7 @@ compface
 compface-devel
 compiler-rt
 compress-lzf
+console-setup
 cookcc
 cookxml
 copy-jdk-configs
@@ -658,6 +663,7 @@ dotconf-devel
 doxygen
 doxygen-latex
 dracut
+dracut-network
 dtc
 dwz
 e2fsprogs
@@ -711,8 +717,10 @@ ehcache-sizeof-agent
 elfutils
 elfutils-default-yama-scope
 elfutils-devel
+elfutils-devel-static
 elfutils-libelf
 elfutils-libelf-devel
+elfutils-libelf-devel-static
 elfutils-libs
 elinks
 emacs
@@ -796,6 +804,7 @@ esound-devel
 esound-libs
 espeak
 espeak-devel
+ethtool
 evo-inflector
 exec-maven-plugin
 execstack
@@ -814,6 +823,7 @@ fakeroot-libs
 fasterxml-oss-parent
 fastutil
 fbset
+fcoe-utils
 fedora-logos-httpd
 fedora-release
 fedora-repos
@@ -1258,6 +1268,7 @@ herqq-devel
 hesiod
 hesiod-devel
 hessian
+hfsplus-tools
 hfsutils
 hibernate-commons-annotations
 hibernate-core
@@ -1316,6 +1327,7 @@ ibus-libs
 ibus-setup
 ibus-wayland
 icc-profiles-openicc
+icu
 icu4j
 idlj-maven-plugin
 ilmbase
@@ -1424,6 +1436,7 @@ javawriter
 jaxb2-common-basics
 jaxb2-maven-plugin
 jaxen
+jbigkit
 jbigkit-devel
 jbigkit-libs
 jboss-annotations-1.2-api
@@ -1674,6 +1687,9 @@ jwnl
 jython
 jzlib
 kate4-part
+kbd
+kbd-legacy
+kbd-misc
 kde-apps-rpm-macros
 kde-filesystem
 kde-l10n
@@ -1692,6 +1708,7 @@ kernel-lpae-core
 kernel-lpae-modules
 kernel-modules
 kernel-modules-extra
+kexec-tools
 keyutils
 keyutils-libs
 keyutils-libs-devel
@@ -1711,7 +1728,9 @@ kohsuke-pom
 kpartx
 krb5-devel
 krb5-libs
+krb5-pkinit
 krb5-server
+krb5-workstation
 kryo
 ksh
 kxml
@@ -2380,6 +2399,8 @@ lirc-devel
 lirc-libs
 lksctp-tools
 lksctp-tools-devel
+lldpad
+lldpad-devel
 llvm
 llvm-devel
 llvm-libs
@@ -2398,6 +2419,7 @@ log4j12
 logback
 logrotate
 lpg-java-compat
+lsof
 lsscsi
 lttng-ust
 lttng-ust-devel
@@ -2455,6 +2477,7 @@ mallard-rng
 man-db
 man2html
 man2html-core
+mariadb
 mariadb-common
 mariadb-config
 mariadb-devel
@@ -2584,6 +2607,7 @@ maven-war-plugin
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -3166,6 +3190,9 @@ pcfi
 pciutils
 pciutils-devel
 pciutils-libs
+pcp-conf
+pcp-libs
+pcp-libs-devel
 pcre
 pcre-cpp
 pcre-devel
@@ -3280,6 +3307,7 @@ perl-Crypt-Rijndael
 perl-Curses
 perl-Cwd-Guard
 perl-DBD-CSV
+perl-DBD-MySQL
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBI
@@ -4019,6 +4047,7 @@ pmix-devel
 po4a
 policycoreutils
 policycoreutils-devel
+policycoreutils-newrole
 policycoreutils-python-utils
 policycoreutils-python3
 polkit
@@ -4045,6 +4074,8 @@ portals-pom
 portaudio
 portaudio-devel
 portlet-2.0-api
+postfix
+postfix-perl-scripts
 postgresql
 postgresql-contrib
 postgresql-devel
@@ -4345,8 +4376,10 @@ python3-iso8601
 python3-itsdangerous
 python3-javapackages
 python3-jinja2
+python3-jsonpointer
 python3-jsonschema
 python3-keyring
+python3-kmod
 python3-ldb
 python3-ldb-devel
 python3-libcomps
@@ -4356,6 +4389,7 @@ python3-libselinux
 python3-libsemanage
 python3-libstoragemgmt
 python3-libstoragemgmt-clibs
+python3-libvirt
 python3-linecache2
 python3-lit
 python3-lxml
@@ -4410,6 +4444,7 @@ python3-requests
 python3-rpm
 python3-rpm-generators
 python3-rpm-macros
+python3-rtslib
 python3-service-identity
 python3-setools
 python3-setuptools
@@ -4837,10 +4872,16 @@ sed
 selinux-policy
 selinux-policy-devel
 selinux-policy-doc
+selinux-policy-minimum
+selinux-policy-mls
+selinux-policy-sandbox
 selinux-policy-targeted
 sendmail
 serp
+setools-console
 setup
+sg3_utils
+sg3_utils-libs
 sgabios-bin
 sgml-common
 sgpio
@@ -4955,6 +4996,8 @@ sqlite2
 sqlite2-devel
 sshj
 sslext
+startup-notification
+startup-notification-devel
 stax-ex
 stax2-api
 staxmapper
@@ -6309,6 +6352,8 @@ tika
 tika-parsers
 tiles
 time
+tinycdb
+tinycdb-devel
 tix
 tix-devel
 tk
@@ -6371,6 +6416,7 @@ upower
 urw-fonts
 usbredir
 usbredir-devel
+usermode
 userspace-rcu
 userspace-rcu-devel
 ustr
@@ -6392,6 +6438,7 @@ vim-filesystem
 vim-minimal
 virglrenderer
 virglrenderer-devel
+volume_key
 volume_key-devel
 volume_key-libs
 vorbis-java

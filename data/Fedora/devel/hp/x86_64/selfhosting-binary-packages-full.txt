@@ -395,6 +395,7 @@ bitstream-vera-fonts-common-1.10-30.fc27.noarch
 bitstream-vera-sans-fonts-1.10-30.fc27.noarch
 blas-3.7.1-5.fc27.x86_64
 blas-devel-3.7.1-5.fc27.x86_64
+bluez-5.46-3.fc27.x86_64
 bluez-libs-5.46-3.fc27.x86_64
 bluez-libs-devel-5.46-3.fc27.x86_64
 bnd-maven-plugin-3.3.0-7.fc27.noarch
@@ -507,6 +508,9 @@ cmake-3.9.1-2.fc28.x86_64
 cmake-data-3.9.1-2.fc28.noarch
 cmake-filesystem-3.9.1-2.fc28.x86_64
 cmdtest-0.30-1.fc27.noarch
+cockpit-bridge-149-1.fc28.x86_64
+cockpit-system-149-1.fc28.noarch
+cockpit-ws-149-1.fc28.x86_64
 codegen-0.6.8-4.fc27.noarch
 codehaus-parent-4-12.fc27.noarch
 codemodel-2.6-20.fc27.noarch
@@ -530,6 +534,7 @@ compface-1.5.2-24.fc27.x86_64
 compface-devel-1.5.2-24.fc27.x86_64
 compiler-rt-4.0.1-4.fc27.x86_64
 compress-lzf-1.0.3-7.fc27.noarch
+console-setup-1.165-2.fc27.noarch
 cookcc-0.3.3-16.fc27.noarch
 cookxml-3.0.2-12.fc26.noarch
 copy-jdk-configs-2.3-2.fc27.noarch
@@ -664,6 +669,7 @@ doxygen-1:1.8.13-10.fc27.x86_64
 doxygen-latex-1:1.8.13-10.fc27.x86_64
 dpkg-1.18.24-3.fc27.x86_64
 dracut-046-7.git20170824.fc28.x86_64
+dracut-network-046-7.git20170824.fc28.x86_64
 dtc-1.4.4-4.fc27.x86_64
 dwz-0.12-5.fc27.x86_64
 dyninst-9.3.2-6.fc27.x86_64
@@ -724,8 +730,10 @@ ehcache-sizeof-agent-1.0.1-14.fc27.noarch
 elfutils-0.170-1.fc27.x86_64
 elfutils-default-yama-scope-0.170-1.fc27.noarch
 elfutils-devel-0.170-1.fc27.x86_64
+elfutils-devel-static-0.170-1.fc27.x86_64
 elfutils-libelf-0.170-1.fc27.x86_64
 elfutils-libelf-devel-0.170-1.fc27.x86_64
+elfutils-libelf-devel-static-0.170-1.fc27.x86_64
 elfutils-libs-0.170-1.fc27.x86_64
 elinks-0.12-0.54.pre6.fc27.x86_64
 emacs-1:25.2-9.fc28.x86_64
@@ -809,6 +817,7 @@ esound-devel-1:0.2.41-18.fc27.x86_64
 esound-libs-1:0.2.41-18.fc27.x86_64
 espeak-1.48.04-12.fc27.x86_64
 espeak-devel-1.48.04-12.fc27.x86_64
+ethtool-2:4.11-2.fc27.x86_64
 evo-inflector-1.2.1-6.fc27.noarch
 exec-maven-plugin-1.6.0-2.fc27.noarch
 execstack-0.5.0-13.fc27.x86_64
@@ -827,6 +836,7 @@ fakeroot-libs-1.21-5.fc27.x86_64
 fasterxml-oss-parent-26-5.fc27.noarch
 fastutil-7.0.7-4.fc27.noarch
 fbset-2.1-43.fc27.x86_64
+fcoe-utils-1.0.32-3.fc27.x86_64
 fedora-logos-httpd-26.0.1-3.fc27.noarch
 fedora-release-28-0.1.noarch
 fedora-repos-28-0.1.noarch
@@ -1288,6 +1298,7 @@ herqq-devel-1.0.0-16.fc27.x86_64
 hesiod-3.2.1-9.fc27.x86_64
 hesiod-devel-3.2.1-9.fc27.x86_64
 hessian-4.0.38-3.fc27.noarch
+hfsplus-tools-540.1.linux3-14.fc27.x86_64
 hfsutils-3.2.6-33.fc27.x86_64
 hibernate-commons-annotations-5.0.1-3.fc27.noarch
 hibernate-core-5.0.10-3.fc27.noarch
@@ -1347,6 +1358,7 @@ ibus-libs-1.5.16-8.fc27.x86_64
 ibus-setup-1.5.16-8.fc27.noarch
 ibus-wayland-1.5.16-8.fc27.x86_64
 icc-profiles-openicc-1.3.1-12.fc27.noarch
+icu-57.1-4.fc26.x86_64
 icu4j-1:59.1-2.fc27.noarch
 idlj-maven-plugin-1.2.1-9.fc27.noarch
 ilmbase-2.2.0-10.fc27.x86_64
@@ -1457,6 +1469,7 @@ javawriter-2.5.1-5.fc27.noarch
 jaxb2-common-basics-0.9.5-4.fc27.noarch
 jaxb2-maven-plugin-1.6-6.fc27.noarch
 jaxen-1.1.6-12.fc27.noarch
+jbigkit-2.1-8.fc27.x86_64
 jbigkit-devel-2.1-8.fc27.x86_64
 jbigkit-libs-2.1-8.fc27.x86_64
 jboss-annotations-1.2-api-1.0.0-3.fc27.noarch
@@ -1707,6 +1720,9 @@ jwnl-1.4-0.4.rc3.fc27.noarch
 jython-2.7.1-2.fc27.noarch
 jzlib-1.1.3-6.fc27.noarch
 kate4-part-4.14.3-19.fc27.x86_64
+kbd-2.0.4-4.fc27.x86_64
+kbd-legacy-2.0.4-4.fc27.noarch
+kbd-misc-2.0.4-4.fc27.noarch
 kde-apps-rpm-macros-6:4.14.34-2.fc27.noarch
 kde-filesystem-4-57.fc27.x86_64
 kde-l10n-17.04.3-1.fc27.noarch
@@ -1722,6 +1738,7 @@ kernel-devel-4.13.0-0.rc6.git4.1.fc28.x86_64
 kernel-headers-4.13.0-0.rc6.git4.1.fc28.x86_64
 kernel-modules-4.13.0-0.rc6.git4.1.fc28.x86_64
 kernel-modules-extra-4.13.0-0.rc6.git4.1.fc28.x86_64
+kexec-tools-2.0.15-12.fc28.x86_64
 keyutils-1.5.10-3.fc27.x86_64
 keyutils-libs-1.5.10-3.fc27.x86_64
 keyutils-libs-devel-1.5.10-3.fc27.x86_64
@@ -1742,7 +1759,9 @@ koji-1.13.0-4.fc27.noarch
 kpartx-0.7.1-6.git847cc43.fc27.x86_64
 krb5-devel-1.15.1-25.fc28.x86_64
 krb5-libs-1.15.1-25.fc28.x86_64
+krb5-pkinit-1.15.1-25.fc28.x86_64
 krb5-server-1.15.1-25.fc28.x86_64
+krb5-workstation-1.15.1-25.fc28.x86_64
 kryo-3.0.3-4.fc27.noarch
 ksh-20120801-41.fc27.x86_64
 kxml-2.3.0-14.fc27.noarch
@@ -2424,6 +2443,8 @@ lirc-devel-0.10.0-3.fc28.x86_64
 lirc-libs-0.10.0-3.fc28.x86_64
 lksctp-tools-1.0.16-8.fc27.x86_64
 lksctp-tools-devel-1.0.16-8.fc27.x86_64
+lldpad-1.0.1-8.git036e314.fc27.x86_64
+lldpad-devel-1.0.1-8.git036e314.fc27.x86_64
 llvm-4.0.1-4.fc28.x86_64
 llvm-devel-4.0.1-4.fc28.x86_64
 llvm-libs-4.0.1-4.fc28.x86_64
@@ -2442,6 +2463,7 @@ log4j12-1.2.17-20.fc27.noarch
 logback-1.1.7-3.fc27.noarch
 logrotate-3.12.3-3.fc27.x86_64
 lpg-java-compat-1.1.0-24.fc27.noarch
+lsof-4.89-7.fc27.x86_64
 lsscsi-0.28-6.fc27.x86_64
 lttng-ust-2.10.0-2.fc28.x86_64
 lttng-ust-devel-2.10.0-2.fc28.x86_64
@@ -2500,6 +2522,7 @@ mallard-rng-1.0.2-3.fc27.noarch
 man-db-2.7.6.1-5.fc27.x86_64
 man2html-1.6-20.g.fc27.x86_64
 man2html-core-1.6-20.g.fc27.x86_64
+mariadb-3:10.2.7-8.fc27.x86_64
 mariadb-common-3:10.2.7-8.fc27.x86_64
 mariadb-config-3:10.2.7-8.fc27.x86_64
 mariadb-devel-3:10.2.7-8.fc27.x86_64
@@ -2629,6 +2652,7 @@ maven-war-plugin-3.0.0-4.fc27.noarch
 mavibot-1.0.0-0.6.M8.fc27.noarch
 mchange-commons-0.2.11-2.fc27.noarch
 mcpp-2.7.2-19.fc27.x86_64
+mcstrans-0.3.4-11.fc27.x86_64
 mdadm-4.0-5.fc27.x86_64
 memcached-1.5.1-1.fc28.x86_64
 memoryfilesystem-0.6.7-4.fc27.noarch
@@ -3251,6 +3275,9 @@ pcfi-2010.08.09-12.20111103gitbd245c9.fc27.noarch
 pciutils-3.5.5-3.fc27.x86_64
 pciutils-devel-3.5.5-3.fc27.x86_64
 pciutils-libs-3.5.5-3.fc27.x86_64
+pcp-conf-3.12.1-3.fc28.x86_64
+pcp-libs-3.12.1-3.fc28.x86_64
+pcp-libs-devel-3.12.1-3.fc28.x86_64
 pcre-8.41-1.fc27.2.x86_64
 pcre-cpp-8.41-1.fc27.2.x86_64
 pcre-devel-8.41-1.fc27.2.x86_64
@@ -3366,6 +3393,7 @@ perl-Crypt-Rijndael-1.13-7.fc27.x86_64
 perl-Curses-1.36-5.fc27.x86_64
 perl-Cwd-Guard-0.05-5.fc27.noarch
 perl-DBD-CSV-0.49-5.fc27.noarch
+perl-DBD-MySQL-4.043-4.fc27.x86_64
 perl-DBD-Pg-3.6.2-3.fc27.x86_64
 perl-DBD-SQLite-1.54-5.fc27.x86_64
 perl-DBI-1.637-1.fc28.x86_64
@@ -4106,6 +4134,7 @@ pmix-devel-1.2.2-3.fc27.x86_64
 po4a-0.51-2.fc27.noarch
 policycoreutils-2.7-3.fc28.x86_64
 policycoreutils-devel-2.7-3.fc28.x86_64
+policycoreutils-newrole-2.7-3.fc28.x86_64
 policycoreutils-python-utils-2.7-3.fc28.x86_64
 policycoreutils-python3-2.7-3.fc28.x86_64
 polkit-0.113-15.fc27.x86_64
@@ -4133,6 +4162,8 @@ portals-pom-1.3-14.fc26.noarch
 portaudio-19-26.fc27.x86_64
 portaudio-devel-19-26.fc27.x86_64
 portlet-2.0-api-1.0-14.fc27.noarch
+postfix-2:3.2.2-3.fc27.x86_64
+postfix-perl-scripts-2:3.2.2-3.fc27.x86_64
 postgresql-9.6.4-1.fc27.x86_64
 postgresql-contrib-9.6.4-1.fc27.x86_64
 postgresql-devel-9.6.4-1.fc27.x86_64
@@ -4436,9 +4467,11 @@ python3-iso8601-0.1.11-6.fc27.noarch
 python3-itsdangerous-0.24-11.fc27.noarch
 python3-javapackages-5.0.0-7.fc28.noarch
 python3-jinja2-2.9.6-2.fc27.noarch
+python3-jsonpointer-1.10-7.fc27.noarch
 python3-jsonschema-2.6.0-2.fc27.noarch
 python3-kerberos-1.2.5-5.fc27.x86_64
 python3-keyring-10.3.2-3.fc27.noarch
+python3-kmod-0.9-16.fc28.x86_64
 python3-koji-1.13.0-4.fc27.noarch
 python3-ldb-1.2.1-3.fc27.x86_64
 python3-ldb-devel-1.2.1-3.fc27.x86_64
@@ -4449,6 +4482,7 @@ python3-libselinux-2.7-3.fc28.x86_64
 python3-libsemanage-2.7-3.fc28.x86_64
 python3-libstoragemgmt-1.4.0-4.fc28.noarch
 python3-libstoragemgmt-clibs-1.4.0-4.fc28.x86_64
+python3-libvirt-3.6.0-2.fc27.x86_64
 python3-linecache2-1.0.0-11.fc28.noarch
 python3-lit-0.5.0-2.fc27.noarch
 python3-lxml-3.8.0-1.fc27.x86_64
@@ -4504,6 +4538,7 @@ python3-requests-kerberos-0.10.0-5.fc27.noarch
 python3-rpm-4.13.90-0.git14002.7.fc28.x86_64
 python3-rpm-generators-4.13.0.1-4.fc28.noarch
 python3-rpm-macros-3-22.fc27.noarch
+python3-rtslib-2.1.fb63-3.fc28.noarch
 python3-service-identity-16.0.0-8.fc27.noarch
 python3-setools-4.1.1-4.fc28.x86_64
 python3-setuptools-36.2.0-7.fc28.noarch
@@ -4934,10 +4969,16 @@ sed-4.4-3.fc27.x86_64
 selinux-policy-3.13.1-275.fc28.noarch
 selinux-policy-devel-3.13.1-275.fc28.noarch
 selinux-policy-doc-3.13.1-275.fc28.noarch
+selinux-policy-minimum-3.13.1-275.fc28.noarch
+selinux-policy-mls-3.13.1-275.fc28.noarch
+selinux-policy-sandbox-3.13.1-275.fc28.noarch
 selinux-policy-targeted-3.13.1-275.fc28.noarch
 sendmail-8.15.2-19.fc28.x86_64
 serp-1.15.2-0.7.20150412cvs.fc27.noarch
+setools-console-4.1.1-4.fc28.x86_64
 setup-2.10.7-1.fc28.noarch
+sg3_utils-1.42-3.fc27.x86_64
+sg3_utils-libs-1.42-3.fc27.x86_64
 sgabios-bin-1:0.20110622svn-11.fc27.noarch
 sgml-common-0.6.3-46.fc27.noarch
 sgpio-1.2.0.10-19.fc27.x86_64
@@ -5057,6 +5098,8 @@ sqlite2-2.8.17-20.fc26.x86_64
 sqlite2-devel-2.8.17-20.fc26.x86_64
 sshj-0.13.0-6.fc27.noarch
 sslext-1.2-11.fc27.noarch
+startup-notification-0.12-14.fc27.x86_64
+startup-notification-devel-0.12-14.fc27.x86_64
 stax-ex-1.7.7-7.fc27.noarch
 stax2-api-4.0.0-3.fc27.noarch
 staxmapper-1.2.0-3.fc27.noarch
@@ -6416,6 +6459,8 @@ tika-1.12-4.fc27.noarch
 tika-parsers-1.12-4.fc27.noarch
 tiles-2.2.2-17.fc27.noarch
 time-1.7-54.fc27.x86_64
+tinycdb-0.78-8.fc27.x86_64
+tinycdb-devel-0.78-8.fc27.x86_64
 tix-1:8.4.3-20.fc27.x86_64
 tix-devel-1:8.4.3-20.fc27.x86_64
 tk-1:8.6.7-1.fc27.x86_64
@@ -6478,6 +6523,7 @@ upower-0.99.5-4.fc28.x86_64
 urw-fonts-3:2.4-24.fc27.noarch
 usbredir-0.7.1-5.fc27.x86_64
 usbredir-devel-0.7.1-5.fc27.x86_64
+usermode-1.111-12.fc27.x86_64
 userspace-rcu-0.10.0-3.fc27.x86_64
 userspace-rcu-devel-0.10.0-3.fc27.x86_64
 ustr-1.0.4-24.fc27.x86_64
@@ -6498,6 +6544,7 @@ vim-filesystem-2:8.0.983-1.fc28.x86_64
 vim-minimal-2:8.0.983-1.fc28.x86_64
 virglrenderer-0.6.0-3.20170210git76b3da97b.fc27.x86_64
 virglrenderer-devel-0.6.0-3.20170210git76b3da97b.fc27.x86_64
+volume_key-0.3.9-16.fc28.x86_64
 volume_key-devel-0.3.9-16.fc28.x86_64
 volume_key-libs-0.3.9-16.fc28.x86_64
 vorbis-java-0.8-3.fc27.noarch

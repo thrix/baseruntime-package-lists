@@ -219,6 +219,7 @@ closure-compiler
 cmake
 cmdtest
 cmocka
+cockpit
 codegen
 codehaus-parent
 codemodel
@@ -234,6 +235,7 @@ compat-openssl10-pkcs11-helper
 compface
 compiler-rt
 compress-lzf
+console-setup
 cookcc
 cookxml
 copy-jdk-configs
@@ -380,6 +382,7 @@ fakechroot
 fakeroot
 fasterxml-oss-parent
 fastutil
+fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
@@ -615,6 +618,7 @@ help2man
 herqq
 hesiod
 hessian
+hfsplus-tools
 hfsutils
 hibernate
 hibernate-commons-annotations
@@ -882,11 +886,13 @@ jwnl
 jython
 jzlib
 kate4
+kbd
 kde-filesystem
 kde-l10n
 kde-settings
 kdelibs
 kernel
+kexec-tools
 keyutils
 kf5
 kf5-karchive
@@ -1127,6 +1133,7 @@ libva
 libvdpau
 libverto
 libvirt
+libvirt-python
 libvisual
 libvoikko
 libvorbis
@@ -1153,6 +1160,7 @@ linuxdoc-tools
 liquibase
 lirc
 lksctp-tools
+lldpad
 llvm
 lm_sensors
 lockdev
@@ -1163,6 +1171,7 @@ log4j12
 logback
 logrotate
 lpg
+lsof
 lsscsi
 lttng-ust
 lua
@@ -1262,6 +1271,7 @@ maven2
 mavibot
 mchange-commons
 mcpp
+mcstrans
 mdadm
 memcached
 memoryfilesystem
@@ -1710,6 +1720,7 @@ patch
 patchutils
 pcfi
 pciutils
+pcp
 pcre
 pcre2
 pcsc-lite
@@ -1806,6 +1817,7 @@ perl-Crypt-Rijndael
 perl-Curses
 perl-Cwd-Guard
 perl-DBD-CSV
+perl-DBD-MySQL
 perl-DBD-Pg
 perl-DBD-SQLite
 perl-DBI
@@ -2481,6 +2493,7 @@ popt
 portals-pom
 portaudio
 portlet-2.0-api
+postfix
 postgresql
 postgresql-jdbc
 potrace
@@ -2564,9 +2577,11 @@ python-ipaddress
 python-iso8601
 python-itsdangerous
 python-jinja2
+python-jsonpointer
 python-jsonschema
 python-keyczar
 python-keyring
+python-kmod
 python-linecache2
 python-lit
 python-lxml
@@ -2616,6 +2631,7 @@ python-requests
 python-restkit
 python-rpm-generators
 python-rpm-macros
+python-rtslib
 python-scour
 python-service-identity
 python-setuptools
@@ -2988,6 +3004,7 @@ sshj
 sslext
 sssd
 star
+startup-notification
 stax-ex
 stax2-api
 staxmapper
@@ -3035,6 +3052,7 @@ tiger-types
 tika
 tiles
 time
+tinycdb
 tix
 tk
 tmux
@@ -3077,6 +3095,7 @@ unzip
 upower
 urw-fonts
 usbredir
+usermode
 userspace-rcu
 ustr
 uthash

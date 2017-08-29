@@ -2,6 +2,7 @@ GConf2
 NetworkManager
 PyYAML
 acl
+alsa-lib
 anaconda
 atomic
 atomic-devmode
@@ -13,9 +14,11 @@ babeltrace
 basesystem
 bash
 bash-completion
+bc
 bcache-tools
 bind99
 binutils
+bluez
 bridge-utils
 btrfs-progs
 bubblewrap
@@ -28,6 +31,7 @@ ceph
 checkpolicy
 chkconfig
 chrony
+chrpath
 cloud-init
 cloud-utils
 cockpit
@@ -46,6 +50,7 @@ dbus
 dbus-glib
 dbus-python
 deltarpm
+desktop-file-utils
 device-mapper-multipath
 device-mapper-persistent-data
 dhcp
@@ -53,6 +58,8 @@ diffutils
 ding-libs
 dmraid
 dnf
+docbook-dtds
+docbook-style-xsl
 docker
 dosfstools
 dracut
@@ -114,6 +121,7 @@ hfsplus-tools
 hfsutils
 hostname
 hwdata
+icu
 initscripts
 ipcalc
 iproute
@@ -125,6 +133,7 @@ isl
 isns-utils
 isomd5sum
 jansson
+jbigkit
 json-c
 json-glib
 kbd
@@ -161,6 +170,7 @@ libgpg-error
 libidn
 libidn2
 libipt
+libjpeg-turbo
 libksba
 liblogging
 libmetalink
@@ -182,14 +192,18 @@ libpwquality
 librepo
 libreport
 libseccomp
+libsecret
 libselinux
 libsemanage
 libsepol
 libsigsegv
 libsolv
+libssh
+libssh2
 libtar
 libtasn1
 libteam
+libtiff
 libtirpc
 libtool
 libunistring
@@ -200,8 +214,10 @@ libuser
 libutempter
 libverto
 libxml2
+libxslt
 libyaml
 linux-firmware
+lksctp-tools
 lldpad
 logrotate
 lorax
@@ -215,8 +231,10 @@ lzo
 m4
 mactel-boot
 make
+mcstrans
 mdadm
 memtest86+
+microcode_ctl
 microdnf
 mokutil
 mozjs17
@@ -242,6 +260,7 @@ oci-systemd-hook
 oci-umount
 oddjob
 openblas-srpm-macros
+openjpeg2
 openldap
 openssh
 openssl
@@ -343,9 +362,11 @@ sed
 selinux-policy
 setools
 setup
+sg3_utils
 sgml-common
 sgpio
 shadow-utils
+shared-mime-info
 shim
 shim-signed
 skopeo
@@ -359,9 +380,11 @@ sudo
 syslinux
 systemd
 tar
+tcl
 tcp_wrappers
 tcpdump
 texinfo
+time
 tmux
 tzdata
 uboot-tools
