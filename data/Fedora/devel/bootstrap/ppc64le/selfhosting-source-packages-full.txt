@@ -1119,6 +1119,7 @@ librepo-1.8.0-1.fc28.src
 libreport-2.9.1-6.fc28.src
 librevenge-0.0.4-9.fc27.src
 librsvg2-2.40.18-3.fc27.src
+librtas-2.0.1-3.fc27.src
 libsamplerate-0.1.8-13.fc27.src
 libseccomp-2.3.2-5.fc27.src
 libsecret-0.18.5-5.fc27.src
@@ -1126,6 +1127,7 @@ libselinux-2.7-3.fc28.src
 libsemanage-2.7-3.fc28.src
 libsepol-2.7-1.fc27.src
 libserf-1.3.9-5.fc27.src
+libservicelog-1.1.17-3.fc27.src
 libshout-2.2.2-17.fc27.src
 libsigc++20-2.10.0-4.fc27.src
 libsigsegv-2.11-3.fc27.src
@@ -1171,6 +1173,7 @@ libvirt-python-3.6.0-2.fc27.src
 libvisual-1:0.4.0-23.fc27.src
 libvoikko-3.8-6.fc28.src
 libvorbis-1:1.3.5-4.fc27.src
+libvpd-2.2.5-7.fc27.src
 libvpx-1.6.1-4.fc27.src
 libwacom-0.26-1.fc28.src
 libwebp-0.6.0-4.fc27.src
@@ -1210,6 +1213,7 @@ lorax-27.9-1.fc28.src
 lpg-2.0.17-24.fc27.src
 lsof-4.89-7.fc27.src
 lsscsi-0.28-6.fc27.src
+lsvpd-1.7.8-3.fc27.src
 lttng-ust-2.10.0-2.fc28.src
 lua-5.3.4-5.fc27.src
 lua-lunit-0.5-12.fc27.src
@@ -2548,6 +2552,8 @@ postgresql-9.6.4-1.fc27.src
 postgresql-jdbc-42.1.4-1.fc28.src
 potrace-1.15-1.fc27.src
 powermock-1.6.5-7.fc27.src
+powerpc-utils-1.3.3-3.fc27.src
+ppc64-utils-0.14-24.fc27.src
 ppp-2.4.7-14.fc28.src
 pps-tools-0-0.15.20120407git0deb9c.fc27.src
 procmail-3.22-43.fc27.src

@@ -2221,6 +2221,8 @@ librevenge
 librevenge-devel
 librsvg2
 librsvg2-devel
+librtas
+librtas-devel
 libsamplerate
 libsamplerate-devel
 libseccomp
@@ -2238,6 +2240,8 @@ libsepol-devel
 libsepol-static
 libserf
 libserf-devel
+libservicelog
+libservicelog-devel
 libshout
 libshout-devel
 libsigc++20
@@ -2352,6 +2356,8 @@ libvoikko
 libvoikko-devel
 libvorbis
 libvorbis-devel
+libvpd
+libvpd-devel
 libvpx
 libvpx-devel
 libwacom
@@ -2436,6 +2442,7 @@ lorax-templates-generic
 lpg-java-compat
 lsof
 lsscsi
+lsvpd
 lttng-ust
 lttng-ust-devel
 lua
@@ -4122,6 +4129,8 @@ powermock-common
 powermock-core
 powermock-junit4
 powermock-reflect
+powerpc-utils
+ppc64-utils
 ppp
 ppp-devel
 pps-tools-devel
@@ -4982,6 +4991,7 @@ serp
 setools-console
 setup
 sg3_utils
+sg3_utils-devel
 sg3_utils-libs
 sgabios-bin
 sgml-common

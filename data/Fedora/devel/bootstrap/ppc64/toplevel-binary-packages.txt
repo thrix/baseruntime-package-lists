@@ -157,6 +157,8 @@ patch
 pciutils
 policycoreutils
 policycoreutils-python-utils
+powerpc-utils
+ppc64-utils
 procps-ng
 psmisc
 publicsuffix-list

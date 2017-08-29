@@ -369,7 +369,6 @@ rpm-libs
 rpm-plugin-selinux
 rsync
 rsyslog
-runc
 rust-srpm-macros
 sed
 selinux-policy

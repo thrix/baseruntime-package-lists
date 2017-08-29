@@ -246,7 +246,6 @@ rpcbind
 rpm
 rsync
 rsyslog
-runc
 rust-srpm-macros
 sed
 selinux-policy

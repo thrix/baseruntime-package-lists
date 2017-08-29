@@ -1083,6 +1083,7 @@ librepo
 libreport
 librevenge
 librsvg2
+librtas
 libsamplerate
 libseccomp
 libsecret
@@ -1090,6 +1091,7 @@ libselinux
 libsemanage
 libsepol
 libserf
+libservicelog
 libshout
 libsigc++20
 libsigsegv
@@ -1135,6 +1137,7 @@ libvirt-python
 libvisual
 libvoikko
 libvorbis
+libvpd
 libvpx
 libwacom
 libwebp
@@ -1174,6 +1177,7 @@ lorax
 lpg
 lsof
 lsscsi
+lsvpd
 lttng-ust
 lua
 lua-lunit
@@ -2508,6 +2512,8 @@ postgresql
 postgresql-jdbc
 potrace
 powermock
+powerpc-utils
+ppc64-utils
 ppp
 pps-tools
 procmail
