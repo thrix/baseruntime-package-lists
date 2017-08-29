@@ -11,7 +11,7 @@ use Template;
 use Text::CSV_XS qw/csv/;
 use Text::Wrap;
 
-$Text::Wrap::columns = 80;
+$Text::Wrap::columns = 55;
 $Text::Wrap::unexpand = 0;
 
 # This script generates all the base modulemd files implementing
@@ -212,7 +212,7 @@ for my $module (@modules) {
     my %data;
     my %rationales = map {
             $_->[0] => $_->[1]
-                ? wrap('', ' 'x20, ucfirst($_->[1]) . '.')
+                ? wrap(''x20, ' 'x20, ucfirst($_->[1]) . '.')
                 : undef;
         } @{ csv(in => "${base}/${module}.csv") };
     if ($module eq 'bootstrap') {
