@@ -1419,12 +1419,12 @@ data:
                 rationale: >-
                     Base compression support.
                 ref: 2858c8d1dd0427fd3a9e98cd3ea269be6da5d69e
-            # tcl-8.6.7-1.fc27
+            # tcl-8.6.7-2.fc28
             tcl:
                 rationale: >-
                     A common scripting and application integration
                     language.
-                ref: 12beae1b31bd19631726ddb9b63a6e17221b5eae
+                ref: 2cec45ffd39f1467a0422b95f138a41a49671c0b
             # tcp_wrappers-7.6-87.fc27
             tcp_wrappers:
                 rationale: >-

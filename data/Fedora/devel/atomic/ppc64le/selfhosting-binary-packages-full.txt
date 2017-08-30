@@ -5068,8 +5068,8 @@ tagsoup-1.2.1-14.fc27.noarch
 tar-2:1.29-7.fc27.ppc64le
 tbb-2017.7-3.fc27.ppc64le
 tbb-devel-2017.7-3.fc27.ppc64le
-tcl-1:8.6.7-1.fc27.ppc64le
-tcl-devel-1:8.6.7-1.fc27.ppc64le
+tcl-1:8.6.7-2.fc28.ppc64le
+tcl-devel-1:8.6.7-2.fc28.ppc64le
 tclx-8.4.0-30.fc27.ppc64le
 tclx-devel-8.4.0-30.fc27.ppc64le
 tcp_wrappers-7.6-87.fc27.ppc64le

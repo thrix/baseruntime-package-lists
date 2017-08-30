@@ -5164,8 +5164,8 @@ tagsoup-1.2.1-14.fc27.noarch
 tar-2:1.29-7.fc27.s390x
 tbb-2017.7-3.fc27.s390x
 tbb-devel-2017.7-3.fc27.s390x
-tcl-1:8.6.7-1.fc27.s390x
-tcl-devel-1:8.6.7-1.fc27.s390x
+tcl-1:8.6.7-2.fc28.s390x
+tcl-devel-1:8.6.7-2.fc28.s390x
 tclx-8.4.0-30.fc27.s390x
 tclx-devel-8.4.0-30.fc27.s390x
 tcp_wrappers-7.6-87.fc27.s390x

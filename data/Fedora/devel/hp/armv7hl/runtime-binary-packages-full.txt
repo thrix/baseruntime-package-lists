@@ -371,7 +371,7 @@ systemd-libs-234-5.fc27.armv7hl
 systemd-pam-234-5.fc27.armv7hl
 systemd-udev-234-5.fc27.armv7hl
 tar-2:1.29-7.fc27.armv7hl
-tcl-1:8.6.7-1.fc27.armv7hl
+tcl-1:8.6.7-2.fc28.armv7hl
 tcp_wrappers-7.6-87.fc27.armv7hl
 tcp_wrappers-libs-7.6-87.fc27.armv7hl
 time-1.7-54.fc27.armv7hl

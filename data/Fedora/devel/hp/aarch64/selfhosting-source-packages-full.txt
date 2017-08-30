@@ -3037,7 +3037,7 @@ taglib-1.11.1-5.fc28.src
 tagsoup-1.2.1-14.fc27.src
 tar-2:1.29-7.fc27.src
 tbb-2017.7-3.fc27.src
-tcl-1:8.6.7-1.fc27.src
+tcl-1:8.6.7-2.fc28.src
 tclx-8.4.0-30.fc27.src
 tcp_wrappers-7.6-87.fc27.src
 tcsh-6.20.00-7.fc27.src

@@ -5193,8 +5193,8 @@ tagsoup-1.2.1-14.fc27.noarch
 tar-2:1.29-7.fc27.armv7hl
 tbb-2017.7-3.fc27.armv7hl
 tbb-devel-2017.7-3.fc27.armv7hl
-tcl-1:8.6.7-1.fc27.armv7hl
-tcl-devel-1:8.6.7-1.fc27.armv7hl
+tcl-1:8.6.7-2.fc28.armv7hl
+tcl-devel-1:8.6.7-2.fc28.armv7hl
 tclx-8.4.0-30.fc27.armv7hl
 tclx-devel-8.4.0-30.fc27.armv7hl
 tcp_wrappers-7.6-87.fc27.armv7hl
