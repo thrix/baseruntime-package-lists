@@ -735,8 +735,8 @@ edk2-tools-20170209git296153c5-5.fc27.i686
 efibootmgr-15-3.fc27.i686
 efivar-devel-31-3.fc27.i686
 efivar-libs-31-3.fc27.i686
-efl-1.20.2-1.fc27.i686
-efl-devel-1.20.2-1.fc27.i686
+efl-1.20.2-2.fc28.i686
+efl-devel-1.20.2-2.fc28.i686
 ehcache-core-2.6.11-4.fc27.noarch
 ehcache-parent-2.3-14.fc27.noarch
 ehcache-sizeof-agent-1.0.1-14.fc27.noarch

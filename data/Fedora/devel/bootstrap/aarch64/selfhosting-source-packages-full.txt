@@ -357,7 +357,7 @@ ed-1.14.1-4.fc27.src
 edk2-20170209git296153c5-5.fc27.src
 efibootmgr-15-3.fc27.src
 efivar-31-3.fc27.src
-efl-1.20.2-1.fc27.src
+efl-1.20.2-2.fc28.src
 ehcache-core-2.6.11-4.fc27.src
 ehcache-parent-2.3-14.fc27.src
 ehcache-sizeof-agent-1.0.1-14.fc27.src

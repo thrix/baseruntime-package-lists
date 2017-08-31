@@ -720,8 +720,8 @@ efibootmgr-15-3.fc27.x86_64
 efivar-31-3.fc27.x86_64
 efivar-devel-31-3.fc27.x86_64
 efivar-libs-31-3.fc27.x86_64
-efl-1.20.2-1.fc27.x86_64
-efl-devel-1.20.2-1.fc27.x86_64
+efl-1.20.2-2.fc28.x86_64
+efl-devel-1.20.2-2.fc28.x86_64
 ehcache-core-2.6.11-4.fc27.noarch
 ehcache-parent-2.3-14.fc27.noarch
 ehcache-sizeof-agent-1.0.1-14.fc27.noarch

@@ -711,8 +711,8 @@ eclipse-xsd-2.12.0-3.fc27.noarch
 eclipselink-2.6.3-3.fc27.noarch
 eclipselink-persistence-api-2.1.0-4.fc27.noarch
 ed-1.14.1-4.fc27.ppc64
-efl-1.19.1-4.fc27.ppc64
-efl-devel-1.19.1-4.fc27.ppc64
+efl-1.20.2-2.fc28.ppc64
+efl-devel-1.20.2-2.fc28.ppc64
 ehcache-core-2.6.11-4.fc27.noarch
 ehcache-parent-2.3-14.fc27.noarch
 ehcache-sizeof-agent-1.0.1-14.fc27.noarch

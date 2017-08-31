@@ -348,7 +348,7 @@ eclipse-xsd-2.12.0-3.fc27.src
 eclipselink-2.6.3-3.fc27.src
 eclipselink-persistence-api-2.1.0-4.fc27.src
 ed-1.14.1-4.fc27.src
-efl-1.19.1-4.fc27.src
+efl-1.20.2-2.fc28.src
 ehcache-core-2.6.11-4.fc27.src
 ehcache-parent-2.3-14.fc27.src
 ehcache-sizeof-agent-1.0.1-14.fc27.src
