@@ -8,7 +8,7 @@ else
     release=$1
 fi
 
-for arch in "x86_64" "i686" "armv7hl" "aarch64" "ppc64" "ppc64le" "s390x"; do
+for arch in "aarch64" "armv7hl" "i686" "ppc64" "ppc64le" "s390x" "x86_64"; do
     mkdir -p repo/$release/$arch/sources/
     mv output/$arch/*.src.rpm repo/$release/$arch/sources/
 done
