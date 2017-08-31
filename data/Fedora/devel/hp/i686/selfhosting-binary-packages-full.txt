@@ -6410,8 +6410,8 @@ tinycdb-0.78-8.fc27.i686
 tinycdb-devel-0.78-8.fc27.i686
 tix-1:8.4.3-20.fc27.i686
 tix-devel-1:8.4.3-20.fc27.i686
-tk-1:8.6.7-1.fc27.i686
-tk-devel-1:8.6.7-1.fc27.i686
+tk-1:8.6.7-2.fc28.i686
+tk-devel-1:8.6.7-2.fc28.i686
 tmux-2.5-4.fc27.i686
 tokyocabinet-1.4.48-9.fc27.i686
 tokyocabinet-devel-1.4.48-9.fc27.i686

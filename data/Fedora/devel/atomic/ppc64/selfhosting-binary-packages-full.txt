@@ -6321,8 +6321,8 @@ tinycdb-0.78-8.fc27.ppc64
 tinycdb-devel-0.78-8.fc27.ppc64
 tix-1:8.4.3-20.fc27.ppc64
 tix-devel-1:8.4.3-20.fc27.ppc64
-tk-1:8.6.7-1.fc27.ppc64
-tk-devel-1:8.6.7-1.fc27.ppc64
+tk-1:8.6.7-2.fc28.ppc64
+tk-devel-1:8.6.7-2.fc28.ppc64
 tmux-2.5-4.fc27.ppc64
 tokyocabinet-1.4.48-9.fc27.ppc64
 tokyocabinet-devel-1.4.48-9.fc27.ppc64
