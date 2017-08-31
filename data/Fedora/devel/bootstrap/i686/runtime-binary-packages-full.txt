@@ -463,7 +463,7 @@ python2-setools-4.1.1-4.fc28.i686
 python2-setuptools-36.2.0-7.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
 python2-urllib3-1.22-2.fc27.noarch
-python3-3.6.2-8.fc27.i686
+python3-3.6.2-11.fc27.i686
 python3-IPy-0.81-20.fc27.noarch
 python3-PyYAML-3.12-7.fc28.i686
 python3-asn1crypto-0.22.0-4.fc27.noarch
@@ -497,7 +497,7 @@ python3-kickstart-2.37-2.fc28.noarch
 python3-libcomps-0.1.8-6.fc28.i686
 python3-librepo-1.8.0-1.fc28.i686
 python3-libreport-2.9.1-6.fc28.i686
-python3-libs-3.6.2-8.fc27.i686
+python3-libs-3.6.2-11.fc27.i686
 python3-libselinux-2.7-3.fc28.i686
 python3-libsemanage-2.7-3.fc28.i686
 python3-libxml2-2.9.4-5.fc28.i686
@@ -583,8 +583,6 @@ syslinux-6.04-0.5.fc27.i686
 syslinux-extlinux-6.04-0.5.fc27.i686
 syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch
 syslinux-nonlinux-6.04-0.5.fc27.noarch
-system-python-3.6.2-8.fc27.i686
-system-python-libs-3.6.2-8.fc27.i686
 systemd-234-5.fc27.i686
 systemd-container-234-5.fc27.i686
 systemd-libs-234-5.fc27.i686

@@ -5142,8 +5142,6 @@ swig
 swt-chart
 symlinks
 sysfsutils
-system-python
-system-python-libs
 systemd
 systemd-container
 systemd-devel

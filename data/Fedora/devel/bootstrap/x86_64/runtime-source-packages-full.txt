@@ -341,7 +341,7 @@ python-urllib3-1.22-2.fc27.src
 python-websocket-client-0.40.0-2.fc27.src
 python-wrapt-1.10.10-4.fc28.src
 python2-2.7.13-17.fc27.src
-python3-3.6.2-8.fc27.src
+python3-3.6.2-11.fc27.src
 pytz-2017.2-3.fc28.src
 qrencode-3.4.4-3.fc27.src
 qt5-5.9.1-2.fc27.src

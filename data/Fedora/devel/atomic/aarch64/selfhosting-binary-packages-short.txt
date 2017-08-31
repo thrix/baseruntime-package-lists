@@ -5075,8 +5075,6 @@ swagger-core-models
 swig
 swt-chart
 symlinks
-system-python
-system-python-libs
 systemd
 systemd-container
 systemd-devel

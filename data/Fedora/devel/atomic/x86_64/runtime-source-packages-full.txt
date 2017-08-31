@@ -227,7 +227,7 @@ python-slip-0.6.4-8.fc28.src
 python-urllib3-1.22-2.fc27.src
 python-websocket-client-0.40.0-2.fc27.src
 python2-2.7.13-17.fc27.src
-python3-3.6.2-8.fc27.src
+python3-3.6.2-11.fc27.src
 qrencode-3.4.4-3.fc27.src
 quota-1:4.03-9.fc27.src
 readline-7.0-7.fc27.src

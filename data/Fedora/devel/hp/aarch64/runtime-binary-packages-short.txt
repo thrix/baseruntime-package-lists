@@ -381,7 +381,6 @@ shim-unsigned
 snappy
 sqlite-libs
 sudo
-system-python-libs
 systemd
 systemd-libs
 systemd-pam

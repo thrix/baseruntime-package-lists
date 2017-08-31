@@ -376,7 +376,6 @@ sqlite-libs
 sssd-client
 strace
 sudo
-system-python-libs
 systemd
 systemd-container
 systemd-libs

@@ -5121,8 +5121,6 @@ symlinks
 syslinux
 syslinux-nonlinux
 syslinux-perl
-system-python
-system-python-libs
 systemd
 systemd-container
 systemd-devel

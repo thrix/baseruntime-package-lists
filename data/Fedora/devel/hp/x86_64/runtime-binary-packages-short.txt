@@ -396,7 +396,6 @@ syslinux
 syslinux-extlinux
 syslinux-extlinux-nonlinux
 syslinux-nonlinux
-system-python-libs
 systemd
 systemd-libs
 systemd-pam

@@ -328,7 +328,7 @@ psmisc-23.1-2.fc27.ppc64le
 publicsuffix-list-20170809-1.fc27.noarch
 publicsuffix-list-dafsa-20170809-1.fc27.noarch
 python-srpm-macros-3-22.fc27.noarch
-python3-3.6.2-8.fc27.ppc64le
+python3-3.6.2-11.fc27.ppc64le
 python3-IPy-0.81-20.fc27.noarch
 python3-dnf-2.6.3-4.fc28.noarch
 python3-gpg-1.9.0-6.fc28.ppc64le
@@ -336,7 +336,7 @@ python3-hawkey-0.9.3-7.fc28.ppc64le
 python3-iniparse-0.4-26.fc28.noarch
 python3-libcomps-0.1.8-6.fc28.ppc64le
 python3-librepo-1.8.0-1.fc28.ppc64le
-python3-libs-3.6.2-8.fc27.ppc64le
+python3-libs-3.6.2-11.fc27.ppc64le
 python3-libselinux-2.7-3.fc28.ppc64le
 python3-libsemanage-2.7-3.fc28.ppc64le
 python3-pip-9.0.1-11.fc27.noarch
@@ -375,7 +375,6 @@ shared-mime-info-1.8-5.fc27.ppc64le
 snappy-1.1.7-1.fc28.ppc64le
 sqlite-libs-3.20.0-2.fc28.ppc64le
 sudo-1.8.20p2-3.fc27.ppc64le
-system-python-libs-3.6.2-8.fc27.ppc64le
 systemd-234-5.fc27.ppc64le
 systemd-libs-234-5.fc27.ppc64le
 systemd-pam-234-5.fc27.ppc64le

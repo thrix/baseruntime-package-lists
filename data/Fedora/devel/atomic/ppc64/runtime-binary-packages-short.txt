@@ -334,7 +334,6 @@ sqlite-libs
 sssd-client
 strace
 sudo
-system-python-libs
 systemd
 systemd-libs
 systemd-pam

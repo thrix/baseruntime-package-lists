@@ -283,7 +283,7 @@ python2-setools-4.1.1-4.fc28.s390x
 python2-setuptools-36.2.0-7.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
 python2-urllib3-1.22-2.fc27.noarch
-python3-3.6.2-8.fc27.s390x
+python3-3.6.2-11.fc27.s390x
 python3-IPy-0.81-20.fc27.noarch
 python3-PyYAML-3.12-7.fc28.s390x
 python3-asn1crypto-0.22.0-4.fc27.noarch
@@ -302,7 +302,7 @@ python3-jinja2-2.9.6-2.fc27.noarch
 python3-jsonpatch-1.14-4.fc27.noarch
 python3-jsonpointer-1.10-7.fc27.noarch
 python3-jwt-1.5.2-3.fc27.noarch
-python3-libs-3.6.2-8.fc27.s390x
+python3-libs-3.6.2-11.fc27.s390x
 python3-libselinux-2.7-3.fc28.s390x
 python3-libsemanage-2.7-3.fc28.s390x
 python3-libxml2-2.9.4-5.fc28.s390x
@@ -353,7 +353,6 @@ sqlite-libs-3.20.0-2.fc28.s390x
 sssd-client-1.15.3-2.fc27.s390x
 strace-4.18-3.fc27.s390x
 sudo-1.8.20p2-3.fc27.s390x
-system-python-libs-3.6.2-8.fc27.s390x
 systemd-234-5.fc27.s390x
 systemd-container-234-5.fc27.s390x
 systemd-libs-234-5.fc27.s390x

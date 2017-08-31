@@ -591,8 +591,6 @@ squashfs-tools
 sssd-client
 strace
 sudo
-system-python
-system-python-libs
 systemd
 systemd-container
 systemd-libs

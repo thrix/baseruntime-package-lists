@@ -699,8 +699,6 @@ sssd-client
 strace
 sudo
 sysfsutils
-system-python
-system-python-libs
 systemd
 systemd-container
 systemd-libs

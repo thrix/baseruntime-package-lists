@@ -565,8 +565,6 @@ squashfs-tools
 sssd-client
 strace
 sudo
-system-python
-system-python-libs
 systemd
 systemd-libs
 systemd-pam

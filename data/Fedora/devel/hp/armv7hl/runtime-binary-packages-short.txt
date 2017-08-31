@@ -365,7 +365,6 @@ shared-mime-info
 snappy
 sqlite-libs
 sudo
-system-python-libs
 systemd
 systemd-libs
 systemd-pam
