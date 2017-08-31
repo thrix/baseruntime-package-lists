@@ -134,6 +134,7 @@ glibc-common-2.26.90-9.fc28.ppc64
 glibc-devel-2.26.90-9.fc28.ppc64
 glibc-headers-2.26.90-9.fc28.ppc64
 glibc-langpack-en-2.26.90-9.fc28.ppc64
+glibc32-2.20-7.3.fc28.6.ppc64
 gmp-1:6.1.2-6.fc27.ppc64
 gnat-srpm-macros-4-4.fc27.noarch
 gnupg-1.4.22-3.fc27.ppc64

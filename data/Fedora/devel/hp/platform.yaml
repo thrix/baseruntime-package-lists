@@ -450,6 +450,11 @@ data:
                 rationale: >-
                     C runtime.
                 ref: eb3d3880c8e0b5c7207c5464fafe3b33a1c3ad74
+            # glibc32-2.20-7.3.fc28.6
+            glibc32:
+                rationale: >-
+                    Provides 32-bit headers on 64-bit system.
+                ref: a2aa3dfc818bcc350d7ed93b9889acf5cce78801
             # gmp-6.1.2-6.fc27
             gmp:
                 rationale: >-

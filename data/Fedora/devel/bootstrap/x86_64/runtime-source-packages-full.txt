@@ -100,6 +100,7 @@ ghc-srpm-macros-1.4.2-6.fc27.src
 glib-networking-2.53.90-1.fc27.src
 glib2-2.53.6-1.fc28.src
 glibc-2.26.90-9.fc28.src
+glibc32-2.20-7.3.fc28.6.src
 gmp-1:6.1.2-6.fc27.src
 gnat-srpm-macros-4-4.fc27.src
 gnupg-1.4.22-3.fc27.src

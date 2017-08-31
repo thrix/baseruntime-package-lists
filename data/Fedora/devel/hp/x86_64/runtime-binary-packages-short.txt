@@ -107,6 +107,7 @@ glibc-common
 glibc-devel
 glibc-headers
 glibc-minimal-langpack
+glibc32
 gmp
 gnat-srpm-macros
 gnupg

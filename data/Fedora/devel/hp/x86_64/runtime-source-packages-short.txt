@@ -77,6 +77,7 @@ ghc-srpm-macros
 glib-networking
 glib2
 glibc
+glibc32
 gmp
 gnat-srpm-macros
 gnupg
