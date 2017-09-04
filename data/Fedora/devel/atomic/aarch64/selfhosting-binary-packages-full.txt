@@ -3170,9 +3170,9 @@ ostree-2017.10-2.fc28.aarch64
 ostree-devel-2017.10-2.fc28.aarch64
 ostree-grub2-2017.10-2.fc28.aarch64
 ostree-libs-2017.10-2.fc28.aarch64
-p11-kit-0.23.8-1.fc27.aarch64
-p11-kit-devel-0.23.8-1.fc27.aarch64
-p11-kit-trust-0.23.8-1.fc27.aarch64
+p11-kit-0.23.8-2.fc28.aarch64
+p11-kit-devel-0.23.8-2.fc28.aarch64
+p11-kit-trust-0.23.8-2.fc28.aarch64
 p7zip-16.02-5.fc27.aarch64
 pacemaker-cluster-libs-1.1.17-1.fc27.2.aarch64
 pacemaker-cts-1.1.17-1.fc27.2.aarch64

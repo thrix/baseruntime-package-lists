@@ -3302,9 +3302,9 @@ ostree-2017.10-2.fc28.i686
 ostree-devel-2017.10-2.fc28.i686
 ostree-grub2-2017.10-2.fc28.i686
 ostree-libs-2017.10-2.fc28.i686
-p11-kit-0.23.8-1.fc27.i686
-p11-kit-devel-0.23.8-1.fc27.i686
-p11-kit-trust-0.23.8-1.fc27.i686
+p11-kit-0.23.8-2.fc28.i686
+p11-kit-devel-0.23.8-2.fc28.i686
+p11-kit-trust-0.23.8-2.fc28.i686
 p7zip-16.02-5.fc27.i686
 pacemaker-cluster-libs-1.1.17-1.fc27.2.i686
 pacemaker-cts-1.1.17-1.fc27.2.i686

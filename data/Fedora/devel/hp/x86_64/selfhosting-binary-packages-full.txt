@@ -3210,9 +3210,9 @@ os-prober-1.74-3.fc27.x86_64
 osgi-annotation-6.0.0-6.fc27.noarch
 osgi-compendium-6.0.0-4.fc27.noarch
 osgi-core-6.0.0-5.fc27.noarch
-p11-kit-0.23.8-1.fc27.x86_64
-p11-kit-devel-0.23.8-1.fc27.x86_64
-p11-kit-trust-0.23.8-1.fc27.x86_64
+p11-kit-0.23.8-2.fc28.x86_64
+p11-kit-devel-0.23.8-2.fc28.x86_64
+p11-kit-trust-0.23.8-2.fc28.x86_64
 p7zip-16.02-5.fc27.x86_64
 pacemaker-cluster-libs-1.1.17-1.fc27.2.x86_64
 pacemaker-cts-1.1.17-1.fc27.2.x86_64

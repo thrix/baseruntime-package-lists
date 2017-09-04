@@ -3104,9 +3104,9 @@ osgi-core-6.0.0-5.fc27.noarch
 ostree-2017.10-2.fc28.s390x
 ostree-devel-2017.10-2.fc28.s390x
 ostree-libs-2017.10-2.fc28.s390x
-p11-kit-0.23.8-1.fc27.s390x
-p11-kit-devel-0.23.8-1.fc27.s390x
-p11-kit-trust-0.23.8-1.fc27.s390x
+p11-kit-0.23.8-2.fc28.s390x
+p11-kit-devel-0.23.8-2.fc28.s390x
+p11-kit-trust-0.23.8-2.fc28.s390x
 p7zip-16.02-5.fc27.s390x
 pacemaker-cluster-libs-1.1.17-1.fc27.2.s390x
 pacemaker-cts-1.1.17-1.fc27.2.s390x

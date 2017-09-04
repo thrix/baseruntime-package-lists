@@ -3138,9 +3138,9 @@ osgi-core-6.0.0-5.fc27.noarch
 ostree-2017.10-2.fc28.armv7hl
 ostree-devel-2017.10-2.fc28.armv7hl
 ostree-libs-2017.10-2.fc28.armv7hl
-p11-kit-0.23.8-1.fc27.armv7hl
-p11-kit-devel-0.23.8-1.fc27.armv7hl
-p11-kit-trust-0.23.8-1.fc27.armv7hl
+p11-kit-0.23.8-2.fc28.armv7hl
+p11-kit-devel-0.23.8-2.fc28.armv7hl
+p11-kit-trust-0.23.8-2.fc28.armv7hl
 p7zip-16.02-5.fc27.armv7hl
 pacemaker-cluster-libs-1.1.17-1.fc27.2.armv7hl
 pacemaker-cts-1.1.17-1.fc27.2.armv7hl
