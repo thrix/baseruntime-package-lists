@@ -61,7 +61,7 @@ SDL_sound-devel-1.0.3-19.fc27.aarch64
 Xaw3d-1.6.2-12.fc27.aarch64
 Xaw3d-devel-1.6.2-12.fc27.aarch64
 a2ps-4.14-32.fc27.aarch64
-aalto-xml-1.0.0-3.fc27.noarch
+aalto-xml-1.0.0-4.fc28.noarch
 acl-2.2.52-18.fc27.aarch64
 acpica-tools-20170728-3.fc28.aarch64
 adobe-source-code-pro-fonts-2.030.1.050-3.fc27.noarch
@@ -2791,7 +2791,7 @@ nodejs-d-1.0.0-5.fc27.noarch
 nodejs-dateformat-2.0.0-2.fc27.noarch
 nodejs-debug-2.2.0-5.fc27.noarch
 nodejs-deep-eql-0.1.3-8.fc27.noarch
-nodejs-deep-equal-1.0.1-5.fc27.noarch
+nodejs-deep-equal-1.0.1-6.fc28.noarch
 nodejs-deep-is-0.1.3-3.fc27.noarch
 nodejs-defence-1.0.5-4.fc27.noarch
 nodejs-defence-cli-1.0.4-5.fc27.noarch
