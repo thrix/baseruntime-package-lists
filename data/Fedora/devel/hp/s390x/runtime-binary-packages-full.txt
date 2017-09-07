@@ -71,6 +71,7 @@ emacs-filesystem-1:25.2-9.fc28.noarch
 ethtool-2:4.11-2.fc27.s390x
 expat-2.2.4-1.fc28.s390x
 fcoe-utils-1.0.32-3.fc27.s390x
+fedora-logos-26.0.1-3.fc27.s390x
 fedora-release-28-0.1.noarch
 fedora-repos-28-0.1.noarch
 fedora-repos-rawhide-28-0.1.noarch

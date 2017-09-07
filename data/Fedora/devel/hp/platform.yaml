@@ -333,6 +333,11 @@ data:
                     Provides support for Fibre Channel over Ethernet
                     configuration.
                 ref: db83516fb48ede8a0ad386ae42dca201897dd095
+            # fedora-logos-26.0.1-3.fc27
+            fedora-logos:
+                rationale: >-
+                    Provides Fedora-related icons and pictures.
+                ref: 05cbc321ac15e5acff1817d6e83d018fcae0eba1
             # fedora-modular-release-27-1
             fedora-modular-release:
                 rationale: >-

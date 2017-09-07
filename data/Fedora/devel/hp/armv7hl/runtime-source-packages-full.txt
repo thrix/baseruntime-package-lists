@@ -51,6 +51,7 @@ ethtool-2:4.11-2.fc27.src
 expat-2.2.4-1.fc28.src
 fbset-2.1-43.fc27.src
 fcoe-utils-1.0.32-3.fc27.src
+fedora-logos-26.0.1-3.fc27.src
 fedora-release-28-0.1.src
 fedora-repos-28-0.1.src
 fedora-rpm-macros-26-3.fc27.src
