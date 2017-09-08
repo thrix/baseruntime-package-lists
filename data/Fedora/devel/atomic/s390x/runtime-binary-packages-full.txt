@@ -70,7 +70,7 @@ expat-2.2.4-1.fc28.s390x
 fedora-release-28-0.1.noarch
 fedora-repos-28-0.1.noarch
 fedora-repos-rawhide-28-0.1.noarch
-file-libs-5.31-10.fc28.s390x
+file-libs-5.32-1.fc28.s390x
 filesystem-3.3-3.fc27.s390x
 findutils-1:4.6.0-14.fc27.s390x
 fipscheck-1.5.0-3.fc27.s390x

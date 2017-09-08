@@ -111,8 +111,8 @@ fedora-repos-28-0.1.noarch
 fedora-repos-rawhide-28-0.1.noarch
 fedora-rpm-macros-26-3.fc27.noarch
 fedpkg-minimal-1.1.0-9.fc27.noarch
-file-5.31-10.fc28.s390x
-file-libs-5.31-10.fc28.s390x
+file-5.32-1.fc28.s390x
+file-libs-5.32-1.fc28.s390x
 filesystem-3.3-3.fc27.s390x
 findutils-1:4.6.0-14.fc27.s390x
 fipscheck-1.5.0-3.fc27.s390x
@@ -323,7 +323,7 @@ libuuid-2.30.1-5.fc27.s390x
 libverto-0.2.6-11.fc27.s390x
 libverto-libev-0.2.6-11.fc27.s390x
 libxml2-2.9.4-5.fc28.s390x
-libxslt-1.1.29-6.fc28.s390x
+libxslt-1.1.30-1.fc28.s390x
 libyaml-0.1.7-4.fc27.s390x
 linux-firmware-20170622-75.gita3a26af2.fc27.noarch
 lksctp-tools-1.0.16-8.fc27.s390x
