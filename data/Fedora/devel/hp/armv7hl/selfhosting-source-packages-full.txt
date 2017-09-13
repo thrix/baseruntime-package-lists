@@ -1066,7 +1066,7 @@ libraw1394-2.1.2-4.fc27.src
 librdkafka-0.9.5-3.fc27.src
 librelp-1.2.14-3.fc27.src
 librepo-1.8.0-1.fc28.src
-libreport-2.9.1-6.fc28.src
+libreport-2.9.2-2.fc28.src
 librevenge-0.0.4-9.fc27.src
 librsvg2-2.40.18-3.fc27.src
 libsamplerate-0.1.8-13.fc27.src

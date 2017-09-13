@@ -2216,7 +2216,7 @@ libref_array-0.1.5-33.fc27.i686
 libref_array-devel-0.1.5-33.fc27.i686
 librepo-1.8.0-1.fc28.i686
 librepo-devel-1.8.0-1.fc28.i686
-libreport-filesystem-2.9.1-6.fc28.i686
+libreport-filesystem-2.9.2-2.fc28.i686
 librevenge-0.0.4-9.fc27.i686
 librevenge-devel-0.0.4-9.fc27.i686
 librsvg2-2.40.18-3.fc27.i686

@@ -2192,7 +2192,7 @@ librelp-1.2.14-3.fc27.aarch64
 librelp-devel-1.2.14-3.fc27.aarch64
 librepo-1.8.0-1.fc28.aarch64
 librepo-devel-1.8.0-1.fc28.aarch64
-libreport-filesystem-2.9.1-6.fc28.aarch64
+libreport-filesystem-2.9.2-2.fc28.aarch64
 librevenge-0.0.4-9.fc27.aarch64
 librevenge-devel-0.0.4-9.fc27.aarch64
 librsvg2-2.40.18-3.fc27.aarch64

@@ -2179,7 +2179,7 @@ libref_array-0.1.5-33.fc27.armv7hl
 libref_array-devel-0.1.5-33.fc27.armv7hl
 librepo-1.8.0-1.fc28.armv7hl
 librepo-devel-1.8.0-1.fc28.armv7hl
-libreport-filesystem-2.9.1-6.fc28.armv7hl
+libreport-filesystem-2.9.2-2.fc28.armv7hl
 librevenge-0.0.4-9.fc27.armv7hl
 librevenge-devel-0.0.4-9.fc27.armv7hl
 librsvg2-2.40.18-3.fc27.armv7hl

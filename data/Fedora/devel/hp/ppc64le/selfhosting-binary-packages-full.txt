@@ -2178,7 +2178,7 @@ librelp-1.2.14-3.fc27.ppc64le
 librelp-devel-1.2.14-3.fc27.ppc64le
 librepo-1.8.0-1.fc28.ppc64le
 librepo-devel-1.8.0-1.fc28.ppc64le
-libreport-filesystem-2.9.1-6.fc28.ppc64le
+libreport-filesystem-2.9.2-2.fc28.ppc64le
 librevenge-0.0.4-9.fc27.ppc64le
 librevenge-devel-0.0.4-9.fc27.ppc64le
 librsvg2-2.40.18-3.fc27.ppc64le

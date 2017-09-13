@@ -2141,7 +2141,7 @@ librelp-1.2.14-3.fc27.s390x
 librelp-devel-1.2.14-3.fc27.s390x
 librepo-1.8.0-1.fc28.s390x
 librepo-devel-1.8.0-1.fc28.s390x
-libreport-filesystem-2.9.1-6.fc28.s390x
+libreport-filesystem-2.9.2-2.fc28.s390x
 librevenge-0.0.4-9.fc27.s390x
 librevenge-devel-0.0.4-9.fc27.s390x
 librsvg2-2.40.18-3.fc27.s390x

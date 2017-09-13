@@ -182,7 +182,7 @@ libpsl-0.18.0-1.fc27.ppc64le
 libpwquality-1.4.0-3.fc27.ppc64le
 libref_array-0.1.5-33.fc27.ppc64le
 librepo-1.8.0-1.fc28.ppc64le
-libreport-filesystem-2.9.1-6.fc28.ppc64le
+libreport-filesystem-2.9.2-2.fc28.ppc64le
 libseccomp-2.3.2-5.fc27.ppc64le
 libselinux-2.7-3.fc28.ppc64le
 libselinux-utils-2.7-3.fc28.ppc64le
