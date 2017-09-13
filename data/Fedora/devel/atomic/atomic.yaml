@@ -10,7 +10,6 @@ data:
     dependencies:
         buildrequires:
             bootstrap: master
-        requires:
     references:
         community: https://www.projectatomic.io/
         documentation: http://www.projectatomic.io/docs/
