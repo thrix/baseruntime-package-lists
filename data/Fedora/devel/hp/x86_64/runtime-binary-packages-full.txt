@@ -37,6 +37,7 @@ cyrus-sasl-lib-2.1.26-34.fc27.x86_64
 dbus-1:1.11.16-4.fc27.x86_64
 dbus-glib-0.108-4.fc27.x86_64
 dbus-libs-1:1.11.16-4.fc27.x86_64
+dbxtool-7-6.fc27.x86_64
 deltarpm-3.6-24.fc27.x86_64
 desktop-file-utils-0.23-5.fc27.x86_64
 device-mapper-1.02.142-4.fc27.x86_64
@@ -388,8 +389,10 @@ sgml-common-0.6.3-46.fc27.noarch
 sgpio-1.2.0.10-19.fc27.x86_64
 shadow-utils-2:4.5-4.fc27.x86_64
 shared-mime-info-1.8-5.fc27.x86_64
-shim-0.8-10.x86_64
-shim-unsigned-0.8-1.fc22.x86_64
+shim-ia32-13-0.5.x86_64
+shim-unsigned-ia32-13-1.fc27.x86_64
+shim-unsigned-x64-13-1.fc27.x86_64
+shim-x64-13-0.5.x86_64
 snappy-1.1.7-1.fc28.x86_64
 sqlite-libs-3.20.0-2.fc28.x86_64
 sudo-1.8.20p2-3.fc27.x86_64

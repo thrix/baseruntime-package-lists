@@ -619,6 +619,7 @@ dbus-python-devel
 dbus-x11
 dbusmenu-qt
 dbusmenu-qt-devel
+dbxtool
 dconf
 dconf-devel
 decentxml
@@ -723,6 +724,7 @@ eclipselink-persistence-api
 ed
 edk2-ovmf
 efibootmgr
+efivar
 efivar-devel
 efivar-libs
 efl
@@ -4938,8 +4940,8 @@ sharutils
 sheepdog
 shibboleth-java-parent-v3
 shibboleth-java-support
-shim
-shim-unsigned
+shim-aa64
+shim-unsigned-aarch64
 shrinkwrap
 shrinkwrap-bom
 shrinkwrap-descriptors

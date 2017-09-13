@@ -46,6 +46,7 @@ cyrus-sasl-lib-2.1.26-34.fc27.aarch64
 dbus-1:1.11.16-4.fc27.aarch64
 dbus-glib-0.108-4.fc27.aarch64
 dbus-libs-1:1.11.16-4.fc27.aarch64
+dbxtool-7-6.fc27.aarch64
 device-mapper-1.02.142-4.fc27.aarch64
 device-mapper-event-1.02.142-4.fc27.aarch64
 device-mapper-event-libs-1.02.142-4.fc27.aarch64
@@ -64,6 +65,7 @@ dracut-network-046-7.git20170824.fc28.aarch64
 e2fsprogs-1.43.5-2.fc27.aarch64
 e2fsprogs-libs-1.43.5-2.fc27.aarch64
 efibootmgr-15-3.fc27.aarch64
+efivar-31-3.fc27.aarch64
 efivar-libs-31-3.fc27.aarch64
 elfutils-default-yama-scope-0.170-1.fc27.noarch
 elfutils-libelf-0.170-1.fc27.aarch64
@@ -368,7 +370,7 @@ selinux-policy-targeted-3.13.1-275.fc28.noarch
 setools-console-4.1.1-4.fc28.aarch64
 setup-2.10.7-1.fc28.noarch
 shadow-utils-2:4.5-4.fc27.aarch64
-shim-0.8-10.aarch64
+shim-aa64-13-0.5.aarch64
 skopeo-0.1.23-6.git1bbd87f.fc28.aarch64
 skopeo-containers-0.1.23-6.git1bbd87f.fc28.aarch64
 sos-3.4-2.fc27.noarch

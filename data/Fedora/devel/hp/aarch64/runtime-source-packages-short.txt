@@ -29,6 +29,7 @@ curl
 cyrus-sasl
 dbus
 dbus-glib
+dbxtool
 deltarpm
 desktop-file-utils
 device-mapper-multipath

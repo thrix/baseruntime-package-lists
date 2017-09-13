@@ -201,6 +201,7 @@ mcstrans
 mdadm
 memtest86+
 microdnf
+mokutil
 mpfr
 mtools
 nano

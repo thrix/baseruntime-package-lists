@@ -65,6 +65,7 @@ cyrus-sasl-lib
 dbus
 dbus-glib
 dbus-libs
+dbxtool
 deltarpm
 desktop-file-utils
 device-mapper
@@ -575,8 +576,10 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
-shim-unsigned
+shim-ia32
+shim-unsigned-ia32
+shim-unsigned-x64
+shim-x64
 skopeo
 skopeo-containers
 snappy

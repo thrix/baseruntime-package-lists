@@ -2768,6 +2768,7 @@ mod_http2-1.10.10-2.fc27.i686
 modello-1.9.1-2.fc27.noarch
 mojarra-2.2.13-3.fc27.noarch
 mojo-parent-40-5.fc27.noarch
+mokutil-1:0.3.0-7.fc27.i686
 mongo-java-driver-3.4.2-2.fc27.noarch
 mongo-java-driver2-2.14.3-3.fc27.noarch
 mono-core-4.8.0-7.fc27.i686

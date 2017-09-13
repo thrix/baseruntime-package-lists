@@ -48,6 +48,7 @@ cyrus-sasl
 dbus
 dbus-glib
 dbus-python
+dbxtool
 deltarpm
 desktop-file-utils
 device-mapper-multipath

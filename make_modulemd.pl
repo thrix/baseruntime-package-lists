@@ -103,21 +103,7 @@ sub getrefs {
         $cache{$+{nvr}} = $+{ref};
     }
     %refs = map {
-        # XXX: Special hacks for shim.  This needs to be updated
-        #      in the rare case of a shim rebase, although we should
-        #      probably handle this with arbitrary branching; make
-        #      sure the branched content works together and referce
-        #      that rather than specific commits.
-        my $ref = undef;
-        if (getn($_) eq 'shim-signed') {
-            # Bundles binaries from the unsigned packages.
-            $ref = 'private-psabata-base-runtime-f26';
-        } elsif (getn($_) eq 'shim') {
-            $ref = '72c0daf8e4db63bd5b8125167e23164e515198c4';
-        } elsif (getn($_) eq 'shim-unsigned-aarch64') {
-            $ref = 'ae09b5fe2bac419ce2b49bded0487d133bd53919';
-        }
-        $_ => exists $cache{$_} ? $cache{$_} : $ref;
+        $_ => exists $cache{$_} ? $cache{$_} : undef;
     } @_;
     # XXX: koji python multicall API is much faster than CLI, so...
     my ($pyin, $pyout, $pyerr);
@@ -223,8 +209,9 @@ for my $module (@modules) {
                 rationale => $rationales{getn($_)} // $default_rationale,
             }
         } grep {
-            # Let's not bother with shim in Bootstrap.  It wouldn't build.
-            ! /^shim-/;
+            # Let's not bother with shim-signed in Bootstrap.
+            # It wouldn't build anyway.
+            ! /^shim-signed-/;
         } keys %components };
     } elsif ($module =~ /^(?:host|shim)$/) {
         $data{components} = { map {

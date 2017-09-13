@@ -29,6 +29,7 @@ curl-7.55.1-3.fc28.src
 cyrus-sasl-2.1.26-34.fc27.src
 dbus-1:1.11.16-4.fc27.src
 dbus-glib-0.108-4.fc27.src
+dbxtool-7-6.fc27.src
 deltarpm-3.6-24.fc27.src
 desktop-file-utils-0.23-5.fc27.src
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.src
@@ -260,8 +261,8 @@ sgml-common-0.6.3-46.fc27.src
 sgpio-1.2.0.10-19.fc27.src
 shadow-utils-2:4.5-4.fc27.src
 shared-mime-info-1.8-5.fc27.src
-shim-signed-0.8-10.src
-shim-unsigned-aarch64-0.9-1.fc24.src
+shim-signed-13-0.5.src
+shim-unsigned-aarch64-13-1.fc27.src
 snappy-1.1.7-1.fc28.src
 sqlite-3.20.0-2.fc28.src
 sudo-1.8.20p2-3.fc27.src

@@ -201,6 +201,7 @@ mcstrans-0.3.4-11.fc27.src
 mdadm-4.0-5.fc27.src
 memtest86+-5.01-16.fc26.src
 microdnf-3-4.fc27.src
+mokutil-1:0.3.0-7.fc27.src
 mpfr-3.1.5-5.fc27.src
 mtools-4.0.18-13.fc27.src
 nano-2.8.6-3.fc27.src

@@ -120,6 +120,7 @@ mcstrans
 mdadm
 memtest86+
 microdnf
+mokutil
 nano
 ncurses
 nettle

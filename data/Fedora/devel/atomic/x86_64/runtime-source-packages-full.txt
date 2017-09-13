@@ -34,6 +34,7 @@ cyrus-sasl-2.1.26-34.fc27.src
 dbus-1:1.11.16-4.fc27.src
 dbus-glib-0.108-4.fc27.src
 dbus-python-1.2.4-10.fc28.src
+dbxtool-7-6.fc27.src
 device-mapper-persistent-data-0.7.0-0.6.rc6.fc27.src
 dhcp-12:4.3.6-4.fc27.src
 diffutils-3.6-3.fc27.src
@@ -243,7 +244,7 @@ selinux-policy-3.13.1-275.fc28.src
 setools-4.1.1-4.fc28.src
 setup-2.10.7-1.fc28.src
 shadow-utils-2:4.5-4.fc27.src
-shim-signed-0.8-10.src
+shim-signed-13-0.5.src
 skopeo-0.1.23-6.git1bbd87f.fc28.src
 sos-3.4-2.fc27.src
 sqlite-3.20.0-2.fc28.src

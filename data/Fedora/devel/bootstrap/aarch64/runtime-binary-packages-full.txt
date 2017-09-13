@@ -65,6 +65,7 @@ cyrus-sasl-lib-2.1.26-34.fc27.aarch64
 dbus-1:1.11.16-4.fc27.aarch64
 dbus-glib-0.108-4.fc27.aarch64
 dbus-libs-1:1.11.16-4.fc27.aarch64
+dbxtool-7-6.fc27.aarch64
 deltarpm-3.6-24.fc27.aarch64
 desktop-file-utils-0.23-5.fc27.aarch64
 device-mapper-1.02.142-4.fc27.aarch64
@@ -564,8 +565,8 @@ sgml-common-0.6.3-46.fc27.noarch
 sgpio-1.2.0.10-19.fc27.aarch64
 shadow-utils-2:4.5-4.fc27.aarch64
 shared-mime-info-1.8-5.fc27.aarch64
-shim-0.8-10.aarch64
-shim-unsigned-0.9-1.fc24.aarch64
+shim-aa64-13-0.5.aarch64
+shim-unsigned-aarch64-13-1.fc27.aarch64
 skopeo-0.1.23-6.git1bbd87f.fc28.aarch64
 skopeo-containers-0.1.23-6.git1bbd87f.fc28.aarch64
 snappy-1.1.7-1.fc28.aarch64

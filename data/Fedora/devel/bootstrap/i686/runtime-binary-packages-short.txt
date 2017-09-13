@@ -369,6 +369,7 @@ mdadm
 memtest86+
 microcode_ctl
 microdnf
+mokutil
 mozjs17
 mpfr
 mtools

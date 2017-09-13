@@ -49,6 +49,7 @@ cyrus-sasl
 dbus
 dbus-glib
 dbus-python
+dbxtool
 deltarpm
 desktop-file-utils
 device-mapper-multipath
@@ -369,8 +370,8 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
 shim-signed
+shim-unsigned-x64
 skopeo
 snappy
 sos

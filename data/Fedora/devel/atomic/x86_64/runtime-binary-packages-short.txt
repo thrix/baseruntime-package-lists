@@ -46,6 +46,7 @@ cyrus-sasl-lib
 dbus
 dbus-glib
 dbus-libs
+dbxtool
 device-mapper
 device-mapper-event
 device-mapper-event-libs
@@ -64,6 +65,7 @@ dracut-network
 e2fsprogs
 e2fsprogs-libs
 efibootmgr
+efivar
 efivar-libs
 elfutils-default-yama-scope
 elfutils-libelf
@@ -375,7 +377,8 @@ selinux-policy-targeted
 setools-console
 setup
 shadow-utils
-shim
+shim-ia32
+shim-x64
 skopeo
 skopeo-containers
 sos

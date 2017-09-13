@@ -625,6 +625,7 @@ dbus-python-devel-1.2.4-10.fc28.x86_64
 dbus-x11-1:1.11.16-4.fc27.x86_64
 dbusmenu-qt-0.9.3-0.15.20150604.fc27.x86_64
 dbusmenu-qt-devel-0.9.3-0.15.20150604.fc27.x86_64
+dbxtool-7-6.fc27.x86_64
 dconf-0.26.0-5.fc27.x86_64
 dconf-devel-0.26.0-5.fc27.x86_64
 decentxml-1.4-16.fc27.noarch
@@ -733,6 +734,7 @@ ed-1.14.1-4.fc27.x86_64
 edk2-ovmf-20170209git296153c5-5.fc27.noarch
 edk2-tools-20170209git296153c5-5.fc27.x86_64
 efibootmgr-15-3.fc27.x86_64
+efivar-31-3.fc27.x86_64
 efivar-devel-31-3.fc27.x86_64
 efivar-libs-31-3.fc27.x86_64
 efl-1.20.2-2.fc28.x86_64
@@ -4995,8 +4997,11 @@ sharutils-4.15.2-7.fc27.x86_64
 sheepdog-1.0.1-5.fc27.x86_64
 shibboleth-java-parent-v3-8-4.fc27.noarch
 shibboleth-java-support-7.1.1-5.fc27.noarch
-shim-0.8-10.x86_64
+shim-ia32-13-0.5.x86_64
 shim-unsigned-0.8-1.fc22.x86_64
+shim-unsigned-ia32-13-1.fc27.x86_64
+shim-unsigned-x64-13-1.fc27.x86_64
+shim-x64-13-0.5.x86_64
 shrinkwrap-1.2.3-4.fc27.noarch
 shrinkwrap-bom-1.2.3-4.fc27.noarch
 shrinkwrap-descriptors-2.0.0-0.19.alpha9.fc27.noarch
