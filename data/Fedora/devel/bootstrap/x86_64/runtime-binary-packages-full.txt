@@ -302,7 +302,7 @@ libpng-2:1.6.31-1.fc27.x86_64
 libproxy-0.4.15-4.fc27.x86_64
 libpsl-0.18.0-1.fc27.x86_64
 libpwquality-1.4.0-3.fc27.x86_64
-librados2-1:12.1.4-3.fc28.x86_64
+librados2-1:12.2.0-1.fc28.x86_64
 libref_array-0.1.5-33.fc27.x86_64
 librepo-1.8.0-1.fc28.x86_64
 libreport-2.9.2-2.fc28.x86_64

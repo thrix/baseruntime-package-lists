@@ -15,7 +15,7 @@ byacc-1.9.20170709-3.fc27.src
 bzip2-1.0.6-24.fc27.src
 c-ares-1.13.0-3.fc27.src
 ca-certificates-2017.2.16-4.fc27.src
-ceph-1:12.1.4-3.fc28.src
+ceph-1:12.2.0-1.fc28.src
 checkpolicy-2.7-1.fc27.src
 chkconfig-1.10-3.fc27.src
 chrpath-0.16-6.fc27.src
