@@ -161,10 +161,8 @@ libdaemon
 libdb
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libffi
 libgcrypt
 libgpg-error
@@ -172,7 +170,6 @@ libidn
 libidn2
 libjpeg-turbo
 libksba
-liblogging
 libmetalink
 libmnl
 libmodman
@@ -219,7 +216,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lorax
 lsof
 lsscsi
@@ -348,7 +344,6 @@ rpcbind
 rpm
 rpm-ostree
 rsync
-rsyslog
 runc
 rust-srpm-macros
 satyr

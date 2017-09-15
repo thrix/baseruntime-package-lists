@@ -242,10 +242,8 @@ libdb
 libdb-utils
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libfdisk
 libffi
 libgcc
@@ -259,7 +257,6 @@ libini_config
 libjpeg-turbo
 libkadm5
 libksba
-liblogging-stdlog
 libmetalink
 libmnl
 libmodman
@@ -328,7 +325,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lorax
 lorax-templates-generic
 lsof
@@ -663,7 +659,6 @@ rpm-ostree
 rpm-ostree-libs
 rpm-plugin-selinux
 rsync
-rsyslog
 runc
 rust-srpm-macros
 s390utils

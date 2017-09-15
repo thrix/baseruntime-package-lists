@@ -124,7 +124,6 @@ grub2-pc-modules
 grub2-tools
 grub2-tools-extra
 grub2-tools-minimal
-grubby
 gsettings-desktop-schemas
 gssproxy
 guile
@@ -202,10 +201,8 @@ libdb
 libdb-utils
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libfdisk
 libffi
 libgcc
@@ -220,7 +217,6 @@ libipt
 libjpeg-turbo
 libkadm5
 libksba
-liblogging-stdlog
 libmetalink
 libmnl
 libmodman
@@ -277,7 +273,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lsof
 lsscsi
 lua-libs
@@ -287,7 +282,6 @@ m4
 make
 mcstrans
 mdadm
-memtest86+
 microdnf
 mokutil
 mpfr
@@ -370,7 +364,6 @@ rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
 rsync
-rsyslog
 rust-srpm-macros
 sed
 selinux-policy

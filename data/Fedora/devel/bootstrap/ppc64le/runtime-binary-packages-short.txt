@@ -254,10 +254,8 @@ libdb
 libdb-utils
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libfdisk
 libffi
 libgcc
@@ -271,7 +269,6 @@ libini_config
 libjpeg-turbo
 libkadm5
 libksba
-liblogging-stdlog
 libmetalink
 libmnl
 libmodman
@@ -345,7 +342,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lorax
 lorax-templates-generic
 lsof
@@ -441,6 +437,7 @@ polkit-libs
 polkit-pkla-compat
 popt
 powerpc-utils
+ppc64-diag
 ppc64-utils
 procps-ng
 psmisc
@@ -564,7 +561,6 @@ rpm-ostree
 rpm-ostree-libs
 rpm-plugin-selinux
 rsync
-rsyslog
 runc
 rust-srpm-macros
 satyr
@@ -575,6 +571,7 @@ selinux-policy-minimum
 selinux-policy-mls
 selinux-policy-sandbox
 selinux-policy-targeted
+servicelog
 setools-console
 setup
 sg3_utils

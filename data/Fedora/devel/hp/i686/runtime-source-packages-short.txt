@@ -88,7 +88,6 @@ gpart
 gpgme
 grep
 grub2
-grubby
 gsettings-desktop-schemas
 gssproxy
 guile
@@ -133,10 +132,8 @@ libdaemon
 libdb
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libffi
 libgcrypt
 libgpg-error
@@ -145,7 +142,6 @@ libidn2
 libipt
 libjpeg-turbo
 libksba
-liblogging
 libmetalink
 libmnl
 libmodman
@@ -188,7 +184,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lsof
 lsscsi
 lua
@@ -199,7 +194,6 @@ m4
 make
 mcstrans
 mdadm
-memtest86+
 microdnf
 mokutil
 mpfr
@@ -253,7 +247,6 @@ redhat-rpm-config
 rpcbind
 rpm
 rsync
-rsyslog
 rust-srpm-macros
 sed
 selinux-policy

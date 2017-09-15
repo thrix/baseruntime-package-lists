@@ -649,7 +649,6 @@ hibernate-validator
 hibernate3
 hibernate4
 hicolor-icon-theme
-hiredis
 hmaccalc
 hostname
 hppc
@@ -1018,16 +1017,13 @@ libdvdnav
 libdvdread
 libecb
 libedit
-libee
 libepoxy
 liberation-fonts
-libestr
 libev
 libevdev
 libevent
 libexif
 libfabric
-libfastjson
 libffado
 libffi
 libfontenc
@@ -1065,8 +1061,6 @@ libkate
 libksba
 libldb
 liblockfile
-liblogging
-liblognorm
 liblzf
 libmbim
 libmcrypt
@@ -1077,7 +1071,6 @@ libmng
 libmnl
 libmodman
 libmodplug
-libmongo-client
 libmpc
 libmpcdec
 libmspack
@@ -1111,10 +1104,7 @@ libpsl
 libpwquality
 libqb
 libqmi
-librabbitmq
 libraw1394
-librdkafka
-librelp
 librepo
 libreport
 librevenge
@@ -2553,6 +2543,7 @@ postgresql-jdbc
 potrace
 powermock
 powerpc-utils
+ppc64-diag
 ppc64-utils
 ppp
 pps-tools
@@ -2780,7 +2771,6 @@ qemu-sanity-check
 qhull
 qjson
 qpdf
-qpid-proton
 qpid-proton-java
 qrencode
 qrupdate
@@ -2855,7 +2845,6 @@ rpmdevtools
 rrdtool
 rsh
 rsync
-rsyslog
 ruby
 rubygem-Ascii85
 rubygem-RedCloth
@@ -3035,6 +3024,7 @@ sed
 selinux-policy
 sendmail
 serp
+servicelog
 setools
 setup
 sg3_utils

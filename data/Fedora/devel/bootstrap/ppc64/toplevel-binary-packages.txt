@@ -160,6 +160,7 @@ pciutils
 policycoreutils
 policycoreutils-python-utils
 powerpc-utils
+ppc64-diag
 ppc64-utils
 procps-ng
 psmisc
@@ -178,7 +179,6 @@ rpm
 rpm-build
 rpm-ostree
 rsync
-rsyslog
 screen
 sed
 selinux-policy

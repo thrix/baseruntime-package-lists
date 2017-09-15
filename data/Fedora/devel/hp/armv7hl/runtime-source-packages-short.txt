@@ -126,10 +126,8 @@ libdaemon
 libdb
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libffi
 libgcrypt
 libgpg-error
@@ -137,7 +135,6 @@ libidn
 libidn2
 libjpeg-turbo
 libksba
-liblogging
 libmetalink
 libmnl
 libmodman
@@ -179,7 +176,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lsof
 lsscsi
 lua
@@ -240,7 +236,6 @@ redhat-rpm-config
 rpcbind
 rpm
 rsync
-rsyslog
 rust-srpm-macros
 sed
 selinux-policy

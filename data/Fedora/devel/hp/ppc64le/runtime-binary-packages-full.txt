@@ -195,10 +195,8 @@ libdb-5.3.28-26.fc27.ppc64le
 libdb-utils-5.3.28-26.fc27.ppc64le
 libdnf-0.9.3-7.fc28.ppc64le
 libedit-3.1-20.20170329cvs.fc27.ppc64le
-libestr-0.1.9-9.fc27.ppc64le
 libev-4.24-4.fc27.ppc64le
 libevent-2.0.22-6.fc27.ppc64le
-libfastjson-0.99.6-1.fc27.ppc64le
 libfdisk-2.30.1-5.fc27.ppc64le
 libffi-3.1-14.fc27.ppc64le
 libgcc-7.1.1-7.fc27.1.ppc64le
@@ -212,7 +210,6 @@ libini_config-1.3.0-33.fc27.ppc64le
 libjpeg-turbo-1.5.1-4.fc27.ppc64le
 libkadm5-1.15.1-25.fc28.ppc64le
 libksba-1.3.5-5.fc27.ppc64le
-liblogging-stdlog-1.0.6-3.fc27.ppc64le
 libmetalink-0.1.3-4.fc27.ppc64le
 libmnl-1.0.4-4.fc27.ppc64le
 libmodman-2.0.1-16.fc27.ppc64le
@@ -268,7 +265,6 @@ libyaml-0.1.7-4.fc27.ppc64le
 linux-firmware-20170622-75.gita3a26af2.fc27.noarch
 lksctp-tools-1.0.16-8.fc27.ppc64le
 lldpad-1.0.1-8.git036e314.fc27.ppc64le
-logrotate-3.12.3-3.fc27.ppc64le
 lsof-4.89-7.fc27.ppc64le
 lsscsi-0.28-6.fc27.ppc64le
 lua-libs-5.3.4-5.fc27.ppc64le
@@ -358,7 +354,6 @@ rpm-build-libs-4.13.90-0.git14002.7.fc28.ppc64le
 rpm-libs-4.13.90-0.git14002.7.fc28.ppc64le
 rpm-plugin-selinux-4.13.90-0.git14002.7.fc28.ppc64le
 rsync-3.1.2-7.fc27.ppc64le
-rsyslog-8.29.0-2.fc27.ppc64le
 rust-srpm-macros-4-3.fc27.noarch
 sed-4.4-3.fc27.ppc64le
 selinux-policy-3.13.1-275.fc28.noarch

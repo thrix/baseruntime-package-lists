@@ -650,7 +650,6 @@ hibernate-validator
 hibernate3
 hibernate4
 hicolor-icon-theme
-hiredis
 hmaccalc
 hostname
 hppc
@@ -1019,16 +1018,13 @@ libdvdnav
 libdvdread
 libecb
 libedit
-libee
 libepoxy
 liberation-fonts
-libestr
 libev
 libevdev
 libevent
 libexif
 libfabric
-libfastjson
 libffado
 libffi
 libfontenc
@@ -1065,8 +1061,6 @@ libkate
 libksba
 libldb
 liblockfile
-liblogging
-liblognorm
 liblzf
 libmbim
 libmcrypt
@@ -1077,7 +1071,6 @@ libmng
 libmnl
 libmodman
 libmodplug
-libmongo-client
 libmpc
 libmpcdec
 libmspack
@@ -1111,10 +1104,7 @@ libpsl
 libpwquality
 libqb
 libqmi
-librabbitmq
 libraw1394
-librdkafka
-librelp
 librepo
 libreport
 librevenge
@@ -2772,7 +2762,6 @@ qemu-sanity-check
 qhull
 qjson
 qpdf
-qpid-proton
 qpid-proton-java
 qrencode
 qrupdate
@@ -2848,7 +2837,6 @@ rpmdevtools
 rrdtool
 rsh
 rsync
-rsyslog
 ruby
 rubygem-Ascii85
 rubygem-RedCloth

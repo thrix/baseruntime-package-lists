@@ -152,10 +152,8 @@ libdaemon
 libdb
 libdnf
 libedit
-libestr
 libev
 libevent
-libfastjson
 libffi
 libgcrypt
 libgpg-error
@@ -163,7 +161,6 @@ libidn
 libidn2
 libjpeg-turbo
 libksba
-liblogging
 libmetalink
 libmnl
 libmodman
@@ -213,7 +210,6 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
-logrotate
 lorax
 lsof
 lsscsi
@@ -280,6 +276,7 @@ policycoreutils
 polkit
 popt
 powerpc-utils
+ppc64-diag
 ppc64-utils
 procps-ng
 psmisc
@@ -350,12 +347,12 @@ rpcbind
 rpm
 rpm-ostree
 rsync
-rsyslog
 rust-srpm-macros
 satyr
 screen
 sed
 selinux-policy
+servicelog
 setools
 setup
 sg3_utils

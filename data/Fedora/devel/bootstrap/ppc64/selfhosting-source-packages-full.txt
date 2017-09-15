@@ -612,7 +612,6 @@ hibernate-validator-5.2.4-3.fc27.src
 hibernate3-3.6.10-22.fc27.src
 hibernate4-4.3.11-5.fc27.src
 hicolor-icon-theme-0.16-1.fc28.src
-hiredis-0.13.3-5.fc27.src
 hmaccalc-0.9.14-8.fc27.src
 hostname-3.18-4.fc27.src
 hppc-0.7.1-5.fc27.src
@@ -982,16 +981,13 @@ libdvdread-5.0.3-7.fc27.src
 libdwarf-20170709-3.fc27.src
 libecb-0.20161208-4.fc27.src
 libedit-3.1-20.20170329cvs.fc27.src
-libee-0.4.1-12.fc27.src
 libepoxy-1.4.3-3.fc27.src
 liberation-fonts-1:1.07.4-9.fc27.src
-libestr-0.1.9-9.fc27.src
 libev-4.24-4.fc27.src
 libevdev-1.5.7-3.fc27.src
 libevent-2.0.22-6.fc27.src
 libexif-0.6.21-13.fc27.src
 libfabric-1.4.2-5.fc28.src
-libfastjson-0.99.6-1.fc27.src
 libffado-2.3.0-6.fc27.src
 libffi-3.1-14.fc27.src
 libfontenc-1.1.3-6.fc27.src
@@ -1029,8 +1025,6 @@ libkate-0.4.1-11.fc27.src
 libksba-1.3.5-5.fc27.src
 libldb-1.2.1-3.fc27.src
 liblockfile-1.09-7.fc27.src
-liblogging-1.0.6-3.fc27.src
-liblognorm-2.0.3-3.fc27.src
 liblzf-3.6-14.fc27.src
 libmbim-1.14.0-4.fc27.src
 libmcrypt-2.5.8-21.fc27.src
@@ -1041,7 +1035,6 @@ libmng-2.0.3-6.fc27.src
 libmnl-1.0.4-4.fc27.src
 libmodman-2.0.1-16.fc27.src
 libmodplug-1:0.8.9.0-3.fc27.src
-libmongo-client-0.1.8-8.fc27.src
 libmpc-1.0.2-8.fc27.src
 libmpcdec-1.2.6-19.fc27.src
 libmspack-0.5-0.10.alpha.fc27.src
@@ -1075,10 +1068,7 @@ libpsl-0.18.0-1.fc27.src
 libpwquality-1.4.0-3.fc27.src
 libqb-1.0.2-5.fc27.src
 libqmi-1.18.0-2.fc27.src
-librabbitmq-0.8.0-4.fc27.src
 libraw1394-2.1.2-4.fc27.src
-librdkafka-0.9.5-3.fc27.src
-librelp-1.2.14-3.fc27.src
 librepo-1.8.0-1.fc28.src
 libreport-2.9.2-2.fc28.src
 librevenge-0.0.4-9.fc27.src
@@ -2513,6 +2503,7 @@ postgresql-jdbc-42.1.4-1.fc28.src
 potrace-1.15-1.fc27.src
 powermock-1.6.5-7.fc27.src
 powerpc-utils-1.3.3-3.fc27.src
+ppc64-diag-2.7.1-4.fc27.src
 ppc64-utils-0.14-24.fc27.src
 ppp-2.4.7-14.fc28.src
 pps-tools-0-0.15.20120407git0deb9c.fc27.src
@@ -2738,7 +2729,6 @@ qemu-sanity-check-1.1.5-8.fc27.src
 qhull-2015.2-4.fc27.src
 qjson-0.9.0-4.fc27.src
 qpdf-6.0.0-10.fc27.src
-qpid-proton-0.17.0-8.fc28.src
 qpid-proton-java-0.12.2-3.fc27.src
 qrencode-3.4.4-3.fc27.src
 qrupdate-1.1.2-10.fc26.src
@@ -2813,7 +2803,6 @@ rpmdevtools-8.10-3.fc27.src
 rrdtool-1.7.0-6.fc28.src
 rsh-0.17-84.fc27.src
 rsync-3.1.2-7.fc27.src
-rsyslog-8.29.0-2.fc27.src
 ruby-2.4.1-83.fc28.src
 rubygem-Ascii85-1.0.2-9.fc27.src
 rubygem-RedCloth-4.3.2-4.fc27.src
@@ -2992,6 +2981,7 @@ sed-4.4-3.fc27.src
 selinux-policy-3.13.1-275.fc28.src
 sendmail-8.15.2-19.fc28.src
 serp-1.15.2-0.7.20150412cvs.fc27.src
+servicelog-1.1.14-5.fc27.src
 setools-4.1.1-4.fc28.src
 setup-2.10.7-1.fc28.src
 sg3_utils-1.42-3.fc27.src
