@@ -557,11 +557,11 @@ data:
                 rationale: >-
                     Provides PCI, USB and other hardware IDs.
                 ref: 1a291e36bc1fb0c629f84aa0db489c771d9b3301
-            # icu-57.1-4.fc26
+            # icu-57.1-8.fc28
             icu:
                 rationale: >-
                     Tools and utilities for developing with ICU.
-                ref: 489d16ef8ae3797e2e34e8d5389f58d26ee0e287
+                ref: 8175a6704f882ebcf134df8a3e7638eb64a462ed
             # initscripts-9.77-1.fc27
             initscripts:
                 rationale: >-

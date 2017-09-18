@@ -1291,7 +1291,7 @@ ibus-libs-1.5.16-8.fc27.ppc64
 ibus-setup-1.5.16-8.fc27.noarch
 ibus-wayland-1.5.16-8.fc27.ppc64
 icc-profiles-openicc-1.3.1-12.fc27.noarch
-icu-57.1-4.fc26.ppc64
+icu-57.1-8.fc28.ppc64
 icu4j-1:59.1-2.fc27.noarch
 idlj-maven-plugin-1.2.1-9.fc27.noarch
 ilmbase-2.2.0-10.fc27.ppc64
@@ -2013,8 +2013,8 @@ libical-2.0.0-12.fc27.ppc64
 libical-devel-2.0.0-12.fc27.ppc64
 libicns-0.8.1-13.fc27.ppc64
 libicns-utils-0.8.1-13.fc27.ppc64
-libicu-57.1-4.fc26.ppc64
-libicu-devel-57.1-4.fc26.ppc64
+libicu-57.1-8.fc28.ppc64
+libicu-devel-57.1-8.fc28.ppc64
 libidn-1.33-4.fc27.ppc64
 libidn-devel-1.33-4.fc27.ppc64
 libidn2-2.0.3-1.fc27.ppc64
@@ -4574,7 +4574,7 @@ rdma-core-devel-14-4.fc27.ppc64
 re2c-0.14.3-2.fc24.ppc64
 readline-7.0-7.fc27.ppc64
 readline-devel-7.0-7.fc27.ppc64
-realmd-0.16.3-7.fc27.ppc64
+realmd-0.16.3-8.fc28.ppc64
 recode-3.6-45.fc27.ppc64
 recode-devel-3.6-45.fc27.ppc64
 redhat-lsb-core-4.1-36.fc27.ppc64

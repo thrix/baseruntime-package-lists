@@ -119,7 +119,7 @@ hfsplus-tools-540.1.linux3-14.fc27.s390x
 hfsutils-3.2.6-33.fc27.s390x
 hostname-3.18-4.fc27.s390x
 hwdata-0.303-1.fc27.noarch
-icu-57.1-4.fc26.s390x
+icu-57.1-8.fc28.s390x
 info-6.4-5.fc27.s390x
 initscripts-9.77-1.fc27.s390x
 ipcalc-0.2.0-3.fc27.s390x
@@ -189,7 +189,7 @@ libgcc-7.1.1-7.fc27.1.s390x
 libgcrypt-1.8.0-1.fc27.s390x
 libgomp-7.1.1-7.fc27.1.s390x
 libgpg-error-1.27-3.fc27.s390x
-libicu-57.1-4.fc26.s390x
+libicu-57.1-8.fc28.s390x
 libidn-1.33-4.fc27.s390x
 libidn2-2.0.3-1.fc27.s390x
 libini_config-1.3.0-33.fc27.s390x

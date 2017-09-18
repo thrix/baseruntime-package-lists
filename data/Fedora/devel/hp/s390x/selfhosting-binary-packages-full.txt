@@ -1271,7 +1271,7 @@ ibus-libs-1.5.16-8.fc27.s390x
 ibus-setup-1.5.16-8.fc27.noarch
 ibus-wayland-1.5.16-8.fc27.s390x
 icc-profiles-openicc-1.3.1-12.fc27.noarch
-icu-57.1-4.fc26.s390x
+icu-57.1-8.fc28.s390x
 icu4j-1:59.1-2.fc27.noarch
 idlj-maven-plugin-1.2.1-9.fc27.noarch
 ilmbase-2.2.0-10.fc27.s390x
@@ -1980,8 +1980,8 @@ libical-2.0.0-12.fc27.s390x
 libical-devel-2.0.0-12.fc27.s390x
 libicns-0.8.1-13.fc27.s390x
 libicns-utils-0.8.1-13.fc27.s390x
-libicu-57.1-4.fc26.s390x
-libicu-devel-57.1-4.fc26.s390x
+libicu-57.1-8.fc28.s390x
+libicu-devel-57.1-8.fc28.s390x
 libidn-1.33-4.fc27.s390x
 libidn-devel-1.33-4.fc27.s390x
 libidn2-2.0.3-1.fc27.s390x
@@ -4522,7 +4522,7 @@ rdma-core-devel-14-4.fc27.s390x
 re2c-0.14.3-2.fc24.s390x
 readline-7.0-7.fc27.s390x
 readline-devel-7.0-7.fc27.s390x
-realmd-0.16.3-7.fc27.s390x
+realmd-0.16.3-8.fc28.s390x
 recode-3.6-45.fc27.s390x
 recode-devel-3.6-45.fc27.s390x
 redhat-lsb-core-4.1-36.fc27.s390x

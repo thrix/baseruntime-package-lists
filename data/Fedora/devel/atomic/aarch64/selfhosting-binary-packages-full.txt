@@ -2058,8 +2058,8 @@ libical-2.0.0-12.fc27.aarch64
 libical-devel-2.0.0-12.fc27.aarch64
 libicns-0.8.1-13.fc27.aarch64
 libicns-utils-0.8.1-13.fc27.aarch64
-libicu-57.1-4.fc26.aarch64
-libicu-devel-57.1-4.fc26.aarch64
+libicu-57.1-8.fc28.aarch64
+libicu-devel-57.1-8.fc28.aarch64
 libidn-1.33-4.fc27.aarch64
 libidn-devel-1.33-4.fc27.aarch64
 libidn2-2.0.3-1.fc27.aarch64
@@ -4675,7 +4675,7 @@ re2-devel-20160401-5.fc27.aarch64
 re2c-0.14.3-2.fc24.aarch64
 readline-7.0-7.fc27.aarch64
 readline-devel-7.0-7.fc27.aarch64
-realmd-0.16.3-7.fc27.aarch64
+realmd-0.16.3-8.fc28.aarch64
 recode-3.6-45.fc27.aarch64
 recode-devel-3.6-45.fc27.aarch64
 redhat-lsb-core-4.1-36.fc27.aarch64

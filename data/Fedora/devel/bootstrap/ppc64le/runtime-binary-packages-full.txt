@@ -169,7 +169,7 @@ hfsplus-tools-540.1.linux3-14.fc27.ppc64le
 hfsutils-3.2.6-33.fc27.ppc64le
 hostname-3.18-4.fc27.ppc64le
 hwdata-0.303-1.fc27.noarch
-icu-57.1-4.fc26.ppc64le
+icu-57.1-8.fc28.ppc64le
 info-6.4-5.fc27.ppc64le
 initscripts-9.77-1.fc27.ppc64le
 ipcalc-0.2.0-3.fc27.ppc64le
@@ -262,7 +262,7 @@ libgcc-7.1.1-7.fc27.1.ppc64le
 libgcrypt-1.8.0-1.fc27.ppc64le
 libgomp-7.1.1-7.fc27.1.ppc64le
 libgpg-error-1.27-3.fc27.ppc64le
-libicu-57.1-4.fc26.ppc64le
+libicu-57.1-8.fc28.ppc64le
 libidn-1.33-4.fc27.ppc64le
 libidn2-2.0.3-1.fc27.ppc64le
 libini_config-1.3.0-33.fc27.ppc64le
@@ -549,7 +549,7 @@ qt5-srpm-macros-5.9.1-2.fc27.noarch
 quota-1:4.03-9.fc27.ppc64le
 quota-nls-1:4.03-9.fc27.noarch
 readline-7.0-7.fc27.ppc64le
-realmd-0.16.3-7.fc27.ppc64le
+realmd-0.16.3-8.fc28.ppc64le
 redhat-rpm-config-67-1.fc27.noarch
 rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.ppc64le

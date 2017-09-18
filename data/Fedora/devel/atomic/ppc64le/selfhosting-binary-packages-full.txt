@@ -2042,8 +2042,8 @@ libical-2.0.0-12.fc27.ppc64le
 libical-devel-2.0.0-12.fc27.ppc64le
 libicns-0.8.1-13.fc27.ppc64le
 libicns-utils-0.8.1-13.fc27.ppc64le
-libicu-57.1-4.fc26.ppc64le
-libicu-devel-57.1-4.fc26.ppc64le
+libicu-57.1-8.fc28.ppc64le
+libicu-devel-57.1-8.fc28.ppc64le
 libidn-1.33-4.fc27.ppc64le
 libidn-devel-1.33-4.fc27.ppc64le
 libidn2-2.0.3-1.fc27.ppc64le
@@ -4646,7 +4646,7 @@ rdma-core-devel-14-4.fc27.ppc64le
 re2c-0.14.3-2.fc24.ppc64le
 readline-7.0-7.fc27.ppc64le
 readline-devel-7.0-7.fc27.ppc64le
-realmd-0.16.3-7.fc27.ppc64le
+realmd-0.16.3-8.fc28.ppc64le
 recode-3.6-45.fc27.ppc64le
 recode-devel-3.6-45.fc27.ppc64le
 redhat-lsb-core-4.1-36.fc27.ppc64le

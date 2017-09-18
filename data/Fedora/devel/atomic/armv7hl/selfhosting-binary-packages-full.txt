@@ -2037,8 +2037,8 @@ libical-2.0.0-12.fc27.armv7hl
 libical-devel-2.0.0-12.fc27.armv7hl
 libicns-0.8.1-13.fc27.armv7hl
 libicns-utils-0.8.1-13.fc27.armv7hl
-libicu-57.1-4.fc26.armv7hl
-libicu-devel-57.1-4.fc26.armv7hl
+libicu-57.1-8.fc28.armv7hl
+libicu-devel-57.1-8.fc28.armv7hl
 libidn-1.33-4.fc27.armv7hl
 libidn-devel-1.33-4.fc27.armv7hl
 libidn2-2.0.3-1.fc27.armv7hl
@@ -4633,7 +4633,7 @@ re2-devel-20160401-5.fc27.armv7hl
 re2c-0.14.3-2.fc24.armv7hl
 readline-7.0-7.fc27.armv7hl
 readline-devel-7.0-7.fc27.armv7hl
-realmd-0.16.3-7.fc27.armv7hl
+realmd-0.16.3-8.fc28.armv7hl
 recode-3.6-45.fc27.armv7hl
 recode-devel-3.6-45.fc27.armv7hl
 redhat-lsb-core-4.1-36.fc27.armv7hl
