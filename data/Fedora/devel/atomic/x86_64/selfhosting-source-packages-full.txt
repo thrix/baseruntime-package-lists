@@ -3096,7 +3096,7 @@ swt-chart-0.10.0-3.fc27.src
 symlinks-1.4-16.fc27.src
 sysfsutils-2.1.0-22.fc27.src
 syslinux-6.04-0.5.fc27.src
-systemd-234-5.fc27.src
+systemd-234-6.fc28.src
 systemtap-3.2-0.20170516gitc67d8f274b21.fc27.src
 t1lib-5.1.2-21.fc27.src
 t1utils-1.39-6.fc27.src

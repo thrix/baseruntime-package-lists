@@ -4977,11 +4977,11 @@ swagger-core-models-1.5.10-3.fc27.noarch
 swig-3.0.12-8.fc27.ppc64le
 swt-chart-0.10.0-3.fc27.noarch
 symlinks-1.4-16.fc27.ppc64le
-systemd-234-5.fc27.ppc64le
-systemd-devel-234-5.fc27.ppc64le
-systemd-libs-234-5.fc27.ppc64le
-systemd-pam-234-5.fc27.ppc64le
-systemd-udev-234-5.fc27.ppc64le
+systemd-234-6.fc28.ppc64le
+systemd-devel-234-6.fc28.ppc64le
+systemd-libs-234-6.fc28.ppc64le
+systemd-pam-234-6.fc28.ppc64le
+systemd-udev-234-6.fc28.ppc64le
 systemtap-3.2-0.20170516gitc67d8f274b21.fc27.ppc64le
 systemtap-client-3.2-0.20170516gitc67d8f274b21.fc27.ppc64le
 systemtap-devel-3.2-0.20170516gitc67d8f274b21.fc27.ppc64le

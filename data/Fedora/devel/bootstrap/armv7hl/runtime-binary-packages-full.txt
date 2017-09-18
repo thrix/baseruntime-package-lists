@@ -553,11 +553,11 @@ squashfs-tools-4.3-15.fc27.armv7hl
 sssd-client-1.15.3-2.fc27.armv7hl
 strace-4.18-3.fc27.armv7hl
 sudo-1.8.20p2-3.fc27.armv7hl
-systemd-234-5.fc27.armv7hl
-systemd-container-234-5.fc27.armv7hl
-systemd-libs-234-5.fc27.armv7hl
-systemd-pam-234-5.fc27.armv7hl
-systemd-udev-234-5.fc27.armv7hl
+systemd-234-6.fc28.armv7hl
+systemd-container-234-6.fc28.armv7hl
+systemd-libs-234-6.fc28.armv7hl
+systemd-pam-234-6.fc28.armv7hl
+systemd-udev-234-6.fc28.armv7hl
 tar-2:1.29-7.fc27.armv7hl
 tcl-1:8.6.7-2.fc28.armv7hl
 tcp_wrappers-7.6-87.fc27.armv7hl

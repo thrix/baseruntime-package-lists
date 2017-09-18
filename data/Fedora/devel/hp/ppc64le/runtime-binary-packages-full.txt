@@ -372,10 +372,10 @@ shared-mime-info-1.8-5.fc27.ppc64le
 snappy-1.1.7-1.fc28.ppc64le
 sqlite-libs-3.20.1-1.fc28.ppc64le
 sudo-1.8.20p2-3.fc27.ppc64le
-systemd-234-5.fc27.ppc64le
-systemd-libs-234-5.fc27.ppc64le
-systemd-pam-234-5.fc27.ppc64le
-systemd-udev-234-5.fc27.ppc64le
+systemd-234-6.fc28.ppc64le
+systemd-libs-234-6.fc28.ppc64le
+systemd-pam-234-6.fc28.ppc64le
+systemd-udev-234-6.fc28.ppc64le
 tar-2:1.29-7.fc27.ppc64le
 tcl-1:8.6.7-2.fc28.ppc64le
 tcp_wrappers-7.6-87.fc27.ppc64le

@@ -379,11 +379,11 @@ sqlite-libs-3.20.1-1.fc28.aarch64
 sssd-client-1.15.3-2.fc27.aarch64
 strace-4.18-3.fc27.aarch64
 sudo-1.8.20p2-3.fc27.aarch64
-systemd-234-5.fc27.aarch64
-systemd-container-234-5.fc27.aarch64
-systemd-libs-234-5.fc27.aarch64
-systemd-pam-234-5.fc27.aarch64
-systemd-udev-234-5.fc27.aarch64
+systemd-234-6.fc28.aarch64
+systemd-container-234-6.fc28.aarch64
+systemd-libs-234-6.fc28.aarch64
+systemd-pam-234-6.fc28.aarch64
+systemd-udev-234-6.fc28.aarch64
 tar-2:1.29-7.fc27.aarch64
 tcp_wrappers-7.6-87.fc27.aarch64
 tcp_wrappers-libs-7.6-87.fc27.aarch64

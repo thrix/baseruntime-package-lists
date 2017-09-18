@@ -4924,11 +4924,11 @@ swig-3.0.12-8.fc27.s390x
 swt-chart-0.10.0-3.fc27.noarch
 symlinks-1.4-16.fc27.s390x
 sysfsutils-2.1.0-22.fc27.s390x
-systemd-234-5.fc27.s390x
-systemd-devel-234-5.fc27.s390x
-systemd-libs-234-5.fc27.s390x
-systemd-pam-234-5.fc27.s390x
-systemd-udev-234-5.fc27.s390x
+systemd-234-6.fc28.s390x
+systemd-devel-234-6.fc28.s390x
+systemd-libs-234-6.fc28.s390x
+systemd-pam-234-6.fc28.s390x
+systemd-udev-234-6.fc28.s390x
 systemtap-3.2-0.20170516gitc67d8f274b21.fc27.s390x
 systemtap-client-3.2-0.20170516gitc67d8f274b21.fc27.s390x
 systemtap-devel-3.2-0.20170516gitc67d8f274b21.fc27.s390x

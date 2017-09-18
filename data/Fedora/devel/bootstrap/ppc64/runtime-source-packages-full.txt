@@ -368,7 +368,7 @@ squashfs-tools-4.3-15.fc27.src
 sssd-1.15.3-2.fc27.src
 strace-4.18-3.fc27.src
 sudo-1.8.20p2-3.fc27.src
-systemd-234-5.fc27.src
+systemd-234-6.fc28.src
 tar-2:1.29-7.fc27.src
 tcl-1:8.6.7-2.fc28.src
 tcp_wrappers-7.6-87.fc27.src

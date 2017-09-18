@@ -394,10 +394,10 @@ syslinux-6.04-0.5.fc27.x86_64
 syslinux-extlinux-6.04-0.5.fc27.x86_64
 syslinux-extlinux-nonlinux-6.04-0.5.fc27.noarch
 syslinux-nonlinux-6.04-0.5.fc27.noarch
-systemd-234-5.fc27.x86_64
-systemd-libs-234-5.fc27.x86_64
-systemd-pam-234-5.fc27.x86_64
-systemd-udev-234-5.fc27.x86_64
+systemd-234-6.fc28.x86_64
+systemd-libs-234-6.fc28.x86_64
+systemd-pam-234-6.fc28.x86_64
+systemd-udev-234-6.fc28.x86_64
 tar-2:1.29-7.fc27.x86_64
 tcl-1:8.6.7-2.fc28.x86_64
 tcp_wrappers-7.6-87.fc27.x86_64

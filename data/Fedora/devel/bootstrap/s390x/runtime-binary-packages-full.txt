@@ -696,11 +696,11 @@ sssd-client-1.15.3-2.fc27.s390x
 strace-4.18-3.fc27.s390x
 sudo-1.8.20p2-3.fc27.s390x
 sysfsutils-2.1.0-22.fc27.s390x
-systemd-234-5.fc27.s390x
-systemd-container-234-5.fc27.s390x
-systemd-libs-234-5.fc27.s390x
-systemd-pam-234-5.fc27.s390x
-systemd-udev-234-5.fc27.s390x
+systemd-234-6.fc28.s390x
+systemd-container-234-6.fc28.s390x
+systemd-libs-234-6.fc28.s390x
+systemd-pam-234-6.fc28.s390x
+systemd-udev-234-6.fc28.s390x
 systemtap-sdt-devel-3.2-0.20170516gitc67d8f274b21.fc27.s390x
 tar-2:1.29-7.fc27.s390x
 tcl-1:8.6.7-2.fc28.s390x
