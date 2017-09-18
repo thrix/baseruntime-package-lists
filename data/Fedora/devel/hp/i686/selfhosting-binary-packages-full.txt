@@ -672,9 +672,9 @@ dtc-1.4.4-4.fc27.i686
 dwz-0.12-5.fc27.i686
 dyninst-9.3.2-6.fc27.i686
 dyninst-devel-9.3.2-6.fc27.i686
-e2fsprogs-1.43.5-2.fc27.i686
-e2fsprogs-devel-1.43.5-2.fc27.i686
-e2fsprogs-libs-1.43.5-2.fc27.i686
+e2fsprogs-1.43.6-1.fc28.i686
+e2fsprogs-devel-1.43.6-1.fc28.i686
+e2fsprogs-libs-1.43.6-1.fc28.i686
 easymock-3.4-5.fc27.noarch
 ebtables-2.0.10-24.fc27.i686
 ecj-1:4.6.3-3.fc27.noarch
@@ -944,8 +944,8 @@ gcr-3.20.0-6.fc27.i686
 gcr-devel-3.20.0-6.fc27.i686
 gd-2.2.4-5.fc27.i686
 gd-devel-2.2.4-5.fc27.i686
-gdb-8.0-24.fc28.i686
-gdb-headless-8.0-24.fc28.i686
+gdb-8.0-25.fc28.i686
+gdb-headless-8.0-25.fc28.i686
 gdbm-1.13-3.fc27.i686
 gdbm-devel-1.13-3.fc27.i686
 gdisk-1.0.3-4.fc27.i686
@@ -1920,8 +1920,8 @@ libcmocka-1.1.1-7.fc27.i686
 libcmocka-devel-1.1.1-7.fc27.i686
 libcollection-0.7.0-33.fc27.i686
 libcollection-devel-0.7.0-33.fc27.i686
-libcom_err-1.43.5-2.fc27.i686
-libcom_err-devel-1.43.5-2.fc27.i686
+libcom_err-1.43.6-1.fc28.i686
+libcom_err-devel-1.43.6-1.fc28.i686
 libcomps-0.1.8-6.fc28.i686
 libconfig-1.5-7.fc27.i686
 libconfig-devel-1.5-7.fc27.i686
@@ -2239,8 +2239,8 @@ libspiro-20150131-6.fc27.i686
 libspiro-devel-20150131-6.fc27.i686
 libsrtp-1.5.4-6.fc27.i686
 libsrtp-devel-1.5.4-6.fc27.i686
-libss-1.43.5-2.fc27.i686
-libss-devel-1.43.5-2.fc27.i686
+libss-1.43.6-1.fc28.i686
+libss-devel-1.43.6-1.fc28.i686
 libssh-0.7.5-3.fc27.i686
 libssh-devel-0.7.5-3.fc27.i686
 libssh2-1.8.0-4.fc27.i686

@@ -327,7 +327,7 @@ dracut-046-7.git20170824.fc28.src
 dtc-1.4.4-4.fc27.src
 dwz-0.12-5.fc27.src
 dyninst-9.3.2-6.fc27.src
-e2fsprogs-1.43.5-2.fc27.src
+e2fsprogs-1.43.6-1.fc28.src
 easymock-3.4-5.fc27.src
 ebtables-2.0.10-24.fc27.src
 ecj-1:4.6.3-3.fc27.src
@@ -462,7 +462,7 @@ gcab-0.7-4.fc27.src
 gcc-7.1.1-7.fc27.1.src
 gcr-3.20.0-6.fc27.src
 gd-2.2.4-5.fc27.src
-gdb-8.0-24.fc28.src
+gdb-8.0-25.fc28.src
 gdbm-1.13-3.fc27.src
 gdisk-1.0.3-4.fc27.src
 gdk-pixbuf2-2.36.9-1.fc28.src

@@ -40,7 +40,7 @@ diffutils-3.6-3.fc27.src
 ding-libs-0.6.0-33.fc27.src
 docker-2:1.13.1-30.gitb5e3294.fc28.src
 dracut-046-7.git20170824.fc28.src
-e2fsprogs-1.43.5-2.fc27.src
+e2fsprogs-1.43.6-1.fc28.src
 efibootmgr-15-3.fc27.src
 efivar-31-3.fc27.src
 elfutils-0.170-1.fc27.src

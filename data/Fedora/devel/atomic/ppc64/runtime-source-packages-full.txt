@@ -33,7 +33,7 @@ dhcp-12:4.3.6-4.fc27.src
 diffutils-3.6-3.fc27.src
 ding-libs-0.6.0-33.fc27.src
 dracut-046-7.git20170824.fc28.src
-e2fsprogs-1.43.5-2.fc27.src
+e2fsprogs-1.43.6-1.fc28.src
 elfutils-0.170-1.fc27.src
 emacs-1:25.2-9.fc28.src
 expat-2.2.4-1.fc28.src

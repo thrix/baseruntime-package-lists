@@ -66,7 +66,7 @@ dracut-046-7.git20170824.fc28.src
 drpm-0.3.0-11.fc27.src
 dtc-1.4.4-4.fc27.src
 dwz-0.12-5.fc27.src
-e2fsprogs-1.43.5-2.fc27.src
+e2fsprogs-1.43.6-1.fc28.src
 ebtables-2.0.10-24.fc27.src
 efibootmgr-15-3.fc27.src
 efivar-31-3.fc27.src
@@ -93,7 +93,7 @@ fuse-2.9.7-9.fc27.src
 gawk-4.1.4-5.fc27.src
 gc-7.6.0-7.fc27.src
 gcc-7.1.1-7.fc27.1.src
-gdb-8.0-24.fc28.src
+gdb-8.0-25.fc28.src
 gdbm-1.13-3.fc27.src
 gdisk-1.0.3-4.fc27.src
 gettext-0.19.8.1-11.fc27.src

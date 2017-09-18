@@ -93,8 +93,8 @@ dracut-network-046-7.git20170824.fc28.armv7hl
 drpm-0.3.0-11.fc27.armv7hl
 dtc-1.4.4-4.fc27.armv7hl
 dwz-0.12-5.fc27.armv7hl
-e2fsprogs-1.43.5-2.fc27.armv7hl
-e2fsprogs-libs-1.43.5-2.fc27.armv7hl
+e2fsprogs-1.43.6-1.fc28.armv7hl
+e2fsprogs-libs-1.43.6-1.fc28.armv7hl
 ebtables-2.0.10-24.fc27.armv7hl
 elfutils-0.170-1.fc27.armv7hl
 elfutils-default-yama-scope-0.170-1.fc27.noarch
@@ -129,7 +129,7 @@ gawk-4.1.4-5.fc27.armv7hl
 gc-7.6.0-7.fc27.armv7hl
 gcc-7.1.1-7.fc27.1.armv7hl
 gcc-c++-7.1.1-7.fc27.1.armv7hl
-gdb-headless-8.0-24.fc28.armv7hl
+gdb-headless-8.0-25.fc28.armv7hl
 gdbm-1.13-3.fc27.armv7hl
 gdisk-1.0.3-4.fc27.armv7hl
 genisoimage-1.1.11-37.fc27.armv7hl
@@ -237,7 +237,7 @@ libcap-2.25-7.fc27.armv7hl
 libcap-ng-0.7.8-7.fc28.armv7hl
 libcgroup-0.41-13.fc27.armv7hl
 libcollection-0.7.0-33.fc27.armv7hl
-libcom_err-1.43.5-2.fc27.armv7hl
+libcom_err-1.43.6-1.fc28.armv7hl
 libcomps-0.1.8-6.fc28.armv7hl
 libconfig-1.5-7.fc27.armv7hl
 libcrypt-2.26.90-9.fc28.armv7hl
@@ -300,7 +300,7 @@ libsepol-2.7-1.fc27.armv7hl
 libsigsegv-2.11-3.fc27.armv7hl
 libsmartcols-2.30.1-5.fc27.armv7hl
 libsolv-0.6.28-8.fc27.armv7hl
-libss-1.43.5-2.fc27.armv7hl
+libss-1.43.6-1.fc28.armv7hl
 libssh-0.7.5-3.fc27.armv7hl
 libssh2-1.8.0-4.fc27.armv7hl
 libsss_idmap-1.15.3-2.fc27.armv7hl
