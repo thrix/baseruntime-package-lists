@@ -161,6 +161,7 @@ hfsutils
 hostname
 hwdata
 icu
+ima-evm-utils
 info
 initscripts
 ipcalc

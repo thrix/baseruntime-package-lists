@@ -24,7 +24,7 @@ cockpit-149-1.fc28.src
 compat-openssl10-1:1.0.2j-9.fc28.src
 container-selinux-2:2.21-3.fc27.src
 container-storage-setup-0.6.0-2.giteb688d4.fc27.src
-coreutils-8.27-16.fc28.src
+coreutils-8.28-1.fc28.src
 cpio-2.12-6.fc27.src
 cracklib-2.9.6-9.fc28.src
 crypto-policies-20170823-1.git8d18c27.fc28.src
@@ -66,7 +66,7 @@ glib2-2.53.6-1.fc28.src
 glibc-2.26.90-9.fc28.src
 gmp-1:6.1.2-6.fc27.src
 gnupg-1.4.22-3.fc27.src
-gnupg2-2.1.22-1.fc27.src
+gnupg2-2.2.0-1.fc28.src
 gnutls-3.6.0-1.fc28.src
 gobject-introspection-1.53.5-1.fc27.src
 gomtree-0.4.0-1.fc27.src
@@ -78,6 +78,7 @@ gssproxy-0.7.0-14.fc28.src
 guile-5:2.0.14-3.fc27.src
 gzip-1.8-4.fc27.src
 hostname-3.18-4.fc27.src
+ima-evm-utils-1.0-1.fc28.src
 initscripts-9.77-1.fc27.src
 ipcalc-0.2.0-3.fc27.src
 iproute-4.12.0-3.fc27.src
@@ -90,7 +91,7 @@ json-glib-1.3.2-3.fc27.src
 kernel-4.13.0-0.rc6.git4.1.fc28.src
 keyutils-1.5.10-3.fc27.src
 kmod-24-3.fc27.src
-krb5-1.15.1-25.fc28.src
+krb5-1.15.1-28.fc28.src
 less-487-5.fc27.src
 libaio-0.3.110-9.fc27.src
 libarchive-3.3.1-3.fc27.src
@@ -105,10 +106,10 @@ libedit-3.1-20.20170329cvs.fc27.src
 libev-4.24-4.fc27.src
 libevent-2.0.22-6.fc27.src
 libffi-3.1-14.fc27.src
-libgcrypt-1.8.0-1.fc27.src
+libgcrypt-1.8.1-1.fc28.src
 libgpg-error-1.27-3.fc27.src
 libidn-1.33-4.fc27.src
-libidn2-2.0.3-1.fc27.src
+libidn2-2.0.4-1.fc28.src
 libksba-1.3.5-5.fc27.src
 libmetalink-0.1.3-4.fc27.src
 libmnl-1.0.4-4.fc27.src
@@ -139,8 +140,8 @@ libusb-1:0.1.5-10.fc27.src
 libusbx-1.0.21-4.fc27.src
 libuser-0.62-11.fc28.src
 libutempter-1.1.6-11.fc27.src
-libverto-0.2.6-11.fc27.src
-libxml2-2.9.4-5.fc28.src
+libverto-0.3.0-1.fc28.src
+libxml2-2.9.5-1.fc28.src
 libyaml-0.1.7-4.fc27.src
 linux-firmware-20170622-75.gita3a26af2.fc27.src
 lsof-4.89-7.fc27.src
@@ -188,7 +189,7 @@ polkit-pkla-compat-0.1-10.fc27.src
 popt-1.16-11.fc27.src
 procps-ng-3.3.10-15.fc27.src
 psmisc-23.1-2.fc27.src
-publicsuffix-list-20170809-1.fc27.src
+publicsuffix-list-20170828-1.fc28.src
 pyOpenSSL-17.1.0-2.fc27.src
 pygobject3-3.24.1-4.fc28.src
 pyserial-3.1.1-5.fc28.src
@@ -233,7 +234,7 @@ quota-1:4.03-9.fc27.src
 readline-7.0-7.fc27.src
 rootfiles-8.1-21.fc27.src
 rpcbind-0.2.4-7.rc2.fc27.2.src
-rpm-4.13.90-0.git14002.7.fc28.src
+rpm-4.14.0-0.rc1.2.fc28.src
 rpm-ostree-2017.8-2.fc28.src
 rsync-3.1.2-7.fc27.src
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.src
@@ -241,12 +242,12 @@ screen-4.6.1-3.fc27.src
 sed-4.4-3.fc27.src
 selinux-policy-3.13.1-275.fc28.src
 setools-4.1.1-4.fc28.src
-setup-2.10.7-1.fc28.src
+setup-2.10.10-1.fc28.src
 shadow-utils-2:4.5-4.fc27.src
 shim-signed-13-0.5.src
 skopeo-0.1.23-6.git1bbd87f.fc28.src
 sos-3.4-2.fc27.src
-sqlite-3.20.0-2.fc28.src
+sqlite-3.20.1-1.fc28.src
 sssd-1.15.3-2.fc27.src
 strace-4.18-3.fc27.src
 sudo-1.8.20p2-3.fc27.src

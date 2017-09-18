@@ -1328,6 +1328,7 @@ idlj-maven-plugin
 ilmbase
 ilmbase-devel
 ima-evm-utils
+ima-evm-utils-devel
 imake
 indent
 infinipath-psm

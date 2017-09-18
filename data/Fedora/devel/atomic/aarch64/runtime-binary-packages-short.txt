@@ -116,6 +116,7 @@ gssproxy
 guile
 gzip
 hostname
+ima-evm-utils
 info
 initscripts
 ipcalc

@@ -95,6 +95,7 @@ hfsutils
 hostname
 hwdata
 icu
+ima-evm-utils
 initscripts
 ipcalc
 iproute

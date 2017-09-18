@@ -77,6 +77,7 @@ gssproxy
 guile
 gzip
 hostname
+ima-evm-utils
 initscripts
 ipcalc
 iproute
