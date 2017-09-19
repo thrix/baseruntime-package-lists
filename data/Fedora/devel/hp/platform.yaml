@@ -272,7 +272,7 @@ data:
             dnf:
                 rationale: >-
                     DNF package manager.
-                ref: 1a96fa5baccf55f52f22e75abd6db93e6a9c605c
+                ref: boltron
             # docbook-dtds-1.0-67.fc27
             docbook-dtds:
                 rationale: >-

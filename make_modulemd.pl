@@ -103,7 +103,10 @@ sub getrefs {
         $cache{$+{nvr}} = $+{ref};
     }
     %refs = map {
-        $_ => exists $cache{$_} ? $cache{$_} : undef;
+        my $ref;
+        # XXX: We use a spcial branch of dnf with module support.
+        $ref = 'boltron' if getn($_) eq 'dnf';
+        $_ => $ref ? $ref : exists $cache{$_} ? $cache{$_} : undef;
     } @_;
     # XXX: koji python multicall API is much faster than CLI, so...
     my ($pyin, $pyout, $pyerr);
