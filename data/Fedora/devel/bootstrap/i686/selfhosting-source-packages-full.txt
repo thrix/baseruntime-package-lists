@@ -471,7 +471,7 @@ gc-7.6.0-7.fc27.src
 gcab-0.7-4.fc27.src
 gcc-7.1.1-7.fc27.1.src
 gcr-3.20.0-6.fc27.src
-gd-2.2.4-5.fc27.src
+gd-2.2.5-1.fc28.src
 gdb-8.0-25.fc28.src
 gdbm-1.13-3.fc27.src
 gdisk-1.0.3-4.fc27.src
@@ -547,7 +547,7 @@ gnu-getopt-1.0.14-12.fc27.src
 gnulib-0-23.20170217git.fc27.src
 gnupg-1.4.22-3.fc27.src
 gnupg2-2.2.0-1.fc28.src
-gnuplot-5.0.6-5.fc27.src
+gnuplot-5.0.6-6.fc28.src
 gnustep-base-1.25.0-4.fc27.src
 gnustep-make-2.7.0-3.fc27.src
 gnutls-3.6.0-1.fc28.src
@@ -555,7 +555,7 @@ go-compilers-1-14.fc27.src
 go-srpm-macros-2-10.fc27.src
 gobject-introspection-1.53.5-1.fc27.src
 godep-62-5.fc27.src
-golang-1.9-0.beta2.1.fc27.src
+golang-1.9-1.fc28.src
 golang-bitbucket-kardianos-osext-0-0.18.git9b883c5.fc27.src
 golang-github-Sirupsen-logrus-0.8.4-9.fc27.src
 golang-github-bugsnag-bugsnag-go-1.0.4-8.fc27.src
