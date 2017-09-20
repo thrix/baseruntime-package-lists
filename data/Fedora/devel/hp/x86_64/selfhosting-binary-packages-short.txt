@@ -338,6 +338,8 @@ aws-sdk-java-waf
 aws-sdk-java-workspaces
 axiom
 axis
+b43-openfwwf
+b43-tools
 bakefile
 base64coder
 basesystem

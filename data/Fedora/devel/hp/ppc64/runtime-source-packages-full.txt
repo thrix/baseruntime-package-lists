@@ -4,6 +4,7 @@ alsa-lib-1.1.4.1-3.fc27.src
 attr-2.4.47-21.fc27.src
 audit-2.7.7-5.fc27.src
 augeas-1.8.1-1.fc28.src
+b43-openfwwf-5.2-16.fc27.src
 babeltrace-1.5.3-1.fc27.src
 basesystem-11-4.fc27.src
 bash-4.4.12-10.fc28.src

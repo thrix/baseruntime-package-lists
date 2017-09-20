@@ -152,6 +152,8 @@ avro
 aws-sdk-java
 axiom
 axis
+b43-openfwwf
+b43-tools
 babel
 babeltrace
 bakefile

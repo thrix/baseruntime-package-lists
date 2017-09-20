@@ -5,6 +5,7 @@ audit-libs
 audit-libs-python3
 augeas
 augeas-libs
+b43-openfwwf
 basesystem
 bash
 bc

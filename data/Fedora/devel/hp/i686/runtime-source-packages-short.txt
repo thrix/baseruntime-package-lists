@@ -4,6 +4,7 @@ alsa-lib
 attr
 audit
 augeas
+b43-openfwwf
 babeltrace
 basesystem
 bash

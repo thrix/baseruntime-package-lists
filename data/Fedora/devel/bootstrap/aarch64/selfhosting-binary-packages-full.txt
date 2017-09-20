@@ -347,6 +347,8 @@ aws-sdk-java-waf-1.11.3-4.fc27.noarch
 aws-sdk-java-workspaces-1.11.3-4.fc27.noarch
 axiom-1.2.12-17.fc28.noarch
 axis-1.4-34.fc28.noarch
+b43-openfwwf-5.2-16.fc27.noarch
+b43-tools-017-8.fc26.aarch64
 bakefile-0.2.10-4.fc27.aarch64
 base64coder-20101219-19.fc27.noarch
 basesystem-11-4.fc27.noarch

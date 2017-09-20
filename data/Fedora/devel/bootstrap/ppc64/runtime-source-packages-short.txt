@@ -8,6 +8,7 @@ attr
 audit
 augeas
 authconfig
+b43-openfwwf
 babeltrace
 basesystem
 bash

@@ -17,6 +17,7 @@ audit-libs-python3
 augeas
 augeas-libs
 authconfig
+b43-openfwwf
 basesystem
 bash
 bash-completion
