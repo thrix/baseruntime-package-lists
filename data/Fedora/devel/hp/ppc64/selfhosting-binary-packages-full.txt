@@ -2143,8 +2143,8 @@ libpsl-0.18.0-1.fc27.ppc64
 libpsl-devel-0.18.0-1.fc27.ppc64
 libpwquality-1.4.0-3.fc27.ppc64
 libpwquality-devel-1.4.0-3.fc27.ppc64
-libqb-1.0.2-5.fc27.ppc64
-libqb-devel-1.0.2-5.fc27.ppc64
+libqb-1.0.2-7.fc28.ppc64
+libqb-devel-1.0.2-7.fc28.ppc64
 libqhull-2015.2-4.fc27.ppc64
 libqhull_p-2015.2-4.fc27.ppc64
 libqhull_r-2015.2-4.fc27.ppc64

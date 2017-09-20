@@ -2214,8 +2214,8 @@ libpsl-0.18.0-1.fc27.armv7hl
 libpsl-devel-0.18.0-1.fc27.armv7hl
 libpwquality-1.4.0-3.fc27.armv7hl
 libpwquality-devel-1.4.0-3.fc27.armv7hl
-libqb-1.0.2-5.fc27.armv7hl
-libqb-devel-1.0.2-5.fc27.armv7hl
+libqb-1.0.2-7.fc28.armv7hl
+libqb-devel-1.0.2-7.fc28.armv7hl
 libqhull-2015.2-4.fc27.armv7hl
 libqhull_p-2015.2-4.fc27.armv7hl
 libqhull_r-2015.2-4.fc27.armv7hl

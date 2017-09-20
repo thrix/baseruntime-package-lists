@@ -1081,7 +1081,7 @@ libpng-2:1.6.31-1.fc27.src
 libproxy-0.4.15-4.fc27.src
 libpsl-0.18.0-1.fc27.src
 libpwquality-1.4.0-3.fc27.src
-libqb-1.0.2-5.fc27.src
+libqb-1.0.2-7.fc28.src
 libqmi-1.18.0-2.fc27.src
 libraw1394-2.1.2-4.fc27.src
 librepo-1.8.0-1.fc28.src
