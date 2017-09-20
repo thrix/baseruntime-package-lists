@@ -318,6 +318,8 @@ publicsuffix-list-dafsa
 python-srpm-macros
 python3
 python3-IPy
+python3-PyYAML
+python3-dateutil
 python3-dnf
 python3-gpg
 python3-hawkey
@@ -327,11 +329,13 @@ python3-librepo
 python3-libs
 python3-libselinux
 python3-libsemanage
+python3-modulemd
 python3-pip
 python3-rpm
 python3-setools
 python3-setuptools
 python3-six
+python3-smartcols
 qrencode-libs
 qt5-srpm-macros
 quota

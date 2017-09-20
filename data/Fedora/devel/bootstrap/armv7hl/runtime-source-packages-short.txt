@@ -220,6 +220,7 @@ make
 mcstrans
 mdadm
 microdnf
+modulemd
 mozjs17
 mpfr
 nano
@@ -316,6 +317,7 @@ python-rpm-macros
 python-setuptools
 python-six
 python-slip
+python-smartcols
 python-systemd
 python-urllib3
 python-websocket-client

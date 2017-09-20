@@ -1250,6 +1250,7 @@ mocha
 mockito
 mod_http2
 modello
+modulemd
 mojarra
 mojo-parent
 mongo-java-driver
@@ -2579,6 +2580,7 @@ python-pysocks
 python-pytest-cov
 python-pytest-httpbin
 python-pytest-mock
+python-pytest-runner
 python-pytest-timeout
 python-pyudev
 python-qt5
@@ -2597,6 +2599,7 @@ python-simplejson
 python-singledispatch
 python-six
 python-slip
+python-smartcols
 python-snowballstemmer
 python-socketpool
 python-sphinx

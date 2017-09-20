@@ -105,7 +105,7 @@ sub getrefs {
     %refs = map {
         my $ref;
         # XXX: We use a spcial branch of dnf with module support.
-        $ref = 'boltron' if getn($_) eq 'dnf';
+        $ref = 'boltron' if getn($_) =~ /^(?:lib)?dnf$/;
         $_ => $ref ? $ref : exists $cache{$_} ? $cache{$_} : undef;
     } @_;
     # XXX: koji python multicall API is much faster than CLI, so...

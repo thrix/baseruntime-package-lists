@@ -504,6 +504,7 @@ python3-libxml2
 python3-mako
 python3-markupsafe
 python3-meh
+python3-modulemd
 python3-ntplib
 python3-oauthlib
 python3-ordered-set
@@ -529,6 +530,7 @@ python3-setuptools
 python3-six
 python3-slip
 python3-slip-dbus
+python3-smartcols
 python3-sssdconfig
 python3-systemd
 python3-urllib3

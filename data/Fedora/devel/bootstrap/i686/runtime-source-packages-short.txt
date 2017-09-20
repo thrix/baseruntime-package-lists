@@ -232,6 +232,7 @@ mdadm
 memtest86+
 microcode_ctl
 microdnf
+modulemd
 mokutil
 mozjs17
 mpfr
@@ -331,6 +332,7 @@ python-rpm-macros
 python-setuptools
 python-six
 python-slip
+python-smartcols
 python-systemd
 python-urllib3
 python-websocket-client

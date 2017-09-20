@@ -1,3 +1,4 @@
+PyYAML
 acl
 alsa-lib
 attr
@@ -186,6 +187,7 @@ make
 mcstrans
 mdadm
 microdnf
+modulemd
 mpfr
 nano
 ncurses
@@ -221,11 +223,13 @@ procps-ng
 psmisc
 publicsuffix-list
 python-IPy
+python-dateutil
 python-iniparse
 python-pip
 python-rpm-macros
 python-setuptools
 python-six
+python-smartcols
 python3
 qrencode
 qt5

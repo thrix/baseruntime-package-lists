@@ -652,8 +652,8 @@ dlm-lib-4.0.6-5.fc27.ppc64le
 dmraid-1.0.0.rc16-34.fc27.ppc64le
 dmraid-devel-1.0.0.rc16-34.fc27.ppc64le
 dmraid-events-1.0.0.rc16-34.fc27.ppc64le
-dnf-2.6.3-4.fc28.noarch
-dnf-conf-2.6.3-4.fc28.noarch
+dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
+dnf-conf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
 dnsjava-2.1.3-13.fc27.noarch
 dnsmasq-2.77-6.fc27.ppc64le
 docbook-dtds-1.0-67.fc27.noarch
@@ -2216,6 +2216,7 @@ libsigc++20-devel-2.10.0-4.fc27.ppc64le
 libsigsegv-2.11-3.fc27.ppc64le
 libsigsegv-devel-2.11-3.fc27.ppc64le
 libsmartcols-2.30.1-5.fc27.ppc64le
+libsmartcols-devel-2.30.1-5.fc27.ppc64le
 libsmbclient-2:4.7.0-0.9.rc3.fc27.ppc64le
 libsmbclient-devel-2:4.7.0-0.9.rc3.fc27.ppc64le
 libsmi-0.4.8-20.fc27.ppc64le
@@ -3987,18 +3988,12 @@ pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
 platform-python-3.6.2-12.fc28.ppc64le
 platform-python-coverage-4.4.1-4.fc28.ppc64le
 platform-python-devel-3.6.2-12.fc28.ppc64le
-platform-python-gpg-1.9.0-6.fc28.ppc64le
-platform-python-hawkey-0.9.3-7.fc28.ppc64le
 platform-python-hypothesis-3.12.0-4.fc28.noarch
-platform-python-iniparse-0.4-26.fc28.noarch
-platform-python-libcomps-0.1.8-6.fc28.ppc64le
-platform-python-librepo-1.8.0-1.fc28.ppc64le
 platform-python-libs-3.6.2-12.fc28.ppc64le
 platform-python-libs-devel-3.6.2-12.fc28.ppc64le
 platform-python-nose-1.3.7-15.fc28.noarch
 platform-python-py-1.4.34-5.fc28.noarch
 platform-python-pytest-3.2.1-3.fc28.noarch
-platform-python-rpm-4.14.0-0.rc1.2.fc28.ppc64le
 platform-python-rpm-macros-3-22.fc27.noarch
 platform-python-setuptools-36.2.0-7.fc28.noarch
 platform-python-setuptools_scm-1.15.6-5.fc28.noarch
@@ -4230,6 +4225,7 @@ python2-markupsafe-0.23-16.fc27.ppc64le
 python2-mccabe-0.6.1-4.fc27.noarch
 python2-mimeparse-1.6.0-3.fc27.noarch
 python2-mock-2.0.0-5.fc27.noarch
+python2-modulemd-1.3.0-1.fc28.noarch
 python2-mox-0.5.3-14.fc28.noarch
 python2-netaddr-0.7.19-4.fc28.noarch
 python2-nose-1.3.7-15.fc28.noarch
@@ -4289,6 +4285,7 @@ python2-setuptools_scm-1.15.6-5.fc28.noarch
 python2-simplejson-3.10.0-5.fc27.ppc64le
 python2-singledispatch-3.4.0.3-8.fc27.noarch
 python2-six-1.10.0-11.fc28.noarch
+python2-smartcols-0.2.0-5.fc27.ppc64le
 python2-snowballstemmer-1.2.1-4.fc27.noarch
 python2-socketpool-0.5.3-9.fc27.noarch
 python2-sphinx-1.6.3-2.fc27.noarch
@@ -4365,7 +4362,7 @@ python3-dateutil-1:2.6.0-4.fc27.noarch
 python3-dbus-1.2.4-10.fc28.ppc64le
 python3-decorator-4.0.11-3.fc27.noarch
 python3-devel-3.6.2-11.fc27.ppc64le
-python3-dnf-2.6.3-4.fc28.noarch
+python3-dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
 python3-docker-2.5.1-1.fc28.noarch
 python3-docker-pycreds-0.2.1-5.fc27.noarch
 python3-docutils-0.13.1-6.fc27.noarch
@@ -4418,6 +4415,7 @@ python3-markupsafe-0.23-16.fc27.ppc64le
 python3-mccabe-0.6.1-4.fc27.noarch
 python3-mimeparse-1.6.0-3.fc27.noarch
 python3-mock-2.0.0-5.fc27.noarch
+python3-modulemd-1.3.0-1.fc28.noarch
 python3-netaddr-0.7.19-4.fc28.noarch
 python3-nose-1.3.7-15.fc28.noarch
 python3-numpy-1:1.13.1-4.fc27.ppc64le
@@ -4480,6 +4478,7 @@ python3-sip-devel-4.19.3-4.fc27.ppc64le
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
+python3-smartcols-0.2.0-5.fc27.ppc64le
 python3-snowballstemmer-1.2.1-4.fc27.noarch
 python3-sphinx-1.6.3-2.fc27.noarch
 python3-sphinx-theme-alabaster-0.7.9-4.fc27.noarch

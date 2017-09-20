@@ -3951,18 +3951,12 @@ pkgconf-pkg-config
 platform-python
 platform-python-coverage
 platform-python-devel
-platform-python-gpg
-platform-python-hawkey
 platform-python-hypothesis
-platform-python-iniparse
-platform-python-libcomps
-platform-python-librepo
 platform-python-libs
 platform-python-libs-devel
 platform-python-nose
 platform-python-py
 platform-python-pytest
-platform-python-rpm
 platform-python-rpm-macros
 platform-python-setuptools
 platform-python-setuptools_scm
@@ -4181,6 +4175,7 @@ python2-markdown
 python2-markupsafe
 python2-mimeparse
 python2-mock
+python2-modulemd
 python2-mox
 python2-netaddr
 python2-nose
@@ -4217,6 +4212,7 @@ python2-pytest
 python2-pytest-cov
 python2-pytest-httpbin
 python2-pytest-mock
+python2-pytest-runner
 python2-pytest-timeout
 python2-pytz
 python2-pyudev
@@ -4236,6 +4232,7 @@ python2-setuptools_scm
 python2-simplejson
 python2-singledispatch
 python2-six
+python2-smartcols
 python2-snowballstemmer
 python2-socketpool
 python2-sphinx
@@ -4353,6 +4350,7 @@ python3-mallard-ducktype
 python3-markupsafe
 python3-mimeparse
 python3-mock
+python3-modulemd
 python3-netaddr
 python3-nose
 python3-numpy
@@ -4387,6 +4385,7 @@ python3-pytest
 python3-pytest-cov
 python3-pytest-httpbin
 python3-pytest-mock
+python3-pytest-runner
 python3-pytest-timeout
 python3-pytz
 python3-pyudev
@@ -4411,6 +4410,7 @@ python3-sip-devel
 python3-six
 python3-slip
 python3-slip-dbus
+python3-smartcols
 python3-snowballstemmer
 python3-sphinx
 python3-sphinx-theme-alabaster

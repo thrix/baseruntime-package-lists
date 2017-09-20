@@ -1318,6 +1318,7 @@ mocha
 mockito
 mod_http2
 modello
+modulemd
 mojarra
 mojo-parent
 mokutil
@@ -2702,6 +2703,7 @@ python-simplejson
 python-singledispatch
 python-six
 python-slip
+python-smartcols
 python-snowballstemmer
 python-socketpool
 python-sphinx
