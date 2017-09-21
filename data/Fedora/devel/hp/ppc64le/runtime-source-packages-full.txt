@@ -94,6 +94,7 @@ guile-5:2.0.14-3.fc27.src
 gzip-1.8-4.fc27.src
 hfsplus-tools-540.1.linux3-14.fc27.src
 hfsutils-3.2.6-33.fc27.src
+hmaccalc-0.9.14-8.fc27.src
 hostname-3.18-4.fc27.src
 hwdata-0.303-1.fc27.src
 icu-57.1-8.fc28.src

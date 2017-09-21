@@ -91,8 +91,12 @@ docker-common
 docker-rhel-push-plugin
 dosfstools
 dracut
+dracut-caps
 dracut-config-generic
+dracut-config-rescue
+dracut-fips
 dracut-network
+dracut-tools
 drpm
 dtc
 dwz
@@ -173,6 +177,7 @@ guile
 gzip
 hfsplus-tools
 hfsutils
+hmaccalc
 hostname
 hwdata
 icu

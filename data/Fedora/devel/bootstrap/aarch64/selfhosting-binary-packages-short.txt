@@ -688,8 +688,12 @@ doxygen
 doxygen-latex
 dpkg
 dracut
+dracut-caps
 dracut-config-generic
+dracut-config-rescue
+dracut-fips
 dracut-network
+dracut-tools
 drpm
 drpm-devel
 dtc

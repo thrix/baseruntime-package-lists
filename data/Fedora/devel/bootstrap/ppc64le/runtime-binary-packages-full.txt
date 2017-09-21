@@ -90,8 +90,12 @@ docker-common-2:1.13.1-30.gitb5e3294.fc28.ppc64le
 docker-rhel-push-plugin-2:1.13.1-30.gitb5e3294.fc28.ppc64le
 dosfstools-4.1-4.fc27.ppc64le
 dracut-046-7.git20170824.fc28.ppc64le
+dracut-caps-046-7.git20170824.fc28.ppc64le
 dracut-config-generic-046-7.git20170824.fc28.ppc64le
+dracut-config-rescue-046-7.git20170824.fc28.ppc64le
+dracut-fips-046-7.git20170824.fc28.ppc64le
 dracut-network-046-7.git20170824.fc28.ppc64le
+dracut-tools-046-7.git20170824.fc28.ppc64le
 drpm-0.3.0-11.fc27.ppc64le
 dtc-1.4.4-4.fc27.ppc64le
 dwz-0.12-5.fc27.ppc64le
@@ -168,6 +172,7 @@ guile-5:2.0.14-3.fc27.ppc64le
 gzip-1.8-4.fc27.ppc64le
 hfsplus-tools-540.1.linux3-14.fc27.ppc64le
 hfsutils-3.2.6-33.fc27.ppc64le
+hmaccalc-0.9.14-8.fc27.ppc64le
 hostname-3.18-4.fc27.ppc64le
 hwdata-0.303-1.fc27.noarch
 icu-57.1-8.fc28.ppc64le

@@ -661,7 +661,12 @@ dotconf-devel-1.3-15.fc27.ppc64le
 doxygen-1:1.8.13-10.fc27.ppc64le
 doxygen-latex-1:1.8.13-10.fc27.ppc64le
 dracut-046-7.git20170824.fc28.ppc64le
+dracut-caps-046-7.git20170824.fc28.ppc64le
+dracut-config-generic-046-7.git20170824.fc28.ppc64le
+dracut-config-rescue-046-7.git20170824.fc28.ppc64le
+dracut-fips-046-7.git20170824.fc28.ppc64le
 dracut-network-046-7.git20170824.fc28.ppc64le
+dracut-tools-046-7.git20170824.fc28.ppc64le
 dtc-1.4.4-4.fc27.ppc64le
 dwz-0.12-5.fc27.ppc64le
 e2fsprogs-1.43.6-1.fc28.ppc64le

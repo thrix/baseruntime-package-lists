@@ -58,7 +58,12 @@ docbook-dtds
 docbook-style-xsl
 dosfstools
 dracut
+dracut-caps
+dracut-config-generic
+dracut-config-rescue
+dracut-fips
 dracut-network
+dracut-tools
 dtc
 dwz
 e2fsprogs
@@ -119,6 +124,7 @@ guile
 gzip
 hfsplus-tools
 hfsutils
+hmaccalc
 hostname
 hwdata
 icu

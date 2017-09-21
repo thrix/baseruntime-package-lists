@@ -669,7 +669,12 @@ doxygen-1:1.8.13-10.fc27.i686
 doxygen-latex-1:1.8.13-10.fc27.i686
 dpkg-1.18.24-3.fc27.i686
 dracut-046-7.git20170824.fc28.i686
+dracut-caps-046-7.git20170824.fc28.i686
+dracut-config-generic-046-7.git20170824.fc28.i686
+dracut-config-rescue-046-7.git20170824.fc28.i686
+dracut-fips-046-7.git20170824.fc28.i686
 dracut-network-046-7.git20170824.fc28.i686
+dracut-tools-046-7.git20170824.fc28.i686
 dtc-1.4.4-4.fc27.i686
 dwz-0.12-5.fc27.i686
 dyninst-9.3.2-6.fc27.i686

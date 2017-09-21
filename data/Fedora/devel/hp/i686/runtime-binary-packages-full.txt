@@ -58,7 +58,12 @@ docbook-dtds-1.0-67.fc27.noarch
 docbook-style-xsl-1.79.2-5.fc27.noarch
 dosfstools-4.1-4.fc27.i686
 dracut-046-7.git20170824.fc28.i686
+dracut-caps-046-7.git20170824.fc28.i686
+dracut-config-generic-046-7.git20170824.fc28.i686
+dracut-config-rescue-046-7.git20170824.fc28.i686
+dracut-fips-046-7.git20170824.fc28.i686
 dracut-network-046-7.git20170824.fc28.i686
+dracut-tools-046-7.git20170824.fc28.i686
 dtc-1.4.4-4.fc27.i686
 dwz-0.12-5.fc27.i686
 e2fsprogs-1.43.6-1.fc28.i686
@@ -131,6 +136,7 @@ guile-5:2.0.14-3.fc27.i686
 gzip-1.8-4.fc27.i686
 hfsplus-tools-540.1.linux3-14.fc27.i686
 hfsutils-3.2.6-33.fc27.i686
+hmaccalc-0.9.14-8.fc27.i686
 hostname-3.18-4.fc27.i686
 hwdata-0.303-1.fc27.noarch
 icu-57.1-8.fc28.i686

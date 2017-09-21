@@ -664,7 +664,12 @@ doxygen-1:1.8.13-10.fc27.aarch64
 doxygen-latex-1:1.8.13-10.fc27.aarch64
 dpkg-1.18.24-3.fc27.aarch64
 dracut-046-7.git20170824.fc28.aarch64
+dracut-caps-046-7.git20170824.fc28.aarch64
+dracut-config-generic-046-7.git20170824.fc28.aarch64
+dracut-config-rescue-046-7.git20170824.fc28.aarch64
+dracut-fips-046-7.git20170824.fc28.aarch64
 dracut-network-046-7.git20170824.fc28.aarch64
+dracut-tools-046-7.git20170824.fc28.aarch64
 dtc-1.4.4-4.fc27.aarch64
 dwz-0.12-5.fc27.aarch64
 e2fsprogs-1.43.6-1.fc28.aarch64

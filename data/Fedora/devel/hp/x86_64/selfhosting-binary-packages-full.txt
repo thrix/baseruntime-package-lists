@@ -670,7 +670,12 @@ doxygen-1:1.8.13-10.fc27.x86_64
 doxygen-latex-1:1.8.13-10.fc27.x86_64
 dpkg-1.18.24-3.fc27.x86_64
 dracut-046-7.git20170824.fc28.x86_64
+dracut-caps-046-7.git20170824.fc28.x86_64
+dracut-config-generic-046-7.git20170824.fc28.x86_64
+dracut-config-rescue-046-7.git20170824.fc28.x86_64
+dracut-fips-046-7.git20170824.fc28.x86_64
 dracut-network-046-7.git20170824.fc28.x86_64
+dracut-tools-046-7.git20170824.fc28.x86_64
 dtc-1.4.4-4.fc27.x86_64
 dwz-0.12-5.fc27.x86_64
 dyninst-9.3.2-6.fc27.x86_64

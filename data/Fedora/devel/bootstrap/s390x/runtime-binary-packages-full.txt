@@ -90,8 +90,12 @@ docker-common-2:1.13.1-30.gitb5e3294.fc28.s390x
 docker-rhel-push-plugin-2:1.13.1-30.gitb5e3294.fc28.s390x
 dosfstools-4.1-4.fc27.s390x
 dracut-046-7.git20170824.fc28.s390x
+dracut-caps-046-7.git20170824.fc28.s390x
 dracut-config-generic-046-7.git20170824.fc28.s390x
+dracut-config-rescue-046-7.git20170824.fc28.s390x
+dracut-fips-046-7.git20170824.fc28.s390x
 dracut-network-046-7.git20170824.fc28.s390x
+dracut-tools-046-7.git20170824.fc28.s390x
 drpm-0.3.0-11.fc27.s390x
 dtc-1.4.4-4.fc27.s390x
 dwz-0.12-5.fc27.s390x
@@ -159,6 +163,7 @@ guile-5:2.0.14-3.fc27.s390x
 gzip-1.8-4.fc27.s390x
 hfsplus-tools-540.1.linux3-14.fc27.s390x
 hfsutils-3.2.6-33.fc27.s390x
+hmaccalc-0.9.14-8.fc27.s390x
 hostname-3.18-4.fc27.s390x
 hwdata-0.303-1.fc27.noarch
 icu-57.1-8.fc28.s390x

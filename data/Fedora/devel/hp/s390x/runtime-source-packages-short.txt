@@ -90,6 +90,7 @@ guile
 gzip
 hfsplus-tools
 hfsutils
+hmaccalc
 hostname
 hwdata
 icu
