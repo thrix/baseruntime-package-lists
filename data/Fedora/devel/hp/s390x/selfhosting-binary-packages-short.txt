@@ -814,6 +814,7 @@ fakeroot-libs
 fasterxml-oss-parent
 fastutil
 fcoe-utils
+fedora-gpg-keys
 fedora-logos
 fedora-logos-httpd
 fedora-release

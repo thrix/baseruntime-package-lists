@@ -251,7 +251,7 @@ for my $module (@modules) {
             if (/^fedora-release-.+$/) {
                 'fedora-modular-release-27-1';
             } elsif (/^fedora-repos-.+$/) {
-                'fedora-modular-repos-27-1';
+                ('fedora-modular-repos-27-1', $_);
             } else {
                 $_;
             }

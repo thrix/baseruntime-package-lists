@@ -73,9 +73,10 @@ elfutils-libs-0.170-1.fc27.aarch64
 emacs-filesystem-1:25.2-9.fc28.noarch
 expat-2.2.4-1.fc28.aarch64
 extlinux-bootloader-1.2-3.fc27.aarch64
+fedora-gpg-keys-28-0.2.noarch
 fedora-release-28-0.1.noarch
-fedora-repos-28-0.1.noarch
-fedora-repos-rawhide-28-0.1.noarch
+fedora-repos-28-0.2.noarch
+fedora-repos-rawhide-28-0.2.noarch
 file-5.32-1.fc28.aarch64
 file-libs-5.32-1.fc28.aarch64
 filesystem-3.3-3.fc27.aarch64

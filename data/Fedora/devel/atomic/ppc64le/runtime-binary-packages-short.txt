@@ -68,6 +68,7 @@ elfutils-libelf
 elfutils-libs
 emacs-filesystem
 expat
+fedora-gpg-keys
 fedora-release
 fedora-repos
 fedora-repos-rawhide

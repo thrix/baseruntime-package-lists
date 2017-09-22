@@ -68,6 +68,7 @@ elfutils-libs
 emacs-filesystem
 expat
 extlinux-bootloader
+fedora-gpg-keys
 fedora-release
 fedora-repos
 fedora-repos-rawhide

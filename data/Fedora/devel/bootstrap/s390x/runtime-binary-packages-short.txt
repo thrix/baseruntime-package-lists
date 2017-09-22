@@ -110,6 +110,7 @@ emacs-filesystem
 ethtool
 expat
 fcoe-utils
+fedora-gpg-keys
 fedora-logos
 fedora-release
 fedora-repos

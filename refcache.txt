@@ -813,6 +813,7 @@ fedora-release-27-0.2:ffa1145ff39443b36013e1b74964bcf87d9c3f40
 fedora-release-28-0.1:710893c91148ac4dc1c8897cc876d9deeb7264db
 fedora-repos-27-0.2:20c64c6541dd249763f63d05f7590f1cc777eeb1
 fedora-repos-28-0.1:2a8b8ab6bd58877b587cec368e280b64989aeec2
+fedora-repos-28-0.2:90d89ea6c3dbde6acf419ab5adbd098eac117438
 fedora-rpm-macros-26-3.fc27:26fa0d9e9c6a659c4084daf452e52f1815085ca2
 fedpkg-minimal-1.1.0-8.fc26:026cc9ca12187f6204cf32c552225865eb71f184
 fedpkg-minimal-1.1.0-9.fc27:cffe61e37baf0d8ec9c35e16beb0d1a8405e3299

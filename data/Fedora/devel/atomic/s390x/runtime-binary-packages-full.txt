@@ -67,9 +67,10 @@ elfutils-libelf-0.170-1.fc27.s390x
 elfutils-libs-0.170-1.fc27.s390x
 emacs-filesystem-1:25.2-9.fc28.noarch
 expat-2.2.4-1.fc28.s390x
+fedora-gpg-keys-28-0.2.noarch
 fedora-release-28-0.1.noarch
-fedora-repos-28-0.1.noarch
-fedora-repos-rawhide-28-0.1.noarch
+fedora-repos-28-0.2.noarch
+fedora-repos-rawhide-28-0.2.noarch
 file-libs-5.32-1.fc28.s390x
 filesystem-3.3-3.fc27.s390x
 findutils-1:4.6.0-14.fc27.s390x

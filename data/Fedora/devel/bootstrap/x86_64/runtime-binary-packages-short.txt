@@ -116,6 +116,7 @@ ethtool
 expat
 fbset
 fcoe-utils
+fedora-gpg-keys
 fedora-logos
 fedora-release
 fedora-repos

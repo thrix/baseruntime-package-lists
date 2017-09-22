@@ -829,6 +829,7 @@ fasterxml-oss-parent
 fastutil
 fbset
 fcoe-utils
+fedora-gpg-keys
 fedora-logos
 fedora-logos-httpd
 fedora-release

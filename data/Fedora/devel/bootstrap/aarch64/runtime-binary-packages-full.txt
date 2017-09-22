@@ -116,10 +116,11 @@ expat-2.2.4-1.fc28.aarch64
 extlinux-bootloader-1.2-3.fc27.aarch64
 fbset-2.1-43.fc27.aarch64
 fcoe-utils-1.0.32-3.fc27.aarch64
+fedora-gpg-keys-28-0.2.noarch
 fedora-logos-26.0.1-3.fc27.aarch64
 fedora-release-28-0.1.noarch
-fedora-repos-28-0.1.noarch
-fedora-repos-rawhide-28-0.1.noarch
+fedora-repos-28-0.2.noarch
+fedora-repos-rawhide-28-0.2.noarch
 fedora-rpm-macros-26-3.fc27.noarch
 fedpkg-minimal-1.1.0-9.fc27.noarch
 file-5.32-1.fc28.aarch64
