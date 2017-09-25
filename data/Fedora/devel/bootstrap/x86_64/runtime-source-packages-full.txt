@@ -136,7 +136,7 @@ ipset-6.32-1.fc27.src
 iptables-1.6.1-4.fc27.src
 iputils-20161105-7.fc27.src
 iscsi-initiator-utils-6.2.0.874-7.git86e8892.fc28.src
-isl-0.16.1-3.fc27.src
+isl-0.16.1-4.fc28.src
 isns-utils-0.97-5.fc27.src
 isomd5sum-1:1.2.1-4.fc28.src
 jansson-2.10-4.fc27.src
