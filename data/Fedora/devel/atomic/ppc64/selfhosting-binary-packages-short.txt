@@ -61,6 +61,7 @@ SDL_sound-devel
 Xaw3d
 Xaw3d-devel
 a2ps
+aajohan-comfortaa-fonts
 aalto-xml
 acl
 acpica-tools
@@ -3940,7 +3941,6 @@ platform-python-devel
 platform-python-hypothesis
 platform-python-libs
 platform-python-libs-devel
-platform-python-nose
 platform-python-py
 platform-python-pytest
 platform-python-rpm-macros
