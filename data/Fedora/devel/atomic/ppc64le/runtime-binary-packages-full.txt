@@ -68,10 +68,10 @@ elfutils-libelf-0.170-1.fc27.ppc64le
 elfutils-libs-0.170-1.fc27.ppc64le
 emacs-filesystem-1:25.2-9.fc28.noarch
 expat-2.2.4-1.fc28.ppc64le
-fedora-gpg-keys-28-0.2.noarch
+fedora-gpg-keys-28-0.3.noarch
 fedora-release-28-0.1.noarch
-fedora-repos-28-0.2.noarch
-fedora-repos-rawhide-28-0.2.noarch
+fedora-repos-28-0.3.noarch
+fedora-repos-rawhide-28-0.3.noarch
 file-5.32-1.fc28.ppc64le
 file-libs-5.32-1.fc28.ppc64le
 filesystem-3.3-3.fc27.ppc64le

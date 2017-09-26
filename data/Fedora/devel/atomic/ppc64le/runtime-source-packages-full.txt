@@ -45,7 +45,7 @@ elfutils-0.170-1.fc27.src
 emacs-1:25.2-9.fc28.src
 expat-2.2.4-1.fc28.src
 fedora-release-28-0.1.src
-fedora-repos-28-0.2.src
+fedora-repos-28-0.3.src
 file-5.32-1.fc28.src
 filesystem-3.3-3.fc27.src
 findutils-1:4.6.0-14.fc27.src
