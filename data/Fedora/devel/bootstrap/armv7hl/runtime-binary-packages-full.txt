@@ -338,8 +338,8 @@ libyaml-0.1.7-4.fc27.armv7hl
 linux-firmware-20170622-75.gita3a26af2.fc27.noarch
 lksctp-tools-1.0.16-8.fc27.armv7hl
 lldpad-1.0.1-8.git036e314.fc27.armv7hl
-lorax-27.10-boltron.4.fc27.armv7hl
-lorax-templates-generic-27.10-boltron.4.fc27.armv7hl
+lorax-27.10-boltron.5.fc27.armv7hl
+lorax-templates-generic-27.10-boltron.5.fc27.armv7hl
 lsof-4.89-7.fc27.armv7hl
 lsscsi-0.28-6.fc27.armv7hl
 lua-libs-5.3.4-5.fc27.armv7hl
