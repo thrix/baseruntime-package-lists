@@ -26,7 +26,6 @@ SDL2_mixer
 SDL_sound
 Xaw3d
 a2ps
-aajohan-comfortaa-fonts
 aalto-xml
 acl
 acpica-tools
@@ -1159,7 +1158,6 @@ lucene4
 lutok
 lvm2
 lynx
-lyx
 lz4
 lz4-java
 lzip
@@ -1297,7 +1295,6 @@ mybatis
 mybatis-parent
 mysema-commons-lang
 mysql-connector-java
-mythes
 nailgun
 nano
 narayana
@@ -2656,7 +2653,6 @@ python-zope-interface
 python2
 python2-typing
 python3
-python3-cairo
 python3-mallard-ducktype
 pytz
 pywbem

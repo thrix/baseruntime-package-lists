@@ -62,7 +62,6 @@ SDL_sound-devel
 Xaw3d
 Xaw3d-devel
 a2ps
-aajohan-comfortaa-fonts
 aalto-xml
 acl
 acpica-tools
@@ -2494,7 +2493,6 @@ lvm2
 lvm2-devel
 lvm2-libs
 lynx
-lyx-fonts
 lz4
 lz4-devel
 lz4-java
@@ -2744,8 +2742,6 @@ mybatis
 mybatis-parent
 mysema-commons-lang
 mysql-connector-java
-mythes
-mythes-devel
 nailgun
 nano
 narayana
@@ -4055,6 +4051,7 @@ platform-python-devel
 platform-python-hypothesis
 platform-python-libs
 platform-python-libs-devel
+platform-python-nose
 platform-python-py
 platform-python-pytest
 platform-python-rpm-macros
@@ -4172,8 +4169,6 @@ publicsuffix-list-dafsa
 pulseaudio-libs
 pulseaudio-libs-devel
 pulseaudio-libs-glib2
-pycairo
-pycairo-devel
 pycryptopp
 pyflakes
 pygobject2
@@ -4188,7 +4183,6 @@ pygtk2-doc
 pyliblzma
 python-backports-ssl_match_hostname
 python-docker-py
-python-gobject-base
 python-keyczar
 python-ldb-devel-common
 python-pep8
@@ -4222,6 +4216,8 @@ python2-beautifulsoup4
 python2-blinker
 python2-boost
 python2-bottle
+python2-cairo
+python2-cairo-devel
 python2-cffi
 python2-chardet
 python2-cliapp
@@ -4256,6 +4252,7 @@ python2-futures
 python2-gflags
 python2-gluster
 python2-gobject
+python2-gobject-base
 python2-google-apputils
 python2-gpg
 python2-hawkey
