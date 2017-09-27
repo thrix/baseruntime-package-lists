@@ -333,7 +333,7 @@ shadow-utils-2:4.5-4.fc27.ppc64
 sos-3.4-2.fc27.noarch
 sqlite-libs-3.20.1-1.fc28.ppc64
 sssd-client-1.15.3-2.fc27.ppc64
-strace-4.18-3.fc27.ppc64
+strace-4.19-1.fc28.ppc64
 sudo-1.8.20p2-3.fc27.ppc64
 systemd-234-6.fc28.ppc64
 systemd-libs-234-6.fc28.ppc64

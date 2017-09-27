@@ -3074,7 +3074,7 @@ stax-ex-1.7.7-7.fc27.src
 stax2-api-4.0.0-3.fc27.src
 staxmapper-1.2.0-3.fc27.src
 staxmate-2.3.0-5.fc27.src
-strace-4.18-3.fc27.src
+strace-4.19-1.fc28.src
 stream-lib-2.6.0-8.fc27.src
 stringtemplate-3.2.1-12.fc24.src
 stringtemplate4-4.0.8-5.fc27.src

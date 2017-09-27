@@ -353,7 +353,7 @@ skopeo-containers-0.1.23-6.git1bbd87f.fc28.s390x
 sos-3.4-2.fc27.noarch
 sqlite-libs-3.20.1-1.fc28.s390x
 sssd-client-1.15.3-2.fc27.s390x
-strace-4.18-3.fc27.s390x
+strace-4.19-1.fc28.s390x
 sudo-1.8.20p2-3.fc27.s390x
 systemd-234-6.fc28.s390x
 systemd-container-234-6.fc28.s390x

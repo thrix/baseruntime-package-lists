@@ -246,7 +246,7 @@ skopeo-0.1.23-6.git1bbd87f.fc28.src
 sos-3.4-2.fc27.src
 sqlite-3.20.1-1.fc28.src
 sssd-1.15.3-2.fc27.src
-strace-4.18-3.fc27.src
+strace-4.19-1.fc28.src
 sudo-1.8.20p2-3.fc27.src
 systemd-234-6.fc28.src
 tar-2:1.29-7.fc27.src
