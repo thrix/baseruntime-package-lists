@@ -4649,6 +4649,7 @@ rmt-2:1.5.3-10.fc27.aarch64
 rngom-201103-0.15.20120119svn.fc27.noarch
 rome-1.7.0-3.fc27.noarch
 rome-utils-1.7.0-3.fc27.noarch
+rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.aarch64
 rpm-4.14.0-0.rc1.2.fc28.aarch64
 rpm-build-4.14.0-0.rc1.2.fc28.aarch64

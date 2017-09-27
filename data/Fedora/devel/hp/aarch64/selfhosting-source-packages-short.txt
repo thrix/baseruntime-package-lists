@@ -2751,6 +2751,7 @@ rhq-plugin-annotations
 rmic-maven-plugin
 rngom
 rome
+rootfiles
 rpcbind
 rpm
 rpm-mpi-hooks

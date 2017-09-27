@@ -240,6 +240,7 @@ qt5
 quota
 readline
 redhat-rpm-config
+rootfiles
 rpcbind
 rpm
 rsync

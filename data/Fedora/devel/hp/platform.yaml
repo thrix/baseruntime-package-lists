@@ -1356,6 +1356,11 @@ data:
                 rationale: >-
                     Base RPM macros.
                 ref: 6d23bc8dc055c208eb8afbb02a543474716c1670
+            # rootfiles-8.1-21.fc27
+            rootfiles:
+                rationale: >-
+                    Basic files for the root's home.
+                ref: 637a460d1a4d4ff432c69a5abba96dbfa4558873
             # rpcbind-0.2.4-7.rc2.fc27.2
             rpcbind:
                 rationale: >-

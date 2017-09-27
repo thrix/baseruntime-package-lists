@@ -4618,6 +4618,7 @@ rmt
 rngom
 rome
 rome-utils
+rootfiles
 rpcbind
 rpm
 rpm-build

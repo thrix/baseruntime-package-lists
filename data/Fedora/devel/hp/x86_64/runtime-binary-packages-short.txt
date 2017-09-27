@@ -374,6 +374,7 @@ quota
 quota-nls
 readline
 redhat-rpm-config
+rootfiles
 rpcbind
 rpm
 rpm-build

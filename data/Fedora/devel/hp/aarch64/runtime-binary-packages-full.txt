@@ -365,6 +365,7 @@ quota-1:4.03-9.fc27.aarch64
 quota-nls-1:4.03-9.fc27.noarch
 readline-7.0-7.fc27.aarch64
 redhat-rpm-config-67-1.fc27.noarch
+rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.aarch64
 rpm-4.14.0-0.rc1.2.fc28.aarch64
 rpm-build-4.14.0-0.rc1.2.fc28.aarch64
