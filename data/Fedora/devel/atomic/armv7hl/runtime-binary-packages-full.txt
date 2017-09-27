@@ -173,8 +173,8 @@ libref_array-0.1.5-33.fc27.armv7hl
 librepo-1.8.0-1.fc28.armv7hl
 libreport-filesystem-2.9.2-2.fc28.armv7hl
 libseccomp-2.3.2-5.fc27.armv7hl
-libselinux-2.7-3.fc28.armv7hl
-libselinux-utils-2.7-3.fc28.armv7hl
+libselinux-2.7-4.fc28.armv7hl
+libselinux-utils-2.7-4.fc28.armv7hl
 libsemanage-2.7-3.fc28.armv7hl
 libsepol-2.7-1.fc27.armv7hl
 libsigsegv-2.11-3.fc27.armv7hl
@@ -274,7 +274,7 @@ python2-enum34-1.1.6-3.fc28.noarch
 python2-idna-2.5-2.fc27.noarch
 python2-ipaddress-1.0.18-3.fc28.noarch
 python2-libs-2.7.13-17.fc27.armv7hl
-python2-libselinux-2.7-3.fc28.armv7hl
+python2-libselinux-2.7-4.fc28.armv7hl
 python2-libsemanage-2.7-3.fc28.armv7hl
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-4.fc27.noarch
@@ -307,7 +307,7 @@ python3-jsonpatch-1.14-4.fc27.noarch
 python3-jsonpointer-1.10-7.fc27.noarch
 python3-jwt-1.5.2-3.fc27.noarch
 python3-libs-3.6.2-11.fc27.armv7hl
-python3-libselinux-2.7-3.fc28.armv7hl
+python3-libselinux-2.7-4.fc28.armv7hl
 python3-libsemanage-2.7-3.fc28.armv7hl
 python3-libxml2-2.9.5-1.fc28.armv7hl
 python3-markupsafe-0.23-16.fc27.armv7hl

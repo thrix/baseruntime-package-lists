@@ -48,14 +48,14 @@ name=fedora
 metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$RELEASEVER&arch=\$basearch
 failovermethod=priority
 gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$VERNUM-primary
-gpgcheck=1
+gpgcheck=0
 
 [updates]
 name=updates
 metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$RELEASEVER&arch=\$basearch
 failovermethod=priority
 gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$VERNUM-primary
-gpgcheck=1
+gpgcheck=0
 """
 
 EOF

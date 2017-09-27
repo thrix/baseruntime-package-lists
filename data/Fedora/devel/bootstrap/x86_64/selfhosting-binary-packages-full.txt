@@ -2304,9 +2304,9 @@ libseccomp-devel-2.3.2-5.fc27.x86_64
 libseccomp-static-2.3.2-5.fc27.x86_64
 libsecret-0.18.5-5.fc27.x86_64
 libsecret-devel-0.18.5-5.fc27.x86_64
-libselinux-2.7-3.fc28.x86_64
-libselinux-devel-2.7-3.fc28.x86_64
-libselinux-utils-2.7-3.fc28.x86_64
+libselinux-2.7-4.fc28.x86_64
+libselinux-devel-2.7-4.fc28.x86_64
+libselinux-utils-2.7-4.fc28.x86_64
 libsemanage-2.7-3.fc28.x86_64
 libsemanage-devel-2.7-3.fc28.x86_64
 libsemanage-static-2.7-3.fc28.x86_64
@@ -4379,7 +4379,7 @@ python2-libplist-2.0.0-5.fc28.x86_64
 python2-librepo-1.8.0-1.fc28.x86_64
 python2-libreport-2.9.2-2.fc28.x86_64
 python2-libs-2.7.13-17.fc27.x86_64
-python2-libselinux-2.7-3.fc28.x86_64
+python2-libselinux-2.7-4.fc28.x86_64
 python2-libsemanage-2.7-3.fc28.x86_64
 python2-libxml2-2.9.5-1.fc28.x86_64
 python2-linecache2-1.0.0-11.fc28.noarch
@@ -4582,7 +4582,7 @@ python3-libcomps-0.1.8-6.fc28.x86_64
 python3-librepo-1.8.0-1.fc28.x86_64
 python3-libreport-2.9.2-2.fc28.x86_64
 python3-libs-3.6.2-11.fc27.x86_64
-python3-libselinux-2.7-3.fc28.x86_64
+python3-libselinux-2.7-4.fc28.x86_64
 python3-libsemanage-2.7-3.fc28.x86_64
 python3-libstoragemgmt-1.4.0-4.fc28.noarch
 python3-libstoragemgmt-clibs-1.4.0-4.fc28.x86_64

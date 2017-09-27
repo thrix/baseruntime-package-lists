@@ -242,8 +242,8 @@ librepo-1.8.0-1.fc28.ppc64le
 libreport-filesystem-2.9.2-2.fc28.ppc64le
 libseccomp-2.3.2-5.fc27.ppc64le
 libsecret-0.18.5-5.fc27.ppc64le
-libselinux-2.7-3.fc28.ppc64le
-libselinux-utils-2.7-3.fc28.ppc64le
+libselinux-2.7-4.fc28.ppc64le
+libselinux-utils-2.7-4.fc28.ppc64le
 libsemanage-2.7-3.fc28.ppc64le
 libsepol-2.7-1.fc27.ppc64le
 libsigsegv-2.11-3.fc27.ppc64le
@@ -345,7 +345,7 @@ python3-iniparse-0.4-26.fc28.noarch
 python3-libcomps-0.1.8-6.fc28.ppc64le
 python3-librepo-1.8.0-1.fc28.ppc64le
 python3-libs-3.6.2-11.fc27.ppc64le
-python3-libselinux-2.7-3.fc28.ppc64le
+python3-libselinux-2.7-4.fc28.ppc64le
 python3-libsemanage-2.7-3.fc28.ppc64le
 python3-modulemd-1.3.0-1.fc28.noarch
 python3-pip-9.0.1-11.fc27.noarch

@@ -2194,9 +2194,9 @@ libseccomp-2.3.2-5.fc27.aarch64
 libseccomp-devel-2.3.2-5.fc27.aarch64
 libsecret-0.18.5-5.fc27.aarch64
 libsecret-devel-0.18.5-5.fc27.aarch64
-libselinux-2.7-3.fc28.aarch64
-libselinux-devel-2.7-3.fc28.aarch64
-libselinux-utils-2.7-3.fc28.aarch64
+libselinux-2.7-4.fc28.aarch64
+libselinux-devel-2.7-4.fc28.aarch64
+libselinux-utils-2.7-4.fc28.aarch64
 libsemanage-2.7-3.fc28.aarch64
 libsemanage-devel-2.7-3.fc28.aarch64
 libsemanage-static-2.7-3.fc28.aarch64
@@ -4371,7 +4371,7 @@ python3-ldb-devel-1.2.1-3.fc27.aarch64
 python3-libcomps-0.1.8-6.fc28.aarch64
 python3-librepo-1.8.0-1.fc28.aarch64
 python3-libs-3.6.2-11.fc27.aarch64
-python3-libselinux-2.7-3.fc28.aarch64
+python3-libselinux-2.7-4.fc28.aarch64
 python3-libsemanage-2.7-3.fc28.aarch64
 python3-libstoragemgmt-1.4.0-4.fc28.noarch
 python3-libstoragemgmt-clibs-1.4.0-4.fc28.aarch64
