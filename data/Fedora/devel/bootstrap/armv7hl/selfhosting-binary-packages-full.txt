@@ -1944,8 +1944,8 @@ libbonoboui-2.24.5-13.fc27.armv7hl
 libbonoboui-devel-2.24.5-13.fc27.armv7hl
 libbs2b-3.1.0-19.fc27.armv7hl
 libbs2b-devel-3.1.0-19.fc27.armv7hl
-libbytesize-0.11-4.fc28.armv7hl
-libbytesize-devel-0.11-4.fc28.armv7hl
+libbytesize-1.0-1.fc28.armv7hl
+libbytesize-devel-1.0-1.fc28.armv7hl
 libc-client-2007f-17.fc27.armv7hl
 libcacard-3:2.5.3-3.fc27.armv7hl
 libcacard-devel-3:2.5.3-3.fc27.armv7hl
@@ -4418,7 +4418,7 @@ python3-blivet-1:2.1.10-1.fc28.noarch
 python3-blockdev-2.11-1.fc27.armv7hl
 python3-bottle-0.12.9-5.fc26.noarch
 python3-bugzilla-2.1.0-3.fc28.noarch
-python3-bytesize-0.11-4.fc28.armv7hl
+python3-bytesize-1.0-1.fc28.armv7hl
 python3-cairo-1.15.3-1.fc28.armv7hl
 python3-cairo-devel-1.15.3-1.fc28.armv7hl
 python3-cffi-1.11.0-2.fc28.armv7hl

@@ -1848,8 +1848,8 @@ libbonoboui-2.24.5-13.fc27.s390x
 libbonoboui-devel-2.24.5-13.fc27.s390x
 libbs2b-3.1.0-19.fc27.s390x
 libbs2b-devel-3.1.0-19.fc27.s390x
-libbytesize-0.11-4.fc28.s390x
-libbytesize-devel-0.11-4.fc28.s390x
+libbytesize-1.0-1.fc28.s390x
+libbytesize-devel-1.0-1.fc28.s390x
 libc-client-2007f-17.fc27.s390x
 libcacard-3:2.5.3-3.fc27.s390x
 libcacard-devel-3:2.5.3-3.fc27.s390x

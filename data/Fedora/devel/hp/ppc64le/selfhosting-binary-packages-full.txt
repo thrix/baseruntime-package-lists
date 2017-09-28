@@ -1872,8 +1872,8 @@ libbonoboui-2.24.5-13.fc27.ppc64le
 libbonoboui-devel-2.24.5-13.fc27.ppc64le
 libbs2b-3.1.0-19.fc27.ppc64le
 libbs2b-devel-3.1.0-19.fc27.ppc64le
-libbytesize-0.11-4.fc28.ppc64le
-libbytesize-devel-0.11-4.fc28.ppc64le
+libbytesize-1.0-1.fc28.ppc64le
+libbytesize-devel-1.0-1.fc28.ppc64le
 libc-client-2007f-17.fc27.ppc64le
 libcacard-3:2.5.3-3.fc27.ppc64le
 libcacard-devel-3:2.5.3-3.fc27.ppc64le

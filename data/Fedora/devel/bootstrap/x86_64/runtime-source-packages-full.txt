@@ -156,7 +156,7 @@ libarchive-3.3.1-3.fc27.src
 libassuan-2.4.3-6.fc27.src
 libatomic_ops-7.4.6-3.fc27.src
 libblockdev-2.11-1.fc27.src
-libbytesize-0.11-4.fc28.src
+libbytesize-1.0-1.fc28.src
 libcap-2.25-7.fc27.src
 libcap-ng-0.7.8-7.fc28.src
 libcgroup-0.41-13.fc27.src

@@ -955,7 +955,7 @@ libbluray-1.0.1-1.fc27.src
 libbonobo-2.32.1-13.fc27.src
 libbonoboui-2.24.5-13.fc27.src
 libbs2b-3.1.0-19.fc27.src
-libbytesize-0.11-4.fc28.src
+libbytesize-1.0-1.fc28.src
 libcacard-3:2.5.3-3.fc27.src
 libcanberra-0.30-15.fc27.src
 libcap-2.25-7.fc27.src

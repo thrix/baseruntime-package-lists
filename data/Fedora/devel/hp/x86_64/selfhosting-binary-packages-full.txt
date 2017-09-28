@@ -1905,8 +1905,8 @@ libbonoboui-2.24.5-13.fc27.x86_64
 libbonoboui-devel-2.24.5-13.fc27.x86_64
 libbs2b-3.1.0-19.fc27.x86_64
 libbs2b-devel-3.1.0-19.fc27.x86_64
-libbytesize-0.11-4.fc28.x86_64
-libbytesize-devel-0.11-4.fc28.x86_64
+libbytesize-1.0-1.fc28.x86_64
+libbytesize-devel-1.0-1.fc28.x86_64
 libc-client-2007f-17.fc27.x86_64
 libcacard-3:2.5.3-3.fc27.x86_64
 libcacard-devel-3:2.5.3-3.fc27.x86_64
