@@ -210,12 +210,12 @@ python-docker-pycreds-0.2.1-5.fc27.src
 python-enum34-1.1.6-3.fc28.src
 python-idna-2.5-2.fc27.src
 python-ipaddress-1.0.18-3.fc28.src
-python-jinja2-2.9.6-2.fc27.src
-python-jsonpatch-1.14-4.fc27.src
-python-jsonpointer-1.10-7.fc27.src
+python-jinja2-2.9.6-3.fc28.src
+python-jsonpatch-1.14-5.fc28.src
+python-jsonpointer-1.10-8.fc28.src
 python-jwt-1.5.2-3.fc27.src
 python-markupsafe-0.23-16.fc27.src
-python-oauthlib-2.0.1-4.fc27.src
+python-oauthlib-2.0.1-5.fc28.src
 python-pip-9.0.1-11.fc27.src
 python-ply-3.9-5.fc28.src
 python-prettytable-0.7.2-12.fc28.src
@@ -227,7 +227,7 @@ python-setuptools-36.2.0-7.fc28.src
 python-six-1.10.0-11.fc28.src
 python-slip-0.6.4-8.fc28.src
 python-urllib3-1.22-2.fc27.src
-python-websocket-client-0.40.0-2.fc27.src
+python-websocket-client-0.40.0-3.fc28.src
 python2-2.7.13-17.fc27.src
 python3-3.6.2-11.fc27.src
 qrencode-3.4.4-3.fc27.src

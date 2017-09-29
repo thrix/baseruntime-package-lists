@@ -4209,7 +4209,6 @@ python-rpm-macros
 python-sphinx-locale
 python-srpm-macros
 python-websocket-client
-python-werkzeug
 python-xpyb-devel
 python2
 python2-Cython
@@ -4395,6 +4394,7 @@ python2-waitress
 python2-webencodings
 python2-webob
 python2-webtest
+python2-werkzeug
 python2-wheel
 python2-which
 python2-whoosh
