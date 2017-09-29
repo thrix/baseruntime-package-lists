@@ -60,6 +60,7 @@ SDL_sound-devel-1.0.3-19.fc27.x86_64
 Xaw3d-1.6.2-12.fc27.x86_64
 Xaw3d-devel-1.6.2-12.fc27.x86_64
 a2ps-4.14-32.fc27.x86_64
+aajohan-comfortaa-fonts-2.004-8.fc27.noarch
 aalto-xml-1.0.0-4.fc28.noarch
 acl-2.2.52-18.fc27.x86_64
 acpica-tools-20170728-3.fc28.x86_64
@@ -1959,8 +1960,8 @@ libdhash-0.4.3-33.fc27.x86_64
 libdhash-devel-0.4.3-33.fc27.x86_64
 libdmx-1.1.3-9.fc27.x86_64
 libdmx-devel-1.1.3-9.fc27.x86_64
-libdnf-0.9.3-7.fc28.x86_64
-libdnf-devel-0.9.3-7.fc28.x86_64
+libdnf-0.9.3-6.module_fde169a6.modularity.2.x86_64
+libdnf-devel-0.9.3-6.module_fde169a6.modularity.2.x86_64
 libdrm-2.4.82-3.fc27.x86_64
 libdrm-devel-2.4.82-3.fc27.x86_64
 libdv-1.0.0-25.fc27.x86_64
@@ -4035,7 +4036,6 @@ platform-python-devel-3.6.2-12.fc28.x86_64
 platform-python-hypothesis-3.12.0-4.fc28.noarch
 platform-python-libs-3.6.2-12.fc28.x86_64
 platform-python-libs-devel-3.6.2-12.fc28.x86_64
-platform-python-nose-1.3.7-15.fc28.noarch
 platform-python-py-1.4.34-5.fc28.noarch
 platform-python-pytest-3.2.1-3.fc28.noarch
 platform-python-rpm-macros-3-22.fc27.noarch
@@ -4229,7 +4229,7 @@ python2-gobject-3.26.0-2.fc28.x86_64
 python2-gobject-base-3.26.0-2.fc28.x86_64
 python2-google-apputils-0.4.2-10.fc28.noarch
 python2-gpg-1.9.0-6.fc28.x86_64
-python2-hawkey-0.9.3-7.fc28.x86_64
+python2-hawkey-0.9.3-6.module_fde169a6.modularity.2.x86_64
 python2-html5lib-1:0.999999999-3.fc27.noarch
 python2-http-parser-0.8.3-13.fc28.x86_64
 python2-httpbin-0.5.0-7.fc27.noarch
@@ -4403,7 +4403,7 @@ python3-gobject-3.26.0-2.fc28.x86_64
 python3-gobject-base-3.26.0-2.fc28.x86_64
 python3-google-apputils-0.4.2-10.fc28.noarch
 python3-gpg-1.9.0-6.fc28.x86_64
-python3-hawkey-0.9.3-7.fc28.x86_64
+python3-hawkey-0.9.3-6.module_fde169a6.modularity.2.x86_64
 python3-html5lib-1:0.999999999-3.fc27.noarch
 python3-httpbin-0.5.0-7.fc27.noarch
 python3-hypothesis-3.12.0-4.fc28.noarch

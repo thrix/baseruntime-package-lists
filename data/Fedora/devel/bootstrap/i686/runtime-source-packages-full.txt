@@ -162,7 +162,7 @@ libconfig-1.5-7.fc27.src
 libcroco-0.6.12-3.fc27.src
 libdaemon-0.14-13.fc27.src
 libdb-5.3.28-26.fc27.src
-libdnf-0.9.3-7.fc28.src
+libdnf-0.9.3-6.module_fde169a6.modularity.2.src
 libedit-3.1-20.20170329cvs.fc27.src
 libev-4.24-4.fc27.src
 libevent-2.0.22-6.fc27.src

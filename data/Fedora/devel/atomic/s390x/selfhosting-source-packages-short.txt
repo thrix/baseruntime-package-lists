@@ -25,6 +25,7 @@ SDL2_mixer
 SDL_sound
 Xaw3d
 a2ps
+aajohan-comfortaa-fonts
 aalto-xml
 acl
 acpica-tools
