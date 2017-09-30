@@ -309,7 +309,7 @@ disruptor-3.3.6-3.fc27.src
 djvulibre-3.5.27-4.fc27.src
 dlm-4.0.6-5.fc27.src
 dmraid-1.0.0.rc16-34.fc27.src
-dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.src
+dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.src
 dnsjava-2.1.3-13.fc27.src
 dnsmasq-2.77-6.fc27.src
 docbook-dtds-1.0-67.fc27.src

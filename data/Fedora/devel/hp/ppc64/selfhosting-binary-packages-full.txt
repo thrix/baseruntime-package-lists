@@ -643,8 +643,8 @@ dlm-lib-4.0.6-5.fc27.ppc64
 dmraid-1.0.0.rc16-34.fc27.ppc64
 dmraid-devel-1.0.0.rc16-34.fc27.ppc64
 dmraid-events-1.0.0.rc16-34.fc27.ppc64
-dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
-dnf-conf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
+dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
+dnf-conf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
 dnsjava-2.1.3-13.fc27.noarch
 dnsmasq-2.77-6.fc27.ppc64
 docbook-dtds-1.0-67.fc27.noarch
@@ -4311,7 +4311,7 @@ python3-dateutil-1:2.6.0-4.fc27.noarch
 python3-dbus-1.2.4-10.fc28.ppc64
 python3-decorator-4.0.11-3.fc27.noarch
 python3-devel-3.6.2-11.fc27.ppc64
-python3-dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9.noarch
+python3-dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
 python3-docutils-0.13.1-7.fc28.noarch
 python3-extras-1.0.0-1.fc28.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
