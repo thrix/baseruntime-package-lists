@@ -195,7 +195,7 @@ lsof-4.89-7.fc27.src
 lsscsi-0.28-6.fc27.src
 lttng-ust-2.10.0-2.fc28.src
 lua-5.3.4-5.fc27.src
-lvm2-2.02.173-4.fc27.src
+lvm2-2.02.174-2.fc28.src
 lz4-1.8.0-1.fc28.src
 lzo-2.08-11.fc27.src
 m4-1.4.18-5.fc27.src

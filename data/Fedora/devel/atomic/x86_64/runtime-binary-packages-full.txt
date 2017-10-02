@@ -47,10 +47,10 @@ dbus-1:1.11.16-4.fc27.x86_64
 dbus-glib-0.108-4.fc27.x86_64
 dbus-libs-1:1.11.16-4.fc27.x86_64
 dbxtool-7-6.fc27.x86_64
-device-mapper-1.02.142-4.fc27.x86_64
-device-mapper-event-1.02.142-4.fc27.x86_64
-device-mapper-event-libs-1.02.142-4.fc27.x86_64
-device-mapper-libs-1.02.142-4.fc27.x86_64
+device-mapper-1.02.143-2.fc28.x86_64
+device-mapper-event-1.02.143-2.fc28.x86_64
+device-mapper-event-libs-1.02.143-2.fc28.x86_64
+device-mapper-libs-1.02.143-2.fc28.x86_64
 device-mapper-persistent-data-0.7.0-0.6.rc6.fc27.x86_64
 dhcp-client-12:4.3.6-4.fc27.x86_64
 dhcp-common-12:4.3.6-4.fc27.noarch
@@ -226,8 +226,8 @@ libyaml-0.1.7-4.fc27.x86_64
 linux-firmware-20170622-75.gita3a26af2.fc27.noarch
 lsof-4.89-7.fc27.x86_64
 lua-libs-5.3.4-5.fc27.x86_64
-lvm2-2.02.173-4.fc27.x86_64
-lvm2-libs-2.02.173-4.fc27.x86_64
+lvm2-2.02.174-2.fc28.x86_64
+lvm2-libs-2.02.174-2.fc28.x86_64
 lz4-libs-1.8.0-1.fc28.x86_64
 lzo-2.08-11.fc27.x86_64
 make-1:4.2.1-4.fc27.x86_64

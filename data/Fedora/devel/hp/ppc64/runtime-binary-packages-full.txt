@@ -40,10 +40,10 @@ dbus-glib-0.108-4.fc27.ppc64
 dbus-libs-1:1.11.16-4.fc27.ppc64
 deltarpm-3.6-24.fc27.ppc64
 desktop-file-utils-0.23-5.fc27.ppc64
-device-mapper-1.02.142-4.fc27.ppc64
-device-mapper-event-1.02.142-4.fc27.ppc64
-device-mapper-event-libs-1.02.142-4.fc27.ppc64
-device-mapper-libs-1.02.142-4.fc27.ppc64
+device-mapper-1.02.143-2.fc28.ppc64
+device-mapper-event-1.02.143-2.fc28.ppc64
+device-mapper-event-libs-1.02.143-2.fc28.ppc64
+device-mapper-libs-1.02.143-2.fc28.ppc64
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.ppc64
 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.ppc64
 dhcp-client-12:4.3.6-4.fc27.ppc64

@@ -70,10 +70,10 @@ dbus-libs-1:1.11.16-4.fc27.x86_64
 dbxtool-7-6.fc27.x86_64
 deltarpm-3.6-24.fc27.x86_64
 desktop-file-utils-0.23-5.fc27.x86_64
-device-mapper-1.02.142-4.fc27.x86_64
-device-mapper-event-1.02.142-4.fc27.x86_64
-device-mapper-event-libs-1.02.142-4.fc27.x86_64
-device-mapper-libs-1.02.142-4.fc27.x86_64
+device-mapper-1.02.143-2.fc28.x86_64
+device-mapper-event-1.02.143-2.fc28.x86_64
+device-mapper-event-libs-1.02.143-2.fc28.x86_64
+device-mapper-libs-1.02.143-2.fc28.x86_64
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.x86_64
 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.x86_64
 device-mapper-persistent-data-0.7.0-0.6.rc6.fc27.x86_64
@@ -365,8 +365,8 @@ lsof-4.89-7.fc27.x86_64
 lsscsi-0.28-6.fc27.x86_64
 lttng-ust-2.10.0-2.fc28.x86_64
 lua-libs-5.3.4-5.fc27.x86_64
-lvm2-2.02.173-4.fc27.x86_64
-lvm2-libs-2.02.173-4.fc27.x86_64
+lvm2-2.02.174-2.fc28.x86_64
+lvm2-libs-2.02.174-2.fc28.x86_64
 lz4-1.8.0-1.fc28.x86_64
 lz4-libs-1.8.0-1.fc28.x86_64
 lzo-2.08-11.fc27.x86_64

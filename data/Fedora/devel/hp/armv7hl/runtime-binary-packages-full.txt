@@ -40,10 +40,10 @@ dbus-glib-0.108-4.fc27.armv7hl
 dbus-libs-1:1.11.16-4.fc27.armv7hl
 deltarpm-3.6-24.fc27.armv7hl
 desktop-file-utils-0.23-5.fc27.armv7hl
-device-mapper-1.02.142-4.fc27.armv7hl
-device-mapper-event-1.02.142-4.fc27.armv7hl
-device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-device-mapper-libs-1.02.142-4.fc27.armv7hl
+device-mapper-1.02.143-2.fc28.armv7hl
+device-mapper-event-1.02.143-2.fc28.armv7hl
+device-mapper-event-libs-1.02.143-2.fc28.armv7hl
+device-mapper-libs-1.02.143-2.fc28.armv7hl
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 dhcp-client-12:4.3.6-4.fc27.armv7hl

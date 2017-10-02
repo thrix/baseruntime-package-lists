@@ -135,7 +135,7 @@ libyaml-0.1.7-4.fc27.src
 linux-firmware-20170622-75.gita3a26af2.fc27.src
 lsof-4.89-7.fc27.src
 lua-5.3.4-5.fc27.src
-lvm2-2.02.173-4.fc27.src
+lvm2-2.02.174-2.fc28.src
 lz4-1.8.0-1.fc28.src
 lzo-2.08-11.fc27.src
 make-1:4.2.1-4.fc27.src

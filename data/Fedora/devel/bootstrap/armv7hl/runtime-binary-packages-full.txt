@@ -67,10 +67,10 @@ dbus-glib-0.108-4.fc27.armv7hl
 dbus-libs-1:1.11.16-4.fc27.armv7hl
 deltarpm-3.6-24.fc27.armv7hl
 desktop-file-utils-0.23-5.fc27.armv7hl
-device-mapper-1.02.142-4.fc27.armv7hl
-device-mapper-event-1.02.142-4.fc27.armv7hl
-device-mapper-event-libs-1.02.142-4.fc27.armv7hl
-device-mapper-libs-1.02.142-4.fc27.armv7hl
+device-mapper-1.02.143-2.fc28.armv7hl
+device-mapper-event-1.02.143-2.fc28.armv7hl
+device-mapper-event-libs-1.02.143-2.fc28.armv7hl
+device-mapper-libs-1.02.143-2.fc28.armv7hl
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.armv7hl
 device-mapper-multipath-libs-0.7.1-6.git847cc43.fc27.armv7hl
 device-mapper-persistent-data-0.7.0-0.6.rc6.fc27.armv7hl
@@ -343,8 +343,8 @@ lorax-templates-generic-27.10-boltron.5.fc27.armv7hl
 lsof-4.89-7.fc27.armv7hl
 lsscsi-0.28-6.fc27.armv7hl
 lua-libs-5.3.4-5.fc27.armv7hl
-lvm2-2.02.173-4.fc27.armv7hl
-lvm2-libs-2.02.173-4.fc27.armv7hl
+lvm2-2.02.174-2.fc28.armv7hl
+lvm2-libs-2.02.174-2.fc28.armv7hl
 lz4-1.8.0-1.fc28.armv7hl
 lz4-libs-1.8.0-1.fc28.armv7hl
 lzo-2.08-11.fc27.armv7hl
