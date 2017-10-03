@@ -1436,7 +1436,7 @@ isns-utils-devel-0.97-5.fc27.x86_64
 isns-utils-libs-0.97-5.fc27.x86_64
 iso-codes-3.75-2.fc27.noarch
 iso-codes-devel-3.75-2.fc27.noarch
-isomd5sum-1:1.2.1-4.fc28.x86_64
+isomd5sum-1:1.2.1-4.fc27.x86_64
 isorelax-1:0-0.22.release20050331.fc27.noarch
 istack-commons-2.21-6.fc27.noarch
 istack-commons-maven-plugin-2.21-6.fc27.noarch

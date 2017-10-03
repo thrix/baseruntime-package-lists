@@ -206,7 +206,7 @@ iscsi-initiator-utils-6.2.0.874-7.git86e8892.fc28.x86_64
 iscsi-initiator-utils-iscsiuio-6.2.0.874-7.git86e8892.fc28.x86_64
 isl-0.16.1-4.fc28.x86_64
 isns-utils-libs-0.97-5.fc27.x86_64
-isomd5sum-1:1.2.1-4.fc28.x86_64
+isomd5sum-1:1.2.1-4.fc27.x86_64
 jansson-2.10-4.fc27.x86_64
 jbigkit-2.1-8.fc27.x86_64
 jbigkit-libs-2.1-8.fc27.x86_64

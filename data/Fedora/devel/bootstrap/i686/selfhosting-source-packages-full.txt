@@ -708,7 +708,7 @@ iscsi-initiator-utils-6.2.0.874-7.git86e8892.fc28.src
 isl-0.16.1-4.fc28.src
 isns-utils-0.97-5.fc27.src
 iso-codes-3.75-2.fc27.src
-isomd5sum-1:1.2.1-4.fc28.src
+isomd5sum-1:1.2.1-4.fc27.src
 isorelax-1:0-0.22.release20050331.fc27.src
 istack-commons-2.21-6.fc27.src
 itext-2.1.7-36.fc26.src
