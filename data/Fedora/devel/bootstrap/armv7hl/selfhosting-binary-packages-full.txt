@@ -2420,8 +2420,8 @@ libxml2-2.9.5-1.fc28.armv7hl
 libxml2-devel-2.9.5-1.fc28.armv7hl
 libxshmfence-1.2-6.fc27.armv7hl
 libxshmfence-devel-1.2-6.fc27.armv7hl
-libxslt-1.1.30-1.fc28.armv7hl
-libxslt-devel-1.1.30-1.fc28.armv7hl
+libxslt-1.1.30-2.fc28.armv7hl
+libxslt-devel-1.1.30-2.fc28.armv7hl
 libyaml-0.1.7-4.fc27.armv7hl
 libyaml-devel-0.1.7-4.fc27.armv7hl
 lightcouch-0.1.8-4.fc27.noarch
