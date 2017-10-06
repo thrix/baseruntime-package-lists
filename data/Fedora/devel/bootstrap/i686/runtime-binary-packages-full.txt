@@ -82,8 +82,8 @@ dhcp-libs-12:4.3.6-4.fc27.i686
 diffutils-3.6-3.fc27.i686
 dmraid-1.0.0.rc16-34.fc27.i686
 dmraid-events-1.0.0.rc16-34.fc27.i686
-dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
-dnf-conf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
+dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
+dnf-conf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
 docbook-dtds-1.0-67.fc27.noarch
 docbook-style-xsl-1.79.2-5.fc27.noarch
 docker-2:1.13.1-30.gitb5e3294.fc28.i686
@@ -268,7 +268,7 @@ libcurl-minimal-7.55.1-3.fc28.i686
 libdaemon-0.14-13.fc27.i686
 libdb-5.3.28-26.fc27.i686
 libdb-utils-5.3.28-26.fc27.i686
-libdnf-0.9.3-6.module_fde169a6.modularity.2.i686
+libdnf-0.10.1-2.module_042d0c64.modularity.1.i686
 libedit-3.1-20.20170329cvs.fc27.i686
 libev-4.24-4.fc27.i686
 libevent-2.0.22-6.fc27.i686
@@ -486,13 +486,13 @@ python3-cryptography-2.0.2-3.fc28.i686
 python3-dateutil-1:2.6.0-4.fc27.noarch
 python3-dbus-1.2.4-10.fc28.i686
 python3-decorator-4.0.11-3.fc27.noarch
-python3-dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22.noarch
+python3-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
 python3-docker-2.5.1-1.fc28.noarch
 python3-docker-pycreds-0.2.1-5.fc27.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
 python3-gobject-base-3.26.0-2.fc28.i686
 python3-gpg-1.9.0-6.fc28.i686
-python3-hawkey-0.9.3-6.module_fde169a6.modularity.2.i686
+python3-hawkey-0.10.1-2.module_042d0c64.modularity.1.i686
 python3-idna-2.5-2.fc27.noarch
 python3-iniparse-0.4-26.fc28.noarch
 python3-iscsi-initiator-utils-6.2.0.874-7.git86e8892.fc28.i686
