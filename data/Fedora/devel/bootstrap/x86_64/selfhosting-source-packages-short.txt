@@ -2682,6 +2682,7 @@ python-kerberos
 python-keyczar
 python-keyring
 python-kmod
+python-krbV
 python-lazy-object-proxy
 python-linecache2
 python-lit

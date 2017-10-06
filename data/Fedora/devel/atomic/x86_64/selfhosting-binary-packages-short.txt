@@ -4283,6 +4283,8 @@ python2-jsonschema
 python2-jwt
 python2-kerberos
 python2-keyring
+python2-koji
+python2-krbv
 python2-ldb
 python2-ldb-devel
 python2-libcomps
@@ -4350,6 +4352,7 @@ python2-pyyaml
 python2-reportlab
 python2-repoze-lru
 python2-requests
+python2-requests-kerberos
 python2-restkit
 python2-rpm
 python2-rpm-macros

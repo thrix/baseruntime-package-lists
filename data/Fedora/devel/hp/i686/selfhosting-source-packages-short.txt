@@ -2592,6 +2592,7 @@ python-kerberos
 python-keyczar
 python-keyring
 python-kmod
+python-krbV
 python-linecache2
 python-lit
 python-lxml

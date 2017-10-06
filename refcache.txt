@@ -203,6 +203,7 @@ apr-util-1.5.4-5.fc26:da6ea7df3cbdb77cdad2d7946edf7ffd574209d7
 apr-util-1.6.0-1.fc28:6eff04c04b5c61179730d5cc9b39fa82e3eac6f8
 aqute-bnd-3.3.0-6.fc26:578221d71da1498f1f0a688067b390e64ea1eba0
 aqute-bnd-3.3.0-7.fc27:4624924dae090504b8d69e6833067e5927ca8e72
+aqute-bnd-3.4.0-3.fc28:b35bc45e4c34ca783fd9f139a6bd418f29972217
 args4j-2.33-2.fc26:b6f591e898ba2fa5170bb6c4548e93fe763acd1e
 args4j-2.33-3.fc27:96ee90c6c2e5f5c0497e360fc8e8e883f81d5234
 argyllcms-1.9.2-2.fc26:856c5c53fa0043f379e910c00a1a3824f8f64e71
@@ -243,6 +244,7 @@ aspell-en-2015.04.24-5.fc27:18e60ce8cc73514cc5e4cc01fca0e09fec1f4685
 assertj-core-2.2.0-3.fc26:c35fb5c31220d4c3f976a4886cfcc494911b3f1f
 assertj-core-3.8.0-1.fc27:504e5572c3f5e6cbc4c727e722b02d0752a0a3f6
 assimp-3.3.1-12.fc27:6300f249f4e07336a0e1467712edc6a5b0a8075f
+assimp-3.3.1-13.fc28:8482203cf0857697d1cbfa2301b2005bc0620271
 assimp-3.3.1-8.fc27:8b2dc9d9b4c70eeee00b9ec6f496bdcabcd306f4
 at-3.1.20-4.fc27:c5dcedc7c3dbfbfdbb9c5e6bba2eec35abb0a313
 at-3.1.20-6.fc27:32eca464c696051286e25e68899b3abbe2b11841
@@ -305,6 +307,7 @@ axiom-1.2.12-17.fc28:c97092f9d86654c800e0059f4ed8a9292adc8290
 axis-1.4-32.fc26:a76350d2795828606a49044d22258a92482a8678
 axis-1.4-34.fc28:208c0505cdb4602df5b7e7a7c37efd125883214a
 b43-openfwwf-5.2-16.fc27:834ebfe18ddfd8364c292554d2a8ef1d947a0015
+b43-tools-017-11.fc28:cc944c38e7bdf5fe583142e06bada3b435356f39
 b43-tools-017-8.fc26:b9cd62c5bbb08f422ab3c478cc4f8e6ae0248ef7
 babel-2.3.4-5.fc26:be4f14efcdd6e381e5fbbe2ecc638193fbdf2f4e
 babel-2.3.4-6.fc27:3e59c7d1cec99998a4724394ae7c3947809d3e4a
@@ -670,6 +673,7 @@ eclipse-4.7.0-1.fc27:3446dc9a62ef73d805685cb81c6311f229b37508
 eclipse-4.7.0-4.fc27:cb0fc2a8ab2deb21152a65a8d2b0fbb2ba66bee8
 eclipse-cdt-9.3.0-0.3.gitbfe45e8.fc27:c8a99ec0e5bfd7be5e17a28cd7586be9da6b3ffb
 eclipse-cdt-9.3.1-1.fc27:4b36931330e602d34dddd3ec6d8a5ccb0ea8331f
+eclipse-cdt-9.3.2-3.fc28:c0670e29106b3ce5601836166a2871a96d459a1c
 eclipse-ecf-3.13.7-3.fc27:102b326ec36c6d929664708c01b95337ad9bcd5b
 eclipse-ecf-3.13.7-4.fc27:14e8c3f01c47adf12b0a1b9b256877f7b4940e6a
 eclipse-egit-4.8.0-2.fc27:dcf9d017768c318beda52bd3c2da539d20db3be1
@@ -1100,10 +1104,12 @@ gobject-introspection-1.53.3-1.fc27:4626be0c7c7c1b61db8db5f28cee41e84f26bd70
 gobject-introspection-1.53.5-1.fc27:a1e93054f6c7bc918801a4e85d42a21bde5a4f75
 godep-62-2.fc25:331e5131c5d2483f2c4066a48639135f2421600a
 godep-62-5.fc27:138f410926a3285cc96e20812d3e36fde328d424
+godep-62-6.fc28:b46a26965fdcfc4066258fdc915048517fc48ff9
 golang-1.9-0.beta2.1.fc27:9941f71a5726a0a657ce9c9409a9c72bb08099c4
 golang-1.9-1.fc28:903219bc9373740f336395f195a8fd84670dd342
 golang-bitbucket-kardianos-osext-0-0.16.git9b883c5.fc27:8a74748e08965fd184c4e114de13a52ca05147f6
 golang-bitbucket-kardianos-osext-0-0.18.git9b883c5.fc27:bb83463f748e1792749197e2c5f0c93400d5810e
+golang-github-Sirupsen-logrus-0.8.4-10.fc28:3b2085dbe4287eb31f1082575426badec0fdd8de
 golang-github-Sirupsen-logrus-0.8.4-7.fc26:05ca7c054fca63c29ed7e7922785aa15848cf14e
 golang-github-Sirupsen-logrus-0.8.4-9.fc27:62facd7aec5db266715fed9cfaa1cd91cbd8b203
 golang-github-bugsnag-bugsnag-go-1.0.4-6.fc26:8f9f1ee5224935786bd93fbf3381f0d1d38dd71d
@@ -1120,6 +1126,7 @@ golang-github-davecgh-go-spew-0-0.12.git6d21280.fc26:29a999c8f27e298d2df6adefcba
 golang-github-davecgh-go-spew-0-0.14.git6d21280.fc27:8f0db0175aae678af6f163bdeae967731511340c
 golang-github-docker-go-units-0.2.0-4.fc26:80048736a5da30516fd40ad8650882d3d0020974
 golang-github-docker-go-units-0.2.0-6.fc27:6a4069939cc8451db78b486a80c339fe6f348b4e
+golang-github-docker-go-units-0.2.0-7.fc28:53d8b1a0861fd5b23e4aa8e30f157a3dafcf45f1
 golang-github-godbus-dbus-3-0.7.git3725288.fc27:a2c3d6120d9fb51d2f0e9046c9d450e84b79bf62
 golang-github-godbus-dbus-3-0.9.git3725288.fc27:1923dacf93b01ed79d6a795e9051873183b773e7
 golang-github-golang-sys-0-0.13.git478fcf5.fc27:32ce0f3255befcbef69b0c20026002b50fd25b5d
@@ -1127,10 +1134,12 @@ golang-github-kr-fs-0-0.11.git2788f0d.fc27:a5c2fb4a1a0fcd71d82346f78c9f788931058
 golang-github-kr-fs-0-0.9.git2788f0d.fc26:6474f254a98a69f3ee9791a835dacc5d4ba98bfa
 golang-github-kr-pretty-0-0.11.gitf31442d.fc26:35e96eca13333685a9c5fd4fb9e803729b45d31c
 golang-github-kr-pretty-0-0.13.gitf31442d.fc27:a82675383bba1e4182255239e00445d2978edf86
+golang-github-kr-pretty-0-0.14.gitf31442d.fc28:0a289263d679aa754a6f58cc3698638c8aed2e7c
 golang-github-kr-text-0-0.11.git6807e77.fc26:5fa5b1252a45af346eef023cfe1bf413044b25e4
 golang-github-kr-text-0-0.13.git6807e77.fc27:7c0d74a3e00f5cc2daa990cb29d882a7356e1cbb
 golang-github-opencontainers-runtime-spec-0.5.0-0.3.git6e08c69.fc26:ed0e2f6d1f090c2f5ad0ca931f5d8255a83aee09
 golang-github-opencontainers-runtime-spec-0.5.0-0.5.git6e08c69.fc27:d6f68012e983ebc55fb5bd18bd4c462d7805ad30
+golang-github-opencontainers-runtime-spec-0.5.0-0.6.git6e08c69.fc28:15cf3ac7052f2918fb2e5de421b2b480804ac4e0
 golang-github-pmezard-go-difflib-0-0.6.gitd8ed262.fc27:5c4df1321988701a17ebbc5fe53cda3ea0adc53c
 golang-github-pmezard-go-difflib-0-0.8.gitd8ed262.fc27:892ed3abd994ba5da355c5f04e8fdfbe6926c0ce
 golang-github-russross-blackfriday-1.2-17.fc27:a5d89017b1ed1bf006b01efdf97089f9c863ddf8
@@ -1145,6 +1154,7 @@ golang-github-stretchr-testify-1.0-0.11.git976c720.fc27:ad0092d28de8b2b65fbbf521
 golang-github-stretchr-testify-1.0-0.9.git976c720.fc27:629235d3e5462e4cc0a2682c17d5cbe5e0973256
 golang-github-syndtr-gocapability-0-0.16.git2c00dae.fc26:d86509b966f00c5337bbd6dc0a625d7d220d6b43
 golang-github-syndtr-gocapability-0-0.18.git2c00dae.fc27:29cdc07f7f92eceaf4d92cc653d67fb00581054b
+golang-github-syndtr-gocapability-0-0.19.git2c00dae.fc28:2cb3fca1fe274e42ddb12afc8014a345f2627198
 golang-github-vishvananda-netlink-0-0.12.gite73bad4.fc26:41c8d069f7b66e6679c215a7ddf2522f3c65af84
 golang-github-vishvananda-netlink-0-0.15.gitf5a6f69.fc28:40f753fc3faa3f4deb247eb33d20791533d9fb21
 golang-github-vishvananda-netns-0-0.11.git8ba1072.fc26:8eae1bf37d8bdf60b0d21efb06d552906201865f
@@ -1937,6 +1947,7 @@ libXxf86misc-1.0.3-14.fc27:fa818cfe1b5488bbac73423230904165c6681ef6
 libXxf86vm-1.1.4-4.fc26:117940621a63688cf49b71a0855c7e7299f6f7fe
 libXxf86vm-1.1.4-6.fc27:caf55eb834080e0ed060474734ca6b85b681443f
 libabigail-1.0-0.10.rc6.4.fc27:f269cbf2afb23e5e49705bf0eb4c1122dc2fedd1
+libabigail-1.0-0.13.rc6.4.fc28:601df11e5654a7273c1e0d03c325ea69f9a99e51
 libaec-1.0.1-4.fc27:2c28e95cc9bdfc1d14f509a69752311bc759bd74
 libaesgm-20090429-13.fc26:2af83eea519e1c40599a269ec7c46f3d37dc4977
 libaesgm-20090429-15.fc27:ad32bca66aa26e5ecd72f867451a012bb73d3daf
@@ -5277,6 +5288,7 @@ python-keyring-10.3.2-2.fc27:c407b87d2ae8779c563920324909cdef1135c0c8
 python-keyring-10.3.2-3.fc27:ef58140d5b08e8798ee3b7b8ab9cb01769ff2e8c
 python-kmod-0.9-13.fc27:275f1d7a01d1d9a6fc9ea53e9bc72f6cf8581fd6
 python-kmod-0.9-16.fc28:65ae88b98e5007b84ede695d28c74bc525a83476
+python-krbV-1.0.90-17.fc28:26d484951a4c38864c1eb1500be2662d3a920c1e
 python-lazy-object-proxy-1.3.1-1.fc27:1c4bc1b33162ca2b9b259a908d20095fa72cfcf8
 python-lazy-object-proxy-1.3.1-3.fc27:615ea593606bd61acf89bbcab8daf12382802d80
 python-linecache2-1.0.0-11.fc28:a34f9a17d062404d6266d09d9c0f3e8b5e1318d1
