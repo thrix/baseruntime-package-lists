@@ -2737,7 +2737,7 @@ python-slip-0.6.4-8.fc28.src
 python-smartcols-0.2.0-5.fc27.src
 python-snowballstemmer-1.2.1-4.fc27.src
 python-socketpool-0.5.3-10.fc28.src
-python-sphinx-1.6.3-2.fc27.src
+python-sphinx-1:1.6.4-2.fc28.src
 python-sphinx-theme-alabaster-0.7.9-4.fc27.src
 python-sphinx_rtd_theme-0.2.4-2.fc27.src
 python-sphinxcontrib-websupport-1.0.1-1.fc27.src

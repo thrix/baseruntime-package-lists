@@ -5466,6 +5466,7 @@ python-socketpool-0.5.3-8.fc26:a5489b8f8753f42e801d808806158f58bb721a2d
 python-socketpool-0.5.3-9.fc27:5f53976fc1626e2f6a4d6cc9055e90065fc953ec
 python-sphinx-1.5.2-2.fc26:43596e57313d7162da6ad63f3ba9391130a377c0
 python-sphinx-1.6.3-2.fc27:ce8ab307f4b92f2c951ab09e6006ab2943a17172
+python-sphinx-1.6.4-2.fc28:e75c1dcce9e05bb00152baaae56f82ea9d024be0
 python-sphinx-theme-alabaster-0.7.9-3.fc26:4048e268603c21f53440be45a62b946aa002e5b7
 python-sphinx-theme-alabaster-0.7.9-4.fc27:ceaab4ad4e71c2fd2ef75a60af5ba55b04bf25b6
 python-sphinx_rtd_theme-0.2.4-1.fc27:bb812834ec358781177ec77ad5a51a82cdc1a775
