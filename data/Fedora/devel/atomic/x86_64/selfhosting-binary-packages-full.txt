@@ -343,7 +343,7 @@ aws-sdk-java-support-1.11.3-4.fc27.noarch
 aws-sdk-java-waf-1.11.3-4.fc27.noarch
 aws-sdk-java-workspaces-1.11.3-4.fc27.noarch
 axiom-1.2.12-17.fc28.noarch
-axis-1.4-34.fc28.noarch
+axis-1.4-35.fc28.noarch
 bakefile-0.2.10-4.fc27.x86_64
 base64coder-20101219-19.fc27.noarch
 basesystem-11-4.fc27.noarch
@@ -2461,7 +2461,7 @@ lucene-misc-6.1.0-4.fc27.noarch
 lucene-queries-6.1.0-4.fc27.noarch
 lucene-queryparser-6.1.0-4.fc27.noarch
 lucene-sandbox-6.1.0-4.fc27.noarch
-lucene3-3.6.2-9.fc26.noarch
+lucene3-3.6.2-12.fc28.noarch
 lucene4-4.10.4-9.fc27.noarch
 lutok-0.4-10.fc27.x86_64
 lutok-devel-0.4-10.fc27.x86_64
