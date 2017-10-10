@@ -2373,6 +2373,8 @@ libxslt
 libxslt-devel
 libyaml
 libyaml-devel
+libzstd
+libzstd-devel
 lightcouch
 lilypond
 lilypond-emmentaler-fonts

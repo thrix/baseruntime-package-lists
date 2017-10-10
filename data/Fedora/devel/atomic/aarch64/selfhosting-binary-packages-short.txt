@@ -2379,6 +2379,8 @@ libxslt
 libxslt-devel
 libyaml
 libyaml-devel
+libzstd
+libzstd-devel
 lightcouch
 lilypond
 lilypond-emmentaler-fonts
@@ -6674,6 +6676,7 @@ znerd-oss-parent
 zookeeper
 zookeeper-java
 zopfli
+zstd
 zvbi
 zvbi-devel
 zxing

@@ -232,3 +232,4 @@ which
 xfsprogs
 xz
 zlib
+zstd

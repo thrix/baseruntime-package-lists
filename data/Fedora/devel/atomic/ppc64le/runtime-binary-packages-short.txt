@@ -211,6 +211,7 @@ libverto
 libverto-libev
 libxml2
 libyaml
+libzstd
 linux-firmware
 lsof
 lua-libs

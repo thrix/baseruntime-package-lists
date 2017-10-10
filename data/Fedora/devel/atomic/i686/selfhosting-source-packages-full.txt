@@ -2814,7 +2814,7 @@ rngom-201103-0.15.20120119svn.fc27.src
 rome-1.7.0-3.fc27.src
 rootfiles-8.1-21.fc27.src
 rpcbind-0.2.4-7.rc2.fc27.2.src
-rpm-4.14.0-0.rc2.3.fc28.src
+rpm-4.14.0-0.rc2.5.fc28.src
 rpm-mpi-hooks-5-2.fc27.src
 rpm-ostree-2017.8-2.fc28.src
 rpmdevtools-8.10-3.fc27.src
@@ -3282,6 +3282,7 @@ zlib-1.2.11-4.fc27.src
 znerd-oss-parent-3-14.fc27.src
 zookeeper-3.4.9-7.fc28.src
 zopfli-1.0.1-5.fc27.src
+zstd-1.3.1-1.fc28.src
 zvbi-0.2.35-4.fc27.src
 zxing-3.2.1-4.fc26.src
 zziplib-0.13.62-10.fc27.src

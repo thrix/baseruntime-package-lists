@@ -3225,6 +3225,7 @@ zlib
 znerd-oss-parent
 zookeeper
 zopfli
+zstd
 zvbi
 zxing
 zziplib

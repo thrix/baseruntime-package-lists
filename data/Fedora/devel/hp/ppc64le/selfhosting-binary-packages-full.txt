@@ -2338,6 +2338,8 @@ libxslt-1.1.30-2.fc28.ppc64le
 libxslt-devel-1.1.30-2.fc28.ppc64le
 libyaml-0.1.7-4.fc27.ppc64le
 libyaml-devel-0.1.7-4.fc27.ppc64le
+libzstd-1.3.1-1.fc28.ppc64le
+libzstd-devel-1.3.1-1.fc28.ppc64le
 lightcouch-0.1.8-4.fc27.noarch
 lilypond-2.19.65-1.fc27.ppc64le
 lilypond-emmentaler-fonts-2.19.65-1.fc27.noarch
@@ -4229,7 +4231,7 @@ python2-reportlab-3.4.0-3.fc27.ppc64le
 python2-repoze-lru-0.4-16.fc28.noarch
 python2-requests-2.18.4-1.fc28.noarch
 python2-restkit-4.2.2-8.fc28.noarch
-python2-rpm-4.14.0-0.rc2.3.fc28.ppc64le
+python2-rpm-4.14.0-0.rc2.5.fc28.ppc64le
 python2-rpm-macros-3-22.fc27.noarch
 python2-scour-0.35-5.fc27.noarch
 python2-service-identity-16.0.0-8.fc27.noarch
@@ -4403,7 +4405,7 @@ python3-qt5-5.9-6.fc27.ppc64le
 python3-qt5-base-5.9-6.fc27.ppc64le
 python3-qt5-devel-5.9-6.fc27.ppc64le
 python3-requests-2.18.4-1.fc28.noarch
-python3-rpm-4.14.0-0.rc2.3.fc28.ppc64le
+python3-rpm-4.14.0-0.rc2.5.fc28.ppc64le
 python3-rpm-generators-4.13.0.1-4.fc28.noarch
 python3-rpm-macros-3-22.fc27.noarch
 python3-rtslib-2.1.fb63-4.fc28.noarch
@@ -4620,13 +4622,13 @@ rome-1.7.0-3.fc27.noarch
 rome-utils-1.7.0-3.fc27.noarch
 rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.ppc64le
-rpm-4.14.0-0.rc2.3.fc28.ppc64le
-rpm-build-4.14.0-0.rc2.3.fc28.ppc64le
-rpm-build-libs-4.14.0-0.rc2.3.fc28.ppc64le
-rpm-devel-4.14.0-0.rc2.3.fc28.ppc64le
-rpm-libs-4.14.0-0.rc2.3.fc28.ppc64le
+rpm-4.14.0-0.rc2.5.fc28.ppc64le
+rpm-build-4.14.0-0.rc2.5.fc28.ppc64le
+rpm-build-libs-4.14.0-0.rc2.5.fc28.ppc64le
+rpm-devel-4.14.0-0.rc2.5.fc28.ppc64le
+rpm-libs-4.14.0-0.rc2.5.fc28.ppc64le
 rpm-mpi-hooks-5-2.fc27.noarch
-rpm-plugin-selinux-4.14.0-0.rc2.3.fc28.ppc64le
+rpm-plugin-selinux-4.14.0-0.rc2.5.fc28.ppc64le
 rpmdevtools-8.10-3.fc27.noarch
 rrdtool-1.7.0-6.fc28.ppc64le
 rrdtool-devel-1.7.0-6.fc28.ppc64le

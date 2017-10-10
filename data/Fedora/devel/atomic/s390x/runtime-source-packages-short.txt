@@ -251,3 +251,4 @@ xfsprogs
 xz
 yajl
 zlib
+zstd

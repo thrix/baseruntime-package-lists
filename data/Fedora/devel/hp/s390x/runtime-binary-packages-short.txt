@@ -254,6 +254,7 @@ libverto-libev
 libxml2
 libxslt
 libyaml
+libzstd
 linux-firmware
 lksctp-tools
 lldpad
