@@ -175,7 +175,7 @@ grub2-tools-extra-1:2.02-15.fc28.aarch64
 grub2-tools-minimal-1:2.02-15.fc28.aarch64
 gsettings-desktop-schemas-3.24.0-3.fc27.aarch64
 gssproxy-0.7.0-14.fc28.aarch64
-guile-5:2.0.14-3.fc27.aarch64
+guile-5:2.0.14-4.fc28.aarch64
 gzip-1.8-4.fc27.aarch64
 hfsplus-tools-540.1.linux3-14.fc27.aarch64
 hfsutils-3.2.6-33.fc27.aarch64

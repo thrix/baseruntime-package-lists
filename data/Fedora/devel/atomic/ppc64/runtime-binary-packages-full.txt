@@ -95,7 +95,7 @@ grub2-tools-extra-1:2.02-15.fc28.ppc64
 grub2-tools-minimal-1:2.02-15.fc28.ppc64
 gsettings-desktop-schemas-3.24.0-3.fc27.ppc64
 gssproxy-0.7.0-14.fc28.ppc64
-guile-5:2.0.14-3.fc27.ppc64
+guile-5:2.0.14-4.fc28.ppc64
 gzip-1.8-4.fc27.ppc64
 hostname-3.18-4.fc27.ppc64
 info-6.4-5.fc27.ppc64

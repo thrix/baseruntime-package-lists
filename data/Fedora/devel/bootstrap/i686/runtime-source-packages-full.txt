@@ -117,7 +117,7 @@ grub2-1:2.02-15.fc28.src
 grubby-8.40-6.fc27.src
 gsettings-desktop-schemas-3.24.0-3.fc27.src
 gssproxy-0.7.0-14.fc28.src
-guile-5:2.0.14-3.fc27.src
+guile-5:2.0.14-4.fc28.src
 gzip-1.8-4.fc27.src
 hfsplus-tools-540.1.linux3-14.fc27.src
 hfsutils-3.2.6-33.fc27.src

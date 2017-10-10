@@ -110,7 +110,7 @@ grub2-tools-extra-1:2.02-15.fc28.i686
 grub2-tools-minimal-1:2.02-15.fc28.i686
 gsettings-desktop-schemas-3.24.0-3.fc27.i686
 gssproxy-0.7.0-14.fc28.i686
-guile-5:2.0.14-3.fc27.i686
+guile-5:2.0.14-4.fc28.i686
 gzip-1.8-4.fc27.i686
 hostname-3.18-4.fc27.i686
 ima-evm-utils-1.0-1.fc28.i686

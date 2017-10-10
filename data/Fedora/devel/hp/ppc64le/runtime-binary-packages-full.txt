@@ -130,7 +130,7 @@ grub2-tools-extra-1:2.02-15.fc28.ppc64le
 grub2-tools-minimal-1:2.02-15.fc28.ppc64le
 gsettings-desktop-schemas-3.24.0-3.fc27.ppc64le
 gssproxy-0.7.0-14.fc28.ppc64le
-guile-5:2.0.14-3.fc27.ppc64le
+guile-5:2.0.14-4.fc28.ppc64le
 gzip-1.8-4.fc27.ppc64le
 hfsplus-tools-540.1.linux3-14.fc27.ppc64le
 hfsutils-3.2.6-33.fc27.ppc64le

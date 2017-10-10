@@ -121,7 +121,7 @@ gpgme-1.9.0-6.fc28.armv7hl
 grep-3.1-3.fc27.armv7hl
 gsettings-desktop-schemas-3.24.0-3.fc27.armv7hl
 gssproxy-0.7.0-14.fc28.armv7hl
-guile-5:2.0.14-3.fc27.armv7hl
+guile-5:2.0.14-4.fc28.armv7hl
 gzip-1.8-4.fc27.armv7hl
 hfsplus-tools-540.1.linux3-14.fc27.armv7hl
 hfsutils-3.2.6-33.fc27.armv7hl

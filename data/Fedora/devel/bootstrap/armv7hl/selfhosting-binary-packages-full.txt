@@ -556,9 +556,9 @@ copy-jdk-configs-2.3-2.fc27.noarch
 coreutils-8.28-1.fc28.armv7hl
 coreutils-common-8.28-1.fc28.armv7hl
 coro-mock-1.0-0.12.e55ca83git.fc27.noarch
-corosync-2.4.2-6.fc28.armv7hl
-corosynclib-2.4.2-6.fc28.armv7hl
-corosynclib-devel-2.4.2-6.fc28.armv7hl
+corosync-2.4.2-7.fc28.armv7hl
+corosynclib-2.4.2-7.fc28.armv7hl
+corosynclib-devel-2.4.2-7.fc28.armv7hl
 cpio-2.12-6.fc27.armv7hl
 cpp-7.1.1-7.fc27.1.armv7hl
 cpptasks-1.0b5-19.fc27.noarch
@@ -659,8 +659,8 @@ diffutils-3.6-3.fc27.armv7hl
 disruptor-3.3.6-3.fc27.noarch
 djvulibre-devel-3.5.27-4.fc27.armv7hl
 djvulibre-libs-3.5.27-4.fc27.armv7hl
-dlm-devel-4.0.6-5.fc27.armv7hl
-dlm-lib-4.0.6-5.fc27.armv7hl
+dlm-devel-4.0.6-6.fc28.armv7hl
+dlm-lib-4.0.6-6.fc28.armv7hl
 dmraid-1.0.0.rc16-34.fc27.armv7hl
 dmraid-devel-1.0.0.rc16-34.fc27.armv7hl
 dmraid-events-1.0.0.rc16-34.fc27.armv7hl
@@ -1272,8 +1272,8 @@ guava-testlib-18.0-11.fc27.noarch
 guice-extensions-4.1-7.fc27.noarch
 guice-parent-4.1-7.fc27.noarch
 guice-servlet-4.1-7.fc27.noarch
-guile-5:2.0.14-3.fc27.armv7hl
-guile-devel-5:2.0.14-3.fc27.armv7hl
+guile-5:2.0.14-4.fc28.armv7hl
+guile-devel-5:2.0.14-4.fc28.armv7hl
 gvfs-1.33.90-1.fc27.armv7hl
 gvfs-client-1.33.90-1.fc27.armv7hl
 gvfs-devel-1.33.90-1.fc27.armv7hl
@@ -4291,7 +4291,7 @@ python2-markdown-2.6.8-3.fc27.noarch
 python2-markupsafe-0.23-16.fc27.armv7hl
 python2-mccabe-0.6.1-4.fc27.noarch
 python2-mimeparse-1.6.0-4.fc28.noarch
-python2-mock-2.0.0-5.fc27.noarch
+python2-mock-2.0.0-6.fc28.noarch
 python2-modulemd-1.3.0-1.fc28.noarch
 python2-mox-0.5.3-14.fc28.noarch
 python2-netaddr-0.7.19-5.fc28.noarch
@@ -4498,7 +4498,7 @@ python3-markupsafe-0.23-16.fc27.armv7hl
 python3-mccabe-0.6.1-4.fc27.noarch
 python3-meh-0.44-6.fc28.noarch
 python3-mimeparse-1.6.0-4.fc28.noarch
-python3-mock-2.0.0-5.fc27.noarch
+python3-mock-2.0.0-6.fc28.noarch
 python3-modulemd-1.3.0-1.fc28.noarch
 python3-netaddr-0.7.19-5.fc28.noarch
 python3-nose-1.3.7-16.fc28.noarch
