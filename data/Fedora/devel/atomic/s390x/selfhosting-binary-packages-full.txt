@@ -1141,9 +1141,9 @@ gperftools-devel-2.6.1-3.fc27.s390x
 gperftools-libs-2.6.1-3.fc27.s390x
 gpgme-1.9.0-6.fc28.s390x
 gpgme-devel-1.9.0-6.fc28.s390x
-gpm-1.20.7-10.fc26.s390x
-gpm-devel-1.20.7-10.fc26.s390x
-gpm-libs-1.20.7-10.fc26.s390x
+gpm-1.20.7-13.fc28.s390x
+gpm-devel-1.20.7-13.fc28.s390x
+gpm-libs-1.20.7-13.fc28.s390x
 gradle-2.13-10.fc27.noarch
 gradle-local-5.0.0-8.fc28.noarch
 grantlee-0.5.1-8.fc27.s390x

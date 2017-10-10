@@ -1123,9 +1123,9 @@ gperftools-devel-2.6.1-3.fc27.armv7hl
 gperftools-libs-2.6.1-3.fc27.armv7hl
 gpgme-1.9.0-6.fc28.armv7hl
 gpgme-devel-1.9.0-6.fc28.armv7hl
-gpm-1.20.7-10.fc26.armv7hl
-gpm-devel-1.20.7-10.fc26.armv7hl
-gpm-libs-1.20.7-10.fc26.armv7hl
+gpm-1.20.7-13.fc28.armv7hl
+gpm-devel-1.20.7-13.fc28.armv7hl
+gpm-libs-1.20.7-13.fc28.armv7hl
 gradle-2.13-10.fc27.noarch
 gradle-local-5.0.0-8.fc28.noarch
 grantlee-0.5.1-8.fc27.armv7hl
