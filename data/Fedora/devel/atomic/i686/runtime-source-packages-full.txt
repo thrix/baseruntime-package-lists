@@ -232,7 +232,7 @@ quota-1:4.03-9.fc27.src
 readline-7.0-7.fc27.src
 rootfiles-8.1-21.fc27.src
 rpcbind-0.2.4-7.rc2.fc27.2.src
-rpm-4.14.0-0.rc1.2.fc28.src
+rpm-4.14.0-0.rc2.3.fc28.src
 rpm-ostree-2017.8-2.fc28.src
 rsync-3.1.2-7.fc27.src
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.src

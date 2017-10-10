@@ -2734,7 +2734,7 @@ rngom-201103-0.15.20120119svn.fc27.src
 rome-1.7.0-3.fc27.src
 rootfiles-8.1-21.fc27.src
 rpcbind-0.2.4-7.rc2.fc27.2.src
-rpm-4.14.0-0.rc1.2.fc28.src
+rpm-4.14.0-0.rc2.3.fc28.src
 rpm-mpi-hooks-5-2.fc27.src
 rpmdevtools-8.10-3.fc27.src
 rrdtool-1.7.0-6.fc28.src

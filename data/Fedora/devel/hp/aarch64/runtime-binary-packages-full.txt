@@ -354,7 +354,7 @@ python3-libselinux-2.7-4.fc28.aarch64
 python3-libsemanage-2.7-3.fc28.aarch64
 python3-modulemd-1.3.0-1.fc28.noarch
 python3-pip-9.0.1-11.fc27.noarch
-python3-rpm-4.14.0-0.rc1.2.fc28.aarch64
+python3-rpm-4.14.0-0.rc2.3.fc28.aarch64
 python3-setools-4.1.1-4.fc28.aarch64
 python3-setuptools-36.2.0-7.fc28.noarch
 python3-six-1.10.0-11.fc28.noarch
@@ -367,11 +367,11 @@ readline-7.0-7.fc27.aarch64
 redhat-rpm-config-67-1.fc27.noarch
 rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.aarch64
-rpm-4.14.0-0.rc1.2.fc28.aarch64
-rpm-build-4.14.0-0.rc1.2.fc28.aarch64
-rpm-build-libs-4.14.0-0.rc1.2.fc28.aarch64
-rpm-libs-4.14.0-0.rc1.2.fc28.aarch64
-rpm-plugin-selinux-4.14.0-0.rc1.2.fc28.aarch64
+rpm-4.14.0-0.rc2.3.fc28.aarch64
+rpm-build-4.14.0-0.rc2.3.fc28.aarch64
+rpm-build-libs-4.14.0-0.rc2.3.fc28.aarch64
+rpm-libs-4.14.0-0.rc2.3.fc28.aarch64
+rpm-plugin-selinux-4.14.0-0.rc2.3.fc28.aarch64
 rsync-3.1.2-7.fc27.aarch64
 rust-srpm-macros-4-3.fc27.noarch
 sed-4.4-3.fc27.aarch64

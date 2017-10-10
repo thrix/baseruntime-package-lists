@@ -1367,11 +1367,11 @@ data:
                     Universal addresses to RPC program number mapper,
                     required for NFS.
                 ref: edd698f759675cc89855a9043f44960337d59192
-            # rpm-4.14.0-0.rc1.2.fc28
+            # rpm-4.14.0-0.rc2.3.fc28
             rpm:
                 rationale: >-
                     RPM support; RPM build tools.
-                ref: aa109fa4c6cb6dfa5b045e10729074392fbc9ceb
+                ref: b4ee3799d1792ce29eb2af8038d3b31816e077b3
             # rsync-3.1.2-7.fc27
             rsync:
                 rationale: >-
