@@ -57,6 +57,7 @@ data:
                 - shadow-utils
     filter:
         - fedora-repos
+        - powerpc-utils
     components:
         rpms:
             # PyYAML-3.12-8.fc28
