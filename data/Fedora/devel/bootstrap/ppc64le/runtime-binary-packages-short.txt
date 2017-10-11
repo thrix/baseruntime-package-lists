@@ -446,6 +446,7 @@ polkit-libs
 polkit-pkla-compat
 popt
 powerpc-utils
+powerpc-utils-core
 ppc64-diag
 ppc64-utils
 procps-ng

@@ -428,6 +428,7 @@ policycoreutils-python3
 polkit-libs
 popt
 powerpc-utils
+powerpc-utils-core
 ppc64-diag
 ppc64-utils
 procps-ng

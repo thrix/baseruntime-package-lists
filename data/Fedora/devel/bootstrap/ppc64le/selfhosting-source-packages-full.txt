@@ -2544,7 +2544,7 @@ postgresql-9.6.4-1.fc27.src
 postgresql-jdbc-42.1.4-1.fc28.src
 potrace-1.15-1.fc27.src
 powermock-1.6.5-7.fc27.src
-powerpc-utils-1.3.3-3.fc27.src
+powerpc-utils-1.3.4-2.fc27.src
 ppc64-diag-2.7.1-4.fc27.src
 ppc64-utils-0.14-24.fc27.src
 ppp-2.4.7-14.fc28.src

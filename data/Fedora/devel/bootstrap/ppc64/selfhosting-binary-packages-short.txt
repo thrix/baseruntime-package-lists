@@ -4112,6 +4112,7 @@ powermock-core
 powermock-junit4
 powermock-reflect
 powerpc-utils
+powerpc-utils-core
 ppc64-diag
 ppc64-utils
 ppp
