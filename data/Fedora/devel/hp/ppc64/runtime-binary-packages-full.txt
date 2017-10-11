@@ -328,6 +328,7 @@ policycoreutils-python-utils-2.7-3.fc28.ppc64
 policycoreutils-python3-2.7-3.fc28.ppc64
 polkit-libs-0.113-15.fc27.ppc64
 popt-1.16-11.fc27.ppc64
+powerpc-utils-core-1.3.4-2.fc27.ppc64
 procps-ng-3.3.10-15.fc27.ppc64
 psmisc-23.1-2.fc27.ppc64
 publicsuffix-list-20170828-1.fc28.noarch

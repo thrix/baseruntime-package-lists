@@ -229,6 +229,7 @@ pkgconf
 policycoreutils
 polkit
 popt
+powerpc-utils
 procps-ng
 psmisc
 publicsuffix-list

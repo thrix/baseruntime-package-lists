@@ -141,6 +141,7 @@ passwd
 patch
 pciutils
 policycoreutils
+powerpc-utils-core
 procps-ng
 psmisc
 publicsuffix-list

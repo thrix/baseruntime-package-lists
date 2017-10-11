@@ -330,6 +330,7 @@ policycoreutils-python-utils
 policycoreutils-python3
 polkit-libs
 popt
+powerpc-utils-core
 procps-ng
 psmisc
 publicsuffix-list

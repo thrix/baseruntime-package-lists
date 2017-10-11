@@ -2174,6 +2174,8 @@ librevenge
 librevenge-devel
 librsvg2
 librsvg2-devel
+librtas
+librtas-devel
 libsamplerate
 libsamplerate-devel
 libseccomp
@@ -2191,6 +2193,8 @@ libsepol-devel
 libsepol-static
 libserf
 libserf-devel
+libservicelog
+libservicelog-devel
 libshout
 libshout-devel
 libsigc++20
@@ -4048,6 +4052,7 @@ powermock-common
 powermock-core
 powermock-junit4
 powermock-reflect
+powerpc-utils-core
 ppp
 ppp-devel
 procmail
