@@ -3,6 +3,7 @@ binutils
 boost
 ceph
 cockpit
+corosync
 device-mapper-multipath
 dwz
 eclipse
