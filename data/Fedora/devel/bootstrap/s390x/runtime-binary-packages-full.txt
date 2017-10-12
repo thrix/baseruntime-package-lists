@@ -248,7 +248,7 @@ libcurl-minimal-7.55.1-3.fc28.s390x
 libdaemon-0.14-13.fc27.s390x
 libdb-5.3.28-26.fc27.s390x
 libdb-utils-5.3.28-26.fc27.s390x
-libdnf-0.10.1-2.module_042d0c64.modularity.1.s390x
+libdnf-0.11.0-1.fc28.s390x
 libedit-3.1-20.20170329cvs.fc27.s390x
 libev-4.24-4.fc27.s390x
 libevent-2.0.22-6.fc27.s390x
@@ -601,7 +601,7 @@ python3-docker-pycreds-0.2.1-5.fc27.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
 python3-gobject-base-3.26.0-2.fc28.s390x
 python3-gpg-1.9.0-6.fc28.s390x
-python3-hawkey-0.10.1-2.module_042d0c64.modularity.1.s390x
+python3-hawkey-0.11.0-1.fc28.s390x
 python3-idna-2.5-2.fc27.noarch
 python3-iniparse-0.4-26.fc28.noarch
 python3-iscsi-initiator-utils-6.2.0.874-7.git86e8892.fc28.s390x

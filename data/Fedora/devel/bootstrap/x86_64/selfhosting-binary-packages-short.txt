@@ -4145,6 +4145,7 @@ platform-python-devel
 platform-python-hypothesis
 platform-python-libs
 platform-python-libs-devel
+platform-python-nose
 platform-python-py
 platform-python-pytest
 platform-python-rpm-macros
