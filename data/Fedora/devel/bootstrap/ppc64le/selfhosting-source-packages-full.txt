@@ -2600,7 +2600,7 @@ python-bugzilla-2.1.0-3.fc28.src
 python-cffi-1.11.0-2.fc28.src
 python-chardet-3.0.4-3.fc28.src
 python-cliapp-1.20160724-6.fc28.src
-python-click-6.7-3.fc26.src
+python-click-6.7-5.fc28.src
 python-configobj-5.0.6-9.fc27.src
 python-configparser-3.5.0b2-7.fc28.src
 python-construct-2.5.1-12.fc28.src

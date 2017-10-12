@@ -4258,7 +4258,7 @@ python2-cairo-devel-1.15.3-1.fc28.aarch64
 python2-cffi-1.11.0-2.fc28.aarch64
 python2-chardet-3.0.4-3.fc28.noarch
 python2-cliapp-1.20160724-6.fc28.noarch
-python2-click-6.7-3.fc26.noarch
+python2-click-6.7-5.fc28.noarch
 python2-configparser-3.5.0b2-7.fc28.noarch
 python2-construct-2.5.1-12.fc28.noarch
 python2-contextlib2-0.5.5-4.fc28.noarch
@@ -4465,7 +4465,7 @@ python3-cairo-1.15.3-1.fc28.aarch64
 python3-cairo-devel-1.15.3-1.fc28.aarch64
 python3-cffi-1.11.0-2.fc28.aarch64
 python3-chardet-3.0.4-3.fc28.noarch
-python3-click-6.7-3.fc26.noarch
+python3-click-6.7-5.fc28.noarch
 python3-configobj-5.0.6-9.fc27.noarch
 python3-construct-2.5.1-12.fc28.noarch
 python3-contextlib2-0.5.5-4.fc28.noarch

@@ -5175,6 +5175,7 @@ python-chardet-3.0.4-3.fc28:fba4f3316dd46fc0afedde8b432bab4ff48d1f89
 python-cliapp-1.20160724-2.fc26:fa913ce3ea4611228432a788a09c2034d63c2639
 python-cliapp-1.20160724-6.fc28:ad3eb586177c38b1eb05ae8b4ef1fdc67aa9afb7
 python-click-6.7-3.fc26:5ecb1ca785c1d69e9e8b0723f5242836ba1dcb80
+python-click-6.7-5.fc28:6364bd88350a6a96b5fcf1a978918d6f5881b863
 python-configobj-5.0.6-8.fc26:7b4bef1bab53d0bd2c3ae63f869bb8db27ddaaaa
 python-configobj-5.0.6-9.fc27:837a2fab8fbebd3233a68c9f6e7ff6c8e3c10105
 python-configparser-3.5.0b2-5.fc26:a08ee58615e1e03ba87cbfb8721050e5991a1ca2
