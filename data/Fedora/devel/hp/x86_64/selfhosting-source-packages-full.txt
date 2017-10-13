@@ -2664,7 +2664,7 @@ python-socketpool-0.5.3-10.fc28.src
 python-sphinx-1:1.6.4-2.fc28.src
 python-sphinx-theme-alabaster-0.7.9-4.fc27.src
 python-sphinx_rtd_theme-0.2.4-2.fc27.src
-python-sphinxcontrib-websupport-1.0.1-1.fc27.src
+python-sphinxcontrib-websupport-1.0.1-4.20171013git.fc28.src
 python-sqlalchemy-1.1.13-2.fc28.src
 python-systemd-234-3.fc27.src
 python-tempita-0.5.1-17.fc28.src

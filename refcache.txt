@@ -5480,6 +5480,7 @@ python-sphinx-theme-alabaster-0.7.9-4.fc27:ceaab4ad4e71c2fd2ef75a60af5ba55b04bf2
 python-sphinx_rtd_theme-0.2.4-1.fc27:bb812834ec358781177ec77ad5a51a82cdc1a775
 python-sphinx_rtd_theme-0.2.4-2.fc27:a1ef35325db3edcd9836f60c23b836ac105adcd2
 python-sphinxcontrib-websupport-1.0.1-1.fc27:9d0a7bc2aa8705373621521c355b930e03b845e0
+python-sphinxcontrib-websupport-1.0.1-4.20171013git.fc28:cfdd3a4aa722bfea950ebd2e92e4e44aedc70e98
 python-sqlalchemy-1.1.11-1.fc27:498bffaaf036fde14dd14132fd26b63f5588a8d1
 python-sqlalchemy-1.1.13-1.fc27:303d92a6df7529bb63cdff7917e86543d4e48ce7
 python-sqlalchemy-1.1.13-2.fc28:121d2c88235a0530402d4c1c305f20c95536ab68

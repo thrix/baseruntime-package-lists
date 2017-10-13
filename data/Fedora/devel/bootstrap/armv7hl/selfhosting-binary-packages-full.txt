@@ -4363,7 +4363,7 @@ python2-socketpool-0.5.3-10.fc28.noarch
 python2-sphinx-1:1.6.4-2.fc28.noarch
 python2-sphinx-theme-alabaster-0.7.9-4.fc27.noarch
 python2-sphinx_rtd_theme-0.2.4-2.fc27.noarch
-python2-sphinxcontrib-websupport-1.0.1-1.fc27.noarch
+python2-sphinxcontrib-websupport-1.0.1-4.20171013git.fc28.noarch
 python2-sqlalchemy-1.1.13-2.fc28.armv7hl
 python2-subunit-1.2.0-16.fc27.noarch
 python2-sure-1.4.0-4.fc28.noarch
@@ -4581,7 +4581,7 @@ python3-snowballstemmer-1.2.1-4.fc27.noarch
 python3-sphinx-1:1.6.4-2.fc28.noarch
 python3-sphinx-theme-alabaster-0.7.9-4.fc27.noarch
 python3-sphinx_rtd_theme-0.2.4-2.fc27.noarch
-python3-sphinxcontrib-websupport-1.0.1-1.fc27.noarch
+python3-sphinxcontrib-websupport-1.0.1-4.20171013git.fc28.noarch
 python3-sqlalchemy-1.1.13-2.fc28.armv7hl
 python3-sssdconfig-1.15.3-2.fc27.noarch
 python3-sure-1.4.0-4.fc28.noarch
