@@ -2799,7 +2799,6 @@ rubygem-http_connection
 rubygem-i18n
 rubygem-introspection
 rubygem-jquery-rails
-rubygem-json
 rubygem-json_pure
 rubygem-kramdown
 rubygem-launchy
@@ -2813,7 +2812,6 @@ rubygem-metaclass
 rubygem-method_source
 rubygem-mime-types
 rubygem-mime-types-data
-rubygem-minitest
 rubygem-minitest4
 rubygem-mocha
 rubygem-multi_json
@@ -2827,7 +2825,6 @@ rubygem-pdf-core
 rubygem-pdf-inspector
 rubygem-pdf-reader
 rubygem-pkg-config
-rubygem-power_assert
 rubygem-prawn
 rubygem-pry
 rubygem-puma
@@ -2840,11 +2837,9 @@ rubygem-rails-controller-testing
 rubygem-rails-dom-testing
 rubygem-rails-html-sanitizer
 rubygem-railties
-rubygem-rake
 rubygem-rake-compiler
 rubygem-rb-inotify
 rubygem-rdiscount
-rubygem-rdoc
 rubygem-redcarpet
 rubygem-redis
 rubygem-ronn
@@ -2874,7 +2869,6 @@ rubygem-sprockets
 rubygem-sprockets-rails
 rubygem-sqlite3
 rubygem-temple
-rubygem-test-unit
 rubygem-test_declarative
 rubygem-thin
 rubygem-thor

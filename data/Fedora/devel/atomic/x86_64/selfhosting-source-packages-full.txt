@@ -2826,7 +2826,7 @@ rpmdevtools-8.10-3.fc27.src
 rrdtool-1.7.0-6.fc28.src
 rsh-0.17-84.fc27.src
 rsync-3.1.2-7.fc27.src
-ruby-2.4.1-83.fc28.src
+ruby-2.4.2-84.fc28.src
 rubygem-Ascii85-1.0.2-9.fc27.src
 rubygem-RedCloth-4.3.2-4.fc27.src
 rubygem-ZenTest-4.11.0-3.fc27.src
@@ -2883,7 +2883,6 @@ rubygem-http_connection-1.4.4-2.fc27.src
 rubygem-i18n-0.7.0-5.fc27.src
 rubygem-introspection-0.0.4-3.fc27.src
 rubygem-jquery-rails-4.2.2-3.fc27.src
-rubygem-json-2.1.0-102.fc27.src
 rubygem-json_pure-1.8.1-6.fc27.src
 rubygem-kramdown-1.14.0-2.fc27.src
 rubygem-launchy-2.4.3-3.fc27.src
@@ -2897,7 +2896,6 @@ rubygem-metaclass-0.0.4-5.fc27.src
 rubygem-method_source-0.8.2-6.fc27.src
 rubygem-mime-types-3.1-3.fc27.src
 rubygem-mime-types-data-3.2016.0521-3.fc27.src
-rubygem-minitest-5.10.3-100.fc27.src
 rubygem-minitest4-4.7.0-8.fc27.src
 rubygem-mocha-1.1.0-5.fc27.src
 rubygem-multi_json-1.12.1-3.fc27.src
@@ -2911,7 +2909,6 @@ rubygem-pdf-core-0.6.1-1.fc25.src
 rubygem-pdf-inspector-1.2.0-4.fc27.src
 rubygem-pdf-reader-1.3.3-10.fc27.src
 rubygem-pkg-config-1.2.6-1.fc27.src
-rubygem-power_assert-1.0.2-101.fc27.src
 rubygem-prawn-2.1.0-3.fc27.src
 rubygem-pry-0.10.4-4.fc27.src
 rubygem-puma-3.10.0-3.fc28.src
@@ -2924,11 +2921,9 @@ rubygem-rails-controller-testing-1.0.2-2.fc27.src
 rubygem-rails-dom-testing-2.0.2-3.fc27.src
 rubygem-rails-html-sanitizer-1.0.3-4.fc27.src
 rubygem-railties-5.1.3-2.fc27.src
-rubygem-rake-12.0.0-100.fc27.1.src
 rubygem-rake-compiler-1.0.4-2.fc27.src
 rubygem-rb-inotify-0.9.7-4.fc27.src
 rubygem-rdiscount-2.1.8-5.fc27.src
-rubygem-rdoc-5.1.0-2.fc27.src
 rubygem-redcarpet-3.3.2-7.fc27.src
 rubygem-redis-3.2.2-4.fc27.src
 rubygem-ronn-0.7.3-10.fc27.src
@@ -2958,7 +2953,6 @@ rubygem-sprockets-3.7.1-3.fc27.src
 rubygem-sprockets-rails-3.2.0-5.fc27.src
 rubygem-sqlite3-1.3.13-5.fc27.src
 rubygem-temple-0.8.0-2.fc27.src
-rubygem-test-unit-3.2.5-101.fc27.src
 rubygem-test_declarative-0.0.5-12.fc27.src
 rubygem-thin-1.7.2-4.fc27.src
 rubygem-thor-0.19.1-7.fc27.src
