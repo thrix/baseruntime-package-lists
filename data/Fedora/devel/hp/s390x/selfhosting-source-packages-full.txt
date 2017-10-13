@@ -478,7 +478,7 @@ giflib-4.1.6-19.fc27.src
 git-2.14.1-2.fc27.src
 gl-manpages-1.1-14.20161227.fc27.src
 gl2ps-1.4.0-3.fc27.src
-glade-3.20.0-3.fc26.src
+glade-3.20.1-1.fc28.src
 glassfish-annotation-api-1.2-12.fc27.src
 glassfish-dtd-parser-1.2-0.15.20120120svn.fc27.src
 glassfish-ejb-api-3.2-5.fc27.src
@@ -556,10 +556,10 @@ gsm-1.0.17-3.fc27.src
 gssproxy-0.7.0-14.fc28.src
 gstreamer-0.10.36-18.fc27.src
 gstreamer-plugins-base-0.10.36-18.fc27.src
-gstreamer1-1.12.2-3.fc27.src
+gstreamer1-1.12.3-2.fc28.src
 gstreamer1-plugins-bad-free-1.12.2-5.fc27.src
-gstreamer1-plugins-base-1.12.2-3.fc27.src
-gstreamer1-plugins-good-1.12.2-3.fc27.src
+gstreamer1-plugins-base-1.12.3-1.fc28.src
+gstreamer1-plugins-good-1.12.3-2.fc28.src
 gt-0.4-26.fc27.src
 gtest-1.7.0-11.fc27.src
 gtk+-1:1.2.10-85.fc27.src
