@@ -50,3 +50,6 @@ update-input:
 		> "data/Fedora/devel/hp/platform.csv"
 	curl "$(INPUT)/shim.csv" \
 		> "data/Fedora/devel/hp/shim.csv"
+
+sync-bootstrap:
+	./sync-bootstrap.sh
