@@ -224,7 +224,7 @@ libatomic_ops-7.4.6-3.fc27.armv7hl
 libattr-2.4.47-21.fc27.armv7hl
 libbabeltrace-1.5.3-1.fc27.armv7hl
 libbasicobjects-0.1.1-33.fc27.armv7hl
-libblkid-2.30.1-5.fc27.armv7hl
+libblkid-2.30.2-1.fc28.armv7hl
 libblockdev-2.11-1.fc27.armv7hl
 libblockdev-btrfs-2.11-1.fc27.armv7hl
 libblockdev-crypto-2.11-1.fc27.armv7hl
@@ -256,7 +256,7 @@ libdnf-0.11.0-1.fc28.armv7hl
 libedit-3.1-20.20170329cvs.fc27.armv7hl
 libev-4.24-4.fc27.armv7hl
 libevent-2.0.22-6.fc27.armv7hl
-libfdisk-2.30.1-5.fc27.armv7hl
+libfdisk-2.30.2-1.fc28.armv7hl
 libffi-3.1-14.fc27.armv7hl
 libgcc-7.1.1-7.fc27.1.armv7hl
 libgcrypt-1.8.1-1.fc28.armv7hl
@@ -272,7 +272,7 @@ libksba-1.3.5-5.fc27.armv7hl
 libmetalink-0.1.3-4.fc27.armv7hl
 libmnl-1.0.4-4.fc27.armv7hl
 libmodman-2.0.1-16.fc27.armv7hl
-libmount-2.30.1-5.fc27.armv7hl
+libmount-2.30.2-1.fc28.armv7hl
 libmpc-1.0.2-8.fc27.armv7hl
 libndp-1.6-4.fc27.armv7hl
 libnetfilter_conntrack-1.0.6-4.fc27.armv7hl
@@ -305,7 +305,7 @@ libselinux-utils-2.7-4.fc28.armv7hl
 libsemanage-2.7-3.fc28.armv7hl
 libsepol-2.7-1.fc27.armv7hl
 libsigsegv-2.11-3.fc27.armv7hl
-libsmartcols-2.30.1-5.fc27.armv7hl
+libsmartcols-2.30.2-1.fc28.armv7hl
 libsolv-0.6.28-8.fc27.armv7hl
 libss-1.43.6-1.fc28.armv7hl
 libssh-0.7.5-3.fc27.armv7hl
@@ -329,7 +329,7 @@ libusb-1:0.1.5-10.fc27.armv7hl
 libusbx-1.0.21-4.fc27.armv7hl
 libuser-0.62-11.fc28.armv7hl
 libutempter-1.1.6-11.fc27.armv7hl
-libuuid-2.30.1-5.fc27.armv7hl
+libuuid-2.30.2-1.fc28.armv7hl
 libverto-0.3.0-1.fc28.armv7hl
 libverto-libev-0.3.0-1.fc28.armv7hl
 libxml2-2.9.5-1.fc28.armv7hl
@@ -513,7 +513,7 @@ python3-setuptools-36.2.0-7.fc28.noarch
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.armv7hl
+python3-smartcols-0.3.0-1.fc28.armv7hl
 python3-sssdconfig-1.15.3-2.fc27.noarch
 python3-systemd-234-3.fc27.armv7hl
 python3-urllib3-1.22-2.fc27.noarch
@@ -581,7 +581,7 @@ uboot-tools-2017.09-0.4.rc2.fc28.armv7hl
 unzip-6.0-36.fc27.armv7hl
 usermode-1.111-12.fc27.armv7hl
 userspace-rcu-0.10.0-3.fc27.armv7hl
-util-linux-2.30.1-5.fc27.armv7hl
+util-linux-2.30.2-1.fc28.armv7hl
 vim-minimal-2:8.0.983-1.fc28.armv7hl
 volume_key-0.3.9-16.fc28.armv7hl
 volume_key-libs-0.3.9-16.fc28.armv7hl

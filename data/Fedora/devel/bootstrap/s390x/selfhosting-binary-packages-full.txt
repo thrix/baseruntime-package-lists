@@ -1886,8 +1886,8 @@ libbabeltrace-1.5.3-1.fc27.s390x
 libbabeltrace-devel-1.5.3-1.fc27.s390x
 libbasicobjects-0.1.1-33.fc27.s390x
 libbasicobjects-devel-0.1.1-33.fc27.s390x
-libblkid-2.30.1-5.fc27.s390x
-libblkid-devel-2.30.1-5.fc27.s390x
+libblkid-2.30.2-1.fc28.s390x
+libblkid-devel-2.30.2-1.fc28.s390x
 libblockdev-2.11-1.fc27.s390x
 libblockdev-btrfs-2.11-1.fc27.s390x
 libblockdev-btrfs-devel-2.11-1.fc27.s390x
@@ -2004,7 +2004,7 @@ libexif-0.6.21-13.fc27.s390x
 libexif-devel-0.6.21-13.fc27.s390x
 libfbclient2-3.0.2.32703-3.fc27.s390x
 libfbclient2-devel-3.0.2.32703-3.fc27.s390x
-libfdisk-2.30.1-5.fc27.s390x
+libfdisk-2.30.2-1.fc28.s390x
 libfdt-1.4.4-4.fc27.s390x
 libfdt-devel-1.4.4-4.fc27.s390x
 libffi-3.1-14.fc27.s390x
@@ -2121,8 +2121,8 @@ libmodman-2.0.1-16.fc27.s390x
 libmodman-devel-2.0.1-16.fc27.s390x
 libmodplug-1:0.8.9.0-3.fc27.s390x
 libmodplug-devel-1:0.8.9.0-3.fc27.s390x
-libmount-2.30.1-5.fc27.s390x
-libmount-devel-2.30.1-5.fc27.s390x
+libmount-2.30.2-1.fc28.s390x
+libmount-devel-2.30.2-1.fc28.s390x
 libmpc-1.0.2-8.fc27.s390x
 libmpc-devel-1.0.2-8.fc27.s390x
 libmpcdec-1.2.6-19.fc27.s390x
@@ -2244,8 +2244,8 @@ libsigc++20-2.10.0-4.fc27.s390x
 libsigc++20-devel-2.10.0-4.fc27.s390x
 libsigsegv-2.11-3.fc27.s390x
 libsigsegv-devel-2.11-3.fc27.s390x
-libsmartcols-2.30.1-5.fc27.s390x
-libsmartcols-devel-2.30.1-5.fc27.s390x
+libsmartcols-2.30.2-1.fc28.s390x
+libsmartcols-devel-2.30.2-1.fc28.s390x
 libsmbclient-2:4.7.0-0.9.rc3.fc27.s390x
 libsmbclient-devel-2:4.7.0-0.9.rc3.fc27.s390x
 libsmi-0.4.8-20.fc27.s390x
@@ -2327,8 +2327,8 @@ libuser-0.62-11.fc28.s390x
 libuser-devel-0.62-11.fc28.s390x
 libutempter-1.1.6-11.fc27.s390x
 libutempter-devel-1.1.6-11.fc27.s390x
-libuuid-2.30.1-5.fc27.s390x
-libuuid-devel-2.30.1-5.fc27.s390x
+libuuid-2.30.2-1.fc28.s390x
+libuuid-devel-2.30.2-1.fc28.s390x
 libuv-1:1.14.0-1.fc28.s390x
 libuv-devel-1:1.14.0-1.fc28.s390x
 libv4l-1.12.5-4.fc27.s390x
@@ -4320,7 +4320,7 @@ python2-setuptools_scm-1.15.6-5.fc28.noarch
 python2-simplejson-3.10.0-5.fc27.s390x
 python2-singledispatch-3.4.0.3-9.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
-python2-smartcols-0.2.0-5.fc27.s390x
+python2-smartcols-0.3.0-1.fc28.s390x
 python2-snowballstemmer-1.2.1-4.fc27.noarch
 python2-socketpool-0.5.3-10.fc28.noarch
 python2-sphinx-1:1.6.4-2.fc28.noarch
@@ -4539,7 +4539,7 @@ python3-sip-devel-4.19.3-4.fc27.s390x
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.s390x
+python3-smartcols-0.3.0-1.fc28.s390x
 python3-snowballstemmer-1.2.1-4.fc27.noarch
 python3-sphinx-1:1.6.4-2.fc28.noarch
 python3-sphinx-theme-alabaster-0.7.9-4.fc27.noarch
@@ -6520,8 +6520,8 @@ userspace-rcu-devel-0.10.0-3.fc27.s390x
 ustr-1.0.4-24.fc27.s390x
 ustr-devel-1.0.4-24.fc27.s390x
 uthash-devel-2.0.2-3.fc27.noarch
-util-linux-2.30.1-5.fc27.s390x
-util-linux-user-2.30.1-5.fc27.s390x
+util-linux-2.30.2-1.fc28.s390x
+util-linux-user-2.30.2-1.fc28.s390x
 uuid-1.6.2-39.fc27.s390x
 uuid-devel-1.6.2-39.fc27.s390x
 uw-imap-devel-2007f-17.fc27.s390x

@@ -186,7 +186,7 @@ libatomic_ops-7.4.6-3.fc27.ppc64le
 libattr-2.4.47-21.fc27.ppc64le
 libbabeltrace-1.5.3-1.fc27.ppc64le
 libbasicobjects-0.1.1-33.fc27.ppc64le
-libblkid-2.30.1-5.fc27.ppc64le
+libblkid-2.30.2-1.fc28.ppc64le
 libblockdev-2.11-1.fc27.ppc64le
 libblockdev-utils-2.11-1.fc27.ppc64le
 libcap-2.25-7.fc27.ppc64le
@@ -206,7 +206,7 @@ libdnf-0.11.0-1.fc28.ppc64le
 libedit-3.1-20.20170329cvs.fc27.ppc64le
 libev-4.24-4.fc27.ppc64le
 libevent-2.0.22-6.fc27.ppc64le
-libfdisk-2.30.1-5.fc27.ppc64le
+libfdisk-2.30.2-1.fc28.ppc64le
 libffi-3.1-14.fc27.ppc64le
 libgcc-7.1.1-7.fc27.1.ppc64le
 libgcrypt-1.8.1-1.fc28.ppc64le
@@ -222,7 +222,7 @@ libksba-1.3.5-5.fc27.ppc64le
 libmetalink-0.1.3-4.fc27.ppc64le
 libmnl-1.0.4-4.fc27.ppc64le
 libmodman-2.0.1-16.fc27.ppc64le
-libmount-2.30.1-5.fc27.ppc64le
+libmount-2.30.2-1.fc28.ppc64le
 libmpc-1.0.2-8.fc27.ppc64le
 libnetfilter_conntrack-1.0.6-4.fc27.ppc64le
 libnfnetlink-1.0.1-11.fc27.ppc64le
@@ -247,7 +247,7 @@ libselinux-utils-2.7-4.fc28.ppc64le
 libsemanage-2.7-3.fc28.ppc64le
 libsepol-2.7-1.fc27.ppc64le
 libsigsegv-2.11-3.fc27.ppc64le
-libsmartcols-2.30.1-5.fc27.ppc64le
+libsmartcols-2.30.2-1.fc28.ppc64le
 libsolv-0.6.28-8.fc27.ppc64le
 libss-1.43.6-1.fc28.ppc64le
 libssh-0.7.5-3.fc27.ppc64le
@@ -265,7 +265,7 @@ libusb-1:0.1.5-10.fc27.ppc64le
 libusbx-1.0.21-4.fc27.ppc64le
 libuser-0.62-11.fc28.ppc64le
 libutempter-1.1.6-11.fc27.ppc64le
-libuuid-2.30.1-5.fc27.ppc64le
+libuuid-2.30.2-1.fc28.ppc64le
 libverto-0.3.0-1.fc28.ppc64le
 libverto-libev-0.3.0-1.fc28.ppc64le
 libxml2-2.9.5-1.fc28.ppc64le
@@ -355,7 +355,7 @@ python3-rpm-4.14.0-0.rc2.5.fc28.ppc64le
 python3-setools-4.1.1-4.fc28.ppc64le
 python3-setuptools-36.2.0-7.fc28.noarch
 python3-six-1.10.0-11.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.ppc64le
+python3-smartcols-0.3.0-1.fc28.ppc64le
 qrencode-libs-3.4.4-3.fc27.ppc64le
 qt5-srpm-macros-5.9.1-2.fc27.noarch
 quota-1:4.03-9.fc27.ppc64le
@@ -402,7 +402,7 @@ uboot-tools-2017.09-0.4.rc2.fc28.ppc64le
 unzip-6.0-36.fc27.ppc64le
 usermode-1.111-12.fc27.ppc64le
 userspace-rcu-0.10.0-3.fc27.ppc64le
-util-linux-2.30.1-5.fc27.ppc64le
+util-linux-2.30.2-1.fc28.ppc64le
 vim-minimal-2:8.0.983-1.fc28.ppc64le
 volume_key-0.3.9-16.fc28.ppc64le
 volume_key-libs-0.3.9-16.fc28.ppc64le

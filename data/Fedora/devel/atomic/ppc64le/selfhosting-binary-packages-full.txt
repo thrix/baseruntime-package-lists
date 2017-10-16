@@ -1864,8 +1864,8 @@ libbabeltrace-1.5.3-1.fc27.ppc64le
 libbabeltrace-devel-1.5.3-1.fc27.ppc64le
 libbasicobjects-0.1.1-33.fc27.ppc64le
 libbasicobjects-devel-0.1.1-33.fc27.ppc64le
-libblkid-2.30.1-5.fc27.ppc64le
-libblkid-devel-2.30.1-5.fc27.ppc64le
+libblkid-2.30.2-1.fc28.ppc64le
+libblkid-devel-2.30.2-1.fc28.ppc64le
 libblockdev-2.11-1.fc27.ppc64le
 libblockdev-btrfs-2.11-1.fc27.ppc64le
 libblockdev-btrfs-devel-2.11-1.fc27.ppc64le
@@ -1982,7 +1982,7 @@ libfabric-1.4.2-5.fc28.ppc64le
 libfabric-devel-1.4.2-5.fc28.ppc64le
 libfbclient2-3.0.2.32703-3.fc27.ppc64le
 libfbclient2-devel-3.0.2.32703-3.fc27.ppc64le
-libfdisk-2.30.1-5.fc27.ppc64le
+libfdisk-2.30.2-1.fc28.ppc64le
 libfdt-1.4.4-4.fc27.ppc64le
 libfdt-devel-1.4.4-4.fc27.ppc64le
 libffado-2.3.0-6.fc27.ppc64le
@@ -2101,8 +2101,8 @@ libmodman-2.0.1-16.fc27.ppc64le
 libmodman-devel-2.0.1-16.fc27.ppc64le
 libmodplug-1:0.8.9.0-3.fc27.ppc64le
 libmodplug-devel-1:0.8.9.0-3.fc27.ppc64le
-libmount-2.30.1-5.fc27.ppc64le
-libmount-devel-2.30.1-5.fc27.ppc64le
+libmount-2.30.2-1.fc28.ppc64le
+libmount-devel-2.30.2-1.fc28.ppc64le
 libmpc-1.0.2-8.fc27.ppc64le
 libmpc-devel-1.0.2-8.fc27.ppc64le
 libmpcdec-1.2.6-19.fc27.ppc64le
@@ -2217,8 +2217,8 @@ libsigc++20-2.10.0-4.fc27.ppc64le
 libsigc++20-devel-2.10.0-4.fc27.ppc64le
 libsigsegv-2.11-3.fc27.ppc64le
 libsigsegv-devel-2.11-3.fc27.ppc64le
-libsmartcols-2.30.1-5.fc27.ppc64le
-libsmartcols-devel-2.30.1-5.fc27.ppc64le
+libsmartcols-2.30.2-1.fc28.ppc64le
+libsmartcols-devel-2.30.2-1.fc28.ppc64le
 libsmbclient-2:4.7.0-0.9.rc3.fc27.ppc64le
 libsmbclient-devel-2:4.7.0-0.9.rc3.fc27.ppc64le
 libsmi-0.4.8-20.fc27.ppc64le
@@ -2302,8 +2302,8 @@ libuser-0.62-11.fc28.ppc64le
 libuser-devel-0.62-11.fc28.ppc64le
 libutempter-1.1.6-11.fc27.ppc64le
 libutempter-devel-1.1.6-11.fc27.ppc64le
-libuuid-2.30.1-5.fc27.ppc64le
-libuuid-devel-2.30.1-5.fc27.ppc64le
+libuuid-2.30.2-1.fc28.ppc64le
+libuuid-devel-2.30.2-1.fc28.ppc64le
 libuv-1:1.14.0-1.fc28.ppc64le
 libuv-devel-1:1.14.0-1.fc28.ppc64le
 libv4l-1.12.5-4.fc27.ppc64le
@@ -4285,7 +4285,7 @@ python2-setuptools_scm-1.15.6-5.fc28.noarch
 python2-simplejson-3.10.0-5.fc27.ppc64le
 python2-singledispatch-3.4.0.3-9.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
-python2-smartcols-0.2.0-5.fc27.ppc64le
+python2-smartcols-0.3.0-1.fc28.ppc64le
 python2-snowballstemmer-1.2.1-4.fc27.noarch
 python2-socketpool-0.5.3-10.fc28.noarch
 python2-sphinx-1:1.6.4-2.fc28.noarch
@@ -4479,7 +4479,7 @@ python3-sip-devel-4.19.3-4.fc27.ppc64le
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.ppc64le
+python3-smartcols-0.3.0-1.fc28.ppc64le
 python3-snowballstemmer-1.2.1-4.fc27.noarch
 python3-sphinx-1:1.6.4-2.fc28.noarch
 python3-sphinx-theme-alabaster-0.7.9-4.fc27.noarch
@@ -6443,8 +6443,8 @@ userspace-rcu-devel-0.10.0-3.fc27.ppc64le
 ustr-1.0.4-24.fc27.ppc64le
 ustr-devel-1.0.4-24.fc27.ppc64le
 uthash-devel-2.0.2-3.fc27.noarch
-util-linux-2.30.1-5.fc27.ppc64le
-util-linux-user-2.30.1-5.fc27.ppc64le
+util-linux-2.30.2-1.fc28.ppc64le
+util-linux-user-2.30.2-1.fc28.ppc64le
 uuid-1.6.2-39.fc27.ppc64le
 uuid-devel-1.6.2-39.fc27.ppc64le
 uw-imap-devel-2007f-17.fc27.ppc64le

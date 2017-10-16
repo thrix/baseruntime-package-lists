@@ -1856,8 +1856,8 @@ libbabeltrace-1.5.3-1.fc27.aarch64
 libbabeltrace-devel-1.5.3-1.fc27.aarch64
 libbasicobjects-0.1.1-33.fc27.aarch64
 libbasicobjects-devel-0.1.1-33.fc27.aarch64
-libblkid-2.30.1-5.fc27.aarch64
-libblkid-devel-2.30.1-5.fc27.aarch64
+libblkid-2.30.2-1.fc28.aarch64
+libblkid-devel-2.30.2-1.fc28.aarch64
 libblockdev-2.11-1.fc27.aarch64
 libblockdev-btrfs-2.11-1.fc27.aarch64
 libblockdev-btrfs-devel-2.11-1.fc27.aarch64
@@ -1974,7 +1974,7 @@ libfabric-1.4.2-5.fc28.aarch64
 libfabric-devel-1.4.2-5.fc28.aarch64
 libfbclient2-3.0.2.32703-3.fc27.aarch64
 libfbclient2-devel-3.0.2.32703-3.fc27.aarch64
-libfdisk-2.30.1-5.fc27.aarch64
+libfdisk-2.30.2-1.fc28.aarch64
 libfdt-1.4.4-4.fc27.aarch64
 libfdt-devel-1.4.4-4.fc27.aarch64
 libffado-2.3.0-6.fc27.aarch64
@@ -2093,8 +2093,8 @@ libmodman-2.0.1-16.fc27.aarch64
 libmodman-devel-2.0.1-16.fc27.aarch64
 libmodplug-1:0.8.9.0-3.fc27.aarch64
 libmodplug-devel-1:0.8.9.0-3.fc27.aarch64
-libmount-2.30.1-5.fc27.aarch64
-libmount-devel-2.30.1-5.fc27.aarch64
+libmount-2.30.2-1.fc28.aarch64
+libmount-devel-2.30.2-1.fc28.aarch64
 libmpc-1.0.2-8.fc27.aarch64
 libmpc-devel-1.0.2-8.fc27.aarch64
 libmpcdec-1.2.6-19.fc27.aarch64
@@ -2211,8 +2211,8 @@ libsigc++20-2.10.0-4.fc27.aarch64
 libsigc++20-devel-2.10.0-4.fc27.aarch64
 libsigsegv-2.11-3.fc27.aarch64
 libsigsegv-devel-2.11-3.fc27.aarch64
-libsmartcols-2.30.1-5.fc27.aarch64
-libsmartcols-devel-2.30.1-5.fc27.aarch64
+libsmartcols-2.30.2-1.fc28.aarch64
+libsmartcols-devel-2.30.2-1.fc28.aarch64
 libsmbclient-2:4.7.0-0.9.rc3.fc27.aarch64
 libsmbclient-devel-2:4.7.0-0.9.rc3.fc27.aarch64
 libsmi-0.4.8-20.fc27.aarch64
@@ -2294,8 +2294,8 @@ libuser-0.62-11.fc28.aarch64
 libuser-devel-0.62-11.fc28.aarch64
 libutempter-1.1.6-11.fc27.aarch64
 libutempter-devel-1.1.6-11.fc27.aarch64
-libuuid-2.30.1-5.fc27.aarch64
-libuuid-devel-2.30.1-5.fc27.aarch64
+libuuid-2.30.2-1.fc28.aarch64
+libuuid-devel-2.30.2-1.fc28.aarch64
 libuv-1:1.14.0-1.fc28.aarch64
 libuv-devel-1:1.14.0-1.fc28.aarch64
 libv4l-1.12.5-4.fc27.aarch64
@@ -4265,7 +4265,7 @@ python2-setuptools_scm-1.15.6-5.fc28.noarch
 python2-simplejson-3.10.0-5.fc27.aarch64
 python2-singledispatch-3.4.0.3-9.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
-python2-smartcols-0.2.0-5.fc27.aarch64
+python2-smartcols-0.3.0-1.fc28.aarch64
 python2-snowballstemmer-1.2.1-4.fc27.noarch
 python2-socketpool-0.5.3-10.fc28.noarch
 python2-sphinx-1:1.6.4-2.fc28.noarch
@@ -4447,7 +4447,7 @@ python3-sip-devel-4.19.3-4.fc27.aarch64
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.aarch64
+python3-smartcols-0.3.0-1.fc28.aarch64
 python3-snowballstemmer-1.2.1-4.fc27.noarch
 python3-sphinx-1:1.6.4-2.fc28.noarch
 python3-sphinx-theme-alabaster-0.7.9-4.fc27.noarch
@@ -6415,8 +6415,8 @@ userspace-rcu-devel-0.10.0-3.fc27.aarch64
 ustr-1.0.4-24.fc27.aarch64
 ustr-devel-1.0.4-24.fc27.aarch64
 uthash-devel-2.0.2-3.fc27.noarch
-util-linux-2.30.1-5.fc27.aarch64
-util-linux-user-2.30.1-5.fc27.aarch64
+util-linux-2.30.2-1.fc28.aarch64
+util-linux-user-2.30.2-1.fc28.aarch64
 uuid-1.6.2-39.fc27.aarch64
 uuid-devel-1.6.2-39.fc27.aarch64
 uw-imap-devel-2007f-17.fc27.aarch64

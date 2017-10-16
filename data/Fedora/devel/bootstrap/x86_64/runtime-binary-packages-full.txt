@@ -242,7 +242,7 @@ libatomic_ops-7.4.6-3.fc27.x86_64
 libattr-2.4.47-21.fc27.x86_64
 libbabeltrace-1.5.3-1.fc27.x86_64
 libbasicobjects-0.1.1-33.fc27.x86_64
-libblkid-2.30.1-5.fc27.x86_64
+libblkid-2.30.2-1.fc28.x86_64
 libblockdev-2.11-1.fc27.x86_64
 libblockdev-btrfs-2.11-1.fc27.x86_64
 libblockdev-crypto-2.11-1.fc27.x86_64
@@ -275,7 +275,7 @@ libdnf-0.11.0-1.fc28.x86_64
 libedit-3.1-20.20170329cvs.fc27.x86_64
 libev-4.24-4.fc27.x86_64
 libevent-2.0.22-6.fc27.x86_64
-libfdisk-2.30.1-5.fc27.x86_64
+libfdisk-2.30.2-1.fc28.x86_64
 libffi-3.1-14.fc27.x86_64
 libgcc-7.1.1-7.fc27.1.x86_64
 libgcrypt-1.8.1-1.fc28.x86_64
@@ -292,7 +292,7 @@ libksba-1.3.5-5.fc27.x86_64
 libmetalink-0.1.3-4.fc27.x86_64
 libmnl-1.0.4-4.fc27.x86_64
 libmodman-2.0.1-16.fc27.x86_64
-libmount-2.30.1-5.fc27.x86_64
+libmount-2.30.2-1.fc28.x86_64
 libmpc-1.0.2-8.fc27.x86_64
 libndp-1.6-4.fc27.x86_64
 libnetfilter_conntrack-1.0.6-4.fc27.x86_64
@@ -327,7 +327,7 @@ libselinux-utils-2.7-4.fc28.x86_64
 libsemanage-2.7-3.fc28.x86_64
 libsepol-2.7-1.fc27.x86_64
 libsigsegv-2.11-3.fc27.x86_64
-libsmartcols-2.30.1-5.fc27.x86_64
+libsmartcols-2.30.2-1.fc28.x86_64
 libsolv-0.6.28-8.fc27.x86_64
 libss-1.43.6-1.fc28.x86_64
 libssh-0.7.5-3.fc27.x86_64
@@ -350,7 +350,7 @@ libusb-1:0.1.5-10.fc27.x86_64
 libusbx-1.0.21-4.fc27.x86_64
 libuser-0.62-11.fc28.x86_64
 libutempter-1.1.6-11.fc27.x86_64
-libuuid-2.30.1-5.fc27.x86_64
+libuuid-2.30.2-1.fc28.x86_64
 libverto-0.3.0-1.fc28.x86_64
 libverto-libev-0.3.0-1.fc28.x86_64
 libxml2-2.9.5-1.fc28.x86_64
@@ -542,7 +542,7 @@ python3-setuptools-36.2.0-7.fc28.noarch
 python3-six-1.10.0-11.fc28.noarch
 python3-slip-0.6.4-8.fc28.noarch
 python3-slip-dbus-0.6.4-8.fc28.noarch
-python3-smartcols-0.2.0-5.fc27.x86_64
+python3-smartcols-0.3.0-1.fc28.x86_64
 python3-sssdconfig-1.15.3-2.fc27.noarch
 python3-systemd-234-3.fc27.x86_64
 python3-urllib3-1.22-2.fc27.noarch
@@ -618,7 +618,7 @@ uboot-tools-2017.09-0.4.rc2.fc28.x86_64
 unzip-6.0-36.fc27.x86_64
 usermode-1.111-12.fc27.x86_64
 userspace-rcu-0.10.0-3.fc27.x86_64
-util-linux-2.30.1-5.fc27.x86_64
+util-linux-2.30.2-1.fc28.x86_64
 vim-minimal-2:8.0.983-1.fc28.x86_64
 volume_key-0.3.9-16.fc28.x86_64
 volume_key-libs-0.3.9-16.fc28.x86_64
