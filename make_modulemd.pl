@@ -245,13 +245,14 @@ for my $module (@modules) {
             # fedora-modular-release/repos implement their features.
             # We only do this for platform as bootstrap needs the original
             # at the moment.
-            # We need the hardcoded versions so that getn() doesn't mangle
-            # the names to simple "fedora" later on.  It doesn't matter
-            # they don't exist.  We manage that content in Rawhide anyway.
+            # We need some dummy hardcoded versions so that getn()
+            # doesn't mangle # the names to simple "fedora" later on.
+            # It doesn't matter # they don't exist.  We manage this in
+            # dist-git HEADs anyway.
             if (/^fedora-release-.+$/) {
-                'fedora-modular-release-27-1';
+                'fedora-modular-release-dummyversion-dummyrelease';
             } elsif (/^fedora-repos-.+$/) {
-                ('fedora-modular-repos-27-1', $_);
+                ('fedora-modular-repos-dummyversion-dummyrelease', $_);
             } else {
                 $_;
             }
@@ -265,6 +266,17 @@ for my $module (@modules) {
     }
     $tt->process("${base}/${module}.tmpl", \%data, "${base}/${module}.yaml")
         or die "Error while processing templates: " . $tt->error() . "\n";
+    # XXX: Fedora 27 needs special treatment.  This is here so that we
+    # don't # have to maintain two trees of repodata and package lists
+    # for very little # benefit.  The long term plan is to maintain the
+    # :f27 modules manually, # while using these tools for development
+    # and general # traditional-to-modular transition.
+    for (qw/fedora-modular-release fedora-modular-repos/) {
+        $data{components}->{$_}->{ref} = 'f27';
+    }
+    $tt->process("${base}/${module}.f27.tmpl", \%data,
+        "${base}/${module}.f27.yaml")
+        or die "Error while processing f27 templates: " . $tt->error() . "\n";
 }
 
 print "Done with ${mode}.\n"

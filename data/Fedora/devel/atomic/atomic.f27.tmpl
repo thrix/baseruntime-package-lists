@@ -1,0 +1,20 @@
+document: modulemd
+version: 1
+data:
+    summary: The Atomic Host
+    description: >-
+        Atomic Host is a lightweight, immutable platform, designed with
+        the sole purpose of running containerized applications.
+    license:
+        module: [ MIT ]
+    dependencies:
+        buildrequires:
+            bootstrap: f27
+    references:
+        community: https://www.projectatomic.io/
+        documentation: http://www.projectatomic.io/docs/
+        # The module is currently managed by the Host & Platform folks
+        tracker: https://github.com/fedora-modularity/hp/issues
+    components:
+        rpms:
+[% INCLUDE components.tmpl -%]
