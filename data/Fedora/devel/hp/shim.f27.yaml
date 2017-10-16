@@ -16,16 +16,6 @@ data:
         tracker: https://github.com/fedora-modularity/hp/issues
     components:
         rpms:
-            # 
-            fedora-modular-release:
-                rationale: >-
-                    
-                ref: f27
-            # 
-            fedora-modular-repos:
-                rationale: >-
-                    
-                ref: f27
             # shim-unsigned-aarch64-13-1.fc27
             shim-unsigned-aarch64:
                 rationale: >-

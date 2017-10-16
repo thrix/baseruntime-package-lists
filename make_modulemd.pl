@@ -272,7 +272,8 @@ for my $module (@modules) {
     # :f27 modules manually, # while using these tools for development
     # and general # traditional-to-modular transition.
     for (qw/fedora-modular-release fedora-modular-repos/) {
-        $data{components}->{$_}->{ref} = 'f27';
+        $data{components}->{$_}->{ref} = 'f27'
+            if exists $data{components}->{$_};
     }
     $tt->process("${base}/${module}.f27.tmpl", \%data,
         "${base}/${module}.f27.yaml")
