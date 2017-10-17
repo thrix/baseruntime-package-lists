@@ -362,7 +362,7 @@ realmd-0.16.3-8.fc28.src
 redhat-rpm-config-67-1.fc27.src
 rootfiles-8.1-21.fc27.src
 rpcbind-0.2.4-7.rc2.fc27.2.src
-rpm-4.14.0-0.rc2.5.fc28.src
+rpm-4.14.0-2.fc28.src
 rpm-ostree-2017.8-2.fc28.src
 rsync-3.1.2-7.fc27.src
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.src

@@ -536,7 +536,7 @@ python3-pyudev-0.21.0-4.fc27.noarch
 python3-requests-2.18.4-1.fc28.noarch
 python3-requests-file-1.4-7.fc27.noarch
 python3-requests-ftp-0.3.1-7.fc27.noarch
-python3-rpm-4.14.0-0.rc2.5.fc28.x86_64
+python3-rpm-4.14.0-2.fc28.x86_64
 python3-setools-4.1.1-4.fc28.x86_64
 python3-setuptools-36.2.0-7.fc28.noarch
 python3-six-1.10.0-11.fc28.noarch
@@ -557,13 +557,13 @@ realmd-0.16.3-8.fc28.x86_64
 redhat-rpm-config-67-1.fc27.noarch
 rootfiles-8.1-21.fc27.noarch
 rpcbind-0.2.4-7.rc2.fc27.2.x86_64
-rpm-4.14.0-0.rc2.5.fc28.x86_64
-rpm-build-4.14.0-0.rc2.5.fc28.x86_64
-rpm-build-libs-4.14.0-0.rc2.5.fc28.x86_64
-rpm-libs-4.14.0-0.rc2.5.fc28.x86_64
+rpm-4.14.0-2.fc28.x86_64
+rpm-build-4.14.0-2.fc28.x86_64
+rpm-build-libs-4.14.0-2.fc28.x86_64
+rpm-libs-4.14.0-2.fc28.x86_64
 rpm-ostree-2017.8-2.fc28.x86_64
 rpm-ostree-libs-2017.8-2.fc28.x86_64
-rpm-plugin-selinux-4.14.0-0.rc2.5.fc28.x86_64
+rpm-plugin-selinux-4.14.0-2.fc28.x86_64
 rsync-3.1.2-7.fc27.x86_64
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.x86_64
 rust-srpm-macros-4-3.fc27.noarch
