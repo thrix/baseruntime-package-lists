@@ -262,7 +262,7 @@ echo "Downloading source RPM repodata from ${source_uri}"
 RC=5
 while [[ $RC -eq 5 ]]
 do
-   rsync -azhq --no-motd --delete-before $source_uri $dest_sources
+   rsync -avzh --no-motd --delete-before $source_uri $dest_sources
    RC=$?
 done
 
@@ -282,7 +282,7 @@ if [ $_arg_updates == "on" ]; then
     RC=5
     while [[ $RC -eq 5 ]]
     do
-       rsync -azhq --no-motd --delete-before $source_uri $dest_update_sources
+       rsync -avzh --no-motd --delete-before $source_uri $dest_update_sources
        RC=$?
     done
 
@@ -328,7 +328,7 @@ for arch in ${_arg_arch[@]}; do
         RC=5
         while [[ $RC -eq 5 ]]
         do
-            rsync -azhq --no-motd --delete-before $frozen_uri $dest_arch
+            rsync -avzh --no-motd --delete-before $frozen_uri $dest_arch
             RC=$?
         done
     else
@@ -355,7 +355,7 @@ for arch in ${_arg_arch[@]}; do
         RC=5
         while [[ $RC -eq 5 ]]
         do
-            rsync -azhq --no-motd --delete-before $frozen_binary_uri $dest_frozen_binaries
+            rsync -avzh --no-motd --delete-before $frozen_binary_uri $dest_frozen_binaries
             RC=$?
         done
     fi
@@ -374,7 +374,7 @@ for arch in ${_arg_arch[@]}; do
         RC=5
         while [[ $RC -eq 5 ]]
         do
-           rsync -azh --no-motd --delete-before \
+           rsync -avzh --no-motd --delete-before \
             ${override_uri} ${dest_override}
            RC=$?
         done
