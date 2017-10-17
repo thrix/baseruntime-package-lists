@@ -41,6 +41,7 @@ chrony-3.2-0.3.pre1.fc27.ppc64le
 chrpath-0.16-6.fc27.ppc64le
 cloud-init-0.7.9-8.fc27.noarch
 cloud-utils-growpart-0.27-18.fc27.noarch
+cmake-filesystem-3.9.1-2.fc28.ppc64le
 cockpit-bridge-149-1.fc28.ppc64le
 cockpit-docker-149-1.fc28.ppc64le
 cockpit-networkmanager-149-1.fc28.noarch
@@ -161,6 +162,7 @@ gomtree-0.4.0-1.fc27.ppc64le
 gpart-0.3-5.fc27.ppc64le
 gpgme-1.9.0-6.fc28.ppc64le
 grep-3.1-3.fc27.ppc64le
+groff-base-1.22.3-11.fc27.ppc64le
 grub2-common-1:2.02-15.fc28.noarch
 grub2-ppc64le-1:2.02-15.fc28.ppc64le
 grub2-ppc64le-modules-1:2.02-15.fc28.noarch
@@ -293,6 +295,7 @@ libpath_utils-0.2.1-33.fc27.ppc64le
 libpcap-14:1.8.1-6.fc27.ppc64le
 libpciaccess-0.13.4-6.fc27.ppc64le
 libpeas-1.21.0-1.fc27.ppc64le
+libpipeline-1.4.2-3.fc27.ppc64le
 libpkgconf-1.3.8-1.fc27.ppc64le
 libpng-2:1.6.31-1.fc27.ppc64le
 libproxy-0.4.15-4.fc27.ppc64le
@@ -364,6 +367,7 @@ lz4-libs-1.8.0-1.fc28.ppc64le
 lzo-2.08-11.fc27.ppc64le
 m4-1.4.18-5.fc27.ppc64le
 make-1:4.2.1-4.fc27.ppc64le
+man-db-2.7.6.1-5.fc27.ppc64le
 mcstrans-0.3.4-11.fc27.ppc64le
 mdadm-4.0-5.fc27.ppc64le
 microdnf-3-4.fc27.ppc64le

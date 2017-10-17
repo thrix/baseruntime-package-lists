@@ -22,6 +22,7 @@ ca-certificates
 checkpolicy
 chkconfig
 chrpath
+cmake-filesystem
 cockpit-bridge
 cockpit-system
 cockpit-ws
@@ -127,6 +128,7 @@ gobject-introspection
 gpart
 gpgme
 grep
+groff-base
 grub2-common
 grub2-efi-ia32
 grub2-efi-ia32-cdboot
@@ -243,6 +245,7 @@ libpath_utils
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpkgconf
 libpng
 libproxy
@@ -294,6 +297,7 @@ lzo
 m4
 mactel-boot
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -430,7 +434,6 @@ volume_key-libs
 which
 xfsprogs
 xml-common
-xmlrpc-c
 xz
 xz-libs
 zip

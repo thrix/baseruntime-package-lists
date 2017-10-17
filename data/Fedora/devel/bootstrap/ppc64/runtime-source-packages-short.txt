@@ -32,6 +32,7 @@ chrony
 chrpath
 cloud-init
 cloud-utils
+cmake
 cockpit
 compat-openssl10
 coreutils
@@ -105,6 +106,7 @@ gobject-introspection
 gpart
 gpgme
 grep
+groff
 grub2
 gsettings-desktop-schemas
 gssproxy
@@ -176,6 +178,7 @@ libnl3
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpng
 libproxy
 libpsl
@@ -223,6 +226,7 @@ lz4
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf

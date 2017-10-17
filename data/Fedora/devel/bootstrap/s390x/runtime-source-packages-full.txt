@@ -34,6 +34,7 @@ chrony-3.2-0.3.pre1.fc27.src
 chrpath-0.16-6.fc27.src
 cloud-init-0.7.9-8.fc27.src
 cloud-utils-0.27-18.fc27.src
+cmake-3.9.1-2.fc28.src
 cockpit-149-1.fc28.src
 compat-openssl10-1:1.0.2j-9.fc28.src
 container-selinux-2:2.21-3.fc27.src
@@ -177,6 +178,7 @@ libnl3-3.3.0-4.fc28.src
 libpcap-14:1.8.1-6.fc27.src
 libpciaccess-0.13.4-6.fc27.src
 libpeas-1.21.0-1.fc27.src
+libpipeline-1.4.2-3.fc27.src
 libproxy-0.4.15-4.fc27.src
 libpsl-0.18.0-1.fc27.src
 libpwquality-1.4.0-3.fc27.src
@@ -218,6 +220,7 @@ lz4-1.8.0-1.fc28.src
 lzo-2.08-11.fc27.src
 m4-1.4.18-5.fc27.src
 make-1:4.2.1-4.fc27.src
+man-db-2.7.6.1-5.fc27.src
 mariadb-connector-c-3.0.2-3.fc27.src
 mcstrans-0.3.4-11.fc27.src
 mdadm-4.0-5.fc27.src

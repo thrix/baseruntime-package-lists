@@ -33,6 +33,7 @@ chrony
 chrpath
 cloud-init
 cloud-utils
+cmake
 cockpit
 compat-openssl10
 container-selinux
@@ -108,6 +109,7 @@ gomtree
 gpart
 gpgme
 grep
+groff
 gsettings-desktop-schemas
 gssproxy
 guile
@@ -177,6 +179,7 @@ libnl3
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libproxy
 libpsl
 libpwquality
@@ -219,6 +222,7 @@ lz4
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf

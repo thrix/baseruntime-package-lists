@@ -22,6 +22,7 @@ ca-certificates
 checkpolicy
 chkconfig
 chrpath
+cmake-filesystem
 cockpit-bridge
 cockpit-system
 cockpit-ws
@@ -119,6 +120,7 @@ gobject-introspection
 gpart
 gpgme
 grep
+groff-base
 gsettings-desktop-schemas
 gssproxy
 guile
@@ -225,6 +227,7 @@ libpath_utils
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpkgconf
 libproxy
 libpwquality
@@ -273,6 +276,7 @@ lz4-libs
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -397,7 +401,6 @@ volume_key
 volume_key-libs
 xfsprogs
 xml-common
-xmlrpc-c
 xz
 xz-libs
 zip

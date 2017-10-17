@@ -11,6 +11,7 @@ bzip2
 c-ares
 checkpolicy
 chrpath
+cmake-filesystem
 cockpit-bridge
 cockpit-system
 cockpit-ws
@@ -123,6 +124,7 @@ lsof
 lsscsi
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -141,7 +143,6 @@ passwd
 patch
 pciutils
 policycoreutils
-powerpc-utils-core
 procps-ng
 psmisc
 publicsuffix-list
@@ -180,7 +181,6 @@ util-linux
 volume_key
 xfsprogs
 xml-common
-xmlrpc-c
 xz
 zlib
 zstd

@@ -22,6 +22,7 @@ ca-certificates-2017.2.16-4.fc27.noarch
 checkpolicy-2.7-1.fc27.x86_64
 chkconfig-1.10-3.fc27.x86_64
 chrpath-0.16-6.fc27.x86_64
+cmake-filesystem-3.9.1-2.fc28.x86_64
 cockpit-bridge-149-1.fc28.x86_64
 cockpit-system-149-1.fc28.noarch
 cockpit-ws-149-1.fc28.x86_64
@@ -127,6 +128,7 @@ gobject-introspection-1.53.5-1.fc27.x86_64
 gpart-0.3-5.fc27.x86_64
 gpgme-1.9.0-6.fc28.x86_64
 grep-3.1-3.fc27.x86_64
+groff-base-1.22.3-11.fc27.x86_64
 grub2-common-1:2.02-15.fc28.noarch
 grub2-efi-ia32-1:2.02-15.fc28.x86_64
 grub2-efi-ia32-cdboot-1:2.02-15.fc28.x86_64
@@ -243,6 +245,7 @@ libpath_utils-0.2.1-33.fc27.x86_64
 libpcap-14:1.8.1-6.fc27.x86_64
 libpciaccess-0.13.4-6.fc27.x86_64
 libpeas-1.21.0-1.fc27.x86_64
+libpipeline-1.4.2-3.fc27.x86_64
 libpkgconf-1.3.8-1.fc27.x86_64
 libpng-2:1.6.31-1.fc27.x86_64
 libproxy-0.4.15-4.fc27.x86_64
@@ -294,6 +297,7 @@ lzo-2.08-11.fc27.x86_64
 m4-1.4.18-5.fc27.x86_64
 mactel-boot-0.9-16.fc27.x86_64
 make-1:4.2.1-4.fc27.x86_64
+man-db-2.7.6.1-5.fc27.x86_64
 mcstrans-0.3.4-11.fc27.x86_64
 mdadm-4.0-5.fc27.x86_64
 microdnf-3-4.fc27.x86_64
@@ -430,7 +434,6 @@ volume_key-libs-0.3.9-16.fc28.x86_64
 which-2.21-4.fc27.x86_64
 xfsprogs-4.12.0-4.fc27.x86_64
 xml-common-0.6.3-46.fc27.noarch
-xmlrpc-c-1.48.0-7.fc27.x86_64
 xz-5.2.3-4.fc27.x86_64
 xz-libs-5.2.3-4.fc27.x86_64
 zip-3.0-20.fc27.x86_64

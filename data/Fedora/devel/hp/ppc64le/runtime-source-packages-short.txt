@@ -20,6 +20,7 @@ ca-certificates
 checkpolicy
 chkconfig
 chrpath
+cmake
 cockpit
 compat-openssl10
 coreutils
@@ -87,6 +88,7 @@ gobject-introspection
 gpart
 gpgme
 grep
+groff
 grub2
 gsettings-desktop-schemas
 gssproxy
@@ -154,6 +156,7 @@ libnl3
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpng
 libproxy
 libpwquality
@@ -193,6 +196,7 @@ lz4
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -229,7 +233,6 @@ pkgconf
 policycoreutils
 polkit
 popt
-powerpc-utils
 procps-ng
 psmisc
 publicsuffix-list
@@ -281,7 +284,6 @@ vim
 volume_key
 which
 xfsprogs
-xmlrpc-c
 xz
 zip
 zlib

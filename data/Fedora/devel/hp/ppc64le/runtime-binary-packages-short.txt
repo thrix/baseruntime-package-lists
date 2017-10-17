@@ -22,6 +22,7 @@ ca-certificates
 checkpolicy
 chkconfig
 chrpath
+cmake-filesystem
 cockpit-bridge
 cockpit-system
 cockpit-ws
@@ -122,6 +123,7 @@ gobject-introspection
 gpart
 gpgme
 grep
+groff-base
 grub2-common
 grub2-ppc64le
 grub2-ppc64le-modules
@@ -233,6 +235,7 @@ libpath_utils
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpkgconf
 libpng
 libproxy
@@ -282,6 +285,7 @@ lz4-libs
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -330,7 +334,6 @@ policycoreutils-python-utils
 policycoreutils-python3
 polkit-libs
 popt
-powerpc-utils-core
 procps-ng
 psmisc
 publicsuffix-list
@@ -409,7 +412,6 @@ volume_key-libs
 which
 xfsprogs
 xml-common
-xmlrpc-c
 xz
 xz-libs
 zip

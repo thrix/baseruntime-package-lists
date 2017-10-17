@@ -41,6 +41,7 @@ chrony
 chrpath
 cloud-init
 cloud-utils-growpart
+cmake-filesystem
 cockpit-bridge
 cockpit-docker
 cockpit-networkmanager
@@ -281,6 +282,7 @@ libpath_utils
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpkgconf
 libproxy
 libpsl
@@ -346,6 +348,7 @@ lz4-libs
 lzo
 m4
 make
+man-db
 mariadb-connector-c
 mcstrans
 mdadm

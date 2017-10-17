@@ -42,6 +42,7 @@ chrony
 chrpath
 cloud-init
 cloud-utils-growpart
+cmake-filesystem
 cockpit-bridge
 cockpit-docker
 cockpit-networkmanager
@@ -165,6 +166,7 @@ gomtree
 gpart
 gpgme
 grep
+groff-base
 grub2-common
 grub2-pc
 grub2-pc-modules
@@ -303,6 +305,7 @@ libpath_utils
 libpcap
 libpciaccess
 libpeas
+libpipeline
 libpkgconf
 libpng
 libproxy
@@ -370,6 +373,7 @@ lz4-libs
 lzo
 m4
 make
+man-db
 mcstrans
 mdadm
 memtest86+
