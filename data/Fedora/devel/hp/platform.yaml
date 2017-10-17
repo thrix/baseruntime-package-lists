@@ -56,6 +56,10 @@ data:
                 - rpm-build
                 - shadow-utils
     filter:
+        - cmake
+        - cmake-data
+        - cmake-doc
+        - cmake-gui
         - fedora-repos
         - powerpc-utils
     components:
