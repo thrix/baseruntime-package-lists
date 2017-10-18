@@ -297,6 +297,7 @@ vim
 volume_key
 which
 xfsprogs
+xmlrpc-c
 xz
 zip
 zlib

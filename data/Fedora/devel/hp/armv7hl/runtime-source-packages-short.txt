@@ -277,6 +277,7 @@ util-linux
 vim
 volume_key
 xfsprogs
+xmlrpc-c
 xz
 zip
 zlib

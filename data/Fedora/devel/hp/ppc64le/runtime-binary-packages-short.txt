@@ -412,6 +412,7 @@ volume_key-libs
 which
 xfsprogs
 xml-common
+xmlrpc-c
 xz
 xz-libs
 zip

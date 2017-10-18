@@ -1556,6 +1556,11 @@ data:
                 rationale: >-
                     XFS support.
                 ref: e6eea5b0c1b85945da4be56d6dbddf5cd9a998cd
+            # xmlrpc-c-1.48.0-7.fc27
+            xmlrpc-c:
+                rationale: >-
+                    Provides a lightweight RPC library.
+                ref: 732293b8fa696a4391d9133ec1836f13c4875027
             # xz-5.2.3-4.fc27
             xz:
                 rationale: >-
