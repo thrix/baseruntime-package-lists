@@ -630,8 +630,8 @@ volume_key-libs-0.3.9-16.fc28.ppc64le
 which-2.21-4.fc27.ppc64le
 xfsprogs-4.12.0-4.fc27.ppc64le
 xml-common-0.6.3-46.fc27.noarch
-xmlrpc-c-1.48.0-7.fc27.ppc64le
-xmlrpc-c-client-1.48.0-7.fc27.ppc64le
+xmlrpc-c-1.49.02-2.fc27.ppc64le
+xmlrpc-c-client-1.49.02-2.fc27.ppc64le
 xz-5.2.3-4.fc27.ppc64le
 xz-libs-5.2.3-4.fc27.ppc64le
 yajl-2.1.0-8.fc27.ppc64le
