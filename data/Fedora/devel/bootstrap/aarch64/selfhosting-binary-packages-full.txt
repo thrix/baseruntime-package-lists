@@ -2014,8 +2014,8 @@ libdhash-0.4.3-33.fc27.aarch64
 libdhash-devel-0.4.3-33.fc27.aarch64
 libdmx-1.1.3-9.fc27.aarch64
 libdmx-devel-1.1.3-9.fc27.aarch64
-libdnf-0.11.0-1.fc28.aarch64
-libdnf-devel-0.11.0-1.fc28.aarch64
+libdnf-0.11.1-1.fc28.aarch64
+libdnf-devel-0.11.1-1.fc28.aarch64
 libdrm-2.4.82-3.fc27.aarch64
 libdrm-devel-2.4.82-3.fc27.aarch64
 libdv-1.0.0-25.fc27.aarch64
@@ -4292,7 +4292,7 @@ python2-gobject-3.26.0-2.fc28.aarch64
 python2-gobject-base-3.26.0-2.fc28.aarch64
 python2-google-apputils-0.4.2-10.fc28.noarch
 python2-gpg-1.9.0-6.fc28.aarch64
-python2-hawkey-0.11.0-1.fc28.aarch64
+python2-hawkey-0.11.1-1.fc28.aarch64
 python2-html5lib-1:0.999999999-4.fc28.noarch
 python2-http-parser-0.8.3-13.fc28.aarch64
 python2-httpbin-0.5.0-7.fc27.noarch
@@ -4495,7 +4495,7 @@ python3-gobject-3.26.0-2.fc28.aarch64
 python3-gobject-base-3.26.0-2.fc28.aarch64
 python3-google-apputils-0.4.2-10.fc28.noarch
 python3-gpg-1.9.0-6.fc28.aarch64
-python3-hawkey-0.11.0-1.fc28.aarch64
+python3-hawkey-0.11.1-1.fc28.aarch64
 python3-html5lib-1:0.999999999-4.fc28.noarch
 python3-httpbin-0.5.0-7.fc27.noarch
 python3-httplib2-0.9.2-7.fc28.noarch
