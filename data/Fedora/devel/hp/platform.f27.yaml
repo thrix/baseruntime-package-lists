@@ -295,11 +295,11 @@ data:
                 rationale: >-
                     Docbook DTDs are a common build dependency.
                 ref: 1b7b578b7d8f1080188021e469716af2731fb149
-            # docbook-style-xsl-1.79.2-5.fc27
+            # docbook-style-xsl-1.79.2-6.fc28
             docbook-style-xsl:
                 rationale: >-
                     Docbook XSLs are a common build dependency.
-                ref: a2b668555e8e42dabf561abd133c831aa73d91a5
+                ref: e3ae7a97ed1d185594dd35954e1a02196afb205a
             # dosfstools-4.1-4.fc27
             dosfstools:
                 rationale: >-

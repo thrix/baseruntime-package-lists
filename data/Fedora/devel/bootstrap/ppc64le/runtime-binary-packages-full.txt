@@ -85,7 +85,7 @@ dmraid-events-1.0.0.rc16-34.fc27.ppc64le
 dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 dnf-conf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 docbook-dtds-1.0-67.fc27.noarch
-docbook-style-xsl-1.79.2-5.fc27.noarch
+docbook-style-xsl-1.79.2-6.fc28.noarch
 docker-2:1.13.1-30.gitb5e3294.fc28.ppc64le
 docker-common-2:1.13.1-30.gitb5e3294.fc28.ppc64le
 docker-rhel-push-plugin-2:1.13.1-30.gitb5e3294.fc28.ppc64le

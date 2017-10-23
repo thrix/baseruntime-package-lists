@@ -634,6 +634,7 @@ docbook-style-dsssl-1.79-23.fc26:f5746c171675ee5605f28f34e6e068b779a1e96a
 docbook-style-dsssl-1.79-24.fc27:ac474bd06ac2a5dfe7bb7dc62d0efbec76dabfe0
 docbook-style-xsl-1.79.2-4.fc26:544ff5ad6e978cb682af66883c78d3211d8e453f
 docbook-style-xsl-1.79.2-5.fc27:a2b668555e8e42dabf561abd133c831aa73d91a5
+docbook-style-xsl-1.79.2-6.fc28:e3ae7a97ed1d185594dd35954e1a02196afb205a
 docbook-utils-0.6.14-42.fc26:e33d0c62f96547bae586e1159f9da93cacd1c35a
 docbook-utils-0.6.14-43.fc27:70e1a30d2174f743593b4ab7a561ca3c390635c2
 docbook5-schemas-5.0-15.fc26:c20eee2425de26af9dd3a84acd403b8c532a4088
