@@ -2464,8 +2464,8 @@ log4j-slf4j-2.8.2-2.fc27.noarch
 log4j12-1.2.17-20.fc27.noarch
 logback-1.1.7-3.fc27.noarch
 logrotate-3.12.3-3.fc27.armv7hl
-lorax-27.11-boltron.7.fc27.armv7hl
-lorax-templates-generic-27.11-boltron.7.fc27.armv7hl
+lorax-27.11-boltron.8.fc27.armv7hl
+lorax-templates-generic-27.11-boltron.8.fc27.armv7hl
 lpg-java-compat-1.1.0-24.fc27.noarch
 lsof-4.89-7.fc27.armv7hl
 lsscsi-0.28-6.fc27.armv7hl
