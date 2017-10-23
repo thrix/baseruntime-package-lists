@@ -118,7 +118,7 @@ keyutils-1.5.10-3.fc27.ppc64
 keyutils-libs-1.5.10-3.fc27.ppc64
 kmod-24-3.fc27.ppc64
 kmod-libs-24-3.fc27.ppc64
-krb5-libs-1.15.1-28.fc28.ppc64
+krb5-libs-1.15.2-3.fc27.ppc64
 less-487-5.fc27.ppc64
 libacl-2.2.52-18.fc27.ppc64
 libaio-0.3.110-9.fc27.ppc64
@@ -289,7 +289,7 @@ python3-chardet-3.0.4-3.fc28.noarch
 python3-configobj-5.0.6-9.fc27.noarch
 python3-cryptography-2.0.2-3.fc28.ppc64
 python3-idna-2.5-2.fc27.noarch
-python3-jinja2-2.9.6-3.fc28.noarch
+python3-jinja2-2.9.6-4.fc28.noarch
 python3-jsonpatch-1.14-5.fc28.noarch
 python3-jsonpointer-1.10-8.fc28.noarch
 python3-jwt-1.5.2-3.fc27.noarch

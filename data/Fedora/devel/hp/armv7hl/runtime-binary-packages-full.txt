@@ -167,9 +167,9 @@ keyutils-libs-1.5.10-3.fc27.armv7hl
 kmod-24-3.fc27.armv7hl
 kmod-libs-24-3.fc27.armv7hl
 kpartx-0.7.1-6.git847cc43.fc27.armv7hl
-krb5-libs-1.15.1-28.fc28.armv7hl
-krb5-pkinit-1.15.1-28.fc28.armv7hl
-krb5-workstation-1.15.1-28.fc28.armv7hl
+krb5-libs-1.15.2-3.fc27.armv7hl
+krb5-pkinit-1.15.2-3.fc27.armv7hl
+krb5-workstation-1.15.2-3.fc27.armv7hl
 less-487-5.fc27.armv7hl
 libacl-2.2.52-18.fc27.armv7hl
 libaio-0.3.110-9.fc27.armv7hl
@@ -211,7 +211,7 @@ libidn-1.33-4.fc27.armv7hl
 libidn2-2.0.4-1.fc28.armv7hl
 libini_config-1.3.0-33.fc27.armv7hl
 libjpeg-turbo-1.5.1-4.fc27.armv7hl
-libkadm5-1.15.1-28.fc28.armv7hl
+libkadm5-1.15.2-3.fc27.armv7hl
 libksba-1.3.5-5.fc27.armv7hl
 libmetalink-0.1.3-4.fc27.armv7hl
 libmnl-1.0.4-4.fc27.armv7hl
@@ -401,7 +401,7 @@ volume_key-0.3.9-16.fc28.armv7hl
 volume_key-libs-0.3.9-16.fc28.armv7hl
 xfsprogs-4.12.0-4.fc27.armv7hl
 xml-common-0.6.3-46.fc27.noarch
-xmlrpc-c-1.49.02-2.fc27.armv7hl
+xmlrpc-c-1.49.02-2.fc28.armv7hl
 xz-5.2.3-4.fc27.armv7hl
 xz-libs-5.2.3-4.fc27.armv7hl
 zip-3.0-20.fc27.armv7hl

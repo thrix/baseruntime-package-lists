@@ -929,6 +929,7 @@ langtable
 lapack
 lasi
 latex2html
+latexmk
 lato-fonts
 lcms2
 ldapjdk
@@ -2637,7 +2638,6 @@ python-meh
 python-mimeparse
 python-mock
 python-mox
-python-netaddr
 python-nose
 python-nose-exclude
 python-ntplib
@@ -2671,7 +2671,6 @@ python-pydbus
 python-pygments
 python-pygpgme
 python-pyquery
-python-pyrad
 python-pysocks
 python-pytest-cov
 python-pytest-httpbin

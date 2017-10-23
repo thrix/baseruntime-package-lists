@@ -1819,6 +1819,7 @@ lapack-static
 lasi
 lasi-devel
 latex2html
+latexmk
 lato-fonts
 lcms2
 lcms2-devel
@@ -4393,7 +4394,6 @@ python2-mimeparse
 python2-mock
 python2-modulemd
 python2-mox
-python2-netaddr
 python2-nose
 python2-nose-exclude
 python2-numpy
@@ -4426,7 +4426,6 @@ python2-pygpgme
 python2-pylint
 python2-pyparsing
 python2-pyquery
-python2-pyrad
 python2-pyserial
 python2-pysocks
 python2-pytest
@@ -4603,7 +4602,6 @@ python3-meh
 python3-mimeparse
 python3-mock
 python3-modulemd
-python3-netaddr
 python3-nose
 python3-ntplib
 python3-numpy

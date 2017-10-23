@@ -134,7 +134,7 @@ keyutils-1.5.10-3.fc27.i686
 keyutils-libs-1.5.10-3.fc27.i686
 kmod-24-3.fc27.i686
 kmod-libs-24-3.fc27.i686
-krb5-libs-1.15.1-28.fc28.i686
+krb5-libs-1.15.2-3.fc27.i686
 less-487-5.fc27.i686
 libacl-2.2.52-18.fc27.i686
 libaio-0.3.110-9.fc27.i686
@@ -321,7 +321,7 @@ python3-docker-2.5.1-1.fc28.noarch
 python3-docker-pycreds-0.2.1-5.fc27.noarch
 python3-gobject-base-3.26.0-2.fc28.i686
 python3-idna-2.5-2.fc27.noarch
-python3-jinja2-2.9.6-3.fc28.noarch
+python3-jinja2-2.9.6-4.fc28.noarch
 python3-jsonpatch-1.14-5.fc28.noarch
 python3-jsonpointer-1.10-8.fc28.noarch
 python3-jwt-1.5.2-3.fc27.noarch
