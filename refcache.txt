@@ -623,6 +623,7 @@ dnf-2.6.3-11.module_fde169a6.modularity.1.cc067f9:boltron
 dnf-2.6.3-13.module_2a585f8a.modularity.1.22c5c22:boltron
 dnf-2.6.3-4.fc28:boltron
 dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c:boltron
+dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8:boltron
 dnsjava-2.1.3-12.fc26:981c2b18b54b299a3e39221a8997010c70e02643
 dnsjava-2.1.3-13.fc27:23ae9c6ac03590e43293434e70b94f01a3d9cd84
 dnsmasq-2.77-3.fc27:2ab5e769709cc7c0c308773dbf0bdf944ed4bd61

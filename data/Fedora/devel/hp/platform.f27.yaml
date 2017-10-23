@@ -285,7 +285,7 @@ data:
                 rationale: >-
                     Provides support for RAID.
                 ref: 4fae7d7f4538f9225f93648de759e8231f3af882
-            # dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c
+            # dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8
             dnf:
                 rationale: >-
                     DNF package manager.

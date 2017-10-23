@@ -41,7 +41,7 @@ dhcp-12:4.3.6-4.fc27.src
 diffutils-3.6-3.fc27.src
 ding-libs-0.6.0-33.fc27.src
 dmraid-1.0.0.rc16-34.fc27.src
-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.src
+dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.src
 docbook-dtds-1.0-67.fc27.src
 docbook-style-xsl-1.79.2-5.fc27.src
 dosfstools-4.1-4.fc27.src

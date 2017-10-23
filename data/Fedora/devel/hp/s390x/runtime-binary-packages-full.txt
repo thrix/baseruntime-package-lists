@@ -53,8 +53,8 @@ dhcp-libs-12:4.3.6-4.fc27.s390x
 diffutils-3.6-3.fc27.s390x
 dmraid-1.0.0.rc16-34.fc27.s390x
 dmraid-events-1.0.0.rc16-34.fc27.s390x
-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
-dnf-conf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
+dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
+dnf-conf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 docbook-dtds-1.0-67.fc27.noarch
 docbook-style-xsl-1.79.2-5.fc27.noarch
 dosfstools-4.1-4.fc27.s390x
@@ -325,7 +325,7 @@ python3-3.6.2-11.fc27.s390x
 python3-IPy-0.81-20.fc27.noarch
 python3-PyYAML-3.12-8.fc28.s390x
 python3-dateutil-1:2.6.0-4.fc27.noarch
-python3-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
+python3-dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 python3-gpg-1.9.0-6.fc28.s390x
 python3-hawkey-0.11.1-1.fc28.s390x
 python3-iniparse-0.4-26.fc28.noarch

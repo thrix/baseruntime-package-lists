@@ -81,8 +81,8 @@ dhcp-libs-12:4.3.6-4.fc27.armv7hl
 diffutils-3.6-3.fc27.armv7hl
 dmraid-1.0.0.rc16-34.fc27.armv7hl
 dmraid-events-1.0.0.rc16-34.fc27.armv7hl
-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
-dnf-conf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
+dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
+dnf-conf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 docbook-dtds-1.0-67.fc27.noarch
 docbook-style-xsl-1.79.2-5.fc27.noarch
 docker-2:1.13.1-30.gitb5e3294.fc28.armv7hl
@@ -466,7 +466,7 @@ python3-cryptography-2.0.2-3.fc28.armv7hl
 python3-dateutil-1:2.6.0-4.fc27.noarch
 python3-dbus-1.2.4-10.fc28.armv7hl
 python3-decorator-4.0.11-3.fc27.noarch
-python3-dnf-2.7.3-1.module_042d0c64.modularity.1.3fb9e5c.noarch
+python3-dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 python3-docker-2.5.1-1.fc28.noarch
 python3-docker-pycreds-0.2.1-5.fc27.noarch
 python3-firewall-0.4.4.5-3.fc27.noarch
