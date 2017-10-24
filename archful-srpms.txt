@@ -1,4 +1,5 @@
 audit
+avahi
 binutils
 boost
 ceph
@@ -31,6 +32,7 @@ ipxe
 jack-audio-connection-kit
 kernel
 kyua-testers
+libappindicator
 libdb4
 libfabric
 libguestfs
@@ -49,6 +51,7 @@ strace
 swig
 systemd
 systemtap
+tigervnc
 uboot-tools
 valgrind
 xorg-x11-server

@@ -1276,7 +1276,7 @@ mojarra-2.2.13-3.fc27.src
 mojo-parent-40-5.fc27.src
 mongo-java-driver-3.4.2-2.fc27.src
 mongo-java-driver2-2.14.3-3.fc27.src
-mono-4.8.0-7.fc27.src
+mono-4.8.0-12.fc27.src
 morfologik-stemming-2.0.1-6.fc27.src
 morphia-1.0.1-6.fc27.src
 mozilla-filesystem-1.9-17.fc27.src
@@ -3029,7 +3029,7 @@ tix-1:8.4.3-20.fc27.src
 tk-1:8.6.7-2.fc28.src
 tmux-2.5-4.fc27.src
 tokyocabinet-1.4.48-9.fc27.src
-tomcat-1:8.0.46-1.fc28.src
+tomcat-1:8.0.47-2.fc28.src
 tomcat-taglibs-parent-3-6.fc27.src
 tomcat-taglibs-standard-1.2.5-4.fc27.src
 torque-4.2.10-10.fc25.src
