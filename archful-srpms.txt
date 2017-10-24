@@ -20,6 +20,7 @@ gperftools
 grub2
 grubby
 gstreamer1-plugins-good
+haskell-platform
 hexchat
 hwloc
 ipxe
