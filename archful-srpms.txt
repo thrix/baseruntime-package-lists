@@ -13,6 +13,8 @@ freeipa
 fwupd
 gcc
 gdb
+ghc-digest
+ghc-zlib
 glibc32
 glusterfs
 gnome-settings-daemon
