@@ -135,6 +135,7 @@ parted
 passwd
 patch
 pciutils
+plymouth
 policycoreutils
 procps-ng
 psmisc

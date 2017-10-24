@@ -2536,6 +2536,7 @@ plexus-sec-dispatcher
 plexus-utils
 plexus-velocity
 plotutils
+plymouth
 pmix
 po4a
 policycoreutils

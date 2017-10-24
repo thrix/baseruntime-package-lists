@@ -4022,6 +4022,9 @@ plexus-utils
 plexus-velocity
 plotutils
 plotutils-devel
+plymouth
+plymouth-core-libs
+plymouth-scripts
 pmix
 pmix-devel
 po4a

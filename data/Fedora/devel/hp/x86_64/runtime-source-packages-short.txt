@@ -240,6 +240,7 @@ pcre
 pcre2
 perl-srpm-macros
 pkgconf
+plymouth
 policycoreutils
 polkit
 popt

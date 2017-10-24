@@ -441,6 +441,9 @@ pigz-2.3.4-3.fc27.ppc64le
 pkgconf-1.3.8-1.fc27.ppc64le
 pkgconf-m4-1.3.8-1.fc27.noarch
 pkgconf-pkg-config-1.3.8-1.fc27.ppc64le
+plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.ppc64le
+plymouth-core-libs-0.9.3-0.9.20160620git0e65b86c.fc27.ppc64le
+plymouth-scripts-0.9.3-0.9.20160620git0e65b86c.fc27.ppc64le
 policycoreutils-2.7-3.fc28.ppc64le
 policycoreutils-newrole-2.7-3.fc28.ppc64le
 policycoreutils-python-utils-2.7-3.fc28.ppc64le

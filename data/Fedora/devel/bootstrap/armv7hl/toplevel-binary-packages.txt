@@ -163,6 +163,7 @@ parted
 passwd
 patch
 pciutils
+plymouth
 policycoreutils
 policycoreutils-python-utils
 procps-ng

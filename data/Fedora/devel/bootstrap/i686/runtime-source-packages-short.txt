@@ -280,6 +280,7 @@ pcre2
 perl-srpm-macros
 pigz
 pkgconf
+plymouth
 policycoreutils
 polkit
 polkit-pkla-compat

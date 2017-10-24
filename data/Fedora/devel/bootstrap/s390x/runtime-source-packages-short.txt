@@ -371,6 +371,7 @@ perl-threads-shared
 perl-version
 pigz
 pkgconf
+plymouth
 policycoreutils
 polkit
 polkit-pkla-compat

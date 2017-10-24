@@ -433,6 +433,9 @@ pigz-2.3.4-3.fc27.i686
 pkgconf-1.3.8-1.fc27.i686
 pkgconf-m4-1.3.8-1.fc27.noarch
 pkgconf-pkg-config-1.3.8-1.fc27.i686
+plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.i686
+plymouth-core-libs-0.9.3-0.9.20160620git0e65b86c.fc27.i686
+plymouth-scripts-0.9.3-0.9.20160620git0e65b86c.fc27.i686
 policycoreutils-2.7-3.fc28.i686
 policycoreutils-newrole-2.7-3.fc28.i686
 policycoreutils-python-utils-2.7-3.fc28.i686

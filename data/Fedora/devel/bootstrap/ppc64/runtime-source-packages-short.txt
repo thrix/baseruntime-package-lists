@@ -280,6 +280,7 @@ perl-threads
 perl-threads-shared
 pigz
 pkgconf
+plymouth
 policycoreutils
 polkit
 popt

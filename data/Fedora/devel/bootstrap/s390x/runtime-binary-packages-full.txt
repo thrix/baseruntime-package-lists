@@ -540,6 +540,9 @@ pigz-2.3.4-3.fc27.s390x
 pkgconf-1.3.8-1.fc27.s390x
 pkgconf-m4-1.3.8-1.fc27.noarch
 pkgconf-pkg-config-1.3.8-1.fc27.s390x
+plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.s390x
+plymouth-core-libs-0.9.3-0.9.20160620git0e65b86c.fc27.s390x
+plymouth-scripts-0.9.3-0.9.20160620git0e65b86c.fc27.s390x
 policycoreutils-2.7-3.fc28.s390x
 policycoreutils-newrole-2.7-3.fc28.s390x
 policycoreutils-python-utils-2.7-3.fc28.s390x

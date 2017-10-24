@@ -338,6 +338,9 @@ perl-srpm-macros
 pkgconf
 pkgconf-m4
 pkgconf-pkg-config
+plymouth
+plymouth-core-libs
+plymouth-scripts
 policycoreutils
 policycoreutils-newrole
 policycoreutils-python-utils

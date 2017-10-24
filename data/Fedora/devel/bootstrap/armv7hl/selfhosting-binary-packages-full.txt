@@ -4093,6 +4093,9 @@ plexus-utils-3.0.24-4.fc27.noarch
 plexus-velocity-1.2-3.fc27.noarch
 plotutils-2.6-18.fc27.armv7hl
 plotutils-devel-2.6-18.fc27.armv7hl
+plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
+plymouth-core-libs-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
+plymouth-scripts-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
 pmix-1.2.2-3.fc27.armv7hl
 pmix-devel-1.2.2-3.fc27.armv7hl
 po4a-0.51-2.fc27.noarch

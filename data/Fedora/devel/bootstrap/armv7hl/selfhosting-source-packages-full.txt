@@ -2521,6 +2521,7 @@ plexus-sec-dispatcher-1.4-23.fc27.src
 plexus-utils-3.0.24-4.fc27.src
 plexus-velocity-1.2-3.fc27.src
 plotutils-2.6-18.fc27.src
+plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.src
 pmix-1.2.2-3.fc27.src
 po4a-0.51-2.fc27.src
 policycoreutils-2.7-3.fc28.src
