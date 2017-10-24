@@ -5,7 +5,8 @@ and updating lists and dist-git hashes for modules in the Fedora Project.
 
 ## Setup
 Storage requirements:
-* You may need up to 10GiB of free space for the repository data
+* You will need up to 15GiB of free space for the repository data. Note
+  that this number keeps changing, so add another 5GiB for safety.
 
 These tools require the following pre-requisites:
 * bash
