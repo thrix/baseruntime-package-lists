@@ -2757,7 +2757,6 @@ rpmdevtools-8.10-3.fc27.src
 rrdtool-1.7.0-6.fc28.src
 rsh-0.17-84.fc27.src
 rsync-3.1.2-7.fc27.src
-rtkit-0.11-17.fc27.src
 ruby-2.4.2-84.fc28.src
 rubygem-Ascii85-1.0.2-9.fc27.src
 rubygem-RedCloth-4.3.2-4.fc27.src

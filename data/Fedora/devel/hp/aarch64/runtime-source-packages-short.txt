@@ -66,7 +66,6 @@ file
 filesystem
 findutils
 fipscheck
-flac
 flex
 fpc-srpm-macros
 freetype
@@ -95,7 +94,6 @@ grep
 groff
 grub2
 gsettings-desktop-schemas
-gsm
 gssproxy
 guile
 gzip
@@ -126,17 +124,9 @@ keyutils
 kmod
 krb5
 less
-libICE
-libSM
-libX11
-libXau
-libXext
-libXi
-libXtst
 libaio
 libarchive
 libassuan
-libasyncns
 libatomic_ops
 libblockdev
 libcap
@@ -166,7 +156,6 @@ libnetfilter_conntrack
 libnfnetlink
 libnfsidmap
 libnl3
-libogg
 libpcap
 libpciaccess
 libpeas
@@ -182,12 +171,10 @@ libselinux
 libsemanage
 libsepol
 libsigsegv
-libsndfile
 libsolv
 libssh
 libssh2
 libtasn1
-libtdb
 libtiff
 libtirpc
 libtool
@@ -198,8 +185,6 @@ libusbx
 libuser
 libutempter
 libverto
-libvorbis
-libxcb
 libxml2
 libxslt
 libyaml
@@ -220,7 +205,6 @@ mdadm
 microdnf
 modulemd
 mokutil
-mozjs17
 mpfr
 nano
 ncurses
@@ -239,7 +223,6 @@ openjpeg2
 openldap
 openssh
 openssl
-orc
 os-prober
 p11-kit
 pam
@@ -254,12 +237,10 @@ pkgconf
 plymouth
 policycoreutils
 polkit
-polkit-pkla-compat
 popt
 procps-ng
 psmisc
 publicsuffix-list
-pulseaudio
 python-IPy
 python-dateutil
 python-iniparse
@@ -278,7 +259,6 @@ rootfiles
 rpcbind
 rpm
 rsync
-rtkit
 rust-srpm-macros
 sed
 selinux-policy
@@ -292,8 +272,6 @@ shared-mime-info
 shim-signed
 shim-unsigned-aarch64
 snappy
-soxr
-speexdsp
 sqlite
 sudo
 systemd

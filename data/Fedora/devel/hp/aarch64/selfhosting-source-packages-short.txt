@@ -2757,7 +2757,6 @@ rpmdevtools
 rrdtool
 rsh
 rsync
-rtkit
 ruby
 rubygem-Ascii85
 rubygem-RedCloth

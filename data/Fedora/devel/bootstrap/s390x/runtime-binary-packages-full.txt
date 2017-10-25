@@ -2081,7 +2081,6 @@ protobuf-3.3.1-2.fc27.s390x
 psmisc-23.1-2.fc27.s390x
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
-pulseaudio-10.99.1-5.fc28.s390x
 pulseaudio-libs-10.99.1-5.fc28.s390x
 pulseaudio-libs-devel-10.99.1-5.fc28.s390x
 pulseaudio-libs-glib2-10.99.1-5.fc28.s390x
@@ -2620,7 +2619,6 @@ rsyslog-pgsql-8.29.0-2.fc27.s390x
 rsyslog-relp-8.29.0-2.fc27.s390x
 rsyslog-snmp-8.29.0-2.fc27.s390x
 rsyslog-udpspoof-8.29.0-2.fc27.s390x
-rtkit-0.11-17.fc27.s390x
 ruby-2.4.2-84.fc28.s390x
 ruby-devel-2.4.2-84.fc28.s390x
 ruby-hivex-1.3.14-8.fc27.s390x
@@ -2738,9 +2736,7 @@ softhsm-2.2.0-2.fc27.2.s390x
 sos-3.4-2.fc27.noarch
 sound-theme-freedesktop-0.8-8.fc27.noarch
 soundtouch-1.9.2-6.fc27.s390x
-soxr-0.1.2-4.fc27.s390x
 spamassassin-3.4.1-16.fc27.s390x
-speexdsp-1.2-0.12.rc3.fc27.s390x
 spice-glib-0.34-2.fc28.s390x
 spice-gtk3-0.34-2.fc28.s390x
 sqlite-3.20.1-1.fc28.s390x

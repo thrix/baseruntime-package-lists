@@ -92,7 +92,6 @@ filesystem
 findutils
 fipscheck
 fipscheck-lib
-flac-libs
 flex
 fpc-srpm-macros
 fuse-libs
@@ -123,7 +122,6 @@ gpgme
 grep
 groff-base
 gsettings-desktop-schemas
-gsm
 gssproxy
 guile
 gzip
@@ -173,21 +171,11 @@ krb5-libs
 krb5-pkinit
 krb5-workstation
 less
-libICE
-libSM
-libX11
-libX11-common
-libX11-xcb
-libXau
-libXext
-libXi
-libXtst
 libacl
 libaio
 libarchive
 libasan
 libassuan
-libasyncns
 libatomic
 libatomic_ops
 libattr
@@ -235,7 +223,6 @@ libnfnetlink
 libnfsidmap
 libnghttp2
 libnl3
-libogg
 libpath_utils
 libpcap
 libpciaccess
@@ -255,7 +242,6 @@ libsemanage
 libsepol
 libsigsegv
 libsmartcols
-libsndfile
 libsolv
 libss
 libssh
@@ -263,7 +249,6 @@ libssh2
 libstdc++
 libstdc++-devel
 libtasn1
-libtdb
 libtiff
 libtirpc
 libtool-ltdl
@@ -277,8 +262,6 @@ libutempter
 libuuid
 libverto
 libverto-libev
-libvorbis
-libxcb
 libxml2
 libxslt
 libyaml
@@ -297,7 +280,6 @@ man-db
 mcstrans
 mdadm
 microdnf
-mozjs17
 mpfr
 nano
 ncurses
@@ -322,7 +304,6 @@ openssh-clients
 openssh-server
 openssl
 openssl-libs
-orc
 p11-kit
 p11-kit-trust
 pam
@@ -344,16 +325,12 @@ policycoreutils
 policycoreutils-newrole
 policycoreutils-python-utils
 policycoreutils-python3
-polkit
 polkit-libs
-polkit-pkla-compat
 popt
 procps-ng
 psmisc
 publicsuffix-list
 publicsuffix-list-dafsa
-pulseaudio
-pulseaudio-libs
 python-srpm-macros
 python3
 python3-IPy
@@ -389,7 +366,6 @@ rpm-build-libs
 rpm-libs
 rpm-plugin-selinux
 rsync
-rtkit
 rust-srpm-macros
 sed
 selinux-policy
@@ -405,8 +381,6 @@ sgpio
 shadow-utils
 shared-mime-info
 snappy
-soxr
-speexdsp
 sqlite-libs
 sudo
 systemd
@@ -428,7 +402,6 @@ util-linux
 vim-minimal
 volume_key
 volume_key-libs
-webrtc-audio-processing
 xfsprogs
 xml-common
 xmlrpc-c

@@ -4102,7 +4102,6 @@ psutils
 psutils-perl
 publicsuffix-list
 publicsuffix-list-dafsa
-pulseaudio
 pulseaudio-libs
 pulseaudio-libs-devel
 pulseaudio-libs-glib2
@@ -4668,7 +4667,6 @@ rrdtool
 rrdtool-devel
 rsh
 rsync
-rtkit
 ruby
 ruby-devel
 ruby-irb

@@ -1367,7 +1367,6 @@ rpmdevtools
 rsh
 rsync
 rsyslog
-rtkit
 ruby
 rubygem-backports
 rubygem-bundler
@@ -1420,9 +1419,7 @@ softhsm
 sos
 sound-theme-freedesktop
 soundtouch
-soxr
 spamassassin
-speexdsp
 spice
 spice-gtk
 sqlite
@@ -1505,7 +1502,6 @@ vte291
 wayland
 wayland-protocols
 webkitgtk4
-webrtc-audio-processing
 wget
 which
 wireshark

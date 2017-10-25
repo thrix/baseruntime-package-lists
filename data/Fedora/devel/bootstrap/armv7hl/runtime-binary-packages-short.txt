@@ -2087,7 +2087,6 @@ protobuf
 psmisc
 publicsuffix-list
 publicsuffix-list-dafsa
-pulseaudio
 pulseaudio-libs
 pulseaudio-libs-devel
 pulseaudio-libs-glib2
@@ -2624,7 +2623,6 @@ rsyslog-pgsql
 rsyslog-relp
 rsyslog-snmp
 rsyslog-udpspoof
-rtkit
 ruby
 ruby-devel
 ruby-hivex
@@ -2733,9 +2731,7 @@ softhsm
 sos
 sound-theme-freedesktop
 soundtouch
-soxr
 spamassassin
-speexdsp
 spice-glib
 spice-gtk3
 spice-server
@@ -3080,7 +3076,6 @@ wayland-devel
 wayland-protocols-devel
 webkitgtk4
 webkitgtk4-jsc
-webrtc-audio-processing
 wget
 which
 wireshark

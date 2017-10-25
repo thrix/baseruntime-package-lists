@@ -4144,7 +4144,6 @@ psutils-1.23-12.fc27.i686
 psutils-perl-1.23-12.fc27.noarch
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
-pulseaudio-10.99.1-5.fc28.i686
 pulseaudio-libs-10.99.1-5.fc28.i686
 pulseaudio-libs-devel-10.99.1-5.fc28.i686
 pulseaudio-libs-glib2-10.99.1-5.fc28.i686
@@ -4712,7 +4711,6 @@ rrdtool-1.7.0-6.fc28.i686
 rrdtool-devel-1.7.0-6.fc28.i686
 rsh-0.17-84.fc27.i686
 rsync-3.1.2-7.fc27.i686
-rtkit-0.11-17.fc27.i686
 ruby-2.4.2-84.fc28.i686
 ruby-devel-2.4.2-84.fc28.i686
 ruby-irb-2.4.2-84.fc28.noarch

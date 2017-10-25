@@ -2087,7 +2087,6 @@ protobuf-3.3.1-2.fc27.armv7hl
 psmisc-23.1-2.fc27.armv7hl
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
-pulseaudio-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-devel-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-glib2-10.99.1-5.fc28.armv7hl
@@ -2624,7 +2623,6 @@ rsyslog-pgsql-8.29.0-2.fc27.armv7hl
 rsyslog-relp-8.29.0-2.fc27.armv7hl
 rsyslog-snmp-8.29.0-2.fc27.armv7hl
 rsyslog-udpspoof-8.29.0-2.fc27.armv7hl
-rtkit-0.11-17.fc27.armv7hl
 ruby-2.4.2-84.fc28.armv7hl
 ruby-devel-2.4.2-84.fc28.armv7hl
 ruby-hivex-1.3.14-8.fc27.armv7hl
@@ -2733,9 +2731,7 @@ softhsm-2.2.0-2.fc27.2.armv7hl
 sos-3.4-2.fc27.noarch
 sound-theme-freedesktop-0.8-8.fc27.noarch
 soundtouch-1.9.2-6.fc27.armv7hl
-soxr-0.1.2-4.fc27.armv7hl
 spamassassin-3.4.1-16.fc27.armv7hl
-speexdsp-1.2-0.12.rc3.fc27.armv7hl
 spice-glib-0.34-2.fc28.armv7hl
 spice-gtk3-0.34-2.fc28.armv7hl
 spice-server-0.13.90-2.fc27.armv7hl
@@ -3080,7 +3076,6 @@ wayland-devel-1.14.0-1.fc27.armv7hl
 wayland-protocols-devel-1.10-1.fc27.noarch
 webkitgtk4-2.17.91-1.fc28.armv7hl
 webkitgtk4-jsc-2.17.91-1.fc28.armv7hl
-webrtc-audio-processing-0.3-4.fc27.armv7hl
 wget-1.19.1-6.fc28.armv7hl
 which-2.21-4.fc27.armv7hl
 wireshark-1:2.4.0-6.fc27.armv7hl

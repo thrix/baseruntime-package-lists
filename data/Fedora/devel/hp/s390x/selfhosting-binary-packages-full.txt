@@ -4027,7 +4027,6 @@ psutils-1.23-12.fc27.s390x
 psutils-perl-1.23-12.fc27.noarch
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
-pulseaudio-10.99.1-5.fc28.s390x
 pulseaudio-libs-10.99.1-5.fc28.s390x
 pulseaudio-libs-devel-10.99.1-5.fc28.s390x
 pulseaudio-libs-glib2-10.99.1-5.fc28.s390x
@@ -4582,7 +4581,6 @@ rrdtool-1.7.0-6.fc28.s390x
 rrdtool-devel-1.7.0-6.fc28.s390x
 rsh-0.17-84.fc27.s390x
 rsync-3.1.2-7.fc27.s390x
-rtkit-0.11-17.fc27.s390x
 ruby-2.4.2-84.fc28.s390x
 ruby-devel-2.4.2-84.fc28.s390x
 ruby-irb-2.4.2-84.fc28.noarch

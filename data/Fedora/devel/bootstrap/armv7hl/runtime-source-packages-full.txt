@@ -1367,7 +1367,6 @@ rpmdevtools-8.10-3.fc27.src
 rsh-0.17-84.fc27.src
 rsync-3.1.2-7.fc27.src
 rsyslog-8.29.0-2.fc27.src
-rtkit-0.11-17.fc27.src
 ruby-2.4.2-84.fc28.src
 rubygem-backports-3.7.0-1.fc27.src
 rubygem-bundler-1.13.7-3.fc27.src
@@ -1420,9 +1419,7 @@ softhsm-2.2.0-2.fc27.2.src
 sos-3.4-2.fc27.src
 sound-theme-freedesktop-0.8-8.fc27.src
 soundtouch-1.9.2-6.fc27.src
-soxr-0.1.2-4.fc27.src
 spamassassin-3.4.1-16.fc27.src
-speexdsp-1.2-0.12.rc3.fc27.src
 spice-0.13.90-2.fc27.src
 spice-gtk-0.34-2.fc28.src
 sqlite-3.20.1-1.fc28.src
@@ -1505,7 +1502,6 @@ vte291-0.48.3-1.fc27.src
 wayland-1.14.0-1.fc27.src
 wayland-protocols-1.10-1.fc27.src
 webkitgtk4-2.17.91-1.fc28.src
-webrtc-audio-processing-0.3-4.fc27.src
 wget-1.19.1-6.fc28.src
 which-2.21-4.fc27.src
 wireshark-1:2.4.0-6.fc27.src
