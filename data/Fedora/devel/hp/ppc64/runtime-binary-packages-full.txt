@@ -92,6 +92,7 @@ filesystem-3.3-3.fc27.ppc64
 findutils-1:4.6.0-14.fc27.ppc64
 fipscheck-1.5.0-3.fc27.ppc64
 fipscheck-lib-1.5.0-3.fc27.ppc64
+flac-libs-1.3.2-4.fc27.ppc64
 flex-2.6.1-5.fc27.ppc64
 fpc-srpm-macros-1.1-3.fc27.noarch
 freetype-2.8-5.fc27.ppc64
@@ -132,6 +133,7 @@ grub2-tools-1:2.02-15.fc28.ppc64
 grub2-tools-extra-1:2.02-15.fc28.ppc64
 grub2-tools-minimal-1:2.02-15.fc28.ppc64
 gsettings-desktop-schemas-3.24.0-3.fc27.ppc64
+gsm-1.0.17-3.fc27.ppc64
 gssproxy-0.7.0-14.fc28.ppc64
 guile-5:2.0.14-4.fc28.ppc64
 gzip-1.8-4.fc27.ppc64
@@ -179,10 +181,20 @@ krb5-libs-1.15.2-3.fc27.ppc64
 krb5-pkinit-1.15.2-3.fc27.ppc64
 krb5-workstation-1.15.2-3.fc27.ppc64
 less-487-5.fc27.ppc64
+libICE-1.0.9-11.fc27.ppc64
+libSM-1.2.2-7.fc27.ppc64
+libX11-1.6.5-4.fc27.ppc64
+libX11-common-1.6.5-4.fc27.noarch
+libX11-xcb-1.6.5-4.fc27.ppc64
+libXau-1.0.8-9.fc27.ppc64
+libXext-1.3.3-7.fc27.ppc64
+libXi-1.7.9-4.fc27.ppc64
+libXtst-1.2.3-4.fc27.ppc64
 libacl-2.2.52-18.fc27.ppc64
 libaio-0.3.110-9.fc27.ppc64
 libarchive-3.3.1-3.fc27.ppc64
 libassuan-2.4.3-6.fc27.ppc64
+libasyncns-0.8-13.fc27.ppc64
 libatomic_ops-7.4.6-3.fc27.ppc64
 libattr-2.4.47-21.fc27.ppc64
 libbabeltrace-1.5.3-1.fc27.ppc64
@@ -230,6 +242,7 @@ libnfnetlink-1.0.1-11.fc27.ppc64
 libnfsidmap-0.27-3.fc27.ppc64
 libnghttp2-1.25.0-1.fc28.ppc64
 libnl3-3.3.0-4.fc28.ppc64
+libogg-2:1.3.2-8.fc27.ppc64
 libpath_utils-0.2.1-33.fc27.ppc64
 libpcap-14:1.8.1-6.fc27.ppc64
 libpciaccess-0.13.4-6.fc27.ppc64
@@ -250,6 +263,7 @@ libsemanage-2.7-3.fc28.ppc64
 libsepol-2.7-1.fc27.ppc64
 libsigsegv-2.11-3.fc27.ppc64
 libsmartcols-2.30.2-1.fc28.ppc64
+libsndfile-1.0.28-6.fc28.ppc64
 libsolv-0.6.28-8.fc27.ppc64
 libss-1.43.6-1.fc28.ppc64
 libssh-0.7.5-3.fc27.ppc64
@@ -257,6 +271,7 @@ libssh2-1.8.0-4.fc27.ppc64
 libstdc++-7.1.1-7.fc27.1.ppc64
 libstdc++-devel-7.1.1-7.fc27.1.ppc64
 libtasn1-4.12-3.fc27.ppc64
+libtdb-1.3.14-3.fc27.ppc64
 libtiff-4.0.8-3.fc27.ppc64
 libtirpc-1.0.2-3.fc28.ppc64
 libtool-ltdl-2.4.6-20.fc27.ppc64
@@ -269,6 +284,8 @@ libutempter-1.1.6-11.fc27.ppc64
 libuuid-2.30.2-1.fc28.ppc64
 libverto-0.3.0-1.fc28.ppc64
 libverto-libev-0.3.0-1.fc28.ppc64
+libvorbis-1:1.3.5-4.fc27.ppc64
+libxcb-1.12-5.fc27.ppc64
 libxml2-2.9.5-1.fc28.ppc64
 libxslt-1.1.30-2.fc28.ppc64
 libyaml-0.1.7-4.fc27.ppc64
@@ -287,6 +304,7 @@ man-db-2.7.6.1-5.fc27.ppc64
 mcstrans-0.3.4-11.fc27.ppc64
 mdadm-4.0-5.fc27.ppc64
 microdnf-3-4.fc27.ppc64
+mozjs17-17.0.0-21.fc27.ppc64
 mpfr-3.1.5-5.fc27.ppc64
 nano-2.8.6-3.fc27.ppc64
 ncurses-6.0-13.20170722.fc27.ppc64
@@ -311,6 +329,7 @@ openssh-clients-7.5p1-5.fc27.ppc64
 openssh-server-7.5p1-5.fc27.ppc64
 openssl-1:1.1.0f-9.fc27.ppc64
 openssl-libs-1:1.1.0f-9.fc27.ppc64
+orc-0.4.27-3.fc27.ppc64
 os-prober-1.74-3.fc27.ppc64
 p11-kit-0.23.8-2.fc28.ppc64
 p11-kit-trust-0.23.8-2.fc28.ppc64
@@ -333,12 +352,16 @@ policycoreutils-2.7-3.fc28.ppc64
 policycoreutils-newrole-2.7-3.fc28.ppc64
 policycoreutils-python-utils-2.7-3.fc28.ppc64
 policycoreutils-python3-2.7-3.fc28.ppc64
+polkit-0.113-15.fc27.ppc64
 polkit-libs-0.113-15.fc27.ppc64
+polkit-pkla-compat-0.1-10.fc27.ppc64
 popt-1.16-11.fc27.ppc64
 procps-ng-3.3.10-15.fc27.ppc64
 psmisc-23.1-2.fc27.ppc64
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
+pulseaudio-10.99.1-5.fc28.ppc64
+pulseaudio-libs-10.99.1-5.fc28.ppc64
 python-srpm-macros-3-22.fc27.noarch
 python3-3.6.2-11.fc27.ppc64
 python3-IPy-0.81-20.fc27.noarch
@@ -374,6 +397,7 @@ rpm-build-libs-4.14.0-2.fc28.ppc64
 rpm-libs-4.14.0-2.fc28.ppc64
 rpm-plugin-selinux-4.14.0-2.fc28.ppc64
 rsync-3.1.2-7.fc27.ppc64
+rtkit-0.11-17.fc27.ppc64
 rust-srpm-macros-4-3.fc27.noarch
 sed-4.4-3.fc27.ppc64
 selinux-policy-3.13.1-275.fc28.noarch
@@ -389,6 +413,8 @@ sgpio-1.2.0.10-19.fc27.ppc64
 shadow-utils-2:4.5-4.fc27.ppc64
 shared-mime-info-1.8-5.fc27.ppc64
 snappy-1.1.7-1.fc28.ppc64
+soxr-0.1.2-4.fc27.ppc64
+speexdsp-1.2-0.12.rc3.fc27.ppc64
 sqlite-libs-3.20.1-1.fc28.ppc64
 sudo-1.8.20p2-3.fc27.ppc64
 systemd-234-6.fc28.ppc64

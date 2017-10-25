@@ -1359,6 +1359,7 @@ rpmdevtools
 rsh
 rsync
 rsyslog
+rtkit
 ruby
 rubygem-backports
 rubygem-bundler
@@ -1412,7 +1413,9 @@ softhsm
 sos
 sound-theme-freedesktop
 soundtouch
+soxr
 spamassassin
+speexdsp
 spice-gtk
 sqlite
 squashfs-tools
