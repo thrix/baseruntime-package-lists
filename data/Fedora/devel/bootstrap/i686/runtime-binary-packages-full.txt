@@ -1424,8 +1424,8 @@ log4j-over-slf4j-1.7.25-2.fc27.noarch
 log4j12-1.2.17-20.fc27.noarch
 logback-1.1.7-3.fc27.noarch
 logrotate-3.12.3-3.fc27.i686
-lorax-27.11-boltron.9.fc27.i686
-lorax-templates-generic-27.11-boltron.9.fc27.i686
+lorax-27.11-boltron.10.fc27.i686
+lorax-templates-generic-27.11-boltron.10.fc27.i686
 lpsolve-5.5.2.0-16.fc27.i686
 lsof-4.89-7.fc27.i686
 lsscsi-0.28-6.fc27.i686
