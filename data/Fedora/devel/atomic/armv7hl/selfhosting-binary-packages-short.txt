@@ -840,7 +840,6 @@ fedora-logos-httpd
 fedora-release
 fedora-repos
 fedora-repos-rawhide
-fedora-rpm-macros
 felix-bundlerepository
 felix-framework
 felix-gogo-command

@@ -527,7 +527,7 @@ bouncycastle-1.58-1.fc28.noarch
 bouncycastle-mail-1.58-1.fc28.noarch
 bouncycastle-pg-1.58-1.fc28.noarch
 bouncycastle-pkix-1.58-1.fc28.noarch
-breeze-icon-theme-5.37.0-1.fc28.noarch
+breeze-icon-theme-5.39.0-2.fc28.noarch
 bridge-method-annotation-1.14-7.fc27.noarch
 bridge-method-injector-1.14-7.fc27.noarch
 bridge-utils-1.5-16.fc27.s390x
@@ -1026,7 +1026,6 @@ fedora-logos-httpd-26.0.1-3.fc27.noarch
 fedora-release-28-0.1.noarch
 fedora-repos-28-0.3.noarch
 fedora-repos-rawhide-28-0.3.noarch
-fedora-rpm-macros-26-3.fc27.noarch
 fedpkg-minimal-1.1.0-9.fc27.noarch
 felix-bundlerepository-2.0.10-2.fc27.noarch
 felix-framework-5.6.0-3.fc27.noarch
@@ -2315,7 +2314,7 @@ kbd-misc-2.0.4-4.fc27.noarch
 kde-apps-rpm-macros-6:4.14.34-2.fc27.noarch
 kde-filesystem-4-57.fc27.s390x
 kde-l10n-17.04.3-1.fc27.noarch
-kde-settings-26-1.fc27.1.noarch
+kde-settings-27-1.fc28.1.noarch
 kdelibs-6:4.14.34-2.fc27.s390x
 kdelibs-common-6:4.14.34-2.fc27.s390x
 kdelibs-devel-6:4.14.34-2.fc27.s390x
@@ -6077,7 +6076,7 @@ qt-odbc-1:4.8.7-31.fc27.s390x
 qt-postgresql-1:4.8.7-31.fc27.s390x
 qt-qdbusviewer-1:4.8.7-31.fc27.s390x
 qt-qvfb-1:4.8.7-31.fc27.s390x
-qt-settings-26-1.fc27.1.noarch
+qt-settings-27-1.fc28.1.noarch
 qt-x11-1:4.8.7-31.fc27.s390x
 qt3-3.3.8b-71.fc27.s390x
 qt3-devel-3.3.8b-71.fc27.s390x
@@ -6226,7 +6225,7 @@ recode-devel-3.6-45.fc27.s390x
 redhat-lsb-core-4.1-36.fc27.s390x
 redhat-lsb-submod-security-4.1-36.fc27.s390x
 redhat-menus-12.0.2-12.fc27.noarch
-redhat-rpm-config-67-1.fc27.noarch
+redhat-rpm-config-68-1.fc28.noarch
 redis-3.2.10-2.fc28.s390x
 redis-protocol-0.7-5.fc27.noarch
 redland-1.0.17-12.fc27.s390x

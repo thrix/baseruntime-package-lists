@@ -488,7 +488,6 @@ fedora-bookmarks
 fedora-logos
 fedora-release
 fedora-repos
-fedora-rpm-macros
 fedpkg-minimal
 felix-bundlerepository
 felix-framework

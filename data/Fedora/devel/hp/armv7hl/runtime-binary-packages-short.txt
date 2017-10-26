@@ -84,7 +84,6 @@ fedora-logos
 fedora-release
 fedora-repos
 fedora-repos-rawhide
-fedora-rpm-macros
 fedpkg-minimal
 file
 file-libs

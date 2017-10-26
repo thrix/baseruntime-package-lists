@@ -849,7 +849,6 @@ fedora-logos-httpd
 fedora-release
 fedora-repos
 fedora-repos-rawhide
-fedora-rpm-macros
 fedpkg-minimal
 felix-bundlerepository
 felix-framework

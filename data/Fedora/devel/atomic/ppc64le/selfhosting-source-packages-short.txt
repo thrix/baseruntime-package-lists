@@ -395,7 +395,6 @@ fastutil
 fedora-logos
 fedora-release
 fedora-repos
-fedora-rpm-macros
 felix-bundlerepository
 felix-framework
 felix-gogo-command

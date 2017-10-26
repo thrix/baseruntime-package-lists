@@ -213,7 +213,6 @@ fcoe-utils
 fedora-logos
 fedora-release
 fedora-repos
-fedora-rpm-macros
 fedpkg-minimal
 felix-osgi-core
 fence-agents
