@@ -1214,6 +1214,7 @@ mallard-rng
 man-db
 man2html
 mariadb
+mariadb-connector-c
 maven
 maven-antrun-plugin
 maven-archiver
