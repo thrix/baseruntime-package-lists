@@ -247,7 +247,9 @@ libssh-0.7.5-3.fc27.armv7hl
 libssh2-1.8.0-4.fc27.armv7hl
 libstdc++-7.1.1-7.fc27.1.armv7hl
 libstdc++-devel-7.1.1-7.fc27.1.armv7hl
+libtalloc-2.1.10-4.fc27.armv7hl
 libtasn1-4.12-3.fc27.armv7hl
+libtevent-0.9.33-3.fc27.armv7hl
 libtiff-4.0.8-3.fc27.armv7hl
 libtirpc-1.0.2-3.fc28.armv7hl
 libtool-ltdl-2.4.6-20.fc27.armv7hl

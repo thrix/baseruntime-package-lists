@@ -164,7 +164,9 @@ libsigsegv
 libsolv
 libssh
 libssh2
+libtalloc
 libtasn1
+libtevent
 libtiff
 libtirpc
 libtool

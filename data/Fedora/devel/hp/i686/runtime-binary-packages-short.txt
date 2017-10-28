@@ -264,7 +264,9 @@ libssh
 libssh2
 libstdc++
 libstdc++-devel
+libtalloc
 libtasn1
+libtevent
 libtiff
 libtirpc
 libtool-ltdl

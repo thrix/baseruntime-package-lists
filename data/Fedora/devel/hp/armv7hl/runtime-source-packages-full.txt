@@ -165,7 +165,9 @@ libsigsegv-2.11-3.fc27.src
 libsolv-0.6.28-8.fc27.src
 libssh-0.7.5-3.fc27.src
 libssh2-1.8.0-4.fc27.src
+libtalloc-2.1.10-4.fc27.src
 libtasn1-4.12-3.fc27.src
+libtevent-0.9.33-3.fc27.src
 libtiff-4.0.8-3.fc27.src
 libtirpc-1.0.2-3.fc28.src
 libtool-2.4.6-20.fc27.src
