@@ -52,7 +52,7 @@ fipscheck-1.5.0-3.fc27.src
 fuse-2.9.7-9.fc27.src
 gawk-4.1.4-5.fc27.src
 gc-7.6.0-7.fc27.src
-gcc-7.1.1-7.fc27.1.src
+gcc-7.2.1-2.fc27.src
 gdbm-1.13-3.fc27.src
 glib-networking-2.53.90-1.fc27.src
 glib2-2.53.6-1.fc28.src

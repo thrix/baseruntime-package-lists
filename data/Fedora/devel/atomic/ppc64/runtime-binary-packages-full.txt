@@ -143,9 +143,9 @@ libev-4.24-4.fc27.ppc64
 libevent-2.0.22-6.fc27.ppc64
 libfdisk-2.30.2-1.fc28.ppc64
 libffi-3.1-14.fc27.ppc64
-libgcc-7.1.1-7.fc27.1.ppc64
+libgcc-7.2.1-2.fc27.ppc64
 libgcrypt-1.8.1-1.fc28.ppc64
-libgomp-7.1.1-7.fc27.1.ppc64
+libgomp-7.2.1-2.fc27.ppc64
 libgpg-error-1.27-3.fc27.ppc64
 libidn-1.33-4.fc27.ppc64
 libidn2-2.0.4-1.fc28.ppc64
@@ -183,7 +183,7 @@ libss-1.43.6-1.fc28.ppc64
 libsss_idmap-1.15.3-2.fc27.ppc64
 libsss_nss_idmap-1.15.3-2.fc27.ppc64
 libsss_sudo-1.15.3-2.fc27.ppc64
-libstdc++-7.1.1-7.fc27.1.ppc64
+libstdc++-7.2.1-2.fc27.ppc64
 libtasn1-4.12-3.fc27.ppc64
 libtirpc-1.0.2-3.fc28.ppc64
 libtool-ltdl-2.4.6-20.fc27.ppc64

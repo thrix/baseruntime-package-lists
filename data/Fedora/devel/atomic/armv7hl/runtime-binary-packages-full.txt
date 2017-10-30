@@ -146,7 +146,7 @@ libev-4.24-4.fc27.armv7hl
 libevent-2.0.22-6.fc27.armv7hl
 libfdisk-2.30.2-1.fc28.armv7hl
 libffi-3.1-14.fc27.armv7hl
-libgcc-7.1.1-7.fc27.1.armv7hl
+libgcc-7.2.1-2.fc27.armv7hl
 libgcrypt-1.8.1-1.fc28.armv7hl
 libgpg-error-1.27-3.fc27.armv7hl
 libidn-1.33-4.fc27.armv7hl
@@ -184,7 +184,7 @@ libss-1.43.6-1.fc28.armv7hl
 libsss_idmap-1.15.3-2.fc27.armv7hl
 libsss_nss_idmap-1.15.3-2.fc27.armv7hl
 libsss_sudo-1.15.3-2.fc27.armv7hl
-libstdc++-7.1.1-7.fc27.1.armv7hl
+libstdc++-7.2.1-2.fc27.armv7hl
 libtasn1-4.12-3.fc27.armv7hl
 libtirpc-1.0.2-3.fc28.armv7hl
 libtool-ltdl-2.4.6-20.fc27.armv7hl

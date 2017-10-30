@@ -30,7 +30,7 @@ compat-openssl10-1:1.0.2j-9.fc28.s390x
 coreutils-8.28-1.fc28.s390x
 coreutils-common-8.28-1.fc28.s390x
 cpio-2.12-6.fc27.s390x
-cpp-7.1.1-7.fc27.1.s390x
+cpp-7.2.1-2.fc27.s390x
 cracklib-2.9.6-9.fc28.s390x
 crypto-policies-20170823-1.git8d18c27.fc28.noarch
 cryptsetup-libs-1.7.5-5.fc28.s390x
@@ -95,8 +95,8 @@ fpc-srpm-macros-1.1-3.fc27.noarch
 fuse-libs-2.9.7-9.fc27.s390x
 gawk-4.1.4-5.fc27.s390x
 gc-7.6.0-7.fc27.s390x
-gcc-7.1.1-7.fc27.1.s390x
-gcc-c++-7.1.1-7.fc27.1.s390x
+gcc-7.2.1-2.fc27.s390x
+gcc-c++-7.2.1-2.fc27.s390x
 gdb-headless-8.0.1-27.fc28.s390x
 gdbm-1.13-3.fc27.s390x
 gdisk-1.0.3-4.fc27.s390x
@@ -195,9 +195,9 @@ libev-4.24-4.fc27.s390x
 libevent-2.0.22-6.fc27.s390x
 libfdisk-2.30.2-1.fc28.s390x
 libffi-3.1-14.fc27.s390x
-libgcc-7.1.1-7.fc27.1.s390x
+libgcc-7.2.1-2.fc27.s390x
 libgcrypt-1.8.1-1.fc28.s390x
-libgomp-7.1.1-7.fc27.1.s390x
+libgomp-7.2.1-2.fc27.s390x
 libgpg-error-1.27-3.fc27.s390x
 libicu-57.1-8.fc28.s390x
 libidn-1.33-4.fc27.s390x
@@ -239,8 +239,8 @@ libsolv-0.6.28-8.fc27.s390x
 libss-1.43.6-1.fc28.s390x
 libssh-0.7.5-3.fc27.s390x
 libssh2-1.8.0-4.fc27.s390x
-libstdc++-7.1.1-7.fc27.1.s390x
-libstdc++-devel-7.1.1-7.fc27.1.s390x
+libstdc++-7.2.1-2.fc27.s390x
+libstdc++-devel-7.2.1-2.fc27.s390x
 libtalloc-2.1.10-4.fc27.s390x
 libtasn1-4.12-3.fc27.s390x
 libtevent-0.9.33-3.fc27.s390x

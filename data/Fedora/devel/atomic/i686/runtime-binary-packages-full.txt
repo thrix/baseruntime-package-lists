@@ -159,9 +159,9 @@ libev-4.24-4.fc27.i686
 libevent-2.0.22-6.fc27.i686
 libfdisk-2.30.2-1.fc28.i686
 libffi-3.1-14.fc27.i686
-libgcc-7.1.1-7.fc27.1.i686
+libgcc-7.2.1-2.fc27.i686
 libgcrypt-1.8.1-1.fc28.i686
-libgomp-7.1.1-7.fc27.1.i686
+libgomp-7.2.1-2.fc27.i686
 libgpg-error-1.27-3.fc27.i686
 libidn-1.33-4.fc27.i686
 libidn2-2.0.4-1.fc28.i686
@@ -199,7 +199,7 @@ libss-1.43.6-1.fc28.i686
 libsss_idmap-1.15.3-2.fc27.i686
 libsss_nss_idmap-1.15.3-2.fc27.i686
 libsss_sudo-1.15.3-2.fc27.i686
-libstdc++-7.1.1-7.fc27.1.i686
+libstdc++-7.2.1-2.fc27.i686
 libtasn1-4.12-3.fc27.i686
 libtirpc-1.0.2-3.fc28.i686
 libtool-ltdl-2.4.6-20.fc27.i686

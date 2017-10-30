@@ -30,7 +30,7 @@ compat-openssl10-1:1.0.2j-9.fc28.x86_64
 coreutils-8.28-1.fc28.x86_64
 coreutils-common-8.28-1.fc28.x86_64
 cpio-2.12-6.fc27.x86_64
-cpp-7.1.1-7.fc27.1.x86_64
+cpp-7.2.1-2.fc27.x86_64
 cracklib-2.9.6-9.fc28.x86_64
 crypto-policies-20170823-1.git8d18c27.fc28.noarch
 cryptsetup-libs-1.7.5-5.fc28.x86_64
@@ -101,8 +101,8 @@ freetype-2.8-5.fc27.x86_64
 fuse-libs-2.9.7-9.fc27.x86_64
 gawk-4.1.4-5.fc27.x86_64
 gc-7.6.0-7.fc27.x86_64
-gcc-7.1.1-7.fc27.1.x86_64
-gcc-c++-7.1.1-7.fc27.1.x86_64
+gcc-7.2.1-2.fc27.x86_64
+gcc-c++-7.2.1-2.fc27.x86_64
 gdb-headless-8.0.1-27.fc28.x86_64
 gdbm-1.13-3.fc27.x86_64
 gdisk-1.0.3-4.fc27.x86_64
@@ -218,9 +218,9 @@ libev-4.24-4.fc27.x86_64
 libevent-2.0.22-6.fc27.x86_64
 libfdisk-2.30.2-1.fc28.x86_64
 libffi-3.1-14.fc27.x86_64
-libgcc-7.1.1-7.fc27.1.x86_64
+libgcc-7.2.1-2.fc27.x86_64
 libgcrypt-1.8.1-1.fc28.x86_64
-libgomp-7.1.1-7.fc27.1.x86_64
+libgomp-7.2.1-2.fc27.x86_64
 libgpg-error-1.27-3.fc27.x86_64
 libicu-57.1-8.fc28.x86_64
 libidn-1.33-4.fc27.x86_64
@@ -265,8 +265,8 @@ libsolv-0.6.28-8.fc27.x86_64
 libss-1.43.6-1.fc28.x86_64
 libssh-0.7.5-3.fc27.x86_64
 libssh2-1.8.0-4.fc27.x86_64
-libstdc++-7.1.1-7.fc27.1.x86_64
-libstdc++-devel-7.1.1-7.fc27.1.x86_64
+libstdc++-7.2.1-2.fc27.x86_64
+libstdc++-devel-7.2.1-2.fc27.x86_64
 libtalloc-2.1.10-4.fc27.x86_64
 libtasn1-4.12-3.fc27.x86_64
 libtevent-0.9.33-3.fc27.x86_64

@@ -239,7 +239,7 @@ corosync-qnetd-2.4.2-7.fc28.aarch64
 corosynclib-2.4.2-7.fc28.aarch64
 corosynclib-devel-2.4.2-7.fc28.aarch64
 cpio-2.12-6.fc27.aarch64
-cpp-7.1.1-7.fc27.1.aarch64
+cpp-7.2.1-2.fc27.aarch64
 cracklib-2.9.6-9.fc28.aarch64
 cracklib-dicts-2.9.6-9.fc28.aarch64
 createrepo_c-0.10.0-14.fc27.aarch64
@@ -505,8 +505,8 @@ galera-25.3.16-6.fc27.aarch64
 gamin-0.1.10-29.fc28.aarch64
 gawk-4.1.4-5.fc27.aarch64
 gc-7.6.0-7.fc27.aarch64
-gcc-7.1.1-7.fc27.1.aarch64
-gcc-c++-7.1.1-7.fc27.1.aarch64
+gcc-7.2.1-2.fc27.aarch64
+gcc-c++-7.2.1-2.fc27.aarch64
 gcr-3.20.0-6.fc27.aarch64
 gd-2.2.5-1.fc28.aarch64
 gdal-libs-2.1.4-5.fc27.aarch64
@@ -936,11 +936,11 @@ libaio-0.3.110-9.fc27.aarch64
 libaio-devel-0.3.110-9.fc27.aarch64
 libarchive-3.3.1-3.fc27.aarch64
 libart_lgpl-2.3.21-18.fc27.aarch64
-libasan-7.1.1-7.fc27.1.aarch64
+libasan-7.2.1-2.fc27.aarch64
 libassuan-2.4.3-6.fc27.aarch64
 libasyncns-0.8-13.fc27.aarch64
 libatasmart-0.19-12.fc27.aarch64
-libatomic-7.1.1-7.fc27.1.aarch64
+libatomic-7.2.1-2.fc27.aarch64
 libatomic_ops-7.4.6-3.fc27.aarch64
 libattr-2.4.47-21.fc27.aarch64
 libbabeltrace-1.5.3-1.fc27.aarch64
@@ -1028,13 +1028,13 @@ libfontenc-1.1.3-6.fc27.aarch64
 libfonts-1.1.3-20.fc27.noarch
 libformula-1.1.3-17.fc27.noarch
 libfreehand-0.1.1-7.fc27.aarch64
-libgcc-7.1.1-7.fc27.1.aarch64
+libgcc-7.2.1-2.fc27.aarch64
 libgcrypt-1.8.1-1.fc28.aarch64
 libgcrypt-devel-1.8.1-1.fc28.aarch64
 libgdata-0.17.9-1.fc28.aarch64
 libgdl-1:3.25.91-1.fc28.aarch64
 libgeotiff-1.4.0-11.fc27.aarch64
-libgfortran-7.1.1-7.fc27.1.aarch64
+libgfortran-7.2.1-2.fc27.aarch64
 libglade2-2.6.4-17.fc27.aarch64
 libgltf-0.1.0-7.fc27.aarch64
 libglvnd-1:0.2.999-24.20170818git8d4d03f.fc28.aarch64
@@ -1049,7 +1049,7 @@ libgnome-keyring-3.12.0-10.fc27.aarch64
 libgnomecanvas-2.30.3-14.fc27.aarch64
 libgnomekbd-3.22.0.1-4.fc27.aarch64
 libgnomeui-2.24.5-16.fc27.aarch64
-libgomp-7.1.1-7.fc27.1.aarch64
+libgomp-7.2.1-2.fc27.aarch64
 libgovirt-0.3.4-2.fc26.aarch64
 libgpg-error-1.27-3.fc27.aarch64
 libgpg-error-devel-1.27-3.fc27.aarch64
@@ -1101,7 +1101,7 @@ libipa_hbac-1.15.3-2.fc27.aarch64
 libipa_hbac-devel-1.15.3-2.fc27.aarch64
 libiptcdata-1.0.4-20.fc28.aarch64
 libiscsi-1.15.0-5.fc27.aarch64
-libitm-7.1.1-7.fc27.1.aarch64
+libitm-7.2.1-2.fc27.aarch64
 libjpeg-turbo-1.5.1-4.fc27.aarch64
 libkadm5-1.15.2-3.fc27.aarch64
 libkeepalive-0.3-6.fc27.aarch64
@@ -1273,8 +1273,8 @@ libsss_simpleifp-1.15.3-2.fc27.aarch64
 libsss_simpleifp-devel-1.15.3-2.fc27.aarch64
 libsss_sudo-1.15.3-2.fc27.aarch64
 libstaroffice-0.0.4-3.fc27.aarch64
-libstdc++-7.1.1-7.fc27.1.aarch64
-libstdc++-devel-7.1.1-7.fc27.1.aarch64
+libstdc++-7.2.1-2.fc27.aarch64
+libstdc++-devel-7.2.1-2.fc27.aarch64
 libstemmer-0-7.585svn.fc27.aarch64
 libtalloc-2.1.10-4.fc27.aarch64
 libtalloc-devel-2.1.10-4.fc27.aarch64
@@ -1297,7 +1297,7 @@ libtommath-1.0-8.fc27.aarch64
 libtool-2.4.6-20.fc27.aarch64
 libtool-ltdl-2.4.6-20.fc27.aarch64
 libtool-ltdl-devel-2.4.6-20.fc27.aarch64
-libubsan-7.1.1-7.fc27.1.aarch64
+libubsan-7.2.1-2.fc27.aarch64
 libudisks2-2.7.2-1.fc27.aarch64
 libunistring-0.9.7-3.fc27.aarch64
 libunwind-1.2-3.fc27.aarch64

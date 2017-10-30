@@ -238,7 +238,7 @@ corosync-qnetd-2.4.2-7.fc28.s390x
 corosynclib-2.4.2-7.fc28.s390x
 corosynclib-devel-2.4.2-7.fc28.s390x
 cpio-2.12-6.fc27.s390x
-cpp-7.1.1-7.fc27.1.s390x
+cpp-7.2.1-2.fc27.s390x
 cracklib-2.9.6-9.fc28.s390x
 cracklib-dicts-2.9.6-9.fc28.s390x
 createrepo_c-0.10.0-14.fc27.s390x
@@ -492,8 +492,8 @@ galera-25.3.16-6.fc27.s390x
 gamin-0.1.10-29.fc28.s390x
 gawk-4.1.4-5.fc27.s390x
 gc-7.6.0-7.fc27.s390x
-gcc-7.1.1-7.fc27.1.s390x
-gcc-c++-7.1.1-7.fc27.1.s390x
+gcc-7.2.1-2.fc27.s390x
+gcc-c++-7.2.1-2.fc27.s390x
 gcr-3.20.0-6.fc27.s390x
 gd-2.2.5-1.fc28.s390x
 gdal-libs-2.1.4-5.fc27.s390x
@@ -1007,13 +1007,13 @@ libfontenc-1.1.3-6.fc27.s390x
 libfonts-1.1.3-20.fc27.noarch
 libformula-1.1.3-17.fc27.noarch
 libfreehand-0.1.1-7.fc27.s390x
-libgcc-7.1.1-7.fc27.1.s390x
+libgcc-7.2.1-2.fc27.s390x
 libgcrypt-1.8.1-1.fc28.s390x
 libgcrypt-devel-1.8.1-1.fc28.s390x
 libgdata-0.17.9-1.fc28.s390x
 libgdl-1:3.25.91-1.fc28.s390x
 libgeotiff-1.4.0-11.fc27.s390x
-libgfortran-7.1.1-7.fc27.1.s390x
+libgfortran-7.2.1-2.fc27.s390x
 libglade2-2.6.4-17.fc27.s390x
 libgltf-0.1.0-7.fc27.s390x
 libglvnd-1:0.2.999-24.20170818git8d4d03f.fc28.s390x
@@ -1028,7 +1028,7 @@ libgnome-keyring-3.12.0-10.fc27.s390x
 libgnomecanvas-2.30.3-14.fc27.s390x
 libgnomekbd-3.22.0.1-4.fc27.s390x
 libgnomeui-2.24.5-16.fc27.s390x
-libgomp-7.1.1-7.fc27.1.s390x
+libgomp-7.2.1-2.fc27.s390x
 libgovirt-0.3.4-2.fc26.s390x
 libgpg-error-1.27-3.fc27.s390x
 libgpg-error-devel-1.27-3.fc27.s390x
@@ -1078,7 +1078,7 @@ libipa_hbac-1.15.3-2.fc27.s390x
 libipa_hbac-devel-1.15.3-2.fc27.s390x
 libiptcdata-1.0.4-20.fc28.s390x
 libiscsi-1.15.0-5.fc27.s390x
-libitm-7.1.1-7.fc27.1.s390x
+libitm-7.2.1-2.fc27.s390x
 libjpeg-turbo-1.5.1-4.fc27.s390x
 libkadm5-1.15.2-3.fc27.s390x
 libkeepalive-0.3-6.fc27.s390x
@@ -1249,8 +1249,8 @@ libsss_simpleifp-1.15.3-2.fc27.s390x
 libsss_simpleifp-devel-1.15.3-2.fc27.s390x
 libsss_sudo-1.15.3-2.fc27.s390x
 libstaroffice-0.0.4-3.fc27.s390x
-libstdc++-7.1.1-7.fc27.1.s390x
-libstdc++-devel-7.1.1-7.fc27.1.s390x
+libstdc++-7.2.1-2.fc27.s390x
+libstdc++-devel-7.2.1-2.fc27.s390x
 libstemmer-0-7.585svn.fc27.s390x
 libsysfs-2.1.0-22.fc27.s390x
 libtalloc-2.1.10-4.fc27.s390x
