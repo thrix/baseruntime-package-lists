@@ -446,7 +446,7 @@ gamin-0.1.10-29.fc28.src
 gawk-4.1.4-5.fc27.src
 gc-7.6.0-7.fc27.src
 gcab-0.7-4.fc27.src
-gcc-7.1.1-7.fc27.1.src
+gcc-7.2.1-2.fc27.src
 gcr-3.20.0-6.fc27.src
 gd-2.2.5-1.fc28.src
 gdb-8.0.1-27.fc28.src

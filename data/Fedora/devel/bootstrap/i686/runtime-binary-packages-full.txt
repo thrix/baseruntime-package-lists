@@ -241,7 +241,7 @@ corosync-qnetd-2.4.2-7.fc28.i686
 corosynclib-2.4.2-7.fc28.i686
 corosynclib-devel-2.4.2-7.fc28.i686
 cpio-2.12-6.fc27.i686
-cpp-7.1.1-7.fc27.1.i686
+cpp-7.2.1-2.fc27.i686
 cracklib-2.9.6-9.fc28.i686
 cracklib-dicts-2.9.6-9.fc28.i686
 createrepo_c-0.10.0-14.fc27.i686
@@ -507,8 +507,8 @@ galera-25.3.16-6.fc27.i686
 gamin-0.1.10-29.fc28.i686
 gawk-4.1.4-5.fc27.i686
 gc-7.6.0-7.fc27.i686
-gcc-7.1.1-7.fc27.1.i686
-gcc-c++-7.1.1-7.fc27.1.i686
+gcc-7.2.1-2.fc27.i686
+gcc-c++-7.2.1-2.fc27.i686
 gcr-3.20.0-6.fc27.i686
 gd-2.2.5-1.fc28.i686
 gdal-libs-2.1.4-5.fc27.i686
@@ -942,11 +942,11 @@ libaio-0.3.110-9.fc27.i686
 libaio-devel-0.3.110-9.fc27.i686
 libarchive-3.3.1-3.fc27.i686
 libart_lgpl-2.3.21-18.fc27.i686
-libasan-7.1.1-7.fc27.1.i686
+libasan-7.2.1-2.fc27.i686
 libassuan-2.4.3-6.fc27.i686
 libasyncns-0.8-13.fc27.i686
 libatasmart-0.19-12.fc27.i686
-libatomic-7.1.1-7.fc27.1.i686
+libatomic-7.2.1-2.fc27.i686
 libatomic_ops-7.4.6-3.fc27.i686
 libattr-2.4.47-21.fc27.i686
 libbabeltrace-1.5.3-1.fc27.i686
@@ -982,7 +982,7 @@ libcdio-0.94-4.fc27.i686
 libcdio-paranoia-10.2+0.93+1-10.fc27.i686
 libcdr-0.1.3-7.fc27.i686
 libcgroup-0.41-13.fc27.i686
-libcilkrts-7.1.1-7.fc27.1.i686
+libcilkrts-7.2.1-2.fc27.i686
 libcmis-0.5.1-9.fc27.i686
 libcollection-0.7.0-33.fc27.i686
 libcom_err-1.43.6-1.fc28.i686
@@ -1036,13 +1036,13 @@ libfontenc-1.1.3-6.fc27.i686
 libfonts-1.1.3-20.fc27.noarch
 libformula-1.1.3-17.fc27.noarch
 libfreehand-0.1.1-7.fc27.i686
-libgcc-7.1.1-7.fc27.1.i686
+libgcc-7.2.1-2.fc27.i686
 libgcrypt-1.8.1-1.fc28.i686
 libgcrypt-devel-1.8.1-1.fc28.i686
 libgdata-0.17.9-1.fc28.i686
 libgdl-1:3.25.91-1.fc28.i686
 libgeotiff-1.4.0-11.fc27.i686
-libgfortran-7.1.1-7.fc27.1.i686
+libgfortran-7.2.1-2.fc27.i686
 libglade2-2.6.4-17.fc27.i686
 libgltf-0.1.0-7.fc27.i686
 libglvnd-1:0.2.999-24.20170818git8d4d03f.fc28.i686
@@ -1057,7 +1057,7 @@ libgnome-keyring-3.12.0-10.fc27.i686
 libgnomecanvas-2.30.3-14.fc27.i686
 libgnomekbd-3.22.0.1-4.fc27.i686
 libgnomeui-2.24.5-16.fc27.i686
-libgomp-7.1.1-7.fc27.1.i686
+libgomp-7.2.1-2.fc27.i686
 libgovirt-0.3.4-2.fc26.i686
 libgpg-error-1.27-3.fc27.i686
 libgpg-error-devel-1.27-3.fc27.i686
@@ -1110,7 +1110,7 @@ libipa_hbac-devel-1.15.3-2.fc27.i686
 libipt-1.6.1-4.fc27.i686
 libiptcdata-1.0.4-20.fc28.i686
 libiscsi-1.15.0-5.fc27.i686
-libitm-7.1.1-7.fc27.1.i686
+libitm-7.2.1-2.fc27.i686
 libjpeg-turbo-1.5.1-4.fc27.i686
 libkadm5-1.15.2-3.fc27.i686
 libkeepalive-0.3-6.fc27.i686
@@ -1136,7 +1136,7 @@ libmodman-2.0.1-16.fc27.i686
 libmount-2.30.2-1.fc28.i686
 libmpc-1.0.2-8.fc27.i686
 libmpcdec-1.2.6-19.fc27.i686
-libmpx-7.1.1-7.fc27.1.i686
+libmpx-7.2.1-2.fc27.i686
 libmspack-0.5-0.10.alpha.fc27.i686
 libmspub-0.1.2-18.fc27.i686
 libmwaw-0.3.12-3.fc27.i686
@@ -1189,7 +1189,7 @@ libqb-devel-1.0.2-7.fc28.i686
 libqhull-2015.2-4.fc27.i686
 libqmi-1.18.0-2.fc27.i686
 libqmi-utils-1.18.0-2.fc27.i686
-libquadmath-7.1.1-7.fc27.1.i686
+libquadmath-7.2.1-2.fc27.i686
 libquvi-0.9.4-11.fc27.i686
 libquvi-scripts-0.9.20131130-8.fc27.noarch
 librados2-1:12.2.0-1.fc28.i686
@@ -1284,8 +1284,8 @@ libsss_simpleifp-1.15.3-2.fc27.i686
 libsss_simpleifp-devel-1.15.3-2.fc27.i686
 libsss_sudo-1.15.3-2.fc27.i686
 libstaroffice-0.0.4-3.fc27.i686
-libstdc++-7.1.1-7.fc27.1.i686
-libstdc++-devel-7.1.1-7.fc27.1.i686
+libstdc++-7.2.1-2.fc27.i686
+libstdc++-devel-7.2.1-2.fc27.i686
 libstemmer-0-7.585svn.fc27.i686
 libtalloc-2.1.10-4.fc27.i686
 libtalloc-devel-2.1.10-4.fc27.i686
@@ -1308,7 +1308,7 @@ libtommath-1.0-8.fc27.i686
 libtool-2.4.6-20.fc27.i686
 libtool-ltdl-2.4.6-20.fc27.i686
 libtool-ltdl-devel-2.4.6-20.fc27.i686
-libubsan-7.1.1-7.fc27.1.i686
+libubsan-7.2.1-2.fc27.i686
 libudisks2-2.7.2-1.fc27.i686
 libunistring-0.9.7-3.fc27.i686
 libunwind-1.2-3.fc27.i686

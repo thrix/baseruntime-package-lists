@@ -241,7 +241,7 @@ corosync-qnetd-2.4.2-7.fc28.x86_64
 corosynclib-2.4.2-7.fc28.x86_64
 corosynclib-devel-2.4.2-7.fc28.x86_64
 cpio-2.12-6.fc27.x86_64
-cpp-7.1.1-7.fc27.1.x86_64
+cpp-7.2.1-2.fc27.x86_64
 cracklib-2.9.6-9.fc28.x86_64
 cracklib-dicts-2.9.6-9.fc28.x86_64
 createrepo_c-0.10.0-14.fc27.x86_64
@@ -508,8 +508,8 @@ galera-25.3.16-6.fc27.x86_64
 gamin-0.1.10-29.fc28.x86_64
 gawk-4.1.4-5.fc27.x86_64
 gc-7.6.0-7.fc27.x86_64
-gcc-7.1.1-7.fc27.1.x86_64
-gcc-c++-7.1.1-7.fc27.1.x86_64
+gcc-7.2.1-2.fc27.x86_64
+gcc-c++-7.2.1-2.fc27.x86_64
 gcr-3.20.0-6.fc27.x86_64
 gd-2.2.5-1.fc28.x86_64
 gdal-libs-2.1.4-5.fc27.x86_64
@@ -1040,13 +1040,13 @@ libfontenc-1.1.3-6.fc27.x86_64
 libfonts-1.1.3-20.fc27.noarch
 libformula-1.1.3-17.fc27.noarch
 libfreehand-0.1.1-7.fc27.x86_64
-libgcc-7.1.1-7.fc27.1.x86_64
+libgcc-7.2.1-2.fc27.x86_64
 libgcrypt-1.8.1-1.fc28.x86_64
 libgcrypt-devel-1.8.1-1.fc28.x86_64
 libgdata-0.17.9-1.fc28.x86_64
 libgdl-1:3.25.91-1.fc28.x86_64
 libgeotiff-1.4.0-11.fc27.x86_64
-libgfortran-7.1.1-7.fc27.1.x86_64
+libgfortran-7.2.1-2.fc27.x86_64
 libglade2-2.6.4-17.fc27.x86_64
 libgltf-0.1.0-7.fc27.x86_64
 libglvnd-1:0.2.999-24.20170818git8d4d03f.fc28.x86_64
@@ -1061,7 +1061,7 @@ libgnome-keyring-3.12.0-10.fc27.x86_64
 libgnomecanvas-2.30.3-14.fc27.x86_64
 libgnomekbd-3.22.0.1-4.fc27.x86_64
 libgnomeui-2.24.5-16.fc27.x86_64
-libgomp-7.1.1-7.fc27.1.x86_64
+libgomp-7.2.1-2.fc27.x86_64
 libgovirt-0.3.4-2.fc26.x86_64
 libgpg-error-1.27-3.fc27.x86_64
 libgpg-error-devel-1.27-3.fc27.x86_64
@@ -1115,7 +1115,7 @@ libipa_hbac-devel-1.15.3-2.fc27.x86_64
 libipt-1.6.1-4.fc27.x86_64
 libiptcdata-1.0.4-20.fc28.x86_64
 libiscsi-1.15.0-5.fc27.x86_64
-libitm-7.1.1-7.fc27.1.x86_64
+libitm-7.2.1-2.fc27.x86_64
 libjpeg-turbo-1.5.1-4.fc27.x86_64
 libkadm5-1.15.2-3.fc27.x86_64
 libkeepalive-0.3-6.fc27.x86_64
@@ -1194,7 +1194,7 @@ libqb-devel-1.0.2-7.fc28.x86_64
 libqhull-2015.2-4.fc27.x86_64
 libqmi-1.18.0-2.fc27.x86_64
 libqmi-utils-1.18.0-2.fc27.x86_64
-libquadmath-7.1.1-7.fc27.1.x86_64
+libquadmath-7.2.1-2.fc27.x86_64
 libquvi-0.9.4-11.fc27.x86_64
 libquvi-scripts-0.9.20131130-8.fc27.noarch
 librados2-1:12.2.0-1.fc28.x86_64
@@ -1289,8 +1289,8 @@ libsss_simpleifp-1.15.3-2.fc27.x86_64
 libsss_simpleifp-devel-1.15.3-2.fc27.x86_64
 libsss_sudo-1.15.3-2.fc27.x86_64
 libstaroffice-0.0.4-3.fc27.x86_64
-libstdc++-7.1.1-7.fc27.1.x86_64
-libstdc++-devel-7.1.1-7.fc27.1.x86_64
+libstdc++-7.2.1-2.fc27.x86_64
+libstdc++-devel-7.2.1-2.fc27.x86_64
 libstemmer-0-7.585svn.fc27.x86_64
 libtalloc-2.1.10-4.fc27.x86_64
 libtalloc-devel-2.1.10-4.fc27.x86_64

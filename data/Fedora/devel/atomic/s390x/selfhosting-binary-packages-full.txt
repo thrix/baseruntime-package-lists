@@ -545,7 +545,7 @@ corosync-2.4.2-7.fc28.s390x
 corosynclib-2.4.2-7.fc28.s390x
 corosynclib-devel-2.4.2-7.fc28.s390x
 cpio-2.12-6.fc27.s390x
-cpp-7.1.1-7.fc27.1.s390x
+cpp-7.2.1-2.fc27.s390x
 cpptasks-1.0b5-19.fc27.noarch
 cppunit-1.14.0-3.fc27.s390x
 cppunit-devel-1.14.0-3.fc27.s390x
@@ -913,12 +913,12 @@ gawk-4.1.4-5.fc27.s390x
 gc-7.6.0-7.fc27.s390x
 gc-devel-7.6.0-7.fc27.s390x
 gcab-0.7-4.fc27.s390x
-gcc-7.1.1-7.fc27.1.s390x
-gcc-c++-7.1.1-7.fc27.1.s390x
-gcc-gfortran-7.1.1-7.fc27.1.s390x
-gcc-gnat-7.1.1-7.fc27.1.s390x
-gcc-objc-7.1.1-7.fc27.1.s390x
-gcc-objc++-7.1.1-7.fc27.1.s390x
+gcc-7.2.1-2.fc27.s390x
+gcc-c++-7.2.1-2.fc27.s390x
+gcc-gfortran-7.2.1-2.fc27.s390x
+gcc-gnat-7.2.1-2.fc27.s390x
+gcc-objc-7.2.1-2.fc27.s390x
+gcc-objc++-7.2.1-2.fc27.s390x
 gcc-x86_64-linux-gnu-7.1.1-3.fc27.s390x
 gcr-3.20.0-6.fc27.s390x
 gcr-devel-3.20.0-6.fc27.s390x
@@ -1819,7 +1819,7 @@ libarchive-3.3.1-3.fc27.s390x
 libarchive-devel-3.3.1-3.fc27.s390x
 libart_lgpl-2.3.21-18.fc27.s390x
 libart_lgpl-devel-2.3.21-18.fc27.s390x
-libasan-7.1.1-7.fc27.1.s390x
+libasan-7.2.1-2.fc27.s390x
 libass-0.13.4-4.fc27.s390x
 libass-devel-0.13.4-4.fc27.s390x
 libassuan-2.4.3-6.fc27.s390x
@@ -1968,7 +1968,7 @@ libftdi-1.3-9.fc28.s390x
 libftdi-devel-1.3-9.fc28.s390x
 libgcab1-0.7-4.fc27.s390x
 libgcab1-devel-0.7-4.fc27.s390x
-libgcc-7.1.1-7.fc27.1.s390x
+libgcc-7.2.1-2.fc27.s390x
 libgcrypt-1.8.1-1.fc28.s390x
 libgcrypt-devel-1.8.1-1.fc28.s390x
 libgdata-0.17.9-1.fc28.s390x
@@ -1977,7 +1977,7 @@ libgdiplus-4.2-5.fc27.s390x
 libgdiplus-devel-4.2-5.fc27.s390x
 libgdl-1:3.25.91-1.fc28.s390x
 libgdl-devel-1:3.25.91-1.fc28.s390x
-libgfortran-7.1.1-7.fc27.1.s390x
+libgfortran-7.2.1-2.fc27.s390x
 libgit2-0.26.0-3.fc27.s390x
 libgit2-devel-0.26.0-3.fc27.s390x
 libglade2-2.6.4-17.fc27.s390x
@@ -1989,8 +1989,8 @@ libglvnd-egl-1:0.2.999-24.20170818git8d4d03f.fc28.s390x
 libglvnd-gles-1:0.2.999-24.20170818git8d4d03f.fc28.s390x
 libglvnd-glx-1:0.2.999-24.20170818git8d4d03f.fc28.s390x
 libglvnd-opengl-1:0.2.999-24.20170818git8d4d03f.fc28.s390x
-libgnat-7.1.1-7.fc27.1.s390x
-libgnat-devel-7.1.1-7.fc27.1.s390x
+libgnat-7.2.1-2.fc27.s390x
+libgnat-devel-7.2.1-2.fc27.s390x
 libgnome-2.32.1-15.fc27.s390x
 libgnome-devel-2.32.1-15.fc27.s390x
 libgnome-keyring-3.12.0-10.fc27.s390x
@@ -1999,7 +1999,7 @@ libgnomecanvas-2.30.3-14.fc27.s390x
 libgnomecanvas-devel-2.30.3-14.fc27.s390x
 libgnomeui-2.24.5-16.fc27.s390x
 libgnomeui-devel-2.24.5-16.fc27.s390x
-libgomp-7.1.1-7.fc27.1.s390x
+libgomp-7.2.1-2.fc27.s390x
 libgpg-error-1.27-3.fc27.s390x
 libgpg-error-devel-1.27-3.fc27.s390x
 libgphoto2-2.5.14-3.fc27.s390x
@@ -2103,7 +2103,7 @@ libnotify-0.7.7-4.fc27.s390x
 libnotify-devel-0.7.7-4.fc27.s390x
 liboauth-1.0.3-8.fc27.s390x
 liboauth-devel-1.0.3-8.fc27.s390x
-libobjc-7.1.1-7.fc27.1.s390x
+libobjc-7.2.1-2.fc27.s390x
 libofa-0.9.3-31.fc27.s390x
 libofa-devel-0.9.3-31.fc27.s390x
 libogg-2:1.3.2-8.fc27.s390x
@@ -2208,9 +2208,9 @@ libssh2-devel-1.8.0-4.fc27.s390x
 libsss_idmap-1.15.3-2.fc27.s390x
 libsss_nss_idmap-1.15.3-2.fc27.s390x
 libsss_sudo-1.15.3-2.fc27.s390x
-libstdc++-7.1.1-7.fc27.1.s390x
-libstdc++-devel-7.1.1-7.fc27.1.s390x
-libstdc++-static-7.1.1-7.fc27.1.s390x
+libstdc++-7.2.1-2.fc27.s390x
+libstdc++-devel-7.2.1-2.fc27.s390x
+libstdc++-static-7.2.1-2.fc27.s390x
 libstemmer-0-7.585svn.fc27.s390x
 libstemmer-devel-0-7.585svn.fc27.s390x
 libstoragemgmt-1.4.0-4.fc28.s390x

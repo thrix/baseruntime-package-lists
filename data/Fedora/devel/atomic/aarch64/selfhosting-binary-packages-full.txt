@@ -553,7 +553,7 @@ corosync-2.4.2-7.fc28.aarch64
 corosynclib-2.4.2-7.fc28.aarch64
 corosynclib-devel-2.4.2-7.fc28.aarch64
 cpio-2.12-6.fc27.aarch64
-cpp-7.1.1-7.fc27.1.aarch64
+cpp-7.2.1-2.fc27.aarch64
 cpptasks-1.0b5-19.fc27.noarch
 cppunit-1.14.0-3.fc27.aarch64
 cppunit-devel-1.14.0-3.fc27.aarch64
@@ -932,14 +932,14 @@ gawk-4.1.4-5.fc27.aarch64
 gc-7.6.0-7.fc27.aarch64
 gc-devel-7.6.0-7.fc27.aarch64
 gcab-0.7-4.fc27.aarch64
-gcc-7.1.1-7.fc27.1.aarch64
+gcc-7.2.1-2.fc27.aarch64
 gcc-aarch64-linux-gnu-7.1.1-3.fc27.aarch64
 gcc-arm-linux-gnu-7.1.1-3.fc27.aarch64
-gcc-c++-7.1.1-7.fc27.1.aarch64
-gcc-gfortran-7.1.1-7.fc27.1.aarch64
-gcc-gnat-7.1.1-7.fc27.1.aarch64
-gcc-objc-7.1.1-7.fc27.1.aarch64
-gcc-objc++-7.1.1-7.fc27.1.aarch64
+gcc-c++-7.2.1-2.fc27.aarch64
+gcc-gfortran-7.2.1-2.fc27.aarch64
+gcc-gnat-7.2.1-2.fc27.aarch64
+gcc-objc-7.2.1-2.fc27.aarch64
+gcc-objc++-7.2.1-2.fc27.aarch64
 gcc-x86_64-linux-gnu-7.1.1-3.fc27.aarch64
 gcr-3.20.0-6.fc27.aarch64
 gcr-devel-3.20.0-6.fc27.aarch64
@@ -1853,7 +1853,7 @@ libarchive-3.3.1-3.fc27.aarch64
 libarchive-devel-3.3.1-3.fc27.aarch64
 libart_lgpl-2.3.21-18.fc27.aarch64
 libart_lgpl-devel-2.3.21-18.fc27.aarch64
-libasan-7.1.1-7.fc27.1.aarch64
+libasan-7.2.1-2.fc27.aarch64
 libass-0.13.4-4.fc27.aarch64
 libass-devel-0.13.4-4.fc27.aarch64
 libassuan-2.4.3-6.fc27.aarch64
@@ -1868,7 +1868,7 @@ libatf-c++-devel-0.20-9.fc27.aarch64
 libatf-c-devel-0.20-9.fc27.aarch64
 libatf-sh-0.20-9.fc27.aarch64
 libatf-sh-devel-0.20-9.fc27.aarch64
-libatomic-7.1.1-7.fc27.1.aarch64
+libatomic-7.2.1-2.fc27.aarch64
 libatomic_ops-7.4.6-3.fc27.aarch64
 libatomic_ops-devel-7.4.6-3.fc27.aarch64
 libatomic_ops-static-7.4.6-3.fc27.aarch64
@@ -2011,7 +2011,7 @@ libftdi-1.3-9.fc28.aarch64
 libftdi-devel-1.3-9.fc28.aarch64
 libgcab1-0.7-4.fc27.aarch64
 libgcab1-devel-0.7-4.fc27.aarch64
-libgcc-7.1.1-7.fc27.1.aarch64
+libgcc-7.2.1-2.fc27.aarch64
 libgcrypt-1.8.1-1.fc28.aarch64
 libgcrypt-devel-1.8.1-1.fc28.aarch64
 libgdata-0.17.9-1.fc28.aarch64
@@ -2020,7 +2020,7 @@ libgdiplus-4.2-5.fc27.aarch64
 libgdiplus-devel-4.2-5.fc27.aarch64
 libgdl-1:3.25.91-1.fc28.aarch64
 libgdl-devel-1:3.25.91-1.fc28.aarch64
-libgfortran-7.1.1-7.fc27.1.aarch64
+libgfortran-7.2.1-2.fc27.aarch64
 libgit2-0.26.0-3.fc27.aarch64
 libgit2-devel-0.26.0-3.fc27.aarch64
 libglade2-2.6.4-17.fc27.aarch64
@@ -2032,8 +2032,8 @@ libglvnd-egl-1:0.2.999-24.20170818git8d4d03f.fc28.aarch64
 libglvnd-gles-1:0.2.999-24.20170818git8d4d03f.fc28.aarch64
 libglvnd-glx-1:0.2.999-24.20170818git8d4d03f.fc28.aarch64
 libglvnd-opengl-1:0.2.999-24.20170818git8d4d03f.fc28.aarch64
-libgnat-7.1.1-7.fc27.1.aarch64
-libgnat-devel-7.1.1-7.fc27.1.aarch64
+libgnat-7.2.1-2.fc27.aarch64
+libgnat-devel-7.2.1-2.fc27.aarch64
 libgnome-2.32.1-15.fc27.aarch64
 libgnome-devel-2.32.1-15.fc27.aarch64
 libgnome-keyring-3.12.0-10.fc27.aarch64
@@ -2042,7 +2042,7 @@ libgnomecanvas-2.30.3-14.fc27.aarch64
 libgnomecanvas-devel-2.30.3-14.fc27.aarch64
 libgnomeui-2.24.5-16.fc27.aarch64
 libgnomeui-devel-2.24.5-16.fc27.aarch64
-libgomp-7.1.1-7.fc27.1.aarch64
+libgomp-7.2.1-2.fc27.aarch64
 libgpg-error-1.27-3.fc27.aarch64
 libgpg-error-devel-1.27-3.fc27.aarch64
 libgphoto2-2.5.14-3.fc27.aarch64
@@ -2150,7 +2150,7 @@ libnotify-0.7.7-4.fc27.aarch64
 libnotify-devel-0.7.7-4.fc27.aarch64
 liboauth-1.0.3-8.fc27.aarch64
 liboauth-devel-1.0.3-8.fc27.aarch64
-libobjc-7.1.1-7.fc27.1.aarch64
+libobjc-7.2.1-2.fc27.aarch64
 libofa-0.9.3-31.fc27.aarch64
 libofa-devel-0.9.3-31.fc27.aarch64
 libogg-2:1.3.2-8.fc27.aarch64
@@ -2260,9 +2260,9 @@ libssh2-devel-1.8.0-4.fc27.aarch64
 libsss_idmap-1.15.3-2.fc27.aarch64
 libsss_nss_idmap-1.15.3-2.fc27.aarch64
 libsss_sudo-1.15.3-2.fc27.aarch64
-libstdc++-7.1.1-7.fc27.1.aarch64
-libstdc++-devel-7.1.1-7.fc27.1.aarch64
-libstdc++-static-7.1.1-7.fc27.1.aarch64
+libstdc++-7.2.1-2.fc27.aarch64
+libstdc++-devel-7.2.1-2.fc27.aarch64
+libstdc++-static-7.2.1-2.fc27.aarch64
 libstemmer-0-7.585svn.fc27.aarch64
 libstemmer-devel-0-7.585svn.fc27.aarch64
 libstoragemgmt-1.4.0-4.fc28.aarch64
@@ -2299,7 +2299,7 @@ libtommath-devel-1.0-8.fc27.aarch64
 libtool-2.4.6-20.fc27.aarch64
 libtool-ltdl-2.4.6-20.fc27.aarch64
 libtool-ltdl-devel-2.4.6-20.fc27.aarch64
-libubsan-7.1.1-7.fc27.1.aarch64
+libubsan-7.2.1-2.fc27.aarch64
 libudisks2-2.7.2-1.fc27.aarch64
 libudisks2-devel-2.7.2-1.fc27.aarch64
 libuninameslist-20170701-3.fc27.aarch64
