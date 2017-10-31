@@ -1321,7 +1321,7 @@ qhull-2015.2-4.fc27.src
 qpdf-6.0.0-10.fc27.src
 qrencode-3.4.4-3.fc27.src
 qt-1:4.8.7-31.fc27.src
-qt-mobility-1.2.2-0.26.20140317git169da60c.fc26.src
+qt-mobility-1.2.2-0.29.20140317git169da60c.fc28.src
 qt5-5.9.1-2.fc27.src
 qt5-doc-5.9.0-0.beta.3.fc27.1.src
 qt5-qt3d-5.9.1-1.fc27.src

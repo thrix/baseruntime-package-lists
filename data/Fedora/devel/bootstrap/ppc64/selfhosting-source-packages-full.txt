@@ -21,7 +21,7 @@ ORBit2-2.14.19-18.fc27.src
 OpenEXR-2.2.0-10.fc27.src
 PEGTL-1.3.1-4.fc27.src
 PackageKit-1.1.6-7.fc27.src
-PyQt4-4.12.1-4.fc27.src
+PyQt4-4.12.1-5.fc28.src
 PyYAML-3.12-8.fc28.src
 R-3.4.1-4.fc27.src
 SDL-1.2.15-28.fc27.src
@@ -3286,7 +3286,7 @@ qscintilla-2.10.1-3.fc27.src
 qstat-2.15-5.20150619gita60436.fc27.src
 qt-1:4.8.7-31.fc27.src
 qt-assistant-adp-4.6.3-15.fc27.src
-qt-mobility-1.2.2-0.26.20140317git169da60c.fc26.src
+qt-mobility-1.2.2-0.29.20140317git169da60c.fc28.src
 qt3-3.3.8b-71.fc27.src
 qt5-5.9.1-2.fc27.src
 qt5-doc-5.9.0-0.beta.3.fc27.1.src

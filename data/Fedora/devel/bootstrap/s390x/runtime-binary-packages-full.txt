@@ -2449,9 +2449,9 @@ qt-devel-1:4.8.7-31.fc27.s390x
 qt-devel-private-1:4.8.7-31.fc27.noarch
 qt-doc-1:4.8.7-31.fc27.noarch
 qt-examples-1:4.8.7-31.fc27.s390x
-qt-mobility-common-1.2.2-0.26.20140317git169da60c.fc26.s390x
-qt-mobility-location-1.2.2-0.26.20140317git169da60c.fc26.s390x
-qt-mobility-sensors-1.2.2-0.26.20140317git169da60c.fc26.s390x
+qt-mobility-common-1.2.2-0.29.20140317git169da60c.fc28.s390x
+qt-mobility-location-1.2.2-0.29.20140317git169da60c.fc28.s390x
+qt-mobility-sensors-1.2.2-0.29.20140317git169da60c.fc28.s390x
 qt-mysql-1:4.8.7-31.fc27.s390x
 qt-odbc-1:4.8.7-31.fc27.s390x
 qt-postgresql-1:4.8.7-31.fc27.s390x

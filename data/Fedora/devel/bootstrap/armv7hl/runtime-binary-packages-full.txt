@@ -2454,9 +2454,9 @@ qt-devel-1:4.8.7-31.fc27.armv7hl
 qt-devel-private-1:4.8.7-31.fc27.noarch
 qt-doc-1:4.8.7-31.fc27.noarch
 qt-examples-1:4.8.7-31.fc27.armv7hl
-qt-mobility-common-1.2.2-0.26.20140317git169da60c.fc26.armv7hl
-qt-mobility-location-1.2.2-0.26.20140317git169da60c.fc26.armv7hl
-qt-mobility-sensors-1.2.2-0.26.20140317git169da60c.fc26.armv7hl
+qt-mobility-common-1.2.2-0.29.20140317git169da60c.fc28.armv7hl
+qt-mobility-location-1.2.2-0.29.20140317git169da60c.fc28.armv7hl
+qt-mobility-sensors-1.2.2-0.29.20140317git169da60c.fc28.armv7hl
 qt-mysql-1:4.8.7-31.fc27.armv7hl
 qt-odbc-1:4.8.7-31.fc27.armv7hl
 qt-postgresql-1:4.8.7-31.fc27.armv7hl
