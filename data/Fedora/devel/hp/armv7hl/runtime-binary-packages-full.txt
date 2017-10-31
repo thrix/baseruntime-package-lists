@@ -55,7 +55,7 @@ dmraid-1.0.0.rc16-34.fc27.armv7hl
 dmraid-events-1.0.0.rc16-34.fc27.armv7hl
 dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 dnf-conf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
-docbook-dtds-1.0-67.fc27.noarch
+docbook-dtds-1.0-68.fc28.noarch
 docbook-style-xsl-1.79.2-6.fc28.noarch
 dosfstools-4.1-4.fc27.armv7hl
 dracut-046-7.git20170824.fc28.armv7hl

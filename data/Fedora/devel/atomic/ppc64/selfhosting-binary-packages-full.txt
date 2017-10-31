@@ -650,7 +650,7 @@ dnf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 dnf-conf-2.7.3-1.module_56cc991a.modularity.2.7493ec8.noarch
 dnsjava-2.1.3-13.fc27.noarch
 dnsmasq-2.77-6.fc27.ppc64
-docbook-dtds-1.0-67.fc27.noarch
+docbook-dtds-1.0-68.fc28.noarch
 docbook-style-dsssl-1.79-24.fc27.noarch
 docbook-style-xsl-1.79.2-6.fc28.noarch
 docbook-utils-0.6.14-43.fc27.noarch

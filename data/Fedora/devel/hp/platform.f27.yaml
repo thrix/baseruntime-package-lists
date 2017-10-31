@@ -290,11 +290,11 @@ data:
                 rationale: >-
                     DNF package manager.
                 ref: boltron
-            # docbook-dtds-1.0-67.fc27
+            # docbook-dtds-1.0-68.fc28
             docbook-dtds:
                 rationale: >-
                     Docbook DTDs are a common build dependency.
-                ref: 1b7b578b7d8f1080188021e469716af2731fb149
+                ref: 14932646578f5b96446d0babbcefab9f7402e005
             # docbook-style-xsl-1.79.2-6.fc28
             docbook-style-xsl:
                 rationale: >-
