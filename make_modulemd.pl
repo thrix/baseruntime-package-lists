@@ -106,6 +106,8 @@ sub getrefs {
         my $ref;
         # XXX: We use a spcial branch of dnf with module support.
         $ref = 'boltron' if getn($_) =~ /^dnf$/;
+        # We also use a special branch of python3
+        $ref = 'f27-modular-server' if getn($_) =~ /^python3$/;
         $_ => $ref ? $ref : exists $cache{$_} ? $cache{$_} : undef;
     } @_;
     # XXX: koji python multicall API is much faster than CLI, so...
