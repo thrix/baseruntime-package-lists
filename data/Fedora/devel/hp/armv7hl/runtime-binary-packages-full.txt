@@ -377,7 +377,7 @@ selinux-policy-targeted-3.13.1-275.fc28.noarch
 setup-2.10.10-1.fc28.noarch
 sg3_utils-1.42-3.fc27.armv7hl
 sg3_utils-libs-1.42-3.fc27.armv7hl
-sgml-common-0.6.3-46.fc27.noarch
+sgml-common-0.6.3-47.fc28.noarch
 sgpio-1.2.0.10-19.fc27.armv7hl
 shadow-utils-2:4.5-4.fc27.armv7hl
 shared-mime-info-1.8-5.fc27.armv7hl
@@ -404,7 +404,7 @@ vim-minimal-2:8.0.983-1.fc28.armv7hl
 volume_key-0.3.9-16.fc28.armv7hl
 volume_key-libs-0.3.9-16.fc28.armv7hl
 xfsprogs-4.12.0-4.fc27.armv7hl
-xml-common-0.6.3-46.fc27.noarch
+xml-common-0.6.3-47.fc28.noarch
 xmlrpc-c-1.49.02-2.fc28.armv7hl
 xz-5.2.3-4.fc27.armv7hl
 xz-libs-5.2.3-4.fc27.armv7hl

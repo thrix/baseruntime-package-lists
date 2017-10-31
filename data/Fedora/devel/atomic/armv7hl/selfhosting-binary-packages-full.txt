@@ -4889,7 +4889,7 @@ serp-1.15.2-0.7.20150412cvs.fc27.noarch
 setools-console-4.1.1-4.fc28.armv7hl
 setup-2.10.10-1.fc28.noarch
 sgabios-bin-1:0.20110622svn-11.fc27.noarch
-sgml-common-0.6.3-46.fc27.noarch
+sgml-common-0.6.3-47.fc28.noarch
 sgpio-1.2.0.10-19.fc27.armv7hl
 shadow-utils-2:4.5-4.fc27.armv7hl
 shared-mime-info-1.8-5.fc27.armv7hl
@@ -6542,7 +6542,7 @@ xfsprogs-devel-4.12.0-4.fc27.armv7hl
 xhtml1-dtds-1.0-20020801.13.fc27.3.noarch
 xkeyboard-config-2.21-2.fc27.noarch
 xkeyboard-config-devel-2.21-2.fc27.noarch
-xml-common-0.6.3-46.fc27.noarch
+xml-common-0.6.3-47.fc28.noarch
 xml-commons-apis-1.4.01-23.fc27.noarch
 xml-commons-resolver-1.2-23.fc27.noarch
 xml-maven-plugin-1.0.1-4.fc27.noarch

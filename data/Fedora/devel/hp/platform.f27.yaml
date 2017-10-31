@@ -1438,11 +1438,11 @@ data:
                 rationale: >-
                     Utilities for SCSI device management.
                 ref: fe6805bd2d135b4e391a0b23c93f9d68284173bc
-            # sgml-common-0.6.3-46.fc27
+            # sgml-common-0.6.3-47.fc28
             sgml-common:
                 rationale: >-
                     Common SGML catalogs; common XML catalogs.
-                ref: 244cf59c28d5ebaace902a5c80ffc1eff3c54734
+                ref: 8ab6c4bd5da16c4fc173e09be976e738fc5160cb
             # sgpio-1.2.0.10-19.fc27
             sgpio:
                 rationale: >-
