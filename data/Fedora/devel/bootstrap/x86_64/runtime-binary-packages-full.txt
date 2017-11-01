@@ -1308,7 +1308,7 @@ libtidy-5.4.0-3.fc27.x86_64
 libtiff-4.0.8-3.fc27.x86_64
 libtimezonemap-0.4.5-8.fc27.x86_64
 libtirpc-1.0.2-3.fc28.x86_64
-libtomcrypt-1.17-34.20170720gitab8c5b8.fc27.x86_64
+libtomcrypt-1.18.0-1.fc28.x86_64
 libtommath-1.0-8.fc27.x86_64
 libtool-2.4.6-20.fc27.x86_64
 libtool-ltdl-2.4.6-20.fc27.x86_64
@@ -2182,7 +2182,7 @@ python2-configobj-5.0.6-9.fc27.noarch
 python2-configparser-3.5.0b2-7.fc28.noarch
 python2-coverage-4.4.1-4.fc28.x86_64
 python2-cpio-0.1-26.fc28.noarch
-python2-crypto-2.6.1-17.fc27.x86_64
+python2-crypto-2.6.1-19.fc28.x86_64
 python2-cryptography-2.0.2-3.fc28.x86_64
 python2-cssselect-0.9.2-5.fc27.noarch
 python2-custodia-0.5.0-9.fc27.noarch
@@ -2313,7 +2313,7 @@ python3-chardet-3.0.4-3.fc28.noarch
 python3-clufter-0.76.0-3.fc27.noarch
 python3-configobj-5.0.6-9.fc27.noarch
 python3-coverage-4.4.1-4.fc28.x86_64
-python3-crypto-2.6.1-17.fc27.x86_64
+python3-crypto-2.6.1-19.fc28.x86_64
 python3-cryptography-2.0.2-3.fc28.x86_64
 python3-cssselect-0.9.2-5.fc27.noarch
 python3-custodia-0.5.0-9.fc27.noarch
