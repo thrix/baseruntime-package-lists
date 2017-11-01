@@ -5952,10 +5952,12 @@ python-pytest-httpbin-0.2.3-7.fc27:e30714e9b7355e0b54f1f6c973c1e48a44111de1
 python-pytest-mock-1.6.0-2.fc27:be5a404b70040ebc319b7ec9ef8e487b96b06682
 python-pytest-mock-1.6.2-2.fc27:68c9b0267a1a831547444ac362cb62a69c79b942
 python-pytest-multihost-1.1-7.fc27:1884c9736c0daf9a3f5b37590382c601ebb96f84
+python-pytest-multihost-1.1-8.fc28:40ce52fadede052e7c406e048f3f7c110250338f
 python-pytest-runner-2.9-4.fc27:828906af0ecc428eabe1bf9d1aecdf109a2746bc
 python-pytest-runner-2.9-5.fc27:7d78a2e7f5a4e825018fa6694a1a77d4c2e296e3
 python-pytest-runner-2.9-6.fc28:34e76b043eb5596211dad07296062ff704fb8105
 python-pytest-sourceorder-0.5-7.fc27:0e05b56b45ffadaf5b02e38ff1fc7aac0c37c99d
+python-pytest-sourceorder-0.5-8.fc28:9acbf7e015250ec021de52d0620bfaebbf93dad3
 python-pytest-timeout-1.2.0-1.fc27:b0616a519c1a62dbd6298657711c93ac92fa2a0a
 python-pytest-timeout-1.2.0-3.fc27:c5b1316abe7d004012359fde9836115630c974ad
 python-pyudev-0.21.0-3.fc26:0b559a8cea17c5298e68d138789ee9e107164e07
@@ -5988,6 +5990,7 @@ python-rtslib-2.1.fb63-1.fc27:2da89a13b86aa4667b0afca366d89668ea977fa7
 python-rtslib-2.1.fb63-3.fc28:ba95f299046559e49d596650c7f5d466ad0c53a0
 python-rtslib-2.1.fb63-4.fc28:55bb49d300d474b7ce9a88fd1cfb5d526bd7129f
 python-scales-1.0.5-11.fc28:cea0df7fa5dc5e7110cc10088fb97c730e7e1f03
+python-scales-1.0.5-12.fc28:6581c9052e6dc795522b3de1f1bf36ea7f36d987
 python-schedutils-0.5-5.fc28:1b1c55aa1e136ca868a929f76af2f3a05d3d6221
 python-scour-0.35-4.fc26:c5f17e141d31a342e802079153e6f715b0ceaf80
 python-scour-0.35-5.fc27:8bad3ce8e615a17f16c556ec6467647e4b2cecf3
