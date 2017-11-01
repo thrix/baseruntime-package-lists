@@ -1,5 +1,6 @@
 audit
 avahi
+bcc
 binutils
 boost
 ceph
