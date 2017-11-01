@@ -189,6 +189,7 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
+logrotate
 lsof
 lsscsi
 lua
@@ -285,6 +286,7 @@ util-linux
 vim
 volume_key
 which
+words
 xfsprogs
 xmlrpc-c
 xz

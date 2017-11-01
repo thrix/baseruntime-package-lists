@@ -262,6 +262,7 @@ libzstd
 linux-firmware
 lksctp-tools
 lldpad
+logrotate
 lsof
 lsscsi
 lua-libs
@@ -395,6 +396,7 @@ util-linux
 vim-minimal
 volume_key
 volume_key-libs
+words
 xfsprogs
 xml-common
 xmlrpc-c
