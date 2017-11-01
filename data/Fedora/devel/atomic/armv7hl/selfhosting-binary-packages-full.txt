@@ -2455,7 +2455,7 @@ man2html-core-1.6-20.g.fc27.armv7hl
 mariadb-3:10.2.7-8.fc27.armv7hl
 mariadb-common-3:10.2.7-8.fc27.armv7hl
 mariadb-config-3:10.2.7-8.fc27.armv7hl
-mariadb-connector-c-3.0.2-11.fc28.armv7hl
+mariadb-connector-c-3.0.2-16.fc28.armv7hl
 mariadb-devel-3:10.2.7-8.fc27.armv7hl
 mariadb-libs-3:10.2.7-8.fc27.armv7hl
 maven-1:3.5.0-6.fc27.noarch
