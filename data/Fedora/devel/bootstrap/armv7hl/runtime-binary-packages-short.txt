@@ -195,6 +195,7 @@ celt051
 certmonger
 cfitsio
 checkpolicy
+checksec
 chkconfig
 chrony
 chrpath
@@ -1508,6 +1509,7 @@ mozjs45
 mpfr
 mtdev
 mtools
+multilib-rpm-config
 multiverse
 mythes
 mythes-en

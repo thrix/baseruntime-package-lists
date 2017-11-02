@@ -196,6 +196,7 @@ celt051-0.5.1.3-14.fc27.ppc64le
 certmonger-0.79.4-2.fc28.ppc64le
 cfitsio-3.370-9.fc27.ppc64le
 checkpolicy-2.7-1.fc27.ppc64le
+checksec-1.7.4-5.fc28.noarch
 chkconfig-1.10-3.fc27.ppc64le
 chrony-3.2-0.3.pre1.fc27.ppc64le
 chrpath-0.16-6.fc27.ppc64le
@@ -1525,6 +1526,7 @@ mozjs17-17.0.0-21.fc27.ppc64le
 mpfr-3.1.5-5.fc27.ppc64le
 mtdev-1.1.5-9.fc27.ppc64le
 mtools-4.0.18-13.fc27.ppc64le
+multilib-rpm-config-1-9.fc27.noarch
 multiverse-0.7.0-7.fc27.noarch
 mythes-1.2.4-8.fc27.ppc64le
 mythes-en-3.0-19.fc27.noarch

@@ -19,6 +19,7 @@ c-ares
 ca-certificates
 ceph
 checkpolicy
+checksec
 chkconfig
 chrpath
 cmake
@@ -214,6 +215,7 @@ modulemd
 mokutil
 mpfr
 mtools
+multilib-rpm-config
 nano
 ncurses
 nettle

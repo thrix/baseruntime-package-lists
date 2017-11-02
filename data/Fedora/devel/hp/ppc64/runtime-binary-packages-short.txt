@@ -20,6 +20,7 @@ bzip2-libs
 c-ares
 ca-certificates
 checkpolicy
+checksec
 chkconfig
 chrpath
 cmake-filesystem
@@ -290,6 +291,7 @@ mcstrans
 mdadm
 microdnf
 mpfr
+multilib-rpm-config
 nano
 ncurses
 ncurses-base

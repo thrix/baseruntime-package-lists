@@ -19,6 +19,7 @@ c-ares-1.13.0-3.fc27.src
 ca-certificates-2017.2.16-4.fc27.src
 ceph-1:12.2.0-1.fc28.src
 checkpolicy-2.7-1.fc27.src
+checksec-1.7.4-5.fc28.src
 chkconfig-1.10-3.fc27.src
 chrpath-0.16-6.fc27.src
 cmake-3.9.1-2.fc28.src
@@ -214,6 +215,7 @@ modulemd-1.3.0-1.fc28.src
 mokutil-1:0.3.0-7.fc27.src
 mpfr-3.1.5-5.fc27.src
 mtools-4.0.18-13.fc27.src
+multilib-rpm-config-1-9.fc27.src
 nano-2.8.6-3.fc27.src
 ncurses-6.0-13.20170722.fc27.src
 nettle-3.3-5.fc27.src

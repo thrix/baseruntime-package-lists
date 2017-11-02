@@ -112,6 +112,7 @@ ceph
 certmonger
 cfitsio
 checkpolicy
+checksec
 chkconfig
 chrony
 chrpath
@@ -774,6 +775,7 @@ mozjs17
 mpfr
 mtdev
 mtools
+multilib-rpm-config
 multiverse
 mythes
 mythes-en

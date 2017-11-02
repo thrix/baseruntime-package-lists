@@ -114,6 +114,7 @@ ceph-1:12.2.0-1.fc28.src
 certmonger-0.79.4-2.fc28.src
 cfitsio-3.370-9.fc27.src
 checkpolicy-2.7-1.fc27.src
+checksec-1.7.4-5.fc28.src
 chkconfig-1.10-3.fc27.src
 chrony-3.2-0.3.pre1.fc27.src
 chrpath-0.16-6.fc27.src
@@ -797,6 +798,7 @@ mozjs45-45.9.0-2.fc27.src
 mpfr-3.1.5-5.fc27.src
 mtdev-1.1.5-9.fc27.src
 mtools-4.0.18-13.fc27.src
+multilib-rpm-config-1-9.fc27.src
 multiverse-0.7.0-7.fc27.src
 mythes-1.2.4-8.fc27.src
 mythes-en-3.0-19.fc27.src

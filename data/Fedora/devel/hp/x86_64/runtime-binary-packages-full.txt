@@ -20,6 +20,7 @@ bzip2-libs-1.0.6-24.fc27.x86_64
 c-ares-1.13.0-3.fc27.x86_64
 ca-certificates-2017.2.16-4.fc27.noarch
 checkpolicy-2.7-1.fc27.x86_64
+checksec-1.7.4-5.fc28.noarch
 chkconfig-1.10-3.fc27.x86_64
 chrpath-0.16-6.fc27.x86_64
 cmake-filesystem-3.9.1-2.fc28.x86_64
@@ -306,6 +307,7 @@ microdnf-3-4.fc27.x86_64
 mokutil-1:0.3.0-7.fc27.x86_64
 mpfr-3.1.5-5.fc27.x86_64
 mtools-4.0.18-13.fc27.x86_64
+multilib-rpm-config-1-9.fc27.noarch
 nano-2.8.6-3.fc27.x86_64
 ncurses-6.0-13.20170722.fc27.x86_64
 ncurses-base-6.0-13.20170722.fc27.noarch

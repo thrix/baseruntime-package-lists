@@ -18,6 +18,7 @@ bzip2
 c-ares
 ca-certificates
 checkpolicy
+checksec
 chkconfig
 chrpath
 cmake
@@ -208,6 +209,7 @@ microdnf
 modulemd
 mokutil
 mpfr
+multilib-rpm-config
 nano
 ncurses
 nettle
