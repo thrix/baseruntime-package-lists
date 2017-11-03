@@ -10,7 +10,6 @@ NetworkManager
 NetworkManager-libreswan
 ORBit2
 OpenEXR
-PyPAM
 PyYAML
 SDL
 SDL2
@@ -62,8 +61,6 @@ apache-commons-pool
 apache-ivy
 apr
 apr-util
-arc-theme
-argyllcms
 armadillo
 arpack
 arpwatch
@@ -139,19 +136,11 @@ cfitsio
 cgdcbxd
 checkpolicy
 checksec
+cheese
 chkconfig
 chrony
 chrpath
 cifs-utils
-cinnamon
-cinnamon-control-center
-cinnamon-desktop
-cinnamon-menus
-cinnamon-screensaver
-cinnamon-session
-cinnamon-settings-daemon
-cinnamon-translations
-cjs
 classmate
 cldr-emoji-annotation
 clevis
@@ -160,6 +149,8 @@ cloud-utils
 clucene
 clufter
 clutter
+clutter-gst3
+clutter-gtk
 cmake
 cockpit
 cogl
@@ -208,7 +199,6 @@ dcraw
 debootstrap
 dejavu-fonts
 deltarpm
-desktop-backgrounds
 desktop-file-utils
 device-mapper-multipath
 device-mapper-persistent-data
@@ -255,10 +245,8 @@ evolution-data-server
 evolution-ews
 evolution-mapi
 exempi
-exiv2
 expat
 extra166y
-f26-backgrounds
 fabtests
 fakeroot
 fastutil
@@ -290,7 +278,6 @@ fontconfig
 fontpackages
 foomatic
 foomatic-db
-fpaste
 fpc-srpm-macros
 freeipa
 freeradius
@@ -315,6 +302,7 @@ gdb
 gdbm
 gdisk
 gdk-pixbuf2
+gdm
 gegl
 genwqe-tools
 geoclue2
@@ -356,6 +344,7 @@ ghostscript-fonts
 giflib
 gimp
 git
+gjs
 gl-manpages
 glade
 glassfish-el
@@ -374,15 +363,13 @@ gmp
 gnat-srpm-macros
 gnome-autoar
 gnome-boxes
-gnome-color-manager
 gnome-desktop3
-gnome-icon-theme
-gnome-icon-theme-symbolic
 gnome-keyring
-gnome-menus
 gnome-online-accounts
 gnome-python2
 gnome-session
+gnome-settings-daemon
+gnome-shell
 gnome-themes-standard
 gnome-vfs2
 gnu-free-fonts
@@ -405,17 +392,18 @@ gpm
 graphite2
 graphviz
 grep
+grilo
 groff
 groovy
 gsettings-desktop-schemas
 gsl
 gsm
+gssdp
 gssproxy
 gstreamer1
 gstreamer1-plugins-bad-free
 gstreamer1-plugins-base
 gstreamer1-plugins-good
-gtk-murrine-engine
 gtk-vnc
 gtk2
 gtk3
@@ -424,8 +412,10 @@ gtkspell3
 gts
 guava
 gubbi-fonts
-gucharmap
 guile
+gupnp
+gupnp-av
+gupnp-dlna
 gutenprint
 gv
 gvfs
@@ -437,7 +427,6 @@ haproxy
 harfbuzz
 haskell-platform
 hawtjni
-hddtemp
 hdf5
 hdparm
 herqq
@@ -604,7 +593,6 @@ ima-evm-utils
 imlib2
 initscripts
 inkscape
-inxi
 ipa-gothic-fonts
 ipa-mincho-fonts
 ipa-pgothic-fonts
@@ -723,7 +711,6 @@ libXres
 libXt
 libXtst
 libXv
-libXxf86dga
 libXxf86misc
 libXxf86vm
 libabw
@@ -764,7 +751,6 @@ libdatrie
 libdb
 libdbi
 libdbi-drivers
-libdmx
 libdnf
 libdrm
 libdvdnav
@@ -809,6 +795,7 @@ libgphoto2
 libgrss
 libgsf
 libgta
+libgtop2
 libgudev
 libguestfs
 libgusb
@@ -842,6 +829,7 @@ liblogging
 liblognorm
 liblouis
 libmbim
+libmediaart
 libmetalink
 libmng
 libmnl
@@ -1055,9 +1043,6 @@ mingw-crt
 mingw-filesystem
 mingw-srvany
 minicom
-mint-x-icons
-mint-y-icons
-mintlocale
 mlocate
 mobile-broadband-provider-info
 mod_auth_gssapi
@@ -1083,10 +1068,10 @@ mozvoikko
 mpfr
 mtdev
 mtools
-muffin
 multilib-rpm-config
 multiverse
 mutt
+mutter
 mysql-connector-java
 mythes
 mythes-en
@@ -1099,7 +1084,6 @@ naver-nanum-fonts
 navilu-fonts
 ncurses
 ndctl
-nemo
 neon
 net-snmp
 net-tools
@@ -1575,7 +1559,6 @@ python-gssapi
 python-html5lib
 python-idna
 python-iniparse
-python-inotify
 python-ipaddr
 python-ipaddress
 python-jinja2
@@ -1656,7 +1639,6 @@ python-urwid
 python-webencodings
 python-websocket-client
 python-wrapt
-python-xapp
 python-xpyb
 python-yubico
 python-zope-event
@@ -1757,6 +1739,7 @@ rubygem-rack-test
 rubypick
 runc
 rust-srpm-macros
+rygel
 s390utils
 saab-fonts
 sac
@@ -1839,6 +1822,7 @@ suitesparse
 supermin
 svrcore
 swig
+switcheroo-control
 sysfsutils
 sysstat
 system-config-printer
@@ -1860,6 +1844,7 @@ tcsh
 teckit
 telepathy-filesystem
 telepathy-glib
+telepathy-logger
 telnet
 tex-fonts-hebrew
 texinfo
@@ -1871,7 +1856,6 @@ tidy
 tigervnc
 time
 timedatex
-tint2
 tix
 tk
 tmux
@@ -1919,6 +1903,7 @@ varnish-modules
 velocity
 vim
 vinagre
+vino
 virglrenderer
 virt-manager
 virt-top
@@ -1940,7 +1925,6 @@ words
 wpa_supplicant
 xalan-j2
 xapian-core
-xapps
 xbean
 xcb-util
 xcb-util-image
@@ -1964,7 +1948,6 @@ xorg-x11-fonts
 xorg-x11-proto-devel
 xorg-x11-server
 xorg-x11-server-utils
-xorg-x11-utils
 xorg-x11-xauth
 xorg-x11-xbitmaps
 xorg-x11-xinit

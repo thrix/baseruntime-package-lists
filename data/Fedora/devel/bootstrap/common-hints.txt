@@ -5,6 +5,7 @@ curl-minimal
 environment-modules
 fedora-release
 glibc-minimal-langpack
+gnome-shell
 java-1.8.0-openjdk-javadoc
 kernel-core
 kernel-devel
@@ -21,4 +22,5 @@ perl-Archive-Extract-txz-tar-unxz
 perl-Archive-Extract-xz-unxz
 perl-Archive-Extract-zip-unzip
 perl-Archive-Extract-Z-uncompress
+polkit-gnome
 sendmail

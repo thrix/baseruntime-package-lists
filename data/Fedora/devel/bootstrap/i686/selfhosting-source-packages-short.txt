@@ -21,7 +21,6 @@ ORBit2
 OpenEXR
 PEGTL
 PackageKit
-PyPAM
 PyQt4
 PyYAML
 R
@@ -129,7 +128,6 @@ appstream-data
 apr
 apr-util
 aqute-bnd
-arc-theme
 args4j
 argyllcms
 aries-blueprint-annotation-api
@@ -277,15 +275,6 @@ chromaprint
 chrony
 chrpath
 cifs-utils
-cinnamon
-cinnamon-control-center
-cinnamon-desktop
-cinnamon-menus
-cinnamon-screensaver
-cinnamon-session
-cinnamon-settings-daemon
-cinnamon-translations
-cjs
 clang
 classloader-leak-test-framework
 classmate
@@ -299,7 +288,6 @@ cloud-utils
 clucene
 clufter
 clutter
-clutter-gst2
 clutter-gst3
 clutter-gtk
 cmake
@@ -393,7 +381,6 @@ dejagnu
 dejavu-fonts
 deltarpm
 derby
-desktop-backgrounds
 desktop-file-utils
 device-mapper-multipath
 device-mapper-persistent-data
@@ -517,7 +504,6 @@ expect
 expresso
 extra-cmake-modules
 extra166y
-f26-backgrounds
 fabtests
 fakechroot
 fakeroot
@@ -526,7 +512,6 @@ fastutil
 fbset
 fcode-utils
 fcoe-utils
-fdupes
 fedora-bookmarks
 fedora-logos
 fedora-release
@@ -581,7 +566,6 @@ foomatic
 foomatic-db
 fop
 forge-parent
-fpaste
 fpc-srpm-macros
 fping
 freeglut
@@ -616,6 +600,7 @@ gdb
 gdbm
 gdisk
 gdk-pixbuf2
+gdm
 gegl
 gemini-blueprint
 generatorrunner
@@ -772,18 +757,15 @@ gnat-srpm-macros
 gnome-autoar
 gnome-bluetooth
 gnome-boxes
-gnome-color-manager
 gnome-common
 gnome-desktop3
 gnome-doc-utils
-gnome-icon-theme
-gnome-icon-theme-symbolic
 gnome-keyring
-gnome-menus
 gnome-online-accounts
 gnome-python2
 gnome-session
 gnome-settings-daemon
+gnome-shell
 gnome-themes-standard
 gnome-vfs2
 gnu-efi
@@ -862,6 +844,7 @@ gsbase
 gsettings-desktop-schemas
 gsl
 gsm
+gssdp
 gssntlmssp
 gssproxy
 gstreamer
@@ -874,7 +857,6 @@ gt
 gtest
 gtk+
 gtk-doc
-gtk-murrine-engine
 gtk-sharp2
 gtk-vnc
 gtk2
@@ -885,8 +867,10 @@ gtkspell3
 gts
 guava
 gubbi-fonts
-gucharmap
 guile
+gupnp
+gupnp-av
+gupnp-dlna
 gutenprint
 gv
 gvfs
@@ -903,7 +887,6 @@ haskell-platform
 hawtbuf
 hawtdispatch
 hawtjni
-hddtemp
 hdf
 hdf5
 hdparm
@@ -1083,7 +1066,6 @@ ibus-table
 ibus-typing-booster
 ibutils
 icc-profiles-openicc
-icon-naming-utils
 icoutils
 icu
 icu4j
@@ -1100,7 +1082,6 @@ initscripts
 inkscape
 intltool
 invokebinder
-inxi
 ipa-gothic-fonts
 ipa-mincho-fonts
 ipa-pgothic-fonts
@@ -1568,6 +1549,7 @@ liblouis
 liblzf
 libmbim
 libmcrypt
+libmediaart
 libmemcached
 libmetalink
 libmicrohttpd
@@ -1908,9 +1890,6 @@ mingw-winpthreads
 minicom
 miniz
 minlog
-mint-x-icons
-mint-y-icons
-mintlocale
 mlocate
 mobile-broadband-provider-info
 mocha
@@ -1951,7 +1930,6 @@ mstflint
 msv
 mtdev
 mtools
-muffin
 multilib-rpm-config
 multithreadedtc
 multiverse
@@ -1959,6 +1937,7 @@ munge
 munge-maven-plugin
 mustache-java
 mutt
+mutter
 mvel
 mx4j
 mxml
@@ -1987,7 +1966,6 @@ ndctl
 neXtaw
 neethi
 nekohtml
-nemo
 neon
 net-snmp
 net-tools
@@ -2430,7 +2408,6 @@ pandoc
 pandoc-citeproc
 pango
 pangomm
-pangox-compat
 papi
 paranamer
 paratype-pt-sans-fonts
@@ -3428,7 +3405,6 @@ python-hypothesis
 python-idna
 python-imagesize
 python-iniparse
-python-inotify
 python-ipaddr
 python-ipaddress
 python-ipykernel
@@ -3608,7 +3584,6 @@ python-wheel
 python-which
 python-whoosh
 python-wrapt
-python-xapp
 python-xpyb
 python-yubico
 python-zmq
@@ -3886,6 +3861,7 @@ rust
 rust-srpm-macros
 rxjava
 rxtx
+rygel
 saab-fonts
 sac
 samba
@@ -4029,6 +4005,7 @@ supermin
 svrcore
 swagger-core
 swig
+switcheroo-control
 swt-chart
 symlinks
 sysfsutils
@@ -4057,6 +4034,7 @@ tcsh
 teckit
 telepathy-filesystem
 telepathy-glib
+telepathy-logger
 telnet
 tesla-polyglot
 test-interface
@@ -4077,7 +4055,6 @@ tika
 tiles
 time
 timedatex
-tint2
 tinycdb
 tix
 tk
@@ -4159,6 +4136,7 @@ velocity
 velocity-tools
 vim
 vinagre
+vino
 virglrenderer
 virt-manager
 virt-top
@@ -4207,7 +4185,6 @@ xalan-j2
 xapian-bindings
 xapian-core
 xapool
-xapps
 xbean
 xcb-proto
 xcb-util

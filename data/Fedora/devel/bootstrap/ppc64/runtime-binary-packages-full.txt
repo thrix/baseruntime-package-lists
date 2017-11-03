@@ -116,8 +116,6 @@ apr-util-odbc-1.6.0-1.fc28.ppc64
 apr-util-openssl-1.6.0-1.fc28.ppc64
 apr-util-pgsql-1.6.0-1.fc28.ppc64
 apr-util-sqlite-1.6.0-1.fc28.ppc64
-arc-theme-20170302-5.fc27.noarch
-argyllcms-1.9.2-4.fc27.ppc64
 armadillo-7.900.1-3.fc27.ppc64
 arpack-3.5.0-4.fc27.ppc64
 arpwatch-14:2.1a15-40.fc27.ppc64
@@ -309,20 +307,11 @@ cfitsio-3.370-9.fc27.ppc64
 cgdcbxd-1.0.2-6.fc27.ppc64
 checkpolicy-2.7-1.fc27.ppc64
 checksec-1.7.4-5.fc28.noarch
+cheese-libs-2:3.25.90-1.fc27.ppc64
 chkconfig-1.10-3.fc27.ppc64
 chrony-3.2-0.3.pre1.fc27.ppc64
 chrpath-0.16-6.fc27.ppc64
 cifs-utils-6.7-3.fc27.ppc64
-cinnamon-3.4.6-3.fc27.ppc64
-cinnamon-control-center-3.4.0-7.fc27.ppc64
-cinnamon-control-center-filesystem-3.4.0-7.fc27.ppc64
-cinnamon-desktop-3.4.2-3.fc27.ppc64
-cinnamon-menus-3.4.0-3.fc27.ppc64
-cinnamon-screensaver-3.4.2-1.fc27.ppc64
-cinnamon-session-3.4.2-1.fc27.ppc64
-cinnamon-settings-daemon-3.4.4-1.fc27.ppc64
-cinnamon-translations-3.4.2-2.fc27.noarch
-cjs-1:3.4.4-1.fc27.ppc64
 classmate-1.3.1-3.fc27.noarch
 cldr-emoji-annotation-31.0.1_1-2.fc27.noarch
 clevis-6-3.fc27.ppc64
@@ -337,6 +326,8 @@ clufter-lib-ccs-0.76.0-3.fc27.noarch
 clufter-lib-general-0.76.0-3.fc27.noarch
 clufter-lib-pcs-0.76.0-3.fc27.noarch
 clutter-1.26.2-1.fc27.ppc64
+clutter-gst3-3.0.24-3.fc27.ppc64
+clutter-gtk-1.8.4-1.fc27.ppc64
 cmake-3.9.1-2.fc28.ppc64
 cmake-data-3.9.1-2.fc28.noarch
 cmake-filesystem-3.9.1-2.fc28.ppc64
@@ -358,6 +349,7 @@ compat-readline6-6.3-13.fc27.ppc64
 compress-lzf-1.0.3-7.fc27.noarch
 concurrentlinkedhashmap-lru-1.4.2-5.fc27.noarch
 conntrack-tools-1.4.4-5.fc27.ppc64
+control-center-1:3.25.91-1.fc28.ppc64
 control-center-filesystem-1:3.25.91-1.fc28.ppc64
 copy-jdk-configs-2.3-2.fc27.noarch
 coreutils-8.28-1.fc28.ppc64
@@ -451,7 +443,6 @@ dejavu-sans-mono-fonts-2.35-5.fc27.noarch
 dejavu-serif-fonts-2.35-5.fc27.noarch
 deltaiso-3.6-24.fc27.ppc64
 deltarpm-3.6-24.fc27.ppc64
-desktop-backgrounds-gnome-26.0.0-2.fc27.noarch
 desktop-file-utils-0.23-5.fc27.ppc64
 device-mapper-1.02.143-2.fc28.ppc64
 device-mapper-devel-1.02.143-2.fc28.ppc64
@@ -554,12 +545,9 @@ evolution-langpacks-3.25.91-2.fc28.noarch
 evolution-mapi-3.25.91-2.fc28.ppc64
 evolution-mapi-langpacks-3.25.91-2.fc28.noarch
 exempi-2.4.2-7.fc27.ppc64
-exiv2-libs-0.26-6.fc27.ppc64
 expat-2.2.4-1.fc28.ppc64
 expat-devel-2.2.4-1.fc28.ppc64
 extra166y-1.7.0-8.fc27.noarch
-f26-backgrounds-base-26.2.7-2.fc27.noarch
-f26-backgrounds-gnome-26.2.7-2.fc27.noarch
 fabtests-1.4.1-3.fc27.ppc64
 fakeroot-1.21-5.fc27.ppc64
 fakeroot-libs-1.21-5.fc27.ppc64
@@ -665,7 +653,6 @@ foomatic-4.0.12-17.fc27.ppc64
 foomatic-db-4.0-54.20170503.fc27.noarch
 foomatic-db-filesystem-4.0-54.20170503.fc27.noarch
 foomatic-db-ppds-4.0-54.20170503.fc27.noarch
-fpaste-0.3.9.0-1.fc28.noarch
 fpc-srpm-macros-1.1-3.fc27.noarch
 freeipa-client-4.5.3-3.fc27.ppc64
 freeipa-client-common-4.5.3-3.fc27.noarch
@@ -708,6 +695,7 @@ gdisk-1.0.3-4.fc27.ppc64
 gdk-pixbuf2-2.36.9-1.fc28.ppc64
 gdk-pixbuf2-devel-2.36.9-1.fc28.ppc64
 gdk-pixbuf2-modules-2.36.9-1.fc28.ppc64
+gdm-1:3.25.90.1-1.fc27.ppc64
 gegl-0.2.0-34.fc27.ppc64
 genisoimage-1.1.11-37.fc27.ppc64
 genwqe-tools-4.0.18-4.fc27.ppc64
@@ -716,6 +704,7 @@ genwqe-zlib-4.0.18-4.fc27.ppc64
 genwqe-zlib-devel-4.0.18-4.fc27.ppc64
 genwqe-zlib-static-4.0.18-4.fc27.ppc64
 geoclue2-2.4.5-6.fc27.ppc64
+geoclue2-libs-2.4.5-6.fc27.ppc64
 geocode-glib-3.25.4.1-1.fc27.ppc64
 geos-3.6.1-6.fc28.ppc64
 geronimo-jta-1.1.1-22.fc27.noarch
@@ -820,6 +809,7 @@ gimp-libs-2:2.8.22-2.fc27.2.ppc64
 git-2.14.1-2.fc27.ppc64
 git-core-2.14.1-2.fc27.ppc64
 git-core-doc-2.14.1-2.fc27.ppc64
+gjs-1.49.3-3.fc27.ppc64
 gl-manpages-1.1-14.20161227.fc27.noarch
 glade-libs-3.20.1-1.fc28.ppc64
 glassfish-el-api-3.0.1-0.5.b08.fc27.noarch
@@ -853,15 +843,12 @@ gmp-devel-1:6.1.2-6.fc27.ppc64
 gmp-static-1:6.1.2-6.fc27.ppc64
 gnat-srpm-macros-4-4.fc27.noarch
 gnome-autoar-0.2.2-3.fc27.ppc64
+gnome-bluetooth-1:3.20.1-3.fc27.ppc64
+gnome-bluetooth-libs-1:3.20.1-3.fc27.ppc64
 gnome-boxes-3.25.91-1.fc28.ppc64
-gnome-color-manager-3.25.90-1.fc27.ppc64
 gnome-desktop3-3.25.91.1-1.fc28.ppc64
-gnome-icon-theme-3.12.0-7.fc27.noarch
-gnome-icon-theme-legacy-3.12.0-7.fc27.noarch
-gnome-icon-theme-symbolic-3.12.0-6.fc27.noarch
 gnome-keyring-3.20.1-3.fc27.ppc64
 gnome-keyring-pam-3.20.1-3.fc27.ppc64
-gnome-menus-3.13.3-8.fc27.ppc64
 gnome-online-accounts-3.26.0-2.fc28.ppc64
 gnome-python2-2.28.1-21.fc27.ppc64
 gnome-python2-bonobo-2.28.1-21.fc27.ppc64
@@ -870,6 +857,9 @@ gnome-python2-gnome-2.28.1-21.fc27.ppc64
 gnome-python2-gnomevfs-2.28.1-21.fc27.ppc64
 gnome-session-3.25.90-1.fc27.ppc64
 gnome-session-wayland-session-3.25.90-1.fc27.ppc64
+gnome-session-xsession-3.25.90-1.fc27.ppc64
+gnome-settings-daemon-3.25.91-1.fc28.ppc64
+gnome-shell-3.25.91-1.fc28.ppc64
 gnome-themes-standard-3.22.3-4.fc27.ppc64
 gnome-vfs2-2.24.4-25.fc27.ppc64
 gnome-vfs2-common-2.24.4-25.fc27.noarch
@@ -895,7 +885,6 @@ google-crosextra-carlito-fonts-1.103-0.7.20130920.fc27.noarch
 google-guice-4.1-7.fc27.noarch
 google-noto-cjk-fonts-20170602-2.fc27.noarch
 google-noto-fonts-common-20161022-4.fc27.noarch
-google-noto-sans-fonts-20161022-4.fc27.noarch
 google-noto-sans-lisu-fonts-20161022-4.fc27.noarch
 google-noto-sans-mandaic-fonts-20161022-4.fc27.noarch
 google-noto-sans-meetei-mayek-fonts-20161022-4.fc27.noarch
@@ -915,6 +904,7 @@ graphite2-devel-1.3.10-3.fc27.ppc64
 graphviz-2.40.1-12.fc28.ppc64
 graphviz-tcl-2.40.1-12.fc28.ppc64
 grep-3.1-3.fc27.ppc64
+grilo-0.3.4-1.fc28.ppc64
 groff-base-1.22.3-11.fc27.ppc64
 groff-perl-1.22.3-11.fc27.ppc64
 groovy-lib-2.4.8-3.fc27.noarch
@@ -927,13 +917,13 @@ grub2-tools-minimal-1:2.02-15.fc28.ppc64
 gsettings-desktop-schemas-3.24.0-3.fc27.ppc64
 gsl-2.4-3.fc27.ppc64
 gsm-1.0.17-3.fc27.ppc64
+gssdp-1.0.2-3.fc27.ppc64
 gssproxy-0.7.0-14.fc28.ppc64
 gstreamer1-1.12.3-2.fc28.ppc64
 gstreamer1-plugins-bad-free-1.12.2-5.fc27.ppc64
 gstreamer1-plugins-bad-free-gtk-1.12.2-5.fc27.ppc64
 gstreamer1-plugins-base-1.12.3-1.fc28.ppc64
 gstreamer1-plugins-good-1.12.3-2.fc28.ppc64
-gtk-murrine-engine-0.98.2-13.fc27.ppc64
 gtk-update-icon-cache-3.22.24-2.fc28.ppc64
 gtk-vnc2-0.7.1-5.fc28.ppc64
 gtk2-2.24.31-6.fc27.ppc64
@@ -946,9 +936,10 @@ gtkspell3-3.0.9-4.fc27.ppc64
 gts-0.7.6-32.20121130.fc27.ppc64
 guava-18.0-11.fc27.noarch
 gubbi-fonts-1.1-8.fc27.noarch
-gucharmap-10.0.0-3.fc27.ppc64
-gucharmap-libs-10.0.0-3.fc27.ppc64
 guile-5:2.0.14-4.fc28.ppc64
+gupnp-1.0.2-3.fc27.ppc64
+gupnp-av-0.12.10-4.fc27.ppc64
+gupnp-dlna-0.10.5-5.fc27.ppc64
 gutenprint-5.2.13-3.fc27.ppc64
 gutenprint-cups-5.2.13-3.fc27.ppc64
 gutenprint-doc-5.2.13-3.fc27.ppc64
@@ -967,7 +958,6 @@ harfbuzz-devel-1.5.0-1.fc28.ppc64
 harfbuzz-icu-1.5.0-1.fc28.ppc64
 haskell-platform-2017.8.0.2-8.fc27.ppc64
 hawtjni-runtime-1.15-2.fc27.noarch
-hddtemp-0.3-0.36.beta15.fc26.ppc64
 hdf5-1.8.18-10.fc28.ppc64
 hdparm-9.51-3.fc27.ppc64
 herqq-1.0.0-16.fc27.ppc64
@@ -1172,7 +1162,6 @@ imlib2-1.4.9-4.fc27.ppc64
 info-6.4-5.fc27.ppc64
 initscripts-9.77-1.fc27.ppc64
 inkscape-0.92.1-12.20170713bzr15740.fc28.ppc64
-inxi-2.3.36-1.fc28.noarch
 iowatcher-1.1.0-6.fc27.ppc64
 ipa-gothic-fonts-003.03-11.fc27.noarch
 ipa-mincho-fonts-003.03-11.fc27.noarch
@@ -1380,7 +1369,6 @@ libXt-devel-1.1.5-6.fc27.ppc64
 libXtst-1.2.3-4.fc27.ppc64
 libXv-1.0.11-4.fc27.ppc64
 libXv-devel-1.0.11-4.fc27.ppc64
-libXxf86dga-1.1.4-9.fc27.ppc64
 libXxf86misc-1.0.3-14.fc27.ppc64
 libXxf86vm-1.1.4-6.fc27.ppc64
 libXxf86vm-devel-1.1.4-6.fc27.ppc64
@@ -1463,7 +1451,6 @@ libdhash-0.4.3-33.fc27.ppc64
 libdhash-devel-0.4.3-33.fc27.ppc64
 libdmmp-0.7.1-6.git847cc43.fc27.ppc64
 libdmmp-devel-0.7.1-6.git847cc43.fc27.ppc64
-libdmx-1.1.3-9.fc27.ppc64
 libdnf-0.11.1-1.fc28.ppc64
 libdnf-devel-0.11.1-1.fc28.ppc64
 libdrm-2.4.82-3.fc27.ppc64
@@ -1534,6 +1521,7 @@ libgphoto2-2.5.14-3.fc27.ppc64
 libgrss-0.7.0-5.fc27.ppc64
 libgsf-1.14.41-4.fc27.ppc64
 libgta-1.0.7-6.fc27.ppc64
+libgtop2-2.37.90-1.fc27.ppc64
 libgudev-230-6.fc27.ppc64
 libguestfs-1:1.37.21-2.fc28.ppc64
 libguestfs-bash-completion-1:1.37.21-2.fc28.noarch
@@ -1612,6 +1600,7 @@ libmalaga-7.12-23.fc27.ppc64
 libmbim-1.14.0-4.fc27.ppc64
 libmbim-utils-1.14.0-4.fc27.ppc64
 libmcpp-2.7.2-19.fc27.ppc64
+libmediaart-1.9.4-1.fc27.ppc64
 libmetalink-0.1.3-4.fc27.ppc64
 libmng-2.0.3-6.fc27.ppc64
 libmnl-1.0.4-4.fc27.ppc64
@@ -2075,10 +2064,6 @@ mingw32-filesystem-101-3.fc27.noarch
 mingw32-srvany-1.0-19.20150115gitfd659e77.fc27.noarch
 minicom-2.7.1-3.fc27.ppc64
 minizip-1.2.11-4.fc27.ppc64
-mint-x-icons-1.4.3-2.fc27.noarch
-mint-y-icons-1.0.8-3.fc28.noarch
-mintlocale-1.4.2-6.fc27.noarch
-mintlocale-set-default-locale-1.4.2-6.fc27.noarch
 mlocate-0.26-18.fc27.ppc64
 mobile-broadband-provider-info-1.20170105git-3.fc27.noarch
 mod_auth_gssapi-1.5.1-3.fc27.ppc64
@@ -2114,10 +2099,10 @@ mpfr-3.1.5-5.fc27.ppc64
 mstflint-4.6.0-2.fc26.ppc64
 mtdev-1.1.5-9.fc27.ppc64
 mtools-4.0.18-13.fc27.ppc64
-muffin-3.4.1-1.fc27.ppc64
 multilib-rpm-config-1-9.fc27.noarch
 multiverse-0.7.0-7.fc27.noarch
 mutt-5:1.8.3-3.fc27.ppc64
+mutter-3.25.91-2.fc28.ppc64
 mysql-connector-java-1:5.1.38-5.fc27.noarch
 mythes-1.2.4-8.fc27.ppc64
 mythes-en-3.0-19.fc27.noarch
@@ -2148,8 +2133,6 @@ ncurses-libs-6.0-13.20170722.fc27.ppc64
 ndctl-57.1-3.fc27.ppc64
 ndctl-devel-57.1-3.fc27.ppc64
 ndctl-libs-57.1-3.fc27.ppc64
-nemo-3.4.7-2.fc27.ppc64
-nemo-extensions-3.4.7-2.fc27.ppc64
 neon-0.30.2-4.fc27.ppc64
 net-snmp-1:5.7.3-27.fc28.ppc64
 net-snmp-agent-libs-1:5.7.3-27.fc28.ppc64
@@ -2770,9 +2753,11 @@ ptouch-driver-1.3-18.fc27.ppc64
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
 pulseaudio-10.99.1-5.fc28.ppc64
+pulseaudio-gdm-hooks-10.99.1-5.fc28.ppc64
 pulseaudio-libs-10.99.1-5.fc28.ppc64
 pulseaudio-libs-devel-10.99.1-5.fc28.ppc64
 pulseaudio-libs-glib2-10.99.1-5.fc28.ppc64
+pulseaudio-module-bluetooth-10.99.1-5.fc28.ppc64
 pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.fc27.ppc64
 pygobject2-2.28.6-19.fc27.ppc64
 pygtk2-2.24.0-18.fc27.ppc64
@@ -2862,7 +2847,6 @@ python2-html5lib-1:0.999999999-4.fc28.noarch
 python2-i2c-tools-3.1.2-6.fc28.ppc64
 python2-idna-2.5-2.fc27.noarch
 python2-iniparse-0.4-26.fc28.noarch
-python2-inotify-0.9.6-9.fc27.noarch
 python2-ipaclient-4.5.3-3.fc27.noarch
 python2-ipaddr-2.1.10-8.fc28.noarch
 python2-ipaddress-1.0.18-3.fc28.noarch
@@ -2910,7 +2894,6 @@ python2-openvswitch-2.7.2-3.fc27.noarch
 python2-ordered-set-2.0.2-2.fc28.noarch
 python2-paramiko-2.2.1-2.fc27.noarch
 python2-paste-2.0.3-3.fc27.noarch
-python2-pexpect-4.2.1-2.fc27.noarch
 python2-pillow-4.2.1-5.fc28.ppc64
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-5.fc28.noarch
@@ -2918,7 +2901,6 @@ python2-polib-1.0.7-7.fc27.noarch
 python2-policycoreutils-2.7-3.fc28.ppc64
 python2-powerpc-utils-1.2.1-14.gitf7bdc5c.fc28.noarch
 python2-psutil-5.2.2-1.fc27.ppc64
-python2-ptyprocess-0.5.2-2.fc27.noarch
 python2-py-1.4.34-5.fc28.noarch
 python2-pyOpenSSL-17.3.0-2.fc28.noarch
 python2-pyasn1-0.3.4-2.fc28.noarch
@@ -2926,7 +2908,6 @@ python2-pyasn1-modules-0.3.4-2.fc28.noarch
 python2-pycparser-2.14-12.fc28.noarch
 python2-pycurl-7.43.0-9.fc27.ppc64
 python2-pynacl-1.1.2-1.fc27.ppc64
-python2-pypam-0.5.0-33.fc28.ppc64
 python2-pyparsing-2.1.10-4.fc27.noarch
 python2-pyserial-3.1.1-5.fc28.noarch
 python2-pysocks-1.5.7-5.fc27.noarch
@@ -3162,7 +3143,6 @@ python3-urllib3-1.22-2.fc27.noarch
 python3-urwid-1.3.0-7.fc26.ppc64
 python3-webencodings-0.5.1-3.fc27.noarch
 python3-wrapt-1.10.10-5.fc28.ppc64
-python3-xapp-1.0.1-2.fc27.noarch
 python3-yubico-1.3.2-7.fc28.noarch
 pyxattr-0.5.3-12.fc27.ppc64
 qca-2.1.3-6.fc27.ppc64
@@ -3460,6 +3440,7 @@ rubygems-2.6.13-84.fc28.noarch
 rubygems-devel-2.6.13-84.fc28.noarch
 rubypick-1.1.1-7.fc27.noarch
 rust-srpm-macros-4-3.fc27.noarch
+rygel-0.35.0-1.fc27.ppc64
 saab-fonts-0.91-15.fc27.noarch
 sac-1.3-26.fc27.noarch
 samba-2:4.7.0-0.9.rc3.fc27.ppc64
@@ -3497,6 +3478,7 @@ sanlock-devel-3.5.0-6.fc28.ppc64
 sanlock-lib-3.5.0-6.fc28.ppc64
 sarai-fonts-1.0-20.fc27.noarch
 satyr-0.23-8.fc28.ppc64
+sbc-1.3-7.fc27.ppc64
 sbd-1.2.1-3.fc24.1.ppc64
 scap-security-guide-0.1.34-2.fc27.noarch
 scl-utils-1:2.0.2-3.fc28.ppc64
@@ -3630,6 +3612,7 @@ supermin-devel-5.1.18-5.fc27.ppc64
 svrcore-4.1.3-3.fc27.ppc64
 swig-3.0.12-8.fc27.ppc64
 swig-doc-3.0.12-8.fc27.noarch
+switcheroo-control-1.1-4.fc27.ppc64
 sysstat-11.5.7-4.fc27.ppc64
 system-config-printer-1.5.9-7.fc28.ppc64
 system-config-printer-libs-1.5.9-7.fc28.noarch
@@ -3666,6 +3649,7 @@ teamd-1.27-4.fc28.ppc64
 teckit-2.5.1-18.fc27.ppc64
 telepathy-filesystem-0.0.2-11.fc27.noarch
 telepathy-glib-0.24.1-7.fc27.ppc64
+telepathy-logger-0.8.2-6.fc27.ppc64
 telnet-1:0.17-71.fc27.ppc64
 tex-fonts-hebrew-0.1-26.fc27.noarch
 texinfo-6.4-5.fc27.ppc64
@@ -3878,7 +3862,6 @@ tigervnc-server-minimal-1.8.0-4.fc27.ppc64
 tigervnc-server-module-1.8.0-4.fc27.ppc64
 time-1.7-54.fc27.ppc64
 timedatex-0.4-5.fc27.ppc64
-tint2-0.14.4-3.fc27.ppc64
 tix-1:8.4.3-20.fc27.ppc64
 tk-1:8.6.7-2.fc28.ppc64
 tmux-2.5-4.fc27.ppc64
@@ -3963,6 +3946,7 @@ vim-enhanced-2:8.0.983-1.fc28.ppc64
 vim-filesystem-2:8.0.983-1.fc28.ppc64
 vim-minimal-2:8.0.983-1.fc28.ppc64
 vinagre-3.22.0-6.fc27.ppc64
+vino-3.22.0-4.fc27.ppc64
 virglrenderer-0.6.0-3.20170210git76b3da97b.fc27.ppc64
 virt-dib-1:1.37.21-2.fc28.ppc64
 virt-install-1.4.2-1.fc27.noarch
@@ -3996,7 +3980,6 @@ words-3.0-27.fc27.noarch
 wpa_supplicant-1:2.6-10.fc27.ppc64
 xalan-j2-2.7.1-33.fc28.noarch
 xapian-core-libs-1.4.4-3.fc27.ppc64
-xapps-1.0.3-3.fc27.ppc64
 xbean-4.5-8.fc27.noarch
 xcb-util-0.4.0-8.fc27.ppc64
 xcb-util-image-0.4.0-8.fc27.ppc64
@@ -4030,7 +4013,6 @@ xorg-x11-server-Xvfb-1.19.3-9.fc28.ppc64
 xorg-x11-server-Xwayland-1.19.3-9.fc28.ppc64
 xorg-x11-server-common-1.19.3-9.fc28.ppc64
 xorg-x11-server-utils-7.7-23.fc27.ppc64
-xorg-x11-utils-7.5-25.fc27.ppc64
 xorg-x11-xauth-1:1.0.9-9.fc27.ppc64
 xorg-x11-xbitmaps-1.1.1-11.fc27.noarch
 xorg-x11-xinit-1.3.4-16.fc28.ppc64

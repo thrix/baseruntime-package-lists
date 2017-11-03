@@ -250,7 +250,6 @@ apr-util-pgsql-1.6.0-1.fc28.armv7hl
 apr-util-sqlite-1.6.0-1.fc28.armv7hl
 aqute-bnd-3.4.0-3.fc28.noarch
 aqute-bndlib-3.4.0-3.fc28.noarch
-arc-theme-20170302-5.fc27.noarch
 args4j-2.33-3.fc27.noarch
 argyllcms-1.9.2-4.fc27.armv7hl
 aries-blueprint-annotation-api-1.0.1-3.fc27.noarch
@@ -640,6 +639,7 @@ cairomm-devel-1.12.0-6.fc27.armv7hl
 cal10n-0.8.1-4.fc27.noarch
 cargo-0.20.0-3.fc27.armv7hl
 caribou-0.4.21-5.fc27.armv7hl
+caribou-devel-0.4.21-5.fc27.armv7hl
 caribou-gtk2-module-0.4.21-5.fc27.armv7hl
 caribou-gtk3-module-0.4.21-5.fc27.armv7hl
 cassandra-3.11.0-3.fc27.armv7hl
@@ -673,20 +673,6 @@ chrony-3.2-0.3.pre1.fc27.armv7hl
 chrpath-0.16-6.fc27.armv7hl
 cifs-utils-6.7-3.fc27.armv7hl
 cifs-utils-devel-6.7-3.fc27.armv7hl
-cinnamon-3.4.6-3.fc27.armv7hl
-cinnamon-control-center-3.4.0-7.fc27.armv7hl
-cinnamon-control-center-filesystem-3.4.0-7.fc27.armv7hl
-cinnamon-desktop-3.4.2-3.fc27.armv7hl
-cinnamon-desktop-devel-3.4.2-3.fc27.armv7hl
-cinnamon-menus-3.4.0-3.fc27.armv7hl
-cinnamon-menus-devel-3.4.0-3.fc27.armv7hl
-cinnamon-screensaver-3.4.2-1.fc27.armv7hl
-cinnamon-session-3.4.2-1.fc27.armv7hl
-cinnamon-settings-daemon-3.4.4-1.fc27.armv7hl
-cinnamon-settings-daemon-devel-3.4.4-1.fc27.armv7hl
-cinnamon-translations-3.4.2-2.fc27.noarch
-cjs-1:3.4.4-1.fc27.armv7hl
-cjs-devel-1:3.4.4-1.fc27.armv7hl
 clang-4.0.1-4.fc27.armv7hl
 clang-devel-4.0.1-4.fc27.armv7hl
 clang-libs-4.0.1-4.fc27.armv7hl
@@ -711,8 +697,6 @@ clufter-lib-general-0.76.0-3.fc27.noarch
 clufter-lib-pcs-0.76.0-3.fc27.noarch
 clutter-1.26.2-1.fc27.armv7hl
 clutter-devel-1.26.2-1.fc27.armv7hl
-clutter-gst2-2.0.18-4.fc27.armv7hl
-clutter-gst2-devel-2.0.18-4.fc27.armv7hl
 clutter-gst3-3.0.24-3.fc27.armv7hl
 clutter-gst3-devel-3.0.24-3.fc27.armv7hl
 clutter-gtk-1.8.4-1.fc27.armv7hl
@@ -770,6 +754,7 @@ conntrack-tools-1.4.4-5.fc27.armv7hl
 console-setup-1.165-2.fc27.noarch
 container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-2.giteb688d4.fc27.noarch
+control-center-1:3.25.91-1.fc28.armv7hl
 control-center-filesystem-1:3.25.91-1.fc28.armv7hl
 cookcc-0.3.3-16.fc27.noarch
 cookxml-3.0.2-12.fc26.noarch
@@ -912,7 +897,6 @@ dejavu-serif-fonts-2.35-5.fc27.noarch
 deltaiso-3.6-24.fc27.armv7hl
 deltarpm-3.6-24.fc27.armv7hl
 derby-10.13.1.1-2.fc27.noarch
-desktop-backgrounds-gnome-26.0.0-2.fc27.noarch
 desktop-file-utils-0.23-5.fc27.armv7hl
 device-mapper-1.02.143-2.fc28.armv7hl
 device-mapper-devel-1.02.143-2.fc28.armv7hl
@@ -1167,8 +1151,6 @@ expresso-0.9.2-10.fc27.noarch
 extlinux-bootloader-1.2-3.fc27.armv7hl
 extra-cmake-modules-5.37.0-1.fc28.noarch
 extra166y-1.7.0-8.fc27.noarch
-f26-backgrounds-base-26.2.7-2.fc27.noarch
-f26-backgrounds-gnome-26.2.7-2.fc27.noarch
 fabtests-1.4.1-3.fc27.armv7hl
 fakechroot-2.19-4.fc28.armv7hl
 fakechroot-libs-2.19-4.fc28.armv7hl
@@ -1179,7 +1161,6 @@ fastutil-7.0.7-4.fc27.noarch
 fbset-2.1-43.fc27.armv7hl
 fcode-utils-1.0.2-17.svn1354.fc27.armv7hl
 fcoe-utils-1.0.32-3.fc27.armv7hl
-fdupes-1:1.6.1-3.fc27.armv7hl
 fedora-bookmarks-25-3.fc27.noarch
 fedora-gpg-keys-28-0.3.noarch
 fedora-logos-26.0.1-3.fc27.armv7hl
@@ -1320,7 +1301,6 @@ foomatic-db-filesystem-4.0-54.20170503.fc27.noarch
 foomatic-db-ppds-4.0-54.20170503.fc27.noarch
 fop-2.0-8.fc28.noarch
 forge-parent-38-9.fc27.noarch
-fpaste-0.3.9.0-1.fc28.noarch
 fpc-srpm-macros-1.1-3.fc27.noarch
 fping-4.0-4.fc27.armv7hl
 freeglut-3.0.0-6.fc27.armv7hl
@@ -1399,6 +1379,7 @@ gdk-pixbuf2-devel-2.36.9-1.fc28.armv7hl
 gdk-pixbuf2-modules-2.36.9-1.fc28.armv7hl
 gdk-pixbuf2-xlib-2.36.9-1.fc28.armv7hl
 gdk-pixbuf2-xlib-devel-2.36.9-1.fc28.armv7hl
+gdm-1:3.25.90.1-1.fc27.armv7hl
 gegl-0.2.0-34.fc27.armv7hl
 gegl-devel-0.2.0-34.fc27.armv7hl
 gemini-blueprint-1.0.2-12.fc27.noarch
@@ -1696,6 +1677,7 @@ git-2.14.1-2.fc27.armv7hl
 git-core-2.14.1-2.fc27.armv7hl
 git-core-doc-2.14.1-2.fc27.armv7hl
 gjs-1.49.3-3.fc27.armv7hl
+gjs-devel-1.49.3-3.fc27.armv7hl
 gl-manpages-1.1-14.20161227.fc27.noarch
 gl2ps-1.4.0-3.fc27.armv7hl
 gl2ps-devel-1.4.0-3.fc27.armv7hl
@@ -1802,19 +1784,13 @@ gnome-bluetooth-1:3.20.1-3.fc27.armv7hl
 gnome-bluetooth-libs-1:3.20.1-3.fc27.armv7hl
 gnome-bluetooth-libs-devel-1:3.20.1-3.fc27.armv7hl
 gnome-boxes-3.25.91-1.fc28.armv7hl
-gnome-color-manager-3.25.90-1.fc27.armv7hl
 gnome-common-3.18.0-4.fc27.noarch
 gnome-desktop3-3.25.91.1-1.fc28.armv7hl
 gnome-desktop3-devel-3.25.91.1-1.fc28.armv7hl
 gnome-doc-utils-0.20.10-13.fc27.noarch
 gnome-doc-utils-stylesheets-0.20.10-13.fc27.noarch
-gnome-icon-theme-3.12.0-7.fc27.noarch
-gnome-icon-theme-legacy-3.12.0-7.fc27.noarch
-gnome-icon-theme-symbolic-3.12.0-6.fc27.noarch
 gnome-keyring-3.20.1-3.fc27.armv7hl
 gnome-keyring-pam-3.20.1-3.fc27.armv7hl
-gnome-menus-3.13.3-8.fc27.armv7hl
-gnome-menus-devel-3.13.3-8.fc27.armv7hl
 gnome-online-accounts-3.26.0-2.fc28.armv7hl
 gnome-online-accounts-devel-3.26.0-2.fc28.armv7hl
 gnome-python2-2.28.1-21.fc27.armv7hl
@@ -1824,8 +1800,10 @@ gnome-python2-gnome-2.28.1-21.fc27.armv7hl
 gnome-python2-gnomevfs-2.28.1-21.fc27.armv7hl
 gnome-session-3.25.90-1.fc27.armv7hl
 gnome-session-wayland-session-3.25.90-1.fc27.armv7hl
+gnome-session-xsession-3.25.90-1.fc27.armv7hl
 gnome-settings-daemon-3.25.91-1.fc28.armv7hl
 gnome-settings-daemon-devel-3.25.91-1.fc28.armv7hl
+gnome-shell-3.25.91-1.fc28.armv7hl
 gnome-themes-standard-3.22.3-4.fc27.armv7hl
 gnome-vfs2-2.24.4-25.fc27.armv7hl
 gnome-vfs2-common-2.24.4-25.fc27.noarch
@@ -1897,7 +1875,6 @@ google-gson-2.8.1-1.fc28.noarch
 google-guice-4.1-7.fc27.noarch
 google-noto-cjk-fonts-20170602-2.fc27.noarch
 google-noto-fonts-common-20161022-4.fc27.noarch
-google-noto-sans-fonts-20161022-4.fc27.noarch
 google-noto-sans-lisu-fonts-20161022-4.fc27.noarch
 google-noto-sans-mandaic-fonts-20161022-4.fc27.noarch
 google-noto-sans-meetei-mayek-fonts-20161022-4.fc27.noarch
@@ -1966,6 +1943,8 @@ gsl-2.4-3.fc27.armv7hl
 gsl-devel-2.4-3.fc27.armv7hl
 gsm-1.0.17-3.fc27.armv7hl
 gsm-devel-1.0.17-3.fc27.armv7hl
+gssdp-1.0.2-3.fc27.armv7hl
+gssdp-devel-1.0.2-3.fc27.armv7hl
 gssntlmssp-devel-0.7.0-5.fc27.armv7hl
 gssproxy-0.7.0-14.fc28.armv7hl
 gstreamer-0.10.36-18.fc27.armv7hl
@@ -1986,7 +1965,6 @@ gtest-devel-1.7.0-11.fc27.armv7hl
 gtk+-1:1.2.10-85.fc27.armv7hl
 gtk+-devel-1:1.2.10-85.fc27.armv7hl
 gtk-doc-1.25-6.fc27.armv7hl
-gtk-murrine-engine-0.98.2-13.fc27.armv7hl
 gtk-sharp2-2.12.45-3.fc27.armv7hl
 gtk-sharp2-devel-2.12.45-3.fc27.armv7hl
 gtk-sharp2-gapi-2.12.45-3.fc27.armv7hl
@@ -2011,13 +1989,17 @@ gts-devel-0.7.6-32.20121130.fc27.armv7hl
 guava-18.0-11.fc27.noarch
 guava-testlib-18.0-11.fc27.noarch
 gubbi-fonts-1.1-8.fc27.noarch
-gucharmap-10.0.0-3.fc27.armv7hl
-gucharmap-libs-10.0.0-3.fc27.armv7hl
 guice-extensions-4.1-7.fc27.noarch
 guice-parent-4.1-7.fc27.noarch
 guice-servlet-4.1-7.fc27.noarch
 guile-5:2.0.14-4.fc28.armv7hl
 guile-devel-5:2.0.14-4.fc28.armv7hl
+gupnp-1.0.2-3.fc27.armv7hl
+gupnp-av-0.12.10-4.fc27.armv7hl
+gupnp-av-devel-0.12.10-4.fc27.armv7hl
+gupnp-devel-1.0.2-3.fc27.armv7hl
+gupnp-dlna-0.10.5-5.fc27.armv7hl
+gupnp-dlna-devel-0.10.5-5.fc27.armv7hl
 gutenprint-5.2.13-3.fc27.armv7hl
 gutenprint-cups-5.2.13-3.fc27.armv7hl
 gutenprint-doc-5.2.13-3.fc27.armv7hl
@@ -2050,7 +2032,6 @@ hawtdispatch-1.22-4.fc27.noarch
 hawtdispatch-transport-1.22-4.fc27.noarch
 hawtjni-1.15-2.fc27.noarch
 hawtjni-runtime-1.15-2.fc27.noarch
-hddtemp-0.3-0.36.beta15.fc26.armv7hl
 hdf-4.2.13-3.fc27.armv7hl
 hdf-devel-4.2.13-3.fc27.armv7hl
 hdf5-1.8.18-10.fc28.armv7hl
@@ -2282,7 +2263,6 @@ ibus-table-1.9.18-1.fc27.noarch
 ibus-typing-booster-1.5.32-3.fc27.noarch
 ibus-wayland-1.5.16-8.fc27.armv7hl
 icc-profiles-openicc-1.3.1-12.fc27.noarch
-icon-naming-utils-0.8.90-17.fc27.noarch
 icoutils-0.31.3-3.fc27.armv7hl
 icu-57.1-8.fc28.armv7hl
 icu4j-1:59.1-2.fc27.noarch
@@ -2303,7 +2283,6 @@ initscripts-9.77-1.fc27.armv7hl
 inkscape-0.92.1-12.20170713bzr15740.fc28.armv7hl
 intltool-0.51.0-10.fc27.noarch
 invokebinder-1.2-7.fc27.noarch
-inxi-2.3.36-1.fc28.noarch
 iowatcher-1.1.0-6.fc27.armv7hl
 ipa-gothic-fonts-003.03-11.fc27.noarch
 ipa-mincho-fonts-003.03-11.fc27.noarch
@@ -3255,6 +3234,8 @@ libmbim-utils-1.14.0-4.fc27.armv7hl
 libmcpp-2.7.2-19.fc27.armv7hl
 libmcrypt-2.5.8-21.fc27.armv7hl
 libmcrypt-devel-2.5.8-21.fc27.armv7hl
+libmediaart-1.9.4-1.fc27.armv7hl
+libmediaart-devel-1.9.4-1.fc27.armv7hl
 libmemcached-1.0.18-10.fc27.armv7hl
 libmemcached-devel-1.0.18-10.fc27.armv7hl
 libmemcached-libs-1.0.18-10.fc27.armv7hl
@@ -4063,10 +4044,6 @@ miniz-devel-1.15-7.r4.fc27.armv7hl
 minizip-1.2.11-4.fc27.armv7hl
 minizip-devel-1.2.11-4.fc27.armv7hl
 minlog-1.3.0-5.fc27.noarch
-mint-x-icons-1.4.3-2.fc27.noarch
-mint-y-icons-1.0.8-3.fc28.noarch
-mintlocale-1.4.2-6.fc27.noarch
-mintlocale-set-default-locale-1.4.2-6.fc27.noarch
 mlocate-0.26-18.fc27.armv7hl
 mobile-broadband-provider-info-1.20170105git-3.fc27.noarch
 mocha-2.4.5-7.fc27.noarch
@@ -4130,8 +4107,6 @@ msv-xsdlib-1:2013.6.1-10.fc27.noarch
 mtdev-1.1.5-9.fc27.armv7hl
 mtdev-devel-1.1.5-9.fc27.armv7hl
 mtools-4.0.18-13.fc27.armv7hl
-muffin-3.4.1-1.fc27.armv7hl
-muffin-devel-3.4.1-1.fc27.armv7hl
 multilib-rpm-config-1-9.fc27.noarch
 multithreadedtc-1.01-21.fc26.noarch
 multiverse-0.7.0-7.fc27.noarch
@@ -4141,6 +4116,8 @@ munge-libs-0.5.12-7.fc27.armv7hl
 munge-maven-plugin-1.0-9.fc27.noarch
 mustache-java-0.9.4-3.fc27.noarch
 mutt-5:1.8.3-3.fc27.armv7hl
+mutter-3.25.91-2.fc28.armv7hl
+mutter-devel-3.25.91-2.fc28.armv7hl
 mvel-2.2.8-3.fc27.noarch
 mx4j-1:3.0.1-22.fc24.noarch
 mxml-2.9-4.fc27.armv7hl
@@ -4193,8 +4170,6 @@ neXtaw-0.15.1-28.fc27.armv7hl
 neXtaw-devel-0.15.1-28.fc27.armv7hl
 neethi-3.0.1-13.fc26.noarch
 nekohtml-1.9.22-5.fc27.noarch
-nemo-3.4.7-2.fc27.armv7hl
-nemo-extensions-3.4.7-2.fc27.armv7hl
 neon-0.30.2-4.fc27.armv7hl
 neon-devel-0.30.2-4.fc27.armv7hl
 net-snmp-1:5.7.3-27.fc28.armv7hl
@@ -4788,8 +4763,6 @@ pango-1.40.11-1.fc28.armv7hl
 pango-devel-1.40.11-1.fc28.armv7hl
 pangomm-2.40.1-4.fc27.armv7hl
 pangomm-devel-2.40.1-4.fc27.armv7hl
-pangox-compat-0.0.2-10.fc27.armv7hl
-pangox-compat-devel-0.0.2-10.fc27.armv7hl
 papi-5.5.1-6.fc28.armv7hl
 papi-devel-5.5.1-6.fc28.armv7hl
 papi-libs-5.5.1-6.fc28.armv7hl
@@ -5774,6 +5747,8 @@ plotutils-2.6-18.fc27.armv7hl
 plotutils-devel-2.6-18.fc27.armv7hl
 plymouth-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
 plymouth-core-libs-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
+plymouth-devel-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
+plymouth-graphics-libs-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
 plymouth-scripts-0.9.3-0.9.20160620git0e65b86c.fc27.armv7hl
 pmix-1.2.2-3.fc27.armv7hl
 pmix-devel-1.2.2-3.fc27.armv7hl
@@ -5866,6 +5841,7 @@ ptouch-driver-1.3-18.fc27.armv7hl
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
 pulseaudio-10.99.1-5.fc28.armv7hl
+pulseaudio-gdm-hooks-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-devel-10.99.1-5.fc28.armv7hl
 pulseaudio-libs-glib2-10.99.1-5.fc28.armv7hl
@@ -6020,7 +5996,6 @@ python2-i2c-tools-3.1.2-6.fc28.armv7hl
 python2-idna-2.5-2.fc27.noarch
 python2-imagesize-0.7.1-6.fc27.noarch
 python2-iniparse-0.4-26.fc28.noarch
-python2-inotify-0.9.6-9.fc27.noarch
 python2-ipaclient-4.5.3-3.fc27.noarch
 python2-ipaddr-2.1.10-8.fc28.noarch
 python2-ipaddress-1.0.18-3.fc28.noarch
@@ -6145,7 +6120,6 @@ python2-pygpgme-0.3-24.fc27.armv7hl
 python2-pylint-1.7.2-1.fc27.noarch
 python2-pymongo-3.4.0-5.fc27.armv7hl
 python2-pynacl-1.1.2-1.fc27.armv7hl
-python2-pypam-0.5.0-33.fc28.armv7hl
 python2-pyparsing-2.1.10-4.fc27.noarch
 python2-pyquery-1.2.17-7.fc28.noarch
 python2-pyserial-3.1.1-5.fc28.noarch
@@ -6574,7 +6548,6 @@ python3-wheel-0.30.0a0-7.fc27.noarch
 python3-whoosh-2.7.4-7.fc27.noarch
 python3-wrapt-1.10.10-5.fc28.armv7hl
 python3-xapian-1.4.4-6.fc28.armv7hl
-python3-xapp-1.0.1-2.fc27.noarch
 python3-yubico-1.3.2-7.fc28.noarch
 python3-zmq-16.0.2-5.fc27.armv7hl
 python3-zmq-tests-16.0.2-5.fc27.armv7hl
@@ -7097,6 +7070,7 @@ rust-srpm-macros-4-3.fc27.noarch
 rust-std-static-1.19.0-4.fc27.armv7hl
 rxjava-1.1.8-3.fc27.noarch
 rxtx-2.2-0.19.20100211.fc27.armv7hl
+rygel-0.35.0-1.fc27.armv7hl
 saab-fonts-0.91-15.fc27.noarch
 sac-1.3-26.fc27.noarch
 samba-2:4.7.0-0.9.rc3.fc27.armv7hl
@@ -7397,6 +7371,7 @@ swagger-core-jaxrs-1.5.10-3.fc27.noarch
 swagger-core-models-1.5.10-3.fc27.noarch
 swig-3.0.12-8.fc27.armv7hl
 swig-doc-3.0.12-8.fc27.noarch
+switcheroo-control-1.1-4.fc27.armv7hl
 swt-chart-0.10.0-3.fc27.noarch
 symlinks-1.4-16.fc27.armv7hl
 sysstat-11.5.7-4.fc27.armv7hl
@@ -7448,6 +7423,7 @@ telepathy-filesystem-0.0.2-11.fc27.noarch
 telepathy-glib-0.24.1-7.fc27.armv7hl
 telepathy-glib-devel-0.24.1-7.fc27.armv7hl
 telepathy-glib-vala-0.24.1-7.fc27.armv7hl
+telepathy-logger-0.8.2-6.fc27.armv7hl
 telnet-1:0.17-71.fc27.armv7hl
 tesla-polyglot-common-0.1.19-3.fc27.noarch
 tesla-polyglot-groovy-0.1.19-3.fc27.noarch
@@ -8759,7 +8735,6 @@ tika-parsers-1.12-4.fc27.noarch
 tiles-2.2.2-17.fc27.noarch
 time-1.7-54.fc27.armv7hl
 timedatex-0.4-5.fc27.armv7hl
-tint2-0.14.4-3.fc27.armv7hl
 tinycdb-0.78-8.fc27.armv7hl
 tinycdb-devel-0.78-8.fc27.armv7hl
 tix-1:8.4.3-20.fc27.armv7hl
@@ -8849,7 +8824,6 @@ unbound-libs-1.6.4-3.fc27.armv7hl
 undertow-1:1.4.0-3.fc27.noarch
 unicode-emoji-5.0-2.fc27.noarch
 unicode-ucd-10.0.0-2.fc27.noarch
-unicode-ucd-unihan-10.0.0-2.fc27.noarch
 uniconvertor-2.0-0.14.svn362.fc27.armv7hl
 units-2.14-3.fc27.armv7hl
 unixODBC-2.3.4-7.fc27.armv7hl
@@ -8903,6 +8877,7 @@ vim-enhanced-2:8.0.983-1.fc28.armv7hl
 vim-filesystem-2:8.0.983-1.fc28.armv7hl
 vim-minimal-2:8.0.983-1.fc28.armv7hl
 vinagre-3.22.0-6.fc27.armv7hl
+vino-3.22.0-4.fc27.armv7hl
 virglrenderer-0.6.0-3.20170210git76b3da97b.fc27.armv7hl
 virglrenderer-devel-0.6.0-3.20170210git76b3da97b.fc27.armv7hl
 virt-dib-1:1.37.21-2.fc28.armv7hl
@@ -8990,7 +8965,6 @@ xapian-core-1.4.4-3.fc27.armv7hl
 xapian-core-devel-1.4.4-3.fc27.armv7hl
 xapian-core-libs-1.4.4-3.fc27.armv7hl
 xapool-1.5.0-11.fc27.noarch
-xapps-1.0.3-3.fc27.armv7hl
 xbean-4.5-8.fc27.noarch
 xcb-proto-1.12-5.fc28.noarch
 xcb-util-0.4.0-8.fc27.armv7hl

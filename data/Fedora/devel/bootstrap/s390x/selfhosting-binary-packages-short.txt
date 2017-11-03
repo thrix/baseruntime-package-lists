@@ -247,7 +247,6 @@ apr-util-pgsql
 apr-util-sqlite
 aqute-bnd
 aqute-bndlib
-arc-theme
 args4j
 argyllcms
 aries-blueprint-annotation-api
@@ -641,6 +640,7 @@ cairomm-devel
 cal10n
 cargo
 caribou
+caribou-devel
 caribou-gtk2-module
 caribou-gtk3-module
 cassandra
@@ -674,20 +674,6 @@ chrony
 chrpath
 cifs-utils
 cifs-utils-devel
-cinnamon
-cinnamon-control-center
-cinnamon-control-center-filesystem
-cinnamon-desktop
-cinnamon-desktop-devel
-cinnamon-menus
-cinnamon-menus-devel
-cinnamon-screensaver
-cinnamon-session
-cinnamon-settings-daemon
-cinnamon-settings-daemon-devel
-cinnamon-translations
-cjs
-cjs-devel
 clang
 clang-devel
 clang-libs
@@ -712,8 +698,6 @@ clufter-lib-general
 clufter-lib-pcs
 clutter
 clutter-devel
-clutter-gst2
-clutter-gst2-devel
 clutter-gst3
 clutter-gst3-devel
 clutter-gtk
@@ -771,6 +755,7 @@ conntrack-tools
 console-setup
 container-selinux
 container-storage-setup
+control-center
 control-center-filesystem
 cookcc
 cookxml
@@ -909,7 +894,6 @@ dejavu-serif-fonts
 deltaiso
 deltarpm
 derby
-desktop-backgrounds-gnome
 desktop-file-utils
 device-mapper
 device-mapper-devel
@@ -1159,8 +1143,6 @@ expect
 expresso
 extra-cmake-modules
 extra166y
-f26-backgrounds-base
-f26-backgrounds-gnome
 fabtests
 fakechroot
 fakechroot-libs
@@ -1170,7 +1152,6 @@ fasterxml-oss-parent
 fastutil
 fcode-utils
 fcoe-utils
-fdupes
 fedora-bookmarks
 fedora-gpg-keys
 fedora-logos
@@ -1311,7 +1292,6 @@ foomatic-db-filesystem
 foomatic-db-ppds
 fop
 forge-parent
-fpaste
 fpc-srpm-macros
 fping
 freeglut
@@ -1388,6 +1368,7 @@ gdk-pixbuf2-devel
 gdk-pixbuf2-modules
 gdk-pixbuf2-xlib
 gdk-pixbuf2-xlib-devel
+gdm
 gegl
 gegl-devel
 gemini-blueprint
@@ -1685,6 +1666,7 @@ git
 git-core
 git-core-doc
 gjs
+gjs-devel
 gl-manpages
 gl2ps
 gl2ps-devel
@@ -1792,19 +1774,13 @@ gnome-bluetooth
 gnome-bluetooth-libs
 gnome-bluetooth-libs-devel
 gnome-boxes
-gnome-color-manager
 gnome-common
 gnome-desktop3
 gnome-desktop3-devel
 gnome-doc-utils
 gnome-doc-utils-stylesheets
-gnome-icon-theme
-gnome-icon-theme-legacy
-gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
-gnome-menus
-gnome-menus-devel
 gnome-online-accounts
 gnome-online-accounts-devel
 gnome-python2
@@ -1814,8 +1790,10 @@ gnome-python2-gnome
 gnome-python2-gnomevfs
 gnome-session
 gnome-session-wayland-session
+gnome-session-xsession
 gnome-settings-daemon
 gnome-settings-daemon-devel
+gnome-shell
 gnome-themes-standard
 gnome-vfs2
 gnome-vfs2-common
@@ -1887,7 +1865,6 @@ google-gson
 google-guice
 google-noto-cjk-fonts
 google-noto-fonts-common
-google-noto-sans-fonts
 google-noto-sans-lisu-fonts
 google-noto-sans-mandaic-fonts
 google-noto-sans-meetei-mayek-fonts
@@ -1955,6 +1932,8 @@ gsl
 gsl-devel
 gsm
 gsm-devel
+gssdp
+gssdp-devel
 gssntlmssp-devel
 gssproxy
 gstreamer
@@ -1975,7 +1954,6 @@ gtest-devel
 gtk+
 gtk+-devel
 gtk-doc
-gtk-murrine-engine
 gtk-sharp2
 gtk-sharp2-devel
 gtk-sharp2-gapi
@@ -1998,13 +1976,17 @@ gts-devel
 guava
 guava-testlib
 gubbi-fonts
-gucharmap
-gucharmap-libs
 guice-extensions
 guice-parent
 guice-servlet
 guile
 guile-devel
+gupnp
+gupnp-av
+gupnp-av-devel
+gupnp-devel
+gupnp-dlna
+gupnp-dlna-devel
 gutenprint
 gutenprint-cups
 gutenprint-doc
@@ -2037,7 +2019,6 @@ hawtdispatch
 hawtdispatch-transport
 hawtjni
 hawtjni-runtime
-hddtemp
 hdf
 hdf-devel
 hdf5
@@ -2267,7 +2248,6 @@ ibus-table
 ibus-typing-booster
 ibus-wayland
 icc-profiles-openicc
-icon-naming-utils
 icoutils
 icu
 icu4j
@@ -2288,7 +2268,6 @@ initscripts
 inkscape
 intltool
 invokebinder
-inxi
 iowatcher
 ipa-gothic-fonts
 ipa-mincho-fonts
@@ -3238,6 +3217,8 @@ libmbim-utils
 libmcpp
 libmcrypt
 libmcrypt-devel
+libmediaart
+libmediaart-devel
 libmemcached
 libmemcached-devel
 libmemcached-libs
@@ -4038,10 +4019,6 @@ miniz-devel
 minizip
 minizip-devel
 minlog
-mint-x-icons
-mint-y-icons
-mintlocale
-mintlocale-set-default-locale
 mlocate
 mobile-broadband-provider-info
 mocha
@@ -4104,8 +4081,6 @@ msv-xsdlib
 mtdev
 mtdev-devel
 mtools
-muffin
-muffin-devel
 multilib-rpm-config
 multithreadedtc
 multiverse
@@ -4115,6 +4090,8 @@ munge-libs
 munge-maven-plugin
 mustache-java
 mutt
+mutter
+mutter-devel
 mvel
 mx4j
 mxml
@@ -4167,8 +4144,6 @@ neXtaw
 neXtaw-devel
 neethi
 nekohtml
-nemo
-nemo-extensions
 neon
 neon-devel
 net-snmp
@@ -4772,8 +4747,6 @@ pango
 pango-devel
 pangomm
 pangomm-devel
-pangox-compat
-pangox-compat-devel
 paranamer
 paratype-pt-sans-fonts
 parboiled
@@ -5755,6 +5728,8 @@ plotutils
 plotutils-devel
 plymouth
 plymouth-core-libs
+plymouth-devel
+plymouth-graphics-libs
 plymouth-scripts
 pmix
 pmix-devel
@@ -5847,6 +5822,7 @@ ptouch-driver
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio
+pulseaudio-gdm-hooks
 pulseaudio-libs
 pulseaudio-libs-devel
 pulseaudio-libs-glib2
@@ -5998,7 +5974,6 @@ python2-hypothesis
 python2-idna
 python2-imagesize
 python2-iniparse
-python2-inotify
 python2-ipaclient
 python2-ipaddr
 python2-ipaddress
@@ -6123,7 +6098,6 @@ python2-pygpgme
 python2-pylint
 python2-pymongo
 python2-pynacl
-python2-pypam
 python2-pyparsing
 python2-pyquery
 python2-pyserial
@@ -6552,7 +6526,6 @@ python3-wheel
 python3-whoosh
 python3-wrapt
 python3-xapian
-python3-xapp
 python3-yubico
 python3-zmq
 python3-zmq-tests
@@ -7077,6 +7050,7 @@ rust-srpm-macros
 rust-std-static
 rxjava
 rxtx
+rygel
 s390utils
 s390utils-base
 s390utils-cmsfs
@@ -7385,6 +7359,7 @@ swagger-core-jaxrs
 swagger-core-models
 swig
 swig-doc
+switcheroo-control
 swt-chart
 symlinks
 sysfsutils
@@ -7437,6 +7412,7 @@ telepathy-filesystem
 telepathy-glib
 telepathy-glib-devel
 telepathy-glib-vala
+telepathy-logger
 telnet
 tesla-polyglot-common
 tesla-polyglot-groovy
@@ -8745,7 +8721,6 @@ tika-parsers
 tiles
 time
 timedatex
-tint2
 tinycdb
 tinycdb-devel
 tix
@@ -8831,7 +8806,6 @@ unbound-libs
 undertow
 unicode-emoji
 unicode-ucd
-unicode-ucd-unihan
 uniconvertor
 units
 unixODBC
@@ -8884,6 +8858,7 @@ vim-enhanced
 vim-filesystem
 vim-minimal
 vinagre
+vino
 virglrenderer
 virglrenderer-devel
 virt-dib
@@ -8971,7 +8946,6 @@ xapian-core
 xapian-core-devel
 xapian-core-libs
 xapool
-xapps
 xbean
 xcb-proto
 xcb-util

@@ -117,8 +117,6 @@ apr-util-odbc
 apr-util-openssl
 apr-util-pgsql
 apr-util-sqlite
-arc-theme
-argyllcms
 armadillo
 arpack
 arpwatch
@@ -312,20 +310,11 @@ cfitsio
 cgdcbxd
 checkpolicy
 checksec
+cheese-libs
 chkconfig
 chrony
 chrpath
 cifs-utils
-cinnamon
-cinnamon-control-center
-cinnamon-control-center-filesystem
-cinnamon-desktop
-cinnamon-menus
-cinnamon-screensaver
-cinnamon-session
-cinnamon-settings-daemon
-cinnamon-translations
-cjs
 classmate
 cldr-emoji-annotation
 clevis
@@ -340,6 +329,8 @@ clufter-lib-ccs
 clufter-lib-general
 clufter-lib-pcs
 clutter
+clutter-gst3
+clutter-gtk
 cmake
 cmake-data
 cmake-filesystem
@@ -364,6 +355,7 @@ concurrentlinkedhashmap-lru
 conntrack-tools
 container-selinux
 container-storage-setup
+control-center
 control-center-filesystem
 copy-jdk-configs
 coreutils
@@ -459,7 +451,6 @@ dejavu-sans-mono-fonts
 dejavu-serif-fonts
 deltaiso
 deltarpm
-desktop-backgrounds-gnome
 desktop-file-utils
 device-mapper
 device-mapper-devel
@@ -576,12 +567,9 @@ evolution-langpacks
 evolution-mapi
 evolution-mapi-langpacks
 exempi
-exiv2-libs
 expat
 expat-devel
 extra166y
-f26-backgrounds-base
-f26-backgrounds-gnome
 fabtests
 fakeroot
 fakeroot-libs
@@ -687,7 +675,6 @@ foomatic
 foomatic-db
 foomatic-db-filesystem
 foomatic-db-ppds
-fpaste
 fpc-srpm-macros
 freeipa-client
 freeipa-client-common
@@ -730,6 +717,7 @@ gdisk
 gdk-pixbuf2
 gdk-pixbuf2-devel
 gdk-pixbuf2-modules
+gdm
 gegl
 genisoimage
 genwqe-tools
@@ -738,6 +726,7 @@ genwqe-zlib
 genwqe-zlib-devel
 genwqe-zlib-static
 geoclue2
+geoclue2-libs
 geocode-glib
 geos
 geronimo-jta
@@ -842,6 +831,7 @@ gimp-libs
 git
 git-core
 git-core-doc
+gjs
 gl-manpages
 glade-libs
 glassfish-el-api
@@ -875,15 +865,12 @@ gmp-devel
 gmp-static
 gnat-srpm-macros
 gnome-autoar
+gnome-bluetooth
+gnome-bluetooth-libs
 gnome-boxes
-gnome-color-manager
 gnome-desktop3
-gnome-icon-theme
-gnome-icon-theme-legacy
-gnome-icon-theme-symbolic
 gnome-keyring
 gnome-keyring-pam
-gnome-menus
 gnome-online-accounts
 gnome-python2
 gnome-python2-bonobo
@@ -892,6 +879,9 @@ gnome-python2-gnome
 gnome-python2-gnomevfs
 gnome-session
 gnome-session-wayland-session
+gnome-session-xsession
+gnome-settings-daemon
+gnome-shell
 gnome-themes-standard
 gnome-vfs2
 gnome-vfs2-common
@@ -918,7 +908,6 @@ google-crosextra-carlito-fonts
 google-guice
 google-noto-cjk-fonts
 google-noto-fonts-common
-google-noto-sans-fonts
 google-noto-sans-lisu-fonts
 google-noto-sans-mandaic-fonts
 google-noto-sans-meetei-mayek-fonts
@@ -938,6 +927,7 @@ graphite2-devel
 graphviz
 graphviz-tcl
 grep
+grilo
 groff-base
 groff-perl
 groovy-lib
@@ -958,13 +948,13 @@ grubby
 gsettings-desktop-schemas
 gsl
 gsm
+gssdp
 gssproxy
 gstreamer1
 gstreamer1-plugins-bad-free
 gstreamer1-plugins-bad-free-gtk
 gstreamer1-plugins-base
 gstreamer1-plugins-good
-gtk-murrine-engine
 gtk-update-icon-cache
 gtk-vnc2
 gtk2
@@ -978,9 +968,10 @@ gtkspell3
 gts
 guava
 gubbi-fonts
-gucharmap
-gucharmap-libs
 guile
+gupnp
+gupnp-av
+gupnp-dlna
 gutenprint
 gutenprint-cups
 gutenprint-doc
@@ -999,7 +990,6 @@ harfbuzz-devel
 harfbuzz-icu
 haskell-platform
 hawtjni-runtime
-hddtemp
 hdf5
 hdparm
 herqq
@@ -1206,7 +1196,6 @@ infinipath-psm-devel
 info
 initscripts
 inkscape
-inxi
 iowatcher
 ipa-gothic-fonts
 ipa-mincho-fonts
@@ -1417,7 +1406,6 @@ libXt-devel
 libXtst
 libXv
 libXv-devel
-libXxf86dga
 libXxf86misc
 libXxf86vm
 libXxf86vm-devel
@@ -1500,7 +1488,6 @@ libdhash
 libdhash-devel
 libdmmp
 libdmmp-devel
-libdmx
 libdnet
 libdnf
 libdnf-devel
@@ -1572,6 +1559,7 @@ libgphoto2
 libgrss
 libgsf
 libgta
+libgtop2
 libgudev
 libguestfs
 libguestfs-bash-completion
@@ -1660,6 +1648,7 @@ libmalaga
 libmbim
 libmbim-utils
 libmcpp
+libmediaart
 libmetalink
 libmng
 libmnl
@@ -2155,10 +2144,6 @@ mingw32-filesystem
 mingw32-srvany
 minicom
 minizip
-mint-x-icons
-mint-y-icons
-mintlocale
-mintlocale-set-default-locale
 mlocate
 mobile-broadband-provider-info
 mod_auth_gssapi
@@ -2194,10 +2179,10 @@ mpfr
 mstflint
 mtdev
 mtools
-muffin
 multilib-rpm-config
 multiverse
 mutt
+mutter
 mysql-connector-java
 mythes
 mythes-en
@@ -2228,8 +2213,6 @@ ncurses-libs
 ndctl
 ndctl-devel
 ndctl-libs
-nemo
-nemo-extensions
 neon
 net-snmp
 net-snmp-agent-libs
@@ -2853,9 +2836,11 @@ ptouch-driver
 publicsuffix-list
 publicsuffix-list-dafsa
 pulseaudio
+pulseaudio-gdm-hooks
 pulseaudio-libs
 pulseaudio-libs-devel
 pulseaudio-libs-glib2
+pulseaudio-module-bluetooth
 pycryptopp
 pygobject2
 pygtk2
@@ -2946,7 +2931,6 @@ python2-html5lib
 python2-i2c-tools
 python2-idna
 python2-iniparse
-python2-inotify
 python2-ipaclient
 python2-ipaddr
 python2-ipaddress
@@ -2994,7 +2978,6 @@ python2-openvswitch
 python2-ordered-set
 python2-paramiko
 python2-paste
-python2-pexpect
 python2-pillow
 python2-pip
 python2-ply
@@ -3002,7 +2985,6 @@ python2-polib
 python2-policycoreutils
 python2-powerpc-utils
 python2-psutil
-python2-ptyprocess
 python2-py
 python2-pyOpenSSL
 python2-pyasn1
@@ -3010,7 +2992,6 @@ python2-pyasn1-modules
 python2-pycparser
 python2-pycurl
 python2-pynacl
-python2-pypam
 python2-pyparsing
 python2-pyserial
 python2-pysocks
@@ -3250,7 +3231,6 @@ python3-urwid
 python3-webencodings
 python3-websocket-client
 python3-wrapt
-python3-xapp
 python3-yubico
 pyxattr
 qca
@@ -3551,6 +3531,7 @@ rubygems-devel
 rubypick
 runc
 rust-srpm-macros
+rygel
 saab-fonts
 sac
 samba
@@ -3589,6 +3570,7 @@ sanlock-devel
 sanlock-lib
 sarai-fonts
 satyr
+sbc
 sbd
 scap-security-guide
 scl-utils
@@ -3729,6 +3711,7 @@ supermin-devel
 svrcore
 swig
 swig-doc
+switcheroo-control
 syslinux
 syslinux-extlinux
 syslinux-extlinux-nonlinux
@@ -3770,6 +3753,7 @@ teamd
 teckit
 telepathy-filesystem
 telepathy-glib
+telepathy-logger
 telnet
 tex-fonts-hebrew
 texinfo
@@ -3982,7 +3966,6 @@ tigervnc-server-minimal
 tigervnc-server-module
 time
 timedatex
-tint2
 tix
 tk
 tmux
@@ -4072,6 +4055,7 @@ vim-enhanced
 vim-filesystem
 vim-minimal
 vinagre
+vino
 virglrenderer
 virt-dib
 virt-install
@@ -4106,7 +4090,6 @@ words
 wpa_supplicant
 xalan-j2
 xapian-core-libs
-xapps
 xbean
 xcb-util
 xcb-util-image
@@ -4145,7 +4128,6 @@ xorg-x11-server-Xvfb
 xorg-x11-server-Xwayland
 xorg-x11-server-common
 xorg-x11-server-utils
-xorg-x11-utils
 xorg-x11-xauth
 xorg-x11-xbitmaps
 xorg-x11-xinit

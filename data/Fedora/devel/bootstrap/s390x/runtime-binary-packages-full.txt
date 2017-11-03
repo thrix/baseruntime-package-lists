@@ -116,8 +116,6 @@ apr-util-odbc-1.6.0-1.fc28.s390x
 apr-util-openssl-1.6.0-1.fc28.s390x
 apr-util-pgsql-1.6.0-1.fc28.s390x
 apr-util-sqlite-1.6.0-1.fc28.s390x
-arc-theme-20170302-5.fc27.noarch
-argyllcms-1.9.2-4.fc27.s390x
 armadillo-7.900.1-3.fc27.s390x
 arpack-3.5.0-4.fc27.s390x
 arpwatch-14:2.1a15-40.fc27.s390x
@@ -308,20 +306,11 @@ cfitsio-3.370-9.fc27.s390x
 cgdcbxd-1.0.2-6.fc27.s390x
 checkpolicy-2.7-1.fc27.s390x
 checksec-1.7.4-5.fc28.noarch
+cheese-libs-2:3.25.90-1.fc27.s390x
 chkconfig-1.10-3.fc27.s390x
 chrony-3.2-0.3.pre1.fc27.s390x
 chrpath-0.16-6.fc27.s390x
 cifs-utils-6.7-3.fc27.s390x
-cinnamon-3.4.6-3.fc27.s390x
-cinnamon-control-center-3.4.0-7.fc27.s390x
-cinnamon-control-center-filesystem-3.4.0-7.fc27.s390x
-cinnamon-desktop-3.4.2-3.fc27.s390x
-cinnamon-menus-3.4.0-3.fc27.s390x
-cinnamon-screensaver-3.4.2-1.fc27.s390x
-cinnamon-session-3.4.2-1.fc27.s390x
-cinnamon-settings-daemon-3.4.4-1.fc27.s390x
-cinnamon-translations-3.4.2-2.fc27.noarch
-cjs-1:3.4.4-1.fc27.s390x
 classmate-1.3.1-3.fc27.noarch
 cldr-emoji-annotation-31.0.1_1-2.fc27.noarch
 clevis-6-3.fc27.s390x
@@ -336,6 +325,8 @@ clufter-lib-ccs-0.76.0-3.fc27.noarch
 clufter-lib-general-0.76.0-3.fc27.noarch
 clufter-lib-pcs-0.76.0-3.fc27.noarch
 clutter-1.26.2-1.fc27.s390x
+clutter-gst3-3.0.24-3.fc27.s390x
+clutter-gtk-1.8.4-1.fc27.s390x
 cmake-3.9.1-2.fc28.s390x
 cmake-data-3.9.1-2.fc28.noarch
 cmake-filesystem-3.9.1-2.fc28.s390x
@@ -360,6 +351,7 @@ concurrentlinkedhashmap-lru-1.4.2-5.fc27.noarch
 conntrack-tools-1.4.4-5.fc27.s390x
 container-selinux-2:2.21-3.fc27.noarch
 container-storage-setup-0.6.0-2.giteb688d4.fc27.noarch
+control-center-1:3.25.91-1.fc28.s390x
 control-center-filesystem-1:3.25.91-1.fc28.s390x
 copy-jdk-configs-2.3-2.fc27.noarch
 coreutils-8.28-1.fc28.s390x
@@ -453,7 +445,6 @@ dejavu-sans-mono-fonts-2.35-5.fc27.noarch
 dejavu-serif-fonts-2.35-5.fc27.noarch
 deltaiso-3.6-24.fc27.s390x
 deltarpm-3.6-24.fc27.s390x
-desktop-backgrounds-gnome-26.0.0-2.fc27.noarch
 desktop-file-utils-0.23-5.fc27.s390x
 device-mapper-1.02.143-2.fc28.s390x
 device-mapper-devel-1.02.143-2.fc28.s390x
@@ -558,12 +549,9 @@ evolution-langpacks-3.25.91-2.fc28.noarch
 evolution-mapi-3.25.91-2.fc28.s390x
 evolution-mapi-langpacks-3.25.91-2.fc28.noarch
 exempi-2.4.2-7.fc27.s390x
-exiv2-libs-0.26-6.fc27.s390x
 expat-2.2.4-1.fc28.s390x
 expat-devel-2.2.4-1.fc28.s390x
 extra166y-1.7.0-8.fc27.noarch
-f26-backgrounds-base-26.2.7-2.fc27.noarch
-f26-backgrounds-gnome-26.2.7-2.fc27.noarch
 fabtests-1.4.1-3.fc27.s390x
 fakeroot-1.21-5.fc27.s390x
 fakeroot-libs-1.21-5.fc27.s390x
@@ -668,7 +656,6 @@ foomatic-4.0.12-17.fc27.s390x
 foomatic-db-4.0-54.20170503.fc27.noarch
 foomatic-db-filesystem-4.0-54.20170503.fc27.noarch
 foomatic-db-ppds-4.0-54.20170503.fc27.noarch
-fpaste-0.3.9.0-1.fc28.noarch
 fpc-srpm-macros-1.1-3.fc27.noarch
 freeipa-client-4.5.3-3.fc27.s390x
 freeipa-client-common-4.5.3-3.fc27.noarch
@@ -711,6 +698,7 @@ gdisk-1.0.3-4.fc27.s390x
 gdk-pixbuf2-2.36.9-1.fc28.s390x
 gdk-pixbuf2-devel-2.36.9-1.fc28.s390x
 gdk-pixbuf2-modules-2.36.9-1.fc28.s390x
+gdm-1:3.25.90.1-1.fc27.s390x
 gegl-0.2.0-34.fc27.s390x
 genisoimage-1.1.11-37.fc27.s390x
 genwqe-tools-4.0.18-4.fc27.s390x
@@ -719,6 +707,7 @@ genwqe-zlib-4.0.18-4.fc27.s390x
 genwqe-zlib-devel-4.0.18-4.fc27.s390x
 genwqe-zlib-static-4.0.18-4.fc27.s390x
 geoclue2-2.4.5-6.fc27.s390x
+geoclue2-libs-2.4.5-6.fc27.s390x
 geocode-glib-3.25.4.1-1.fc27.s390x
 geos-3.6.1-6.fc28.s390x
 geronimo-jta-1.1.1-22.fc27.noarch
@@ -823,6 +812,7 @@ gimp-libs-2:2.8.22-2.fc27.2.s390x
 git-2.14.1-2.fc27.s390x
 git-core-2.14.1-2.fc27.s390x
 git-core-doc-2.14.1-2.fc27.s390x
+gjs-1.49.3-3.fc27.s390x
 gl-manpages-1.1-14.20161227.fc27.noarch
 glade-libs-3.20.1-1.fc28.s390x
 glassfish-el-api-3.0.1-0.5.b08.fc27.noarch
@@ -857,14 +847,9 @@ gmp-static-1:6.1.2-6.fc27.s390x
 gnat-srpm-macros-4-4.fc27.noarch
 gnome-autoar-0.2.2-3.fc27.s390x
 gnome-boxes-3.25.91-1.fc28.s390x
-gnome-color-manager-3.25.90-1.fc27.s390x
 gnome-desktop3-3.25.91.1-1.fc28.s390x
-gnome-icon-theme-3.12.0-7.fc27.noarch
-gnome-icon-theme-legacy-3.12.0-7.fc27.noarch
-gnome-icon-theme-symbolic-3.12.0-6.fc27.noarch
 gnome-keyring-3.20.1-3.fc27.s390x
 gnome-keyring-pam-3.20.1-3.fc27.s390x
-gnome-menus-3.13.3-8.fc27.s390x
 gnome-online-accounts-3.26.0-2.fc28.s390x
 gnome-python2-2.28.1-21.fc27.s390x
 gnome-python2-bonobo-2.28.1-21.fc27.s390x
@@ -873,6 +858,9 @@ gnome-python2-gnome-2.28.1-21.fc27.s390x
 gnome-python2-gnomevfs-2.28.1-21.fc27.s390x
 gnome-session-3.25.90-1.fc27.s390x
 gnome-session-wayland-session-3.25.90-1.fc27.s390x
+gnome-session-xsession-3.25.90-1.fc27.s390x
+gnome-settings-daemon-3.25.91-1.fc28.s390x
+gnome-shell-3.25.91-1.fc28.s390x
 gnome-themes-standard-3.22.3-4.fc27.s390x
 gnome-vfs2-2.24.4-25.fc27.s390x
 gnome-vfs2-common-2.24.4-25.fc27.noarch
@@ -899,7 +887,6 @@ google-crosextra-carlito-fonts-1.103-0.7.20130920.fc27.noarch
 google-guice-4.1-7.fc27.noarch
 google-noto-cjk-fonts-20170602-2.fc27.noarch
 google-noto-fonts-common-20161022-4.fc27.noarch
-google-noto-sans-fonts-20161022-4.fc27.noarch
 google-noto-sans-lisu-fonts-20161022-4.fc27.noarch
 google-noto-sans-mandaic-fonts-20161022-4.fc27.noarch
 google-noto-sans-meetei-mayek-fonts-20161022-4.fc27.noarch
@@ -917,19 +904,20 @@ graphite2-1.3.10-3.fc27.s390x
 graphite2-devel-1.3.10-3.fc27.s390x
 graphviz-2.40.1-12.fc28.s390x
 grep-3.1-3.fc27.s390x
+grilo-0.3.4-1.fc28.s390x
 groff-base-1.22.3-11.fc27.s390x
 groff-perl-1.22.3-11.fc27.s390x
 groovy-lib-2.4.8-3.fc27.noarch
 gsettings-desktop-schemas-3.24.0-3.fc27.s390x
 gsl-2.4-3.fc27.s390x
 gsm-1.0.17-3.fc27.s390x
+gssdp-1.0.2-3.fc27.s390x
 gssproxy-0.7.0-14.fc28.s390x
 gstreamer1-1.12.3-2.fc28.s390x
 gstreamer1-plugins-bad-free-1.12.2-5.fc27.s390x
 gstreamer1-plugins-bad-free-gtk-1.12.2-5.fc27.s390x
 gstreamer1-plugins-base-1.12.3-1.fc28.s390x
 gstreamer1-plugins-good-1.12.3-2.fc28.s390x
-gtk-murrine-engine-0.98.2-13.fc27.s390x
 gtk-update-icon-cache-3.22.24-2.fc28.s390x
 gtk-vnc2-0.7.1-5.fc28.s390x
 gtk2-2.24.31-6.fc27.s390x
@@ -942,9 +930,10 @@ gtkspell3-3.0.9-4.fc27.s390x
 gts-0.7.6-32.20121130.fc27.s390x
 guava-18.0-11.fc27.noarch
 gubbi-fonts-1.1-8.fc27.noarch
-gucharmap-10.0.0-3.fc27.s390x
-gucharmap-libs-10.0.0-3.fc27.s390x
 guile-5:2.0.14-4.fc28.s390x
+gupnp-1.0.2-3.fc27.s390x
+gupnp-av-0.12.10-4.fc27.s390x
+gupnp-dlna-0.10.5-5.fc27.s390x
 gutenprint-5.2.13-3.fc27.s390x
 gutenprint-cups-5.2.13-3.fc27.s390x
 gutenprint-doc-5.2.13-3.fc27.s390x
@@ -963,7 +952,6 @@ harfbuzz-devel-1.5.0-1.fc28.s390x
 harfbuzz-icu-1.5.0-1.fc28.s390x
 haskell-platform-2017.8.0.2-8.fc27.s390x
 hawtjni-runtime-1.15-2.fc27.noarch
-hddtemp-0.3-0.36.beta15.fc26.s390x
 hdf5-1.8.18-10.fc28.s390x
 hdparm-9.51-3.fc27.s390x
 herqq-1.0.0-16.fc27.s390x
@@ -1161,7 +1149,6 @@ imlib2-1.4.9-4.fc27.s390x
 info-6.4-5.fc27.s390x
 initscripts-9.77-1.fc27.s390x
 inkscape-0.92.1-12.20170713bzr15740.fc28.s390x
-inxi-2.3.36-1.fc28.noarch
 iowatcher-1.1.0-6.fc27.s390x
 ipa-gothic-fonts-003.03-11.fc27.noarch
 ipa-mincho-fonts-003.03-11.fc27.noarch
@@ -1367,7 +1354,6 @@ libXt-devel-1.1.5-6.fc27.s390x
 libXtst-1.2.3-4.fc27.s390x
 libXv-1.0.11-4.fc27.s390x
 libXv-devel-1.0.11-4.fc27.s390x
-libXxf86dga-1.1.4-9.fc27.s390x
 libXxf86misc-1.0.3-14.fc27.s390x
 libXxf86vm-1.1.4-6.fc27.s390x
 libXxf86vm-devel-1.1.4-6.fc27.s390x
@@ -1449,7 +1435,6 @@ libdhash-0.4.3-33.fc27.s390x
 libdhash-devel-0.4.3-33.fc27.s390x
 libdmmp-0.7.1-6.git847cc43.fc27.s390x
 libdmmp-devel-0.7.1-6.git847cc43.fc27.s390x
-libdmx-1.1.3-9.fc27.s390x
 libdnf-0.11.1-1.fc28.s390x
 libdnf-devel-0.11.1-1.fc28.s390x
 libdrm-2.4.82-3.fc27.s390x
@@ -1517,6 +1502,7 @@ libgphoto2-2.5.14-3.fc27.s390x
 libgrss-0.7.0-5.fc27.s390x
 libgsf-1.14.41-4.fc27.s390x
 libgta-1.0.7-6.fc27.s390x
+libgtop2-2.37.90-1.fc27.s390x
 libgudev-230-6.fc27.s390x
 libguestfs-1:1.37.21-2.fc28.s390x
 libguestfs-bash-completion-1:1.37.21-2.fc28.noarch
@@ -1594,6 +1580,7 @@ libmalaga-7.12-23.fc27.s390x
 libmbim-1.14.0-4.fc27.s390x
 libmbim-utils-1.14.0-4.fc27.s390x
 libmcpp-2.7.2-19.fc27.s390x
+libmediaart-1.9.4-1.fc27.s390x
 libmetalink-0.1.3-4.fc27.s390x
 libmng-2.0.3-6.fc27.s390x
 libmnl-1.0.4-4.fc27.s390x
@@ -2043,10 +2030,6 @@ mingw32-filesystem-101-3.fc27.noarch
 mingw32-srvany-1.0-19.20150115gitfd659e77.fc27.noarch
 minicom-2.7.1-3.fc27.s390x
 minizip-1.2.11-4.fc27.s390x
-mint-x-icons-1.4.3-2.fc27.noarch
-mint-y-icons-1.0.8-3.fc28.noarch
-mintlocale-1.4.2-6.fc27.noarch
-mintlocale-set-default-locale-1.4.2-6.fc27.noarch
 mlocate-0.26-18.fc27.s390x
 mobile-broadband-provider-info-1.20170105git-3.fc27.noarch
 mod_auth_gssapi-1.5.1-3.fc27.s390x
@@ -2080,10 +2063,10 @@ mozvoikko-2.1-5.fc27.noarch
 mpfr-3.1.5-5.fc27.s390x
 mtdev-1.1.5-9.fc27.s390x
 mtools-4.0.18-13.fc27.s390x
-muffin-3.4.1-1.fc27.s390x
 multilib-rpm-config-1-9.fc27.noarch
 multiverse-0.7.0-7.fc27.noarch
 mutt-5:1.8.3-3.fc27.s390x
+mutter-3.25.91-2.fc28.s390x
 mysql-connector-java-1:5.1.38-5.fc27.noarch
 mythes-1.2.4-8.fc27.s390x
 mythes-en-3.0-19.fc27.noarch
@@ -2114,8 +2097,6 @@ ncurses-libs-6.0-13.20170722.fc27.s390x
 ndctl-57.1-3.fc27.s390x
 ndctl-devel-57.1-3.fc27.s390x
 ndctl-libs-57.1-3.fc27.s390x
-nemo-3.4.7-2.fc27.s390x
-nemo-extensions-3.4.7-2.fc27.s390x
 neon-0.30.2-4.fc27.s390x
 net-snmp-1:5.7.3-27.fc28.s390x
 net-snmp-agent-libs-1:5.7.3-27.fc28.s390x
@@ -2733,6 +2714,7 @@ ptouch-driver-1.3-18.fc27.s390x
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
 pulseaudio-10.99.1-5.fc28.s390x
+pulseaudio-gdm-hooks-10.99.1-5.fc28.s390x
 pulseaudio-libs-10.99.1-5.fc28.s390x
 pulseaudio-libs-devel-10.99.1-5.fc28.s390x
 pulseaudio-libs-glib2-10.99.1-5.fc28.s390x
@@ -2824,7 +2806,6 @@ python2-hivex-1.3.14-8.fc27.s390x
 python2-html5lib-1:0.999999999-4.fc28.noarch
 python2-idna-2.5-2.fc27.noarch
 python2-iniparse-0.4-26.fc28.noarch
-python2-inotify-0.9.6-9.fc27.noarch
 python2-ipaclient-4.5.3-3.fc27.noarch
 python2-ipaddr-2.1.10-8.fc28.noarch
 python2-ipaddress-1.0.18-3.fc28.noarch
@@ -2872,7 +2853,6 @@ python2-openvswitch-2.7.2-3.fc27.noarch
 python2-ordered-set-2.0.2-2.fc28.noarch
 python2-paramiko-2.2.1-2.fc27.noarch
 python2-paste-2.0.3-3.fc27.noarch
-python2-pexpect-4.2.1-2.fc27.noarch
 python2-pillow-4.2.1-5.fc28.s390x
 python2-pip-9.0.1-11.fc27.noarch
 python2-ply-3.9-5.fc28.noarch
@@ -2880,7 +2860,6 @@ python2-polib-1.0.7-7.fc27.noarch
 python2-policycoreutils-2.7-3.fc28.s390x
 python2-powerpc-utils-1.2.1-14.gitf7bdc5c.fc28.noarch
 python2-psutil-5.2.2-1.fc27.s390x
-python2-ptyprocess-0.5.2-2.fc27.noarch
 python2-py-1.4.34-5.fc28.noarch
 python2-pyOpenSSL-17.3.0-2.fc28.noarch
 python2-pyasn1-0.3.4-2.fc28.noarch
@@ -2888,7 +2867,6 @@ python2-pyasn1-modules-0.3.4-2.fc28.noarch
 python2-pycparser-2.14-12.fc28.noarch
 python2-pycurl-7.43.0-9.fc27.s390x
 python2-pynacl-1.1.2-1.fc27.s390x
-python2-pypam-0.5.0-33.fc28.s390x
 python2-pyparsing-2.1.10-4.fc27.noarch
 python2-pyserial-3.1.1-5.fc28.noarch
 python2-pysocks-1.5.7-5.fc27.noarch
@@ -3127,7 +3105,6 @@ python3-urwid-1.3.0-7.fc26.s390x
 python3-webencodings-0.5.1-3.fc27.noarch
 python3-websocket-client-0.40.0-3.fc28.noarch
 python3-wrapt-1.10.10-5.fc28.s390x
-python3-xapp-1.0.1-2.fc27.noarch
 python3-yubico-1.3.2-7.fc28.noarch
 pyxattr-0.5.3-12.fc27.s390x
 qca-2.1.3-6.fc27.s390x
@@ -3429,6 +3406,7 @@ rubygems-devel-2.6.13-84.fc28.noarch
 rubypick-1.1.1-7.fc27.noarch
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.s390x
 rust-srpm-macros-4-3.fc27.noarch
+rygel-0.35.0-1.fc27.s390x
 s390utils-2:2.0.0-1.fc28.s390x
 s390utils-base-2:2.0.0-1.fc28.s390x
 s390utils-cmsfs-2:2.0.0-1.fc28.s390x
@@ -3609,6 +3587,7 @@ supermin-devel-5.1.18-5.fc27.s390x
 svrcore-4.1.3-3.fc27.s390x
 swig-3.0.12-8.fc27.s390x
 swig-doc-3.0.12-8.fc27.noarch
+switcheroo-control-1.1-4.fc27.s390x
 sysfsutils-2.1.0-22.fc27.s390x
 sysstat-11.5.7-4.fc27.s390x
 system-config-printer-1.5.9-7.fc28.s390x
@@ -3646,6 +3625,7 @@ teamd-1.27-4.fc28.s390x
 teckit-2.5.1-18.fc27.s390x
 telepathy-filesystem-0.0.2-11.fc27.noarch
 telepathy-glib-0.24.1-7.fc27.s390x
+telepathy-logger-0.8.2-6.fc27.s390x
 telnet-1:0.17-71.fc27.s390x
 tex-fonts-hebrew-0.1-26.fc27.noarch
 texinfo-6.4-5.fc27.s390x
@@ -3857,7 +3837,6 @@ tigervnc-server-applet-1.8.0-4.fc27.noarch
 tigervnc-server-minimal-1.8.0-4.fc27.s390x
 time-1.7-54.fc27.s390x
 timedatex-0.4-5.fc27.s390x
-tint2-0.14.4-3.fc27.s390x
 tix-1:8.4.3-20.fc27.s390x
 tk-1:8.6.7-2.fc28.s390x
 tmux-2.5-4.fc27.s390x
@@ -3942,6 +3921,7 @@ vim-enhanced-2:8.0.983-1.fc28.s390x
 vim-filesystem-2:8.0.983-1.fc28.s390x
 vim-minimal-2:8.0.983-1.fc28.s390x
 vinagre-3.22.0-6.fc27.s390x
+vino-3.22.0-4.fc27.s390x
 virglrenderer-0.6.0-3.20170210git76b3da97b.fc27.s390x
 virt-dib-1:1.37.21-2.fc28.s390x
 virt-install-1.4.2-1.fc27.noarch
@@ -3975,7 +3955,6 @@ words-3.0-27.fc27.noarch
 wpa_supplicant-1:2.6-10.fc27.s390x
 xalan-j2-2.7.1-33.fc28.noarch
 xapian-core-libs-1.4.4-3.fc27.s390x
-xapps-1.0.3-3.fc27.s390x
 xbean-4.5-8.fc27.noarch
 xcb-util-0.4.0-8.fc27.s390x
 xcb-util-image-0.4.0-8.fc27.s390x
@@ -4008,7 +3987,6 @@ xorg-x11-server-Xvfb-1.19.3-9.fc28.s390x
 xorg-x11-server-Xwayland-1.19.3-9.fc28.s390x
 xorg-x11-server-common-1.19.3-9.fc28.s390x
 xorg-x11-server-utils-7.7-23.fc27.s390x
-xorg-x11-utils-7.5-25.fc27.s390x
 xorg-x11-xauth-1:1.0.9-9.fc27.s390x
 xorg-x11-xbitmaps-1.1.1-11.fc27.noarch
 xorg-x11-xinit-1.3.4-16.fc28.s390x

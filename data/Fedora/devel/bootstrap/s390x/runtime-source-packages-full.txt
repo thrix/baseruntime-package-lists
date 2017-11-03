@@ -10,7 +10,6 @@ NetworkManager-1:1.8.2-3.fc27.2.src
 NetworkManager-libreswan-1.2.4-4.fc27.src
 ORBit2-2.14.19-18.fc27.src
 OpenEXR-2.2.0-10.fc27.src
-PyPAM-0.5.0-33.fc28.src
 PyYAML-3.12-8.fc28.src
 SDL-1.2.15-28.fc27.src
 SDL2-2.0.5-6.fc27.src
@@ -62,8 +61,6 @@ apache-commons-pool-1.6-15.fc27.src
 apache-ivy-2.4.0-9.fc27.src
 apr-1.6.2-3.fc27.src
 apr-util-1.6.0-1.fc28.src
-arc-theme-20170302-5.fc27.src
-argyllcms-1.9.2-4.fc27.src
 armadillo-7.900.1-3.fc27.src
 arpack-3.5.0-4.fc27.src
 arpwatch-14:2.1a15-40.fc27.src
@@ -139,19 +136,11 @@ cfitsio-3.370-9.fc27.src
 cgdcbxd-1.0.2-6.fc27.src
 checkpolicy-2.7-1.fc27.src
 checksec-1.7.4-5.fc28.src
+cheese-2:3.25.90-1.fc27.src
 chkconfig-1.10-3.fc27.src
 chrony-3.2-0.3.pre1.fc27.src
 chrpath-0.16-6.fc27.src
 cifs-utils-6.7-3.fc27.src
-cinnamon-3.4.6-3.fc27.src
-cinnamon-control-center-3.4.0-7.fc27.src
-cinnamon-desktop-3.4.2-3.fc27.src
-cinnamon-menus-3.4.0-3.fc27.src
-cinnamon-screensaver-3.4.2-1.fc27.src
-cinnamon-session-3.4.2-1.fc27.src
-cinnamon-settings-daemon-3.4.4-1.fc27.src
-cinnamon-translations-3.4.2-2.fc27.src
-cjs-1:3.4.4-1.fc27.src
 classmate-1.3.1-3.fc27.src
 cldr-emoji-annotation-31.0.1_1-2.fc27.src
 clevis-6-3.fc27.src
@@ -160,6 +149,8 @@ cloud-utils-0.27-18.fc27.src
 clucene-2.3.3.4-29.20130812.e8e3d20git.fc27.src
 clufter-0.76.0-3.fc27.src
 clutter-1.26.2-1.fc27.src
+clutter-gst3-3.0.24-3.fc27.src
+clutter-gtk-1.8.4-1.fc27.src
 cmake-3.9.1-2.fc28.src
 cockpit-149-1.fc28.src
 cogl-1.22.2-3.fc26.src
@@ -208,7 +199,6 @@ dcraw-9.27.0-5.fc27.src
 debootstrap-1.0.90-1.fc27.src
 dejavu-fonts-2.35-5.fc27.src
 deltarpm-3.6-24.fc27.src
-desktop-backgrounds-26.0.0-2.fc27.src
 desktop-file-utils-0.23-5.fc27.src
 device-mapper-multipath-0.7.1-6.git847cc43.fc27.src
 device-mapper-persistent-data-0.7.0-0.6.rc6.fc27.src
@@ -255,10 +245,8 @@ evolution-data-server-3.25.91-2.fc28.src
 evolution-ews-3.25.91-2.fc28.src
 evolution-mapi-3.25.91-2.fc28.src
 exempi-2.4.2-7.fc27.src
-exiv2-0.26-6.fc27.src
 expat-2.2.4-1.fc28.src
 extra166y-1.7.0-8.fc27.src
-f26-backgrounds-26.2.7-2.fc27.src
 fabtests-1.4.1-3.fc27.src
 fakeroot-1.21-5.fc27.src
 fastutil-7.0.7-4.fc27.src
@@ -290,7 +278,6 @@ fontconfig-2.12.4-4.fc27.src
 fontpackages-1.44-19.fc27.src
 foomatic-4.0.12-17.fc27.src
 foomatic-db-4.0-54.20170503.fc27.src
-fpaste-0.3.9.0-1.fc28.src
 fpc-srpm-macros-1.1-3.fc27.src
 freeipa-4.5.3-3.fc27.src
 freeradius-3.0.15-5.fc28.src
@@ -315,6 +302,7 @@ gdb-8.0.1-27.fc28.src
 gdbm-1.13-3.fc27.src
 gdisk-1.0.3-4.fc27.src
 gdk-pixbuf2-2.36.9-1.fc28.src
+gdm-1:3.25.90.1-1.fc27.src
 gegl-0.2.0-34.fc27.src
 genwqe-tools-4.0.18-4.fc27.src
 geoclue2-2.4.5-6.fc27.src
@@ -356,6 +344,7 @@ ghostscript-fonts-5.50-37.fc27.src
 giflib-4.1.6-19.fc27.src
 gimp-2:2.8.22-2.fc27.2.src
 git-2.14.1-2.fc27.src
+gjs-1.49.3-3.fc27.src
 gl-manpages-1.1-14.20161227.fc27.src
 glade-3.20.1-1.fc28.src
 glassfish-el-3.0.1-0.5.b08.fc27.src
@@ -374,15 +363,13 @@ gmp-1:6.1.2-6.fc27.src
 gnat-srpm-macros-4-4.fc27.src
 gnome-autoar-0.2.2-3.fc27.src
 gnome-boxes-3.25.91-1.fc28.src
-gnome-color-manager-3.25.90-1.fc27.src
 gnome-desktop3-3.25.91.1-1.fc28.src
-gnome-icon-theme-3.12.0-7.fc27.src
-gnome-icon-theme-symbolic-3.12.0-6.fc27.src
 gnome-keyring-3.20.1-3.fc27.src
-gnome-menus-3.13.3-8.fc27.src
 gnome-online-accounts-3.26.0-2.fc28.src
 gnome-python2-2.28.1-21.fc27.src
 gnome-session-3.25.90-1.fc27.src
+gnome-settings-daemon-3.25.91-1.fc28.src
+gnome-shell-3.25.91-1.fc28.src
 gnome-themes-standard-3.22.3-4.fc27.src
 gnome-vfs2-2.24.4-25.fc27.src
 gnu-free-fonts-20120503-15.fc27.src
@@ -405,17 +392,18 @@ gpm-1.20.7-13.fc28.src
 graphite2-1.3.10-3.fc27.src
 graphviz-2.40.1-12.fc28.src
 grep-3.1-3.fc27.src
+grilo-0.3.4-1.fc28.src
 groff-1.22.3-11.fc27.src
 groovy-2.4.8-3.fc27.src
 gsettings-desktop-schemas-3.24.0-3.fc27.src
 gsl-2.4-3.fc27.src
 gsm-1.0.17-3.fc27.src
+gssdp-1.0.2-3.fc27.src
 gssproxy-0.7.0-14.fc28.src
 gstreamer1-1.12.3-2.fc28.src
 gstreamer1-plugins-bad-free-1.12.2-5.fc27.src
 gstreamer1-plugins-base-1.12.3-1.fc28.src
 gstreamer1-plugins-good-1.12.3-2.fc28.src
-gtk-murrine-engine-0.98.2-13.fc27.src
 gtk-vnc-0.7.1-5.fc28.src
 gtk2-2.24.31-6.fc27.src
 gtk3-3.22.24-2.fc28.src
@@ -424,8 +412,10 @@ gtkspell3-3.0.9-4.fc27.src
 gts-0.7.6-32.20121130.fc27.src
 guava-18.0-11.fc27.src
 gubbi-fonts-1.1-8.fc27.src
-gucharmap-10.0.0-3.fc27.src
 guile-5:2.0.14-4.fc28.src
+gupnp-1.0.2-3.fc27.src
+gupnp-av-0.12.10-4.fc27.src
+gupnp-dlna-0.10.5-5.fc27.src
 gutenprint-5.2.13-3.fc27.src
 gv-3.7.4-14.fc27.src
 gvfs-1.33.90-1.fc27.src
@@ -437,7 +427,6 @@ haproxy-1.7.8-3.fc27.src
 harfbuzz-1.5.0-1.fc28.src
 haskell-platform-2017.8.0.2-8.fc27.src
 hawtjni-1.15-2.fc27.src
-hddtemp-0.3-0.36.beta15.fc26.src
 hdf5-1.8.18-10.fc28.src
 hdparm-9.51-3.fc27.src
 herqq-1.0.0-16.fc27.src
@@ -604,7 +593,6 @@ ima-evm-utils-1.0-1.fc28.src
 imlib2-1.4.9-4.fc27.src
 initscripts-9.77-1.fc27.src
 inkscape-0.92.1-12.20170713bzr15740.fc28.src
-inxi-2.3.36-1.fc28.src
 ipa-gothic-fonts-003.03-11.fc27.src
 ipa-mincho-fonts-003.03-11.fc27.src
 ipa-pgothic-fonts-003.03-10.fc27.src
@@ -723,7 +711,6 @@ libXres-1.0.7-9.fc27.src
 libXt-1.1.5-6.fc27.src
 libXtst-1.2.3-4.fc27.src
 libXv-1.0.11-4.fc27.src
-libXxf86dga-1.1.4-9.fc27.src
 libXxf86misc-1.0.3-14.fc27.src
 libXxf86vm-1.1.4-6.fc27.src
 libabw-0.1.1-16.fc27.src
@@ -764,7 +751,6 @@ libdatrie-0.2.9-6.fc27.src
 libdb-5.3.28-26.fc27.src
 libdbi-0.9.0-9.fc27.src
 libdbi-drivers-0.9.0-8.fc27.src
-libdmx-1.1.3-9.fc27.src
 libdnf-0.11.1-1.fc28.src
 libdrm-2.4.82-3.fc27.src
 libdvdnav-5.0.3-7.fc27.src
@@ -809,6 +795,7 @@ libgphoto2-2.5.14-3.fc27.src
 libgrss-0.7.0-5.fc27.src
 libgsf-1.14.41-4.fc27.src
 libgta-1.0.7-6.fc27.src
+libgtop2-2.37.90-1.fc27.src
 libgudev-230-6.fc27.src
 libguestfs-1:1.37.21-2.fc28.src
 libgusb-0.2.11-3.fc27.src
@@ -842,6 +829,7 @@ liblogging-1.0.6-3.fc27.src
 liblognorm-2.0.3-3.fc27.src
 liblouis-2.6.2-9.fc26.src
 libmbim-1.14.0-4.fc27.src
+libmediaart-1.9.4-1.fc27.src
 libmetalink-0.1.3-4.fc27.src
 libmng-2.0.3-6.fc27.src
 libmnl-1.0.4-4.fc27.src
@@ -1055,9 +1043,6 @@ mingw-crt-5.0.2-2.fc27.src
 mingw-filesystem-101-3.fc27.src
 mingw-srvany-1.0-19.20150115gitfd659e77.fc27.src
 minicom-2.7.1-3.fc27.src
-mint-x-icons-1.4.3-2.fc27.src
-mint-y-icons-1.0.8-3.fc28.src
-mintlocale-1.4.2-6.fc27.src
 mlocate-0.26-18.fc27.src
 mobile-broadband-provider-info-1.20170105git-3.fc27.src
 mod_auth_gssapi-1.5.1-3.fc27.src
@@ -1083,10 +1068,10 @@ mozvoikko-2.1-5.fc27.src
 mpfr-3.1.5-5.fc27.src
 mtdev-1.1.5-9.fc27.src
 mtools-4.0.18-13.fc27.src
-muffin-3.4.1-1.fc27.src
 multilib-rpm-config-1-9.fc27.src
 multiverse-0.7.0-7.fc27.src
 mutt-5:1.8.3-3.fc27.src
+mutter-3.25.91-2.fc28.src
 mysql-connector-java-1:5.1.38-5.fc27.src
 mythes-1.2.4-8.fc27.src
 mythes-en-3.0-19.fc27.src
@@ -1099,7 +1084,6 @@ naver-nanum-fonts-3.020-18.20140930.fc27.src
 navilu-fonts-1.2-9.fc27.src
 ncurses-6.0-13.20170722.fc27.src
 ndctl-57.1-3.fc27.src
-nemo-3.4.7-2.fc27.src
 neon-0.30.2-4.fc27.src
 net-snmp-1:5.7.3-27.fc28.src
 net-tools-2.0-0.44.20160912git.fc27.src
@@ -1575,7 +1559,6 @@ python-gssapi-1.2.0-8.fc28.src
 python-html5lib-1:0.999999999-4.fc28.src
 python-idna-2.5-2.fc27.src
 python-iniparse-0.4-26.fc28.src
-python-inotify-0.9.6-9.fc27.src
 python-ipaddr-2.1.10-8.fc28.src
 python-ipaddress-1.0.18-3.fc28.src
 python-jinja2-2.9.6-4.fc28.src
@@ -1656,7 +1639,6 @@ python-urwid-1.3.0-7.fc26.src
 python-webencodings-0.5.1-3.fc27.src
 python-websocket-client-0.40.0-3.fc28.src
 python-wrapt-1.10.10-5.fc28.src
-python-xapp-1.0.1-2.fc27.src
 python-xpyb-1.3.1-10.fc28.src
 python-yubico-1.3.2-7.fc28.src
 python-zope-event-4.2.0-7.fc28.src
@@ -1757,6 +1739,7 @@ rubygem-rack-test-0.6.3-6.fc27.src
 rubypick-1.1.1-7.fc27.src
 runc-2:1.0.0-10.rc4.gitaea4f21.fc28.src
 rust-srpm-macros-4-3.fc27.src
+rygel-0.35.0-1.fc27.src
 s390utils-2:2.0.0-1.fc28.src
 saab-fonts-0.91-15.fc27.src
 sac-1.3-26.fc27.src
@@ -1839,6 +1822,7 @@ suitesparse-4.4.6-10.fc27.src
 supermin-5.1.18-5.fc27.src
 svrcore-4.1.3-3.fc27.src
 swig-3.0.12-8.fc27.src
+switcheroo-control-1.1-4.fc27.src
 sysfsutils-2.1.0-22.fc27.src
 sysstat-11.5.7-4.fc27.src
 system-config-printer-1.5.9-7.fc28.src
@@ -1860,6 +1844,7 @@ tcsh-6.20.00-7.fc27.src
 teckit-2.5.1-18.fc27.src
 telepathy-filesystem-0.0.2-11.fc27.src
 telepathy-glib-0.24.1-7.fc27.src
+telepathy-logger-0.8.2-6.fc27.src
 telnet-1:0.17-71.fc27.src
 tex-fonts-hebrew-0.1-26.fc27.src
 texinfo-6.4-5.fc27.src
@@ -1871,7 +1856,6 @@ tidy-5.4.0-3.fc27.src
 tigervnc-1.8.0-4.fc27.src
 time-1.7-54.fc27.src
 timedatex-0.4-5.fc27.src
-tint2-0.14.4-3.fc27.src
 tix-1:8.4.3-20.fc27.src
 tk-1:8.6.7-2.fc28.src
 tmux-2.5-4.fc27.src
@@ -1919,6 +1903,7 @@ varnish-modules-0.12.1-4.fc27.src
 velocity-1.7-21.fc27.src
 vim-2:8.0.983-1.fc28.src
 vinagre-3.22.0-6.fc27.src
+vino-3.22.0-4.fc27.src
 virglrenderer-0.6.0-3.20170210git76b3da97b.fc27.src
 virt-manager-1.4.2-1.fc27.src
 virt-top-1.0.8-27.fc27.src
@@ -1940,7 +1925,6 @@ words-3.0-27.fc27.src
 wpa_supplicant-1:2.6-10.fc27.src
 xalan-j2-2.7.1-33.fc28.src
 xapian-core-1.4.4-3.fc27.src
-xapps-1.0.3-3.fc27.src
 xbean-4.5-8.fc27.src
 xcb-util-0.4.0-8.fc27.src
 xcb-util-image-0.4.0-8.fc27.src
@@ -1964,7 +1948,6 @@ xorg-x11-fonts-7.5-18.fc27.src
 xorg-x11-proto-devel-7.7-23.fc27.src
 xorg-x11-server-1.19.3-9.fc28.src
 xorg-x11-server-utils-7.7-23.fc27.src
-xorg-x11-utils-7.5-25.fc27.src
 xorg-x11-xauth-1:1.0.9-9.fc27.src
 xorg-x11-xbitmaps-1.1.1-11.fc27.src
 xorg-x11-xinit-1.3.4-16.fc28.src
