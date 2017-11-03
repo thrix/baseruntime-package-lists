@@ -4,6 +4,8 @@ bcc
 binutils
 boost
 ceph
+cinnamon
+cinnamon-settings-daemon
 cockpit
 community-mysql
 corosync
@@ -30,6 +32,7 @@ haskell-platform
 hexchat
 hwloc
 ipxe
+irqbalance
 jack-audio-connection-kit
 kernel
 kyua-testers
