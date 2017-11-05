@@ -31,6 +31,8 @@ NetworkManager-wifi
 NetworkManager-wwan
 ORBit2
 OpenEXR-libs
+PackageKit
+PackageKit-glib
 SDL
 SDL-devel
 SDL2
@@ -343,6 +345,7 @@ compat-lua-libs
 compat-openssl10
 compat-readline6
 compress-lzf
+comps-extras
 concurrentlinkedhashmap-lru
 conntrack-tools
 container-selinux
@@ -1369,6 +1372,7 @@ libaesgm
 libaio
 libaio-devel
 libao
+libappstream-glib
 libarchive
 libart_lgpl
 libasan
@@ -1478,6 +1482,7 @@ libfontenc
 libfonts
 libformula
 libfreehand
+libgcab1
 libgcc
 libgcrypt
 libgcrypt-devel

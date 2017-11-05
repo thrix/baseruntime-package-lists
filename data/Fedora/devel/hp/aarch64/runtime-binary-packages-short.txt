@@ -1,3 +1,5 @@
+PackageKit
+PackageKit-glib
 acl
 alsa-lib
 audit
@@ -28,6 +30,7 @@ cockpit-bridge
 cockpit-system
 cockpit-ws
 compat-openssl10
+comps-extras
 coreutils
 coreutils-common
 cpio
@@ -107,6 +110,7 @@ gcc-c++
 gdb-headless
 gdbm
 gdisk
+gdk-pixbuf2
 gettext
 gettext-libs
 ghc-srpm-macros
@@ -184,6 +188,7 @@ krb5-workstation
 less
 libacl
 libaio
+libappstream-glib
 libarchive
 libasan
 libassuan
@@ -214,6 +219,7 @@ libev
 libevent
 libfdisk
 libffi
+libgcab1
 libgcc
 libgcrypt
 libgomp
@@ -256,11 +262,13 @@ libsepol
 libsigsegv
 libsmartcols
 libsolv
+libsoup
 libss
 libssh
 libssh2
 libstdc++
 libstdc++-devel
+libstemmer
 libtalloc
 libtasn1
 libtevent

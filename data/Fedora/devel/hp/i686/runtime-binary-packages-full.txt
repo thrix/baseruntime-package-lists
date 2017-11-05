@@ -1,3 +1,5 @@
+PackageKit-1.1.6-7.fc27.i686
+PackageKit-glib-1.1.6-7.fc27.i686
 acl-2.2.52-18.fc27.i686
 alsa-lib-1.1.4.1-3.fc27.i686
 audit-2.7.7-5.fc27.i686
@@ -28,6 +30,7 @@ cockpit-bridge-149-1.fc28.i686
 cockpit-system-149-1.fc28.noarch
 cockpit-ws-149-1.fc28.i686
 compat-openssl10-1:1.0.2j-9.fc28.i686
+comps-extras-24-2.fc27.noarch
 coreutils-8.28-1.fc28.i686
 coreutils-common-8.28-1.fc28.i686
 cpio-2.12-6.fc27.i686
@@ -106,6 +109,7 @@ gcc-c++-7.2.1-2.fc27.i686
 gdb-headless-8.0.1-27.fc28.i686
 gdbm-1.13-3.fc27.i686
 gdisk-1.0.3-4.fc27.i686
+gdk-pixbuf2-2.36.9-1.fc28.i686
 gettext-0.19.8.1-11.fc27.i686
 gettext-libs-0.19.8.1-11.fc27.i686
 ghc-srpm-macros-1.4.2-6.fc27.noarch
@@ -185,6 +189,7 @@ krb5-workstation-1.15.2-3.fc27.i686
 less-487-5.fc27.i686
 libacl-2.2.52-18.fc27.i686
 libaio-0.3.110-9.fc27.i686
+libappstream-glib-0.7.2-1.fc28.i686
 libarchive-3.3.1-3.fc27.i686
 libasan-7.2.1-2.fc27.i686
 libassuan-2.4.3-6.fc27.i686
@@ -216,6 +221,7 @@ libev-4.24-4.fc27.i686
 libevent-2.0.22-6.fc27.i686
 libfdisk-2.30.2-1.fc28.i686
 libffi-3.1-14.fc27.i686
+libgcab1-0.7-4.fc27.i686
 libgcc-7.2.1-2.fc27.i686
 libgcrypt-1.8.1-1.fc28.i686
 libgomp-7.2.1-2.fc27.i686
@@ -260,11 +266,13 @@ libsepol-2.7-1.fc27.i686
 libsigsegv-2.11-3.fc27.i686
 libsmartcols-2.30.2-1.fc28.i686
 libsolv-0.6.28-8.fc27.i686
+libsoup-2.59.90.1-2.fc27.i686
 libss-1.43.6-1.fc28.i686
 libssh-0.7.5-3.fc27.i686
 libssh2-1.8.0-4.fc27.i686
 libstdc++-7.2.1-2.fc27.i686
 libstdc++-devel-7.2.1-2.fc27.i686
+libstemmer-0-7.585svn.fc27.i686
 libtalloc-2.1.10-4.fc27.i686
 libtasn1-4.12-3.fc27.i686
 libtevent-0.9.33-3.fc27.i686

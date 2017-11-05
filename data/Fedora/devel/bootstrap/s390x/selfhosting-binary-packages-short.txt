@@ -55,6 +55,7 @@ ORBit2-devel
 OpenEXR-devel
 OpenEXR-libs
 PEGTL-devel
+PackageKit
 PackageKit-glib
 PackageKit-glib-devel
 PyQt4
@@ -749,6 +750,7 @@ compface-devel
 compile-command-annotations
 compiler-rt
 compress-lzf
+comps-extras
 concurrent-trees
 concurrentlinkedhashmap-lru
 conntrack-tools
@@ -1152,6 +1154,7 @@ fasterxml-oss-parent
 fastutil
 fcode-utils
 fcoe-utils
+fdupes
 fedora-bookmarks
 fedora-gpg-keys
 fedora-logos

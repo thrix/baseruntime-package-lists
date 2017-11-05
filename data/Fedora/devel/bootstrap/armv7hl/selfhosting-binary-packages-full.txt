@@ -57,6 +57,7 @@ ORBit2-devel-2.14.19-18.fc27.armv7hl
 OpenEXR-devel-2.2.0-10.fc27.armv7hl
 OpenEXR-libs-2.2.0-10.fc27.armv7hl
 PEGTL-devel-1.3.1-4.fc27.armv7hl
+PackageKit-1.1.6-7.fc27.armv7hl
 PackageKit-glib-1.1.6-7.fc27.armv7hl
 PackageKit-glib-devel-1.1.6-7.fc27.armv7hl
 PyQt4-4.12.1-5.fc28.armv7hl
@@ -748,6 +749,7 @@ compface-devel-1.5.2-24.fc27.armv7hl
 compile-command-annotations-1.2.1-2.fc27.noarch
 compiler-rt-4.0.1-4.fc27.armv7hl
 compress-lzf-1.0.3-7.fc27.noarch
+comps-extras-24-2.fc27.noarch
 concurrent-trees-2.6.0-3.fc27.noarch
 concurrentlinkedhashmap-lru-1.4.2-5.fc27.noarch
 conntrack-tools-1.4.4-5.fc27.armv7hl
@@ -1161,6 +1163,7 @@ fastutil-7.0.7-4.fc27.noarch
 fbset-2.1-43.fc27.armv7hl
 fcode-utils-1.0.2-17.svn1354.fc27.armv7hl
 fcoe-utils-1.0.32-3.fc27.armv7hl
+fdupes-1:1.6.1-3.fc27.armv7hl
 fedora-bookmarks-25-3.fc27.noarch
 fedora-gpg-keys-28-0.3.noarch
 fedora-logos-26.0.1-3.fc27.armv7hl

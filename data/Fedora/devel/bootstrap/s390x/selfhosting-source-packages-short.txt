@@ -310,6 +310,7 @@ compface
 compile-command-annotations
 compiler-rt
 compress-lzf
+comps-extras
 concurrent-trees
 concurrentlinkedhashmap-lru
 conntrack-tools
@@ -496,6 +497,7 @@ fasterxml-oss-parent
 fastutil
 fcode-utils
 fcoe-utils
+fdupes
 fedora-bookmarks
 fedora-logos
 fedora-release

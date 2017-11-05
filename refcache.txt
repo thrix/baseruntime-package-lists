@@ -574,6 +574,7 @@ compile-command-annotations-1.2.1-2.fc27:025586ce071a03cb6b8a15688f3e249e2d18fb2
 compiler-rt-4.0.1-2.fc27:5bea6a3c6c80526cd869e11b27debb31097cab2b
 compiler-rt-4.0.1-4.fc27:b2af4444e38739fb47db8dc16be2f21cbf85f178
 compress-lzf-1.0.3-7.fc27:3bda84b39696665b04c677dc7f00024566f1e17a
+comps-extras-24-2.fc27:2781747e75dd7dac0751e5fa21f80d34c0babcdf
 concurrent-trees-2.6.0-3.fc27:86bea4ae3217451033df37019623199820d48d59
 concurrentlinkedhashmap-lru-1.4.2-5.fc27:9c1ded3f0ebf0299007287e80d89cab5cf478847
 conntrack-tools-1.4.4-5.fc27:72873f115f77ed50bb837b3430e5f4b561674477

@@ -10,6 +10,7 @@ NetworkManager
 NetworkManager-libreswan
 ORBit2
 OpenEXR
+PackageKit
 PyYAML
 SDL
 SDL2
@@ -164,6 +165,7 @@ compat-lua
 compat-openssl10
 compat-readline6
 compress-lzf
+comps-extras
 concurrentlinkedhashmap-lru
 conntrack-tools
 container-selinux
@@ -305,6 +307,7 @@ galera
 gamin
 gawk
 gc
+gcab
 gcc
 gcr
 gd
@@ -736,6 +739,7 @@ libaec
 libaesgm
 libaio
 libao
+libappstream-glib
 libarchive
 libart_lgpl
 libassuan

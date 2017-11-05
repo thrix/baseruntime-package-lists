@@ -1,3 +1,4 @@
+PackageKit
 PyYAML
 acl
 alsa-lib
@@ -25,6 +26,7 @@ chrpath
 cmake
 cockpit
 compat-openssl10
+comps-extras
 coreutils
 cpio
 cracklib
@@ -73,10 +75,12 @@ freetype
 fuse
 gawk
 gc
+gcab
 gcc
 gdb
 gdbm
 gdisk
+gdk-pixbuf2
 gettext
 ghc-srpm-macros
 glib-networking
@@ -127,6 +131,7 @@ kmod
 krb5
 less
 libaio
+libappstream-glib
 libarchive
 libassuan
 libatomic_ops
@@ -175,8 +180,10 @@ libsemanage
 libsepol
 libsigsegv
 libsolv
+libsoup
 libssh
 libssh2
+libstemmer
 libtalloc
 libtasn1
 libtevent

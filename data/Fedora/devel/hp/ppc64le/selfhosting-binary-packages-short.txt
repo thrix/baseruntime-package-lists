@@ -40,6 +40,7 @@ ORBit2
 ORBit2-devel
 OpenEXR-devel
 OpenEXR-libs
+PackageKit
 PackageKit-glib
 PackageKit-glib-devel
 PyQt4
@@ -532,6 +533,7 @@ compface
 compface-devel
 compiler-rt
 compress-lzf
+comps-extras
 console-setup
 cookcc
 cookxml
@@ -827,6 +829,7 @@ fasterxml-oss-parent
 fastutil
 fbset
 fcoe-utils
+fdupes
 fedora-gpg-keys
 fedora-logos
 fedora-logos-httpd

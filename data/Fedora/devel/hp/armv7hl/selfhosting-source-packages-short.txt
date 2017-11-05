@@ -241,6 +241,7 @@ compat-openssl10-pkcs11-helper
 compface
 compiler-rt
 compress-lzf
+comps-extras
 console-setup
 cookcc
 cookxml
@@ -392,6 +393,7 @@ fasterxml-oss-parent
 fastutil
 fbset
 fcoe-utils
+fdupes
 fedora-logos
 fedora-release
 fedora-repos
