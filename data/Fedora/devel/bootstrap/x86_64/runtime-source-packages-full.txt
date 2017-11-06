@@ -1823,8 +1823,8 @@ shadow-utils-2:4.5-4.fc27.src
 shapelib-1.4.0-5.fc27.src
 shared-mime-info-1.8-5.fc27.src
 sheepdog-1.0.1-5.fc27.src
-shim-signed-13-0.5.src
-shim-unsigned-x64-13-1.fc27.src
+shim-signed-13-0.7.src
+shim-unsigned-x64-13-3.fc27.src
 sigar-1.6.5-0.20.git58097d9.fc27.src
 sil-abyssinica-fonts-1.200-12.fc27.src
 sil-mingzat-fonts-0.100-7.fc27.src

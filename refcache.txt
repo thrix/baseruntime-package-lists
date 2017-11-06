@@ -7034,9 +7034,12 @@ shiboken-1.2.4-6.fc27:f4168da7439850f492bb22c85ed64b857f24a840
 shim-0.8-1.fc22:72c0daf8e4db63bd5b8125167e23164e515198c4
 shim-signed-0.8-10:private-psabata-base-runtime-f26
 shim-signed-13-0.5:db207c6fdcdc01b40859a05922654210069fa40e
+shim-signed-13-0.7:0154c48a8f2bb60104a359a9ef08f8e5b0ba8c68
 shim-unsigned-aarch64-0.9-1.fc24:ae09b5fe2bac419ce2b49bded0487d133bd53919
 shim-unsigned-aarch64-13-1.fc27:49c7a0a889439b6506e8ebf116c362e2e78e2a27
+shim-unsigned-aarch64-13-3.fc27:78b0cc76f0fc03024efc9156bdcab65149771135
 shim-unsigned-x64-13-1.fc27:7683e147ff167c1f9e0a03a8a52cfce14a08e61b
+shim-unsigned-x64-13-3.fc27:50ea1350034e7d07d653cc9d14ed31c28410357c
 shrinkwrap-1.2.3-3.fc26:fc2acb7eed2b304059c2dc105c977167f6f6ce37
 shrinkwrap-1.2.3-4.fc27:d2e6c83d6762f80a63088e419acd7eb728d8a512
 shrinkwrap-descriptors-2.0.0-0.18.alpha9.fc26:15e341874c621dbc7ea5f92d62084ce51de7288e

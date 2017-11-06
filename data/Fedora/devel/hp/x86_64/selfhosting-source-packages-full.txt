@@ -2965,8 +2965,8 @@ sheepdog-1.0.1-5.fc27.src
 shibboleth-java-parent-v3-8-4.fc27.src
 shibboleth-java-support-7.1.1-5.fc27.src
 shim-0.8-1.fc22.src
-shim-signed-13-0.5.src
-shim-unsigned-x64-13-1.fc27.src
+shim-signed-13-0.7.src
+shim-unsigned-x64-13-3.fc27.src
 shrinkwrap-1.2.3-4.fc27.src
 shrinkwrap-descriptors-2.0.0-0.19.alpha9.fc27.src
 shrinkwrap-resolver-2.2.2-4.fc27.src

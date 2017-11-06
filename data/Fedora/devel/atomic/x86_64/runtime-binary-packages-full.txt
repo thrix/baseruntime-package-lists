@@ -380,8 +380,8 @@ selinux-policy-targeted-3.13.1-275.fc28.noarch
 setools-console-4.1.1-4.fc28.x86_64
 setup-2.10.10-1.fc28.noarch
 shadow-utils-2:4.5-4.fc27.x86_64
-shim-ia32-13-0.5.x86_64
-shim-x64-13-0.5.x86_64
+shim-ia32-13-0.7.x86_64
+shim-x64-13-0.7.x86_64
 skopeo-0.1.23-6.git1bbd87f.fc28.x86_64
 skopeo-containers-0.1.23-6.git1bbd87f.fc28.x86_64
 sos-3.4-2.fc27.noarch

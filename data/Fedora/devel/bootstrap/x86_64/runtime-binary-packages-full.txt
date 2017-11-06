@@ -3611,10 +3611,10 @@ shadow-utils-2:4.5-4.fc27.x86_64
 shapelib-1.4.0-5.fc27.x86_64
 shared-mime-info-1.8-5.fc27.x86_64
 sheepdog-1.0.1-5.fc27.x86_64
-shim-ia32-13-0.5.x86_64
-shim-unsigned-ia32-13-1.fc27.x86_64
-shim-unsigned-x64-13-1.fc27.x86_64
-shim-x64-13-0.5.x86_64
+shim-ia32-13-0.7.x86_64
+shim-unsigned-ia32-13-3.fc27.x86_64
+shim-unsigned-x64-13-3.fc27.x86_64
+shim-x64-13-0.7.x86_64
 sigar-1.6.5-0.20.git58097d9.fc27.x86_64
 sigar-java-1.6.5-0.20.git58097d9.fc27.x86_64
 sil-abyssinica-fonts-1.200-12.fc27.noarch

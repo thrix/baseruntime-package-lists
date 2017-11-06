@@ -407,8 +407,8 @@ sgml-common-0.6.3-47.fc28.noarch
 sgpio-1.2.0.10-19.fc27.aarch64
 shadow-utils-2:4.5-4.fc27.aarch64
 shared-mime-info-1.8-5.fc27.aarch64
-shim-aa64-13-0.5.aarch64
-shim-unsigned-aarch64-13-1.fc27.aarch64
+shim-aa64-13-0.7.aarch64
+shim-unsigned-aarch64-13-3.fc27.aarch64
 snappy-1.1.7-1.fc28.aarch64
 sqlite-libs-3.20.1-1.fc28.aarch64
 sudo-1.8.20p2-3.fc27.aarch64

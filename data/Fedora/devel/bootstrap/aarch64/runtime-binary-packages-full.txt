@@ -3538,8 +3538,8 @@ shadow-utils-2:4.5-4.fc27.aarch64
 shapelib-1.4.0-5.fc27.aarch64
 shared-mime-info-1.8-5.fc27.aarch64
 sheepdog-1.0.1-5.fc27.aarch64
-shim-aa64-13-0.5.aarch64
-shim-unsigned-aarch64-13-1.fc27.aarch64
+shim-aa64-13-0.7.aarch64
+shim-unsigned-aarch64-13-3.fc27.aarch64
 sigar-1.6.5-0.20.git58097d9.fc27.aarch64
 sigar-java-1.6.5-0.20.git58097d9.fc27.aarch64
 sil-abyssinica-fonts-1.200-12.fc27.noarch

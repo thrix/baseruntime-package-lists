@@ -7327,11 +7327,11 @@ shibboleth-java-support-7.1.1-5.fc27.noarch
 shiboken-1.2.4-6.fc27.x86_64
 shiboken-devel-1.2.4-6.fc27.x86_64
 shiboken-libs-1.2.4-6.fc27.x86_64
-shim-ia32-13-0.5.x86_64
+shim-ia32-13-0.7.x86_64
 shim-unsigned-0.8-1.fc22.x86_64
-shim-unsigned-ia32-13-1.fc27.x86_64
-shim-unsigned-x64-13-1.fc27.x86_64
-shim-x64-13-0.5.x86_64
+shim-unsigned-ia32-13-3.fc27.x86_64
+shim-unsigned-x64-13-3.fc27.x86_64
+shim-x64-13-0.7.x86_64
 shrinkwrap-1.2.3-4.fc27.noarch
 shrinkwrap-bom-1.2.3-4.fc27.noarch
 shrinkwrap-descriptors-2.0.0-0.19.alpha9.fc27.noarch
