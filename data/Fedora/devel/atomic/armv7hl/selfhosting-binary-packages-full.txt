@@ -251,13 +251,13 @@ authconfig-7.0.1-4.fc27.armv7hl
 auto-common-1.1-5.fc27.noarch
 auto-service-1.1-5.fc27.noarch
 auto-value-1.1-5.fc27.noarch
-autoconf-2.69-25.fc27.noarch
+autoconf-2.69-26.fc28.noarch
 autoconf-archive-2017.03.21-2.fc27.noarch
 autoconf213-2.13-38.fc27.noarch
 autogen-5.18.12-5.fc27.armv7hl
 autogen-libopts-5.18.12-5.fc27.armv7hl
 autogen-libopts-devel-5.18.12-5.fc27.armv7hl
-automake-1.15.1-2.fc27.noarch
+automake-1.15.1-3.fc28.noarch
 automoc-1.0-0.29.rc3.fc27.armv7hl
 autotrace-0.31.1-49.fc28.armv7hl
 avahi-0.7-3.fc27.armv7hl

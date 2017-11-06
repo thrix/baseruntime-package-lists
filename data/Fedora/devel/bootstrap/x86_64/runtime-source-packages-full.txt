@@ -83,10 +83,10 @@ audit-2.7.7-5.fc27.src
 augeas-1.8.1-1.fc28.src
 authconfig-7.0.1-4.fc27.src
 authselect-0.1.alpha-2.fc28.src
-autoconf-2.69-25.fc27.src
+autoconf-2.69-26.fc28.src
 autofs-1:5.1.3-4.fc27.src
 autogen-5.18.12-5.fc27.src
-automake-1.15.1-2.fc27.src
+automake-1.15.1-3.fc28.src
 avahi-0.7-3.fc27.src
 b43-openfwwf-5.2-16.fc27.src
 babel-2.3.4-6.fc27.src

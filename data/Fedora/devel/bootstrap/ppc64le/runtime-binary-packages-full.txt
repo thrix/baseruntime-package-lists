@@ -150,11 +150,11 @@ augeas-libs-1.8.1-1.fc28.ppc64le
 authconfig-7.0.1-4.fc27.ppc64le
 authselect-0.1.alpha-2.fc28.ppc64le
 authselect-libs-0.1.alpha-2.fc28.ppc64le
-autoconf-2.69-25.fc27.noarch
+autoconf-2.69-26.fc28.noarch
 autocorr-en-1:5.4.0.3-4.fc27.noarch
 autofs-1:5.1.3-4.fc27.ppc64le
 autogen-libopts-5.18.12-5.fc27.ppc64le
-automake-1.15.1-2.fc27.noarch
+automake-1.15.1-3.fc28.noarch
 avahi-0.7-3.fc27.ppc64le
 avahi-glib-0.7-3.fc27.ppc64le
 avahi-gobject-0.7-3.fc27.ppc64le
