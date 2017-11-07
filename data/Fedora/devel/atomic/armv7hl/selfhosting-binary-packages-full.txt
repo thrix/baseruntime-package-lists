@@ -3041,8 +3041,8 @@ npm-1:5.3.0-1.8.4.0.2.fc28.2.armv7hl
 npth-1.5-3.fc27.armv7hl
 npth-devel-1.5-3.fc27.armv7hl
 nscd-2.26.90-9.fc28.armv7hl
-nspr-4.16.0-1.fc27.armv7hl
-nspr-devel-4.16.0-1.fc27.armv7hl
+nspr-4.17.0-1.fc27.armv7hl
+nspr-devel-4.17.0-1.fc27.armv7hl
 nss-3.32.0-3.fc28.armv7hl
 nss-altfiles-2.18.1-10.fc27.armv7hl
 nss-devel-3.32.0-3.fc28.armv7hl

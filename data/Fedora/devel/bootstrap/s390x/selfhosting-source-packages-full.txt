@@ -521,7 +521,7 @@ felix-scr-annotations-1.12.0-2.fc27.src
 felix-scr-generator-1.16.0-2.fc27.src
 felix-shell-1.4.3-10.fc27.src
 felix-utils-1.10.0-2.fc27.src
-fence-agents-4.0.24-10.fc27.src
+fence-agents-4.0.24-13.fc28.src
 fence-virt-0.4.0-3.fc27.src
 fftw-3.3.5-7.fc27.src
 file-5.32-1.fc28.src
@@ -2267,7 +2267,7 @@ nodejs-yargs-3.2.1-7.fc27.src
 nodeunit-0.9.1-7.fc27.src
 noggit-0.7-4.fc27.src
 npth-1.5-3.fc27.src
-nspr-4.16.0-1.fc27.src
+nspr-4.17.0-1.fc27.src
 nss-3.32.0-3.fc28.src
 nss-altfiles-2.18.1-10.fc27.src
 nss-pam-ldapd-0.8.14-10.fc27.src

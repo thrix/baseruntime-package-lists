@@ -231,7 +231,7 @@ nettle-3.3-5.fc27.ppc64le
 nfs-utils-1:2.1.1-6.rc5.fc27.ppc64le
 nmap-ncat-2:7.60-8.fc28.ppc64le
 npth-1.5-3.fc27.ppc64le
-nspr-4.16.0-1.fc27.ppc64le
+nspr-4.17.0-1.fc27.ppc64le
 nss-3.32.0-3.fc28.ppc64le
 nss-altfiles-2.18.1-10.fc27.ppc64le
 nss-pem-1.0.3-5.fc27.ppc64le

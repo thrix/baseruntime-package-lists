@@ -216,7 +216,7 @@ nettle-3.3-5.fc27.s390x
 nfs-utils-1:2.1.1-6.rc5.fc27.s390x
 nmap-ncat-2:7.60-8.fc28.s390x
 npth-1.5-3.fc27.s390x
-nspr-4.16.0-1.fc27.s390x
+nspr-4.17.0-1.fc27.s390x
 nss-3.32.0-3.fc28.s390x
 nss-altfiles-2.18.1-10.fc27.s390x
 nss-pem-1.0.3-5.fc27.s390x

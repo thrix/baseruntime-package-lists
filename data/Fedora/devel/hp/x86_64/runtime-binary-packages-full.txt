@@ -323,7 +323,7 @@ ncurses-libs-6.0-13.20170722.fc27.x86_64
 nettle-3.3-5.fc27.x86_64
 nfs-utils-1:2.1.1-6.rc5.fc27.x86_64
 npth-1.5-3.fc27.x86_64
-nspr-4.16.0-1.fc27.x86_64
+nspr-4.17.0-1.fc27.x86_64
 nss-3.32.0-3.fc28.x86_64
 nss-pem-1.0.3-5.fc27.x86_64
 nss-softokn-3.32.0-4.fc27.x86_64

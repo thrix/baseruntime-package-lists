@@ -3002,8 +3002,8 @@ npm-1:5.3.0-1.8.4.0.2.fc28.2.s390x
 npth-1.5-3.fc27.s390x
 npth-devel-1.5-3.fc27.s390x
 nscd-2.26.90-9.fc28.s390x
-nspr-4.16.0-1.fc27.s390x
-nspr-devel-4.16.0-1.fc27.s390x
+nspr-4.17.0-1.fc27.s390x
+nspr-devel-4.17.0-1.fc27.s390x
 nss-3.32.0-3.fc28.s390x
 nss-altfiles-2.18.1-10.fc27.s390x
 nss-devel-3.32.0-3.fc28.s390x

@@ -1671,7 +1671,7 @@ nodejs-yargs-3.2.1-7.fc27.src
 nodeunit-0.9.1-7.fc27.src
 noggit-0.7-4.fc27.src
 npth-1.5-3.fc27.src
-nspr-4.16.0-1.fc27.src
+nspr-4.17.0-1.fc27.src
 nss-3.32.0-3.fc28.src
 nss-pem-1.0.3-5.fc27.src
 nss-softokn-3.32.0-4.fc27.src
