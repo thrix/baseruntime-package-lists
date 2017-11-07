@@ -827,6 +827,7 @@ expat
 expat-devel
 expect
 expresso
+extlinux-bootloader
 extra-cmake-modules
 extra166y
 fakechroot

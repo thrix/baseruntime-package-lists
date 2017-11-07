@@ -85,6 +85,7 @@ elfutils-libs
 emacs-filesystem
 ethtool
 expat
+extlinux-bootloader
 fbset
 fcoe-utils
 fedora-gpg-keys

@@ -41,6 +41,7 @@ ebtables
 efibootmgr
 efivar
 ethtool
+extlinux-bootloader
 fbset
 fcoe-utils
 fedora-logos

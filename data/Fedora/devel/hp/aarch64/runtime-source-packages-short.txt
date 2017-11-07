@@ -58,6 +58,7 @@ elfutils
 emacs
 ethtool
 expat
+extlinux-bootloader
 fbset
 fcoe-utils
 fedora-logos
