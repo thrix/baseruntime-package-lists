@@ -2454,10 +2454,10 @@ mallard-rng
 man-db
 man2html
 man2html-core
-mariadb
 mariadb-common
 mariadb-config
 mariadb-connector-c
+mariadb-connector-c-devel
 mariadb-devel
 mariadb-libs
 maven
@@ -4764,6 +4764,8 @@ rubygem-pdf-reader
 rubygem-pkg-config
 rubygem-power_assert
 rubygem-prawn
+rubygem-prawn-manual_builder
+rubygem-prawn-table
 rubygem-pry
 rubygem-psych
 rubygem-puma
@@ -4784,6 +4786,7 @@ rubygem-rdoc
 rubygem-redcarpet
 rubygem-redis
 rubygem-ronn
+rubygem-rouge
 rubygem-rr
 rubygem-rspec
 rubygem-rspec-core

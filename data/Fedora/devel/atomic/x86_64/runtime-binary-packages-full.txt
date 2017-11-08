@@ -311,13 +311,13 @@ python2-ply-3.9-5.fc28.noarch
 python2-policycoreutils-2.7-3.fc28.x86_64
 python2-pyOpenSSL-17.3.0-2.fc28.noarch
 python2-pycparser-2.14-12.fc28.noarch
-python2-pysocks-1.5.7-5.fc27.noarch
+python2-pysocks-1.6.7-1.fc27.noarch
 python2-requests-2.18.4-1.fc28.noarch
 python2-setools-4.1.1-4.fc28.x86_64
 python2-setuptools-36.2.0-7.fc28.noarch
 python2-six-1.10.0-11.fc28.noarch
 python2-urllib3-1.22-2.fc27.noarch
-python3-3.6.2-11.fc27.x86_64
+python3-3.6.2-13.fc27.x86_64
 python3-IPy-0.81-20.fc27.noarch
 python3-PyYAML-3.12-8.fc28.x86_64
 python3-asn1crypto-0.22.0-4.fc27.noarch
@@ -335,8 +335,8 @@ python3-idna-2.5-2.fc27.noarch
 python3-jinja2-2.9.6-4.fc28.noarch
 python3-jsonpatch-1.14-5.fc28.noarch
 python3-jsonpointer-1.10-8.fc28.noarch
-python3-jwt-1.5.2-3.fc27.noarch
-python3-libs-3.6.2-11.fc27.x86_64
+python3-jwt-1.5.3-1.fc27.noarch
+python3-libs-3.6.2-13.fc27.x86_64
 python3-libselinux-2.7-4.fc28.x86_64
 python3-libsemanage-2.7-3.fc28.x86_64
 python3-libxml2-2.9.5-1.fc28.x86_64
@@ -348,7 +348,7 @@ python3-prettytable-0.7.2-12.fc28.noarch
 python3-pyOpenSSL-17.3.0-2.fc28.noarch
 python3-pycparser-2.14-12.fc28.noarch
 python3-pyserial-3.1.1-5.fc28.noarch
-python3-pysocks-1.5.7-5.fc27.noarch
+python3-pysocks-1.6.7-1.fc27.noarch
 python3-requests-2.18.4-1.fc28.noarch
 python3-rpm-4.14.0-2.fc28.x86_64
 python3-setools-4.1.1-4.fc28.x86_64

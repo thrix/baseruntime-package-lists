@@ -261,7 +261,7 @@ python-rpm-macros-3-22.fc27.src
 python-setuptools-36.2.0-7.fc28.src
 python-six-1.10.0-11.fc28.src
 python-smartcols-0.3.0-1.fc28.src
-python3-3.6.2-11.fc27.src
+python3-3.6.2-13.fc27.src
 qrencode-3.4.4-3.fc27.src
 qt5-5.9.1-2.fc27.src
 quota-1:4.03-9.fc27.src

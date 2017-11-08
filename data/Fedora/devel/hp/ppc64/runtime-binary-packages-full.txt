@@ -352,7 +352,7 @@ psmisc-23.1-2.fc27.ppc64
 publicsuffix-list-20170828-1.fc28.noarch
 publicsuffix-list-dafsa-20170828-1.fc28.noarch
 python-srpm-macros-3-22.fc27.noarch
-python3-3.6.2-11.fc27.ppc64
+python3-3.6.2-13.fc27.ppc64
 python3-IPy-0.81-20.fc27.noarch
 python3-PyYAML-3.12-8.fc28.ppc64
 python3-dateutil-1:2.6.0-4.fc27.noarch
@@ -362,7 +362,7 @@ python3-hawkey-0.11.1-1.fc28.ppc64
 python3-iniparse-0.4-26.fc28.noarch
 python3-libcomps-0.1.8-6.fc28.ppc64
 python3-librepo-1.8.0-1.fc28.ppc64
-python3-libs-3.6.2-11.fc27.ppc64
+python3-libs-3.6.2-13.fc27.ppc64
 python3-libselinux-2.7-4.fc28.ppc64
 python3-libsemanage-2.7-3.fc28.ppc64
 python3-modulemd-1.3.0-1.fc28.noarch

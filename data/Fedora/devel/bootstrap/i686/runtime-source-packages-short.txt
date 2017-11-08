@@ -1583,7 +1583,6 @@ python-coverage
 python-cpio
 python-crypto
 python-cryptography
-python-cssselect
 python-cups
 python-cycler
 python-dateutil
@@ -1601,7 +1600,6 @@ python-ethtool
 python-functools32
 python-futures
 python-gssapi
-python-html5lib
 python-idna
 python-iniparse
 python-ipaddr
@@ -1681,7 +1679,6 @@ python-unidecode
 python-urlgrabber
 python-urllib3
 python-urwid
-python-webencodings
 python-websocket-client
 python-wrapt
 python-xpyb

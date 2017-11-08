@@ -1168,6 +1168,7 @@ mallard-rng
 man-db
 man2html
 mariadb
+mariadb-connector-c
 maven
 maven-antrun-plugin
 maven-archiver
@@ -2827,6 +2828,8 @@ rubygem-pdf-inspector
 rubygem-pdf-reader
 rubygem-pkg-config
 rubygem-prawn
+rubygem-prawn-manual_builder
+rubygem-prawn-table
 rubygem-pry
 rubygem-puma
 rubygem-rack
@@ -2844,6 +2847,7 @@ rubygem-rdiscount
 rubygem-redcarpet
 rubygem-redis
 rubygem-ronn
+rubygem-rouge
 rubygem-rr
 rubygem-rspec
 rubygem-rspec-core

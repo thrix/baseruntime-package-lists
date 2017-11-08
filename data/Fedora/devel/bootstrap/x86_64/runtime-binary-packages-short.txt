@@ -2897,7 +2897,6 @@ python2-createrepo_c
 python2-crypto
 python2-cryptography
 python2-cryptsetup
-python2-cssselect
 python2-custodia
 python2-custodia-extra
 python2-cycler
@@ -2932,7 +2931,6 @@ python2-graphviz
 python2-gssapi
 python2-hawkey
 python2-hivex
-python2-html5lib
 python2-i2c-tools
 python2-idna
 python2-iniparse
@@ -3044,7 +3042,6 @@ python2-typing
 python2-unidecode
 python2-urlgrabber
 python2-urllib3
-python2-webencodings
 python2-xpyb
 python2-yubico
 python2-zope-event
@@ -3073,7 +3070,6 @@ python3-coverage
 python3-createrepo_c
 python3-crypto
 python3-cryptography
-python3-cssselect
 python3-cups
 python3-custodia
 python3-custodia-extra
@@ -3107,7 +3103,6 @@ python3-gpg
 python3-gssapi
 python3-hawkey
 python3-hivex
-python3-html5lib
 python3-idna
 python3-iniparse
 python3-ipaclient
@@ -3233,7 +3228,6 @@ python3-tkinter
 python3-tracer
 python3-urllib3
 python3-urwid
-python3-webencodings
 python3-websocket-client
 python3-wrapt
 python3-yubico
