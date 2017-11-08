@@ -1696,7 +1696,7 @@ nspr-4.17.0-1.fc27.src
 nss-3.32.0-3.fc28.src
 nss-altfiles-2.18.1-10.fc27.src
 nss-pem-1.0.3-5.fc27.src
-nss-softokn-3.32.0-4.fc27.src
+nss-softokn-3.33.0-1.0.fc27.src
 nss-util-3.33.0-2.fc28.src
 nss_wrapper-1.1.3-3.fc27.src
 ntfs-3g-2:2017.3.23-3.fc27.src
@@ -3050,7 +3050,7 @@ spec-version-maven-plugin-1.2-10.fc27.src
 speech-dispatcher-0.8.7-3.fc27.src
 speex-1.2-0.26.rc2.fc26.src
 speexdsp-1.2-0.12.rc3.fc27.src
-spice-0.13.90-2.fc27.src
+spice-0.14.0-2.fc28.src
 spice-parent-26-7.fc27.src
 spice-protocol-0.12.13-2.fc27.src
 spock-0.7-0.17.groovy.2.0.fc27.src

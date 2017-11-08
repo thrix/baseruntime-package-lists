@@ -166,7 +166,7 @@ nspr-4.17.0-1.fc27.src
 nss-3.32.0-3.fc28.src
 nss-altfiles-2.18.1-10.fc27.src
 nss-pem-1.0.3-5.fc27.src
-nss-softokn-3.32.0-4.fc27.src
+nss-softokn-3.33.0-1.0.fc27.src
 nss-util-3.33.0-2.fc28.src
 oci-register-machine-0-5.10.gitcbf1b8f.fc27.src
 oci-systemd-hook-1:0.1.13-1.gitafe4b4a.fc27.src

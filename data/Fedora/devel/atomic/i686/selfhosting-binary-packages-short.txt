@@ -4181,7 +4181,6 @@ pygtk2-codegen
 pygtk2-devel
 pygtk2-doc
 pyliblzma
-pyparsing
 python-backports-ssl_match_hostname
 python-docker-py
 python-keyczar
@@ -4319,7 +4318,6 @@ python2-pycparser
 python2-pycurl
 python2-pygments
 python2-pygpgme
-python2-pyparsing
 python2-pyquery
 python2-pyserial
 python2-pysocks

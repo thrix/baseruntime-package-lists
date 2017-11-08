@@ -3115,10 +3115,10 @@ nss-altfiles-2.18.1-10.fc27.x86_64
 nss-devel-3.32.0-3.fc28.x86_64
 nss-pem-1.0.3-5.fc27.x86_64
 nss-pkcs11-devel-3.32.0-3.fc28.x86_64
-nss-softokn-3.32.0-4.fc27.x86_64
-nss-softokn-devel-3.32.0-4.fc27.x86_64
-nss-softokn-freebl-3.32.0-4.fc27.x86_64
-nss-softokn-freebl-devel-3.32.0-4.fc27.x86_64
+nss-softokn-3.33.0-1.0.fc27.x86_64
+nss-softokn-devel-3.33.0-1.0.fc27.x86_64
+nss-softokn-freebl-3.33.0-1.0.fc27.x86_64
+nss-softokn-freebl-devel-3.33.0-1.0.fc27.x86_64
 nss-sysinit-3.32.0-3.fc28.x86_64
 nss-tools-3.32.0-3.fc28.x86_64
 nss-util-3.33.0-2.fc28.x86_64
@@ -4198,7 +4198,6 @@ pygtk2-codegen-2.24.0-18.fc27.x86_64
 pygtk2-devel-2.24.0-18.fc27.x86_64
 pygtk2-doc-2.24.0-18.fc27.noarch
 pyliblzma-0.5.3-19.fc27.x86_64
-pyparsing-2.1.10-4.fc27.noarch
 python-backports-ssl_match_hostname-3.5.0.1-5.fc27.noarch
 python-docker-py-1:1.10.6-5.fc27.noarch
 python-keyczar-0.71c-9.fc27.noarch
@@ -4336,7 +4335,6 @@ python2-pycparser-2.14-12.fc28.noarch
 python2-pycurl-7.43.0-9.fc27.x86_64
 python2-pygments-2.2.0-9.fc28.noarch
 python2-pygpgme-0.3-25.fc27.x86_64
-python2-pyparsing-2.1.10-4.fc27.noarch
 python2-pyquery-1.2.17-7.fc28.noarch
 python2-pyserial-3.1.1-5.fc28.noarch
 python2-pysocks-1.6.7-1.fc27.noarch
@@ -5083,8 +5081,8 @@ speexdsp-1.2-0.12.rc3.fc27.x86_64
 speexdsp-devel-1.2-0.12.rc3.fc27.x86_64
 spice-parent-26-7.fc27.noarch
 spice-protocol-0.12.13-2.fc27.noarch
-spice-server-0.13.90-2.fc27.x86_64
-spice-server-devel-0.13.90-2.fc27.x86_64
+spice-server-0.14.0-2.fc28.x86_64
+spice-server-devel-0.14.0-2.fc28.x86_64
 spock-core-0.7-0.17.groovy.2.0.fc27.noarch
 spring-ldap-1.3.1-16.fc27.noarch
 springframework-3.2.18-3.fc27.noarch

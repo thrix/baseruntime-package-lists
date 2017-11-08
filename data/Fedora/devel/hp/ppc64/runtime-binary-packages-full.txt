@@ -310,8 +310,8 @@ npth-1.5-3.fc27.ppc64
 nspr-4.17.0-1.fc27.ppc64
 nss-3.32.0-3.fc28.ppc64
 nss-pem-1.0.3-5.fc27.ppc64
-nss-softokn-3.32.0-4.fc27.ppc64
-nss-softokn-freebl-3.32.0-4.fc27.ppc64
+nss-softokn-3.33.0-1.0.fc27.ppc64
+nss-softokn-freebl-3.33.0-1.0.fc27.ppc64
 nss-sysinit-3.32.0-3.fc28.ppc64
 nss-util-3.33.0-2.fc28.ppc64
 ocaml-srpm-macros-5-2.fc27.noarch

@@ -19,6 +19,7 @@ freeipa
 fwupd
 gcc
 gdb
+gegl03
 ghc-digest
 ghc-zlib
 glibc32
@@ -42,6 +43,7 @@ libfabric
 libguestfs
 libvirt
 meson
+opencv
 openmpi
 openvswitch
 papi
@@ -58,4 +60,5 @@ systemtap
 tigervnc
 uboot-tools
 valgrind
+xorg-x11-drv-qxl
 xorg-x11-server
