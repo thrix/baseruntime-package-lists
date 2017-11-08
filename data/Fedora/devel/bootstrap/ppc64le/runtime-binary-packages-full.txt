@@ -2302,8 +2302,8 @@ nss-softokn-freebl-3.32.0-4.fc27.ppc64le
 nss-softokn-freebl-devel-3.32.0-4.fc27.ppc64le
 nss-sysinit-3.32.0-3.fc28.ppc64le
 nss-tools-3.32.0-3.fc28.ppc64le
-nss-util-3.32.0-2.fc27.ppc64le
-nss-util-devel-3.32.0-2.fc27.ppc64le
+nss-util-3.33.0-2.fc28.ppc64le
+nss-util-devel-3.33.0-2.fc28.ppc64le
 nss_nis-2.26.90-9.fc28.ppc64le
 ntfs-3g-2:2017.3.23-3.fc27.ppc64le
 ntfsprogs-2:2017.3.23-3.fc27.ppc64le

@@ -223,7 +223,7 @@ nss-pem-1.0.3-5.fc27.s390x
 nss-softokn-3.32.0-4.fc27.s390x
 nss-softokn-freebl-3.32.0-4.fc27.s390x
 nss-sysinit-3.32.0-3.fc28.s390x
-nss-util-3.32.0-2.fc27.s390x
+nss-util-3.33.0-2.fc28.s390x
 oci-register-machine-0-5.10.gitcbf1b8f.fc27.s390x
 oci-systemd-hook-1:0.1.13-1.gitafe4b4a.fc27.s390x
 oci-umount-2:2.0.0-2.gitf90b64c.fc28.s390x

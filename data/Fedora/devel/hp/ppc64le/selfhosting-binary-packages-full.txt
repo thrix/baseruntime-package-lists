@@ -495,9 +495,9 @@ chkconfig-1.10-3.fc27.ppc64le
 chrpath-0.16-6.fc27.ppc64le
 cifs-utils-6.7-3.fc27.ppc64le
 cifs-utils-devel-6.7-3.fc27.ppc64le
-clang-4.0.1-4.fc27.ppc64le
-clang-devel-4.0.1-4.fc27.ppc64le
-clang-libs-4.0.1-4.fc27.ppc64le
+clang-4.0.1-7.fc27.ppc64le
+clang-devel-4.0.1-7.fc27.ppc64le
+clang-libs-4.0.1-7.fc27.ppc64le
 classloader-leak-test-framework-1.1.1-3.fc27.noarch
 classmate-1.3.1-3.fc27.noarch
 cldr-emoji-annotation-31.0.1_1-2.fc27.noarch
@@ -3040,8 +3040,8 @@ nss-softokn-freebl-3.32.0-4.fc27.ppc64le
 nss-softokn-freebl-devel-3.32.0-4.fc27.ppc64le
 nss-sysinit-3.32.0-3.fc28.ppc64le
 nss-tools-3.32.0-3.fc28.ppc64le
-nss-util-3.32.0-2.fc27.ppc64le
-nss-util-devel-3.32.0-2.fc27.ppc64le
+nss-util-3.33.0-2.fc28.ppc64le
+nss-util-devel-3.33.0-2.fc28.ppc64le
 nss_wrapper-1.1.3-3.fc27.ppc64le
 ntfs-3g-2:2017.3.23-3.fc27.ppc64le
 ntfsprogs-2:2017.3.23-3.fc27.ppc64le

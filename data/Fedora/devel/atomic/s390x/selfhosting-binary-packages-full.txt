@@ -491,9 +491,9 @@ chrony-3.2-0.3.pre1.fc27.s390x
 chrpath-0.16-6.fc27.s390x
 cifs-utils-6.7-3.fc27.s390x
 cifs-utils-devel-6.7-3.fc27.s390x
-clang-4.0.1-4.fc27.s390x
-clang-devel-4.0.1-4.fc27.s390x
-clang-libs-4.0.1-4.fc27.s390x
+clang-4.0.1-7.fc27.s390x
+clang-devel-4.0.1-7.fc27.s390x
+clang-libs-4.0.1-7.fc27.s390x
 classloader-leak-test-framework-1.1.1-3.fc27.noarch
 classmate-1.3.1-3.fc27.noarch
 cldr-emoji-annotation-31.0.1_1-2.fc27.noarch
@@ -3015,8 +3015,8 @@ nss-softokn-freebl-3.32.0-4.fc27.s390x
 nss-softokn-freebl-devel-3.32.0-4.fc27.s390x
 nss-sysinit-3.32.0-3.fc28.s390x
 nss-tools-3.32.0-3.fc28.s390x
-nss-util-3.32.0-2.fc27.s390x
-nss-util-devel-3.32.0-2.fc27.s390x
+nss-util-3.33.0-2.fc28.s390x
+nss-util-devel-3.33.0-2.fc28.s390x
 nss_wrapper-1.1.3-3.fc27.s390x
 ntfs-3g-2:2017.3.23-3.fc27.s390x
 ntfsprogs-2:2017.3.23-3.fc27.s390x

@@ -2257,8 +2257,8 @@ nss-softokn-freebl-3.32.0-4.fc27.s390x
 nss-softokn-freebl-devel-3.32.0-4.fc27.s390x
 nss-sysinit-3.32.0-3.fc28.s390x
 nss-tools-3.32.0-3.fc28.s390x
-nss-util-3.32.0-2.fc27.s390x
-nss-util-devel-3.32.0-2.fc27.s390x
+nss-util-3.33.0-2.fc28.s390x
+nss-util-devel-3.33.0-2.fc28.s390x
 nss_nis-2.26.90-9.fc28.s390x
 ntfs-3g-2:2017.3.23-3.fc27.s390x
 ntfsprogs-2:2017.3.23-3.fc27.s390x

@@ -2373,8 +2373,8 @@ nss-softokn-freebl-3.32.0-4.fc27.x86_64
 nss-softokn-freebl-devel-3.32.0-4.fc27.x86_64
 nss-sysinit-3.32.0-3.fc28.x86_64
 nss-tools-3.32.0-3.fc28.x86_64
-nss-util-3.32.0-2.fc27.x86_64
-nss-util-devel-3.32.0-2.fc27.x86_64
+nss-util-3.33.0-2.fc28.x86_64
+nss-util-devel-3.33.0-2.fc28.x86_64
 nss_nis-2.26.90-9.fc28.x86_64
 ntfs-3g-2:2017.3.23-3.fc27.x86_64
 ntfsprogs-2:2017.3.23-3.fc27.x86_64

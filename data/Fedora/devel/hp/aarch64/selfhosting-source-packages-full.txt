@@ -217,7 +217,7 @@ chkconfig-1.10-3.fc27.src
 chromaprint-1.2-8.fc27.src
 chrpath-0.16-6.fc27.src
 cifs-utils-6.7-3.fc27.src
-clang-4.0.1-4.fc27.src
+clang-4.0.1-7.fc27.src
 classloader-leak-test-framework-1.1.1-3.fc27.src
 classmate-1.3.1-3.fc27.src
 cldr-emoji-annotation-31.0.1_1-2.fc27.src
@@ -1660,7 +1660,7 @@ nspr-4.17.0-1.fc27.src
 nss-3.32.0-3.fc28.src
 nss-pem-1.0.3-5.fc27.src
 nss-softokn-3.32.0-4.fc27.src
-nss-util-3.32.0-2.fc27.src
+nss-util-3.33.0-2.fc28.src
 nss_wrapper-1.1.3-3.fc27.src
 ntfs-3g-2:2017.3.23-3.fc27.src
 numactl-2.0.11-5.fc27.src

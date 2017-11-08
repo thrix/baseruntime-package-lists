@@ -1255,7 +1255,7 @@ nss-altfiles-2.18.1-10.fc27.src
 nss-pam-ldapd-0.8.14-10.fc27.src
 nss-pem-1.0.3-5.fc27.src
 nss-softokn-3.32.0-4.fc27.src
-nss-util-3.32.0-2.fc27.src
+nss-util-3.33.0-2.fc28.src
 ntfs-3g-2:2017.3.23-3.fc27.src
 ntp-4.2.8p10-3.fc27.src
 numactl-2.0.11-5.fc27.src
