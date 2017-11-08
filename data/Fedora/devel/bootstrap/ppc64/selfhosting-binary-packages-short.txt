@@ -6408,7 +6408,6 @@ pygtk2-codegen
 pygtk2-devel
 pygtk2-doc
 pygtk2-libglade
-pykickstart
 pyliblzma
 pylint
 pyorbit
@@ -6749,7 +6748,6 @@ python2-simplegeneric
 python2-simplejson
 python2-singledispatch
 python2-six
-python2-slip
 python2-smartcols
 python2-snowballstemmer
 python2-socketpool
@@ -8020,11 +8018,6 @@ swt-chart
 symlinks
 sysfsutils
 sysstat
-system-config-date
-system-config-keyboard
-system-config-keyboard-base
-system-config-kickstart
-system-config-language
 system-config-printer
 system-config-printer-libs
 system-config-printer-udev
@@ -9428,7 +9421,6 @@ traceroute
 tracker
 tracker-devel
 transfig
-transifex-client
 tre
 tre-common
 tre-devel

@@ -3395,7 +3395,6 @@ pycryptopp
 pygobject2
 pygtk2
 pygtk2-libglade
-pykickstart
 pyliblzma
 pyorbit
 pyparsing
@@ -3601,7 +3600,6 @@ python2-setproctitle
 python2-setuptools
 python2-simplejson
 python2-six
-python2-slip
 python2-smartcols
 python2-sss
 python2-sss-murmur
@@ -4334,11 +4332,6 @@ swig-doc
 switcheroo-control
 sysfsutils
 sysstat
-system-config-date
-system-config-keyboard
-system-config-keyboard-base
-system-config-kickstart
-system-config-language
 system-config-printer
 system-config-printer-libs
 system-config-printer-udev

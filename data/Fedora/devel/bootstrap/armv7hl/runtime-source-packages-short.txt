@@ -2272,10 +2272,6 @@ swig
 switcheroo-control
 sysfsutils
 sysstat
-system-config-date
-system-config-keyboard
-system-config-kickstart
-system-config-language
 system-config-printer
 system-storage-manager
 systemd

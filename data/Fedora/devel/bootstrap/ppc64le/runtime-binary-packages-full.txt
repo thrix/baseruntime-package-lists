@@ -3457,7 +3457,6 @@ pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.fc27.ppc64
 pygobject2-2.28.6-19.fc27.ppc64le
 pygtk2-2.24.0-18.fc27.ppc64le
 pygtk2-libglade-2.24.0-18.fc27.ppc64le
-pykickstart-2.37-2.fc28.noarch
 pyliblzma-0.5.3-19.fc27.ppc64le
 pyorbit-2.24.0-24.fc27.ppc64le
 pyparsing-2.1.10-4.fc27.noarch
@@ -3663,7 +3662,6 @@ python2-setproctitle-1.1.10-4.fc28.ppc64le
 python2-setuptools-36.2.0-7.fc28.noarch
 python2-simplejson-3.10.0-5.fc27.ppc64le
 python2-six-1.10.0-11.fc28.noarch
-python2-slip-0.6.4-8.fc28.noarch
 python2-smartcols-0.3.0-1.fc28.ppc64le
 python2-sss-1.15.3-2.fc27.ppc64le
 python2-sss-murmur-1.15.3-2.fc27.ppc64le
@@ -4402,11 +4400,6 @@ swig-doc-3.0.12-8.fc27.noarch
 switcheroo-control-1.1-4.fc27.ppc64le
 sysfsutils-2.1.0-22.fc27.ppc64le
 sysstat-11.5.7-4.fc27.ppc64le
-system-config-date-1.10.9-3.fc25.noarch
-system-config-keyboard-1.4.0-12.fc27.noarch
-system-config-keyboard-base-1.4.0-12.fc27.noarch
-system-config-kickstart-2.9.3-5.fc27.noarch
-system-config-language-3.4.2-3.fc27.noarch
 system-config-printer-1.5.9-7.fc28.ppc64le
 system-config-printer-libs-1.5.9-7.fc28.noarch
 system-config-printer-udev-1.5.9-7.fc28.ppc64le

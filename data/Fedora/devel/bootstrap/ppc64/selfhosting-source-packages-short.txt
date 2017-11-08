@@ -4281,10 +4281,6 @@ swt-chart
 symlinks
 sysfsutils
 sysstat
-system-config-date
-system-config-keyboard
-system-config-kickstart
-system-config-language
 system-config-printer
 system-storage-manager
 systemd
@@ -4350,7 +4346,6 @@ tracer
 traceroute
 tracker
 transfig
-transifex-client
 tre
 tree
 treelayout

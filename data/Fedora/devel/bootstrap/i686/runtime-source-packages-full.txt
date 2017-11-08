@@ -2301,10 +2301,6 @@ switcheroo-control-1.1-4.fc27.src
 sysfsutils-2.1.0-22.fc27.src
 syslinux-6.04-0.5.fc27.src
 sysstat-11.5.7-4.fc27.src
-system-config-date-1.10.9-3.fc25.src
-system-config-keyboard-1.4.0-12.fc27.src
-system-config-kickstart-2.9.3-5.fc27.src
-system-config-language-3.4.2-3.fc27.src
 system-config-printer-1.5.9-7.fc28.src
 system-storage-manager-0.4-14.fc27.src
 systemd-234-6.fc28.src

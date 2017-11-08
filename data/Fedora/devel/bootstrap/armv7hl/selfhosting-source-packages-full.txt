@@ -4383,10 +4383,6 @@ swt-chart-0.10.0-3.fc27.src
 symlinks-1.4-16.fc27.src
 sysfsutils-2.1.0-22.fc27.src
 sysstat-11.5.7-4.fc27.src
-system-config-date-1.10.9-3.fc25.src
-system-config-keyboard-1.4.0-12.fc27.src
-system-config-kickstart-2.9.3-5.fc27.src
-system-config-language-3.4.2-3.fc27.src
 system-config-printer-1.5.9-7.fc28.src
 system-storage-manager-0.4-14.fc27.src
 systemd-234-6.fc28.src
@@ -4452,7 +4448,6 @@ tracer-0.6.13-2.fc27.src
 traceroute-3:2.1.0-5.fc27.src
 tracker-1.99.1-2.fc27.src
 transfig-1:3.2.6-5.fc27.src
-transifex-client-0.10-8.fc27.src
 tre-0.8.0-21.20140228gitc2f5d13.fc27.src
 tree-1.7.0-11.fc27.src
 treelayout-1.0.3-5.fc27.src
